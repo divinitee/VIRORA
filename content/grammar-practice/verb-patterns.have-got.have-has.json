@@ -1,0 +1,1810 @@
+[
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ a new {thing}, {name}.",
+  "options": [
+   "have",
+   "has",
+   "having",
+   "am have"
+  ],
+  "key": 0,
+  "why": "With I, use have: I have …",
+  "slots": {
+   "thing": [
+    "phone",
+    "bag",
+    "bike",
+    "watch"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} ______ a small {pet}.",
+  "options": [
+   "have",
+   "having",
+   "is have",
+   "has"
+  ],
+  "key": 3,
+  "why": "With he, she, it or one person or thing, use has.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "pet": [
+    "dog",
+    "cat",
+    "parrot",
+    "rabbit"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We ______ a big {room} in our {home}.",
+  "options": [
+   "having",
+   "are have",
+   "have",
+   "has"
+  ],
+  "key": 2,
+  "why": "With we, use have: we have …",
+  "slots": {
+   "room": [
+    "kitchen",
+    "balcony",
+    "living room",
+    "bathroom"
+   ],
+   "home": [
+    "flat",
+    "house",
+    "new flat",
+    "new house"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {who} ______ a garden with {fruit} trees.",
+  "options": [
+   "is have",
+   "has",
+   "have",
+   "having"
+  ],
+  "key": 1,
+  "why": "With he, she, it or one person or thing, use has.",
+  "slots": {
+   "who": [
+    "grandma",
+    "grandpa",
+    "aunt",
+    "uncle"
+   ],
+   "fruit": [
+    "apple",
+    "cherry",
+    "apricot",
+    "peach"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {who} ______ {n} cats.",
+  "options": [
+   "have",
+   "has",
+   "having",
+   "are have"
+  ],
+  "key": 0,
+  "why": "With they or more than one person or thing, use have.",
+  "slots": {
+   "who": [
+    "cousins",
+    "neighbours",
+    "grandparents",
+    "aunts"
+   ],
+   "n": [
+    "two",
+    "three",
+    "four",
+    "five"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our {home} ______ {n} bedrooms.",
+  "options": [
+   "have",
+   "having",
+   "is have",
+   "has"
+  ],
+  "key": 3,
+  "why": "With he, she, it or one person or thing, use has.",
+  "slots": {
+   "home": [
+    "flat",
+    "house",
+    "new flat",
+    "new house"
+   ],
+   "n": [
+    "two",
+    "three",
+    "four",
+    "five"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You ______ a nice {thing}, {name}!",
+  "options": [
+   "having",
+   "are have",
+   "have",
+   "has"
+  ],
+  "key": 2,
+  "why": "With you, use have: you have …",
+  "slots": {
+   "thing": [
+    "jacket",
+    "bag",
+    "room",
+    "bike"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My brother ______ a {thing} in his {room}.",
+  "options": [
+   "is have",
+   "has",
+   "have",
+   "having"
+  ],
+  "key": 1,
+  "why": "With he, she, it or one person or thing, use has.",
+  "slots": {
+   "thing": [
+    "computer",
+    "guitar",
+    "TV",
+    "desk"
+   ],
+   "room": [
+    "room",
+    "bedroom",
+    "flat",
+    "house"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "They ______ a house near the {place} in {city}.",
+  "options": [
+   "have",
+   "has",
+   "having",
+   "are have"
+  ],
+  "key": 0,
+  "why": "With they or more than one person or thing, use have.",
+  "slots": {
+   "place": [
+    "river",
+    "park",
+    "bazaar",
+    "station"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Tashkent",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} ______ long hair and {colour} eyes.",
+  "options": [
+   "have",
+   "having",
+   "is have",
+   "has"
+  ],
+  "key": 3,
+  "why": "With he, she, it or one person or thing, use has.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "colour": [
+    "brown",
+    "green",
+    "blue",
+    "dark"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {who} ______ a {color} car.",
+  "options": [
+   "having",
+   "are have",
+   "have",
+   "has"
+  ],
+  "key": 2,
+  "why": "With they or more than one person or thing, use have.",
+  "slots": {
+   "who": [
+    "parents",
+    "grandparents",
+    "neighbours",
+    "cousins"
+   ],
+   "color": [
+    "white",
+    "red",
+    "blue",
+    "black"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our {school} ______ a big {place}.",
+  "options": [
+   "is have",
+   "has",
+   "have",
+   "having"
+  ],
+  "key": 1,
+  "why": "With he, she, it or one person or thing, use has.",
+  "slots": {
+   "school": [
+    "school",
+    "college",
+    "new school",
+    "old school"
+   ],
+   "place": [
+    "library",
+    "gym",
+    "garden",
+    "canteen"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ {n} brothers and a {age} sister.",
+  "options": [
+   "have",
+   "has",
+   "having",
+   "am have"
+  ],
+  "key": 0,
+  "why": "With I, use have: I have …",
+  "slots": {
+   "n": [
+    "two",
+    "three",
+    "four",
+    "five"
+   ],
+   "age": [
+    "little",
+    "big",
+    "baby",
+    "younger"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {pet} ______ a little bed by the {place}.",
+  "options": [
+   "have",
+   "having",
+   "is have",
+   "has"
+  ],
+  "key": 3,
+  "why": "With he, she, it or one person or thing, use has.",
+  "slots": {
+   "pet": [
+    "cat",
+    "dog",
+    "puppy",
+    "kitten"
+   ],
+   "place": [
+    "window",
+    "door",
+    "sofa",
+    "heater"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{pair} ______ a new {pet}.",
+  "options": [
+   "having",
+   "are have",
+   "have",
+   "has"
+  ],
+  "key": 2,
+  "why": "With they or more than one person or thing, use have.",
+  "slots": {
+   "pair": [
+    "Aziz and Lola",
+    "Timur and Olga",
+    "My aunt and uncle",
+    "My cousins"
+   ],
+   "pet": [
+    "puppy",
+    "kitten",
+    "parrot",
+    "rabbit"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our {who} ______ a shop in {city}.",
+  "options": [
+   "is have",
+   "has",
+   "have",
+   "having"
+  ],
+  "key": 1,
+  "why": "With he, she, it or one person or thing, use has.",
+  "slots": {
+   "who": [
+    "uncle",
+    "aunt",
+    "cousin",
+    "neighbour"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Tashkent",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We ______ a lot of {thing} at home, {name}.",
+  "options": [
+   "have",
+   "has",
+   "having",
+   "are have"
+  ],
+  "key": 0,
+  "why": "With we, use have: we have …",
+  "slots": {
+   "thing": [
+    "books",
+    "plants",
+    "photos",
+    "toys"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} ______ a cold, so he is at home {when}.",
+  "options": [
+   "have",
+   "having",
+   "is have",
+   "has"
+  ],
+  "key": 3,
+  "why": "With he, she, it or one person or thing, use has.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Rustam"
+   ],
+   "when": [
+    "today",
+    "this morning",
+    "again",
+    "this week"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our {who} ______ a {thing} in their garden.",
+  "options": [
+   "having",
+   "are have",
+   "have",
+   "has"
+  ],
+  "key": 2,
+  "why": "With they or more than one person or thing, use have.",
+  "slots": {
+   "who": [
+    "friends",
+    "neighbours",
+    "grandparents",
+    "cousins"
+   ],
+   "thing": [
+    "big table",
+    "swing",
+    "small pool",
+    "tree house"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This {room} ______ two {thing}.",
+  "options": [
+   "is have",
+   "has",
+   "have",
+   "having"
+  ],
+  "key": 1,
+  "why": "With he, she, it or one person or thing, use has.",
+  "slots": {
+   "room": [
+    "room",
+    "classroom",
+    "bedroom",
+    "kitchen"
+   ],
+   "thing": [
+    "windows",
+    "doors",
+    "lamps",
+    "clocks"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write have or has.",
+  "source": "My {who} ______ a new {thing}.",
+  "key": "has",
+  "why": "With he, she, it or one person or thing, use has.",
+  "slots": {
+   "who": [
+    "sister",
+    "brother",
+    "cousin",
+    "friend"
+   ],
+   "thing": [
+    "laptop",
+    "phone",
+    "bike",
+    "watch"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write have or has.",
+  "source": "I ______ got a {pet} called {pn}.",
+  "key": "have",
+  "why": "With I, you, we, they and more than one person or thing, use have.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "parrot",
+    "rabbit"
+   ],
+   "pn": [
+    "Bars",
+    "Max",
+    "Luna",
+    "Snow"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write have or has.",
+  "source": "{name} ______ a big family in {city}.",
+  "key": "has",
+  "why": "With he, she, it or one person or thing, use has.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Tashkent",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write have or has.",
+  "source": "We ______ got two {thing} in our {room}.",
+  "key": "have",
+  "why": "With I, you, we, they and more than one person or thing, use have.",
+  "slots": {
+   "thing": [
+    "lamps",
+    "carpets",
+    "TVs",
+    "clocks"
+   ],
+   "room": [
+    "living room",
+    "flat",
+    "house",
+    "bedroom"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write have or has.",
+  "source": "Our {subj} teacher ______ a {color} car.",
+  "key": "has",
+  "why": "With he, she, it or one person or thing, use has.",
+  "slots": {
+   "subj": [
+    "English",
+    "maths",
+    "art",
+    "music"
+   ],
+   "color": [
+    "white",
+    "red",
+    "blue",
+    "black"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write have or has.",
+  "source": "They ______ a flat on the {floor} floor near the {place}.",
+  "key": "have",
+  "why": "With I, you, we, they and more than one person or thing, use have.",
+  "slots": {
+   "floor": [
+    "second",
+    "third",
+    "fifth",
+    "top"
+   ],
+   "place": [
+    "park",
+    "bazaar",
+    "station",
+    "river"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write have or has.",
+  "source": "My dad ______ got a {thing} in the {place}.",
+  "key": "has",
+  "why": "With he, she, it or one person or thing, use has.",
+  "slots": {
+   "thing": [
+    "bike",
+    "car",
+    "motorbike",
+    "toolbox"
+   ],
+   "place": [
+    "garage",
+    "yard",
+    "garden",
+    "village"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write have or has.",
+  "source": "You ______ a lot of {thing}, {name}!",
+  "key": "have",
+  "why": "With I, you, we, they and more than one person or thing, use have.",
+  "slots": {
+   "thing": [
+    "books",
+    "friends",
+    "toys",
+    "plants"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write have or has.",
+  "source": "The {room} ______ a big {thing}.",
+  "key": "has",
+  "why": "With he, she, it or one person or thing, use has.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "living room",
+    "classroom",
+    "hall"
+   ],
+   "thing": [
+    "window",
+    "table",
+    "clock",
+    "lamp"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write have or has.",
+  "source": "My {who} ______ a {animal} on their farm.",
+  "key": "have",
+  "why": "With I, you, we, they and more than one person or thing, use have.",
+  "slots": {
+   "who": [
+    "grandparents",
+    "aunt and uncle",
+    "cousins",
+    "neighbours"
+   ],
+   "animal": [
+    "cow",
+    "horse",
+    "donkey",
+    "goat"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write have or has.",
+  "source": "{name} ______ got {colour} eyes.",
+  "key": "has",
+  "why": "With he, she, it or one person or thing, use has.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "colour": [
+    "brown",
+    "green",
+    "blue",
+    "dark"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write have or has.",
+  "source": "I ______ {n} cousins in {city}.",
+  "key": "have",
+  "why": "With I, you, we, they and more than one person or thing, use have.",
+  "slots": {
+   "n": [
+    "four",
+    "five",
+    "six",
+    "ten"
+   ],
+   "city": [
+    "Tashkent",
+    "Bukhara",
+    "Khiva",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write have or has.",
+  "source": "Our {street} ______ a small {place}.",
+  "key": "has",
+  "why": "With he, she, it or one person or thing, use has.",
+  "slots": {
+   "street": [
+    "street",
+    "village",
+    "road",
+    "area"
+   ],
+   "place": [
+    "park",
+    "shop",
+    "café",
+    "bakery"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write have or has.",
+  "source": "{pair} ______ a {thing} in their room.",
+  "key": "have",
+  "why": "With I, you, we, they and more than one person or thing, use have.",
+  "slots": {
+   "pair": [
+    "Timur and his brother",
+    "Lola and her sister",
+    "The twins",
+    "My cousins"
+   ],
+   "thing": [
+    "computer",
+    "TV",
+    "bunk bed",
+    "desk"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write have or has.",
+  "source": "My {dev} ______ a {color} case.",
+  "key": "has",
+  "why": "With he, she, it or one person or thing, use has.",
+  "slots": {
+   "dev": [
+    "phone",
+    "tablet",
+    "laptop",
+    "camera"
+   ],
+   "color": [
+    "red",
+    "blue",
+    "black",
+    "pink"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write have or has.",
+  "source": "We ______ got a new {thing} in the {room}.",
+  "key": "have",
+  "why": "With I, you, we, they and more than one person or thing, use have.",
+  "slots": {
+   "thing": [
+    "table",
+    "lamp",
+    "carpet",
+    "clock"
+   ],
+   "room": [
+    "kitchen",
+    "living room",
+    "hall",
+    "bedroom"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write have or has.",
+  "source": "{name} ______ a {ill} today.",
+  "key": "has",
+  "why": "With he, she, it or one person or thing, use has.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "ill": [
+    "cold",
+    "headache",
+    "sore throat",
+    "toothache"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write have or has.",
+  "source": "My {who} ______ two {pet}.",
+  "key": "have",
+  "why": "With I, you, we, they and more than one person or thing, use have.",
+  "slots": {
+   "who": [
+    "neighbours",
+    "cousins",
+    "grandparents",
+    "friends"
+   ],
+   "pet": [
+    "dogs",
+    "cats",
+    "parrots",
+    "rabbits"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write have or has.",
+  "source": "Our {home} ______ got a balcony with {thing}.",
+  "key": "has",
+  "why": "With he, she, it or one person or thing, use has.",
+  "slots": {
+   "home": [
+    "flat",
+    "house",
+    "new flat",
+    "new house"
+   ],
+   "thing": [
+    "flowers",
+    "plants",
+    "two chairs",
+    "a small table"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write have or has.",
+  "source": "The {kids} ______ a lot of {thing} in their room.",
+  "key": "have",
+  "why": "With I, you, we, they and more than one person or thing, use have.",
+  "slots": {
+   "kids": [
+    "children",
+    "twins",
+    "boys",
+    "girls"
+   ],
+   "thing": [
+    "toys",
+    "books",
+    "games",
+    "posters"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence about one person. Use has.",
+  "source": "I have a new {thing}.",
+  "hint": "{name} ______ a new {thing}.",
+  "key": "has",
+  "why": "One person (he or she) → has.",
+  "slots": {
+   "thing": [
+    "bike",
+    "phone",
+    "bag",
+    "watch"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence about one person. Use has.",
+  "source": "We have a small {place}.",
+  "hint": "Our {who} ______ a small {place}.",
+  "key": "has",
+  "why": "One person → has, not have.",
+  "slots": {
+   "place": [
+    "garden",
+    "car",
+    "shop",
+    "flat"
+   ],
+   "who": [
+    "neighbour",
+    "teacher",
+    "uncle",
+    "aunt"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence about one person. Use has.",
+  "source": "My brothers have a {thing} in {room}.",
+  "hint": "My brother ______ a {thing} in {room}.",
+  "key": "has",
+  "why": "One brother → has, not have.",
+  "slots": {
+   "thing": [
+    "guitar",
+    "computer",
+    "bike",
+    "camera"
+   ],
+   "room": [
+    "the garage",
+    "the flat",
+    "the house",
+    "the living room"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence about one person. Use has.",
+  "source": "They have got a {color} car.",
+  "hint": "Our {who} ______ got a {color} car.",
+  "key": "has",
+  "why": "One person → has got, not have got.",
+  "slots": {
+   "color": [
+    "white",
+    "red",
+    "blue",
+    "black"
+   ],
+   "who": [
+    "teacher",
+    "neighbour",
+    "uncle",
+    "aunt"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence about one person. Use has.",
+  "source": "My friends have a {pet} called {pn}.",
+  "hint": "My friend ______ a {pet} called {pn}.",
+  "key": "has",
+  "why": "One friend → has, not have.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "parrot",
+    "rabbit"
+   ],
+   "pn": [
+    "Bars",
+    "Max",
+    "Luna",
+    "Snow"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence about more people. Use have.",
+  "source": "She has two {thing}, {name}.",
+  "hint": "They ______ two {thing}, {name}.",
+  "key": "have",
+  "why": "With they, use have: they have.",
+  "slots": {
+   "thing": [
+    "cats",
+    "bikes",
+    "phones",
+    "rooms"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence about more people. Use have.",
+  "source": "My sister has long {colour} hair and {eye} eyes.",
+  "hint": "My sisters ______ long {colour} hair and {eye} eyes.",
+  "key": "have",
+  "why": "More than one sister → have.",
+  "slots": {
+   "colour": [
+    "dark",
+    "black",
+    "brown",
+    "fair"
+   ],
+   "eye": [
+    "brown",
+    "green",
+    "blue",
+    "dark"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence about more people. Use have.",
+  "source": "He has got {n} cousins in {city}.",
+  "hint": "We ______ got {n} cousins in {city}.",
+  "key": "have",
+  "why": "With we, use have got.",
+  "slots": {
+   "n": [
+    "two",
+    "three",
+    "four",
+    "five"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Tashkent",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence about more people. Use have.",
+  "source": "My cousin has a flat near the {place} in {city}.",
+  "hint": "My cousins ______ a flat near the {place} in {city}.",
+  "key": "have",
+  "why": "More than one cousin → have.",
+  "slots": {
+   "place": [
+    "park",
+    "bazaar",
+    "station",
+    "river"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Tashkent",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence about more people. Use have.",
+  "source": "Lola has a new {thing}.",
+  "hint": "Lola and {friend} ______ a new {thing}.",
+  "key": "have",
+  "why": "Two people → have, not has.",
+  "slots": {
+   "friend": [
+    "Olga",
+    "Madina",
+    "Kamila",
+    "her sister"
+   ],
+   "thing": [
+    "teacher",
+    "puppy",
+    "game",
+    "neighbour"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "She have a {pet} called {pn}.",
+  "hint": "She ______ a {pet} called {pn}.",
+  "key": "has",
+  "why": "She → has, not have.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "parrot",
+    "rabbit"
+   ],
+   "pn": [
+    "Bars",
+    "Max",
+    "Luna",
+    "Snow"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I has two {sib} in {city}.",
+  "hint": "I ______ two {sib} in {city}.",
+  "key": "have",
+  "why": "I → have, not has.",
+  "slots": {
+   "sib": [
+    "sisters",
+    "brothers",
+    "cousins",
+    "aunts"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Tashkent",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "My {who} has a {color} car.",
+  "hint": "My {who} ______ a {color} car.",
+  "key": "have",
+  "why": "More than one person → have, not has.",
+  "slots": {
+   "who": [
+    "parents",
+    "grandparents",
+    "neighbours",
+    "cousins"
+   ],
+   "color": [
+    "white",
+    "red",
+    "blue",
+    "black"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{name} have got a new {thing}.",
+  "hint": "{name} ______ got a new {thing}.",
+  "key": "has",
+  "why": "One person → has got.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "thing": [
+    "phone",
+    "bike",
+    "watch",
+    "bag"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Our {home} have {n} rooms.",
+  "hint": "Our {home} ______ {n} rooms.",
+  "key": "has",
+  "why": "Our flat or house is one thing → has.",
+  "slots": {
+   "home": [
+    "flat",
+    "house",
+    "new flat",
+    "old house"
+   ],
+   "n": [
+    "two",
+    "three",
+    "four",
+    "five"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a thing you have in your room.",
+  "requiredElement": "I have / I've got",
+  "constraints": [
+   "exactly one sentence",
+   "start with I have or I've got",
+   "a thing word"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a pet you or a friend has.",
+  "requiredElement": "have / has + a pet",
+  "constraints": [
+   "exactly one sentence",
+   "have or has",
+   "an animal word"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your brother, sister or cousin. What has he or she got?",
+  "requiredElement": "he / she has",
+  "constraints": [
+   "exactly one sentence",
+   "has or has got",
+   "a family word"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your flat or house. How many rooms has it got?",
+  "requiredElement": "it has / our flat has",
+  "constraints": [
+   "exactly one sentence",
+   "has",
+   "a number"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your best friend's hair or eyes.",
+  "requiredElement": "he / she has",
+  "constraints": [
+   "exactly one sentence",
+   "has",
+   "a colour word"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your school. What has it got?",
+  "requiredElement": "our school has",
+  "constraints": [
+   "exactly one sentence",
+   "has",
+   "a place word"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your grandparents' home.",
+  "requiredElement": "they have",
+  "constraints": [
+   "exactly one sentence",
+   "have",
+   "a home word"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: one thing you have and one thing your friend has.",
+  "requiredElement": "I have / he or she has",
+  "constraints": [
+   "exactly two sentences",
+   "have once",
+   "has once"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your family. Who is in it, and what have they got?",
+  "targetGrammar": "have / has",
+  "lookFor": [
+   "have",
+   "has",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your room. What have you got in it?",
+  "targetGrammar": "I have / I've got",
+  "lookFor": [
+   "I have",
+   "a furniture word",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your flat or house for a new friend.",
+  "targetGrammar": "it has / we have",
+  "lookFor": [
+   "has",
+   "have",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your best friend: hair, eyes, pets and things.",
+  "targetGrammar": "he / she has",
+  "lookFor": [
+   "has twice",
+   "a colour word",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-has",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a relative in another town or village. What has he or she got there?",
+  "targetGrammar": "he / she has",
+  "lookFor": [
+   "has",
+   "a place word",
+   "three or four sentences"
+  ]
+ }
+]

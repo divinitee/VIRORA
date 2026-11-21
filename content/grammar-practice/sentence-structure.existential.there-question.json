@@ -1,0 +1,1810 @@
+[
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ any milk in the {place}, {name}?",
+  "options": [
+   "Is there",
+   "Are there",
+   "There is",
+   "There are"
+  ],
+  "key": 0,
+  "why": "Milk is uncountable, so the question is Is there any milk …? The verb comes before there.",
+  "slots": {
+   "place": [
+    "fridge",
+    "jug",
+    "bottle",
+    "kitchen"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ any bread on the {surface}, {name}?",
+  "options": [
+   "Are there",
+   "There is",
+   "There are",
+   "Is there"
+  ],
+  "key": 3,
+  "why": "Bread is uncountable, so the question is Is there any bread …? The verb comes before there.",
+  "slots": {
+   "surface": [
+    "table",
+    "plate",
+    "shelf",
+    "tray"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ any sugar in my {drink}, {name}?",
+  "options": [
+   "There is",
+   "There are",
+   "Is there",
+   "Are there"
+  ],
+  "key": 2,
+  "why": "Sugar is uncountable, so the question is Is there any sugar …? The verb comes before there.",
+  "slots": {
+   "drink": [
+    "tea",
+    "coffee",
+    "cup",
+    "cocoa"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ any rice left in the {pot}, {name}?",
+  "options": [
+   "There are",
+   "Is there",
+   "Are there",
+   "There is"
+  ],
+  "key": 1,
+  "why": "Rice is uncountable, so the question is Is there any rice …? The verb comes before there.",
+  "slots": {
+   "pot": [
+    "pot",
+    "pan",
+    "bowl",
+    "bag"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ any homework for {day}, {name}?",
+  "options": [
+   "Is there",
+   "Are there",
+   "There is",
+   "There are"
+  ],
+  "key": 0,
+  "why": "Homework is uncountable, so the question is Is there any homework …? The verb comes before there.",
+  "slots": {
+   "day": [
+    "Monday",
+    "tomorrow",
+    "the weekend",
+    "Friday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ any water in the {container}, {who}?",
+  "options": [
+   "Are there",
+   "There is",
+   "There are",
+   "Is there"
+  ],
+  "key": 3,
+  "why": "Water is uncountable, so the question is Is there any water …? The verb comes before there.",
+  "slots": {
+   "container": [
+    "bottle",
+    "kettle",
+    "jug",
+    "glass"
+   ],
+   "who": [
+    "Mum",
+    "Dad",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ any news about the {event}, {name}?",
+  "options": [
+   "There is",
+   "There are",
+   "Is there",
+   "Are there"
+  ],
+  "key": 2,
+  "why": "News is uncountable, so the question is Is there any news …? The verb comes before there.",
+  "slots": {
+   "event": [
+    "match",
+    "trip",
+    "test",
+    "concert"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ any cheese in the {place}, {name}?",
+  "options": [
+   "There are",
+   "Is there",
+   "Are there",
+   "There is"
+  ],
+  "key": 1,
+  "why": "Cheese is uncountable, so the question is Is there any cheese …? The verb comes before there.",
+  "slots": {
+   "place": [
+    "fridge",
+    "shop",
+    "bag",
+    "kitchen"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ any eggs in the {container}, {name}?",
+  "options": [
+   "Are there",
+   "Is there",
+   "There are",
+   "There is"
+  ],
+  "key": 0,
+  "why": "Eggs is plural, so the question is Are there any eggs …? The verb comes before there.",
+  "slots": {
+   "container": [
+    "fridge",
+    "box",
+    "basket",
+    "bag"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ any good cafés near the {place}, {name}?",
+  "options": [
+   "Is there",
+   "There are",
+   "There is",
+   "Are there"
+  ],
+  "key": 3,
+  "why": "Cafés is plural, so the question is Are there any cafés …? The verb comes before there.",
+  "slots": {
+   "place": [
+    "station",
+    "bazaar",
+    "park",
+    "school"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ any students in the {room} now, {name}?",
+  "options": [
+   "There are",
+   "There is",
+   "Are there",
+   "Is there"
+  ],
+  "key": 2,
+  "why": "Students is plural, so the question is Are there any students …? The verb comes before there.",
+  "slots": {
+   "room": [
+    "classroom",
+    "library",
+    "gym",
+    "canteen"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ any buses to {city} today, {name}?",
+  "options": [
+   "There is",
+   "Are there",
+   "Is there",
+   "There are"
+  ],
+  "key": 1,
+  "why": "Buses is plural, so the question is Are there any buses …? The verb comes before there.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Fergana"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ any apples on the trees in your {place}, {name}?",
+  "options": [
+   "Are there",
+   "Is there",
+   "There are",
+   "There is"
+  ],
+  "key": 0,
+  "why": "Apples is plural, so the question is Are there any apples …? The verb comes before there.",
+  "slots": {
+   "place": [
+    "garden",
+    "village",
+    "yard",
+    "street"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "______ any chairs in the {room}, {name}?",
+  "options": [
+   "Is there",
+   "There are",
+   "There is",
+   "Are there"
+  ],
+  "key": 3,
+  "why": "Chairs is plural, so the question is Are there any chairs …? The verb comes before there.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "hall",
+    "garden",
+    "office"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Is there any juice in the {container}, {name}? – Yes, ______.",
+  "options": [
+   "there are",
+   "is there",
+   "there is",
+   "it is"
+  ],
+  "key": 2,
+  "why": "The question is Is there …?, so the short answer is Yes, there is. Not it is.",
+  "slots": {
+   "container": [
+    "fridge",
+    "jug",
+    "bottle",
+    "glass"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Is there a park near your {home}, {name}? – Yes, ______.",
+  "options": [
+   "is there",
+   "there is",
+   "it is",
+   "there are"
+  ],
+  "key": 1,
+  "why": "The question is Is there …?, so the short answer is Yes, there is. Not it is.",
+  "slots": {
+   "home": [
+    "flat",
+    "house",
+    "school",
+    "office"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Are there any shops in your {area}, {name}? – Yes, ______.",
+  "options": [
+   "there are",
+   "they are",
+   "there is",
+   "are there"
+  ],
+  "key": 0,
+  "why": "The question is Are there …?, so the short answer is Yes, there are. Not they are.",
+  "slots": {
+   "area": [
+    "street",
+    "village",
+    "building",
+    "area"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Is there any soup in the {pot}, {name}? – No, ______.",
+  "options": [
+   "it isn't",
+   "there aren't",
+   "isn't there",
+   "there isn't"
+  ],
+  "key": 3,
+  "why": "The question is Is there …?, so the short answer is No, there isn't. Not it isn't.",
+  "slots": {
+   "pot": [
+    "pot",
+    "pan",
+    "bowl",
+    "fridge"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Are there any tickets for the {event}, {name}? – No, ______.",
+  "options": [
+   "there isn't",
+   "aren't there",
+   "there aren't",
+   "they aren't"
+  ],
+  "key": 2,
+  "why": "The question is Are there …?, so the short answer is No, there aren't. Not they aren't.",
+  "slots": {
+   "event": [
+    "concert",
+    "film",
+    "match",
+    "show"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Is there a lift in your {building}, {name}? – No, ______.",
+  "options": [
+   "isn't there",
+   "there isn't",
+   "it isn't",
+   "there aren't"
+  ],
+  "key": 1,
+  "why": "The question is Is there …?, so the short answer is No, there isn't. Not it isn't.",
+  "slots": {
+   "building": [
+    "building",
+    "school",
+    "block",
+    "office"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Is there or Are there.",
+  "source": "______ any juice in the {place}, {name}?",
+  "key": "Is there",
+  "why": "Juice is uncountable, so ask Is there …?",
+  "slots": {
+   "place": [
+    "fridge",
+    "jug",
+    "bottle",
+    "glass"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Is there or Are there.",
+  "source": "______ any salt in the {dish}, {name}?",
+  "key": "Is there",
+  "why": "Salt is uncountable, so ask Is there …?",
+  "slots": {
+   "dish": [
+    "soup",
+    "salad",
+    "plov",
+    "sauce"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Is there or Are there.",
+  "source": "______ any snow in {city} today, {name}?",
+  "key": "Is there",
+  "why": "Snow is uncountable, so ask Is there …?",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Fergana"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Is there or Are there.",
+  "source": "______ any free time in your {plan}, {name}?",
+  "key": "Is there",
+  "why": "Free time is uncountable, so ask Is there …?",
+  "slots": {
+   "plan": [
+    "timetable",
+    "week",
+    "day",
+    "plans"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Is there or Are there.",
+  "source": "______ any money in your {thing}, {name}?",
+  "key": "Is there",
+  "why": "Money is uncountable, so ask Is there …?",
+  "slots": {
+   "thing": [
+    "bag",
+    "pocket",
+    "wallet",
+    "purse"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Is there or Are there.",
+  "source": "______ any information about the {event} on the website, {name}?",
+  "key": "Is there",
+  "why": "Information is uncountable, so ask Is there …?",
+  "slots": {
+   "event": [
+    "trip",
+    "concert",
+    "test",
+    "course"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Is there or Are there.",
+  "source": "______ any tea in the {pot}, {who}?",
+  "key": "Is there",
+  "why": "Tea is uncountable, so ask Is there …?",
+  "slots": {
+   "pot": [
+    "teapot",
+    "cup",
+    "flask",
+    "pot"
+   ],
+   "who": [
+    "Mum",
+    "Grandma",
+    "Aziz",
+    "Olga"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Is there or Are there.",
+  "source": "______ a bank near the {place}, {name}?",
+  "key": "Is there",
+  "why": "A bank is one thing, so ask Is there …?",
+  "slots": {
+   "place": [
+    "station",
+    "bazaar",
+    "hotel",
+    "park"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Is there or Are there.",
+  "source": "______ a bus stop near your {home}, {name}?",
+  "key": "Is there",
+  "why": "A bus stop is one thing, so ask Is there …?",
+  "slots": {
+   "home": [
+    "flat",
+    "house",
+    "school",
+    "office"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Is there or Are there.",
+  "source": "______ an English club at your {place}, {name}?",
+  "key": "Is there",
+  "why": "An English club is one thing, so ask Is there …?",
+  "slots": {
+   "place": [
+    "school",
+    "college",
+    "library",
+    "centre"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Is there or Are there.",
+  "source": "______ a doctor in the {place}, {name}?",
+  "key": "Is there",
+  "why": "A doctor is one thing, so ask Is there …?",
+  "slots": {
+   "place": [
+    "building",
+    "hotel",
+    "village",
+    "office"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Is there or Are there.",
+  "source": "______ a cinema in your {town}, {name}?",
+  "key": "Is there",
+  "why": "A cinema is one thing, so ask Is there …?",
+  "slots": {
+   "town": [
+    "town",
+    "village",
+    "area",
+    "district"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Is there or Are there.",
+  "source": "______ a test on {day}, {who}?",
+  "key": "Is there",
+  "why": "A test is one thing, so ask Is there …?",
+  "slots": {
+   "day": [
+    "Monday",
+    "Friday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "who": [
+    "Ms Ivanova",
+    "Mr Karimov",
+    "teacher",
+    "Mrs Karimova"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Is there or Are there.",
+  "source": "______ any oranges in the {container}, {name}?",
+  "key": "Are there",
+  "why": "Oranges is plural, so ask Are there …?",
+  "slots": {
+   "container": [
+    "basket",
+    "box",
+    "bag",
+    "fridge"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Is there or Are there.",
+  "source": "______ any good films on TV {when}, {name}?",
+  "key": "Are there",
+  "why": "Films is plural, so ask Are there …?",
+  "slots": {
+   "when": [
+    "tonight",
+    "today",
+    "this evening",
+    "tomorrow"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Is there or Are there.",
+  "source": "______ any girls in your {team}, {name}?",
+  "key": "Are there",
+  "why": "Girls is plural, so ask Are there …?",
+  "slots": {
+   "team": [
+    "team",
+    "club",
+    "group",
+    "class"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Is there or Are there.",
+  "source": "______ many people at the {place}, {name}?",
+  "key": "Are there",
+  "why": "People is plural, so ask Are there …?",
+  "slots": {
+   "place": [
+    "bazaar",
+    "park",
+    "stadium",
+    "station"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Is there or Are there.",
+  "source": "______ any trains to {city} at night, {name}?",
+  "key": "Are there",
+  "why": "Trains is plural, so ask Are there …?",
+  "slots": {
+   "city": [
+    "Khiva",
+    "Bukhara",
+    "Termez",
+    "Samarkand"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Is there or Are there.",
+  "source": "______ any mistakes in my {text}, {who}?",
+  "key": "Are there",
+  "why": "Mistakes is plural, so ask Are there …?",
+  "slots": {
+   "text": [
+    "essay",
+    "letter",
+    "homework",
+    "test"
+   ],
+   "who": [
+    "Ms Ivanova",
+    "Mr Karimov",
+    "Mum",
+    "Dad"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write Is there or Are there.",
+  "source": "______ two bedrooms in your {home}, {name}?",
+  "key": "Are there",
+  "why": "Bedrooms is plural, so ask Are there …?",
+  "slots": {
+   "home": [
+    "flat",
+    "house",
+    "new flat",
+    "new house"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question. Use any.",
+  "source": "There is some milk in the {place}.",
+  "hint": "______ milk in the {place}, {name}?",
+  "key": "Is there any",
+  "why": "Milk is uncountable: Is there any milk …? In questions, some becomes any.",
+  "slots": {
+   "place": [
+    "fridge",
+    "jug",
+    "kitchen",
+    "bottle"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question. Use any.",
+  "source": "There are some eggs in the {container}.",
+  "hint": "______ eggs in the {container}, {name}?",
+  "key": "Are there any",
+  "why": "Eggs is plural: Are there any eggs …? In questions, some becomes any.",
+  "slots": {
+   "container": [
+    "basket",
+    "box",
+    "bag",
+    "fridge"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question. Use any.",
+  "source": "There is some homework for {day}.",
+  "hint": "______ homework for {day}, {name}?",
+  "key": "Is there any",
+  "why": "Homework is uncountable: Is there any homework …?",
+  "slots": {
+   "day": [
+    "Monday",
+    "Friday",
+    "tomorrow",
+    "the weekend"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question. Use any.",
+  "source": "There are some shops near the {place}.",
+  "hint": "______ shops near the {place}, {name}?",
+  "key": "Are there any",
+  "why": "Shops is plural: Are there any shops …?",
+  "slots": {
+   "place": [
+    "station",
+    "park",
+    "school",
+    "bazaar"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make a question. Use any.",
+  "source": "There is some bread on the {surface}.",
+  "hint": "______ bread on the {surface}, {name}?",
+  "key": "Is there any",
+  "why": "Bread is uncountable: Is there any bread …?",
+  "slots": {
+   "surface": [
+    "table",
+    "shelf",
+    "plate",
+    "tray"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Are there any water in the {container}, {name}?",
+  "hint": "______ any water in the {container}, {name}?",
+  "key": "Is there",
+  "why": "Water is uncountable, so use Is there, not Are there.",
+  "slots": {
+   "container": [
+    "bottle",
+    "glass",
+    "jug",
+    "kettle"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Is there any apples in the {container}, {name}?",
+  "hint": "______ any apples in the {container}, {name}?",
+  "key": "Are there",
+  "why": "Apples is plural, so use Are there, not Is there.",
+  "slots": {
+   "container": [
+    "bag",
+    "box",
+    "basket",
+    "fridge"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "There is any cheese in the {place}, {name}?",
+  "hint": "______ any cheese in the {place}, {name}?",
+  "key": "Is there",
+  "why": "In a question, the verb comes first: Is there …?",
+  "slots": {
+   "place": [
+    "fridge",
+    "shop",
+    "bag",
+    "kitchen"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Is any sugar in the {thing}, {name}?",
+  "hint": "______ any sugar in the {thing}, {name}?",
+  "key": "Is there",
+  "why": "The question needs there: Is there any sugar …?",
+  "slots": {
+   "thing": [
+    "tea",
+    "cupboard",
+    "bowl",
+    "jar"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "There are any chairs in the {room}, {name}?",
+  "hint": "______ any chairs in the {room}, {name}?",
+  "key": "Are there",
+  "why": "In a question, the verb comes first: Are there …?",
+  "slots": {
+   "room": [
+    "kitchen",
+    "hall",
+    "garden",
+    "office"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the question for this answer.",
+  "source": "Yes, there are three cafés on our {street}.",
+  "hint": "______ any cafés on your {street}, {name}?",
+  "key": "Are there",
+  "why": "The answer is there are + plural, so ask Are there …?",
+  "slots": {
+   "street": [
+    "street",
+    "road",
+    "main street",
+    "avenue"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the question for this answer.",
+  "source": "No, there isn't any juice. I drank it {when}.",
+  "hint": "______ any juice in the fridge, {name}?",
+  "key": "Is there",
+  "why": "The answer is there isn't, so ask Is there …?",
+  "slots": {
+   "when": [
+    "yesterday",
+    "this morning",
+    "at lunch",
+    "last night"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the question for this answer.",
+  "source": "Yes, there is a pharmacy near the {place}.",
+  "hint": "______ a pharmacy near the {place}, {name}?",
+  "key": "Is there",
+  "why": "A pharmacy is one thing, so ask Is there a …?",
+  "slots": {
+   "place": [
+    "station",
+    "bank",
+    "park",
+    "school"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the question for this answer.",
+  "source": "No, there aren't any buses after {time}.",
+  "hint": "______ any buses after {time}, {name}?",
+  "key": "Are there",
+  "why": "Buses is plural, so ask Are there any …?",
+  "slots": {
+   "time": [
+    "ten",
+    "eleven",
+    "midnight",
+    "half past ten"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Write the question for this answer.",
+  "source": "Yes, there is some soup in the {pot}.",
+  "hint": "______ any soup in the {pot}, {name}?",
+  "key": "Is there",
+  "why": "Soup is uncountable, so ask Is there any soup …?",
+  "slots": {
+   "pot": [
+    "pot",
+    "pan",
+    "fridge",
+    "kitchen"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one question about food in your fridge.",
+  "requiredElement": "Is there any … ? / Are there any … ?",
+  "constraints": [
+   "exactly one question",
+   "start with Is there or Are there",
+   "a food word"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask a friend one question about their street.",
+  "requiredElement": "Is there a … ? / Are there any … ?",
+  "constraints": [
+   "exactly one question",
+   "start with Is there or Are there",
+   "a place word"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask one question about your school with Is there a … ?",
+  "requiredElement": "Is there a … ?",
+  "constraints": [
+   "exactly one question",
+   "start with Is there a",
+   "a school word"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask one question about homework or a test.",
+  "requiredElement": "Is there any … ? / Is there a … ?",
+  "constraints": [
+   "exactly one question",
+   "start with Is there",
+   "a school word"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask a tourist information office one question about your town.",
+  "requiredElement": "Are there any … ?",
+  "constraints": [
+   "exactly one question",
+   "start with Are there any",
+   "a plural noun"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one question about a friend's flat or house and its short answer.",
+  "requiredElement": "Is there … ? – Yes, there is. / No, there isn't.",
+  "constraints": [
+   "one question and one short answer",
+   "Is there or Are there",
+   "a room word"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Ask one question about transport from your town to another city.",
+  "requiredElement": "Are there any buses / trains … ?",
+  "constraints": [
+   "exactly one question",
+   "start with Are there any",
+   "a city name"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two questions for a new classmate: one with Is there and one with Are there.",
+  "requiredElement": "Is there … ? / Are there … ?",
+  "constraints": [
+   "exactly two questions",
+   "Is there once",
+   "Are there once"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "A friend from another city wants to visit your town. Write three or four questions they could ask you about it, and answer one.",
+  "targetGrammar": "Is there … ? / Are there … ?",
+  "lookFor": [
+   "Is there",
+   "Are there",
+   "a short answer"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You are going to cook dinner. Ask your family three or four questions about what is in the kitchen.",
+  "targetGrammar": "Is there any … ? / Are there any … ?",
+  "lookFor": [
+   "Is there any + uncountable",
+   "Are there any + plural",
+   "three or four questions"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You want to rent a flat. Write three or four questions for the owner.",
+  "targetGrammar": "Is there … ? / Are there … ?",
+  "lookFor": [
+   "Is there a",
+   "Are there any",
+   "three or four questions"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your street for a new neighbour. Start with a question they might ask, then answer it.",
+  "targetGrammar": "Is there … ? + there is / there are",
+  "lookFor": [
+   "one Is there or Are there question",
+   "there is / there are",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "sentence-structure",
+  "branch": "existential",
+  "topic": "there-question",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You are starting at a new school. Write three or four questions about it for a student there.",
+  "targetGrammar": "Is there … ? / Are there … ?",
+  "lookFor": [
+   "Is there",
+   "Are there",
+   "a school word"
+  ]
+ }
+]

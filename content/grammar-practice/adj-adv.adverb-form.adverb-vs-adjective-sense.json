@@ -1,0 +1,1762 @@
+[
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I haven't seen {who} much ______. Is everything OK, {name}?",
+  "options": [
+   "lately",
+   "late",
+   "later",
+   "latest"
+  ],
+  "key": 0,
+  "why": "\"haven't … much\" + a recent period: lately = recently.",
+  "slots": {
+   "who": [
+    "Timur",
+    "your brother",
+    "the neighbours",
+    "your cousin"
+   ],
+   "name": [
+    "Sherzod",
+    "Feruza",
+    "Akmal",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Have you read any good {thing} ______, {name}?",
+  "options": [
+   "late",
+   "later",
+   "latest",
+   "lately"
+  ],
+  "key": 3,
+  "why": "a question about the recent past: lately = recently.",
+  "slots": {
+   "thing": [
+    "books",
+    "articles",
+    "stories",
+    "comics"
+   ],
+   "name": [
+    "Otabek",
+    "Zarina",
+    "Ulugbek",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Prices at the {place} have gone up a lot ______, {name}.",
+  "options": [
+   "later",
+   "latest",
+   "lately",
+   "late"
+  ],
+  "key": 2,
+  "why": "\"have gone up\" in the recent past: lately = recently.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "supermarket",
+    "café",
+    "petrol station"
+   ],
+   "name": [
+    "Sherzod",
+    "Feruza",
+    "Akmal",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {bus} came twenty minutes ______, so I missed the lesson, {name}.",
+  "options": [
+   "lated",
+   "late",
+   "lately",
+   "latest"
+  ],
+  "key": 1,
+  "why": "twenty minutes after the right time: late = not on time / at a late hour.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "metro",
+    "taxi"
+   ],
+   "name": [
+    "Sherzod",
+    "Feruza",
+    "Akmal",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We stayed up ______ to watch the {match}, {name}.",
+  "options": [
+   "late",
+   "lately",
+   "latest",
+   "lated"
+  ],
+  "key": 0,
+  "why": "until a late hour: late = not on time / at a late hour.",
+  "slots": {
+   "match": [
+    "final",
+    "match",
+    "film",
+    "fireworks"
+   ],
+   "name": [
+    "Otabek",
+    "Zarina",
+    "Ulugbek",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I can ______ hear you. Please speak louder, {name}.",
+  "options": [
+   "hard",
+   "harder",
+   "hardest",
+   "hardly"
+  ],
+  "key": 3,
+  "why": "\"speak louder\" = I almost can't hear: hardly = almost not.",
+  "slots": {
+   "name": [
+    "Sherzod",
+    "Feruza",
+    "Akmal",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There was ______ any food left at the {event}, {name}.",
+  "options": [
+   "harder",
+   "hardest",
+   "hardly",
+   "hard"
+  ],
+  "key": 2,
+  "why": "\"any food left\" = almost no food: hardly = almost not.",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "picnic",
+    "dinner"
+   ],
+   "name": [
+    "Otabek",
+    "Zarina",
+    "Ulugbek",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My grandpa ______ ever uses his {thing}, {name}.",
+  "options": [
+   "hardest",
+   "hardly",
+   "hard",
+   "harder"
+  ],
+  "key": 1,
+  "why": "\"ever\" = almost never: hardly = almost not.",
+  "slots": {
+   "thing": [
+    "phone",
+    "computer",
+    "car",
+    "bike"
+   ],
+   "name": [
+    "Sherzod",
+    "Feruza",
+    "Akmal",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I was so tired that I could ______ walk after the {event}, {name}.",
+  "options": [
+   "hardly",
+   "hard",
+   "harder",
+   "hardest"
+  ],
+  "key": 0,
+  "why": "so tired = almost couldn't walk: hardly = almost not.",
+  "slots": {
+   "event": [
+    "match",
+    "race",
+    "hike",
+    "wedding"
+   ],
+   "name": [
+    "Sherzod",
+    "Feruza",
+    "Akmal",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My sister studies very ______ for her {test}, {name}.",
+  "options": [
+   "hardly",
+   "hardest",
+   "hardness",
+   "hard"
+  ],
+  "key": 3,
+  "why": "\"very\" + with a lot of effort: hard = with a lot of effort.",
+  "slots": {
+   "test": [
+    "exams",
+    "tests",
+    "IELTS",
+    "finals"
+   ],
+   "name": [
+    "Sherzod",
+    "Feruza",
+    "Akmal",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "It rained ______ all night in {city}, {name}.",
+  "options": [
+   "hardest",
+   "hardness",
+   "hard",
+   "hardly"
+  ],
+  "key": 2,
+  "why": "heavy rain = rained hard: hard = with a lot of effort.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Fergana",
+    "London",
+    "Moscow"
+   ],
+   "name": [
+    "Sherzod",
+    "Feruza",
+    "Akmal",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ fell off my {bike} on the ice, {name}.",
+  "options": [
+   "nearest",
+   "nearly",
+   "near",
+   "nearer"
+  ],
+  "key": 1,
+  "why": "almost fell, but didn't: nearly = almost.",
+  "slots": {
+   "bike": [
+    "bike",
+    "scooter",
+    "horse",
+    "skateboard"
+   ],
+   "name": [
+    "Otabek",
+    "Zarina",
+    "Ulugbek",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We ______ missed the {bus}. We ran the last hundred metres, {name}!",
+  "options": [
+   "nearly",
+   "near",
+   "nearer",
+   "nearest"
+  ],
+  "key": 0,
+  "why": "almost missed it: nearly = almost.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "plane",
+    "start"
+   ],
+   "name": [
+    "Otabek",
+    "Zarina",
+    "Ulugbek",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I've ______ finished my {work}, {name}. Just one page left.",
+  "options": [
+   "near",
+   "nearer",
+   "nearest",
+   "nearly"
+  ],
+  "key": 3,
+  "why": "\"Just one page left\" = almost finished: nearly = almost.",
+  "slots": {
+   "work": [
+    "essay",
+    "homework",
+    "report",
+    "book"
+   ],
+   "name": [
+    "Sherzod",
+    "Feruza",
+    "Akmal",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We live ______ the {place}, so we walk there every day, {name}.",
+  "options": [
+   "nearness",
+   "neared",
+   "near",
+   "nearly"
+  ],
+  "key": 2,
+  "why": "close to the park: near = close to (a place).",
+  "slots": {
+   "place": [
+    "park",
+    "school",
+    "bazaar",
+    "river"
+   ],
+   "name": [
+    "Sherzod",
+    "Feruza",
+    "Akmal",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Is there a pharmacy ______ here, {name}?",
+  "options": [
+   "neared",
+   "near",
+   "nearly",
+   "nearness"
+  ],
+  "key": 1,
+  "why": "close to this place: near = close to (a place).",
+  "slots": {
+   "name": [
+    "Otabek",
+    "Zarina",
+    "Ulugbek",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This {place} is ______ recommended by the guidebook, {name}.",
+  "options": [
+   "highly",
+   "high",
+   "higher",
+   "height"
+  ],
+  "key": 0,
+  "why": "very strongly recommended: highly = very / very well.",
+  "slots": {
+   "place": [
+    "restaurant",
+    "hotel",
+    "museum",
+    "café"
+   ],
+   "name": [
+    "Sherzod",
+    "Feruza",
+    "Akmal",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Everyone at the {place} speaks ______ of our new {who}.",
+  "options": [
+   "high",
+   "higher",
+   "height",
+   "highly"
+  ],
+  "key": 3,
+  "why": "speak highly of = say very good things about: highly = very / very well.",
+  "slots": {
+   "place": [
+    "school",
+    "office",
+    "hospital",
+    "club"
+   ],
+   "who": [
+    "teacher",
+    "doctor",
+    "coach",
+    "manager"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The plane flew very ______ over the {sight}, {name}.",
+  "options": [
+   "height",
+   "highness",
+   "high",
+   "highly"
+  ],
+  "key": 2,
+  "why": "far up in the sky: high = far up.",
+  "slots": {
+   "sight": [
+    "mountains",
+    "clouds",
+    "sea",
+    "desert"
+   ],
+   "name": [
+    "Sherzod",
+    "Feruza",
+    "Akmal",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My cousin can jump really ______, {name}. He plays basketball.",
+  "options": [
+   "highness",
+   "high",
+   "highly",
+   "height"
+  ],
+  "key": 1,
+  "why": "far up: high = far up.",
+  "slots": {
+   "name": [
+    "Otabek",
+    "Zarina",
+    "Ulugbek",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the word in brackets or its -ly form.",
+  "source": "I've been very busy ______ (late), {name}. Sorry I didn't call.",
+  "key": "lately",
+  "why": "\"busy … sorry I didn't call\" is about the recent past: lately = recently.",
+  "slots": {
+   "name": [
+    "Sherzod",
+    "Feruza",
+    "Akmal",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the word in brackets or its -ly form.",
+  "source": "The {who} arrived ______ (late) again this morning, {name}.",
+  "key": "late",
+  "why": "The teacher came after the right time: late = not on time / at a late hour.",
+  "slots": {
+   "who": [
+    "teacher",
+    "bus",
+    "doctor",
+    "plumber"
+   ],
+   "name": [
+    "Otabek",
+    "Zarina",
+    "Ulugbek",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the word in brackets or its -ly form.",
+  "source": "Has the weather in {city} been cold ______ (late), {name}?",
+  "key": "lately",
+  "why": "A question about recent weather: lately = recently.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Moscow",
+    "Samarkand",
+    "Almaty"
+   ],
+   "name": [
+    "Otabek",
+    "Zarina",
+    "Ulugbek",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the word in brackets or its -ly form.",
+  "source": "Don't stay out ______ (late) tonight, {name}. You have the {test} tomorrow.",
+  "key": "late",
+  "why": "Staying out until a late hour: late = not on time / at a late hour.",
+  "slots": {
+   "name": [
+    "Sherzod",
+    "Feruza",
+    "Akmal",
+    "Dilnoza"
+   ],
+   "test": [
+    "exam",
+    "match",
+    "interview",
+    "trip"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the word in brackets or its -ly form.",
+  "source": "I ______ (hard) know anyone at the {event}, {name}.",
+  "key": "hardly",
+  "why": "I almost don't know anyone there: hardly = almost not.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "conference",
+    "new school"
+   ],
+   "name": [
+    "Otabek",
+    "Zarina",
+    "Ulugbek",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the word in brackets or its -ly form.",
+  "source": "The builders worked ______ (hard) all day on the {thing}, {name}.",
+  "key": "hard",
+  "why": "They worked with a lot of effort: hard = with a lot of effort.",
+  "slots": {
+   "thing": [
+    "roof",
+    "bridge",
+    "road",
+    "house"
+   ],
+   "name": [
+    "Otabek",
+    "Zarina",
+    "Ulugbek",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the word in brackets or its -ly form.",
+  "source": "There's ______ (hard) any milk in the fridge, {name}.",
+  "key": "hardly",
+  "why": "There is almost no milk: hardly = almost not.",
+  "slots": {
+   "name": [
+    "Sherzod",
+    "Feruza",
+    "Akmal",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the word in brackets or its -ly form.",
+  "source": "My little brother ______ (hard) ever eats {food}, {name}.",
+  "key": "hardly",
+  "why": "\"ever\" here means almost never: hardly = almost not.",
+  "slots": {
+   "food": [
+    "vegetables",
+    "fish",
+    "soup",
+    "fruit"
+   ],
+   "name": [
+    "Otabek",
+    "Zarina",
+    "Ulugbek",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the word in brackets or its -ly form.",
+  "source": "Try ______ (hard) and you will pass the {test}, {name}.",
+  "key": "hard",
+  "why": "Try with a lot of effort: hard = with a lot of effort.",
+  "slots": {
+   "test": [
+    "exam",
+    "test",
+    "interview",
+    "driving test"
+   ],
+   "name": [
+    "Sherzod",
+    "Feruza",
+    "Akmal",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the word in brackets or its -ly form.",
+  "source": "I ______ (near) forgot your birthday, {name}!",
+  "key": "nearly",
+  "why": "I almost forgot, but didn't: nearly = almost.",
+  "slots": {
+   "name": [
+    "Otabek",
+    "Zarina",
+    "Ulugbek",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the word in brackets or its -ly form.",
+  "source": "Our hotel was ______ (near) the {sight} in {city}.",
+  "key": "near",
+  "why": "The hotel was close to the place: near = close to (a place).",
+  "slots": {
+   "sight": [
+    "old town",
+    "beach",
+    "station",
+    "bazaar"
+   ],
+   "city": [
+    "Bukhara",
+    "Istanbul",
+    "Khiva",
+    "Samarkand"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the word in brackets or its -ly form.",
+  "source": "I ______ (near) dropped the {thing} on the stairs, {name}.",
+  "key": "nearly",
+  "why": "I almost dropped it, but didn't: nearly = almost.",
+  "slots": {
+   "thing": [
+    "laptop",
+    "cake",
+    "box",
+    "phone"
+   ],
+   "name": [
+    "Sherzod",
+    "Feruza",
+    "Akmal",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the word in brackets or its -ly form.",
+  "source": "We ______ (near) won the {match}, {name}. We lost 2–3.",
+  "key": "nearly",
+  "why": "2–3 means we almost won: nearly = almost.",
+  "slots": {
+   "match": [
+    "final",
+    "match",
+    "game",
+    "cup"
+   ],
+   "name": [
+    "Otabek",
+    "Zarina",
+    "Ulugbek",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the word in brackets or its -ly form.",
+  "source": "Don't park ______ (near) the {place}, {name}.",
+  "key": "near",
+  "why": "Don't park close to that place: near = close to (a place).",
+  "slots": {
+   "place": [
+    "gate",
+    "school",
+    "hospital",
+    "corner"
+   ],
+   "name": [
+    "Sherzod",
+    "Feruza",
+    "Akmal",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the word in brackets or its -ly form.",
+  "source": "Dr Karimova is a ______ (high) respected {job}, {name}.",
+  "key": "highly",
+  "why": "People respect the doctor very much: highly = very / very well.",
+  "slots": {
+   "job": [
+    "doctor",
+    "teacher",
+    "surgeon",
+    "scientist"
+   ],
+   "name": [
+    "Otabek",
+    "Zarina",
+    "Ulugbek",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the word in brackets or its -ly form.",
+  "source": "The kite flew ______ (high) above the {place}, {name}.",
+  "key": "high",
+  "why": "The kite was far up in the sky: high = far up.",
+  "slots": {
+   "place": [
+    "park",
+    "field",
+    "beach",
+    "roofs"
+   ],
+   "name": [
+    "Otabek",
+    "Zarina",
+    "Ulugbek",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the word in brackets or its -ly form.",
+  "source": "I ______ (high) recommend this {thing}, {name}.",
+  "key": "highly",
+  "why": "I recommend it very strongly: highly = very / very well.",
+  "slots": {
+   "thing": [
+    "book",
+    "film",
+    "café",
+    "teacher"
+   ],
+   "name": [
+    "Sherzod",
+    "Feruza",
+    "Akmal",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the word in brackets or its -ly form.",
+  "source": "My {who} hasn't been well ______ (late), {name}.",
+  "key": "lately",
+  "why": "\"hasn't been well\" in the recent past: lately = recently.",
+  "slots": {
+   "who": [
+    "grandma",
+    "uncle",
+    "neighbour",
+    "cat"
+   ],
+   "name": [
+    "Otabek",
+    "Zarina",
+    "Ulugbek",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the word in brackets or its -ly form.",
+  "source": "It's snowing ______ (hard) in the {place} today, {name}.",
+  "key": "hard",
+  "why": "Heavy snow falls hard: hard = with a lot of effort.",
+  "slots": {
+   "place": [
+    "mountains",
+    "north",
+    "city",
+    "village"
+   ],
+   "name": [
+    "Sherzod",
+    "Feruza",
+    "Akmal",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the word in brackets or its -ly form.",
+  "source": "I ______ (near) burnt the {work} while I was on the phone, {name}.",
+  "key": "nearly",
+  "why": "I almost burnt it, but didn't: nearly = almost.",
+  "slots": {
+   "work": [
+    "dinner",
+    "cake",
+    "bread",
+    "rice"
+   ],
+   "name": [
+    "Otabek",
+    "Zarina",
+    "Ulugbek",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with lately instead of recently.",
+  "source": "I haven't slept well recently, {name}.",
+  "hint": "I haven't slept well ______, {name}.",
+  "key": "lately",
+  "why": "Lately means recently: same meaning, same place.",
+  "slots": {
+   "name": [
+    "Sherzod",
+    "Feruza",
+    "Akmal",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with lately instead of recently.",
+  "source": "Have you been to the {place} recently, {name}?",
+  "hint": "Have you been to the {place} ______, {name}?",
+  "key": "lately",
+  "why": "Lately means recently: same meaning, same place.",
+  "slots": {
+   "place": [
+    "cinema",
+    "gym",
+    "bazaar",
+    "theatre"
+   ],
+   "name": [
+    "Otabek",
+    "Zarina",
+    "Ulugbek",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with lately instead of recently.",
+  "source": "My dad has been very busy at the {place} recently.",
+  "hint": "My dad has been very busy at the {place} ______.",
+  "key": "lately",
+  "why": "Lately means recently: same meaning, same place.",
+  "slots": {
+   "place": [
+    "office",
+    "factory",
+    "hospital",
+    "shop"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with lately instead of recently.",
+  "source": "It has rained a lot in {city} recently, {name}.",
+  "hint": "It has rained a lot in {city} ______, {name}.",
+  "key": "lately",
+  "why": "Lately means recently: same meaning, same place.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "London",
+    "Fergana",
+    "Moscow"
+   ],
+   "name": [
+    "Sherzod",
+    "Feruza",
+    "Akmal",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with lately instead of recently.",
+  "source": "What {thing} have you watched recently, {name}?",
+  "hint": "What {thing} have you watched ______, {name}?",
+  "key": "lately",
+  "why": "Lately means recently: same meaning, same place.",
+  "slots": {
+   "thing": [
+    "films",
+    "series",
+    "matches",
+    "shows"
+   ],
+   "name": [
+    "Otabek",
+    "Zarina",
+    "Ulugbek",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with nearly instead of almost.",
+  "source": "I almost missed the {bus} this morning, {name}.",
+  "hint": "I ______ missed the {bus} this morning, {name}.",
+  "key": "nearly",
+  "why": "Nearly means almost: put it where almost was.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "metro",
+    "lesson"
+   ],
+   "name": [
+    "Sherzod",
+    "Feruza",
+    "Akmal",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with nearly instead of almost.",
+  "source": "We almost lost the {match}, {name}.",
+  "hint": "We ______ lost the {match}, {name}.",
+  "key": "nearly",
+  "why": "Nearly means almost: put it where almost was.",
+  "slots": {
+   "match": [
+    "final",
+    "match",
+    "game",
+    "race"
+   ],
+   "name": [
+    "Otabek",
+    "Zarina",
+    "Ulugbek",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with nearly instead of almost.",
+  "source": "The {thing} is almost ready, {name}.",
+  "hint": "The {thing} is ______ ready, {name}.",
+  "key": "nearly",
+  "why": "Nearly means almost: put it where almost was.",
+  "slots": {
+   "thing": [
+    "dinner",
+    "cake",
+    "car",
+    "report"
+   ],
+   "name": [
+    "Sherzod",
+    "Feruza",
+    "Akmal",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with nearly instead of almost.",
+  "source": "My grandma is almost ninety, {name}. She still cooks {food}!",
+  "hint": "My grandma is ______ ninety, {name}. She still cooks {food}!",
+  "key": "nearly",
+  "why": "Nearly means almost: put it where almost was.",
+  "slots": {
+   "name": [
+    "Otabek",
+    "Zarina",
+    "Ulugbek",
+    "Gulnora"
+   ],
+   "food": [
+    "plov",
+    "manti",
+    "bread",
+    "soup"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with nearly instead of almost.",
+  "source": "I almost fell on the ice in the {place}, {name}.",
+  "hint": "I ______ fell on the ice in the {place}, {name}.",
+  "key": "nearly",
+  "why": "Nearly means almost: put it where almost was.",
+  "slots": {
+   "place": [
+    "street",
+    "yard",
+    "park",
+    "car park"
+   ],
+   "name": [
+    "Sherzod",
+    "Feruza",
+    "Akmal",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with hardly.",
+  "source": "I almost can't hear you. The music in the {place} is loud, {name}.",
+  "hint": "I can ______ hear you. The music in the {place} is loud, {name}.",
+  "key": "hardly",
+  "why": "almost can't hear → can hardly hear.",
+  "slots": {
+   "place": [
+    "café",
+    "club",
+    "car",
+    "hall"
+   ],
+   "name": [
+    "Otabek",
+    "Zarina",
+    "Ulugbek",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with hardly.",
+  "source": "There was almost no food at the {event}, {name}.",
+  "hint": "There was ______ any food at the {event}, {name}.",
+  "key": "hardly",
+  "why": "almost no food → hardly any food.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "picnic",
+    "meeting"
+   ],
+   "name": [
+    "Sherzod",
+    "Feruza",
+    "Akmal",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with hardly.",
+  "source": "My uncle almost never visits {city}, {name}.",
+  "hint": "My uncle ______ ever visits {city}, {name}.",
+  "key": "hardly",
+  "why": "almost never visits → hardly ever visits.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Moscow",
+    "Bukhara"
+   ],
+   "name": [
+    "Otabek",
+    "Zarina",
+    "Ulugbek",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with hardly.",
+  "source": "I almost didn't sleep before the {test}, {name}.",
+  "hint": "I ______ slept before the {test}, {name}.",
+  "key": "hardly",
+  "why": "almost didn't sleep → hardly slept.",
+  "slots": {
+   "test": [
+    "exam",
+    "interview",
+    "match",
+    "flight"
+   ],
+   "name": [
+    "Sherzod",
+    "Feruza",
+    "Akmal",
+    "Dilnoza"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with hardly.",
+  "source": "Almost nobody came to the {event}, {name}.",
+  "hint": "______ anybody came to the {event}, {name}.",
+  "key": "Hardly",
+  "why": "almost nobody came → hardly anybody came.",
+  "slots": {
+   "event": [
+    "meeting",
+    "concert",
+    "lesson",
+    "party"
+   ],
+   "name": [
+    "Otabek",
+    "Zarina",
+    "Ulugbek",
+    "Gulnora"
+   ]
+  }
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with lately.",
+  "requiredElement": "… lately",
+  "constraints": [
+   "exactly one sentence",
+   "lately = recently",
+   "present perfect"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with hardly.",
+  "requiredElement": "I can hardly … / hardly ever …",
+  "constraints": [
+   "exactly one sentence",
+   "hardly = almost not",
+   "a verb"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with nearly.",
+  "requiredElement": "I nearly …",
+  "constraints": [
+   "exactly one sentence",
+   "nearly = almost",
+   "past"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with hard and one with hardly.",
+  "requiredElement": "hard vs hardly",
+  "constraints": [
+   "exactly two sentences",
+   "hard = with effort",
+   "hardly = almost not"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with late and one with lately.",
+  "requiredElement": "late vs lately",
+  "constraints": [
+   "exactly two sentences",
+   "late = not on time",
+   "lately = recently"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with near and one with nearly.",
+  "requiredElement": "near vs nearly",
+  "constraints": [
+   "exactly two sentences",
+   "near = close to",
+   "nearly = almost"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with highly recommend.",
+  "requiredElement": "I highly recommend …",
+  "constraints": [
+   "exactly one sentence",
+   "highly",
+   "recommend"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with hardly ever.",
+  "requiredElement": "… hardly ever …",
+  "constraints": [
+   "exactly one sentence",
+   "hardly ever",
+   "a habit"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your week. What have you done lately? What did you hardly do? Write three or four sentences.",
+  "targetGrammar": "lately / hardly",
+  "lookFor": [
+   "lately",
+   "hardly",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Tell a story (three or four sentences) about a day when you nearly missed something important.",
+  "targetGrammar": "nearly / late",
+  "lookFor": [
+   "nearly",
+   "late",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a hard-working person you know. Write three or four sentences with hard and hardly.",
+  "targetGrammar": "hard vs hardly",
+  "lookFor": [
+   "hard",
+   "hardly",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short review (three or four sentences) of a place you highly recommend.",
+  "targetGrammar": "highly",
+  "lookFor": [
+   "highly",
+   "near",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "adj-adv",
+  "branch": "adverb-form",
+  "topic": "adverb-vs-adjective-sense",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences about how your town has changed lately.",
+  "targetGrammar": "lately",
+  "lookFor": [
+   "lately",
+   "nearly / hardly",
+   "three or four sentences"
+  ]
+ }
+]

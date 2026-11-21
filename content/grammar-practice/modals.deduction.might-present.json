@@ -1,0 +1,1810 @@
+[
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "She isn't answering her phone. I'm not sure why, {name}. She ______ be busy at the {place}.",
+  "options": [
+   "might",
+   "must",
+   "can't",
+   "mustn't"
+  ],
+  "key": 0,
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "place": [
+    "office",
+    "hospital",
+    "bank",
+    "school"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I don't know where Timur is. He ______ be at the {place}, or at home, {name}.",
+  "options": [
+   "must",
+   "can't",
+   "mustn't",
+   "might"
+  ],
+  "key": 3,
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "place": [
+    "gym",
+    "library",
+    "bazaar",
+    "café"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {shop} looks dark. I'm not sure, but it ______ be closed today, {name}.",
+  "options": [
+   "can't",
+   "mustn't",
+   "might",
+   "must"
+  ],
+  "key": 2,
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "shop": [
+    "bakery",
+    "pharmacy",
+    "post office",
+    "bookshop"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I don't know this man. He ______ be a new teacher, or a {who}, {name}.",
+  "options": [
+   "mustn't",
+   "might",
+   "must",
+   "can't"
+  ],
+  "key": 1,
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "who": [
+    "parent",
+    "visitor",
+    "driver",
+    "doctor"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Lola is very quiet in the {class} today. I don't know why. She ______ be tired, {name}.",
+  "options": [
+   "might",
+   "must",
+   "can't",
+   "mustn't"
+  ],
+  "key": 0,
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "class": [
+    "lesson",
+    "meeting",
+    "class",
+    "group"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Is that Aziz's {thing}? I'm not sure. It ______ be his brother's, {name}.",
+  "options": [
+   "must",
+   "can't",
+   "mustn't",
+   "might"
+  ],
+  "key": 3,
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "thing": [
+    "bike",
+    "coat",
+    "bag",
+    "phone"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The door of his {room} is closed. He ______ be asleep, but I'm not sure, {name}.",
+  "options": [
+   "can't",
+   "mustn't",
+   "might",
+   "must"
+  ],
+  "key": 2,
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "room": [
+    "room",
+    "bedroom",
+    "office",
+    "flat"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I can't see the {thing}. It ______ be in the car, or in the kitchen, {name}.",
+  "options": [
+   "mustn't",
+   "might",
+   "must",
+   "can't"
+  ],
+  "key": 1,
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "thing": [
+    "key",
+    "shopping bag",
+    "phone",
+    "map"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Olga isn't at the {event}. Nobody knows why. She ______ be ill, {name}.",
+  "options": [
+   "might",
+   "must",
+   "can't",
+   "mustn't"
+  ],
+  "key": 0,
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "event": [
+    "lesson",
+    "meeting",
+    "party",
+    "match"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I can hear a noise in the {room}. It ______ be the cat. I'm not sure, {name}.",
+  "options": [
+   "must",
+   "can't",
+   "mustn't",
+   "might"
+  ],
+  "key": 3,
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "room": [
+    "kitchen",
+    "garden",
+    "attic",
+    "hall"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Ask Madina about the {q}. I'm not sure, but she ______ know the answer, {name}.",
+  "options": [
+   "can't",
+   "mustn't",
+   "might",
+   "must"
+  ],
+  "key": 2,
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "q": [
+    "question",
+    "puzzle",
+    "riddle",
+    "maths problem"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There's a {car} outside. It ______ be our taxi, but I can't see the number, {name}.",
+  "options": [
+   "mustn't",
+   "might",
+   "must",
+   "can't"
+  ],
+  "key": 1,
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "car": [
+    "white car",
+    "black car",
+    "yellow car",
+    "small car"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I'm not sure who is calling. It ______ be my {who}, {name}.",
+  "options": [
+   "might",
+   "must",
+   "can't",
+   "mustn't"
+  ],
+  "key": 0,
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "who": [
+    "aunt",
+    "uncle",
+    "cousin",
+    "boss"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Nobody knows where the {pet} is. It ______ be under the bed, {name}.",
+  "options": [
+   "must",
+   "can't",
+   "mustn't",
+   "might"
+  ],
+  "key": 3,
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "pet": [
+    "cat",
+    "kitten",
+    "puppy",
+    "rabbit"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The man at the {place} looks very young. He ______ be a student. I don't know, {name}.",
+  "options": [
+   "can't",
+   "mustn't",
+   "might",
+   "must"
+  ],
+  "key": 2,
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "place": [
+    "front desk",
+    "door",
+    "counter",
+    "bus stop"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I don't know why the {bus} is late. There ______ be a lot of traffic, {name}.",
+  "options": [
+   "mustn't",
+   "might",
+   "must",
+   "can't"
+  ],
+  "key": 1,
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "tram",
+    "taxi"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This {food} tastes strange. I'm not sure why. It ______ need more salt, {name}.",
+  "options": [
+   "might",
+   "must",
+   "can't",
+   "mustn't"
+  ],
+  "key": 0,
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "food": [
+    "soup",
+    "plov",
+    "sauce",
+    "salad"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Timur is laughing at his phone. I don't know why. He ______ be watching a funny {video}, {name}.",
+  "options": [
+   "must",
+   "can't",
+   "mustn't",
+   "might"
+  ],
+  "key": 3,
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "video": [
+    "video",
+    "film",
+    "cartoon",
+    "show"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I don't know where my {book} is. My sister ______ have it, {name}.",
+  "options": [
+   "can't",
+   "mustn't",
+   "might",
+   "must"
+  ],
+  "key": 2,
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "book": [
+    "dictionary",
+    "notebook",
+    "charger",
+    "umbrella"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {who} isn't in her office. She ______ be at lunch. I'm not sure, {name}.",
+  "options": [
+   "mustn't",
+   "might",
+   "must",
+   "can't"
+  ],
+  "key": 1,
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "who": [
+    "director",
+    "teacher",
+    "manager",
+    "doctor"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
+  "source": "I don't know where Aziz is. He ______ (be) at the {place}, {name}.",
+  "key": "might be",
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "place": [
+    "gym",
+    "library",
+    "bazaar",
+    "café"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
+  "source": "The {shop} looks dark. It ______ (be) closed today, {name}.",
+  "key": "might be",
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "shop": [
+    "bakery",
+    "pharmacy",
+    "post office",
+    "bookshop"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
+  "source": "Ask Olga about the {q}. She ______ (know) the answer, {name}.",
+  "key": "might know",
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "q": [
+    "question",
+    "test",
+    "homework",
+    "timetable"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
+  "source": "I'm not sure who that is at the {place}. It ______ (be) our new neighbour, {name}.",
+  "key": "might be",
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "place": [
+    "door",
+    "gate",
+    "window",
+    "bus stop"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
+  "source": "Your {plant} looks dry. It ______ (need) more water, {name}.",
+  "key": "might need",
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "plant": [
+    "plant",
+    "tree",
+    "flower",
+    "garden"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
+  "source": "I can't find my {book}. My brother ______ (have) it, {name}.",
+  "key": "might have",
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "book": [
+    "dictionary",
+    "notebook",
+    "charger",
+    "umbrella"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
+  "source": "The {bus} is late. There ______ (be) a lot of traffic, {name}.",
+  "key": "might be",
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "tram",
+    "taxi"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
+  "source": "Buy her a {gift}. I'm not sure, but she ______ (like) it, {name}.",
+  "key": "might like",
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "gift": [
+    "book",
+    "scarf",
+    "cake",
+    "plant"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
+  "source": "Lola isn't at the {event}. She ______ (be) ill, {name}.",
+  "key": "might be",
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "event": [
+    "lesson",
+    "meeting",
+    "party",
+    "match"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
+  "source": "That noise in the {room} ______ (be) the cat, {name}.",
+  "key": "might be",
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "room": [
+    "kitchen",
+    "garden",
+    "attic",
+    "hall"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
+  "source": "Call before you go to the {shop}. It ______ (not / be) open today, {name}.",
+  "key": "might not be",
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "shop": [
+    "bank",
+    "pharmacy",
+    "post office",
+    "museum"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
+  "source": "Don't ask Timur about the {topic}. He ______ (not / know), {name}.",
+  "key": "might not know",
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "topic": [
+    "test",
+    "party",
+    "plan",
+    "prices"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
+  "source": "Take some food to the {place}. There ______ (not / be) a café there, {name}.",
+  "key": "might not be",
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "place": [
+    "mountains",
+    "lake",
+    "beach",
+    "village"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
+  "source": "Bring your own {thing}. The hotel ______ (not / have) one, {name}.",
+  "key": "might not have",
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "thing": [
+    "towel",
+    "hairdryer",
+    "charger",
+    "umbrella"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
+  "source": "Don't wait for Madina at the {place}. She ______ (not / be) free today, {name}.",
+  "key": "might not be",
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "place": [
+    "station",
+    "gate",
+    "café",
+    "library"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
+  "source": "The {who} isn't in her office. She ______ (be) at lunch, {name}.",
+  "key": "might be",
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "who": [
+    "director",
+    "teacher",
+    "manager",
+    "doctor"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
+  "source": "Ask your {who} first. He ______ (want) to come too, {name}.",
+  "key": "might want",
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "who": [
+    "brother",
+    "cousin",
+    "father",
+    "friend"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
+  "source": "Your {thing} is very quiet. The battery ______ (be) dead, {name}.",
+  "key": "might be",
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "thing": [
+    "phone",
+    "radio",
+    "speaker",
+    "tablet"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
+  "source": "That family from the {place} ______ (live) near us. I'm not sure, {name}.",
+  "key": "might live",
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "place": [
+    "wedding",
+    "party",
+    "school",
+    "bazaar"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The speaker is not sure. Complete with might (or might not) and the verb in brackets.",
+  "source": "Timur is laughing at his {thing}. He ______ (be) watching a funny video, {name}.",
+  "key": "might be",
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "thing": [
+    "phone",
+    "laptop",
+    "tablet",
+    "TV"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with might (or might not).",
+  "source": "Perhaps she is busy at the {place}, {name}.",
+  "hint": "She ______ busy at the {place}, {name}.",
+  "key": "might be",
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "place": [
+    "office",
+    "hospital",
+    "bank",
+    "school"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with might (or might not).",
+  "source": "Maybe he knows the way to the {place}, {name}.",
+  "hint": "He ______ the way to the {place}, {name}.",
+  "key": "might know",
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "place": [
+    "station",
+    "museum",
+    "stadium",
+    "hotel"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with might (or might not).",
+  "source": "Perhaps the {shop} is closed, {name}.",
+  "hint": "The {shop} ______ closed, {name}.",
+  "key": "might be",
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "shop": [
+    "bakery",
+    "pharmacy",
+    "post office",
+    "bookshop"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with might (or might not).",
+  "source": "Maybe your {thing} is in the car, {name}.",
+  "hint": "Your {thing} ______ in the car, {name}.",
+  "key": "might be",
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "thing": [
+    "phone",
+    "bag",
+    "key",
+    "wallet"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with might (or might not).",
+  "source": "Perhaps it isn't true, {name}. Ask the {who}.",
+  "hint": "It ______ true, {name}. Ask the {who}.",
+  "key": "might not be",
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "who": [
+    "teacher",
+    "boss",
+    "director",
+    "coach"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "She might to be at the {place}, {name}.",
+  "hint": "She ______ at the {place}, {name}.",
+  "key": "might be",
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "place": [
+    "gym",
+    "library",
+    "bazaar",
+    "café"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "He might is ill. He isn't at the {event}, {name}.",
+  "hint": "He ______ ill. He isn't at the {event}, {name}.",
+  "key": "might be",
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "event": [
+    "lesson",
+    "meeting",
+    "party",
+    "match"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "It mights be the cat in the {room}, {name}.",
+  "hint": "It ______ the cat in the {room}, {name}.",
+  "key": "might be",
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "room": [
+    "kitchen",
+    "garden",
+    "attic",
+    "hall"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "They might knowing the answer to the {q}, {name}.",
+  "hint": "They ______ the answer to the {q}, {name}.",
+  "key": "might know",
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "q": [
+    "question",
+    "puzzle",
+    "riddle",
+    "maths problem"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "She doesn't might be at home. Her {car} isn't outside, {name}.",
+  "hint": "She ______ at home. Her {car} isn't outside, {name}.",
+  "key": "might not be",
+  "why": "The speaker is not sure: might + base verb (must = sure, can't = sure it is not true).",
+  "slots": {
+   "car": [
+    "car",
+    "bike",
+    "scooter",
+    "van"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with might be + -ing.",
+  "source": "Perhaps he is sleeping. The {room} is quiet, {name}.",
+  "hint": "He ______. The {room} is quiet, {name}.",
+  "key": "might be sleeping",
+  "why": "A guess, not sure, about something happening now: might be + -ing.",
+  "slots": {
+   "room": [
+    "flat",
+    "bedroom",
+    "house",
+    "tent"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with might be + -ing.",
+  "source": "Maybe she is working late at the {place}, {name}.",
+  "hint": "She ______ late at the {place}, {name}.",
+  "key": "might be working",
+  "why": "A guess, not sure, about something happening now: might be + -ing.",
+  "slots": {
+   "place": [
+    "hospital",
+    "bank",
+    "school",
+    "shop"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with might be + -ing.",
+  "source": "Perhaps they are waiting for us at the {place}, {name}.",
+  "hint": "They ______ for us at the {place}, {name}.",
+  "key": "might be waiting",
+  "why": "A guess, not sure, about something happening now: might be + -ing.",
+  "slots": {
+   "place": [
+    "station",
+    "gate",
+    "café",
+    "bus stop"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with might be + -ing.",
+  "source": "Maybe it is raining in {city} now, {name}.",
+  "hint": "It ______ in {city} now, {name}.",
+  "key": "might be raining",
+  "why": "A guess, not sure, about something happening now: might be + -ing.",
+  "slots": {
+   "city": [
+    "London",
+    "Moscow",
+    "Tashkent",
+    "Fergana"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with might be + -ing.",
+  "source": "Perhaps he is driving to {city}, so he can't answer, {name}.",
+  "hint": "He ______ to {city}, so he can't answer, {name}.",
+  "key": "might be driving",
+  "why": "A guess, not sure, about something happening now: might be + -ing.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Namangan",
+    "Khiva"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Your friend is late and isn't answering. Write one sentence with might.",
+  "requiredElement": "might be …",
+  "constraints": [
+   "exactly one sentence",
+   "might + base verb",
+   "a guess about now"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "You can't find your keys. Write one sentence about where they might be.",
+  "requiredElement": "They might be …",
+  "constraints": [
+   "exactly one sentence",
+   "might be",
+   "a place"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Someone is at the door. Write one sentence guessing who it is. Use might.",
+  "requiredElement": "It might be …",
+  "constraints": [
+   "exactly one sentence",
+   "might",
+   "not sure"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with might not about a shop or a café.",
+  "requiredElement": "might not be open",
+  "constraints": [
+   "exactly one sentence",
+   "might not + base verb",
+   "present"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Your neighbour is very happy today. Write one sentence with might be + -ing or might + verb.",
+  "requiredElement": "might be / might have",
+  "constraints": [
+   "exactly one sentence",
+   "might",
+   "a reason"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with must and one with might about the same person.",
+  "requiredElement": "must vs might",
+  "constraints": [
+   "exactly two sentences",
+   "must = sure",
+   "might = not sure"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with might be + -ing about what a friend is doing now.",
+  "requiredElement": "might be + -ing",
+  "constraints": [
+   "exactly one sentence",
+   "might be + -ing",
+   "now"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Your teacher isn't in class. Write one sentence guessing why. Use might.",
+  "requiredElement": "She might be ill / busy",
+  "constraints": [
+   "exactly one sentence",
+   "might",
+   "a guess"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "A friend didn't come to a party. Write three or four sentences guessing why. Use might and might not.",
+  "targetGrammar": "might / might not for present guesses",
+  "lookFor": [
+   "might",
+   "might not",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Look at a stranger in a café (in your mind). Write three or four guesses about him or her. Use might.",
+  "targetGrammar": "might + base verb",
+  "lookFor": [
+   "might",
+   "might be + -ing",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Your phone is ringing and you don't know the number. Write three or four sentences: who might it be?",
+  "targetGrammar": "It might be …",
+  "lookFor": [
+   "might",
+   "different guesses",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences about a lost pet. Where might it be?",
+  "targetGrammar": "might be + place",
+  "lookFor": [
+   "might",
+   "might not",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "deduction",
+  "topic": "might-present",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences comparing guesses: one with must, one with might, one with can't.",
+  "targetGrammar": "must / might / can't",
+  "lookFor": [
+   "must",
+   "might",
+   "can't"
+  ]
+ }
+]

@@ -1,0 +1,1810 @@
+[
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You won't pass the {test} ______ you study more, {name}.",
+  "options": [
+   "unless",
+   "if",
+   "when",
+   "so that"
+  ],
+  "key": 0,
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "test": [
+    "exam",
+    "test",
+    "driving test",
+    "quiz"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We'll miss the {bus} ______ we leave now, {name}.",
+  "options": [
+   "if",
+   "when",
+   "so that",
+   "unless"
+  ],
+  "key": 3,
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "flight",
+    "start"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I can't help you ______ you tell me the {thing}, {name}.",
+  "options": [
+   "when",
+   "so that",
+   "unless",
+   "if"
+  ],
+  "key": 2,
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "thing": [
+    "problem",
+    "truth",
+    "details",
+    "address"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Don't call me ______ it's important. I'm at the {place}, {name}.",
+  "options": [
+   "so that",
+   "unless",
+   "if",
+   "when"
+  ],
+  "key": 1,
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "place": [
+    "hospital",
+    "meeting",
+    "cinema",
+    "wedding"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {plant} will die ______ you water them, {name}.",
+  "options": [
+   "unless",
+   "if",
+   "when",
+   "so that"
+  ],
+  "key": 0,
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "plant": [
+    "plants",
+    "flowers",
+    "tomatoes",
+    "roses"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You can't enter the {place} ______ you have a ticket, {name}.",
+  "options": [
+   "if",
+   "when",
+   "so that",
+   "unless"
+  ],
+  "key": 3,
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "place": [
+    "museum",
+    "stadium",
+    "concert hall",
+    "zoo"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I'll be there at six ______ the {bus} is late, {name}.",
+  "options": [
+   "when",
+   "so that",
+   "unless",
+   "if"
+  ],
+  "key": 2,
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "metro",
+    "taxi"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "She won't come to the {event} ______ you invite her, {name}.",
+  "options": [
+   "so that",
+   "unless",
+   "if",
+   "when"
+  ],
+  "key": 1,
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "meeting",
+    "dinner"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We'll have the picnic in the {place} ______ it rains, {name}.",
+  "options": [
+   "unless",
+   "if",
+   "when",
+   "so that"
+  ],
+  "key": 0,
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "place": [
+    "park",
+    "garden",
+    "mountains",
+    "yard"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You'll get cold ______ you wear a {coat}, {name}.",
+  "options": [
+   "if",
+   "when",
+   "so that",
+   "unless"
+  ],
+  "key": 3,
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "coat": [
+    "coat",
+    "jacket",
+    "hat",
+    "scarf"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You can't borrow my {thing} ______ you promise to bring it back, {name}.",
+  "options": [
+   "when",
+   "so that",
+   "unless",
+   "if"
+  ],
+  "key": 2,
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "thing": [
+    "car",
+    "laptop",
+    "camera",
+    "bike"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Don't eat the {food} ______ it's fresh, {name}.",
+  "options": [
+   "so that",
+   "unless",
+   "if",
+   "when"
+  ],
+  "key": 1,
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "food": [
+    "fish",
+    "meat",
+    "chicken",
+    "eggs"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You can't come into the {place} ______ you take your shoes off, {name}.",
+  "options": [
+   "unless",
+   "if",
+   "when",
+   "so that"
+  ],
+  "key": 0,
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "place": [
+    "bedroom",
+    "house",
+    "gym",
+    "classroom"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{team} will lose ______ they play better in the second half, {name}.",
+  "options": [
+   "if",
+   "when",
+   "so that",
+   "unless"
+  ],
+  "key": 3,
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "team": [
+    "Sunrise FC",
+    "Blue Star",
+    "Green Valley",
+    "Riverside"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You'll miss the {bus} unless you ______ now, {name}.",
+  "options": [
+   "will leave",
+   "left",
+   "leave",
+   "don't leave"
+  ],
+  "key": 2,
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "flight",
+    "start"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I won't go to the {event} unless you ______ too, {name}.",
+  "options": [
+   "came",
+   "come",
+   "don't come",
+   "will come"
+  ],
+  "key": 1,
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "match"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We can't start the {thing} unless everyone ______ here, {name}.",
+  "options": [
+   "is",
+   "isn't",
+   "will be",
+   "was"
+  ],
+  "key": 0,
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "thing": [
+    "meeting",
+    "game",
+    "lesson",
+    "film"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "He won't get the job unless he ______ {lang}, {name}.",
+  "options": [
+   "doesn't speak",
+   "will speak",
+   "spoke",
+   "speaks"
+  ],
+  "key": 3,
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "lang": [
+    "English",
+    "Russian",
+    "Korean",
+    "German"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {pet} won't eat unless you ______ it {food}.",
+  "options": [
+   "will give",
+   "gave",
+   "give",
+   "don't give"
+  ],
+  "key": 2,
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "pet": [
+    "cat",
+    "dog",
+    "puppy",
+    "kitten"
+   ],
+   "food": [
+    "meat",
+    "fish",
+    "chicken",
+    "milk"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You can't drive a {car} unless you ______ a licence, {name}.",
+  "options": [
+   "had",
+   "have",
+   "don't have",
+   "will have"
+  ],
+  "key": 1,
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "car": [
+    "car",
+    "bus",
+    "truck",
+    "motorbike"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write unless or if.",
+  "source": "You'll be late for the {event} ______ you take a taxi, {name}.",
+  "key": "unless",
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "event": [
+    "wedding",
+    "match",
+    "meeting",
+    "concert"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write unless or if.",
+  "source": "I won't tell {who} ______ you say it's OK, {name}.",
+  "key": "unless",
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "who": [
+    "anyone",
+    "your mum",
+    "the teacher",
+    "Timur"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write unless or if.",
+  "source": "We'll go to the {place} tomorrow ______ it snows, {name}.",
+  "key": "unless",
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "place": [
+    "beach",
+    "lake",
+    "river",
+    "park"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write unless or if.",
+  "source": "You can't use the {room} ______ you have a key, {name}.",
+  "key": "unless",
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "room": [
+    "gym",
+    "office",
+    "lab",
+    "music room"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write unless or if.",
+  "source": "The {food} will go bad ______ you put it in the fridge, {name}.",
+  "key": "unless",
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "food": [
+    "milk",
+    "meat",
+    "fish",
+    "cake"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write unless or if.",
+  "source": "Don't buy the {thing} ______ it's on sale, {name}.",
+  "key": "unless",
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "thing": [
+    "TV",
+    "sofa",
+    "laptop",
+    "phone"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write unless or if.",
+  "source": "I always walk ______ it's raining. Then I take the {bus}, {name}.",
+  "key": "unless",
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "bus": [
+    "bus",
+    "metro",
+    "taxi",
+    "tram"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write unless or if.",
+  "source": "She won't speak to her {who} ______ he says sorry, {name}.",
+  "key": "unless",
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "who": [
+    "brother",
+    "husband",
+    "cousin",
+    "friend"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write unless or if.",
+  "source": "You won't get better before the {event} ______ you rest, {name}.",
+  "key": "unless",
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "event": [
+    "match",
+    "exam",
+    "wedding",
+    "trip"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write unless or if.",
+  "source": "They can't win ______ they score in the next {n} minutes, {name}.",
+  "key": "unless",
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "n": [
+    "five",
+    "ten",
+    "two",
+    "three"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write unless or if.",
+  "source": "I'll see you at the {place} at eight ______ I'm working late, {name}.",
+  "key": "unless",
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "place": [
+    "café",
+    "station",
+    "cinema",
+    "gym"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write unless or if.",
+  "source": "The {who} won't start ______ we're all quiet, {name}.",
+  "key": "unless",
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "who": [
+    "teacher",
+    "coach",
+    "director",
+    "speaker"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write unless or if.",
+  "source": "Don't open the {door} ______ you know who it is, {name}.",
+  "key": "unless",
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "door": [
+    "door",
+    "gate",
+    "front door",
+    "back door"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write unless or if.",
+  "source": "You can't park here ______ you live in this {street}, {name}.",
+  "key": "unless",
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "street": [
+    "street",
+    "building",
+    "block",
+    "area"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write unless or if.",
+  "source": "You'll pass the {test} ______ you study hard, {name}.",
+  "key": "if",
+  "why": "The condition is positive here: if.",
+  "slots": {
+   "test": [
+    "exam",
+    "test",
+    "driving test",
+    "quiz"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write unless or if.",
+  "source": "Call me ______ you need help with the {work}, {name}.",
+  "key": "if",
+  "why": "The condition is positive here: if.",
+  "slots": {
+   "work": [
+    "move",
+    "homework",
+    "garden",
+    "car"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write unless or if.",
+  "source": "We'll stay at home ______ it rains on {day}, {name}.",
+  "key": "if",
+  "why": "The condition is positive here: if.",
+  "slots": {
+   "day": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Monday"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write unless or if.",
+  "source": "I'll buy the {thing} ______ I get my salary on Friday, {name}.",
+  "key": "if",
+  "why": "The condition is positive here: if.",
+  "slots": {
+   "thing": [
+    "TV",
+    "sofa",
+    "laptop",
+    "phone"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write unless or if.",
+  "source": "The {pet} gets angry ______ you touch its food, {name}.",
+  "key": "if",
+  "why": "The condition is positive here: if.",
+  "slots": {
+   "pet": [
+    "cat",
+    "dog",
+    "puppy",
+    "kitten"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write unless or if.",
+  "source": "You can sit on the {seat} ______ you're tired, {name}.",
+  "key": "if",
+  "why": "The condition is positive here: if.",
+  "slots": {
+   "seat": [
+    "bench",
+    "sofa",
+    "chair",
+    "step"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with Unless.",
+  "source": "If you don't hurry, we'll miss the {bus}, {name}.",
+  "hint": "______, we'll miss the {bus}, {name}.",
+  "key": "Unless you hurry",
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "flight",
+    "start"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with Unless.",
+  "source": "If it doesn't rain, we'll have a picnic in the {place}, {name}.",
+  "hint": "______, we'll have a picnic in the {place}, {name}.",
+  "key": "Unless it rains",
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "place": [
+    "park",
+    "garden",
+    "mountains",
+    "yard"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with Unless.",
+  "source": "If Lola doesn't study, she won't pass the {test}, {name}.",
+  "hint": "______, she won't pass the {test}, {name}.",
+  "key": "Unless Lola studies",
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "test": [
+    "exam",
+    "test",
+    "driving test",
+    "quiz"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with Unless.",
+  "source": "If they don't invite me, I won't go to the {event}, {name}.",
+  "hint": "______, I won't go to the {event}, {name}.",
+  "key": "Unless they invite me",
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "dinner"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with Unless.",
+  "source": "If you don't water them, the {plant} will die, {name}.",
+  "hint": "______, the {plant} will die, {name}.",
+  "key": "Unless you water them",
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "plant": [
+    "flowers",
+    "roses",
+    "tomatoes",
+    "plants"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "We'll miss the {bus} unless you don't hurry, {name}.",
+  "hint": "We'll miss the {bus} unless ______, {name}.",
+  "key": "you hurry",
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "flight",
+    "start"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I won't go to the {event} unless they don't invite me, {name}.",
+  "hint": "I won't go to the {event} unless ______, {name}.",
+  "key": "they invite me",
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "dinner"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Lola won't pass the {test} unless she doesn't study, {name}.",
+  "hint": "Lola won't pass the {test} unless ______, {name}.",
+  "key": "she studies",
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "test": [
+    "exam",
+    "test",
+    "driving test",
+    "quiz"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "We'll start the {thing} at six unless Timur will be late, {name}.",
+  "hint": "We'll start the {thing} at six unless ______, {name}.",
+  "key": "Timur is late",
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "thing": [
+    "meeting",
+    "game",
+    "lesson",
+    "film"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The {pet} won't eat unless you will give it {food}.",
+  "hint": "The {pet} won't eat unless ______ it {food}.",
+  "key": "you give",
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "pet": [
+    "cat",
+    "dog",
+    "puppy",
+    "kitten"
+   ],
+   "food": [
+    "meat",
+    "fish",
+    "chicken",
+    "milk"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite as one sentence with unless.",
+  "source": "Take a coat. If you don't, you'll get cold in the {place}, {name}.",
+  "hint": "You'll get cold in the {place} ______ a coat, {name}.",
+  "key": "unless you take",
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "place": [
+    "mountains",
+    "park",
+    "desert",
+    "stadium"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite as one sentence with unless.",
+  "source": "Hurry up! If not, the {shop} will be closed, {name}.",
+  "hint": "The {shop} will be closed ______ up, {name}.",
+  "key": "unless you hurry",
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "shop": [
+    "bank",
+    "post office",
+    "pharmacy",
+    "bakery"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite as one sentence with unless.",
+  "source": "Book now. If you don't, there won't be any seats at the {event}, {name}.",
+  "hint": "There won't be any seats at the {event} ______ now, {name}.",
+  "key": "unless you book",
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "event": [
+    "concert",
+    "match",
+    "show",
+    "festival"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite as one sentence with unless.",
+  "source": "Say sorry. If you don't, your {who} will stay angry, {name}.",
+  "hint": "Your {who} will stay angry ______ sorry, {name}.",
+  "key": "unless you say",
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "who": [
+    "brother",
+    "mother",
+    "friend",
+    "teacher"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite as one sentence with unless.",
+  "source": "Turn left at the {place}. If you don't, you'll get lost, {name}.",
+  "hint": "You'll get lost ______ left at the {place}, {name}.",
+  "key": "unless you turn",
+  "why": "unless = if … not, with a positive present verb after it.",
+  "slots": {
+   "place": [
+    "bank",
+    "park",
+    "bazaar",
+    "school"
+   ],
+   "name": [
+    "Nodira",
+    "Akmal",
+    "Zarina",
+    "Sherzod"
+   ]
+  }
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about an exam with unless.",
+  "requiredElement": "You won't pass unless …",
+  "constraints": [
+   "exactly one sentence",
+   "unless + present simple",
+   "will / won't"
+  ]
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the weather and a plan. Use unless.",
+  "requiredElement": "We'll … unless it rains",
+  "constraints": [
+   "exactly one sentence",
+   "unless",
+   "a plan"
+  ]
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one rule for a place (a gym, a museum) with unless.",
+  "requiredElement": "You can't … unless you …",
+  "constraints": [
+   "exactly one sentence",
+   "can't … unless",
+   "present"
+  ]
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a habit with never … unless.",
+  "requiredElement": "I never … unless …",
+  "constraints": [
+   "exactly one sentence",
+   "never",
+   "unless + present simple"
+  ]
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with if … not, then the same idea with unless.",
+  "requiredElement": "if … not = unless",
+  "constraints": [
+   "exactly two sentences",
+   "if … not",
+   "unless"
+  ]
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence of warning to a friend with unless.",
+  "requiredElement": "You'll … unless you …",
+  "constraints": [
+   "exactly one sentence",
+   "unless",
+   "a warning"
+  ]
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with unless at the start.",
+  "requiredElement": "Unless …, …",
+  "constraints": [
+   "exactly one sentence",
+   "Unless first",
+   "a comma"
+  ]
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your phone or computer with unless.",
+  "requiredElement": "It won't work unless …",
+  "constraints": [
+   "exactly one sentence",
+   "unless",
+   "present simple after unless"
+  ]
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four rules for a new student at your school. Use unless in at least two.",
+  "targetGrammar": "unless for conditions",
+  "lookFor": [
+   "unless",
+   "can't / won't",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Give a friend three or four warnings before a mountain trip. Use unless.",
+  "targetGrammar": "You'll … unless …",
+  "lookFor": [
+   "unless",
+   "will / won't",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your plans for the weekend. What will you do unless something goes wrong? Write three or four sentences.",
+  "targetGrammar": "unless + present simple",
+  "lookFor": [
+   "unless",
+   "will",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences about your habits with never … unless and always … unless.",
+  "targetGrammar": "habits with unless",
+  "lookFor": [
+   "never … unless",
+   "unless + present simple",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "conditionals-wishes",
+  "branch": "linkers",
+  "topic": "unless",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences about learning English: what won't happen unless you work hard?",
+  "targetGrammar": "won't … unless",
+  "lookFor": [
+   "unless",
+   "won't",
+   "three or four sentences"
+  ]
+ }
+]

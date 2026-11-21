@@ -1,0 +1,1915 @@
+[
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Who ______ while you were in {city}, {name}?",
+  "options": [
+   "looked after your cat",
+   "looked your cat after",
+   "looked your cat after it",
+   "looked after for your cat"
+  ],
+  "key": 0,
+  "why": "look after is inseparable: looked after your cat.",
+  "slots": {
+   "city": [
+    "Dubai",
+    "Moscow",
+    "Istanbul",
+    "Seoul"
+   ],
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Grandma is ill. Can you ______ this {time}, {name}?",
+  "options": [
+   "look her after",
+   "look after she",
+   "look after for her",
+   "look after her"
+  ],
+  "key": 3,
+  "why": "Even with a pronoun, look after stays together: look after her.",
+  "slots": {
+   "time": [
+    "weekend",
+    "evening",
+    "afternoon",
+    "week"
+   ],
+   "name": [
+    "Zarina",
+    "Akmal",
+    "Gulnora",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I've lost my {thing}. I've been ______ all morning, {name}.",
+  "options": [
+   "looking for they",
+   "looking for to them",
+   "looking for them",
+   "looking them for"
+  ],
+  "key": 2,
+  "why": "look for is inseparable: looking for them.",
+  "slots": {
+   "thing": [
+    "keys",
+    "glasses",
+    "gloves",
+    "headphones"
+   ],
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {thing} is broken, but don't worry. We can ______, {name}.",
+  "options": [
+   "deal with for it",
+   "deal with it",
+   "deal it with",
+   "deal it with it"
+  ],
+  "key": 1,
+  "why": "deal with is inseparable: deal with it.",
+  "slots": {
+   "thing": [
+    "tap",
+    "door",
+    "heater",
+    "fridge"
+   ],
+   "name": [
+    "Zarina",
+    "Akmal",
+    "Gulnora",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "These are your {thing} for the exam. Let's ______ together, {name}.",
+  "options": [
+   "go through them",
+   "go them through",
+   "go through they",
+   "go through for them"
+  ],
+  "key": 0,
+  "why": "go through (= check one by one) is inseparable: go through them.",
+  "slots": {
+   "thing": [
+    "notes",
+    "answers",
+    "texts",
+    "questions"
+   ],
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ at the {place} yesterday. I hadn't seen him for years, {name}!",
+  "options": [
+   "ran him into",
+   "ran into he",
+   "ran into for him",
+   "ran into him"
+  ],
+  "key": 3,
+  "why": "run into (= meet by chance) is inseparable: ran into him.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "airport",
+    "gym",
+    "bank"
+   ],
+   "name": [
+    "Zarina",
+    "Akmal",
+    "Gulnora",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I was cleaning the {room} and I ______ under the bed, {name}. An old photo!",
+  "options": [
+   "came it across it",
+   "came across for it",
+   "came across it",
+   "came it across"
+  ],
+  "key": 2,
+  "why": "come across (= find by chance) is inseparable: came across it.",
+  "slots": {
+   "room": [
+    "flat",
+    "bedroom",
+    "attic",
+    "garage"
+   ],
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My sister really ______. They look the same as our {who}, {name}.",
+  "options": [
+   "takes after for her",
+   "takes after her",
+   "takes her after",
+   "takes after she"
+  ],
+  "key": 1,
+  "why": "take after (= look or act like) is inseparable: takes after her.",
+  "slots": {
+   "who": [
+    "mum",
+    "grandma",
+    "aunt",
+    "mother"
+   ],
+   "name": [
+    "Zarina",
+    "Akmal",
+    "Gulnora",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "He had a bad cold, but he'll ______ soon, {name}. He's {state}.",
+  "options": [
+   "get over it",
+   "get it over",
+   "get it over it",
+   "get over for it"
+  ],
+  "key": 0,
+  "why": "get over (= recover from) is inseparable: get over it.",
+  "slots": {
+   "state": [
+    "young",
+    "strong",
+    "resting",
+    "taking medicine"
+   ],
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Don't worry about the {thing}, {name}. You can ______.",
+  "options": [
+   "count me on",
+   "count on I",
+   "count on for me",
+   "count on me"
+  ],
+  "key": 3,
+  "why": "count on (= trust) is inseparable: count on me.",
+  "slots": {
+   "thing": [
+    "move",
+    "party",
+    "food",
+    "trip"
+   ],
+   "name": [
+    "Zarina",
+    "Akmal",
+    "Gulnora",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {who} said the problem was strange and they are ______ now, {name}.",
+  "options": [
+   "looking it into it",
+   "looking into for it",
+   "looking into it",
+   "looking it into"
+  ],
+  "key": 2,
+  "why": "look into (= study a problem) is inseparable: looking into it.",
+  "slots": {
+   "who": [
+    "bank",
+    "school",
+    "shop",
+    "company"
+   ],
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The manager got three {thing} and ______ quickly, {name}.",
+  "options": [
+   "dealt with for them",
+   "dealt with them",
+   "dealt them with",
+   "dealt with they"
+  ],
+  "key": 1,
+  "why": "deal with is inseparable: dealt with them.",
+  "slots": {
+   "thing": [
+    "complaints",
+    "calls",
+    "emails",
+    "letters"
+   ],
+   "name": [
+    "Zarina",
+    "Akmal",
+    "Gulnora",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "It was a hard time for the {who}, but they ______ together, {name}.",
+  "options": [
+   "went through it",
+   "went it through",
+   "went it through it",
+   "went through for it"
+  ],
+  "key": 0,
+  "why": "go through (= live through) is inseparable: went through it.",
+  "slots": {
+   "who": [
+    "family",
+    "team",
+    "village",
+    "class"
+   ],
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Who will ______ when you're at the {place}, {name}?",
+  "options": [
+   "look the children after",
+   "look the children after it",
+   "look after for the children",
+   "look after the children"
+  ],
+  "key": 3,
+  "why": "look after + noun: the noun goes after the particle too.",
+  "slots": {
+   "place": [
+    "hospital",
+    "wedding",
+    "office",
+    "airport"
+   ],
+   "name": [
+    "Zarina",
+    "Akmal",
+    "Gulnora",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Have you seen my little brother? Mum is ______ in the {place}, {name}.",
+  "options": [
+   "looking for he",
+   "looking for to him",
+   "looking for him",
+   "looking him for"
+  ],
+  "key": 2,
+  "why": "look for is inseparable: looking for him.",
+  "slots": {
+   "place": [
+    "yard",
+    "park",
+    "street",
+    "shop"
+   ],
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Excuse me, where should I ______ for the {place}, {name}?",
+  "options": [
+   "get off for the bus",
+   "get off the bus",
+   "get the bus off",
+   "get the bus off it"
+  ],
+  "key": 1,
+  "why": "get off + the bus.",
+  "slots": {
+   "place": [
+    "museum",
+    "hospital",
+    "station",
+    "university"
+   ],
+   "name": [
+    "Zarina",
+    "Akmal",
+    "Gulnora",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We ______ outside the {place}. Our old neighbours, {name}!",
+  "options": [
+   "ran into them",
+   "ran them into",
+   "ran into they",
+   "ran into for them"
+  ],
+  "key": 0,
+  "why": "run into is inseparable: ran into them.",
+  "slots": {
+   "place": [
+    "cinema",
+    "theatre",
+    "café",
+    "bank"
+   ],
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ on the internet. They are very cheap {thing}, {name}.",
+  "options": [
+   "came them across",
+   "came across they",
+   "came across for them",
+   "came across them"
+  ],
+  "key": 3,
+  "why": "come across is inseparable: came across them.",
+  "slots": {
+   "thing": [
+    "shoes",
+    "books",
+    "tickets",
+    "flights"
+   ],
+   "name": [
+    "Zarina",
+    "Akmal",
+    "Gulnora",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My son ______. He loves football like his {who}, {name}.",
+  "options": [
+   "takes after he",
+   "takes after for him",
+   "takes after him",
+   "takes him after"
+  ],
+  "key": 2,
+  "why": "take after is inseparable: takes after him.",
+  "slots": {
+   "who": [
+    "dad",
+    "father",
+    "grandpa",
+    "uncle"
+   ],
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You can always ______, {name}. We're your {who}.",
+  "options": [
+   "count on for us",
+   "count on us",
+   "count us on",
+   "count on we"
+  ],
+  "key": 1,
+  "why": "count on is inseparable: count on us.",
+  "slots": {
+   "who": [
+    "friends",
+    "family",
+    "neighbours",
+    "brothers"
+   ],
+   "name": [
+    "Zarina",
+    "Akmal",
+    "Gulnora",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put the two words in brackets in the gaps, in the right order.",
+  "source": "My little brother is sick. Can you look ______ ______ (him / after) on {day}, {name}?",
+  "key": [
+   "after",
+   "him"
+  ],
+  "why": "look after him: the pronoun goes after the particle.",
+  "slots": {
+   "day": [
+    "Monday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put the two words in brackets in the gaps, in the right order.",
+  "source": "I dropped my {thing} somewhere. I'm looking ______ ______ (it / for), {name}.",
+  "key": [
+   "for",
+   "it"
+  ],
+  "why": "look for it: inseparable.",
+  "slots": {
+   "thing": [
+    "ring",
+    "key",
+    "phone",
+    "wallet"
+   ],
+   "name": [
+    "Zarina",
+    "Akmal",
+    "Gulnora",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put the two words in brackets in the gaps, in the right order.",
+  "source": "The {bus} is leaving! Get ______ ______ (on / it) now, {name}!",
+  "key": [
+   "on",
+   "it"
+  ],
+  "why": "get on it: inseparable.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "tram",
+    "minibus"
+   ],
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put the two words in brackets in the gaps, in the right order.",
+  "source": "When the {bus} stops, get ______ ______ (it / off) and wait for me, {name}.",
+  "key": [
+   "off",
+   "it"
+  ],
+  "why": "get off it: inseparable.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "tram",
+    "minibus"
+   ],
+   "name": [
+    "Zarina",
+    "Akmal",
+    "Gulnora",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put the two words in brackets in the gaps, in the right order.",
+  "source": "I ran ______ ______ (her / into) at the {place} last week, {name}.",
+  "key": [
+   "into",
+   "her"
+  ],
+  "why": "ran into her: inseparable.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "station",
+    "cinema",
+    "bank"
+   ],
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put the two words in brackets in the gaps, in the right order.",
+  "source": "This recipe is great. I came ______ ______ (across / it) in an old {thing}, {name}.",
+  "key": [
+   "across",
+   "it"
+  ],
+  "why": "came across it: inseparable.",
+  "slots": {
+   "thing": [
+    "book",
+    "magazine",
+    "notebook",
+    "newspaper"
+   ],
+   "name": [
+    "Zarina",
+    "Akmal",
+    "Gulnora",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put the two words in brackets in the gaps, in the right order.",
+  "source": "Your daughter really takes ______ ______ (her / after). She has her {who}'s eyes, {name}.",
+  "key": [
+   "after",
+   "her"
+  ],
+  "why": "takes after her: inseparable.",
+  "slots": {
+   "who": [
+    "mother",
+    "grandma",
+    "aunt",
+    "mum"
+   ],
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put the two words in brackets in the gaps, in the right order.",
+  "source": "It was a bad {thing}, but she got ______ ______ (it / over) quickly, {name}.",
+  "key": [
+   "over",
+   "it"
+  ],
+  "why": "got over it: inseparable.",
+  "slots": {
+   "thing": [
+    "cold",
+    "flu",
+    "day",
+    "week"
+   ],
+   "name": [
+    "Zarina",
+    "Akmal",
+    "Gulnora",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put the two words in brackets in the gaps, in the right order.",
+  "source": "My {who} is always on time. You can count ______ ______ (him / on), {name}.",
+  "key": [
+   "on",
+   "him"
+  ],
+  "why": "count on him: inseparable.",
+  "slots": {
+   "who": [
+    "brother",
+    "driver",
+    "uncle",
+    "son"
+   ],
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put the two words in brackets in the gaps, in the right order.",
+  "source": "The bank is looking ______ ______ (into / it) and will call you back {place}, {name}.",
+  "key": [
+   "into",
+   "it"
+  ],
+  "why": "looking into it: inseparable.",
+  "slots": {
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
+   ],
+   "place": [
+    "today",
+    "this week",
+    "soon",
+    "right now"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put the two words in brackets in the gaps, in the right order.",
+  "source": "Don't worry about the broken {thing}. Dad will deal ______ ______ (it / with), {name}.",
+  "key": [
+   "with",
+   "it"
+  ],
+  "why": "deal with it: inseparable.",
+  "slots": {
+   "thing": [
+    "window",
+    "door",
+    "tap",
+    "fence"
+   ],
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put the two words in brackets in the gaps, in the right order.",
+  "source": "Who looks ______ ______ (them / after) when you're at work, {name}? Your {who}?",
+  "key": [
+   "after",
+   "them"
+  ],
+  "why": "looks after them: inseparable.",
+  "slots": {
+   "who": [
+    "mum",
+    "neighbour",
+    "sister",
+    "grandma"
+   ],
+   "name": [
+    "Zarina",
+    "Akmal",
+    "Gulnora",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put the two words in brackets in the gaps, in the right order.",
+  "source": "Have you seen my {who}? I'm looking ______ ______ (for / her), {name}.",
+  "key": [
+   "for",
+   "her"
+  ],
+  "why": "looking for her: inseparable.",
+  "slots": {
+   "who": [
+    "sister",
+    "daughter",
+    "mum",
+    "aunt"
+   ],
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put the two words in brackets in the gaps, in the right order.",
+  "source": "We ran ______ ______ (them / into) at the {event}. What a surprise, {name}!",
+  "key": [
+   "into",
+   "them"
+  ],
+  "why": "ran into them: inseparable.",
+  "slots": {
+   "event": [
+    "wedding",
+    "concert",
+    "match",
+    "party"
+   ],
+   "name": [
+    "Zarina",
+    "Akmal",
+    "Gulnora",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put the two words in brackets in the gaps, in the right order.",
+  "source": "The exam was hard, but we went ______ ______ (it / through) together, {name}. It was in {month}.",
+  "key": [
+   "through",
+   "it"
+  ],
+  "why": "went through it: inseparable.",
+  "slots": {
+   "month": [
+    "May",
+    "June",
+    "January",
+    "December"
+   ],
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put the two words in brackets in the gaps, in the right order.",
+  "source": "These old letters are my grandpa's. I came ______ ______ (them / across) in the {place}, {name}.",
+  "key": [
+   "across",
+   "them"
+  ],
+  "why": "came across them: inseparable.",
+  "slots": {
+   "place": [
+    "attic",
+    "garage",
+    "cupboard",
+    "basement"
+   ],
+   "name": [
+    "Zarina",
+    "Akmal",
+    "Gulnora",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put the two words in brackets in the gaps, in the right order.",
+  "source": "We have a new puppy. My son looks ______ ______ (after / it) every {time}, {name}.",
+  "key": [
+   "after",
+   "it"
+  ],
+  "why": "looks after it: inseparable.",
+  "slots": {
+   "time": [
+    "day",
+    "morning",
+    "evening",
+    "weekend"
+   ],
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put the two words in brackets in the gaps, in the right order.",
+  "source": "If you need help with the {thing}, you can count ______ ______ (us / on), {name}.",
+  "key": [
+   "on",
+   "us"
+  ],
+  "why": "count on us: inseparable.",
+  "slots": {
+   "thing": [
+    "move",
+    "wedding",
+    "garden",
+    "party"
+   ],
+   "name": [
+    "Zarina",
+    "Akmal",
+    "Gulnora",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put the two words in brackets in the gaps, in the right order.",
+  "source": "He was very sad when his best friend moved to {city}, but he got ______ ______ (it / over) in the end, {name}.",
+  "key": [
+   "over",
+   "it"
+  ],
+  "why": "got over it: inseparable.",
+  "slots": {
+   "city": [
+    "Moscow",
+    "Seoul",
+    "London",
+    "Dubai"
+   ],
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Put the two words in brackets in the gaps, in the right order.",
+  "source": "There were problems with the {thing}, but the manager dealt ______ ______ (with / them), {name}.",
+  "key": [
+   "with",
+   "them"
+  ],
+  "why": "dealt with them: inseparable.",
+  "slots": {
+   "thing": [
+    "tickets",
+    "rooms",
+    "orders",
+    "bills"
+   ],
+   "name": [
+    "Zarina",
+    "Akmal",
+    "Gulnora",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with the pronoun in brackets instead of the noun. One word in each gap.",
+  "source": "(her) I ran into my old teacher at the {place}, {name}.",
+  "hint": "I ran ______ ______ at the {place}, {name}.",
+  "key": [
+   "into",
+   "her"
+  ],
+  "why": "ran into her: the pronoun goes after the particle.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "airport",
+    "bank",
+    "station"
+   ],
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with the pronoun in brackets instead of the noun. One word in each gap.",
+  "source": "(it) Who looks after your grandparents' {animal}, {name}?",
+  "hint": "Who looks ______ ______, {name}?",
+  "key": [
+   "after",
+   "it"
+  ],
+  "why": "looks after it: inseparable.",
+  "slots": {
+   "animal": [
+    "dog",
+    "cow",
+    "garden",
+    "cat"
+   ],
+   "name": [
+    "Zarina",
+    "Akmal",
+    "Gulnora",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with the pronoun in brackets instead of the noun. One word in each gap.",
+  "source": "(it) We got on the last {bus} just in time, {name}.",
+  "hint": "We got ______ ______ just in time, {name}.",
+  "key": [
+   "on",
+   "it"
+  ],
+  "why": "got on it: inseparable.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "tram",
+    "minibus"
+   ],
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with the pronoun in brackets instead of the noun. One word in each gap.",
+  "source": "(them) I came across these {thing} in a box, {name}.",
+  "hint": "I came ______ ______ in a box, {name}.",
+  "key": [
+   "across",
+   "them"
+  ],
+  "why": "came across them: inseparable.",
+  "slots": {
+   "thing": [
+    "photos",
+    "letters",
+    "coins",
+    "stamps"
+   ],
+   "name": [
+    "Zarina",
+    "Akmal",
+    "Gulnora",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with the pronoun in brackets instead of the noun. One word in each gap.",
+  "source": "(him) Are you still looking for your {who}, {name}?",
+  "hint": "Are you still looking ______ ______, {name}?",
+  "key": [
+   "for",
+   "him"
+  ],
+  "why": "looking for him: inseparable.",
+  "slots": {
+   "who": [
+    "brother",
+    "son",
+    "dad",
+    "uncle"
+   ],
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the word order. One word in each gap.",
+  "source": "Can you look her after on {day}, {name}?",
+  "hint": "Can you look ______ ______ on {day}, {name}?",
+  "key": [
+   "after",
+   "her"
+  ],
+  "why": "look after her, never look her after.",
+  "slots": {
+   "day": [
+    "Monday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "name": [
+    "Zarina",
+    "Akmal",
+    "Gulnora",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the word order. One word in each gap.",
+  "source": "I'm looking them for. Have you seen my {thing}, {name}?",
+  "hint": "I'm looking ______ ______. Have you seen my {thing}, {name}?",
+  "key": [
+   "for",
+   "them"
+  ],
+  "why": "looking for them, never looking them for.",
+  "slots": {
+   "thing": [
+    "keys",
+    "glasses",
+    "socks",
+    "gloves"
+   ],
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the word order. One word in each gap.",
+  "source": "I ran him into at the {place}, {name}.",
+  "hint": "I ran ______ ______ at the {place}, {name}.",
+  "key": [
+   "into",
+   "him"
+  ],
+  "why": "ran into him, never ran him into.",
+  "slots": {
+   "place": [
+    "gym",
+    "café",
+    "bazaar",
+    "airport"
+   ],
+   "name": [
+    "Zarina",
+    "Akmal",
+    "Gulnora",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the word order. One word in each gap.",
+  "source": "Don't worry about the {thing}. I'll deal it with, {name}.",
+  "hint": "Don't worry about the {thing}. I'll deal ______ ______, {name}.",
+  "key": [
+   "with",
+   "it"
+  ],
+  "why": "deal with it, never deal it with.",
+  "slots": {
+   "thing": [
+    "bill",
+    "noise",
+    "car",
+    "letter"
+   ],
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the word order. One word in each gap.",
+  "source": "My daughter takes me after. She loves {thing}, {name}.",
+  "hint": "My daughter takes ______ ______. She loves {thing}, {name}.",
+  "key": [
+   "after",
+   "me"
+  ],
+  "why": "takes after me, never takes me after.",
+  "slots": {
+   "thing": [
+    "books",
+    "music",
+    "cooking",
+    "maths"
+   ],
+   "name": [
+    "Zarina",
+    "Akmal",
+    "Gulnora",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say it with the phrasal verb. One word in each gap.",
+  "source": "(take after) My brother is just like our dad, {name}. He's tall and {adj}.",
+  "hint": "My brother takes ______ ______ dad, {name}. He's tall and {adj}.",
+  "key": [
+   "after",
+   "our"
+  ],
+  "why": "be like = take after; the noun comes after the particle.",
+  "slots": {
+   "adj": [
+    "funny",
+    "quiet",
+    "kind",
+    "clever"
+   ],
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say it with the phrasal verb. One word in each gap.",
+  "source": "(run into) I met my cousin by chance at the {place}, {name}.",
+  "hint": "I ran ______ ______ cousin at the {place}, {name}.",
+  "key": [
+   "into",
+   "my"
+  ],
+  "why": "meet by chance = run into + the person.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "airport",
+    "metro",
+    "theatre"
+   ],
+   "name": [
+    "Zarina",
+    "Akmal",
+    "Gulnora",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say it with the phrasal verb. One word in each gap.",
+  "source": "(come across) She found an old {thing} by chance in the cupboard, {name}.",
+  "hint": "She came ______ ______ old {thing} in the cupboard, {name}.",
+  "key": [
+   "across",
+   "an"
+  ],
+  "why": "find by chance = come across + the thing.",
+  "slots": {
+   "thing": [
+    "album",
+    "letter",
+    "envelope",
+    "atlas"
+   ],
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say it with the phrasal verb. One word in each gap.",
+  "source": "(get over) It took my dad a month to get better after the {thing}, {name}.",
+  "hint": "It took my dad a month to get ______ ______ {thing}, {name}.",
+  "key": [
+   "over",
+   "the"
+  ],
+  "why": "get better after = get over + the illness.",
+  "slots": {
+   "thing": [
+    "flu",
+    "operation",
+    "accident",
+    "cold"
+   ],
+   "name": [
+    "Zarina",
+    "Akmal",
+    "Gulnora",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say it with the phrasal verb. One word in each gap.",
+  "source": "(look after) Who takes care of the {animal} when you're away, {name}?",
+  "hint": "Who looks ______ ______ {animal} when you're away, {name}?",
+  "key": [
+   "after",
+   "the"
+  ],
+  "why": "take care of = look after + the noun.",
+  "slots": {
+   "animal": [
+    "dog",
+    "cat",
+    "garden",
+    "flat"
+   ],
+   "name": [
+    "Feruza",
+    "Sardor",
+    "Dilnoza",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with look after + a pronoun.",
+  "requiredElement": "look after him / her / it",
+  "constraints": [
+   "exactly one sentence",
+   "look after",
+   "a pronoun after the particle"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with look for + a pronoun.",
+  "requiredElement": "looking for it / them",
+  "constraints": [
+   "exactly one sentence",
+   "look for",
+   "a pronoun after the particle"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about someone you ran into by chance.",
+  "requiredElement": "I ran into …",
+  "constraints": [
+   "exactly one sentence",
+   "run into",
+   "past"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about someone in your family you take after.",
+  "requiredElement": "I take after …",
+  "constraints": [
+   "exactly one sentence",
+   "take after",
+   "a person"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you came across by chance.",
+  "requiredElement": "I came across …",
+  "constraints": [
+   "exactly one sentence",
+   "come across",
+   "past"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with get on or get off + it.",
+  "requiredElement": "get on it / get off it",
+  "constraints": [
+   "exactly one sentence",
+   "get on / off",
+   "it after the particle"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with count on + a pronoun.",
+  "requiredElement": "You can count on me",
+  "constraints": [
+   "exactly one sentence",
+   "count on",
+   "a pronoun"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with get over + an illness or a problem.",
+  "requiredElement": "… got over …",
+  "constraints": [
+   "exactly one sentence",
+   "get over",
+   "past"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences about who looks after the children or pets in your family.",
+  "targetGrammar": "look after + pronoun",
+  "lookFor": [
+   "look after",
+   "a pronoun object",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a surprise meeting with someone you hadn't seen for years. Write three or four sentences.",
+  "targetGrammar": "run into / come across",
+  "lookFor": [
+   "run into",
+   "a pronoun object",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences about who you take after in your family.",
+  "targetGrammar": "take after",
+  "lookFor": [
+   "take after",
+   "a pronoun object",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a time you lost something and looked for it. Write three or four sentences.",
+  "targetGrammar": "look for it / come across it",
+  "lookFor": [
+   "look for",
+   "a pronoun object",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "phrasal-verbs",
+  "topic": "inseparable",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences about a friend you can always count on.",
+  "targetGrammar": "count on him / her",
+  "lookFor": [
+   "count on",
+   "a pronoun object",
+   "three or four sentences"
+  ]
+ }
+]

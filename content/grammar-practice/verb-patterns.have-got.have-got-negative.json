@@ -1,0 +1,1816 @@
+[
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "They haven't ______ any money for the {thing}, {name}.",
+  "options": [
+   "got",
+   "gets",
+   "getting",
+   "have"
+  ],
+  "key": 0,
+  "why": "The negative is haven't got or hasn't got: got never changes.",
+  "slots": {
+   "thing": [
+    "bus",
+    "tickets",
+    "cinema",
+    "taxi"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I haven't ______ a {thing} today, {name}.",
+  "options": [
+   "gets",
+   "getting",
+   "have",
+   "got"
+  ],
+  "key": 3,
+  "why": "The negative is haven't got or hasn't got: got never changes.",
+  "slots": {
+   "thing": [
+    "pen",
+    "ruler",
+    "pencil",
+    "charger"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} hasn't ______ a {pet}.",
+  "options": [
+   "getting",
+   "has",
+   "got",
+   "gets"
+  ],
+  "key": 2,
+  "why": "The negative is haven't got or hasn't got: got never changes.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "pet": [
+    "dog",
+    "cat",
+    "parrot",
+    "rabbit"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We haven't ______ any {food} at home, {who}.",
+  "options": [
+   "have",
+   "got",
+   "gets",
+   "getting"
+  ],
+  "key": 1,
+  "why": "The negative is haven't got or hasn't got: got never changes.",
+  "slots": {
+   "food": [
+    "milk",
+    "bread",
+    "eggs",
+    "sugar"
+   ],
+   "who": [
+    "Mum",
+    "Dad",
+    "Grandma",
+    "Aziz"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our {home} hasn't ______ a {thing}.",
+  "options": [
+   "got",
+   "gets",
+   "getting",
+   "has"
+  ],
+  "key": 0,
+  "why": "The negative is haven't got or hasn't got: got never changes.",
+  "slots": {
+   "home": [
+    "flat",
+    "house",
+    "new flat",
+    "old house"
+   ],
+   "thing": [
+    "balcony",
+    "lift",
+    "garden",
+    "garage"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My grandparents haven't ______ a {thing} in their {place}.",
+  "options": [
+   "gets",
+   "getting",
+   "have",
+   "got"
+  ],
+  "key": 3,
+  "why": "The negative is haven't got or hasn't got: got never changes.",
+  "slots": {
+   "thing": [
+    "TV",
+    "computer",
+    "microwave",
+    "washing machine"
+   ],
+   "place": [
+    "flat",
+    "house",
+    "village house",
+    "old house"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{who} hasn't ______ a {thing}, so he uses mine.",
+  "options": [
+   "getting",
+   "has",
+   "got",
+   "gets"
+  ],
+  "key": 2,
+  "why": "The negative is haven't got or hasn't got: got never changes.",
+  "slots": {
+   "who": [
+    "My brother",
+    "My cousin",
+    "Aziz",
+    "Timur"
+   ],
+   "thing": [
+    "phone",
+    "laptop",
+    "bike",
+    "camera"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You haven't ______ your {thing}, {name}! Go back and get it.",
+  "options": [
+   "have",
+   "got",
+   "gets",
+   "getting"
+  ],
+  "key": 1,
+  "why": "The negative is haven't got or hasn't got: got never changes.",
+  "slots": {
+   "thing": [
+    "bag",
+    "phone",
+    "ticket",
+    "coat"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This {room} hasn't ______ a {thing}.",
+  "options": [
+   "got",
+   "gets",
+   "getting",
+   "has"
+  ],
+  "key": 0,
+  "why": "The negative is haven't got or hasn't got: got never changes.",
+  "slots": {
+   "room": [
+    "room",
+    "classroom",
+    "kitchen",
+    "bedroom"
+   ],
+   "thing": [
+    "window",
+    "clock",
+    "lamp",
+    "table"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Sorry, I haven't ______ time {when}, {name}.",
+  "options": [
+   "gets",
+   "getting",
+   "have",
+   "got"
+  ],
+  "key": 3,
+  "why": "The negative is haven't got or hasn't got: got never changes.",
+  "slots": {
+   "when": [
+    "today",
+    "now",
+    "this evening",
+    "on Saturday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} hasn't ______ any {sib}.",
+  "options": [
+   "getting",
+   "has",
+   "got",
+   "gets"
+  ],
+  "key": 2,
+  "why": "The negative is haven't got or hasn't got: got never changes.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "sib": [
+    "brothers",
+    "sisters",
+    "cousins",
+    "aunts"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The children haven't ______ their {thing} with them, {who}.",
+  "options": [
+   "have",
+   "got",
+   "gets",
+   "getting"
+  ],
+  "key": 1,
+  "why": "The negative is haven't got or hasn't got: got never changes.",
+  "slots": {
+   "thing": [
+    "books",
+    "pens",
+    "coats",
+    "hats"
+   ],
+   "who": [
+    "Ms Ivanova",
+    "Mr Karimov",
+    "teacher",
+    "Mrs Karimova"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} ______ got a {thing}. She takes the bus.",
+  "options": [
+   "hasn't",
+   "haven't",
+   "doesn't",
+   "isn't"
+  ],
+  "key": 0,
+  "why": "With he, she, it or one person or thing, the negative is hasn't got.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "thing": [
+    "bike",
+    "car",
+    "scooter",
+    "motorbike"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We ______ got a car, so we take the {bus} to {place}.",
+  "options": [
+   "hasn't",
+   "don't",
+   "aren't",
+   "haven't"
+  ],
+  "key": 3,
+  "why": "With I, you, we, they or more than one person, the negative is haven't got.",
+  "slots": {
+   "bus": [
+    "bus",
+    "metro",
+    "minibus",
+    "tram"
+   ],
+   "place": [
+    "work",
+    "school",
+    "the bazaar",
+    "the park"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {who} ______ got a garden. He lives in a flat in {city}.",
+  "options": [
+   "doesn't",
+   "isn't",
+   "hasn't",
+   "haven't"
+  ],
+  "key": 2,
+  "why": "With he, she, it or one person or thing, the negative is hasn't got.",
+  "slots": {
+   "who": [
+    "uncle",
+    "grandpa",
+    "cousin",
+    "brother"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Tashkent",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ got any {food}. Can I have some of yours, {name}?",
+  "options": [
+   "am not",
+   "haven't",
+   "hasn't",
+   "don't"
+  ],
+  "key": 1,
+  "why": "With I, you, we, they or more than one person, the negative is haven't got.",
+  "slots": {
+   "food": [
+    "water",
+    "juice",
+    "bread",
+    "tea"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our {school} ______ got a pool, but it has a big {place}.",
+  "options": [
+   "hasn't",
+   "haven't",
+   "doesn't",
+   "isn't"
+  ],
+  "key": 0,
+  "why": "With he, she, it or one person or thing, the negative is hasn't got.",
+  "slots": {
+   "school": [
+    "school",
+    "college",
+    "new school",
+    "old school"
+   ],
+   "place": [
+    "gym",
+    "garden",
+    "library",
+    "football pitch"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "They ______ got any {pets}. They live in a small {home}.",
+  "options": [
+   "hasn't",
+   "don't",
+   "aren't",
+   "haven't"
+  ],
+  "key": 3,
+  "why": "With I, you, we, they or more than one person, the negative is haven't got.",
+  "slots": {
+   "pets": [
+    "cats",
+    "dogs",
+    "birds",
+    "rabbits"
+   ],
+   "home": [
+    "flat",
+    "room",
+    "house",
+    "flat in the city"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {room} ______ got a window. It's very dark, {name}.",
+  "options": [
+   "doesn't",
+   "isn't",
+   "hasn't",
+   "haven't"
+  ],
+  "key": 2,
+  "why": "With he, she, it or one person or thing, the negative is hasn't got.",
+  "slots": {
+   "room": [
+    "bathroom",
+    "hall",
+    "storeroom",
+    "basement"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {who} ______ got a car. They walk to {place}.",
+  "options": [
+   "aren't",
+   "haven't",
+   "hasn't",
+   "don't"
+  ],
+  "key": 1,
+  "why": "With I, you, we, they or more than one person, the negative is haven't got.",
+  "slots": {
+   "who": [
+    "parents",
+    "grandparents",
+    "neighbours",
+    "cousins"
+   ],
+   "place": [
+    "work",
+    "the bazaar",
+    "the park",
+    "the shops"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write haven't got or hasn't got.",
+  "source": "I ______ a {thing} with me, {name}.",
+  "key": "haven't got",
+  "why": "With I, you, we, they or more than one person, the negative is haven't got.",
+  "slots": {
+   "thing": [
+    "pen",
+    "ruler",
+    "phone",
+    "charger"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write haven't got or hasn't got.",
+  "source": "We ______ any {food} in the fridge, {who}.",
+  "key": "haven't got",
+  "why": "With I, you, we, they or more than one person, the negative is haven't got.",
+  "slots": {
+   "food": [
+    "milk",
+    "eggs",
+    "cheese",
+    "juice"
+   ],
+   "who": [
+    "Mum",
+    "Dad",
+    "Grandma",
+    "Aziz"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write haven't got or hasn't got.",
+  "source": "They ______ a car, so they take the {bus} to {place}.",
+  "key": "haven't got",
+  "why": "With I, you, we, they or more than one person, the negative is haven't got.",
+  "slots": {
+   "bus": [
+    "bus",
+    "metro",
+    "minibus",
+    "tram"
+   ],
+   "place": [
+    "work",
+    "school",
+    "the bazaar",
+    "the park"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write haven't got or hasn't got.",
+  "source": "My {who} ______ a TV in their {room}.",
+  "key": "haven't got",
+  "why": "With I, you, we, they or more than one person, the negative is haven't got.",
+  "slots": {
+   "who": [
+    "parents",
+    "grandparents",
+    "cousins",
+    "neighbours"
+   ],
+   "room": [
+    "bedroom",
+    "flat",
+    "kitchen",
+    "house"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write haven't got or hasn't got.",
+  "source": "You ______ much time, {name}. The {bus} leaves soon.",
+  "key": "haven't got",
+  "why": "With I, you, we, they or more than one person, the negative is haven't got.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "bus": [
+    "bus",
+    "train",
+    "minibus",
+    "tram"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write haven't got or hasn't got.",
+  "source": "The twins ______ their {thing} today, {who}.",
+  "key": "haven't got",
+  "why": "With I, you, we, they or more than one person, the negative is haven't got.",
+  "slots": {
+   "thing": [
+    "books",
+    "pens",
+    "bags",
+    "coats"
+   ],
+   "who": [
+    "Ms Ivanova",
+    "Mr Karimov",
+    "teacher",
+    "Mrs Karimova"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write haven't got or hasn't got.",
+  "source": "I ______ any {sib}, {name}.",
+  "key": "haven't got",
+  "why": "With I, you, we, they or more than one person, the negative is haven't got.",
+  "slots": {
+   "sib": [
+    "brothers",
+    "sisters",
+    "cousins",
+    "aunts"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write haven't got or hasn't got.",
+  "source": "Sorry, we ______ any {food} today, {name}.",
+  "key": "haven't got",
+  "why": "With I, you, we, they or more than one person, the negative is haven't got.",
+  "slots": {
+   "food": [
+    "bread",
+    "milk",
+    "apples",
+    "eggs"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write haven't got or hasn't got.",
+  "source": "My friends ______ a {pet}. Their {home} is very small.",
+  "key": "haven't got",
+  "why": "With I, you, we, they or more than one person, the negative is haven't got.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "parrot",
+    "rabbit"
+   ],
+   "home": [
+    "flat",
+    "room",
+    "house",
+    "garden"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write haven't got or hasn't got.",
+  "source": "We ______ English on {day}, {name}.",
+  "key": "haven't got",
+  "why": "With I, you, we, they or more than one person, the negative is haven't got.",
+  "slots": {
+   "day": [
+    "Mondays",
+    "Fridays",
+    "Wednesdays",
+    "Saturdays"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write haven't got or hasn't got.",
+  "source": "{name} ______ a {thing}. She uses her {who}'s.",
+  "key": "hasn't got",
+  "why": "With he, she, it or one person or thing, the negative is hasn't got.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "thing": [
+    "laptop",
+    "bike",
+    "phone",
+    "camera"
+   ],
+   "who": [
+    "mum",
+    "sister",
+    "aunt",
+    "friend"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write haven't got or hasn't got.",
+  "source": "Our {home} ______ a {thing}.",
+  "key": "hasn't got",
+  "why": "With he, she, it or one person or thing, the negative is hasn't got.",
+  "slots": {
+   "home": [
+    "flat",
+    "house",
+    "new flat",
+    "old house"
+   ],
+   "thing": [
+    "balcony",
+    "garden",
+    "lift",
+    "garage"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write haven't got or hasn't got.",
+  "source": "My {who} ______ a car. He takes the {bus}.",
+  "key": "hasn't got",
+  "why": "With he, she, it or one person or thing, the negative is hasn't got.",
+  "slots": {
+   "who": [
+    "uncle",
+    "grandpa",
+    "brother",
+    "dad"
+   ],
+   "bus": [
+    "bus",
+    "metro",
+    "minibus",
+    "tram"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write haven't got or hasn't got.",
+  "source": "This {room} ______ a {thing}.",
+  "key": "hasn't got",
+  "why": "With he, she, it or one person or thing, the negative is hasn't got.",
+  "slots": {
+   "room": [
+    "classroom",
+    "room",
+    "kitchen",
+    "hall"
+   ],
+   "thing": [
+    "clock",
+    "lamp",
+    "window",
+    "TV"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write haven't got or hasn't got.",
+  "source": "{name} ______ any {sib}.",
+  "key": "hasn't got",
+  "why": "With he, she, it or one person or thing, the negative is hasn't got.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "sib": [
+    "brothers",
+    "sisters",
+    "cousins",
+    "aunts"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write haven't got or hasn't got.",
+  "source": "Our {area} ______ a {place}.",
+  "key": "hasn't got",
+  "why": "With he, she, it or one person or thing, the negative is hasn't got.",
+  "slots": {
+   "area": [
+    "village",
+    "street",
+    "area",
+    "town"
+   ],
+   "place": [
+    "hospital",
+    "cinema",
+    "bank",
+    "library"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write haven't got or hasn't got.",
+  "source": "My {dev} ______ a {thing}.",
+  "key": "hasn't got",
+  "why": "With he, she, it or one person or thing, the negative is hasn't got.",
+  "slots": {
+   "dev": [
+    "phone",
+    "laptop",
+    "tablet",
+    "computer"
+   ],
+   "thing": [
+    "camera",
+    "case",
+    "charger",
+    "keyboard"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write haven't got or hasn't got.",
+  "source": "{name} ______ a {ill} today. He feels fine.",
+  "key": "hasn't got",
+  "why": "With he, she, it or one person or thing, the negative is hasn't got.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Rustam"
+   ],
+   "ill": [
+    "cold",
+    "temperature",
+    "headache",
+    "cough"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write haven't got or hasn't got.",
+  "source": "Our {subj} teacher ______ a car. She comes by {bus}.",
+  "key": "hasn't got",
+  "why": "With he, she, it or one person or thing, the negative is hasn't got.",
+  "slots": {
+   "subj": [
+    "English",
+    "maths",
+    "art",
+    "music"
+   ],
+   "bus": [
+    "bus",
+    "metro",
+    "minibus",
+    "tram"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write haven't got or hasn't got.",
+  "source": "The cat ______ a {thing}. It sleeps on the {place}.",
+  "key": "hasn't got",
+  "why": "With he, she, it or one person or thing, the negative is hasn't got.",
+  "slots": {
+   "thing": [
+    "bed",
+    "basket",
+    "box",
+    "blanket"
+   ],
+   "place": [
+    "sofa",
+    "floor",
+    "chair",
+    "carpet"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the sentence negative.",
+  "source": "She has got a {pet} called {pn}.",
+  "hint": "She ______ a {pet} called {pn}.",
+  "key": "hasn't got",
+  "why": "She → hasn't got.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "parrot",
+    "rabbit"
+   ],
+   "pn": [
+    "Bars",
+    "Max",
+    "Luna",
+    "Snow"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the sentence negative.",
+  "source": "We have got some {food} at home, {who}.",
+  "hint": "We ______ any {food} at home, {who}.",
+  "key": "haven't got",
+  "why": "We → haven't got. In negatives, some becomes any.",
+  "slots": {
+   "food": [
+    "milk",
+    "bread",
+    "eggs",
+    "sugar"
+   ],
+   "who": [
+    "Mum",
+    "Dad",
+    "Grandma",
+    "Aziz"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the sentence negative.",
+  "source": "My {who} has got a {color} car.",
+  "hint": "My {who} ______ a {color} car.",
+  "key": "hasn't got",
+  "why": "One person → hasn't got.",
+  "slots": {
+   "who": [
+    "uncle",
+    "aunt",
+    "brother",
+    "sister"
+   ],
+   "color": [
+    "white",
+    "red",
+    "blue",
+    "black"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the sentence negative.",
+  "source": "I have got a {thing} for you, {name}.",
+  "hint": "I ______ a {thing} for you, {name}.",
+  "key": "haven't got",
+  "why": "I → haven't got.",
+  "slots": {
+   "thing": [
+    "present",
+    "letter",
+    "book",
+    "ticket"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the sentence negative.",
+  "source": "Our {home} has got a {thing}.",
+  "hint": "Our {home} ______ a {thing}.",
+  "key": "hasn't got",
+  "why": "Our flat or house is one thing → hasn't got.",
+  "slots": {
+   "home": [
+    "flat",
+    "house",
+    "new flat",
+    "old house"
+   ],
+   "thing": [
+    "balcony",
+    "garden",
+    "lift",
+    "garage"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "She haven't got a {thing}, {name}.",
+  "hint": "She ______ a {thing}, {name}.",
+  "key": "hasn't got",
+  "why": "She → hasn't got, not haven't got.",
+  "slots": {
+   "thing": [
+    "bike",
+    "phone",
+    "laptop",
+    "camera"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I don't got a {thing}, {name}.",
+  "hint": "I ______ a {thing}, {name}.",
+  "key": "haven't got",
+  "why": "With got, the negative is haven't got, not don't got.",
+  "slots": {
+   "thing": [
+    "pen",
+    "ruler",
+    "pencil",
+    "charger"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{name} hasn't get any {sib}.",
+  "hint": "{name} ______ any {sib}.",
+  "key": "hasn't got",
+  "why": "Got never changes: hasn't got, not hasn't get.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "sib": [
+    "brothers",
+    "sisters",
+    "cousins",
+    "aunts"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "They hasn't got a {pet} in their {home}.",
+  "hint": "They ______ a {pet} in their {home}.",
+  "key": "haven't got",
+  "why": "They → haven't got, not hasn't got.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "parrot",
+    "rabbit"
+   ],
+   "home": [
+    "flat",
+    "house",
+    "room",
+    "garden"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "We haven't have any {food}, {who}.",
+  "hint": "We ______ any {food}, {who}.",
+  "key": "haven't got",
+  "why": "The negative is haven't got, not haven't have.",
+  "slots": {
+   "food": [
+    "milk",
+    "bread",
+    "juice",
+    "rice"
+   ],
+   "who": [
+    "Mum",
+    "Dad",
+    "Grandma",
+    "Aziz"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with haven't got or hasn't got.",
+  "source": "I don't have a {thing}, {name}.",
+  "hint": "I ______ a {thing}, {name}.",
+  "key": "haven't got",
+  "why": "I don't have = I haven't got.",
+  "slots": {
+   "thing": [
+    "pen",
+    "bike",
+    "phone",
+    "watch"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with haven't got or hasn't got.",
+  "source": "{name} doesn't have a {pet}.",
+  "hint": "{name} ______ a {pet}.",
+  "key": "hasn't got",
+  "why": "He doesn't have = he hasn't got.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Rustam"
+   ],
+   "pet": [
+    "dog",
+    "cat",
+    "parrot",
+    "rabbit"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with haven't got or hasn't got.",
+  "source": "We don't have any {food} in the fridge, {who}.",
+  "hint": "We ______ any {food} in the fridge, {who}.",
+  "key": "haven't got",
+  "why": "We don't have = we haven't got.",
+  "slots": {
+   "food": [
+    "milk",
+    "eggs",
+    "cheese",
+    "juice"
+   ],
+   "who": [
+    "Mum",
+    "Dad",
+    "Grandma",
+    "Aziz"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with haven't got or hasn't got.",
+  "source": "Our {home} doesn't have a {thing}.",
+  "hint": "Our {home} ______ a {thing}.",
+  "key": "hasn't got",
+  "why": "It doesn't have = it hasn't got.",
+  "slots": {
+   "home": [
+    "flat",
+    "house",
+    "new flat",
+    "old house"
+   ],
+   "thing": [
+    "balcony",
+    "garden",
+    "lift",
+    "garage"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with haven't got or hasn't got.",
+  "source": "My {who} don't have a car in {city}.",
+  "hint": "My {who} ______ a car in {city}.",
+  "key": "haven't got",
+  "why": "They don't have = they haven't got.",
+  "slots": {
+   "who": [
+    "parents",
+    "grandparents",
+    "cousins",
+    "neighbours"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Tashkent",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a thing you haven't got but want.",
+  "requiredElement": "I haven't got …",
+  "constraints": [
+   "exactly one sentence",
+   "I haven't got",
+   "a thing word"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a pet your friend hasn't got.",
+  "requiredElement": "He / She hasn't got …",
+  "constraints": [
+   "exactly one sentence",
+   "hasn't got",
+   "an animal word"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something your flat or house hasn't got.",
+  "requiredElement": "Our flat / house hasn't got …",
+  "constraints": [
+   "exactly one sentence",
+   "hasn't got",
+   "a home word"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about food your family hasn't got at home today.",
+  "requiredElement": "We haven't got any …",
+  "constraints": [
+   "exactly one sentence",
+   "haven't got any",
+   "a food word"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something your town or village hasn't got.",
+  "requiredElement": "Our town hasn't got a …",
+  "constraints": [
+   "exactly one sentence",
+   "hasn't got",
+   "a place word"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a thing you haven't got with you today.",
+  "requiredElement": "I haven't got my …",
+  "constraints": [
+   "exactly one sentence",
+   "I haven't got",
+   "a school word"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your grandparents: what haven't they got?",
+  "requiredElement": "They haven't got …",
+  "constraints": [
+   "exactly one sentence",
+   "haven't got",
+   "a thing word"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: one thing you have got and one thing you haven't got.",
+  "requiredElement": "I've got … / I haven't got …",
+  "constraints": [
+   "exactly two sentences",
+   "have got once",
+   "haven't got once"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your room: what have you got in it, and what haven't you got?",
+  "targetGrammar": "I've got … / I haven't got …",
+  "lookFor": [
+   "haven't got",
+   "have got",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your town or village for a visitor: what has it got, and what hasn't it got?",
+  "targetGrammar": "It has got … / It hasn't got …",
+  "lookFor": [
+   "hasn't got",
+   "has got",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You are going to school, but you forgot some things. Write a message to a friend.",
+  "targetGrammar": "I haven't got my …",
+  "lookFor": [
+   "haven't got",
+   "a school word",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Compare your family with a friend's family: brothers, sisters, pets.",
+  "targetGrammar": "We've got … / They haven't got …",
+  "lookFor": [
+   "haven't got or hasn't got",
+   "have got or has got",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "have-got",
+  "topic": "have-got-negative",
+  "level": "A1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You want to cook dinner, but the fridge is almost empty. Write what you haven't got and what you need to buy.",
+  "targetGrammar": "We haven't got any …",
+  "lookFor": [
+   "haven't got any",
+   "a food word",
+   "three or four sentences"
+  ]
+ }
+]

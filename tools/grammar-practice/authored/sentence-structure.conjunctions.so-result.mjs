@@ -14,7 +14,7 @@
 
 import { writeFileSync } from "node:fs";
 
-const BASE = { domain: "sentence-structure", branch: "conjunctions", topic: "so-result", level: "A1", pv: "2.5" };
+const BASE = { domain: "sentence-structure", branch: "conjunctions", topic: "so-result", level: "A2", pv: "2.5" };
 
 const SO = "The second part is the result of the first, so use so. Because would give a reason, and but a contrast.";
 const O = ["so", "because", "but", "or"];

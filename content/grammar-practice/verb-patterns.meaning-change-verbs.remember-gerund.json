@@ -1,0 +1,1720 @@
+[
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I remember ______ your {who} at the party last year, {name}.",
+  "options": [
+   "meeting",
+   "to meet",
+   "meet",
+   "met"
+  ],
+  "key": 0,
+  "why": "\"Last year\" is in the past, so this is a memory of the past: remember + -ing (meeting).",
+  "slots": {
+   "who": [
+    "brother",
+    "sister",
+    "cousin",
+    "uncle"
+   ],
+   "name": [
+    "Feruza",
+    "Sherzod",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My grandpa remembers ______ to {city} by train in 1975.",
+  "options": [
+   "to go",
+   "go",
+   "went",
+   "going"
+  ],
+  "key": 3,
+  "why": "\"In 1975\" is long ago, so this is a memory of the past: remember + -ing (going).",
+  "slots": {
+   "city": [
+    "Moscow",
+    "Tashkent",
+    "Samarkand",
+    "Kyiv"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Do you remember ______ {game} in the yard when we were kids, {name}?",
+  "options": [
+   "play",
+   "played",
+   "playing",
+   "to play"
+  ],
+  "key": 2,
+  "why": "\"When we were kids\" is the past, so this is a memory of the past: remember + -ing (playing).",
+  "slots": {
+   "game": [
+    "football",
+    "hide and seek",
+    "chess",
+    "tag"
+   ],
+   "name": [
+    "Gulnora",
+    "Otabek",
+    "Zarina",
+    "Akmal"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I remember ______ snow in {city} for the first time, {name}.",
+  "options": [
+   "saw",
+   "seeing",
+   "to see",
+   "see"
+  ],
+  "key": 1,
+  "why": "\"For the first time\" here is a past moment, so this is a memory of the past: remember + -ing (seeing).",
+  "slots": {
+   "city": [
+    "Moscow",
+    "Tashkent",
+    "Almaty",
+    "Istanbul"
+   ],
+   "name": [
+    "Feruza",
+    "Sherzod",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "She remembers ______ on her first day at {place}.",
+  "options": [
+   "crying",
+   "to cry",
+   "cry",
+   "cried"
+  ],
+  "key": 0,
+  "why": "Her first day was in the past, so this is a memory of the past: remember + -ing (crying).",
+  "slots": {
+   "place": [
+    "school",
+    "kindergarten",
+    "camp",
+    "university"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I remember ______ the best {food} of my life in {city}, {name}.",
+  "options": [
+   "to eat",
+   "eat",
+   "ate",
+   "eating"
+  ],
+  "key": 3,
+  "why": "It happened on a past trip, so this is a memory of the past: remember + -ing (eating).",
+  "slots": {
+   "food": [
+    "plov",
+    "samsa",
+    "kebab",
+    "soup"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Tashkent"
+   ],
+   "name": [
+    "Gulnora",
+    "Otabek",
+    "Zarina",
+    "Akmal"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My mum remembers ______ to ride a {bike} when she was six.",
+  "options": [
+   "learn",
+   "learned",
+   "learning",
+   "to learn"
+  ],
+  "key": 2,
+  "why": "\"When she was six\" is the past, so this is a memory of the past: remember + -ing (learning).",
+  "slots": {
+   "bike": [
+    "bike",
+    "horse",
+    "scooter",
+    "donkey"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Do you remember ______ in the old {home} on {street} Street, {name}?",
+  "options": [
+   "lived",
+   "living",
+   "to live",
+   "live"
+  ],
+  "key": 1,
+  "why": "The old flat is in the past, so this is a memory of the past: remember + -ing (living).",
+  "slots": {
+   "home": [
+    "flat",
+    "house",
+    "building",
+    "yard"
+   ],
+   "street": [
+    "Navoi",
+    "Amir Temur",
+    "Bobur",
+    "Mustaqillik"
+   ],
+   "name": [
+    "Feruza",
+    "Sherzod",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I remember ______ my {thing} on the bus last winter, {name}.",
+  "options": [
+   "losing",
+   "to lose",
+   "lose",
+   "lost"
+  ],
+  "key": 0,
+  "why": "\"Last winter\" is the past, so this is a memory of the past: remember + -ing (losing).",
+  "slots": {
+   "thing": [
+    "gloves",
+    "phone",
+    "hat",
+    "keys"
+   ],
+   "name": [
+    "Gulnora",
+    "Otabek",
+    "Zarina",
+    "Akmal"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We remember ______ in the {water} every summer as children.",
+  "options": [
+   "to swim",
+   "swim",
+   "swam",
+   "swimming"
+  ],
+  "key": 3,
+  "why": "\"As children\" is the past, so this is a memory of the past: remember + -ing (swimming).",
+  "slots": {
+   "water": [
+    "river",
+    "lake",
+    "sea",
+    "canal"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I remember ______ a lot at your {event}, {name}.",
+  "options": [
+   "laugh",
+   "laughed",
+   "laughing",
+   "to laugh"
+  ],
+  "key": 2,
+  "why": "The party is over: it is a memory, so this is a memory of the past: remember + -ing (laughing).",
+  "slots": {
+   "event": [
+    "wedding",
+    "birthday party",
+    "graduation",
+    "picnic"
+   ],
+   "name": [
+    "Feruza",
+    "Sherzod",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My dad remembers ______ the {match} on a small black-and-white TV.",
+  "options": [
+   "watched",
+   "watching",
+   "to watch",
+   "watch"
+  ],
+  "key": 1,
+  "why": "A black-and-white TV is from the past, so this is a memory of the past: remember + -ing (watching).",
+  "slots": {
+   "match": [
+    "final",
+    "World Cup",
+    "big match",
+    "Olympics"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I remember ______ to {place} in the snow as a child, {name}.",
+  "options": [
+   "walking",
+   "to walk",
+   "walk",
+   "walked"
+  ],
+  "key": 0,
+  "why": "\"As a child\" is the past, so this is a memory of the past: remember + -ing (walking).",
+  "slots": {
+   "place": [
+    "school",
+    "Grandma's house",
+    "the shop",
+    "kindergarten"
+   ],
+   "name": [
+    "Gulnora",
+    "Otabek",
+    "Zarina",
+    "Akmal"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I don't remember ______ you about the {thing}, {name}. Are you sure?",
+  "options": [
+   "to tell",
+   "tell",
+   "told",
+   "telling"
+  ],
+  "key": 3,
+  "why": "Did I tell you before? I have no memory of it, so this is a memory of the past: remember + -ing (telling).",
+  "slots": {
+   "thing": [
+    "party",
+    "test",
+    "plan",
+    "trip"
+   ],
+   "name": [
+    "Feruza",
+    "Sherzod",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "She remembers ______ at her sister's {event} ten years ago.",
+  "options": [
+   "sing",
+   "sang",
+   "singing",
+   "to sing"
+  ],
+  "key": 2,
+  "why": "\"Ten years ago\" is the past, so this is a memory of the past: remember + -ing (singing).",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "birthday",
+    "graduation"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I remember ______ lost in {city} on my first trip, {name}.",
+  "options": [
+   "got",
+   "getting",
+   "to get",
+   "get"
+  ],
+  "key": 1,
+  "why": "\"On my first trip\" is the past, so this is a memory of the past: remember + -ing (getting).",
+  "slots": {
+   "city": [
+    "Istanbul",
+    "Moscow",
+    "Seoul",
+    "Dubai"
+   ],
+   "name": [
+    "Gulnora",
+    "Otabek",
+    "Zarina",
+    "Akmal"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Do you remember ______ this {thing} at the bazaar years ago, {name}?",
+  "options": [
+   "buying",
+   "to buy",
+   "buy",
+   "bought"
+  ],
+  "key": 0,
+  "why": "We bought it before: a memory, so this is a memory of the past: remember + -ing (buying).",
+  "slots": {
+   "thing": [
+    "carpet",
+    "teapot",
+    "dress",
+    "lamp"
+   ],
+   "name": [
+    "Feruza",
+    "Sherzod",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My son remembers ______ in a tent in the {place} last summer.",
+  "options": [
+   "to sleep",
+   "sleep",
+   "slept",
+   "sleeping"
+  ],
+  "key": 3,
+  "why": "\"Last summer\" is the past, so this is a memory of the past: remember + -ing (sleeping).",
+  "slots": {
+   "place": [
+    "mountains",
+    "desert",
+    "forest",
+    "garden"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I remember ______ over the {sight} for the first time, {name}.",
+  "options": [
+   "fly",
+   "flew",
+   "flying",
+   "to fly"
+  ],
+  "key": 2,
+  "why": "It is a memory of a past flight, so this is a memory of the past: remember + -ing (flying).",
+  "slots": {
+   "sight": [
+    "mountains",
+    "sea",
+    "desert",
+    "clouds"
+   ],
+   "name": [
+    "Gulnora",
+    "Otabek",
+    "Zarina",
+    "Akmal"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our coach remembers ______ the {cup} in {year}.",
+  "options": [
+   "won",
+   "winning",
+   "to win",
+   "win"
+  ],
+  "key": 1,
+  "why": "\"In 1998\" is the past, so this is a memory of the past: remember + -ing (winning).",
+  "slots": {
+   "cup": [
+    "cup",
+    "final",
+    "league",
+    "championship"
+   ],
+   "year": [
+    "1998",
+    "2005",
+    "2012",
+    "1990"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a memory of the past. Complete with the right form of the verb in brackets.",
+  "source": "I remember ______ (visit) {city} with my parents in {year}.",
+  "key": "visiting",
+  "why": "A memory of something done before: remember + -ing (visiting).",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "year": [
+    "2010",
+    "2015",
+    "2008",
+    "2012"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a memory of the past. Complete with the right form of the verb in brackets.",
+  "source": "Do you remember ______ (ride) a camel in the {place}, {name}?",
+  "key": "riding",
+  "why": "A memory of something done before: remember + -ing (riding).",
+  "slots": {
+   "place": [
+    "desert",
+    "zoo",
+    "village",
+    "park"
+   ],
+   "name": [
+    "Feruza",
+    "Sherzod",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a memory of the past. Complete with the right form of the verb in brackets.",
+  "source": "I remember ______ (hear) this song at a {event} years ago, {name}.",
+  "key": "hearing",
+  "why": "A memory of something done before: remember + -ing (hearing).",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "concert",
+    "festival"
+   ],
+   "name": [
+    "Gulnora",
+    "Otabek",
+    "Zarina",
+    "Akmal"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a memory of the past. Complete with the right form of the verb in brackets.",
+  "source": "My grandma remembers ______ (make) bread in a {oven} as a girl.",
+  "key": "making",
+  "why": "A memory of something done before: remember + -ing (making).",
+  "slots": {
+   "oven": [
+    "tandoor",
+    "clay oven",
+    "village oven",
+    "big oven"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a memory of the past. Complete with the right form of the verb in brackets.",
+  "source": "I don't remember ______ (break) the {thing}, {name}. Was it me?",
+  "key": "breaking",
+  "why": "A memory of something done before: remember + -ing (breaking).",
+  "slots": {
+   "thing": [
+    "vase",
+    "window",
+    "cup",
+    "lamp"
+   ],
+   "name": [
+    "Feruza",
+    "Sherzod",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a memory of the past. Complete with the right form of the verb in brackets.",
+  "source": "She remembers ______ (read) this {book} at school.",
+  "key": "reading",
+  "why": "A memory of something done before: remember + -ing (reading).",
+  "slots": {
+   "book": [
+    "book",
+    "poem",
+    "story",
+    "novel"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a memory of the past. Complete with the right form of the verb in brackets.",
+  "source": "We remember ______ (climb) the {hill} behind our village.",
+  "key": "climbing",
+  "why": "A memory of something done before: remember + -ing (climbing).",
+  "slots": {
+   "hill": [
+    "hill",
+    "mountain",
+    "old tower",
+    "big tree"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a memory of the past. Complete with the right form of the verb in brackets.",
+  "source": "I remember ______ (dance) all night at my cousin's {event}, {name}.",
+  "key": "dancing",
+  "why": "A memory of something done before: remember + -ing (dancing).",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "birthday",
+    "graduation"
+   ],
+   "name": [
+    "Gulnora",
+    "Otabek",
+    "Zarina",
+    "Akmal"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a memory of the past. Complete with the right form of the verb in brackets.",
+  "source": "I remember ______ (feel) very nervous before my first {test}, {name}.",
+  "key": "feeling",
+  "why": "A memory of something done before: remember + -ing (feeling).",
+  "slots": {
+   "test": [
+    "exam",
+    "interview",
+    "match",
+    "concert"
+   ],
+   "name": [
+    "Feruza",
+    "Sherzod",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a memory of the past. Complete with the right form of the verb in brackets.",
+  "source": "Do you remember ______ (write) letters to {who}, {name}?",
+  "key": "writing",
+  "why": "A memory of something done before: remember + -ing (writing).",
+  "slots": {
+   "who": [
+    "Grandma",
+    "pen friends",
+    "your cousin",
+    "Father Frost"
+   ],
+   "name": [
+    "Gulnora",
+    "Otabek",
+    "Zarina",
+    "Akmal"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a memory of the past. Complete with the right form of the verb in brackets.",
+  "source": "My brother remembers ______ (catch) a big fish in the {water}.",
+  "key": "catching",
+  "why": "A memory of something done before: remember + -ing (catching).",
+  "slots": {
+   "water": [
+    "river",
+    "lake",
+    "sea",
+    "canal"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a memory of the past. Complete with the right form of the verb in brackets.",
+  "source": "I remember ______ (stay) at a small hotel in {city}, {name}.",
+  "key": "staying",
+  "why": "A memory of something done before: remember + -ing (staying).",
+  "slots": {
+   "city": [
+    "Istanbul",
+    "Bukhara",
+    "Khiva",
+    "Almaty"
+   ],
+   "name": [
+    "Feruza",
+    "Sherzod",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a memory of the past. Complete with the right form of the verb in brackets.",
+  "source": "Do you remember ______ (see) the {sight} from the plane, {name}?",
+  "key": "seeing",
+  "why": "A memory of something done before: remember + -ing (seeing).",
+  "slots": {
+   "sight": [
+    "mountains",
+    "sea",
+    "Aral Sea",
+    "desert"
+   ],
+   "name": [
+    "Gulnora",
+    "Otabek",
+    "Zarina",
+    "Akmal"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a memory of the past. Complete with the right form of the verb in brackets.",
+  "source": "I remember ______ (be) scared of the dark as a child, {name}.",
+  "key": "being",
+  "why": "A memory of something done before: remember + -ing (being).",
+  "slots": {
+   "name": [
+    "Feruza",
+    "Sherzod",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a memory of the past. Complete with the right form of the verb in brackets.",
+  "source": "Grandpa remembers ______ (plant) this {tree} forty years ago.",
+  "key": "planting",
+  "why": "A memory of something done before: remember + -ing (planting).",
+  "slots": {
+   "tree": [
+    "apple tree",
+    "walnut tree",
+    "cherry tree",
+    "vine"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a memory of the past. Complete with the right form of the verb in brackets.",
+  "source": "I remember ______ (put) my {thing} on this table an hour ago, {name}.",
+  "key": "putting",
+  "why": "A memory of something done before: remember + -ing (putting).",
+  "slots": {
+   "thing": [
+    "keys",
+    "phone",
+    "wallet",
+    "glasses"
+   ],
+   "name": [
+    "Gulnora",
+    "Otabek",
+    "Zarina",
+    "Akmal"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a memory of the past. Complete with the right form of the verb in brackets.",
+  "source": "I don't remember ______ (send) that email to the {who}, {name}.",
+  "key": "sending",
+  "why": "A memory of something done before: remember + -ing (sending).",
+  "slots": {
+   "who": [
+    "teacher",
+    "boss",
+    "manager",
+    "client"
+   ],
+   "name": [
+    "Feruza",
+    "Sherzod",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a memory of the past. Complete with the right form of the verb in brackets.",
+  "source": "She remembers ______ (talk) to a famous {who} at the airport.",
+  "key": "talking",
+  "why": "A memory of something done before: remember + -ing (talking).",
+  "slots": {
+   "who": [
+    "singer",
+    "footballer",
+    "actor",
+    "writer"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a memory of the past. Complete with the right form of the verb in brackets.",
+  "source": "I remember ______ (take) this photo in {city}, {name}.",
+  "key": "taking",
+  "why": "A memory of something done before: remember + -ing (taking).",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Istanbul"
+   ],
+   "name": [
+    "Gulnora",
+    "Otabek",
+    "Zarina",
+    "Akmal"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a memory of the past. Complete with the right form of the verb in brackets.",
+  "source": "My uncle remembers ______ (work) on a farm near {city} as a boy, {name}.",
+  "key": "working",
+  "why": "\"As a boy\" is the past: remember + -ing (working).",
+  "slots": {
+   "city": [
+    "Fergana",
+    "Jizzakh",
+    "Namangan",
+    "Karshi"
+   ],
+   "name": [
+    "Feruza",
+    "Sherzod",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I remember to meet your {who} at the wedding last year, {name}.",
+  "hint": "I remember ______ your {who} at the wedding last year, {name}.",
+  "key": "meeting",
+  "why": "\"Last year\" is a memory: remember + -ing.",
+  "slots": {
+   "who": [
+    "brother",
+    "sister",
+    "cousin",
+    "uncle"
+   ],
+   "name": [
+    "Feruza",
+    "Sherzod",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "She remembers to cry on her first day at {place}.",
+  "hint": "She remembers ______ on her first day at {place}.",
+  "key": "crying",
+  "why": "A memory of her first day: remember + -ing.",
+  "slots": {
+   "place": [
+    "school",
+    "kindergarten",
+    "camp",
+    "university"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Do you remember play in the yard as kids, {name}?",
+  "hint": "Do you remember ______ in the yard as kids, {name}?",
+  "key": "playing",
+  "why": "remember + -ing for a memory: playing.",
+  "slots": {
+   "name": [
+    "Gulnora",
+    "Otabek",
+    "Zarina",
+    "Akmal"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "My grandpa remembers went to {city} in 1975.",
+  "hint": "My grandpa remembers ______ to {city} in 1975.",
+  "key": "going",
+  "why": "remember + -ing: going, not went.",
+  "slots": {
+   "city": [
+    "Moscow",
+    "Tashkent",
+    "Samarkand",
+    "Kyiv"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I remember to see snow for the first time in {city}, {name}.",
+  "hint": "I remember ______ snow for the first time in {city}, {name}.",
+  "key": "seeing",
+  "why": "A first time in the past: remember + -ing.",
+  "slots": {
+   "city": [
+    "Moscow",
+    "Almaty",
+    "Tashkent",
+    "Istanbul"
+   ],
+   "name": [
+    "Feruza",
+    "Sherzod",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with I remember + -ing.",
+  "source": "I swam in the {water} as a child. I still remember it, {name}.",
+  "hint": "I remember ______ in the {water} as a child, {name}.",
+  "key": "swimming",
+  "why": "A memory: remember + -ing (swimming).",
+  "slots": {
+   "water": [
+    "river",
+    "lake",
+    "sea",
+    "canal"
+   ],
+   "name": [
+    "Gulnora",
+    "Otabek",
+    "Zarina",
+    "Akmal"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with I remember + -ing.",
+  "source": "I visited {city} with my class in {year}. I remember it well.",
+  "hint": "I remember ______ {city} with my class in {year}.",
+  "key": "visiting",
+  "why": "A memory: remember + -ing (visiting).",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "year": [
+    "2010",
+    "2015",
+    "2018",
+    "2012"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with I remember + -ing.",
+  "source": "I laughed a lot at your {event}. I remember that, {name}.",
+  "hint": "I remember ______ a lot at your {event}, {name}.",
+  "key": "laughing",
+  "why": "A memory: remember + -ing (laughing).",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "graduation",
+    "picnic"
+   ],
+   "name": [
+    "Feruza",
+    "Sherzod",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with I remember + -ing.",
+  "source": "I got lost in {city} on my first trip. I remember it, {name}.",
+  "hint": "I remember ______ lost in {city} on my first trip, {name}.",
+  "key": "getting",
+  "why": "A memory: remember + -ing (getting lost).",
+  "slots": {
+   "city": [
+    "Istanbul",
+    "Moscow",
+    "Seoul",
+    "Dubai"
+   ],
+   "name": [
+    "Gulnora",
+    "Otabek",
+    "Zarina",
+    "Akmal"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with I remember + -ing.",
+  "source": "I felt very proud at my {event}. I remember that feeling, {name}.",
+  "hint": "I remember ______ very proud at my {event}, {name}.",
+  "key": "feeling",
+  "why": "A memory: remember + -ing (feeling).",
+  "slots": {
+   "event": [
+    "graduation",
+    "first match",
+    "first concert",
+    "wedding"
+   ],
+   "name": [
+    "Feruza",
+    "Sherzod",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with I don't remember + -ing.",
+  "source": "Did I say that at the {event}? I have no memory of it, {name}.",
+  "hint": "I don't remember ______ that at the {event}, {name}.",
+  "key": "saying",
+  "why": "No memory of a past action: don't remember + -ing.",
+  "slots": {
+   "event": [
+    "meeting",
+    "party",
+    "dinner",
+    "lesson"
+   ],
+   "name": [
+    "Gulnora",
+    "Otabek",
+    "Zarina",
+    "Akmal"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with I don't remember + -ing.",
+  "source": "Did I borrow your {thing}? I can't remember it, {name}.",
+  "hint": "I don't remember ______ your {thing}, {name}.",
+  "key": "borrowing",
+  "why": "No memory: don't remember + -ing (borrowing).",
+  "slots": {
+   "thing": [
+    "pen",
+    "book",
+    "charger",
+    "umbrella"
+   ],
+   "name": [
+    "Feruza",
+    "Sherzod",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with I don't remember + -ing.",
+  "source": "Did we meet in {city}? I have no memory of that, {name}.",
+  "hint": "I don't remember ______ you in {city}, {name}.",
+  "key": "meeting",
+  "why": "No memory: don't remember + -ing (meeting).",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Istanbul",
+    "Moscow"
+   ],
+   "name": [
+    "Gulnora",
+    "Otabek",
+    "Zarina",
+    "Akmal"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with I don't remember + -ing.",
+  "source": "Did I pay for the {thing}? I can't remember, {name}.",
+  "hint": "I don't remember ______ for the {thing}, {name}.",
+  "key": "paying",
+  "why": "No memory: don't remember + -ing (paying).",
+  "slots": {
+   "thing": [
+    "tickets",
+    "taxi",
+    "coffee",
+    "lunch"
+   ],
+   "name": [
+    "Feruza",
+    "Sherzod",
+    "Nodira",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with I don't remember + -ing.",
+  "source": "Did I close the {thing}? I have no memory of it, {name}.",
+  "hint": "I don't remember ______ the {thing}, {name}.",
+  "key": "closing",
+  "why": "No memory of the past action: don't remember + -ing.",
+  "slots": {
+   "thing": [
+    "window",
+    "door",
+    "gate",
+    "fridge"
+   ],
+   "name": [
+    "Gulnora",
+    "Otabek",
+    "Zarina",
+    "Akmal"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a happy memory from your childhood. Use I remember + -ing.",
+  "requiredElement": "I remember + -ing",
+  "constraints": [
+   "exactly one sentence",
+   "remember + -ing",
+   "a past time"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your first day at school with remember.",
+  "requiredElement": "I remember + -ing",
+  "constraints": [
+   "exactly one sentence",
+   "remember + -ing",
+   "first day"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one question: Do you remember + -ing …?",
+  "requiredElement": "Do you remember + -ing?",
+  "constraints": [
+   "exactly one question",
+   "remember + -ing",
+   "a question mark"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with I don't remember + -ing.",
+  "requiredElement": "I don't remember + -ing",
+  "constraints": [
+   "exactly one sentence",
+   "don't remember",
+   "-ing"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a grandparent's memory.",
+  "requiredElement": "My grandma remembers + -ing",
+  "constraints": [
+   "exactly one sentence",
+   "remembers",
+   "-ing"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a trip you remember.",
+  "requiredElement": "I remember visiting / seeing …",
+  "constraints": [
+   "exactly one sentence",
+   "remember + -ing",
+   "a place"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with remember + -ing and one with remember to.",
+  "requiredElement": "remember doing vs remember to do",
+  "constraints": [
+   "exactly two sentences",
+   "remember + -ing (past)",
+   "remember to + base (task)"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a funny thing you remember.",
+  "requiredElement": "I remember laughing …",
+  "constraints": [
+   "exactly one sentence",
+   "remember + -ing",
+   "past"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your earliest memory. Write three or four sentences with remember + -ing.",
+  "targetGrammar": "remember + -ing",
+  "lookFor": [
+   "remember",
+   "-ing",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Ask a grandparent about life long ago (in your mind). Write three or four sentences: he or she remembers …",
+  "targetGrammar": "remembers + -ing",
+  "lookFor": [
+   "remembers",
+   "-ing",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences about your best holiday. What do you remember doing?",
+  "targetGrammar": "remember + -ing",
+  "lookFor": [
+   "remember",
+   "-ing",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "A friend says you were at a party, but you don't remember. Write three or four sentences.",
+  "targetGrammar": "don't remember + -ing",
+  "lookFor": [
+   "don't remember",
+   "-ing",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-gerund",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences about your first English lesson.",
+  "targetGrammar": "remember + -ing",
+  "lookFor": [
+   "remember",
+   "-ing",
+   "three or four sentences"
+  ]
+ }
+]

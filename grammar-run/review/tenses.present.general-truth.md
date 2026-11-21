@@ -1,4 +1,4 @@
-# tenses.present.general-truth — review sample (A2)
+# tenses.present.general-truth — review sample (A1)
 
 Each item shows one random filler combination (in bold). Mark anything a teacher wouldn't accept.
 
@@ -87,9 +87,9 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 ## build (20)
 
 1. _Complete the fact with the present simple form of the verb in brackets._  
-   The sun ______ (come) up in the east, so the **balcony** of our **school** gets light first.  
-   key: comes  
-   why: This is a fact that is always true, so use the present simple, not the present continuous. The sun is singular, so the verb takes -s: comes.
+   The sun ______ (set) in the west, so the **balcony** of our **school** gets the evening light.  
+   key: sets  
+   why: This is a fact that is always true, so use the present simple, not the present continuous. The sun is singular, so the verb takes -s: sets.
 
 2. _Complete the fact with the present simple form of the verb in brackets._  
    Ice ______ (float) on water, so you can see it on the **river** in **winter**.  
@@ -157,9 +157,9 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: This is a fact that is always true, so use the present simple, not the present continuous. Bees is plural, so use the base form: visit.
 
 15. _Complete the fact with the present simple form of the verb in brackets._  
-   Thunder ______ (follow) lightning, so I count to **five** after the **flash**.  
-   key: follows  
-   why: This is a fact that is always true, so use the present simple, not the present continuous. Thunder is singular, so the verb takes -s: follows.
+   Thunder ______ (come) after lightning, so I count to **five** after the **flash**.  
+   key: comes  
+   why: This is a fact that is always true, so use the present simple, not the present continuous. Thunder is singular, so the verb takes -s: comes.
 
 16. _Complete the fact with the present simple form of the verb in brackets._  
    An elephant ______ (eat) a lot of grass, so the zoo in **Moscow** buys **tons** of food every day.  

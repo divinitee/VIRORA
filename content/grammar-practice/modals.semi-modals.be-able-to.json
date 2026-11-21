@@ -1,0 +1,1810 @@
+[
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I hope I ______ come to your wedding next {time}, {name}.",
+  "options": [
+   "will be able to",
+   "will can",
+   "can be able to",
+   "will able to"
+  ],
+  "key": 0,
+  "why": "can has no future form: will (won't) be able to + base verb.",
+  "slots": {
+   "time": [
+    "year",
+    "month",
+    "summer",
+    "spring"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "After this course, you ______ speak English with {who}, {name}.",
+  "options": [
+   "will can",
+   "can be able to",
+   "will able to",
+   "will be able to"
+  ],
+  "key": 3,
+  "why": "can has no future form: will (won't) be able to + base verb.",
+  "slots": {
+   "who": [
+    "tourists",
+    "your boss",
+    "your teacher",
+    "foreigners"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "When the new bridge opens, we ______ drive to {city} in an hour, {name}.",
+  "options": [
+   "can be able to",
+   "will able to",
+   "will be able to",
+   "will can"
+  ],
+  "key": 2,
+  "why": "can has no future form: will (won't) be able to + base verb.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Jizzakh",
+    "Gulistan",
+    "Chirchiq"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Don't worry. The doctor says you ______ walk again in {when}, {name}.",
+  "options": [
+   "will able to",
+   "will be able to",
+   "will can",
+   "can be able to"
+  ],
+  "key": 1,
+  "why": "can has no future form: will (won't) be able to + base verb.",
+  "slots": {
+   "when": [
+    "a month",
+    "two weeks",
+    "a few days",
+    "May"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "If you save money now, you ______ buy a {thing} next year, {name}.",
+  "options": [
+   "will be able to",
+   "will can",
+   "can be able to",
+   "will able to"
+  ],
+  "key": 0,
+  "why": "can has no future form: will (won't) be able to + base verb.",
+  "slots": {
+   "thing": [
+    "car",
+    "laptop",
+    "bike",
+    "camera"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I'm busy {when}, so I ______ help you with the {work}.",
+  "options": [
+   "won't can",
+   "can't be able to",
+   "won't able to",
+   "won't be able to"
+  ],
+  "key": 3,
+  "why": "can has no future form: will (won't) be able to + base verb.",
+  "slots": {
+   "when": [
+    "tomorrow",
+    "on Friday",
+    "all weekend",
+    "next week"
+   ],
+   "work": [
+    "move",
+    "homework",
+    "party",
+    "project"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Sorry, I ______ come to the {event} on Saturday, {name}. I'm working.",
+  "options": [
+   "can't be able to",
+   "won't able to",
+   "won't be able to",
+   "won't can"
+  ],
+  "key": 2,
+  "why": "can has no future form: will (won't) be able to + base verb.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "match",
+    "concert"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {shop} is closed tomorrow, so we ______ buy bread there, {name}.",
+  "options": [
+   "won't able to",
+   "won't be able to",
+   "won't can",
+   "can't be able to"
+  ],
+  "key": 1,
+  "why": "can has no future form: will (won't) be able to + base verb.",
+  "slots": {
+   "shop": [
+    "bakery",
+    "bazaar",
+    "supermarket",
+    "shop"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "In ten years, robots ______ cook {food} for us, {name}.",
+  "options": [
+   "will be able to",
+   "will can",
+   "can be able to",
+   "will able to"
+  ],
+  "key": 0,
+  "why": "can has no future form: will (won't) be able to + base verb.",
+  "slots": {
+   "food": [
+    "plov",
+    "dinner",
+    "breakfast",
+    "soup"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "When you're eighteen, you ______ drive a {car}, {name}.",
+  "options": [
+   "will can",
+   "can be able to",
+   "will able to",
+   "will be able to"
+  ],
+  "key": 3,
+  "why": "can has no future form: will (won't) be able to + base verb.",
+  "slots": {
+   "car": [
+    "car",
+    "scooter",
+    "van",
+    "motorbike"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ sleep well since we moved to the new {home}, {name}.",
+  "options": [
+   "can have",
+   "have able to",
+   "have been able to",
+   "have could"
+  ],
+  "key": 2,
+  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "slots": {
+   "home": [
+    "flat",
+    "house",
+    "village",
+    "city"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "She ______ find a job since she came to {city}, {name}.",
+  "options": [
+   "hasn't able to",
+   "hasn't been able to",
+   "hasn't could",
+   "can't have"
+  ],
+  "key": 1,
+  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Moscow",
+    "Seoul",
+    "Istanbul"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We ______ visit Grandma this {time} because of the snow, {name}.",
+  "options": [
+   "haven't been able to",
+   "haven't could",
+   "can't have",
+   "haven't able to"
+  ],
+  "key": 0,
+  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "slots": {
+   "time": [
+    "month",
+    "week",
+    "winter",
+    "year"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ call you all {time}. My phone is broken, {name}.",
+  "options": [
+   "haven't could",
+   "can't have",
+   "haven't able to",
+   "haven't been able to"
+  ],
+  "key": 3,
+  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "slots": {
+   "time": [
+    "day",
+    "week",
+    "morning",
+    "evening"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Since I started the course, I ______ understand {thing} in English, {name}.",
+  "options": [
+   "can have",
+   "have able to",
+   "have been able to",
+   "have could"
+  ],
+  "key": 2,
+  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "slots": {
+   "thing": [
+    "films",
+    "songs",
+    "the news",
+    "my teacher"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I want ______ speak {lang} with my grandparents, {name}.",
+  "options": [
+   "be able",
+   "to be able to",
+   "to can",
+   "can"
+  ],
+  "key": 1,
+  "why": "can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.",
+  "slots": {
+   "lang": [
+    "Uzbek",
+    "Russian",
+    "Tajik",
+    "Kazakh"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "She'd like ______ play the {instr} one day, {name}.",
+  "options": [
+   "to be able to",
+   "to can",
+   "can",
+   "be able"
+  ],
+  "key": 0,
+  "why": "can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.",
+  "slots": {
+   "instr": [
+    "piano",
+    "guitar",
+    "violin",
+    "dutar"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "It's nice ______ walk to work in {month}, {name}.",
+  "options": [
+   "to can",
+   "can",
+   "be able",
+   "to be able to"
+  ],
+  "key": 3,
+  "why": "can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.",
+  "slots": {
+   "month": [
+    "spring",
+    "May",
+    "summer",
+    "June"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We hope ______ travel to {country} next year, {name}.",
+  "options": [
+   "can",
+   "be able",
+   "to be able to",
+   "to can"
+  ],
+  "key": 2,
+  "why": "can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.",
+  "slots": {
+   "country": [
+    "Japan",
+    "Turkey",
+    "Italy",
+    "Korea"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You need ______ swim before you go on the {trip}, {name}.",
+  "options": [
+   "be able",
+   "to be able to",
+   "to can",
+   "can"
+  ],
+  "key": 1,
+  "why": "can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.",
+  "slots": {
+   "trip": [
+    "boat trip",
+    "sea trip",
+    "river trip",
+    "kayak trip"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
+  "source": "I hope I ______ (come) next {time}, {name}.",
+  "key": "will be able to come",
+  "why": "can has no future form: will (won't) be able to + base verb.",
+  "slots": {
+   "time": [
+    "year",
+    "month",
+    "summer",
+    "Friday"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
+  "source": "After this {course}, you ______ (speak) English well, {name}.",
+  "key": "will be able to speak",
+  "why": "can has no future form: will (won't) be able to + base verb.",
+  "slots": {
+   "course": [
+    "course",
+    "year",
+    "summer",
+    "class"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
+  "source": "When the new {road} opens, we ______ (drive) there in an hour, {name}.",
+  "key": "will be able to drive",
+  "why": "can has no future form: will (won't) be able to + base verb.",
+  "slots": {
+   "road": [
+    "road",
+    "bridge",
+    "tunnel",
+    "motorway"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
+  "source": "The doctor says you ______ (walk) again in {when}, {name}.",
+  "key": "will be able to walk",
+  "why": "can has no future form: will (won't) be able to + base verb.",
+  "slots": {
+   "when": [
+    "a month",
+    "two weeks",
+    "a few days",
+    "May"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
+  "source": "If you save now, you ______ (buy) a {thing} next year, {name}.",
+  "key": "will be able to buy",
+  "why": "can has no future form: will (won't) be able to + base verb.",
+  "slots": {
+   "thing": [
+    "car",
+    "laptop",
+    "bike",
+    "camera"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
+  "source": "I'm busy {when}, so I ______ (not / help) you, {name}.",
+  "key": "won't be able to help",
+  "why": "can has no future form: will (won't) be able to + base verb.",
+  "slots": {
+   "when": [
+    "tomorrow",
+    "on Friday",
+    "all weekend",
+    "next week"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
+  "source": "Sorry, I ______ (not / come) on Saturday, {name}. I'm at the {place}.",
+  "key": "won't be able to come",
+  "why": "can has no future form: will (won't) be able to + base verb.",
+  "slots": {
+   "place": [
+    "hospital",
+    "office",
+    "wedding",
+    "airport"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
+  "source": "The {shop} is closed tomorrow, so we ______ (not / buy) bread, {name}.",
+  "key": "won't be able to buy",
+  "why": "can has no future form: will (won't) be able to + base verb.",
+  "slots": {
+   "shop": [
+    "bakery",
+    "bazaar",
+    "supermarket",
+    "shop"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
+  "source": "I ______ (sleep) well since we moved into the new {home}, {name}.",
+  "key": "have been able to sleep",
+  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "slots": {
+   "home": [
+    "flat",
+    "house",
+    "village",
+    "city"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
+  "source": "She ______ (not / find) a job since she came {where}, {name}.",
+  "key": "hasn't been able to find",
+  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "slots": {
+   "where": [
+    "here",
+    "back",
+    "home",
+    "over"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
+  "source": "We ______ (not / visit) Grandma this {time} because of the snow, {name}.",
+  "key": "haven't been able to visit",
+  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "slots": {
+   "time": [
+    "month",
+    "week",
+    "winter",
+    "year"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
+  "source": "I ______ (not / call) you all {time}. My phone is broken, {name}.",
+  "key": "haven't been able to call",
+  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "slots": {
+   "time": [
+    "day",
+    "week",
+    "morning",
+    "evening"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
+  "source": "Since we got the new {tool}, we ______ (finish) work early every day, {name}.",
+  "key": "have been able to finish",
+  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "slots": {
+   "tool": [
+    "computer",
+    "printer",
+    "car",
+    "machine"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
+  "source": "I want ______ (speak) {lang} with my grandparents, {name}.",
+  "key": "to be able to speak",
+  "why": "can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.",
+  "slots": {
+   "lang": [
+    "Uzbek",
+    "Russian",
+    "Tajik",
+    "Kazakh"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
+  "source": "She'd like ______ (play) the {instr} one day, {name}.",
+  "key": "to be able to play",
+  "why": "can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.",
+  "slots": {
+   "instr": [
+    "piano",
+    "guitar",
+    "violin",
+    "dutar"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
+  "source": "We hope ______ (travel) round {place} next year, {name}.",
+  "key": "to be able to travel",
+  "why": "can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.",
+  "slots": {
+   "place": [
+    "Europe",
+    "Asia",
+    "Turkey",
+    "Korea"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
+  "source": "You need ______ (swim) before the {trip}, {name}.",
+  "key": "to be able to swim",
+  "why": "can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.",
+  "slots": {
+   "trip": [
+    "boat trip",
+    "sea trip",
+    "river trip",
+    "kayak trip"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
+  "source": "I might ______ (help) you {when}, {name}.",
+  "key": "be able to help",
+  "why": "can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.",
+  "slots": {
+   "when": [
+    "tomorrow",
+    "later",
+    "on Sunday",
+    "after lunch"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
+  "source": "We might ______ (meet) at the {place} later, {name}.",
+  "key": "be able to meet",
+  "why": "can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.",
+  "slots": {
+   "place": [
+    "café",
+    "park",
+    "station",
+    "bazaar"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "can has no future, perfect or infinitive form. Complete with a form of be able to and the verb in brackets.",
+  "source": "Next year, Timur ______ (read) English {thing}, {name}.",
+  "key": "will be able to read",
+  "why": "can has no future form: will (won't) be able to + base verb.",
+  "slots": {
+   "thing": [
+    "books",
+    "newspapers",
+    "novels",
+    "comics"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I will can come next {time}, {name}.",
+  "hint": "I ______ come next {time}, {name}.",
+  "key": "will be able to",
+  "why": "can has no future form: will (won't) be able to + base verb.",
+  "slots": {
+   "time": [
+    "year",
+    "month",
+    "summer",
+    "Friday"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "She will can drive next {time}, {name}.",
+  "hint": "She ______ drive next {time}, {name}.",
+  "key": "will be able to",
+  "why": "can has no future form: will (won't) be able to + base verb.",
+  "slots": {
+   "time": [
+    "year",
+    "month",
+    "summer",
+    "spring"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I haven't could sleep since {when}, {name}.",
+  "hint": "I ______ sleep since {when}, {name}.",
+  "key": "haven't been able to",
+  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "slots": {
+   "when": [
+    "Monday",
+    "the party",
+    "last week",
+    "Sunday"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I want can speak {lang} well, {name}.",
+  "hint": "I want ______ speak {lang} well, {name}.",
+  "key": "to be able to",
+  "why": "can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.",
+  "slots": {
+   "lang": [
+    "English",
+    "Korean",
+    "Turkish",
+    "German"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "We might can help you {when}, {name}.",
+  "hint": "We might ______ help you {when}, {name}.",
+  "key": "be able to",
+  "why": "can has no infinitive: (to) be able to + base verb after want, like, hope, need, might.",
+  "slots": {
+   "when": [
+    "tomorrow",
+    "later",
+    "on Sunday",
+    "after lunch"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with will (or won't) be able to.",
+  "source": "It will be possible for us to see the {view} from the new flat, {name}.",
+  "hint": "We ______ see the {view} from the new flat, {name}.",
+  "key": "will be able to",
+  "why": "can has no future form: will (won't) be able to + base verb.",
+  "slots": {
+   "view": [
+    "mountains",
+    "river",
+    "old town",
+    "park"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with will (or won't) be able to.",
+  "source": "I'm sorry, but coming on {day} won't be possible for me, {name}.",
+  "hint": "I'm sorry, but I ______ come on {day}, {name}.",
+  "key": "won't be able to",
+  "why": "can has no future form: will (won't) be able to + base verb.",
+  "slots": {
+   "day": [
+    "Friday",
+    "Saturday",
+    "Sunday",
+    "Monday"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with will (or won't) be able to.",
+  "source": "In a year, you can read English {thing}. That's the plan, {name}.",
+  "hint": "In a year, you ______ read English {thing}, {name}.",
+  "key": "will be able to",
+  "why": "can has no future form: will (won't) be able to + base verb.",
+  "slots": {
+   "thing": [
+    "books",
+    "newspapers",
+    "novels",
+    "comics"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with will (or won't) be able to.",
+  "source": "After the operation, walking in the {place} will be possible for {who}.",
+  "hint": "After the operation, {who} ______ walk in the {place}.",
+  "key": "will be able to",
+  "why": "can has no future form: will (won't) be able to + base verb.",
+  "slots": {
+   "place": [
+    "park",
+    "garden",
+    "yard",
+    "street"
+   ],
+   "who": [
+    "Grandma",
+    "Grandpa",
+    "my uncle",
+    "my aunt"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with will (or won't) be able to.",
+  "source": "They can't finish the {work} today. Maybe next week, {name}.",
+  "hint": "They ______ finish the {work} today, {name}.",
+  "key": "won't be able to",
+  "why": "can has no future form: will (won't) be able to + base verb.",
+  "slots": {
+   "work": [
+    "project",
+    "report",
+    "house",
+    "garden"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with have / has (or haven't / hasn't) been able to.",
+  "source": "Since {when}, sleeping well hasn't been possible for me, {name}.",
+  "hint": "I ______ sleep well since {when}, {name}.",
+  "key": "haven't been able to",
+  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "slots": {
+   "when": [
+    "Monday",
+    "the party",
+    "last week",
+    "Sunday"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with have / has (or haven't / hasn't) been able to.",
+  "source": "She came to {city} in May. She still has no {thing}.",
+  "hint": "She ______ find a {thing} in {city}.",
+  "key": "hasn't been able to",
+  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Moscow",
+    "Seoul",
+    "Istanbul"
+   ],
+   "thing": [
+    "job",
+    "flat",
+    "room",
+    "school"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with have / has (or haven't / hasn't) been able to.",
+  "source": "This {time}, saving some money has been possible for us, {name}.",
+  "hint": "This {time}, we ______ save some money, {name}.",
+  "key": "have been able to",
+  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "slots": {
+   "time": [
+    "year",
+    "month",
+    "summer",
+    "winter"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with have / has (or haven't / hasn't) been able to.",
+  "source": "They wanted to visit us this {time}, but they never had a free day, {name}.",
+  "hint": "They ______ visit us this {time}, {name}.",
+  "key": "haven't been able to",
+  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "slots": {
+   "time": [
+    "month",
+    "week",
+    "winter",
+    "year"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with have / has (or haven't / hasn't) been able to.",
+  "source": "Since the {course}, films in English are easy for him, {name}.",
+  "hint": "Since the {course}, he ______ understand films in English, {name}.",
+  "key": "has been able to",
+  "why": "can has no present perfect form: have (haven't) been able to + base verb.",
+  "slots": {
+   "course": [
+    "course",
+    "summer school",
+    "trip",
+    "camp"
+   ],
+   "name": [
+    "Feruza",
+    "Otabek",
+    "Dilnoza",
+    "Sardor"
+   ]
+  }
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you will be able to do after this English course.",
+  "requiredElement": "will be able to",
+  "constraints": [
+   "exactly one sentence",
+   "will be able to + base verb",
+   "future"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a plan you can't do next week. Use won't be able to.",
+  "requiredElement": "won't be able to",
+  "constraints": [
+   "exactly one sentence",
+   "won't be able to + base verb",
+   "a reason"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you haven't been able to do this week.",
+  "requiredElement": "haven't been able to",
+  "constraints": [
+   "exactly one sentence",
+   "haven't been able to",
+   "this week / since"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a skill you want to be able to do one day.",
+  "requiredElement": "want to be able to",
+  "constraints": [
+   "exactly one sentence",
+   "to be able to",
+   "one day / in the future"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with might be able to.",
+  "requiredElement": "might be able to",
+  "constraints": [
+   "exactly one sentence",
+   "might be able to + base verb",
+   "not sure"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with can (now) and one with will be able to (the future).",
+  "requiredElement": "can vs will be able to",
+  "constraints": [
+   "exactly two sentences",
+   "can + base verb",
+   "will be able to"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you have been able to do since you started learning English.",
+  "requiredElement": "have been able to",
+  "constraints": [
+   "exactly one sentence",
+   "have been able to",
+   "since"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a new road, bridge or metro line and what people will be able to do.",
+  "requiredElement": "will be able to",
+  "constraints": [
+   "exactly one sentence",
+   "will be able to",
+   "when … opens"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Imagine your life in five years. Write three or four sentences about what you will be able to do.",
+  "targetGrammar": "will be able to",
+  "lookFor": [
+   "will be able to",
+   "won't be able to",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You hurt your leg last month. Write three or four sentences about what you haven't been able to do since then.",
+  "targetGrammar": "haven't been able to",
+  "lookFor": [
+   "haven't been able to",
+   "since",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences about skills you want to be able to do one day, and why.",
+  "targetGrammar": "to be able to",
+  "lookFor": [
+   "want / would like to be able to",
+   "because",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "A friend invites you to a party, but you are busy. Write a short reply (three or four sentences) with won't be able to.",
+  "targetGrammar": "won't be able to",
+  "lookFor": [
+   "won't be able to",
+   "a reason",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "modals",
+  "branch": "semi-modals",
+  "topic": "be-able-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences about how your English has changed. Use can, have been able to and will be able to.",
+  "targetGrammar": "can / have been able to / will be able to",
+  "lookFor": [
+   "can",
+   "have been able to",
+   "will be able to"
+  ]
+ }
+]

@@ -118,3 +118,24 @@ order**, unit by unit. Claude is building the path screens on another branch
 - Read each multi-slot line as its worst pairing before you call a topic done: `node grammar-run/list_multislot.mjs <key>`.
 - A pronoun in the sentence must agree with every slot value ("A tall boy is waiting for their friend"; "Mr Karimov ... stays at home with us").
 - The second sentence must still be true for every slot value (a cat that is "very active" cannot "sit by the window").
+
+## Two lanes from 16 Nov (Tee: split the rest between Base44 AI and Claude)
+This section overrides points 4 and 5 above where they differ.
+
+**Base44 AI lane** (this branch, `grammar-path-fill-4-base44`, stays open for every turn; log: `grammar-run/PROGRESS-path-fill.md`, below the last "Merged" line). Write ONLY these, in this order, 6 per turn where the list says so:
+- Turn 5: P21 have-has, P22 have-got-question, P23 have-got-negative, P24 possessive-pronouns, P25 in-container, P26 on-surface
+- Turn 6: P27 between, P28 place-time-order, P29 adjective-after-be, P30 in-area, P38 could-past-ability, P39 might-possibility
+- Turn 7: P40 go-home, P41 arrive-at-in, P42 to-vs-in, P44 subject-object-contrast, P52 double-object
+- Turn 8: P45 someone-anyone, P46 something-offer, P47 nothing-anything, P48 indefinite-agreement, P49 who-people
+- Turn 9: P50 that-which-things, P51 where-place, P57 present-passive, P58 past-passive, P59 active-to-passive
+
+**Claude lane** (branch `grammar-path-fill-claude`, log `grammar-run/PROGRESS-path-fill-claude.md`). Do NOT write, edit or re-run these: P31 double-comparative-error, P32 less-comparative, P33 irregular-superlative, P34 ly-adverb, P35 irregular-adverb, P36 one-ones, P37 adjective-preposition, P43 decide-infinitive, P53 since-for, P54 preposition-gerund, P55 interested-in, P56 zero-general-truth. Claude also re-levels `comparison.comparative.er-comparative` on its branch: do not touch any finished topic.
+
+**So the two lanes never collide:**
+- Never run `run_topic.sh` on a topic that is not in your turn. Never edit another topic's authored file, bank or review sheet.
+- Claude may fix sentences in your finished topics BETWEEN your turns (never while you are working). If a file you wrote has changed since your last turn, that is Claude's audit fix: keep it.
+- Never merge, publish or sync. Claude merges both lanes at the end.
+
+**Levels (Tee, 16 Nov: reassess the levels; comparatives and superlatives are A2, not A1).**
+- Use the level in the table above, with one change: **P24 `pronouns.possessive.possessive-pronouns` is A2** (mine, yours, hers are A2 on the CEFR; the table says A1). The lint will FLAG "differs from the placement bank": that is expected, write "level A2 by Tee's re-level, 16 Nov" in the row.
+- If you think any other topic in your lane sits at the wrong level, do NOT change it: write "LEVEL? <your suggestion and why>" at the start of the row's notes. Tee decides.

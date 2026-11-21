@@ -1,0 +1,1726 @@
+[
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There is ______ in my bag, {name}. I can't find my keys.",
+  "options": [
+   "nothing",
+   "anything",
+   "no one",
+   "anywhere"
+  ],
+  "key": 0,
+  "why": "The verb is positive (is, ate, said), so use nothing for 'not one thing'.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I didn't buy ______ at the {place}, {name}. It was closed.",
+  "options": [
+   "nothing",
+   "anyone",
+   "anywhere",
+   "anything"
+  ],
+  "key": 3,
+  "why": "The verb is already negative (n't, not), so use anything. Don't use nothing after not.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "shop",
+    "market",
+    "supermarket"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {box} is empty, {name}. There's ______ in it.",
+  "options": [
+   "no one",
+   "anywhere",
+   "nothing",
+   "anything"
+  ],
+  "key": 2,
+  "why": "The verb is positive (is, ate, said), so use nothing for 'not one thing'.",
+  "slots": {
+   "box": [
+    "box",
+    "bag",
+    "fridge",
+    "drawer"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} doesn't eat ______ in the morning. She just has {drink}.",
+  "options": [
+   "anywhere",
+   "anything",
+   "nothing",
+   "anyone"
+  ],
+  "key": 1,
+  "why": "The verb is already negative (n't, not), so use anything. Don't use nothing after not.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "drink": [
+    "tea",
+    "coffee",
+    "water",
+    "juice"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I know ______ about {topic}, {name}. Can you help me?",
+  "options": [
+   "nothing",
+   "anything",
+   "no one",
+   "anywhere"
+  ],
+  "key": 0,
+  "why": "The verb is positive (is, ate, said), so use nothing for 'not one thing'.",
+  "slots": {
+   "topic": [
+    "cars",
+    "computers",
+    "football",
+    "music"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We didn't say ______ to {who} about the {thing}.",
+  "options": [
+   "nothing",
+   "anyone",
+   "anywhere",
+   "anything"
+  ],
+  "key": 3,
+  "why": "The verb is already negative (n't, not), so use anything. Don't use nothing after not.",
+  "slots": {
+   "who": [
+    "Mum",
+    "Dad",
+    "Grandma",
+    "the teacher"
+   ],
+   "thing": [
+    "party",
+    "present",
+    "trip",
+    "cake"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "He said ______ all evening, {name}. Is he OK?",
+  "options": [
+   "no one",
+   "anywhere",
+   "nothing",
+   "anything"
+  ],
+  "key": 2,
+  "why": "The verb is positive (is, ate, said), so use nothing for 'not one thing'.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I can't read ______ in this {place}, {name}. It's very dark.",
+  "options": [
+   "anywhere",
+   "anything",
+   "nothing",
+   "anyone"
+  ],
+  "key": 1,
+  "why": "The verb is already negative (n't, not), so use anything. Don't use nothing after not.",
+  "slots": {
+   "place": [
+    "garage",
+    "room",
+    "tent",
+    "corner"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The museum is free. It costs ______, {name}.",
+  "options": [
+   "nothing",
+   "anything",
+   "no one",
+   "anywhere"
+  ],
+  "key": 0,
+  "why": "The verb is positive (is, ate, said), so use nothing for 'not one thing'.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There isn't ______ in the {box}, {name}. We need to go shopping.",
+  "options": [
+   "nothing",
+   "anyone",
+   "anywhere",
+   "anything"
+  ],
+  "key": 3,
+  "why": "The verb is already negative (n't, not), so use anything. Don't use nothing after not.",
+  "slots": {
+   "box": [
+    "fridge",
+    "cupboard",
+    "kitchen",
+    "freezer"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I did ______ at the weekend, {name}. I just stayed at home.",
+  "options": [
+   "no one",
+   "anywhere",
+   "nothing",
+   "anything"
+  ],
+  "key": 2,
+  "why": "The verb is positive (is, ate, said), so use nothing for 'not one thing'.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} didn't do ______ in the {lesson} today.",
+  "options": [
+   "anywhere",
+   "anything",
+   "nothing",
+   "anyone"
+  ],
+  "key": 1,
+  "why": "The verb is already negative (n't, not), so use anything. Don't use nothing after not.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "lesson": [
+    "maths lesson",
+    "English lesson",
+    "art lesson",
+    "history lesson"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ate ______ for {meal}, {name}. Now I'm very hungry.",
+  "options": [
+   "nothing",
+   "anything",
+   "no one",
+   "anywhere"
+  ],
+  "key": 0,
+  "why": "The verb is positive (is, ate, said), so use nothing for 'not one thing'.",
+  "slots": {
+   "meal": [
+    "breakfast",
+    "lunch",
+    "dinner",
+    "two days"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {who} doesn't know ______ about phones.",
+  "options": [
+   "nothing",
+   "anyone",
+   "anywhere",
+   "anything"
+  ],
+  "key": 3,
+  "why": "The verb is already negative (n't, not), so use anything. Don't use nothing after not.",
+  "slots": {
+   "who": [
+    "grandpa",
+    "grandma",
+    "uncle",
+    "aunt"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We found ______ in the {place}. The {thing} wasn't there.",
+  "options": [
+   "no one",
+   "anywhere",
+   "nothing",
+   "anything"
+  ],
+  "key": 2,
+  "why": "The verb is positive (is, ate, said), so use nothing for 'not one thing'.",
+  "slots": {
+   "place": [
+    "car",
+    "garden",
+    "classroom",
+    "hall"
+   ],
+   "thing": [
+    "phone",
+    "key",
+    "bag",
+    "ticket"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I haven't got ______ to read on the {t}, {name}.",
+  "options": [
+   "anywhere",
+   "anything",
+   "nothing",
+   "anyone"
+  ],
+  "key": 1,
+  "why": "The verb is already negative (n't, not), so use anything. Don't use nothing after not.",
+  "slots": {
+   "t": [
+    "train",
+    "bus",
+    "plane",
+    "trip"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} has got ______ in her {thing}. It's empty.",
+  "options": [
+   "nothing",
+   "anything",
+   "no one",
+   "anywhere"
+  ],
+  "key": 0,
+  "why": "The verb is positive (is, ate, said), so use nothing for 'not one thing'.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "thing": [
+    "wallet",
+    "purse",
+    "pocket",
+    "bag"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "They didn't find ______ to eat in the {place}, {name}.",
+  "options": [
+   "nothing",
+   "anyone",
+   "anywhere",
+   "anything"
+  ],
+  "key": 3,
+  "why": "The verb is already negative (n't, not), so use anything. Don't use nothing after not.",
+  "slots": {
+   "place": [
+    "forest",
+    "old house",
+    "garden",
+    "cupboard"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There was ______ on TV last night, {name}, so I read a book.",
+  "options": [
+   "no one",
+   "anywhere",
+   "nothing",
+   "anything"
+  ],
+  "key": 2,
+  "why": "The verb is positive (is, ate, said), so use nothing for 'not one thing'.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Don't worry, {name}. I didn't break ______ in the {room}.",
+  "options": [
+   "anywhere",
+   "anything",
+   "nothing",
+   "anyone"
+  ],
+  "key": 1,
+  "why": "The verb is already negative (n't, not), so use anything. Don't use nothing after not.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "room": [
+    "kitchen",
+    "living room",
+    "bathroom",
+    "bedroom"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write nothing or anything.",
+  "source": "There's ______ in the {box}, {name}. Look!",
+  "key": "nothing",
+  "why": "The verb is positive (is, ate, said), so use nothing for 'not one thing'.",
+  "slots": {
+   "box": [
+    "box",
+    "bag",
+    "fridge",
+    "drawer"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write nothing or anything.",
+  "source": "I didn't hear ______ last night, {name}.",
+  "key": "anything",
+  "why": "The verb is already negative (n't, not), so use anything. Don't use nothing after not.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write nothing or anything.",
+  "source": "{name} ate ______ at the {event}. He wasn't hungry.",
+  "key": "nothing",
+  "why": "The verb is positive (is, ate, said), so use nothing for 'not one thing'.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Rustam"
+   ],
+   "event": [
+    "party",
+    "wedding",
+    "picnic",
+    "café"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write nothing or anything.",
+  "source": "We didn't buy ______ for {who}'s birthday yet.",
+  "key": "anything",
+  "why": "The verb is already negative (n't, not), so use anything. Don't use nothing after not.",
+  "slots": {
+   "who": [
+    "Mum",
+    "Dad",
+    "Grandma",
+    "Grandpa"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write nothing or anything.",
+  "source": "I have ______ to do this {when}, {name}. I'm bored.",
+  "key": "nothing",
+  "why": "The verb is positive (is, ate, said), so use nothing for 'not one thing'.",
+  "slots": {
+   "when": [
+    "evening",
+    "weekend",
+    "afternoon",
+    "morning"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write nothing or anything.",
+  "source": "My little sister doesn't drink ______ with her {meal}.",
+  "key": "anything",
+  "why": "The verb is already negative (n't, not), so use anything. Don't use nothing after not.",
+  "slots": {
+   "meal": [
+    "lunch",
+    "dinner",
+    "breakfast",
+    "plov"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write nothing or anything.",
+  "source": "The concert was free. We paid ______, {name}.",
+  "key": "nothing",
+  "why": "The verb is positive (is, ate, said), so use nothing for 'not one thing'.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write nothing or anything.",
+  "source": "{name} didn't tell me ______ about the {thing}.",
+  "key": "anything",
+  "why": "The verb is already negative (n't, not), so use anything. Don't use nothing after not.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "thing": [
+    "test",
+    "trip",
+    "party",
+    "new teacher"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write nothing or anything.",
+  "source": "There was ______ in the {place} when we arrived, {name}.",
+  "key": "nothing",
+  "why": "The verb is positive (is, ate, said), so use nothing for 'not one thing'.",
+  "slots": {
+   "place": [
+    "fridge",
+    "box",
+    "shop",
+    "cupboard"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write nothing or anything.",
+  "source": "I can't find ______ to wear for the {event}, {name}.",
+  "key": "anything",
+  "why": "The verb is already negative (n't, not), so use anything. Don't use nothing after not.",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "concert",
+    "exam"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write nothing or anything.",
+  "source": "We saw ______ in the {place}. It was too dark, {name}.",
+  "key": "nothing",
+  "why": "The verb is positive (is, ate, said), so use nothing for 'not one thing'.",
+  "slots": {
+   "place": [
+    "forest",
+    "garden",
+    "sky",
+    "yard"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write nothing or anything.",
+  "source": "They didn't say ______ at the {event}, {name}.",
+  "key": "anything",
+  "why": "The verb is already negative (n't, not), so use anything. Don't use nothing after not.",
+  "slots": {
+   "event": [
+    "meeting",
+    "lesson",
+    "dinner",
+    "party"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write nothing or anything.",
+  "source": "{name} knows ______ about {topic}.",
+  "key": "nothing",
+  "why": "The verb is positive (is, ate, said), so use nothing for 'not one thing'.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "topic": [
+    "cooking",
+    "cars",
+    "chess",
+    "computers"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write nothing or anything.",
+  "source": "I haven't got ______ in my pocket, {name}.",
+  "key": "anything",
+  "why": "The verb is already negative (n't, not), so use anything. Don't use nothing after not.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write nothing or anything.",
+  "source": "The {kid} said ______ to the teacher. He was afraid.",
+  "key": "nothing",
+  "why": "The verb is positive (is, ate, said), so use nothing for 'not one thing'.",
+  "slots": {
+   "kid": [
+    "boy",
+    "new boy",
+    "little boy",
+    "student"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write nothing or anything.",
+  "source": "We don't need ______ from the {place}, {name}.",
+  "key": "anything",
+  "why": "The verb is already negative (n't, not), so use anything. Don't use nothing after not.",
+  "slots": {
+   "place": [
+    "shop",
+    "bazaar",
+    "bakery",
+    "chemist's"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write nothing or anything.",
+  "source": "I found ______ in my {thing}, {name}. Where's my ticket?",
+  "key": "nothing",
+  "why": "The verb is positive (is, ate, said), so use nothing for 'not one thing'.",
+  "slots": {
+   "thing": [
+    "bag",
+    "pocket",
+    "jacket",
+    "wallet"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write nothing or anything.",
+  "source": "{name} doesn't want ______ for {meal} today.",
+  "key": "anything",
+  "why": "The verb is already negative (n't, not), so use anything. Don't use nothing after not.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "meal": [
+    "breakfast",
+    "lunch",
+    "dinner",
+    "dessert"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write nothing or anything.",
+  "source": "This phone costs ______ with the new {plan}, {name}.",
+  "key": "nothing",
+  "why": "The verb is positive (is, ate, said), so use nothing for 'not one thing'.",
+  "slots": {
+   "plan": [
+    "plan",
+    "card",
+    "offer",
+    "contract"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write nothing or anything.",
+  "source": "I didn't eat ______ on the {t}, {name}.",
+  "key": "anything",
+  "why": "The verb is already negative (n't, not), so use anything. Don't use nothing after not.",
+  "slots": {
+   "t": [
+    "train",
+    "bus",
+    "plane",
+    "trip"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with nothing.",
+  "source": "There isn't anything in the {box}, {name}.",
+  "hint": "There's ______ in the {box}, {name}.",
+  "key": "nothing",
+  "why": "isn't anything = is nothing.",
+  "slots": {
+   "box": [
+    "box",
+    "bag",
+    "fridge",
+    "drawer"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with nothing.",
+  "source": "I didn't eat anything at the {event}, {name}.",
+  "hint": "I ate ______ at the {event}, {name}.",
+  "key": "nothing",
+  "why": "didn't eat anything = ate nothing.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "picnic",
+    "café"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with nothing.",
+  "source": "{name} didn't say anything at the {event}.",
+  "hint": "{name} said ______ at the {event}.",
+  "key": "nothing",
+  "why": "didn't say anything = said nothing.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "event": [
+    "meeting",
+    "lesson",
+    "dinner",
+    "party"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with nothing.",
+  "source": "We didn't find anything in the {place}, {name}.",
+  "hint": "We found ______ in the {place}, {name}.",
+  "key": "nothing",
+  "why": "didn't find anything = found nothing.",
+  "slots": {
+   "place": [
+    "car",
+    "garden",
+    "classroom",
+    "hall"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with nothing.",
+  "source": "The {thing} doesn't cost anything, {name}.",
+  "hint": "The {thing} costs ______, {name}.",
+  "key": "nothing",
+  "why": "doesn't cost anything = costs nothing.",
+  "slots": {
+   "thing": [
+    "museum",
+    "concert",
+    "lesson",
+    "app"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with not and anything.",
+  "source": "There's nothing in the {box}, {name}.",
+  "hint": "There ______ in the {box}, {name}.",
+  "key": "isn't anything",
+  "why": "is nothing = isn't anything.",
+  "slots": {
+   "box": [
+    "box",
+    "bag",
+    "fridge",
+    "drawer"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with not and anything.",
+  "source": "I bought nothing at the {place}, {name}.",
+  "hint": "I ______ at the {place}, {name}.",
+  "key": "didn't buy anything",
+  "why": "bought nothing = didn't buy anything.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "shop",
+    "market",
+    "mall"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with not and anything.",
+  "source": "{name} knows nothing about {topic}.",
+  "hint": "{name} ______ about {topic}.",
+  "key": "doesn't know anything",
+  "why": "knows nothing = doesn't know anything.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "topic": [
+    "cars",
+    "chess",
+    "cooking",
+    "music"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with not and anything.",
+  "source": "We heard nothing in the {place} last night.",
+  "hint": "We ______ in the {place} last night.",
+  "key": "didn't hear anything",
+  "why": "heard nothing = didn't hear anything.",
+  "slots": {
+   "place": [
+    "yard",
+    "street",
+    "garden",
+    "hall"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with not and anything.",
+  "source": "I've got nothing in my {thing}, {name}.",
+  "hint": "I ______ in my {thing}, {name}.",
+  "key": "haven't got anything",
+  "why": "have got nothing = haven't got anything.",
+  "slots": {
+   "thing": [
+    "bag",
+    "pocket",
+    "wallet",
+    "purse"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I didn't say nothing to {who}, {name}.",
+  "hint": "I didn't say ______ to {who}, {name}.",
+  "key": "anything",
+  "why": "The verb is already negative (n't, not), so use anything. Don't use nothing after not.",
+  "slots": {
+   "who": [
+    "Mum",
+    "Dad",
+    "the teacher",
+    "Grandma"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{name} doesn't know nothing about the {thing}.",
+  "hint": "{name} doesn't know ______ about the {thing}.",
+  "key": "anything",
+  "why": "The verb is already negative (n't, not), so use anything. Don't use nothing after not.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "thing": [
+    "test",
+    "party",
+    "trip",
+    "plan"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "There isn't nothing in the {box}, {name}.",
+  "hint": "There isn't ______ in the {box}, {name}.",
+  "key": "anything",
+  "why": "The verb is already negative (n't, not), so use anything. Don't use nothing after not.",
+  "slots": {
+   "box": [
+    "box",
+    "bag",
+    "fridge",
+    "drawer"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I ate anything for {meal}, {name}. I wasn't hungry.",
+  "hint": "I ate ______ for {meal}, {name}. I wasn't hungry.",
+  "key": "nothing",
+  "why": "The verb is positive (is, ate, said), so use nothing for 'not one thing'.",
+  "slots": {
+   "meal": [
+    "breakfast",
+    "lunch",
+    "dinner",
+    "dessert"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "There's anything in my bag, {name}. It's empty.",
+  "hint": "There's ______ in my bag, {name}. It's empty.",
+  "key": "nothing",
+  "why": "The verb is positive (is, ate, said), so use nothing for 'not one thing'.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about an empty place with There's nothing.",
+  "requiredElement": "There's nothing in the …",
+  "constraints": [
+   "exactly one sentence",
+   "nothing",
+   "a place word"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you didn't do yesterday with anything.",
+  "requiredElement": "I didn't … anything.",
+  "constraints": [
+   "exactly one sentence",
+   "didn't",
+   "anything"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a topic you know nothing about.",
+  "requiredElement": "I know nothing about …",
+  "constraints": [
+   "exactly one sentence",
+   "nothing",
+   "a topic word"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a free thing with costs nothing.",
+  "requiredElement": "… costs nothing.",
+  "constraints": [
+   "exactly one sentence",
+   "costs nothing",
+   "a thing word"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about food you don't eat with anything.",
+  "requiredElement": "I don't eat anything …",
+  "constraints": [
+   "exactly one sentence",
+   "don't",
+   "anything"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "You lost your keys. Write one sentence about your bag.",
+  "requiredElement": "There's nothing in my bag.",
+  "constraints": [
+   "exactly one sentence",
+   "nothing",
+   "bag"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a quiet person who didn't say anything.",
+  "requiredElement": "He / She didn't say anything …",
+  "constraints": [
+   "exactly one sentence",
+   "didn't say anything",
+   "a person word"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences with the same meaning: one with nothing and one with not … anything.",
+  "requiredElement": "I ate nothing. / I didn't eat anything.",
+  "constraints": [
+   "exactly two sentences",
+   "nothing once",
+   "not … anything once"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a boring day: you did nothing and you didn't see anything interesting.",
+  "targetGrammar": "nothing / not … anything",
+  "lookFor": [
+   "nothing",
+   "anything with not",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You open the fridge and it's empty. Write a note to your family.",
+  "targetGrammar": "There's nothing in the fridge. We haven't got anything …",
+  "lookFor": [
+   "nothing",
+   "anything with n't",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about a new hobby. At first you knew nothing about it.",
+  "targetGrammar": "I knew nothing about … I didn't know anything …",
+  "lookFor": [
+   "nothing",
+   "anything",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a trip where something went wrong: you lost your bag.",
+  "targetGrammar": "There was nothing in … / I didn't have anything …",
+  "lookFor": [
+   "nothing",
+   "anything",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "nothing-anything",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about free things to do in your town.",
+  "targetGrammar": "It costs nothing. You don't need anything …",
+  "lookFor": [
+   "nothing",
+   "anything with n't",
+   "three or four sentences"
+  ]
+ }
+]

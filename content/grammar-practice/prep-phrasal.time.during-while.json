@@ -1,0 +1,1810 @@
+[
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My phone rang twice ______ the {event}, {name}.",
+  "options": [
+   "during",
+   "while",
+   "meanwhile",
+   "whereas"
+  ],
+  "key": 0,
+  "why": "\"the meeting\" is a noun: during.",
+  "slots": {
+   "event": [
+    "meeting",
+    "lesson",
+    "exam",
+    "concert"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Someone called ______ I was in the {room}, {name}.",
+  "options": [
+   "while",
+   "meanwhile",
+   "whereas",
+   "during"
+  ],
+  "key": 0,
+  "why": "\"I was in the shower\" has a subject and verb: while.",
+  "slots": {
+   "room": [
+    "shower",
+    "kitchen",
+    "garden",
+    "garage"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Grandpa fell asleep ______ the {film}, {name}.",
+  "options": [
+   "meanwhile",
+   "whereas",
+   "during",
+   "while"
+  ],
+  "key": 2,
+  "why": "\"the film\" is a noun: during.",
+  "slots": {
+   "film": [
+    "film",
+    "match",
+    "news",
+    "speech"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {who} arrived ______ we were having dinner, {name}.",
+  "options": [
+   "whereas",
+   "during",
+   "while",
+   "meanwhile"
+  ],
+  "key": 2,
+  "why": "\"we were having dinner\" is a clause: while.",
+  "slots": {
+   "who": [
+    "guests",
+    "neighbours",
+    "cousins",
+    "plumber"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "It snowed a lot ______ the night in {city}, {name}.",
+  "options": [
+   "during",
+   "while",
+   "meanwhile",
+   "whereas"
+  ],
+  "key": 0,
+  "why": "\"the night\" is a noun: during.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Chimgan",
+    "Moscow",
+    "Almaty"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I met my best friend ______ I was living in {city}, {name}.",
+  "options": [
+   "while",
+   "meanwhile",
+   "whereas",
+   "during"
+  ],
+  "key": 0,
+  "why": "\"I was living\" has a subject and verb: while.",
+  "slots": {
+   "city": [
+    "Kazan",
+    "Seoul",
+    "Istanbul",
+    "Moscow"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Nobody may use a phone ______ the {test}, {name}.",
+  "options": [
+   "meanwhile",
+   "whereas",
+   "during",
+   "while"
+  ],
+  "key": 2,
+  "why": "\"the exam\" is a noun: during.",
+  "slots": {
+   "test": [
+    "exam",
+    "test",
+    "interview",
+    "lesson"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Please don't talk ______ the {who} is speaking, {name}.",
+  "options": [
+   "whereas",
+   "during",
+   "while",
+   "meanwhile"
+  ],
+  "key": 2,
+  "why": "\"the teacher is speaking\" is a clause: while.",
+  "slots": {
+   "who": [
+    "teacher",
+    "director",
+    "guide",
+    "doctor"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We visited lots of museums ______ our stay in {city}, {name}.",
+  "options": [
+   "during",
+   "while",
+   "meanwhile",
+   "whereas"
+  ],
+  "key": 0,
+  "why": "\"our stay\" is a noun: during.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Istanbul",
+    "Paris"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The lights went out ______ we were watching the {show}, {name}.",
+  "options": [
+   "while",
+   "meanwhile",
+   "whereas",
+   "during"
+  ],
+  "key": 0,
+  "why": "\"we were watching\" is a clause: while.",
+  "slots": {
+   "show": [
+    "final",
+    "film",
+    "concert",
+    "news"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {shop} is closed ______ the holidays, {name}.",
+  "options": [
+   "meanwhile",
+   "whereas",
+   "during",
+   "while"
+  ],
+  "key": 2,
+  "why": "\"the holidays\" is a noun: during.",
+  "slots": {
+   "shop": [
+    "bakery",
+    "library",
+    "gym",
+    "school"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My little sister drew a picture ______ Mum was {job}, {name}.",
+  "options": [
+   "whereas",
+   "during",
+   "while",
+   "meanwhile"
+  ],
+  "key": 2,
+  "why": "\"Mum was cooking\" has a subject and verb: while.",
+  "slots": {
+   "job": [
+    "cooking",
+    "on the phone",
+    "at work",
+    "driving"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I made lots of new friends ______ the summer {camp}, {name}.",
+  "options": [
+   "during",
+   "while",
+   "meanwhile",
+   "whereas"
+  ],
+  "key": 0,
+  "why": "\"the summer camp\" is a noun: during.",
+  "slots": {
+   "camp": [
+    "camp",
+    "course",
+    "holidays",
+    "school"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Can you water the plants ______ we are in {city}, {name}?",
+  "options": [
+   "while",
+   "meanwhile",
+   "whereas",
+   "during"
+  ],
+  "key": 0,
+  "why": "\"we are in Antalya\" is a clause: while.",
+  "slots": {
+   "city": [
+    "Antalya",
+    "Dubai",
+    "Bukhara",
+    "Khiva"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Two players got hurt ______ the {match}, {name}.",
+  "options": [
+   "meanwhile",
+   "whereas",
+   "during",
+   "while"
+  ],
+  "key": 2,
+  "why": "\"the match\" is a noun: during.",
+  "slots": {
+   "match": [
+    "match",
+    "game",
+    "final",
+    "training"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I burnt my hand ______ I was making {food}, {name}.",
+  "options": [
+   "whereas",
+   "during",
+   "while",
+   "meanwhile"
+  ],
+  "key": 2,
+  "why": "\"I was making\" has a subject and verb: while.",
+  "slots": {
+   "food": [
+    "plov",
+    "tea",
+    "pancakes",
+    "soup"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The baby woke up three times ______ the {time}, {name}.",
+  "options": [
+   "during",
+   "while",
+   "meanwhile",
+   "whereas"
+  ],
+  "key": 0,
+  "why": "\"the night\" is a noun: during.",
+  "slots": {
+   "time": [
+    "night",
+    "flight",
+    "storm",
+    "concert"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {who} waited in the car ______ I bought the tickets, {name}.",
+  "options": [
+   "while",
+   "meanwhile",
+   "whereas",
+   "during"
+  ],
+  "key": 0,
+  "why": "\"I bought the tickets\" is a clause: while.",
+  "slots": {
+   "who": [
+    "kids",
+    "girls",
+    "boys",
+    "guests"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Please switch off your phones ______ the {event}, {name}.",
+  "options": [
+   "meanwhile",
+   "whereas",
+   "during",
+   "while"
+  ],
+  "key": 2,
+  "why": "\"the performance\" is a noun: during.",
+  "slots": {
+   "event": [
+    "performance",
+    "lesson",
+    "flight",
+    "ceremony"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "A dog ate my sandwich ______ I wasn't looking, {name}. We were at the {place}.",
+  "options": [
+   "whereas",
+   "during",
+   "while",
+   "meanwhile"
+  ],
+  "key": 2,
+  "why": "\"I wasn't looking\" is a clause: while.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "station",
+    "beach",
+    "café"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write during or while.",
+  "source": "I always feel sleepy ______ long {event}s, {name}.",
+  "key": "during",
+  "why": "\"long meetings\" is a noun: during.",
+  "slots": {
+   "event": [
+    "meeting",
+    "lesson",
+    "flight",
+    "speech"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write during or while.",
+  "source": "I listen to {thing} ______ I run in the park, {name}.",
+  "key": "while",
+  "why": "\"I run\" has a subject and verb: while.",
+  "slots": {
+   "thing": [
+    "music",
+    "podcasts",
+    "the radio",
+    "audiobooks"
+   ],
+   "name": [
+    "Sherzod",
+    "Gulnora",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write during or while.",
+  "source": "There was a power cut ______ the {storm}, {name}.",
+  "key": "during",
+  "why": "\"the storm\" is a noun: during.",
+  "slots": {
+   "storm": [
+    "storm",
+    "match",
+    "wedding",
+    "night"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write during or while.",
+  "source": "The phone rang ______ I was {job}, {name}.",
+  "key": "while",
+  "why": "\"I was asleep\" is a clause: while.",
+  "slots": {
+   "job": [
+    "asleep",
+    "in the bath",
+    "out",
+    "at the bazaar"
+   ],
+   "name": [
+    "Sherzod",
+    "Gulnora",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write during or while.",
+  "source": "My uncle worked in {city} ______ the 1990s, {name}.",
+  "key": "during",
+  "why": "\"the 1990s\" is a noun: during.",
+  "slots": {
+   "city": [
+    "Moscow",
+    "Seoul",
+    "Kazan",
+    "Almaty"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write during or while.",
+  "source": "Wait in the hall ______ the {who} gets your papers ready, {name}.",
+  "key": "while",
+  "why": "\"the secretary gets\" is a clause: while.",
+  "slots": {
+   "who": [
+    "secretary",
+    "nurse",
+    "manager",
+    "clerk"
+   ],
+   "name": [
+    "Sherzod",
+    "Gulnora",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write during or while.",
+  "source": "Please don't eat ______ the {lesson}, {name}.",
+  "key": "during",
+  "why": "\"the lesson\" is a noun: during.",
+  "slots": {
+   "lesson": [
+    "lesson",
+    "lecture",
+    "test",
+    "concert"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write during or while.",
+  "source": "We met some tourists ______ we were walking round {city}, {name}.",
+  "key": "while",
+  "why": "\"we were walking\" is a clause: while.",
+  "slots": {
+   "city": [
+    "Khiva",
+    "Samarkand",
+    "Bukhara",
+    "Istanbul"
+   ],
+   "name": [
+    "Sherzod",
+    "Gulnora",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write during or while.",
+  "source": "The {place} is very busy ______ the day, {name}.",
+  "key": "during",
+  "why": "\"the day\" is a noun: during.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "station",
+    "bank",
+    "metro"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write during or while.",
+  "source": "My brother broke his arm ______ he was playing {game}, {name}.",
+  "key": "while",
+  "why": "\"he was playing\" is a clause: while.",
+  "slots": {
+   "game": [
+    "football",
+    "basketball",
+    "volleyball",
+    "tennis"
+   ],
+   "name": [
+    "Sherzod",
+    "Gulnora",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write during or while.",
+  "source": "We stayed inside ______ the {weather}, {name}.",
+  "key": "during",
+  "why": "\"the storm\" is a noun: during.",
+  "slots": {
+   "weather": [
+    "storm",
+    "heatwave",
+    "dust storm",
+    "snowstorm"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write during or while.",
+  "source": "Can you hold my {thing} ______ I tie my shoes, {name}?",
+  "key": "while",
+  "why": "\"I tie my shoes\" is a clause: while.",
+  "slots": {
+   "thing": [
+    "bag",
+    "coffee",
+    "phone",
+    "keys"
+   ],
+   "name": [
+    "Sherzod",
+    "Gulnora",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write during or while.",
+  "source": "Lots of people get colds ______ the {season}, {name}.",
+  "key": "during",
+  "why": "\"the winter\" is a noun: during.",
+  "slots": {
+   "season": [
+    "winter",
+    "autumn",
+    "cold months",
+    "rainy season"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write during or while.",
+  "source": "Grandma told stories ______ we ate {food}, {name}.",
+  "key": "while",
+  "why": "\"we ate\" has a subject and verb: while.",
+  "slots": {
+   "food": [
+    "plov",
+    "dinner",
+    "breakfast",
+    "manti"
+   ],
+   "name": [
+    "Sherzod",
+    "Gulnora",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write during or while.",
+  "source": "The {who} slept ______ the whole {time}.",
+  "key": "during",
+  "why": "\"the whole journey\" is a noun: during.",
+  "slots": {
+   "who": [
+    "baby",
+    "children",
+    "dog",
+    "passengers"
+   ],
+   "time": [
+    "journey",
+    "flight",
+    "film",
+    "concert"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write during or while.",
+  "source": "My ice cream melted ______ I was in the {place}, {name}.",
+  "key": "while",
+  "why": "\"I was in the shop\" is a clause: while.",
+  "slots": {
+   "place": [
+    "shop",
+    "library",
+    "café",
+    "gym"
+   ],
+   "name": [
+    "Sherzod",
+    "Gulnora",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write during or while.",
+  "source": "The {who} asked a lot of questions ______ the {event}.",
+  "key": "during",
+  "why": "\"the tour\" is a noun: during.",
+  "slots": {
+   "who": [
+    "students",
+    "tourists",
+    "parents",
+    "journalists"
+   ],
+   "event": [
+    "tour",
+    "lecture",
+    "meeting",
+    "visit"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write during or while.",
+  "source": "Don't use your phone ______ you are driving {where}, {name}.",
+  "key": "while",
+  "why": "\"you are driving\" is a clause: while.",
+  "slots": {
+   "name": [
+    "Sherzod",
+    "Gulnora",
+    "Akmal",
+    "Feruza"
+   ],
+   "where": [
+    "in the city",
+    "on the motorway",
+    "at night",
+    "in the rain"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write during or while.",
+  "source": "I read three books ______ my holiday in {city}, {name}.",
+  "key": "during",
+  "why": "\"my holiday\" is a noun: during.",
+  "slots": {
+   "city": [
+    "Antalya",
+    "Dubai",
+    "Issyk-Kul",
+    "Batumi"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write during or while.",
+  "source": "The {kids} played outside ______ their parents cooked, {name}.",
+  "key": "while",
+  "why": "\"their parents cooked\" is a clause: while.",
+  "slots": {
+   "kids": [
+    "children",
+    "boys",
+    "girls",
+    "cousins"
+   ],
+   "name": [
+    "Sherzod",
+    "Gulnora",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with during.",
+  "source": "My phone rang when we were having the {event}, {name}.",
+  "hint": "My phone rang ______ the {event}, {name}.",
+  "key": "during",
+  "why": "the meeting is a noun: during.",
+  "slots": {
+   "event": [
+    "meeting",
+    "lesson",
+    "interview",
+    "dinner"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with during.",
+  "source": "Dad fell asleep when we were watching the {show}, {name}.",
+  "hint": "Dad fell asleep ______ the {show}, {name}.",
+  "key": "during",
+  "why": "the film is a noun: during.",
+  "slots": {
+   "show": [
+    "film",
+    "match",
+    "news",
+    "concert"
+   ],
+   "name": [
+    "Sherzod",
+    "Gulnora",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with during.",
+  "source": "It rained when we were on our trip to {city}, {name}.",
+  "hint": "It rained ______ our trip to {city}, {name}.",
+  "key": "during",
+  "why": "our trip is a noun: during.",
+  "slots": {
+   "city": [
+    "Khiva",
+    "Bukhara",
+    "Chimgan",
+    "Termez"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with during.",
+  "source": "Two windows broke when the {storm} was happening, {name}.",
+  "hint": "Two windows broke ______ the {storm}, {name}.",
+  "key": "during",
+  "why": "the storm is a noun: during.",
+  "slots": {
+   "storm": [
+    "storm",
+    "earthquake",
+    "match",
+    "party"
+   ],
+   "name": [
+    "Sherzod",
+    "Gulnora",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with during.",
+  "source": "I lost my {thing} when we were on the flight, {name}.",
+  "hint": "I lost my {thing} ______ the flight, {name}.",
+  "key": "during",
+  "why": "the flight is a noun: during.",
+  "slots": {
+   "thing": [
+    "ring",
+    "pen",
+    "scarf",
+    "headphones"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with while.",
+  "source": "I met my wife during my holiday in {city}, {name}.",
+  "hint": "I met my wife ______ I was on holiday in {city}, {name}.",
+  "key": "while",
+  "why": "I was on holiday is a clause: while.",
+  "slots": {
+   "city": [
+    "Antalya",
+    "Samarkand",
+    "Dubai",
+    "Batumi"
+   ],
+   "name": [
+    "Sherzod",
+    "Gulnora",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with while.",
+  "source": "The baby slept during our drive to {city}, {name}.",
+  "hint": "The baby slept ______ we drove to {city}, {name}.",
+  "key": "while",
+  "why": "we drove is a clause: while.",
+  "slots": {
+   "city": [
+    "Fergana",
+    "Namangan",
+    "Karshi",
+    "Nukus"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with while.",
+  "source": "I hurt my knee during the {game}, {name}.",
+  "hint": "I hurt my knee ______ I was playing {game}, {name}.",
+  "key": "while",
+  "why": "I was playing is a clause: while.",
+  "slots": {
+   "game": [
+    "football",
+    "basketball",
+    "tennis",
+    "volleyball"
+   ],
+   "name": [
+    "Sherzod",
+    "Gulnora",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with while.",
+  "source": "The {who} came during our dinner, {name}.",
+  "hint": "The {who} came ______ we were having dinner, {name}.",
+  "key": "while",
+  "why": "we were having dinner is a clause: while.",
+  "slots": {
+   "who": [
+    "guests",
+    "neighbours",
+    "postman",
+    "plumber"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with while.",
+  "source": "I learned to cook during my stay in {city}, {name}.",
+  "hint": "I learned to cook ______ I was staying in {city}, {name}.",
+  "key": "while",
+  "why": "I was staying is a clause: while.",
+  "slots": {
+   "city": [
+    "Seoul",
+    "Istanbul",
+    "Rome",
+    "Tokyo"
+   ],
+   "name": [
+    "Sherzod",
+    "Gulnora",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Please be quiet while the {event}, {name}.",
+  "hint": "Please be quiet ______ the {event}, {name}.",
+  "key": "during",
+  "why": "the concert is a noun, so not while: during.",
+  "slots": {
+   "event": [
+    "concert",
+    "lesson",
+    "ceremony",
+    "exam"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I fell asleep during I was reading the {thing}, {name}.",
+  "hint": "I fell asleep ______ I was reading the {thing}, {name}.",
+  "key": "while",
+  "why": "I was reading is a clause, so not during: while.",
+  "slots": {
+   "thing": [
+    "book",
+    "report",
+    "newspaper",
+    "article"
+   ],
+   "name": [
+    "Sherzod",
+    "Gulnora",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "We met many people while our trip to {city}, {name}.",
+  "hint": "We met many people ______ our trip to {city}, {name}.",
+  "key": "during",
+  "why": "our trip is a noun, so not while: during.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Khiva",
+    "Bukhara",
+    "Andijan"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The {who} called during we were out, {name}.",
+  "hint": "The {who} called ______ we were out, {name}.",
+  "key": "while",
+  "why": "we were out is a clause, so not during: while.",
+  "slots": {
+   "who": [
+    "doctor",
+    "teacher",
+    "bank",
+    "landlord"
+   ],
+   "name": [
+    "Sherzod",
+    "Gulnora",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Mum cooked dinner during Dad was at the {place}, {name}.",
+  "hint": "Mum cooked dinner ______ Dad was at the {place}, {name}.",
+  "key": "while",
+  "why": "Dad was at the bazaar is a clause, so not during: while.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "gym",
+    "bank",
+    "office"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Jamshid",
+    "Zarina"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with during + a noun.",
+  "requiredElement": "during the film / the night",
+  "constraints": [
+   "exactly one sentence",
+   "during",
+   "a noun after during"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with while + subject + verb.",
+  "requiredElement": "while I was cooking",
+  "constraints": [
+   "exactly one sentence",
+   "while",
+   "subject + verb after while"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something that happened during a holiday.",
+  "requiredElement": "during my holiday …",
+  "constraints": [
+   "exactly one sentence",
+   "during",
+   "past"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something that happened while you were sleeping.",
+  "requiredElement": "while I was sleeping …",
+  "constraints": [
+   "exactly one sentence",
+   "while",
+   "past continuous"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a rule at school or work. Use during.",
+  "requiredElement": "Don't … during the lesson",
+  "constraints": [
+   "exactly one sentence",
+   "during",
+   "a rule"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about two things you do at the same time. Use while.",
+  "requiredElement": "I … while I …",
+  "constraints": [
+   "exactly one sentence",
+   "while",
+   "present simple"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences with the same meaning: one with during and one with while.",
+  "requiredElement": "during the film / while we were watching the film",
+  "constraints": [
+   "exactly two sentences",
+   "during + noun",
+   "while + clause"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with during the night.",
+  "requiredElement": "during the night",
+  "constraints": [
+   "exactly one sentence",
+   "during the night",
+   "past"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a trip you made. What happened during the trip? Write three or four sentences with during and while.",
+  "targetGrammar": "during + noun / while + clause",
+  "lookFor": [
+   "during",
+   "while",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences about a funny or strange thing that happened while you were at school.",
+  "targetGrammar": "while + clause",
+  "lookFor": [
+   "while",
+   "during",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four rules for a cinema or a library. Use during and while.",
+  "targetGrammar": "during the film / while people are reading",
+  "lookFor": [
+   "during",
+   "while",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a storm or a power cut you remember. Write three or four sentences.",
+  "targetGrammar": "during the storm / while we were …",
+  "lookFor": [
+   "during",
+   "while",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "time",
+  "topic": "during-while",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences about what you do while you travel on a bus or plane.",
+  "targetGrammar": "while + clause / during the flight",
+  "lookFor": [
+   "while",
+   "during",
+   "three or four sentences"
+  ]
+ }
+]

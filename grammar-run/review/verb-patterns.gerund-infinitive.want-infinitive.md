@@ -1,4 +1,4 @@
-# verb-patterns.gerund-infinitive.want-infinitive — review sample (A2)
+# verb-patterns.gerund-infinitive.want-infinitive — review sample (A1)
 
 Each item shows one random filler combination (in bold). Mark anything a teacher wouldn't accept.
 

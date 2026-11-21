@@ -1,0 +1,1907 @@
+[
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{spk} says: 'I live in {city}.' '______.'",
+  "options": [
+   "So do I",
+   "So am I",
+   "Neither do I",
+   "So I live"
+  ],
+  "key": 0,
+  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{spk} says: 'I'm tired after the {thing}.' '______.'",
+  "options": [
+   "So do I",
+   "Neither am I",
+   "So I'm",
+   "So am I"
+  ],
+  "key": 3,
+  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "slots": {
+   "thing": [
+    "trip",
+    "match",
+    "lesson",
+    "walk"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{spk} says: 'I can {skill}.' '______.'",
+  "options": [
+   "Neither can I",
+   "Can I too",
+   "So can I",
+   "So do I"
+  ],
+  "key": 2,
+  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "slots": {
+   "skill": [
+    "swim",
+    "drive",
+    "ski",
+    "dance"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{spk} says: 'I went to the {event} {when}.' '______.'",
+  "options": [
+   "Neither did I",
+   "So did I",
+   "So went I",
+   "So do I"
+  ],
+  "key": 1,
+  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{spk} says: 'I've been to {city} twice.' '______.'",
+  "options": [
+   "So have I",
+   "So did I",
+   "So am I",
+   "Neither have I"
+  ],
+  "key": 0,
+  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{spk} says: 'I'll be at the {place} tomorrow.' '______.'",
+  "options": [
+   "So I'll",
+   "So do I",
+   "Neither will I",
+   "So will I"
+  ],
+  "key": 3,
+  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "slots": {
+   "place": [
+    "library",
+    "gym",
+    "bazaar",
+    "station"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{spk} says: 'I was late for the {thing} {when}.' '______.'",
+  "options": [
+   "So were I",
+   "Neither was I",
+   "So was I",
+   "So did I"
+  ],
+  "key": 2,
+  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "slots": {
+   "thing": [
+    "lesson",
+    "bus",
+    "meeting",
+    "exam"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{spk} says: 'I love {food}.' '______.'",
+  "options": [
+   "So love I",
+   "So do I",
+   "So am I",
+   "Neither do I"
+  ],
+  "key": 1,
+  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "slots": {
+   "food": [
+    "plov",
+    "fish",
+    "spicy food",
+    "sweets"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{spk} says: 'I'm learning {lang}.' '______.'",
+  "options": [
+   "So am I",
+   "So do I",
+   "Neither am I",
+   "So I'm"
+  ],
+  "key": 0,
+  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "slots": {
+   "lang": [
+    "Korean",
+    "Turkish",
+    "Spanish",
+    "Chinese"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{spk} says: 'My cousin speaks {lang}.' '______ my brother.'",
+  "options": [
+   "So do",
+   "So is",
+   "Neither does",
+   "So does"
+  ],
+  "key": 3,
+  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "slots": {
+   "lang": [
+    "Korean",
+    "Turkish",
+    "Spanish",
+    "Chinese"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{spk} says: 'I don't like {food}.' '______.'",
+  "options": [
+   "Neither I do",
+   "I don't neither",
+   "Neither do I",
+   "So do I"
+  ],
+  "key": 2,
+  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "slots": {
+   "food": [
+    "plov",
+    "fish",
+    "spicy food",
+    "sweets"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{spk} says: 'I'm not ready for the {test}.' '______.'",
+  "options": [
+   "Neither I am",
+   "Neither am I",
+   "Neither do I",
+   "So am I"
+  ],
+  "key": 1,
+  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "slots": {
+   "test": [
+    "test",
+    "exam",
+    "match",
+    "trip"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{spk} says: 'I can't {skill}.' '______.'",
+  "options": [
+   "Neither can I",
+   "Neither do I",
+   "So can I",
+   "Neither I can"
+  ],
+  "key": 0,
+  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "slots": {
+   "skill": [
+    "swim",
+    "drive",
+    "ski",
+    "dance"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{spk} says: 'I didn't sleep well {when}.' '______.'",
+  "options": [
+   "Neither do I",
+   "So did I",
+   "Neither I did",
+   "Neither did I"
+  ],
+  "key": 3,
+  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "slots": {
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{spk} says: 'I haven't seen the new {film} yet.' '______.'",
+  "options": [
+   "So have I",
+   "Neither I have",
+   "Neither have I",
+   "Neither did I"
+  ],
+  "key": 2,
+  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "slots": {
+   "film": [
+    "film",
+    "cartoon",
+    "series",
+    "show"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{spk} says: 'I won't be at the {event} on {day}.' '______.'",
+  "options": [
+   "Neither I will",
+   "Neither will I",
+   "Neither I'll",
+   "So will I"
+  ],
+  "key": 1,
+  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ],
+   "day": [
+    "Friday",
+    "Saturday",
+    "Sunday",
+    "Monday"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{spk} says: 'I wasn't at school {when}.' '______.'",
+  "options": [
+   "Neither was I",
+   "Neither did I",
+   "So was I",
+   "Neither I was"
+  ],
+  "key": 0,
+  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "slots": {
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{spk} says: 'I don't drink {drink}.' '______.'",
+  "options": [
+   "Neither am I",
+   "So do I",
+   "I don't neither",
+   "Neither do I"
+  ],
+  "key": 3,
+  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "slots": {
+   "drink": [
+    "coffee",
+    "cola",
+    "milk",
+    "green tea"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{spk} says: 'My {who} doesn't eat meat.' '______ my {who2}.'",
+  "options": [
+   "So does",
+   "Neither is",
+   "Neither does",
+   "Neither do"
+  ],
+  "key": 2,
+  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "slots": {
+   "who": [
+    "sister",
+    "aunt",
+    "mum",
+    "grandma"
+   ],
+   "who2": [
+    "brother",
+    "uncle",
+    "dad",
+    "cousin"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{spk} says: 'We weren't at home {when}.' '______ we.'",
+  "options": [
+   "Neither was",
+   "Neither were",
+   "Neither did",
+   "So were"
+  ],
+  "key": 1,
+  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "slots": {
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
+  "source": "{spk} says: 'I live near the {place}.' 'So ______ I.'",
+  "key": "do",
+  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "slots": {
+   "place": [
+    "park",
+    "school",
+    "river",
+    "bazaar"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
+  "source": "{spk} says: 'I'm hungry after the {thing}.' 'So ______ I.'",
+  "key": "am",
+  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "slots": {
+   "thing": [
+    "trip",
+    "match",
+    "lesson",
+    "walk"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
+  "source": "{spk} says: 'I enjoyed the {event} {when}.' 'So ______ I.'",
+  "key": "did",
+  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
+  "source": "{spk} says: 'I've finished my {work}.' 'So ______ I.'",
+  "key": "have",
+  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "slots": {
+   "work": [
+    "homework",
+    "essay",
+    "project",
+    "report"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
+  "source": "{spk} says: 'I'll take the bus to {city}.' 'So ______ I.'",
+  "key": "will",
+  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
+  "source": "{spk} says: 'My brother likes {food}.' 'So ______ my sister.'",
+  "key": "does",
+  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "slots": {
+   "food": [
+    "plov",
+    "fish",
+    "spicy food",
+    "sweets"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
+  "source": "{spk} says: 'I love {sport}.' 'So ______ I.'",
+  "key": "do",
+  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "slots": {
+   "sport": [
+    "football",
+    "tennis",
+    "chess",
+    "swimming"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
+  "source": "{spk} says: 'I'm going to {city} in {month}.' 'So ______ I.'",
+  "key": "am",
+  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "month": [
+    "May",
+    "June",
+    "July",
+    "August"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
+  "source": "{spk} says: 'I saw your {who} at the bazaar {when}.' 'So ______ I.'",
+  "key": "did",
+  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "slots": {
+   "who": [
+    "mum",
+    "dad",
+    "aunt",
+    "teacher"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
+  "source": "{spk} says: 'I've got a cold {when}.' 'So ______ I.'",
+  "key": "have",
+  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "slots": {
+   "when": [
+    "again",
+    "this week",
+    "today",
+    "now"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
+  "source": "{spk} says: 'I don't like {food}.' 'Neither ______ I.'",
+  "key": "do",
+  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "slots": {
+   "food": [
+    "plov",
+    "fish",
+    "spicy food",
+    "sweets"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
+  "source": "{spk} says: 'I'm not hungry {when}.' 'Neither ______ I.'",
+  "key": "am",
+  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "slots": {
+   "when": [
+    "now",
+    "today",
+    "yet",
+    "at all"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
+  "source": "{spk} says: 'I can't {skill}.' 'Neither ______ I.'",
+  "key": "can",
+  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "slots": {
+   "skill": [
+    "swim",
+    "drive",
+    "ski",
+    "dance"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
+  "source": "{spk} says: 'I didn't go to the {event} {when}.' 'Neither ______ I.'",
+  "key": "did",
+  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
+  "source": "{spk} says: 'I haven't been to {city}.' 'Neither ______ I.'",
+  "key": "have",
+  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
+  "source": "{spk} says: 'I won't be late {when}.' 'Neither ______ I.'",
+  "key": "will",
+  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "slots": {
+   "when": [
+    "tomorrow",
+    "tonight",
+    "on Monday",
+    "next time"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
+  "source": "{spk} says: 'I wasn't at the {place} {when}.' 'Neither ______ I.'",
+  "key": "was",
+  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "slots": {
+   "place": [
+    "lesson",
+    "meeting",
+    "club",
+    "match"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
+  "source": "{spk} says: 'My mum doesn't drink {drink}.' 'Neither ______ my dad.'",
+  "key": "does",
+  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "slots": {
+   "drink": [
+    "coffee",
+    "cola",
+    "milk",
+    "green tea"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
+  "source": "{spk} says: 'I don't understand this {thing}.' 'Neither ______ I.'",
+  "key": "do",
+  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "slots": {
+   "thing": [
+    "rule",
+    "word",
+    "question",
+    "task"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the helping verb (do, am, did, have, can, will, was …).",
+  "source": "{spk} says: 'We weren't ready for the {test}.' 'Neither ______ we.'",
+  "key": "were",
+  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "slots": {
+   "test": [
+    "test",
+    "exam",
+    "match",
+    "trip"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the answer.",
+  "source": "{spk} says: 'I like {food}.' 'So am I.'",
+  "hint": "{spk} says: 'I like {food}.' '______.'",
+  "key": "So do I",
+  "acceptable": [
+   "Me too",
+   "I do too"
+  ],
+  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "slots": {
+   "food": [
+    "plov",
+    "fish",
+    "spicy food",
+    "sweets"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the answer.",
+  "source": "{spk} says: 'I'm cold {where}.' 'So do I.'",
+  "hint": "{spk} says: 'I'm cold {where}.' '______.'",
+  "key": "So am I",
+  "acceptable": [
+   "Me too",
+   "I am too"
+  ],
+  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "slots": {
+   "where": [
+    "in here",
+    "outside",
+    "today",
+    "again"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the answer.",
+  "source": "{spk} says: 'I can't {skill}.' 'Neither I can.'",
+  "hint": "{spk} says: 'I can't {skill}.' '______.'",
+  "key": "Neither can I",
+  "acceptable": [
+   "Nor can I",
+   "Me neither",
+   "I can't either"
+  ],
+  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "slots": {
+   "skill": [
+    "swim",
+    "drive",
+    "ski",
+    "dance"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the answer.",
+  "source": "{spk} says: 'I didn't see the {film}.' 'I didn't neither.'",
+  "hint": "{spk} says: 'I didn't see the {film}.' '______.'",
+  "key": "Neither did I",
+  "acceptable": [
+   "Nor did I",
+   "Me neither",
+   "I didn't either"
+  ],
+  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "slots": {
+   "film": [
+    "film",
+    "match",
+    "show",
+    "news"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the answer.",
+  "source": "{spk} says: 'I've lost my {thing}.' 'So did I.'",
+  "hint": "{spk} says: 'I've lost my {thing}.' '______.'",
+  "key": "So have I",
+  "acceptable": [
+   "Me too",
+   "I have too"
+  ],
+  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "slots": {
+   "thing": [
+    "keys",
+    "phone",
+    "ticket",
+    "pen"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Agree. Use So.",
+  "source": "{spk} says: 'I went to the {event} {when}.'",
+  "hint": "{spk} says: 'I went to the {event} {when}.' '______.'",
+  "key": "So did I",
+  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Agree. Use So.",
+  "source": "{spk} says: 'I'll be late {when}.'",
+  "hint": "{spk} says: 'I'll be late {when}.' '______.'",
+  "key": "So will I",
+  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "slots": {
+   "when": [
+    "tomorrow",
+    "tonight",
+    "on Monday",
+    "again"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Agree. Use So.",
+  "source": "{spk} says: 'I'm going to {city} next week.'",
+  "hint": "{spk} says: 'I'm going to {city} next week.' '______.'",
+  "key": "So am I",
+  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Agree. Use So.",
+  "source": "{spk} says: 'My sister works in a {place}.' Agree about my brother.",
+  "hint": "{spk} says: 'My sister works in a {place}.' '______ my brother.'",
+  "key": "So does",
+  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "slots": {
+   "place": [
+    "bank",
+    "school",
+    "hospital",
+    "hotel"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Agree. Use So.",
+  "source": "{spk} says: 'I've got two {sib}.'",
+  "hint": "{spk} says: 'I've got two {sib}.' '______.'",
+  "key": "So have I",
+  "why": "To agree with a positive sentence, say So + the same helping verb + I (am, do, did, have, can, will, was). The helping verb comes before I.",
+  "slots": {
+   "sib": [
+    "sisters",
+    "brothers",
+    "cousins",
+    "cats"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Agree. Use Neither.",
+  "source": "{spk} says: 'I don't like {food}.'",
+  "hint": "{spk} says: 'I don't like {food}.' '______.'",
+  "key": "Neither do I",
+  "acceptable": [
+   "Nor do I"
+  ],
+  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "slots": {
+   "food": [
+    "plov",
+    "fish",
+    "spicy food",
+    "sweets"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Agree. Use Neither.",
+  "source": "{spk} says: 'I wasn't at the {event}.'",
+  "hint": "{spk} says: 'I wasn't at the {event}.' '______.'",
+  "key": "Neither was I",
+  "acceptable": [
+   "Nor was I"
+  ],
+  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "meeting"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Agree. Use Neither.",
+  "source": "{spk} says: 'I haven't finished the {work}.'",
+  "hint": "{spk} says: 'I haven't finished the {work}.' '______.'",
+  "key": "Neither have I",
+  "acceptable": [
+   "Nor have I"
+  ],
+  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "slots": {
+   "work": [
+    "homework",
+    "essay",
+    "project",
+    "book"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Agree. Use Neither.",
+  "source": "{spk} says: 'My dad can't {skill}.' Agree about my mum.",
+  "hint": "{spk} says: 'My dad can't {skill}.' '______ my mum.'",
+  "key": "Neither can",
+  "acceptable": [
+   "Nor can"
+  ],
+  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "slots": {
+   "skill": [
+    "swim",
+    "drive",
+    "ski",
+    "dance"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Agree. Use Neither.",
+  "source": "{spk} says: 'I won't be home {when}.'",
+  "hint": "{spk} says: 'I won't be home {when}.' '______.'",
+  "key": "Neither will I",
+  "acceptable": [
+   "Nor will I"
+  ],
+  "why": "To agree with a negative sentence, say Neither + the same helping verb + I, with no not: Neither do I, Neither can I. The helping verb comes before I.",
+  "slots": {
+   "when": [
+    "tonight",
+    "on Sunday",
+    "before ten",
+    "for dinner"
+   ],
+   "spk": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Your friend says: 'I love summer.' Agree with them.",
+  "requiredElement": "So do I.",
+  "constraints": [
+   "So + helping verb + I",
+   "one short answer",
+   "no So I do"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Your friend says: 'I can't cook.' Agree with them.",
+  "requiredElement": "Neither can I.",
+  "constraints": [
+   "Neither + helping verb + I",
+   "no not after Neither",
+   "one short answer"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one true sentence about yourself, then the answer a friend who agrees would give.",
+  "requiredElement": "I'm … / So am I.",
+  "constraints": [
+   "a statement",
+   "a matching So / Neither answer",
+   "the same helping verb"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one negative sentence about yesterday, then an agreeing answer.",
+  "requiredElement": "I didn't … / Neither did I.",
+  "constraints": [
+   "a past negative",
+   "Neither did I",
+   "two lines"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Your friend says: 'I've never been to London.' Agree with them.",
+  "requiredElement": "Neither have I.",
+  "constraints": [
+   "Neither have I",
+   "never counts as negative",
+   "one short answer"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write a sentence about your brother or sister and agree about another person.",
+  "requiredElement": "My sister likes … / So does my …",
+  "constraints": [
+   "So does + person",
+   "a present verb",
+   "two lines"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Your friend says: 'I'm not going to the party.' Agree with them.",
+  "requiredElement": "Neither am I.",
+  "constraints": [
+   "Neither am I",
+   "no Neither do I",
+   "one short answer"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two short dialogues: one with So and one with Neither.",
+  "requiredElement": "'I'm …' 'So am I.' / 'I don't …' 'Neither do I.'",
+  "constraints": [
+   "So + helping verb",
+   "Neither + helping verb",
+   "two dialogues"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short dialogue between two new classmates who find they have a lot in common.",
+  "targetGrammar": "'I live in …' 'So do I!' 'I can't …' 'Neither can I.'",
+  "lookFor": [
+   "So + helping verb + I",
+   "Neither + helping verb + I",
+   "four to six lines"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a dialogue about food two friends like and don't like.",
+  "targetGrammar": "'I love …' 'So do I.' 'I don't eat …' 'Neither do I.'",
+  "lookFor": [
+   "So do I / Neither do I",
+   "matching helping verbs",
+   "four to six lines"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a dialogue about last weekend.",
+  "targetGrammar": "'I stayed at home.' 'So did I.' 'I didn't …' 'Neither did I.'",
+  "lookFor": [
+   "So did I / Neither did I",
+   "past verbs",
+   "four to six lines"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a dialogue about plans for the summer.",
+  "targetGrammar": "'I'm going to …' 'So am I.' 'I won't …' 'Neither will I.'",
+  "lookFor": [
+   "So am I / So will I",
+   "Neither will I",
+   "four to six lines"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "substitution",
+  "topic": "so-neither",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a dialogue about places you have visited.",
+  "targetGrammar": "'I've been to …' 'So have I.' 'I haven't …' 'Neither have I.'",
+  "lookFor": [
+   "So have I / Neither have I",
+   "present perfect",
+   "four to six lines"
+  ]
+ }
+]

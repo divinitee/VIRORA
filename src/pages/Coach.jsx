@@ -21,6 +21,7 @@ import CoachWordCheck from "@/components/coach/CoachWordCheck";
 import PracticeRunner from "@/components/grammar/PracticeRunner";
 import ComebackCard from "@/components/mission/ComebackCard";
 import ViraBubble from "@/components/mascot/ViraBubble";
+import ViraAvatar from "@/components/mascot/ViraAvatar";
 
 // VIRORA Coach (VT-40 Stage 3). One screen, five states:
 //   handoff (entitlement changed) -> onboarding (goal + minutes) -> today's plan
@@ -30,7 +31,9 @@ import ViraBubble from "@/components/mascot/ViraBubble";
 
 const humanTopic = (key) => String(key || "").replace(/^grammar:/, "").split(".").pop().replace(/-/g, " ");
 
-function Orb({ color, size = 56 }) {
+function Orb({ color, size = 56, persona, mood }) {
+  // Vira replaces the orb (Tee's review 2026-11-17); Velvet and Violet keep it until they have art.
+  if (persona === "vira") return <ViraAvatar color={color} size={size} mood={mood} />;
   return (
     <motion.div aria-hidden="true" className="rounded-full shrink-0"
       style={{ width: size, height: size, background: `radial-gradient(circle at 30% 30%, #fff8, ${color} 45%, #0006)`, boxShadow: `0 0 32px ${color}66` }}
@@ -158,7 +161,7 @@ export default function Coach() {
     return (
       <Shell onBack={() => navigate("/")}>
         <div className="premium-card rounded-[28px] p-8 text-center">
-          <div className="flex justify-center mb-4"><Orb color={color} size={72} /></div>
+          <div className="flex justify-center mb-4"><Orb color={color} size={72} persona={persona} mood="cheerful" /></div>
           <h1 className="text-xl font-bold text-foreground">{t(down ? "handoff_down" : "handoff_up", { to: COACH_NAMES[data.coach.coach] || COACH_NAMES[persona] })}</h1>
           <p className="text-sm text-muted-foreground mt-2">{t("hello", { n: data.settings.minutes })}</p>
           <button disabled={busy} onClick={async () => { setBusy(true); try { await coachApi("ackHandoff", {}); await load(); } finally { setBusy(false); } }}
@@ -226,7 +229,7 @@ export default function Coach() {
   if (afterView === "unavailable") return (
     <Shell onBack={() => navigate("/")} right={mapBtn}>
       <div className="premium-card rounded-[28px] p-8 text-center">
-        <div className="flex justify-center mb-4"><Orb color={color} size={64} /></div>
+        <div className="flex justify-center mb-4"><Orb color={color} size={64} persona={persona} mood="curious" /></div>
         <h1 className="text-xl font-bold text-foreground">{t("unavailable_title")}</h1>
         <p className="text-sm text-muted-foreground mt-2">{t("unavailable_sub")}</p>
         <button onClick={retry} className="mt-6 w-full h-12 rounded-2xl font-semibold text-white" style={{ background: color }}>{t("retry")}</button>
@@ -245,7 +248,8 @@ export default function Coach() {
       {persona === "vira" && <ViraBubble moment="sessionEnd" className="mb-3" />}
       <div className="mb-4"><ComebackCard variant="after" /></div>
       <div className="premium-card rounded-[28px] p-8 text-center">
-        <div className="flex justify-center mb-4"><Orb color={color} size={64} /></div>
+        {/* Vira already speaks above (ViraBubble), so no second Vira here */}
+        {persona !== "vira" && <div className="flex justify-center mb-4"><Orb color={color} size={64} persona={persona} mood="proud" /></div>}
         <h1 className="text-xl font-bold text-foreground">{t("done_title")}</h1>
         <p className="text-sm text-muted-foreground mt-2">{t(continuation.available ? "done_sub_more" : "done_sub")}</p>
         {lastRun?.recap && (lastRun.recap.words + lastRun.recap.grammar) > 0 && <Recap r={lastRun.recap} t={t} color={color} />}
@@ -272,7 +276,7 @@ export default function Coach() {
     <Shell onBack={() => navigate("/")} right={mapBtn}>
       {deviceBanner}
       <div className="premium-card rounded-[28px] p-8 text-center">
-        <div className="flex justify-center mb-4"><Orb color={color} /></div>
+        <div className="flex justify-center mb-4"><Orb color={color} persona={persona} mood="curious" /></div>
         <h1 className="text-xl font-bold text-foreground">{t("nothing_title")}</h1>
         <p className="text-sm text-muted-foreground mt-2">{t("nothing_sub")}</p>
         <button onClick={() => navigate("/")} className="mt-6 w-full h-12 rounded-2xl font-semibold text-white" style={{ background: color }}>{t("free_practice")}</button>
@@ -286,7 +290,7 @@ export default function Coach() {
     <Shell onBack={() => navigate("/")} right={mapBtn}>
       {deviceBanner}
       <div className="flex items-start gap-4 mb-5">
-        <Orb color={color} />
+        <Orb color={color} size={64} persona={persona} mood="neutral" />
         <div>
           <p className="text-xs font-semibold uppercase tracking-wider" style={{ color }}>{COACH_NAMES[persona]}</p>
           <p className="text-sm text-foreground mt-1">{t("hello", { n: Math.max(1, Math.round(data.plan.minutes_planned || data.plan.minutes)) })}</p>
@@ -364,7 +368,7 @@ function Onboarding({ data, t, color, onDone, onBack }) {
   return (
     <Shell onBack={onBack}>
       <div className="premium-card rounded-[28px] p-6">
-        <div className="flex items-center gap-4 mb-4"><Orb color={color} /><h1 className="text-xl font-bold text-foreground">{t("onboarding_title")}</h1></div>
+        <div className="flex items-center gap-4 mb-4"><Orb color={color} persona={data?.coach?.persona || "vira"} mood="neutral" /><h1 className="text-xl font-bold text-foreground">{t("onboarding_title")}</h1></div>
         <p className="text-sm text-foreground">{t("hello", { n: minutes })}</p>
         <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mt-6 mb-2">{t("onboarding_goal")}</p>
         <div className="grid gap-2">

@@ -1,0 +1,1750 @@
+[
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Be careful with that {tool}, {g}! You might cut ______.",
+  "options": [
+   "yourself",
+   "you",
+   "yours",
+   "your"
+  ],
+  "key": 0,
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "tool": [
+    "knife",
+    "saw",
+    "razor",
+    "glass"
+   ],
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I taught ______ to play the {inst} from videos, {g}.",
+  "options": [
+   "me",
+   "mine",
+   "I",
+   "myself"
+  ],
+  "key": 3,
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "inst": [
+    "guitar",
+    "piano",
+    "dutar",
+    "drums"
+   ],
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I hurt ______ when I fell on the {surface} {when}.",
+  "options": [
+   "mine",
+   "I",
+   "myself",
+   "me"
+  ],
+  "key": 2,
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "surface": [
+    "ice",
+    "stairs",
+    "wet floor",
+    "path"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Help ______ to some {food}, {g}!",
+  "options": [
+   "your",
+   "yourself",
+   "you",
+   "yours"
+  ],
+  "key": 1,
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "food": [
+    "plov",
+    "cake",
+    "fruit",
+    "samsa"
+   ],
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Did you enjoy ______ at the {event}, {g}?",
+  "options": [
+   "yourself",
+   "you",
+   "yours",
+   "your"
+  ],
+  "key": 0,
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "festival"
+   ],
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Let me introduce ______. I'm {b}, your new {job}.",
+  "options": [
+   "me",
+   "mine",
+   "I",
+   "myself"
+  ],
+  "key": 3,
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "b": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Jasur"
+   ],
+   "job": [
+    "teacher",
+    "neighbour",
+    "coach",
+    "driver"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We really enjoyed ______ at the {event} {when}.",
+  "options": [
+   "ourself",
+   "our",
+   "ourselves",
+   "us"
+  ],
+  "key": 2,
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "festival"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{b} made ______ a cup of {drink} and sat down.",
+  "options": [
+   "he",
+   "himself",
+   "hisself",
+   "his"
+  ],
+  "key": 1,
+  "why": "The -self words are myself, yourself, himself, herself, itself, ourselves, yourselves, themselves. hisself, theirselves and ourself are not English.",
+  "slots": {
+   "b": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Jasur"
+   ],
+   "drink": [
+    "tea",
+    "coffee",
+    "cocoa",
+    "green tea"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My sister bought ______ a new {thing} with her first salary.",
+  "options": [
+   "herself",
+   "sheself",
+   "hers",
+   "she"
+  ],
+  "key": 0,
+  "why": "The -self words are myself, yourself, himself, herself, itself, ourselves, yourselves, themselves. hisself, theirselves and ourself are not English.",
+  "slots": {
+   "thing": [
+    "phone",
+    "laptop",
+    "bike",
+    "coat"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {machine} turns ______ off after ten minutes.",
+  "options": [
+   "its",
+   "itselves",
+   "it's",
+   "itself"
+  ],
+  "key": 3,
+  "why": "The -self words are myself, yourself, himself, herself, itself, ourselves, yourselves, themselves. hisself, theirselves and ourself are not English.",
+  "slots": {
+   "machine": [
+    "TV",
+    "heater",
+    "printer",
+    "fan"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The children can dress ______ now; they're {age}.",
+  "options": [
+   "their",
+   "theirs",
+   "themselves",
+   "theirselves"
+  ],
+  "key": 2,
+  "why": "The -self words are myself, yourself, himself, herself, itself, ourselves, yourselves, themselves. hisself, theirselves and ourself are not English.",
+  "slots": {
+   "age": [
+    "five",
+    "six",
+    "seven",
+    "big now"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Look after ______ in {city}, {g}!",
+  "options": [
+   "your",
+   "yourself",
+   "you",
+   "yours"
+  ],
+  "key": 1,
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I talk to ______ when I'm {state}, {g}.",
+  "options": [
+   "myself",
+   "me",
+   "mine",
+   "I"
+  ],
+  "key": 0,
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "state": [
+    "nervous",
+    "alone",
+    "cooking",
+    "bored"
+   ],
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We built ______ a small {thing} in the garden.",
+  "options": [
+   "ourself",
+   "our",
+   "ours",
+   "ourselves"
+  ],
+  "key": 3,
+  "why": "The -self words are myself, yourself, himself, herself, itself, ourselves, yourselves, themselves. hisself, theirselves and ourself are not English.",
+  "slots": {
+   "thing": [
+    "house",
+    "table",
+    "bench",
+    "shed"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Don't blame ______, {g}. It wasn't your fault.",
+  "options": [
+   "yours",
+   "your",
+   "yourself",
+   "you"
+  ],
+  "key": 2,
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My mum looked at ______ and smiled, {g}.",
+  "options": [
+   "I",
+   "me",
+   "myself",
+   "mine"
+  ],
+  "key": 1,
+  "why": "Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.",
+  "slots": {
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Can you help ______ with this {bag}, {g}?",
+  "options": [
+   "me",
+   "myself",
+   "mine",
+   "I"
+  ],
+  "key": 0,
+  "why": "Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.",
+  "slots": {
+   "bag": [
+    "bag",
+    "box",
+    "suitcase",
+    "homework"
+   ],
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The teacher asked ______ a difficult question {when}.",
+  "options": [
+   "myself",
+   "mine",
+   "I",
+   "me"
+  ],
+  "key": 3,
+  "why": "Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.",
+  "slots": {
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our {who} invited ______ to dinner {when}.",
+  "options": [
+   "our",
+   "we",
+   "us",
+   "ourselves"
+  ],
+  "key": 2,
+  "why": "Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.",
+  "slots": {
+   "who": [
+    "neighbours",
+    "cousins",
+    "friends",
+    "teachers"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I'll call ______ tomorrow, {g}.",
+  "options": [
+   "your",
+   "you",
+   "yourself",
+   "yours"
+  ],
+  "key": 1,
+  "why": "Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.",
+  "slots": {
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
+  "source": "I cut ______ while I was cooking {food} {when}.",
+  "key": "myself",
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "food": [
+    "plov",
+    "soup",
+    "dinner",
+    "fish"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
+  "source": "Be careful, {g}! Don't burn ______ on the {pan}.",
+  "key": "yourself",
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ],
+   "pan": [
+    "pan",
+    "pot",
+    "oven",
+    "kettle"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
+  "source": "We introduced ______ to the new {who} on {day}.",
+  "key": "ourselves",
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "who": [
+    "neighbours",
+    "teacher",
+    "students",
+    "coach"
+   ],
+   "day": [
+    "Monday",
+    "Tuesday",
+    "Friday",
+    "Saturday"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
+  "source": "I made ______ a {food} because I was hungry, {g}.",
+  "key": "myself",
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "food": [
+    "sandwich",
+    "salad",
+    "fried egg",
+    "cup of soup"
+   ],
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
+  "source": "Did you hurt ______ when you fell on the {surface}, {g}?",
+  "key": "yourself",
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "surface": [
+    "ice",
+    "stairs",
+    "wet floor",
+    "path"
+   ],
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
+  "source": "My grandpa taught ______ English from {source} in {city}.",
+  "key": "himself",
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "source": [
+    "old books",
+    "the radio",
+    "films",
+    "songs"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
+  "source": "I looked at ______ in the {mirror} and laughed, {g}.",
+  "key": "myself",
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "mirror": [
+    "mirror",
+    "window",
+    "photo",
+    "video"
+   ],
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
+  "source": "Enjoy ______ at the {event}, {g}!",
+  "key": "yourself",
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "festival"
+   ],
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
+  "source": "We enjoyed ______ at the {event} {when}.",
+  "key": "ourselves",
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "festival"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
+  "source": "The {room} door locks ______ when you close it, {g}.",
+  "key": "itself",
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "room": [
+    "office",
+    "hotel",
+    "car",
+    "front"
+   ],
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
+  "source": "I'm angry with ______ because I forgot my {thing}, {g}.",
+  "key": "myself",
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "thing": [
+    "keys",
+    "phone",
+    "homework",
+    "ticket"
+   ],
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
+  "source": "Take care of ______ in {city}, {g}.",
+  "key": "yourself",
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
+  "source": "I sometimes talk to ______ when I'm {state}, {g}.",
+  "key": "myself",
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "state": [
+    "nervous",
+    "alone",
+    "cooking",
+    "bored"
+   ],
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
+  "source": "We bought ______ new {things} for the trip to {city}.",
+  "key": "ourselves",
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "things": [
+    "bags",
+    "shoes",
+    "hats",
+    "jackets"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
+  "source": "Help ______ to some {food}, {g}.",
+  "key": "yourself",
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "food": [
+    "plov",
+    "cake",
+    "fruit",
+    "samsa"
+   ],
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
+  "source": "My dad drove ______ (I) to the {place} {when}.",
+  "key": "me",
+  "why": "Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.",
+  "slots": {
+   "place": [
+    "station",
+    "airport",
+    "hospital",
+    "bazaar"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
+  "source": "Can you show ______ (I) the way to the {place}, {g}?",
+  "key": "me",
+  "why": "Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.",
+  "slots": {
+   "place": [
+    "station",
+    "museum",
+    "bank",
+    "library"
+   ],
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
+  "source": "Our neighbours invited ______ (we) to their {event} {when}.",
+  "key": "us",
+  "why": "Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "festival"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
+  "source": "I'll send ______ (you) the photos {when}, {g}.",
+  "key": "you",
+  "why": "Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.",
+  "slots": {
+   "when": [
+    "tonight",
+    "tomorrow",
+    "later",
+    "on Monday"
+   ],
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
+  "source": "The {who} gave ______ (I) a good mark {when}.",
+  "key": "me",
+  "why": "Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.",
+  "slots": {
+   "who": [
+    "teacher",
+    "tutor",
+    "professor",
+    "coach"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I cut me on the broken {thing} {when}.",
+  "hint": "I cut ______ on the broken {thing} {when}.",
+  "key": "myself",
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "thing": [
+    "glass",
+    "plate",
+    "bottle",
+    "window"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Did you hurt you on the {surface}, {g}?",
+  "hint": "Did you hurt ______ on the {surface}, {g}?",
+  "key": "yourself",
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "surface": [
+    "ice",
+    "stairs",
+    "wet floor",
+    "path"
+   ],
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "We enjoyed us at the {event} {when}.",
+  "hint": "We enjoyed ______ at the {event} {when}.",
+  "key": "ourselves",
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "festival"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{b} taught hisself to {skill}.",
+  "hint": "{b} taught ______ to {skill}.",
+  "key": "himself",
+  "why": "The -self words are myself, yourself, himself, herself, itself, ourselves, yourselves, themselves. hisself, theirselves and ourself are not English.",
+  "slots": {
+   "b": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Jasur"
+   ],
+   "skill": [
+    "swim",
+    "cook",
+    "drive",
+    "draw"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The kids made theirselves some {food} {when}.",
+  "hint": "The kids made ______ some {food} {when}.",
+  "key": "themselves",
+  "why": "The -self words are myself, yourself, himself, herself, itself, ourselves, yourselves, themselves. hisself, theirselves and ourself are not English.",
+  "slots": {
+   "food": [
+    "sandwiches",
+    "tea",
+    "eggs",
+    "pancakes"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "My mum helped myself with the {work}, {g}.",
+  "hint": "My mum helped ______ with the {work}, {g}.",
+  "key": "me",
+  "why": "Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.",
+  "slots": {
+   "work": [
+    "homework",
+    "cooking",
+    "project",
+    "letter"
+   ],
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Can you call myself {when}, {g}?",
+  "hint": "Can you call ______ {when}, {g}?",
+  "key": "me",
+  "why": "Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.",
+  "slots": {
+   "when": [
+    "tonight",
+    "tomorrow",
+    "later",
+    "after lunch"
+   ],
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Our {who} invited ourselves to the {event}.",
+  "hint": "Our {who} invited ______ to the {event}.",
+  "key": "us",
+  "why": "Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.",
+  "slots": {
+   "who": [
+    "neighbours",
+    "cousins",
+    "friends",
+    "teachers"
+   ],
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "festival"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I'll text yourself the {info}, {g}.",
+  "hint": "I'll text ______ the {info}, {g}.",
+  "key": "you",
+  "why": "Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.",
+  "slots": {
+   "info": [
+    "address",
+    "photos",
+    "link",
+    "plan"
+   ],
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The {who} gave myself a present {when}.",
+  "hint": "The {who} gave ______ a present {when}.",
+  "key": "me",
+  "why": "Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.",
+  "slots": {
+   "who": [
+    "teacher",
+    "coach",
+    "doctor",
+    "neighbour"
+   ],
+   "when": [
+    "yesterday",
+    "last night",
+    "on Friday",
+    "last week"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Start the sentence with I.",
+  "source": "You can look after yourself in {city}, {g}.",
+  "hint": "I can look after ______ in {city}, {g}.",
+  "key": "myself",
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Start the sentence with We.",
+  "source": "I enjoyed myself at the {event}, {g}.",
+  "hint": "We enjoyed ______ at the {event}, {g}.",
+  "key": "ourselves",
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "festival"
+   ],
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Start the sentence with I.",
+  "source": "We introduced ourselves to the new {who}, {g}.",
+  "hint": "I introduced ______ to the new {who}, {g}.",
+  "key": "myself",
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "who": [
+    "neighbours",
+    "teacher",
+    "students",
+    "coach"
+   ],
+   "g": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Start the sentence with My brother.",
+  "source": "I taught myself to {skill}.",
+  "hint": "My brother taught ______ to {skill}.",
+  "key": "himself",
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "skill": [
+    "swim",
+    "cook",
+    "drive",
+    "draw"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Start the sentence with My sister.",
+  "source": "I bought myself a new {thing}.",
+  "hint": "My sister bought ______ a new {thing}.",
+  "key": "herself",
+  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "slots": {
+   "thing": [
+    "phone",
+    "laptop",
+    "bike",
+    "coat"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you taught yourself.",
+  "requiredElement": "I taught myself to …",
+  "constraints": [
+   "exactly one sentence",
+   "myself",
+   "taught"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence telling a friend to be careful.",
+  "requiredElement": "Be careful! Don't hurt yourself.",
+  "constraints": [
+   "one or two short sentences",
+   "yourself",
+   "an imperative"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a party where you had a good time.",
+  "requiredElement": "We enjoyed ourselves at …",
+  "constraints": [
+   "exactly one sentence",
+   "ourselves",
+   "a past verb"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence introducing yourself to a new class.",
+  "requiredElement": "Let me introduce myself. I'm …",
+  "constraints": [
+   "one or two short sentences",
+   "myself",
+   "introduce"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about someone who helped you.",
+  "requiredElement": "My … helped me with …",
+  "constraints": [
+   "exactly one sentence",
+   "me, not myself",
+   "a different subject"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a small accident at home.",
+  "requiredElement": "I burned myself on …",
+  "constraints": [
+   "exactly one sentence",
+   "a -self word",
+   "a past verb"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a person in your family who bought something for themselves.",
+  "requiredElement": "My … bought himself / herself …",
+  "constraints": [
+   "exactly one sentence",
+   "himself or herself",
+   "no hisself"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: one with myself and one with me.",
+  "requiredElement": "I hurt myself. / My friend helped me.",
+  "constraints": [
+   "exactly two sentences",
+   "myself with I",
+   "me with another subject"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about a skill you learned on your own.",
+  "targetGrammar": "I taught myself to … I watched videos … My friend helped me …",
+  "lookFor": [
+   "myself",
+   "me with another subject",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about a small accident you had.",
+  "targetGrammar": "I fell and hurt myself … My mum took me to …",
+  "lookFor": [
+   "myself",
+   "me",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a message to a friend who is travelling alone.",
+  "targetGrammar": "Look after yourself … Enjoy yourself … Call me …",
+  "lookFor": [
+   "yourself",
+   "me",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a party or holiday with your family.",
+  "targetGrammar": "We enjoyed ourselves … My uncle made himself … They invited us …",
+  "lookFor": [
+   "ourselves / himself",
+   "us",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "reflexive",
+  "topic": "reflexive-object",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Introduce yourself to a new group.",
+  "targetGrammar": "Let me introduce myself … I taught myself … You can ask me …",
+  "lookFor": [
+   "myself",
+   "me",
+   "three or four sentences"
+  ]
+ }
+]

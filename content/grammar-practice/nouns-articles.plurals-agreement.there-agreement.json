@@ -1,0 +1,1798 @@
+[
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ a table and four chairs in the {room}, {name}.",
+  "options": [
+   "is",
+   "are",
+   "has",
+   "have"
+  ],
+  "key": 0,
+  "why": "After there, the verb agrees with the first thing in the list: a table. That is one thing (or uncountable), so use is.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "dining room",
+    "classroom",
+    "garden"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ two beds and a {thing} in my room, {name}.",
+  "options": [
+   "are",
+   "has",
+   "have",
+   "is"
+  ],
+  "key": 0,
+  "why": "After there, the verb agrees with the first thing in the list: two beds. That is plural, so use are.",
+  "slots": {
+   "thing": [
+    "desk",
+    "wardrobe",
+    "lamp",
+    "mirror"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ a bank and two {shops} near our {home}.",
+  "options": [
+   "has",
+   "have",
+   "is",
+   "are"
+  ],
+  "key": 2,
+  "why": "After there, the verb agrees with the first thing in the list: a bank. That is one thing (or uncountable), so use is.",
+  "slots": {
+   "shops": [
+    "cafés",
+    "pharmacies",
+    "bakeries",
+    "shops"
+   ],
+   "home": [
+    "house",
+    "flat",
+    "school",
+    "college"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ three cafés and a {place} on this street, {name}.",
+  "options": [
+   "have",
+   "is",
+   "are",
+   "has"
+  ],
+  "key": 2,
+  "why": "After there, the verb agrees with the first thing in the list: three cafés. That is plural, so use are.",
+  "slots": {
+   "place": [
+    "bank",
+    "bakery",
+    "school",
+    "pharmacy"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ some bread and two eggs in the {place}, {name}.",
+  "options": [
+   "is",
+   "are",
+   "has",
+   "have"
+  ],
+  "key": 0,
+  "why": "After there, the verb agrees with the first thing in the list: some bread. That is one thing (or uncountable), so use is.",
+  "slots": {
+   "place": [
+    "fridge",
+    "kitchen",
+    "bag",
+    "basket"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ some eggs and a little {food} in the fridge, {name}.",
+  "options": [
+   "are",
+   "has",
+   "have",
+   "is"
+  ],
+  "key": 0,
+  "why": "After there, the verb agrees with the first thing in the list: some eggs. That is plural, so use are.",
+  "slots": {
+   "food": [
+    "milk",
+    "butter",
+    "cheese",
+    "juice"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ a boy and two girls in the {place}. They are playing {game}.",
+  "options": [
+   "has",
+   "have",
+   "is",
+   "are"
+  ],
+  "key": 2,
+  "why": "After there, the verb agrees with the first thing in the list: a boy. That is one thing (or uncountable), so use is.",
+  "slots": {
+   "place": [
+    "yard",
+    "garden",
+    "park",
+    "street"
+   ],
+   "game": [
+    "football",
+    "tag",
+    "with a ball",
+    "hide-and-seek"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ many people and a {animal} at the bus stop, {name}.",
+  "options": [
+   "have",
+   "is",
+   "are",
+   "has"
+  ],
+  "key": 2,
+  "why": "After there, the verb agrees with the first thing in the list: many people. That is plural, so use are.",
+  "slots": {
+   "animal": [
+    "dog",
+    "cat",
+    "goat",
+    "big dog"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ a lot of homework and two {subject} tests this week.",
+  "options": [
+   "is",
+   "are",
+   "has",
+   "have"
+  ],
+  "key": 0,
+  "why": "After there, the verb agrees with the first thing in the list: a lot of homework. That is one thing (or uncountable), so use is.",
+  "slots": {
+   "subject": [
+    "maths",
+    "history",
+    "English",
+    "biology"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ lots of tourists and a big tour bus in the {place}, {name}.",
+  "options": [
+   "are",
+   "has",
+   "have",
+   "is"
+  ],
+  "key": 0,
+  "why": "After there, the verb agrees with the first thing in the list: lots of tourists. That is plural, so use are.",
+  "slots": {
+   "place": [
+    "square",
+    "old town",
+    "street",
+    "car park"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ a TV and two sofas in our {room}, {name}.",
+  "options": [
+   "has",
+   "have",
+   "is",
+   "are"
+  ],
+  "key": 2,
+  "why": "After there, the verb agrees with the first thing in the list: a TV. That is one thing (or uncountable), so use is.",
+  "slots": {
+   "room": [
+    "living room",
+    "hall",
+    "flat",
+    "house"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ five students and a teacher in the {place} now, {name}.",
+  "options": [
+   "have",
+   "is",
+   "are",
+   "has"
+  ],
+  "key": 2,
+  "why": "After there, the verb agrees with the first thing in the list: five students. That is plural, so use are.",
+  "slots": {
+   "place": [
+    "library",
+    "classroom",
+    "lab",
+    "hall"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ an apple and three bananas in my {bag}, {name}.",
+  "options": [
+   "is",
+   "are",
+   "has",
+   "have"
+  ],
+  "key": 0,
+  "why": "After there, the verb agrees with the first thing in the list: an apple. That is one thing (or uncountable), so use is.",
+  "slots": {
+   "bag": [
+    "bag",
+    "lunch box",
+    "backpack",
+    "basket"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ ten {things} and a pen on the {place}.",
+  "options": [
+   "are",
+   "has",
+   "have",
+   "is"
+  ],
+  "key": 0,
+  "why": "After there, the verb agrees with the first thing in the list: ten things. That is plural, so use are.",
+  "slots": {
+   "things": [
+    "books",
+    "notebooks",
+    "pencils",
+    "cups"
+   ],
+   "place": [
+    "desk",
+    "table",
+    "shelf",
+    "floor"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ a doctor and two nurses in the {place}, {name}.",
+  "options": [
+   "has",
+   "have",
+   "is",
+   "are"
+  ],
+  "key": 2,
+  "why": "After there, the verb agrees with the first thing in the list: a doctor. That is one thing (or uncountable), so use is.",
+  "slots": {
+   "place": [
+    "room",
+    "clinic",
+    "office",
+    "hall"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ two doors and a window in our {room}, {name}.",
+  "options": [
+   "have",
+   "is",
+   "are",
+   "has"
+  ],
+  "key": 2,
+  "why": "After there, the verb agrees with the first thing in the list: two doors. That is plural, so use are.",
+  "slots": {
+   "room": [
+    "classroom",
+    "kitchen",
+    "bedroom",
+    "hall"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ a park and some cafés near the {place}, {name}.",
+  "options": [
+   "is",
+   "are",
+   "has",
+   "have"
+  ],
+  "key": 0,
+  "why": "After there, the verb agrees with the first thing in the list: a park. That is one thing (or uncountable), so use is.",
+  "slots": {
+   "place": [
+    "river",
+    "station",
+    "hotel",
+    "museum"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ some apples and a melon on the {place}, {name}.",
+  "options": [
+   "are",
+   "has",
+   "have",
+   "is"
+  ],
+  "key": 0,
+  "why": "After there, the verb agrees with the first thing in the list: some apples. That is plural, so use are.",
+  "slots": {
+   "place": [
+    "table",
+    "plate",
+    "shelf",
+    "tray"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ a man and two children at the {place}, {name}.",
+  "options": [
+   "has",
+   "have",
+   "is",
+   "are"
+  ],
+  "key": 2,
+  "why": "After there, the verb agrees with the first thing in the list: a man. That is one thing (or uncountable), so use is.",
+  "slots": {
+   "place": [
+    "door",
+    "gate",
+    "window",
+    "bus stop"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There ______ six players and a coach in our {sport} club.",
+  "options": [
+   "have",
+   "is",
+   "are",
+   "has"
+  ],
+  "key": 2,
+  "why": "After there, the verb agrees with the first thing in the list: six players. That is plural, so use are.",
+  "slots": {
+   "sport": [
+    "chess",
+    "tennis",
+    "swimming",
+    "dance"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "In the {room} there ______ (be) a sofa and two armchairs, {name}.",
+  "key": "is",
+  "why": "After there, the verb agrees with the first thing in the list: a sofa. That is one thing (or uncountable), so use is.",
+  "slots": {
+   "room": [
+    "living room",
+    "hall",
+    "flat",
+    "office"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "There ______ (be) three bedrooms and a kitchen in our new {home}, {name}.",
+  "key": "are",
+  "why": "After there, the verb agrees with the first thing in the list: three bedrooms. That is plural, so use are.",
+  "slots": {
+   "home": [
+    "flat",
+    "house",
+    "dacha",
+    "place"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "There ______ (be) a lot of snow and some ice on the {place} today, {name}.",
+  "key": "is",
+  "why": "After there, the verb agrees with the first thing in the list: a lot of snow. That is one thing (or uncountable), so use is.",
+  "slots": {
+   "place": [
+    "road",
+    "street",
+    "roof",
+    "bridge"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "There ______ (be) many cars and a bus on the {road} now, {name}.",
+  "key": "are",
+  "why": "After there, the verb agrees with the first thing in the list: many cars. That is plural, so use are.",
+  "slots": {
+   "road": [
+    "road",
+    "street",
+    "bridge",
+    "square"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "Look, {name}! There ______ (be) a cat and three kittens under the {place}.",
+  "key": "is",
+  "why": "After there, the verb agrees with the first thing in the list: a cat. That is one thing (or uncountable), so use is.",
+  "slots": {
+   "place": [
+    "table",
+    "car",
+    "bed",
+    "stairs"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "There ______ (be) two dogs and a horse on my uncle's {place}, {name}.",
+  "key": "are",
+  "why": "After there, the verb agrees with the first thing in the list: two dogs. That is plural, so use are.",
+  "slots": {
+   "place": [
+    "farm",
+    "land",
+    "field",
+    "plot"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write was or were.",
+  "source": "There ______ (be) a cake and some sweets on the table {when}, {name}.",
+  "key": "was",
+  "why": "After there, the verb agrees with the first thing in the list: a cake. That is one thing (or uncountable), so use was.",
+  "slots": {
+   "when": [
+    "last night",
+    "yesterday",
+    "at the party",
+    "this morning"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write was or were.",
+  "source": "There ______ (be) twenty guests and a singer at the {event} last week, {name}.",
+  "key": "were",
+  "why": "After there, the verb agrees with the first thing in the list: twenty guests. That is plural, so use were.",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "dinner",
+    "concert"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "There ______ (be) some juice and two sandwiches in your {bag}, {name}.",
+  "key": "is",
+  "why": "After there, the verb agrees with the first thing in the list: some juice. That is one thing (or uncountable), so use is.",
+  "slots": {
+   "bag": [
+    "bag",
+    "backpack",
+    "lunch box",
+    "basket"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "There ______ (be) thirty students and one teacher in our {group}, {name}.",
+  "key": "are",
+  "why": "After there, the verb agrees with the first thing in the list: thirty students. That is plural, so use are.",
+  "slots": {
+   "group": [
+    "class",
+    "group",
+    "course",
+    "club"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write was or were.",
+  "source": "There ______ (be) a lot of noise and two loud cars outside {when}, {name}.",
+  "key": "was",
+  "why": "After there, the verb agrees with the first thing in the list: a lot of noise. That is one thing (or uncountable), so use was.",
+  "slots": {
+   "when": [
+    "last night",
+    "at six",
+    "this morning",
+    "after dinner"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write was or were.",
+  "source": "There ______ (be) three {things} and a map on the wall of my old room, {name}.",
+  "key": "were",
+  "why": "After there, the verb agrees with the first thing in the list: three things. That is plural, so use were.",
+  "slots": {
+   "things": [
+    "photos",
+    "pictures",
+    "posters",
+    "clocks"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "Near my {place} there ______ (be) a bus stop and two shops, {name}.",
+  "key": "is",
+  "why": "After there, the verb agrees with the first thing in the list: a bus stop. That is one thing (or uncountable), so use is.",
+  "slots": {
+   "place": [
+    "house",
+    "school",
+    "flat",
+    "college"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "There ______ (be) many trees and a small lake in the {place}, {name}.",
+  "key": "are",
+  "why": "After there, the verb agrees with the first thing in the list: many trees. That is plural, so use are.",
+  "slots": {
+   "place": [
+    "park",
+    "garden",
+    "village",
+    "yard"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "Right now there ______ (be) a teacher and five students in the {room}, {name}.",
+  "key": "is",
+  "why": "After there, the verb agrees with the first thing in the list: a teacher. That is one thing (or uncountable), so use is.",
+  "slots": {
+   "room": [
+    "lab",
+    "library",
+    "hall",
+    "classroom"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "There ______ (be) some cups and a teapot on the {place}, {name}.",
+  "key": "are",
+  "why": "After there, the verb agrees with the first thing in the list: some cups. That is plural, so use are.",
+  "slots": {
+   "place": [
+    "table",
+    "tray",
+    "shelf",
+    "desk"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write was or were.",
+  "source": "{when}, there ______ (be) a girl and two boys at the door, {name}.",
+  "key": "was",
+  "why": "After there, the verb agrees with the first thing in the list: a girl. That is one thing (or uncountable), so use was.",
+  "slots": {
+   "when": [
+    "An hour ago",
+    "This morning",
+    "At five",
+    "Yesterday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write was or were.",
+  "source": "There ______ (be) lots of people and a band in the {place} {when}.",
+  "key": "were",
+  "why": "After there, the verb agrees with the first thing in the list: lots of people. That is plural, so use were.",
+  "slots": {
+   "place": [
+    "square",
+    "park",
+    "street",
+    "hall"
+   ],
+   "when": [
+    "last night",
+    "on Sunday",
+    "yesterday",
+    "at Navruz"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "There ______ (be) an orange and two apples for you, {name}. Take them to {place}.",
+  "key": "is",
+  "why": "After there, the verb agrees with the first thing in the list: an orange. That is one thing (or uncountable), so use is.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "place": [
+    "school",
+    "work",
+    "college",
+    "the park"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write is or are.",
+  "source": "There ______ (be) two messages and a missed call from {who} on your phone, {name}.",
+  "key": "are",
+  "why": "After there, the verb agrees with the first thing in the list: two messages. That is plural, so use are.",
+  "slots": {
+   "who": [
+    "Mum",
+    "Dad",
+    "your teacher",
+    "your boss"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Change the order of the list. Change the verb if you need to.",
+  "source": "There is a bed and two chairs in my {room}, {name}.",
+  "hint": "There ______ two chairs and a bed in my {room}, {name}.",
+  "key": "are",
+  "why": "After there, the verb agrees with the first thing in the list: two chairs. That is plural, so use are.",
+  "slots": {
+   "room": [
+    "bedroom",
+    "room",
+    "flat",
+    "office"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Change the order of the list. Change the verb if you need to.",
+  "source": "There are three apples and a pear in the {place}, {name}.",
+  "hint": "There ______ a pear and three apples in the {place}, {name}.",
+  "key": "is",
+  "why": "After there, the verb agrees with the first thing in the list: a pear. That is one thing (or uncountable), so use is.",
+  "slots": {
+   "place": [
+    "bag",
+    "basket",
+    "bowl",
+    "fridge"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Change the order of the list. Change the verb if you need to.",
+  "source": "There is a lot of rice and two onions in the {place}, {name}.",
+  "hint": "There ______ two onions and a lot of rice in the {place}, {name}.",
+  "key": "are",
+  "why": "After there, the verb agrees with the first thing in the list: two onions. That is plural, so use are.",
+  "slots": {
+   "place": [
+    "kitchen",
+    "bag",
+    "cupboard",
+    "pot"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Change the order of the list. Change the verb if you need to.",
+  "source": "There are two shops and a café near the {place}, {name}.",
+  "hint": "There ______ a café and two shops near the {place}, {name}.",
+  "key": "is",
+  "why": "After there, the verb agrees with the first thing in the list: a café. That is one thing (or uncountable), so use is.",
+  "slots": {
+   "place": [
+    "station",
+    "school",
+    "park",
+    "hotel"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Change the order of the list. Change the verb if you need to.",
+  "source": "There is a sofa and three chairs in the {room}, {name}.",
+  "hint": "There ______ three chairs and a sofa in the {room}, {name}.",
+  "key": "are",
+  "why": "After there, the verb agrees with the first thing in the list: three chairs. That is plural, so use are.",
+  "slots": {
+   "room": [
+    "hall",
+    "living room",
+    "office",
+    "waiting room"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "There are a desk and two chairs in the {room}, {name}.",
+  "hint": "There ______ a desk and two chairs in the {room}, {name}.",
+  "key": "is",
+  "why": "After there, the verb agrees with the first thing in the list: a desk. That is one thing (or uncountable), so use is.",
+  "slots": {
+   "room": [
+    "classroom",
+    "office",
+    "library",
+    "bedroom"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "There is two dogs and a cat in our {place}, {name}.",
+  "hint": "There ______ two dogs and a cat in our {place}, {name}.",
+  "key": "are",
+  "why": "After there, the verb agrees with the first thing in the list: two dogs. That is plural, so use are.",
+  "slots": {
+   "place": [
+    "yard",
+    "garden",
+    "house",
+    "street"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "There is many people and a car outside the {place}, {name}.",
+  "hint": "There ______ many people and a car outside the {place}, {name}.",
+  "key": "are",
+  "why": "After there, the verb agrees with the first thing in the list: many people. That is plural, so use are.",
+  "slots": {
+   "place": [
+    "school",
+    "bank",
+    "shop",
+    "station"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "There are some milk and two eggs in the {place}, {name}.",
+  "hint": "There ______ some milk and two eggs in the {place}, {name}.",
+  "key": "is",
+  "why": "After there, the verb agrees with the first thing in the list: some milk. That is one thing (or uncountable), so use is.",
+  "slots": {
+   "place": [
+    "fridge",
+    "bag",
+    "kitchen",
+    "basket"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "There is three boys and a girl in the {place}, {name}.",
+  "hint": "There ______ three boys and a girl in the {place}, {name}.",
+  "key": "are",
+  "why": "After there, the verb agrees with the first thing in the list: three boys. That is plural, so use are.",
+  "slots": {
+   "place": [
+    "pool",
+    "yard",
+    "park",
+    "garden"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make it past.",
+  "source": "There is a cake and two pies on the table {now}, {name}.",
+  "hint": "There ______ a cake and two pies on the table last night, {name}.",
+  "key": "was",
+  "why": "After there, the verb agrees with the first thing in the list: a cake. That is one thing (or uncountable), so use was.",
+  "slots": {
+   "now": [
+    "now",
+    "today",
+    "this evening",
+    "right now"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make it past.",
+  "source": "There are many cars and a bus on the road {now}, {name}.",
+  "hint": "There ______ many cars and a bus on the road yesterday, {name}.",
+  "key": "were",
+  "why": "After there, the verb agrees with the first thing in the list: many cars. That is plural, so use were.",
+  "slots": {
+   "now": [
+    "now",
+    "today",
+    "this morning",
+    "right now"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make it past.",
+  "source": "There is some soup and two salads for lunch {now}, {name}.",
+  "hint": "There ______ some soup and two salads for lunch yesterday, {name}.",
+  "key": "was",
+  "why": "After there, the verb agrees with the first thing in the list: some soup. That is one thing (or uncountable), so use was.",
+  "slots": {
+   "now": [
+    "today",
+    "this week",
+    "at school today",
+    "on Mondays"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make it past.",
+  "source": "There are two cats and a dog in the yard {now}, {name}.",
+  "hint": "There ______ two cats and a dog in the yard this morning, {name}.",
+  "key": "were",
+  "why": "After there, the verb agrees with the first thing in the list: two cats. That is plural, so use were.",
+  "slots": {
+   "now": [
+    "now",
+    "today",
+    "right now",
+    "at the moment"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make it past.",
+  "source": "There is a lot of rain and a strong wind {now}, {name}.",
+  "hint": "There ______ a lot of rain and a strong wind last night, {name}.",
+  "key": "was",
+  "why": "After there, the verb agrees with the first thing in the list: a lot of rain. That is one thing (or uncountable), so use was.",
+  "slots": {
+   "now": [
+    "now",
+    "today",
+    "this evening",
+    "right now"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the things on your desk. Start with a singular thing.",
+  "requiredElement": "There is a … and two …",
+  "constraints": [
+   "exactly one sentence",
+   "There is + singular first",
+   "a list of two"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your room. Start with a plural thing.",
+  "requiredElement": "There are two … and a …",
+  "constraints": [
+   "exactly one sentence",
+   "There are + plural first",
+   "a list of two"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the food in your fridge.",
+  "requiredElement": "There is some … and …",
+  "constraints": [
+   "exactly one sentence",
+   "there + is or are",
+   "the verb agrees with the first thing"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the people in your class or office now.",
+  "requiredElement": "There are … students and a …",
+  "constraints": [
+   "exactly one sentence",
+   "there + is or are",
+   "a list of two"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the shops near your home.",
+  "requiredElement": "There is a … and some …",
+  "constraints": [
+   "exactly one sentence",
+   "there + is or are",
+   "a list of two"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a party you went to.",
+  "requiredElement": "There was / were … and …",
+  "constraints": [
+   "exactly one sentence",
+   "there + was or were",
+   "a list of two"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the animals in a yard or farm you know.",
+  "requiredElement": "There are … and a …",
+  "constraints": [
+   "exactly one sentence",
+   "there + is or are",
+   "a list of two"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: one that starts with There is … and one with There are … .",
+  "requiredElement": "There is a … and … / There are … and a …",
+  "constraints": [
+   "exactly two sentences",
+   "is with a singular first thing",
+   "are with a plural first thing"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your kitchen or living room.",
+  "targetGrammar": "There is a … and … / There are … and a …",
+  "lookFor": [
+   "lists after there",
+   "the verb agrees with the first thing",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your street: what is there near your home?",
+  "targetGrammar": "There is a … and two … / There are …",
+  "lookFor": [
+   "lists after there",
+   "is and are",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your school bag or work bag.",
+  "targetGrammar": "There is a … and some …",
+  "lookFor": [
+   "lists after there",
+   "is or are",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a wedding or party you remember.",
+  "targetGrammar": "There were … and a … / There was …",
+  "lookFor": [
+   "was and were",
+   "lists after there",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "nouns-articles",
+  "branch": "plurals-agreement",
+  "topic": "there-agreement",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your classroom or office.",
+  "targetGrammar": "There are … and a … / There is …",
+  "lookFor": [
+   "lists after there",
+   "is and are",
+   "three or four sentences"
+  ]
+ }
+]

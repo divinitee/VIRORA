@@ -85,6 +85,7 @@ export default function LiveTeacherV2() {
   const [personaName, setPersonaName] = useState("Vira");
   const [fillerNote, setFillerNote] = useState(""); // admins: which fast-path part fell back, and why
   const [timing, setTiming] = useState(""); // admins: where the waiting time went last turn
+  const [mind, setMind] = useState(""); // admins: the teacher's private read of the last turn
   const [partial, setPartial] = useState(""); // live caption while the student talks
 
   const loopRef = useRef(null);
@@ -317,6 +318,7 @@ export default function LiveTeacherV2() {
     addTurn("student", r.student_text, { away: r.addressed === false });
     addTurn("teacher", r.reply_text, { explanation: r.explanation_text });
     if (Array.isArray(r.mistakes)) setMistakes(r.mistakes);
+    if (r.read) setMind(`read: ${[r.read.intent, r.read.student_mood, r.read.drift, r.read.her_mood, r.read.move].filter(Boolean).join(" · ")}`);
 
     const sec = (ms) => `${(Math.max(0, ms) / 1000).toFixed(1)}s`;
     const report = () => {
@@ -332,7 +334,7 @@ export default function LiveTeacherV2() {
   };
 
   async function startLesson() {
-    setError(""); setTranscript([]); setMistakes([]); setCost(0); setRecap(null); setPartial(""); setFillerNote(""); setTiming("");
+    setError(""); setTranscript([]); setMistakes([]); setCost(0); setRecap(null); setPartial(""); setFillerNote(""); setTiming(""); setMind("");
     historyRef.current = []; endingRef.current = false; cutRef.current = 0;
     fillersRef.current = {}; recentRef.current = {};
     go("connecting");

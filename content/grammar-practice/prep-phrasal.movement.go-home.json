@@ -1,0 +1,1810 @@
+[
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "It's late, {name}. Let's ______ by {t}.",
+  "options": [
+   "go home",
+   "go to home",
+   "go at home",
+   "go to house"
+  ],
+  "key": 0,
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "t": [
+    "bus",
+    "taxi",
+    "metro",
+    "tram"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "After school, {name} ______ with her {who}.",
+  "options": [
+   "walks to home",
+   "walks at home",
+   "walk home",
+   "walks home"
+  ],
+  "key": 3,
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "who": [
+    "sister",
+    "mum",
+    "friend",
+    "brother"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Dad ______ from work at {time}, {name}.",
+  "options": [
+   "comes at home",
+   "come home",
+   "comes home",
+   "comes to home"
+  ],
+  "key": 2,
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "time": [
+    "six",
+    "seven",
+    "half past six",
+    "five"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We ______ late after the {event}, {name}.",
+  "options": [
+   "got in home",
+   "got home",
+   "got to home",
+   "got at home"
+  ],
+  "key": 1,
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "concert",
+    "match"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} ______ early yesterday. He felt {ill}.",
+  "options": [
+   "went home",
+   "went to home",
+   "went at home",
+   "goes home"
+  ],
+  "key": 0,
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Rustam"
+   ],
+   "ill": [
+    "ill",
+    "sick",
+    "tired",
+    "cold"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I want to ______ now, {name}. I'm very {state}.",
+  "options": [
+   "go to home",
+   "go at home",
+   "going home",
+   "go home"
+  ],
+  "key": 3,
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "state": [
+    "tired",
+    "sleepy",
+    "hungry",
+    "cold"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {who} ______ after the lesson, {name}.",
+  "options": [
+   "drove me at home",
+   "drove home me",
+   "drove me home",
+   "drove me to home"
+  ],
+  "key": 2,
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "who": [
+    "dad",
+    "mum",
+    "uncle",
+    "aunt"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Are you ______ by {t}, {name}?",
+  "options": [
+   "go home",
+   "going home",
+   "going to home",
+   "going at home"
+  ],
+  "key": 1,
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "t": [
+    "bus",
+    "taxi",
+    "metro",
+    "tram"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Can you ______ before {time}, {name}?",
+  "options": [
+   "come home",
+   "come to home",
+   "come at home",
+   "coming home"
+  ],
+  "key": 0,
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "time": [
+    "ten",
+    "nine",
+    "eleven",
+    "midnight"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {kids} ______ at {time} every day.",
+  "options": [
+   "run to home",
+   "run at home",
+   "runs home",
+   "run home"
+  ],
+  "key": 3,
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "kids": [
+    "children",
+    "boys",
+    "girls",
+    "twins"
+   ],
+   "time": [
+    "four",
+    "five",
+    "three",
+    "half past four"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Let's take a taxi ______, {name}. It's {w}.",
+  "options": [
+   "at home",
+   "to house",
+   "home",
+   "to home"
+  ],
+  "key": 2,
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "w": [
+    "raining",
+    "very late",
+    "cold",
+    "dark"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} ______ from {city} next week.",
+  "options": [
+   "flying home",
+   "is flying home",
+   "is flying to home",
+   "is flying at home"
+  ],
+  "key": 1,
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Khiva"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "When did you ______ last {day}, {name}?",
+  "options": [
+   "get home",
+   "get to home",
+   "get at home",
+   "got home"
+  ],
+  "key": 0,
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "day": [
+    "night",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I'll take the {thing} ______ tonight, {name}.",
+  "options": [
+   "to home",
+   "at home",
+   "in home",
+   "home"
+  ],
+  "key": 3,
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "thing": [
+    "books",
+    "cake",
+    "toys",
+    "photos"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My grandparents ______ after their holiday in {city}.",
+  "options": [
+   "came at home",
+   "came to the home",
+   "came home",
+   "came to home"
+  ],
+  "key": 2,
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Khiva"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Please bring some {thing} ______, {name}.",
+  "options": [
+   "in home",
+   "home",
+   "to home",
+   "at home"
+  ],
+  "key": 1,
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "thing": [
+    "bread",
+    "milk",
+    "fruit",
+    "juice"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} hurried ______ because of the {w}.",
+  "options": [
+   "home",
+   "to home",
+   "at home",
+   "in home"
+  ],
+  "key": 0,
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "w": [
+    "rain",
+    "snow",
+    "cold",
+    "storm"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Shall we walk ______ or take the {t}, {name}?",
+  "options": [
+   "to home",
+   "at home",
+   "in home",
+   "home"
+  ],
+  "key": 3,
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "t": [
+    "bus",
+    "taxi",
+    "metro",
+    "tram"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I usually ride my {veh} ______ after {event}.",
+  "options": [
+   "at home",
+   "in home",
+   "home",
+   "to home"
+  ],
+  "key": 2,
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "veh": [
+    "bike",
+    "scooter",
+    "skateboard",
+    "bicycle"
+   ],
+   "event": [
+    "school",
+    "practice",
+    "training",
+    "lessons"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "What time do you usually ______ on {day}, {name}?",
+  "options": [
+   "getting home",
+   "get home",
+   "get to home",
+   "get at home"
+  ],
+  "key": 1,
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "day": [
+    "Mondays",
+    "Fridays",
+    "weekdays",
+    "Saturdays"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to, at or home.",
+  "source": "It's late, {name}. Let's go ______ by {t}.",
+  "key": "home",
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "t": [
+    "bus",
+    "taxi",
+    "metro",
+    "tram"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to, at or home.",
+  "source": "{name} walks ______ after school with her {who}.",
+  "key": "home",
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "who": [
+    "sister",
+    "mum",
+    "friend",
+    "brother"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to, at or home.",
+  "source": "Dad comes ______ from work at {time}, {name}.",
+  "key": "home",
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "time": [
+    "six",
+    "seven",
+    "half past six",
+    "five"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to, at or home.",
+  "source": "We got ______ very late after the {event}, {name}.",
+  "key": "home",
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "concert",
+    "match"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to, at or home.",
+  "source": "{name} went ______ early. He felt {ill}.",
+  "key": "home",
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Rustam"
+   ],
+   "ill": [
+    "ill",
+    "sick",
+    "tired",
+    "cold"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to, at or home.",
+  "source": "Can you drive me ______, {who}? I missed the {t}.",
+  "key": "home",
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "who": [
+    "Dad",
+    "Mum",
+    "Uncle Bobur",
+    "Aunt Lola"
+   ],
+   "t": [
+    "bus",
+    "taxi",
+    "metro",
+    "tram"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to, at or home.",
+  "source": "The {kids} run ______ at {time} every day.",
+  "key": "home",
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "kids": [
+    "children",
+    "boys",
+    "girls",
+    "twins"
+   ],
+   "time": [
+    "four",
+    "five",
+    "three",
+    "half past four"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to, at or home.",
+  "source": "My brother is flying ______ from {city} next {day}.",
+  "key": "home",
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Khiva"
+   ],
+   "day": [
+    "week",
+    "Friday",
+    "month",
+    "Sunday"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to, at or home.",
+  "source": "Take the {thing} ______ with you, {name}.",
+  "key": "home",
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "thing": [
+    "cake",
+    "books",
+    "flowers",
+    "rest of the plov"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to, at or home.",
+  "source": "When did you get ______ last {day}, {name}?",
+  "key": "home",
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "day": [
+    "night",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to, at or home.",
+  "source": "Shall we walk ______ or take the {t}, {name}?",
+  "key": "home",
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "t": [
+    "bus",
+    "taxi",
+    "metro",
+    "tram"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to, at or home.",
+  "source": "Please bring some {thing} ______, {name}.",
+  "key": "home",
+  "why": "After go, come, get, walk, drive and other movement verbs, use home with no preposition: go home, not go to home.",
+  "slots": {
+   "thing": [
+    "bread",
+    "milk",
+    "fruit",
+    "juice"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to, at or home.",
+  "source": "Mum goes ______ work at {time}, {name}.",
+  "key": "to",
+  "why": "Before a place word like the park or school, use to: go to the park. Only home has no to.",
+  "slots": {
+   "time": [
+    "eight",
+    "seven",
+    "half past seven",
+    "nine"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to, at or home.",
+  "source": "We often walk ______ the {place} on {day}.",
+  "key": "to",
+  "why": "Before a place word like the park or school, use to: go to the park. Only home has no to.",
+  "slots": {
+   "place": [
+    "park",
+    "bazaar",
+    "river",
+    "stadium"
+   ],
+   "day": [
+    "Sundays",
+    "Saturdays",
+    "Fridays",
+    "holidays"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to, at or home.",
+  "source": "{name} drives ______ {city} every {when}.",
+  "key": "to",
+  "why": "Before a place word like the park or school, use to: go to the park. Only home has no to.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Khiva"
+   ],
+   "when": [
+    "month",
+    "summer",
+    "week",
+    "year"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to, at or home.",
+  "source": "Let's go ______ the {place} after lunch, {name}.",
+  "key": "to",
+  "why": "Before a place word like the park or school, use to: go to the park. Only home has no to.",
+  "slots": {
+   "place": [
+    "cinema",
+    "museum",
+    "bazaar",
+    "library"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to, at or home.",
+  "source": "The {kids} run ______ the {place} after lessons.",
+  "key": "to",
+  "why": "Before a place word like the park or school, use to: go to the park. Only home has no to.",
+  "slots": {
+   "kids": [
+    "children",
+    "boys",
+    "girls",
+    "twins"
+   ],
+   "place": [
+    "yard",
+    "park",
+    "shop",
+    "sports ground"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to, at or home.",
+  "source": "My grandparents flew ______ {city} last {when}.",
+  "key": "to",
+  "why": "Before a place word like the park or school, use to: go to the park. Only home has no to.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Khiva"
+   ],
+   "when": [
+    "month",
+    "summer",
+    "week",
+    "year"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to, at or home.",
+  "source": "I usually ride my {veh} ______ school, {name}.",
+  "key": "to",
+  "why": "Before a place word like the park or school, use to: go to the park. Only home has no to.",
+  "slots": {
+   "veh": [
+    "bike",
+    "scooter",
+    "skateboard",
+    "bicycle"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write to, at or home.",
+  "source": "Come ______ my house after {event}, {name}.",
+  "key": "to",
+  "why": "Before a place word like the park or school, use to: go to the park. Only home has no to.",
+  "slots": {
+   "event": [
+    "school",
+    "lunch",
+    "the lesson",
+    "dinner"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I went to home at {time}, {name}.",
+  "hint": "I ______ at {time}, {name}.",
+  "key": "went home",
+  "why": "No to before home: went home.",
+  "slots": {
+   "time": [
+    "six",
+    "seven",
+    "half past six",
+    "five"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{name} comes at home late on {day}.",
+  "hint": "{name} ______ late on {day}.",
+  "key": "comes home",
+  "why": "After come, no at before home: comes home.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "day": [
+    "Fridays",
+    "Mondays",
+    "weekdays",
+    "Saturdays"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "We got to home at midnight after the {event}, {name}.",
+  "hint": "We ______ at midnight after the {event}, {name}.",
+  "key": "got home",
+  "why": "No to before home: got home.",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "concert",
+    "match"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Let's go to the home now, {name}. It's {w}.",
+  "hint": "Let's ______ now, {name}. It's {w}.",
+  "key": "go home",
+  "why": "No to the before home: go home.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "w": [
+    "late",
+    "dark",
+    "cold",
+    "raining"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{name} walked in home in the {w}.",
+  "hint": "{name} ______ in the {w}.",
+  "key": "walked home",
+  "why": "No in before home: walked home.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "w": [
+    "rain",
+    "snow",
+    "dark",
+    "cold"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with home.",
+  "source": "I went to my house after {event}, {name}.",
+  "hint": "I ______ after {event}, {name}.",
+  "key": "went home",
+  "why": "Your own house or flat = home: went home.",
+  "slots": {
+   "event": [
+    "school",
+    "work",
+    "the lesson",
+    "lunch"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with home.",
+  "source": "{who} drove to our flat after the {event}.",
+  "hint": "{who} ______ after the {event}.",
+  "key": "drove home",
+  "why": "Your own flat = home: drove home.",
+  "slots": {
+   "who": [
+    "Dad",
+    "Mum",
+    "My brother",
+    "My sister"
+   ],
+   "event": [
+    "wedding",
+    "party",
+    "concert",
+    "match"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with home.",
+  "source": "Come back to our house before {time}, {name}.",
+  "hint": "Come ______ before {time}, {name}.",
+  "key": "home",
+  "why": "Your own house = home, with no to.",
+  "slots": {
+   "time": [
+    "ten",
+    "nine",
+    "eleven",
+    "midnight"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with home.",
+  "source": "The {kids} ran to their house in the {w}.",
+  "hint": "The {kids} ______ in the {w}.",
+  "key": "ran home",
+  "why": "Their own house = home: ran home.",
+  "slots": {
+   "kids": [
+    "children",
+    "boys",
+    "girls",
+    "twins"
+   ],
+   "w": [
+    "rain",
+    "snow",
+    "dark",
+    "cold"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with home.",
+  "source": "{name} is flying to her flat in {city} tomorrow.",
+  "hint": "{name} is ______ to {city} tomorrow.",
+  "key": "flying home",
+  "why": "Her own flat = home: flying home.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "city": [
+    "Tashkent",
+    "Bukhara",
+    "Samarkand",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question: you are going home.",
+  "source": "Where are you going after the {event}, {name}?",
+  "hint": "I'm ______ after the {event}, {name}.",
+  "key": "going home",
+  "why": "going home, with no to.",
+  "slots": {
+   "event": [
+    "lesson",
+    "match",
+    "concert",
+    "party"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question: he went home.",
+  "source": "Where did {name} go after the {event}?",
+  "hint": "He ______ after the {event}.",
+  "key": "went home",
+  "why": "went home, with no to.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Rustam"
+   ],
+   "event": [
+    "wedding",
+    "party",
+    "concert",
+    "match"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question: they are coming home.",
+  "source": "Are your {who} still in {city}?",
+  "hint": "No, they're ______ from {city} today.",
+  "key": "coming home",
+  "why": "coming home, with no to.",
+  "slots": {
+   "who": [
+    "parents",
+    "grandparents",
+    "cousins",
+    "brothers"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Fergana",
+    "Khiva"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question: she got home at six.",
+  "source": "When did {name} get back last {day}?",
+  "hint": "She ______ at six.",
+  "key": "got home",
+  "why": "got home, with no to.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "day": [
+    "night",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer the question: we walked home.",
+  "source": "How did you get back from the {place}, {name}?",
+  "hint": "We ______, {name}.",
+  "key": "walked home",
+  "why": "walked home, with no to.",
+  "slots": {
+   "place": [
+    "park",
+    "bazaar",
+    "cinema",
+    "stadium"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what time you go home after school or work.",
+  "requiredElement": "I go home at …",
+  "constraints": [
+   "exactly one sentence",
+   "go home",
+   "a time"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about how you get home: by bus, by car or on foot.",
+  "requiredElement": "I get home by … / I walk home.",
+  "constraints": [
+   "exactly one sentence",
+   "home",
+   "a transport word"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about what time your mum or dad comes home.",
+  "requiredElement": "She / He comes home at …",
+  "constraints": [
+   "exactly one sentence",
+   "comes home",
+   "a family word"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a time you went home early.",
+  "requiredElement": "I went home early because …",
+  "constraints": [
+   "exactly one sentence",
+   "went home",
+   "a reason"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence asking a friend when he or she gets home.",
+  "requiredElement": "When do you get home?",
+  "constraints": [
+   "exactly one question",
+   "get home",
+   "a question word"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you take home from school.",
+  "requiredElement": "I take … home.",
+  "constraints": [
+   "exactly one sentence",
+   "take … home",
+   "a school word"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a relative who is coming home soon.",
+  "requiredElement": "My … is coming home …",
+  "constraints": [
+   "exactly one sentence",
+   "coming home",
+   "a family word"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: where you go in the morning and when you come home.",
+  "requiredElement": "I go to … / I come home …",
+  "constraints": [
+   "exactly two sentences",
+   "go to once",
+   "home once"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your way home from school or work.",
+  "targetGrammar": "I walk / go / get home …",
+  "lookFor": [
+   "home with no to",
+   "a transport word",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a late evening: a party or a wedding, and how you got home.",
+  "targetGrammar": "We got home at …",
+  "lookFor": [
+   "got home",
+   "a time",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about a family member who lives far away and comes home for the holidays.",
+  "targetGrammar": "… comes home …",
+  "lookFor": [
+   "comes or came home",
+   "a place name",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your evening routine: when everyone in your family comes home.",
+  "targetGrammar": "Dad comes home at …",
+  "lookFor": [
+   "comes home",
+   "a family word",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "prep-phrasal",
+  "branch": "movement",
+  "topic": "go-home",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a message to your mum: you are late, and you are coming home by taxi.",
+  "targetGrammar": "I'm coming home by …",
+  "lookFor": [
+   "coming home",
+   "a transport word",
+   "three or four sentences"
+  ]
+ }
+]

@@ -1,0 +1,1933 @@
+[
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Are you hungry after the {trip}?' my {who} asked. She asked me ______ hungry after the {trip}.",
+  "options": [
+   "if I was",
+   "was I",
+   "that I was",
+   "if was I"
+  ],
+  "key": 0,
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "trip": [
+    "walk",
+    "match",
+    "flight",
+    "lesson"
+   ],
+   "who": [
+    "mum",
+    "grandma",
+    "aunt",
+    "sister"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Do you like {food}?' {f} asked me. She asked me ______ {food}.",
+  "options": [
+   "did I like",
+   "that I liked",
+   "if did I like",
+   "if I liked"
+  ],
+  "key": 3,
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "food": [
+    "plov",
+    "fish",
+    "spicy food",
+    "green tea"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Can you swim?' the {who} asked {m}. The {who} asked {m} ______ swim.",
+  "options": [
+   "that he could",
+   "if could he",
+   "if he could",
+   "could he"
+  ],
+  "key": 2,
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "who": [
+    "coach",
+    "teacher",
+    "instructor",
+    "guard"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Is the {shop} open?' I asked a {who}. I asked ______ open.",
+  "options": [
+   "if was it",
+   "if it was",
+   "was it",
+   "that it was"
+  ],
+  "key": 1,
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "shop": [
+    "bank",
+    "pharmacy",
+    "bakery",
+    "museum"
+   ],
+   "who": [
+    "man",
+    "woman",
+    "guard",
+    "boy"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Have you finished the {work}?' the {who} asked us. She asked us ______ the {work}.",
+  "options": [
+   "if we had finished",
+   "had we finished",
+   "that we had finished",
+   "if did we finish"
+  ],
+  "key": 0,
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "work": [
+    "test",
+    "soup",
+    "task",
+    "project"
+   ],
+   "who": [
+    "teacher",
+    "waiter",
+    "manager",
+    "nurse"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Did you see the {film}?' {m} asked me. He asked me ______ the {film}.",
+  "options": [
+   "had I seen",
+   "that I had seen",
+   "if did I see",
+   "if I had seen"
+  ],
+  "key": 3,
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "film": [
+    "film",
+    "match",
+    "show",
+    "final"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Will you come to the {event}?' {f} asked {m}. She asked him ______ come to the {event}.",
+  "options": [
+   "that he would",
+   "if would he",
+   "if he would",
+   "would he"
+  ],
+  "key": 2,
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "match",
+    "concert"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Are you from {city}?' the {who} asked me. He asked me ______ from {city}.",
+  "options": [
+   "if was I",
+   "if I was",
+   "was I",
+   "that I was"
+  ],
+  "key": 1,
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "who": [
+    "driver",
+    "guide",
+    "waiter",
+    "man"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Do you need help with the {thing}?' my {who} asked me. He asked me ______ help with the {thing}.",
+  "options": [
+   "if I needed",
+   "did I need",
+   "that I needed",
+   "if did I need"
+  ],
+  "key": 0,
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "thing": [
+    "bags",
+    "car",
+    "homework",
+    "boxes"
+   ],
+   "who": [
+    "neighbour",
+    "brother",
+    "uncle",
+    "dad"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Is it far to the {place}?' {f} asked me. She asked me ______ far to the {place}.",
+  "options": [
+   "was it",
+   "that it was",
+   "if was it",
+   "if it was"
+  ],
+  "key": 3,
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "place": [
+    "station",
+    "museum",
+    "airport",
+    "lake"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Do your parents speak {lang}?' {m} asked me. He asked me ______ {lang}.",
+  "options": [
+   "that they spoke",
+   "if did they speak",
+   "if they spoke",
+   "did they speak"
+  ],
+  "key": 2,
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "lang": [
+    "Russian",
+    "English",
+    "Korean",
+    "Tajik"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Are you married?' the {who} asked {f}. He asked her ______ married.",
+  "options": [
+   "if was she",
+   "if she was",
+   "was she",
+   "that she was"
+  ],
+  "key": 1,
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "who": [
+    "man",
+    "clerk",
+    "doctor",
+    "receptionist"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Can I sit here?' a {who} asked me on the {place}. He asked me ______ sit there.",
+  "options": [
+   "if he could",
+   "could he",
+   "that he could",
+   "if could he"
+  ],
+  "key": 0,
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "who": [
+    "man",
+    "boy",
+    "student",
+    "young man"
+   ],
+   "place": [
+    "bus",
+    "train",
+    "bench",
+    "plane"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Is your {who} at home?' {m} asked me. He asked me ______ at home.",
+  "options": [
+   "was she",
+   "that she was",
+   "if was she",
+   "if she was"
+  ],
+  "key": 3,
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "who": [
+    "sister",
+    "mother",
+    "aunt",
+    "wife"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Did you lock the {door}?' my {who} asked me. She asked me ______ the {door}.",
+  "options": [
+   "that I had locked",
+   "if did I lock",
+   "if I had locked",
+   "had I locked"
+  ],
+  "key": 2,
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "door": [
+    "door",
+    "car",
+    "gate",
+    "window"
+   ],
+   "who": [
+    "mum",
+    "sister",
+    "wife",
+    "grandma"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Do you want some {food}?' {f} asked us. She asked us ______ some {food}.",
+  "options": [
+   "if did we want",
+   "if we wanted",
+   "did we want",
+   "that we wanted"
+  ],
+  "key": 1,
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "food": [
+    "tea",
+    "cake",
+    "soup",
+    "bread"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Are your cousins coming to the {event}?' I asked {f}. I asked her ______ coming to the {event}.",
+  "options": [
+   "if they were",
+   "were they",
+   "that they were",
+   "if were they"
+  ],
+  "key": 0,
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "picnic",
+    "dinner"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Has the {bus} left?' {m} asked the {who}. He asked ______ left.",
+  "options": [
+   "had it",
+   "that it had",
+   "if had it",
+   "if it had"
+  ],
+  "key": 3,
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "ferry",
+    "last bus"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "who": [
+    "guard",
+    "driver",
+    "woman",
+    "man"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Will it rain in {city} tomorrow?' {f} asked me. She asked me ______ rain in {city} the next day.",
+  "options": [
+   "that it would",
+   "if would it",
+   "if it would",
+   "would it"
+  ],
+  "key": 2,
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Can you help me with the {thing}?' {m} asked me. He asked me ______ help him with the {thing}.",
+  "options": [
+   "if could I",
+   "if I could",
+   "could I",
+   "that I could"
+  ],
+  "key": 1,
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "thing": [
+    "bags",
+    "car",
+    "homework",
+    "boxes"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the yes / no question. Write if + the subject + the verb, one step into the past.",
+  "source": "'Are you hungry after the {trip}?' my {who} asked. She asked me ______ hungry after the {trip}.",
+  "key": "if I was",
+  "acceptable": [
+   "whether I was"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "trip": [
+    "walk",
+    "match",
+    "flight",
+    "lesson"
+   ],
+   "who": [
+    "mum",
+    "grandma",
+    "aunt",
+    "sister"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the yes / no question. Write if + the subject + the verb, one step into the past.",
+  "source": "'Do you like {food}?' {f} asked me. She asked me ______ {food}.",
+  "key": "if I liked",
+  "acceptable": [
+   "whether I liked"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "food": [
+    "plov",
+    "fish",
+    "spicy food",
+    "green tea"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the yes / no question. Write if + the subject + the verb, one step into the past.",
+  "source": "'Can you swim?' the {who} asked {m}. The {who} asked {m} ______ swim.",
+  "key": "if he could",
+  "acceptable": [
+   "whether he could"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "who": [
+    "coach",
+    "teacher",
+    "instructor",
+    "guard"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the yes / no question. Write if + the subject + the verb, one step into the past.",
+  "source": "'Is the {shop} open?' I asked a {who}. I asked ______ open.",
+  "key": "if it was",
+  "acceptable": [
+   "whether it was"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "shop": [
+    "bank",
+    "pharmacy",
+    "bakery",
+    "museum"
+   ],
+   "who": [
+    "man",
+    "woman",
+    "guard",
+    "boy"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the yes / no question. Write if + the subject + the verb, one step into the past.",
+  "source": "'Have you done the {work}?' the {who} asked us. She asked us ______ done the {work}.",
+  "key": "if we had",
+  "acceptable": [
+   "whether we had"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "work": [
+    "test",
+    "homework",
+    "task",
+    "project"
+   ],
+   "who": [
+    "teacher",
+    "waiter",
+    "manager",
+    "nurse"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the yes / no question. Write if + the subject + the verb, one step into the past.",
+  "source": "'Did you see the {film}?' {m} asked me. He asked me ______ the {film}.",
+  "key": "if I had seen",
+  "acceptable": [
+   "whether I had seen",
+   "if I saw",
+   "whether I saw"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "film": [
+    "film",
+    "match",
+    "show",
+    "final"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the yes / no question. Write if + the subject + the verb, one step into the past.",
+  "source": "'Will you come to the {event}?' {f} asked {m}. She asked him ______ come to the {event}.",
+  "key": "if he would",
+  "acceptable": [
+   "whether he would"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "match",
+    "concert"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the yes / no question. Write if + the subject + the verb, one step into the past.",
+  "source": "'Are you from {city}?' the {who} asked me. He asked me ______ from {city}.",
+  "key": "if I was",
+  "acceptable": [
+   "whether I was"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ],
+   "who": [
+    "driver",
+    "guide",
+    "waiter",
+    "man"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the yes / no question. Write if + the subject + the verb, one step into the past.",
+  "source": "'Do you need help with the {thing}?' my {who} asked me. He asked me ______ help with the {thing}.",
+  "key": "if I needed",
+  "acceptable": [
+   "whether I needed"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "thing": [
+    "bags",
+    "car",
+    "homework",
+    "boxes"
+   ],
+   "who": [
+    "neighbour",
+    "brother",
+    "uncle",
+    "dad"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the yes / no question. Write if + the subject + the verb, one step into the past.",
+  "source": "'Is the {place} far?' {f} asked me. She asked me ______ far.",
+  "key": "if it was",
+  "acceptable": [
+   "whether it was"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "place": [
+    "station",
+    "museum",
+    "airport",
+    "lake"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the yes / no question. Write if + the subject + the verb, one step into the past.",
+  "source": "'Do your parents speak {lang}?' {m} asked me. He asked me ______ {lang}.",
+  "key": "if they spoke",
+  "acceptable": [
+   "whether they spoke"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "lang": [
+    "Russian",
+    "English",
+    "Korean",
+    "Tajik"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the yes / no question. Write if + the subject + the verb, one step into the past.",
+  "source": "'Are you married?' the {who} asked {f}. He asked her ______ married.",
+  "key": "if she was",
+  "acceptable": [
+   "whether she was"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "who": [
+    "man",
+    "clerk",
+    "doctor",
+    "receptionist"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the yes / no question. Write if + the subject + the verb, one step into the past.",
+  "source": "'Can I sit here?' a {who} asked me on the {place}. The {who} asked me ______ sit there.",
+  "key": "if he could",
+  "acceptable": [
+   "whether he could"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "who": [
+    "man",
+    "boy",
+    "student",
+    "young man"
+   ],
+   "place": [
+    "bus",
+    "train",
+    "bench",
+    "plane"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the yes / no question. Write if + the subject + the verb, one step into the past.",
+  "source": "'Is your {who} at home?' {m} asked me. He asked me ______ at home.",
+  "key": "if she was",
+  "acceptable": [
+   "whether she was"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "who": [
+    "sister",
+    "mother",
+    "aunt",
+    "wife"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the yes / no question. Write if + the subject + the verb, one step into the past.",
+  "source": "'Did you lock the {door}?' my {who} asked me. She asked me ______ the {door}.",
+  "key": "if I had locked",
+  "acceptable": [
+   "whether I had locked",
+   "if I locked",
+   "whether I locked"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "door": [
+    "door",
+    "car",
+    "gate",
+    "window"
+   ],
+   "who": [
+    "mum",
+    "sister",
+    "wife",
+    "grandma"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the yes / no question. Write if + the subject + the verb, one step into the past.",
+  "source": "'Do you want some {food}?' {f} asked us. She asked us ______ some {food}.",
+  "key": "if we wanted",
+  "acceptable": [
+   "whether we wanted"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "food": [
+    "tea",
+    "cake",
+    "soup",
+    "bread"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the yes / no question. Write if + the subject + the verb, one step into the past.",
+  "source": "'Are your cousins coming to the {event}?' I asked {f}. I asked her ______ coming to the {event}.",
+  "key": "if they were",
+  "acceptable": [
+   "whether they were"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "picnic",
+    "dinner"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the yes / no question. Write if + the subject + the verb, one step into the past.",
+  "source": "'Has the {bus} left?' {m} asked the {who}. He asked ______ left.",
+  "key": "if it had",
+  "acceptable": [
+   "whether it had"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "ferry",
+    "last bus"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "who": [
+    "guard",
+    "driver",
+    "woman",
+    "man"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the yes / no question. Write if + the subject + the verb, one step into the past.",
+  "source": "'Can you fix the {thing}?' I asked the {who}. I asked him ______ fix the {thing}.",
+  "key": "if he could",
+  "acceptable": [
+   "whether he could"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "thing": [
+    "car",
+    "heater",
+    "TV",
+    "lock"
+   ],
+   "who": [
+    "mechanic",
+    "neighbour",
+    "plumber",
+    "man"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the yes / no question. Write if + the subject + the verb, one step into the past.",
+  "source": "'Can you help me with the {thing}?' {m} asked me. He asked me ______ help him with the {thing}.",
+  "key": "if I could",
+  "acceptable": [
+   "whether I could"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "thing": [
+    "bags",
+    "car",
+    "homework",
+    "boxes"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the question with if. Start with the words given.",
+  "source": "'Are you tired?' {m} asked me after the {event}.",
+  "hint": "After the {event}, {m} asked me ______.",
+  "key": "if I was tired",
+  "acceptable": [
+   "whether I was tired"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "event": [
+    "match",
+    "walk",
+    "lesson",
+    "trip"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the question with if. Start with the words given.",
+  "source": "'Do you live near the {place}?' {f} asked me.",
+  "hint": "{f} asked me ______ the {place}.",
+  "key": "if I lived near",
+  "acceptable": [
+   "whether I lived near",
+   "if I live near",
+   "whether I live near"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "place": [
+    "park",
+    "station",
+    "bazaar",
+    "river"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the question with if. Start with the words given.",
+  "source": "'Can you drive?' the {who} asked {m}.",
+  "hint": "The {who} asked {m} ______.",
+  "key": "if he could drive",
+  "acceptable": [
+   "whether he could drive"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "who": [
+    "manager",
+    "boss",
+    "teacher",
+    "director"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the question with if. Start with the words given.",
+  "source": "'Have you been to {city}?' {f} asked us.",
+  "hint": "{f} asked us ______ to {city}.",
+  "key": "if we had been",
+  "acceptable": [
+   "whether we had been"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Khiva",
+    "Termez"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the question with if. Start with the words given.",
+  "source": "'Will you be at home tonight?' my {who} asked me.",
+  "hint": "My {who} asked me ______ at home that night.",
+  "key": "if I would be",
+  "acceptable": [
+   "whether I would be"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "who": [
+    "mum",
+    "dad",
+    "sister",
+    "uncle"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{f} asked me was I hungry after the {trip}.",
+  "hint": "{f} asked me ______ hungry after the {trip}.",
+  "key": "if I was",
+  "acceptable": [
+   "whether I was"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "trip": [
+    "walk",
+    "match",
+    "flight",
+    "lesson"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{m} asked me that I liked {food}.",
+  "hint": "{m} asked me ______ {food}.",
+  "key": "if I liked",
+  "acceptable": [
+   "whether I liked"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "food": [
+    "plov",
+    "fish",
+    "spicy food",
+    "green tea"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The {who} asked us if had we finished.",
+  "hint": "The {who} asked us ______ finished.",
+  "key": "if we had",
+  "acceptable": [
+   "whether we had"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "who": [
+    "teacher",
+    "waiter",
+    "manager",
+    "nurse"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "{f} asked {m} if did he want some {food}.",
+  "hint": "{f} asked {m} ______ some {food}.",
+  "key": "if he wanted",
+  "acceptable": [
+   "whether he wanted"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "food": [
+    "tea",
+    "cake",
+    "soup",
+    "bread"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I asked the {who} could he help me.",
+  "hint": "I asked the {who} ______ help me.",
+  "key": "if he could",
+  "acceptable": [
+   "whether he could"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "who": [
+    "mechanic",
+    "neighbour",
+    "driver",
+    "man"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the question with wanted to know if.",
+  "source": "'Is the {place} open on Mondays?' {f} asked.",
+  "hint": "{f} wanted to know ______ open on Mondays.",
+  "key": "if it was",
+  "acceptable": [
+   "whether it was",
+   "if it is",
+   "whether it is"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "place": [
+    "museum",
+    "bank",
+    "library",
+    "pool"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the question with wanted to know if.",
+  "source": "'Do you have a car?' the {who} asked {m}.",
+  "hint": "The {who} wanted to know ______ a car.",
+  "key": "if he had",
+  "acceptable": [
+   "whether he had"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "who": [
+    "manager",
+    "boss",
+    "landlord",
+    "teacher"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the question with wanted to know if.",
+  "source": "'Did you pay for the {thing}?' {f} asked me.",
+  "hint": "{f} wanted to know ______ for the {thing}.",
+  "key": "if I had paid",
+  "acceptable": [
+   "whether I had paid",
+   "if I paid",
+   "whether I paid"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "thing": [
+    "tickets",
+    "food",
+    "taxi",
+    "room"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the question with wanted to know if.",
+  "source": "'Are the {who} ready?' the driver asked.",
+  "hint": "The driver wanted to know ______ ready.",
+  "key": "if they were",
+  "acceptable": [
+   "whether they were"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "who": [
+    "children",
+    "guests",
+    "players",
+    "tourists"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the question with wanted to know if.",
+  "source": "'Can we park here?' {m} asked the {who}.",
+  "hint": "{m} wanted to know ______ park there.",
+  "key": "if they could",
+  "acceptable": [
+   "whether they could",
+   "if we could",
+   "whether we could"
+  ],
+  "why": "A reported yes / no question: if (or whether) + subject + verb, one step into the past.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "who": [
+    "guard",
+    "man",
+    "woman",
+    "driver"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Your teacher asked: 'Are you ready?' Report the question.",
+  "requiredElement": "She asked if we were ready",
+  "constraints": [
+   "exactly one sentence",
+   "if + subject + verb",
+   "past"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "A friend asked: 'Do you like football?' Report it.",
+  "requiredElement": "He asked me if I liked football",
+  "constraints": [
+   "exactly one sentence",
+   "if",
+   "no do / did"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Report a yes / no question someone asked you today.",
+  "requiredElement": "… asked me if …",
+  "constraints": [
+   "exactly one sentence",
+   "if or whether",
+   "statement order"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write the direct yes / no question and then report it.",
+  "requiredElement": "direct → if-question",
+  "constraints": [
+   "exactly two sentences",
+   "a question mark in the first",
+   "if in the second"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Someone asked you: 'Can you help me?' Report it.",
+  "requiredElement": "… asked me if I could help …",
+  "constraints": [
+   "exactly one sentence",
+   "could",
+   "if"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Report a question with wanted to know if.",
+  "requiredElement": "… wanted to know if …",
+  "constraints": [
+   "exactly one sentence",
+   "wanted to know",
+   "if + statement order"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "A tourist asked: 'Is this the way to the museum?' Report it.",
+  "requiredElement": "… asked if it was the way …",
+  "constraints": [
+   "exactly one sentence",
+   "if",
+   "was"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Report a yes / no question with whether.",
+  "requiredElement": "… asked whether …",
+  "constraints": [
+   "exactly one sentence",
+   "whether",
+   "statement order"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "A hotel receptionist asked you some questions. Report three or four of them with if.",
+  "targetGrammar": "reported yes / no questions",
+  "lookFor": [
+   "asked me if",
+   "statement order",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Your mum asked you lots of questions before your trip. Report three or four of them.",
+  "targetGrammar": "if + statement order",
+  "lookFor": [
+   "asked if",
+   "past",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Report three or four questions from a job interview: some with if, some with a wh-word.",
+  "targetGrammar": "if vs wh-word",
+  "lookFor": [
+   "if",
+   "where / what / why",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "A new neighbour asked you about your town. Report three or four yes / no questions.",
+  "targetGrammar": "reported yes / no questions",
+  "lookFor": [
+   "asked me if",
+   "wanted to know if",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "questions",
+  "topic": "reported-yes-no",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences reporting questions a doctor asked you.",
+  "targetGrammar": "if / whether + statement order",
+  "lookFor": [
+   "if",
+   "whether",
+   "three or four sentences"
+  ]
+ }
+]

@@ -1,0 +1,1801 @@
+[
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "As the {test} got closer, I felt ______, {name}.",
+  "options": [
+   "more and more nervous",
+   "nervous and nervous",
+   "more nervous and nervous",
+   "most and most nervous"
+  ],
+  "key": 0,
+  "why": "The change keeps growing: comparative + and + comparative, more and more nervous.",
+  "slots": {
+   "test": [
+    "exam",
+    "interview",
+    "driving test",
+    "concert"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "In {month}, the days get ______ in {city}.",
+  "options": [
+   "more and more hot",
+   "hot and hot",
+   "more hotter and hotter",
+   "hotter and hotter"
+  ],
+  "key": 3,
+  "why": "The change keeps growing: comparative + and + comparative, hotter and hotter.",
+  "slots": {
+   "month": [
+    "June",
+    "July",
+    "early summer",
+    "May"
+   ],
+   "city": [
+    "Termez",
+    "Bukhara",
+    "Tashkent",
+    "Karshi"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We walked home from the {place}, and the sky got ______, {name}.",
+  "options": [
+   "dark and dark",
+   "more darker and darker",
+   "darker and darker",
+   "more and more dark"
+  ],
+  "key": 2,
+  "why": "The change keeps growing: comparative + and + comparative, darker and darker.",
+  "slots": {
+   "place": [
+    "park",
+    "bazaar",
+    "station",
+    "river"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Flats in {city} are getting ______ every year, {name}.",
+  "options": [
+   "most and most expensive",
+   "more and more expensive",
+   "expensive and expensive",
+   "more expensive and expensive"
+  ],
+  "key": 1,
+  "why": "The change keeps growing: comparative + and + comparative, more and more expensive.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Moscow",
+    "Almaty"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The music at the {event} got ______, so we left, {name}.",
+  "options": [
+   "louder and louder",
+   "more and more loud",
+   "loud and loud",
+   "more louder and louder"
+  ],
+  "key": 0,
+  "why": "The change keeps growing: comparative + and + comparative, louder and louder.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "festival"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "After five hours of walking in the {place}, the children got ______, {name}.",
+  "options": [
+   "tired and tired",
+   "more tired and tired",
+   "most and most tired",
+   "more and more tired"
+  ],
+  "key": 3,
+  "why": "The change keeps growing: comparative + and + comparative, more and more tired.",
+  "slots": {
+   "place": [
+    "old town",
+    "mountains",
+    "museum",
+    "bazaar"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My little {pet} is getting ______ every week, {name}.",
+  "options": [
+   "big and big",
+   "more bigger and bigger",
+   "bigger and bigger",
+   "more and more big"
+  ],
+  "key": 2,
+  "why": "The change keeps growing: comparative + and + comparative, bigger and bigger.",
+  "slots": {
+   "pet": [
+    "puppy",
+    "kitten",
+    "rabbit",
+    "brother"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {task} got ______ as we went on, {name}.",
+  "options": [
+   "most and most difficult",
+   "more and more difficult",
+   "difficult and difficult",
+   "more difficult and difficult"
+  ],
+  "key": 1,
+  "why": "The change keeps growing: comparative + and + comparative, more and more difficult.",
+  "slots": {
+   "task": [
+    "test",
+    "puzzle",
+    "game",
+    "homework"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "In {month}, the nights get ______ in the mountains, {name}.",
+  "options": [
+   "colder and colder",
+   "more and more cold",
+   "cold and cold",
+   "more colder and colder"
+  ],
+  "key": 0,
+  "why": "The change keeps growing: comparative + and + comparative, colder and colder.",
+  "slots": {
+   "month": [
+    "October",
+    "November",
+    "late autumn",
+    "December"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This {thing} is becoming ______ with young people, {name}.",
+  "options": [
+   "popular and popular",
+   "more popular and popular",
+   "most and most popular",
+   "more and more popular"
+  ],
+  "key": 3,
+  "why": "The change keeps growing: comparative + and + comparative, more and more popular.",
+  "slots": {
+   "thing": [
+    "app",
+    "café",
+    "game",
+    "sport"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "In {month}, the days get ______, {name}.",
+  "options": [
+   "long and long",
+   "more longer and longer",
+   "longer and longer",
+   "more and more long"
+  ],
+  "key": 2,
+  "why": "The change keeps growing: comparative + and + comparative, longer and longer.",
+  "slots": {
+   "month": [
+    "March",
+    "April",
+    "May",
+    "spring"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {who} waited for an answer and got ______, {name}.",
+  "options": [
+   "more angrier and angrier",
+   "angrier and angrier",
+   "the angrier",
+   "angry and angry"
+  ],
+  "key": 1,
+  "why": "The change keeps growing: comparative + and + comparative, angrier and angrier.",
+  "slots": {
+   "who": [
+    "teacher",
+    "coach",
+    "boss",
+    "director"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The roads in our {city} are getting ______, {name}.",
+  "options": [
+   "busier and busier",
+   "the busier",
+   "busy and busy",
+   "more busier and busier"
+  ],
+  "key": 0,
+  "why": "The change keeps growing: comparative + and + comparative, busier and busier.",
+  "slots": {
+   "city": [
+    "town",
+    "city",
+    "village",
+    "district"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {book} got ______ after the first chapter, {name}.",
+  "options": [
+   "interesting and interesting",
+   "more interesting and interesting",
+   "most and most interesting",
+   "more and more interesting"
+  ],
+  "key": 3,
+  "why": "The change keeps growing: comparative + and + comparative, more and more interesting.",
+  "slots": {
+   "book": [
+    "book",
+    "story",
+    "novel",
+    "film"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {runner} ran ______ at the end of the race, {name}.",
+  "options": [
+   "fast and fast",
+   "more faster and faster",
+   "faster and faster",
+   "more and more fast"
+  ],
+  "key": 2,
+  "why": "The change keeps growing: comparative + and + comparative, faster and faster.",
+  "slots": {
+   "runner": [
+    "boy",
+    "girl",
+    "horse",
+    "winner"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Dinner at the {place} was late, and we got ______, {name}.",
+  "options": [
+   "more hungrier and hungrier",
+   "hungrier and hungrier",
+   "the hungrier",
+   "hungry and hungry"
+  ],
+  "key": 1,
+  "why": "The change keeps growing: comparative + and + comparative, hungrier and hungrier.",
+  "slots": {
+   "place": [
+    "wedding",
+    "party",
+    "hotel",
+    "camp"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {bag} got ______ as I put more books in it, {name}.",
+  "options": [
+   "heavier and heavier",
+   "the heavier",
+   "heavy and heavy",
+   "more heavier and heavier"
+  ],
+  "key": 0,
+  "why": "The change keeps growing: comparative + and + comparative, heavier and heavier.",
+  "slots": {
+   "bag": [
+    "bag",
+    "backpack",
+    "box",
+    "suitcase"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My mother got ______ when my brother didn't call {when}, {name}.",
+  "options": [
+   "worried and worried",
+   "more worried and worried",
+   "most and most worried",
+   "more and more worried"
+  ],
+  "key": 3,
+  "why": "The change keeps growing: comparative + and + comparative, more and more worried.",
+  "slots": {
+   "when": [
+    "all evening",
+    "that night",
+    "for two days",
+    "all day"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Your {skill} is getting ______, {name}!",
+  "options": [
+   "good and good",
+   "more better and better",
+   "better and better",
+   "more and more good"
+  ],
+  "key": 2,
+  "why": "The change keeps growing: comparative + and + comparative, better and better.",
+  "slots": {
+   "skill": [
+    "English",
+    "Russian",
+    "cooking",
+    "drawing"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {weather} got ______, so we stayed inside, {name}.",
+  "options": [
+   "more stronger and stronger",
+   "stronger and stronger",
+   "more and more strong",
+   "strong and strong"
+  ],
+  "key": 1,
+  "why": "The change keeps growing: comparative + and + comparative, stronger and stronger.",
+  "slots": {
+   "weather": [
+    "wind",
+    "rain",
+    "storm",
+    "snow"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
+  "source": "As the {event} got closer, {name} felt ______ (nervous).",
+  "key": "more and more nervous",
+  "why": "The change keeps growing: comparative + and + comparative, more and more nervous.",
+  "slots": {
+   "event": [
+    "exam",
+    "wedding",
+    "interview",
+    "match"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
+  "source": "The weather in {city} is getting ______ (hot) every week, {name}.",
+  "key": "hotter and hotter",
+  "why": "The change keeps growing: comparative + and + comparative, hotter and hotter.",
+  "slots": {
+   "city": [
+    "Termez",
+    "Bukhara",
+    "Tashkent",
+    "Karshi"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
+  "source": "As the sun went down over the {place}, it got ______ (cold), {name}.",
+  "key": "colder and colder",
+  "why": "The change keeps growing: comparative + and + comparative, colder and colder.",
+  "slots": {
+   "place": [
+    "mountains",
+    "lake",
+    "desert",
+    "village"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
+  "source": "Food at the {place} is getting ______ (expensive), {name}.",
+  "key": "more and more expensive",
+  "why": "The change keeps growing: comparative + and + comparative, more and more expensive.",
+  "slots": {
+   "place": [
+    "bazaar",
+    "supermarket",
+    "café",
+    "canteen"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
+  "source": "Our {tree} is getting ______ (tall) every year, {name}.",
+  "key": "taller and taller",
+  "why": "The change keeps growing: comparative + and + comparative, taller and taller.",
+  "slots": {
+   "tree": [
+    "apple tree",
+    "cherry tree",
+    "little brother",
+    "son"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
+  "source": "The noise from the {place} got ______ (loud) all night, {name}.",
+  "key": "louder and louder",
+  "why": "The change keeps growing: comparative + and + comparative, louder and louder.",
+  "slots": {
+   "place": [
+    "street",
+    "party",
+    "flat next door",
+    "café"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
+  "source": "The questions in the {test} got ______ (difficult), {name}.",
+  "key": "more and more difficult",
+  "why": "The change keeps growing: comparative + and + comparative, more and more difficult.",
+  "slots": {
+   "test": [
+    "test",
+    "quiz",
+    "exam",
+    "game"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
+  "source": "The clouds over the {place} got ______ (dark). It was going to rain, {name}.",
+  "key": "darker and darker",
+  "why": "The change keeps growing: comparative + and + comparative, darker and darker.",
+  "slots": {
+   "place": [
+    "city",
+    "mountains",
+    "fields",
+    "lake"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
+  "source": "Learning {lang} is becoming ______ (popular) in our {place}.",
+  "key": "more and more popular",
+  "why": "The change keeps growing: comparative + and + comparative, more and more popular.",
+  "slots": {
+   "lang": [
+    "Korean",
+    "English",
+    "Chinese",
+    "Turkish"
+   ],
+   "place": [
+    "town",
+    "school",
+    "city",
+    "country"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
+  "source": "Our {shop} is getting ______ (busy) before Navruz, {name}.",
+  "key": "busier and busier",
+  "acceptable": [
+   "more and more busy"
+  ],
+  "why": "The change keeps growing: comparative + and + comparative, busier and busier.",
+  "slots": {
+   "shop": [
+    "shop",
+    "café",
+    "bakery",
+    "market"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
+  "source": "The queue at the {place} got ______ (long), {name}.",
+  "key": "longer and longer",
+  "why": "The change keeps growing: comparative + and + comparative, longer and longer.",
+  "slots": {
+   "place": [
+    "bank",
+    "post office",
+    "bus stop",
+    "museum"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
+  "source": "We climbed the {hill} for hours. My legs got ______ (tired), {name}.",
+  "key": "more and more tired",
+  "why": "The change keeps growing: comparative + and + comparative, more and more tired.",
+  "slots": {
+   "hill": [
+    "hill",
+    "mountain",
+    "stairs",
+    "path"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
+  "source": "The town is getting ______ (big). There are new {thing} everywhere, {name}.",
+  "key": "bigger and bigger",
+  "why": "The change keeps growing: comparative + and + comparative, bigger and bigger.",
+  "slots": {
+   "thing": [
+    "houses",
+    "roads",
+    "shops",
+    "schools"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
+  "source": "The {match} got ______ (interesting) in the second half, {name}.",
+  "key": "more and more interesting",
+  "why": "The change keeps growing: comparative + and + comparative, more and more interesting.",
+  "slots": {
+   "match": [
+    "match",
+    "game",
+    "film",
+    "final"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
+  "source": "In {month}, the water in the {water} gets ______ (warm).",
+  "key": "warmer and warmer",
+  "why": "The change keeps growing: comparative + and + comparative, warmer and warmer.",
+  "slots": {
+   "month": [
+    "May",
+    "June",
+    "July",
+    "August"
+   ],
+   "water": [
+    "lake",
+    "sea",
+    "river",
+    "pool"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
+  "source": "The {who} waited in the traffic. He got ______ (angry), {name}.",
+  "key": "angrier and angrier",
+  "acceptable": [
+   "more and more angry"
+  ],
+  "why": "The change keeps growing: comparative + and + comparative, angrier and angrier.",
+  "slots": {
+   "who": [
+    "driver",
+    "taxi driver",
+    "bus driver",
+    "man"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
+  "source": "{name}'s cooking is getting ______ (good). Her plov is great now.",
+  "key": "better and better",
+  "why": "The change keeps growing: comparative + and + comparative, better and better.",
+  "slots": {
+   "name": [
+    "Madina",
+    "Olga",
+    "Sevara",
+    "Nilufar"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
+  "source": "The pain in my {part} got ______ (bad), so I called the doctor, {name}.",
+  "key": "worse and worse",
+  "why": "The change keeps growing: comparative + and + comparative, worse and worse.",
+  "slots": {
+   "part": [
+    "tooth",
+    "leg",
+    "back",
+    "knee"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
+  "source": "As the night went on, the {place} got ______ (quiet), {name}.",
+  "key": "quieter and quieter",
+  "why": "The change keeps growing: comparative + and + comparative, quieter and quieter.",
+  "slots": {
+   "place": [
+    "street",
+    "town",
+    "village",
+    "city"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
+  "source": "{name} trains every day, so she is getting ______ (strong).",
+  "key": "stronger and stronger",
+  "why": "The change keeps growing: comparative + and + comparative, stronger and stronger.",
+  "slots": {
+   "name": [
+    "Madina",
+    "Olga",
+    "Sevara",
+    "Nilufar"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with … and … (the comparative twice).",
+  "source": "It gets a bit hotter every day in {month}, {name}.",
+  "hint": "It gets ______ in {month}, {name}.",
+  "key": "hotter and hotter",
+  "why": "The change keeps growing: comparative + and + comparative, hotter and hotter.",
+  "slots": {
+   "month": [
+    "June",
+    "July",
+    "August",
+    "May"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with … and … (the comparative twice).",
+  "source": "My {who} gets a little weaker every year, {name}.",
+  "hint": "My {who} is getting ______, {name}.",
+  "key": "weaker and weaker",
+  "why": "The change keeps growing: comparative + and + comparative, weaker and weaker.",
+  "slots": {
+   "who": [
+    "grandfather",
+    "grandmother",
+    "old dog",
+    "uncle"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with … and … (the comparative twice).",
+  "source": "The {test} questions got a bit harder each time, {name}.",
+  "hint": "The {test} questions got ______, {name}.",
+  "key": "harder and harder",
+  "why": "The change keeps growing: comparative + and + comparative, harder and harder.",
+  "slots": {
+   "test": [
+    "test",
+    "quiz",
+    "exam",
+    "game"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with … and … (the comparative twice).",
+  "source": "The {city} roads get a little busier every year, {name}.",
+  "hint": "The {city} roads are getting ______, {name}.",
+  "key": "busier and busier",
+  "acceptable": [
+   "more and more busy"
+  ],
+  "why": "The change keeps growing: comparative + and + comparative, busier and busier.",
+  "slots": {
+   "city": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Fergana"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with … and … (the comparative twice).",
+  "source": "{thing} get a bit more expensive every year, {name}.",
+  "hint": "{thing} are getting ______, {name}.",
+  "key": "more and more expensive",
+  "why": "The change keeps growing: comparative + and + comparative, more and more expensive.",
+  "slots": {
+   "thing": [
+    "Phones",
+    "Flats",
+    "Cars",
+    "Plane tickets"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "It's getting more and more cold in {city}, {name}.",
+  "hint": "It's getting ______ in {city}, {name}.",
+  "key": "colder and colder",
+  "why": "The change keeps growing: comparative + and + comparative, colder and colder.",
+  "slots": {
+   "city": [
+    "Moscow",
+    "Nukus",
+    "Tashkent",
+    "Almaty"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The music got loud and loud at the {event}, {name}.",
+  "hint": "The music got ______ at the {event}, {name}.",
+  "key": "louder and louder",
+  "why": "The change keeps growing: comparative + and + comparative, louder and louder.",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "concert",
+    "festival"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I felt more nervous and nervous before the {test}, {name}.",
+  "hint": "I felt ______ before the {test}, {name}.",
+  "key": "more and more nervous",
+  "why": "The change keeps growing: comparative + and + comparative, more and more nervous.",
+  "slots": {
+   "test": [
+    "exam",
+    "interview",
+    "match",
+    "concert"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "My little {pet} is getting more bigger and bigger, {name}.",
+  "hint": "My little {pet} is getting ______, {name}.",
+  "key": "bigger and bigger",
+  "why": "The change keeps growing: comparative + and + comparative, bigger and bigger.",
+  "slots": {
+   "pet": [
+    "puppy",
+    "kitten",
+    "rabbit",
+    "brother"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "This {thing} is becoming most and most popular, {name}.",
+  "hint": "This {thing} is becoming ______, {name}.",
+  "key": "more and more popular",
+  "why": "The change keeps growing: comparative + and + comparative, more and more popular.",
+  "slots": {
+   "thing": [
+    "app",
+    "café",
+    "game",
+    "song"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The change keeps growing. Rewrite the three sentences as one.",
+  "source": "At first the sky over the {place} was dark. Then it was darker. Then it was very dark, {name}.",
+  "hint": "The sky got ______, {name}.",
+  "key": "darker and darker",
+  "why": "The change keeps growing: comparative + and + comparative, darker and darker.",
+  "slots": {
+   "place": [
+    "city",
+    "lake",
+    "mountains",
+    "fields"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The change keeps growing. Rewrite the three sentences as one.",
+  "source": "At first my bag was heavy. Then it was heavier. At the end it was very heavy, {name}.",
+  "hint": "My bag got ______, {name}.",
+  "key": "heavier and heavier",
+  "acceptable": [
+   "more and more heavy"
+  ],
+  "why": "The change keeps growing: comparative + and + comparative, heavier and heavier.",
+  "slots": {
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The change keeps growing. Rewrite the three sentences as one.",
+  "source": "At first the {film} was interesting. Then it was more interesting. At the end it was great, {name}.",
+  "hint": "The {film} got ______, {name}.",
+  "key": "more and more interesting",
+  "why": "The change keeps growing: comparative + and + comparative, more and more interesting.",
+  "slots": {
+   "film": [
+    "film",
+    "book",
+    "story",
+    "series"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The change keeps growing. Rewrite the three sentences as one.",
+  "source": "At first the queue at the {place} was long. Then it was longer. Then it was very long, {name}.",
+  "hint": "The queue got ______, {name}.",
+  "key": "longer and longer",
+  "why": "The change keeps growing: comparative + and + comparative, longer and longer.",
+  "slots": {
+   "place": [
+    "bank",
+    "post office",
+    "museum",
+    "bus stop"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Feruza",
+    "Otabek"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "The change keeps growing. Rewrite the three sentences as one.",
+  "source": "At first {name} was angry. Then she was angrier. In the end she shouted.",
+  "hint": "{name} got ______.",
+  "key": "angrier and angrier",
+  "acceptable": [
+   "more and more angry"
+  ],
+  "why": "The change keeps growing: comparative + and + comparative, angrier and angrier.",
+  "slots": {
+   "name": [
+    "Madina",
+    "Olga",
+    "Sevara",
+    "Nilufar"
+   ]
+  }
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the weather getting hotter or colder.",
+  "requiredElement": "hotter and hotter / colder and colder",
+  "constraints": [
+   "exactly one sentence",
+   "-er and -er",
+   "get or become"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about how you felt before an exam.",
+  "requiredElement": "more and more nervous",
+  "constraints": [
+   "exactly one sentence",
+   "more and more + adjective",
+   "as or before"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about prices in your town.",
+  "requiredElement": "more and more expensive",
+  "constraints": [
+   "exactly one sentence",
+   "more and more",
+   "getting"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a child or pet that is growing.",
+  "requiredElement": "bigger and bigger / taller and taller",
+  "constraints": [
+   "exactly one sentence",
+   "-er and -er",
+   "getting"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your English or a skill you practise.",
+  "requiredElement": "better and better",
+  "constraints": [
+   "exactly one sentence",
+   "better and better",
+   "getting"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a noise that got louder.",
+  "requiredElement": "louder and louder",
+  "constraints": [
+   "exactly one sentence",
+   "louder and louder",
+   "past simple"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a film or book that got more and more interesting.",
+  "requiredElement": "more and more interesting",
+  "constraints": [
+   "exactly one sentence",
+   "more and more",
+   "got"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: one with -er and -er and one with more and more.",
+  "requiredElement": "short vs long adjectives",
+  "constraints": [
+   "exactly two sentences",
+   "-er and -er",
+   "more and more + long adjective"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe how your town or city is changing. Write three or four sentences.",
+  "targetGrammar": "-er and -er / more and more",
+  "lookFor": [
+   "getting + -er and -er",
+   "more and more + adjective",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a storm or a hot day that got worse and worse. Write three or four sentences.",
+  "targetGrammar": "progressive comparative in a story",
+  "lookFor": [
+   "got + -er and -er",
+   "past simple",
+   "weather words"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe how you felt on the day of an exam or a big match. Write three or four sentences.",
+  "targetGrammar": "more and more nervous / excited",
+  "lookFor": [
+   "more and more",
+   "as …",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe how your English has changed this year. Write three or four sentences.",
+  "targetGrammar": "better and better / easier and easier",
+  "lookFor": [
+   "-er and -er",
+   "getting",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "comparison",
+  "branch": "parallel-comparison",
+  "topic": "progressive-comparative",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a long trip that got more and more tiring. Write three or four sentences.",
+  "targetGrammar": "more and more tired",
+  "lookFor": [
+   "more and more",
+   "-er and -er",
+   "past simple"
+  ]
+ }
+]

@@ -1,0 +1,1801 @@
+[
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Everyone {group} ______ football, {name}.",
+  "options": [
+   "likes",
+   "like",
+   "are liking",
+   "liking"
+  ],
+  "key": 0,
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "group": [
+    "in my family",
+    "in our class",
+    "in our street",
+    "at my school"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Nobody ______ the answer to this {subj} question, {name}.",
+  "options": [
+   "know",
+   "are knowing",
+   "knowing",
+   "knows"
+  ],
+  "key": 3,
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "subj": [
+    "maths",
+    "history",
+    "science",
+    "English"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Everybody ______ here now, {name}. Let's start the {event}.",
+  "options": [
+   "am",
+   "be",
+   "is",
+   "are"
+  ],
+  "key": 2,
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "event": [
+    "lesson",
+    "meeting",
+    "game",
+    "test"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "No one ______ at home yesterday {when}, {name}.",
+  "options": [
+   "been",
+   "was",
+   "were",
+   "be"
+  ],
+  "key": 1,
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "when": [
+    "evening",
+    "afternoon",
+    "morning",
+    "at six"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Everyone in our class ______ a {thing} now, {name}.",
+  "options": [
+   "has",
+   "have",
+   "having",
+   "are having"
+  ],
+  "key": 0,
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "thing": [
+    "phone",
+    "laptop",
+    "tablet",
+    "dictionary"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Nobody {group} ______ to clean the {room}.",
+  "options": [
+   "want",
+   "are wanting",
+   "wanting",
+   "wants"
+  ],
+  "key": 3,
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "group": [
+    "in my family",
+    "in our house",
+    "in our flat",
+    "at my grandma's"
+   ],
+   "room": [
+    "kitchen",
+    "yard",
+    "garage",
+    "bathroom"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Someone ______ at the {door}, {name}. Can you open it?",
+  "options": [
+   "am",
+   "be",
+   "is",
+   "are"
+  ],
+  "key": 2,
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "door": [
+    "door",
+    "gate",
+    "front door",
+    "back door"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Everybody in {group} ______ Uzbek and a little Russian.",
+  "options": [
+   "speaking",
+   "speaks",
+   "speak",
+   "are speaking"
+  ],
+  "key": 1,
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "group": [
+    "our village",
+    "my town",
+    "our street",
+    "my family"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Everything ______ delicious at the {event} last night, {name}.",
+  "options": [
+   "was",
+   "were",
+   "be",
+   "been"
+  ],
+  "key": 0,
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "dinner",
+    "picnic"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Nothing ______ in this old {thing}, {name}. Let's buy a new one.",
+  "options": [
+   "work",
+   "are working",
+   "working",
+   "works"
+  ],
+  "key": 3,
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "thing": [
+    "car",
+    "phone",
+    "radio",
+    "laptop"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Somebody ______ my {thing}, {name}. I can't find it.",
+  "options": [
+   "having",
+   "are having",
+   "has",
+   "have"
+  ],
+  "key": 2,
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "thing": [
+    "pen",
+    "umbrella",
+    "book",
+    "key"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "No one ______ in that old {home} on our street, {name}.",
+  "options": [
+   "living",
+   "lives",
+   "live",
+   "are living"
+  ],
+  "key": 1,
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "home": [
+    "house",
+    "flat",
+    "building",
+    "cottage"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Everything in this {place} ______ very expensive, {name}.",
+  "options": [
+   "is",
+   "are",
+   "am",
+   "be"
+  ],
+  "key": 0,
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "place": [
+    "shop",
+    "café",
+    "hotel",
+    "market"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Nobody ______ late for the {event} {when}.",
+  "options": [
+   "were",
+   "be",
+   "been",
+   "was"
+  ],
+  "key": 3,
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "event": [
+    "lesson",
+    "exam",
+    "meeting",
+    "concert"
+   ],
+   "when": [
+    "yesterday",
+    "on Monday",
+    "last week",
+    "this morning"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Everyone {group} ______ Grandma's {food}.",
+  "options": [
+   "are loving",
+   "loving",
+   "loves",
+   "love"
+  ],
+  "key": 2,
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "group": [
+    "in my family",
+    "in our house",
+    "in our flat",
+    "at my grandma's"
+   ],
+   "food": [
+    "plov",
+    "samsa",
+    "soup",
+    "cakes"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Somebody ______ me every morning at {time}, {name}. I don't know who it is.",
+  "options": [
+   "calling",
+   "calls",
+   "call",
+   "are calling"
+  ],
+  "key": 1,
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "time": [
+    "seven",
+    "six",
+    "eight",
+    "half past seven"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Nobody in my {group} ______ a {pet}.",
+  "options": [
+   "has",
+   "have",
+   "having",
+   "are having"
+  ],
+  "key": 0,
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "group": [
+    "family",
+    "class",
+    "street",
+    "building"
+   ],
+   "pet": [
+    "dog",
+    "cat",
+    "car",
+    "horse"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Everybody {group} ______ to bed late at the weekend, {name}.",
+  "options": [
+   "go",
+   "are going",
+   "going",
+   "goes"
+  ],
+  "key": 3,
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "group": [
+    "in my family",
+    "in our house",
+    "in our flat",
+    "at my grandma's"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Someone ______ in the {place} an hour ago, {name}. I heard a voice.",
+  "options": [
+   "be",
+   "been",
+   "was",
+   "were"
+  ],
+  "key": 2,
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "place": [
+    "classroom",
+    "office",
+    "kitchen",
+    "hall"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "No one ______ this {text}, {name}. It's too difficult.",
+  "options": [
+   "understanding",
+   "understands",
+   "understand",
+   "are understanding"
+  ],
+  "key": 1,
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "text": [
+    "text",
+    "letter",
+    "poem",
+    "story"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word.",
+  "source": "Everyone {group} ______ (like) {sport}.",
+  "key": "likes",
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "group": [
+    "in my family",
+    "in our class",
+    "in our street",
+    "at my school"
+   ],
+   "sport": [
+    "football",
+    "chess",
+    "volleyball",
+    "tennis"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word.",
+  "source": "Nobody ______ (know) where {name} is {when}.",
+  "key": "knows",
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "when": [
+    "now",
+    "today",
+    "this morning",
+    "tonight"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word.",
+  "source": "Look at them! Everybody ______ (be) tired after the {event}, {name}.",
+  "key": "is",
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "event": [
+    "match",
+    "trip",
+    "exam",
+    "wedding"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word.",
+  "source": "No one ______ (be) in the {place} last night, {name}.",
+  "key": "was",
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "place": [
+    "classroom",
+    "office",
+    "kitchen",
+    "hall"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word.",
+  "source": "Everyone {group} ______ (have) a {thing}.",
+  "key": "has",
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "group": [
+    "in my family",
+    "in our class",
+    "in our street",
+    "at my school"
+   ],
+   "thing": [
+    "bike",
+    "phone",
+    "pet",
+    "laptop"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word.",
+  "source": "Nobody ______ (want) to sit near the {place}, {name}.",
+  "key": "wants",
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "place": [
+    "door",
+    "window",
+    "heater",
+    "board"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word.",
+  "source": "Everybody in my family ______ (drink) tea after {meal}.",
+  "key": "drinks",
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "meal": [
+    "dinner",
+    "lunch",
+    "plov",
+    "breakfast"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word.",
+  "source": "Someone in our {place} ______ (work) at the {job}.",
+  "key": "works",
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "place": [
+    "street",
+    "building",
+    "family",
+    "village"
+   ],
+   "job": [
+    "bank",
+    "hospital",
+    "airport",
+    "post office"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word.",
+  "source": "Everything ______ (be) ready for the {event} last {day}.",
+  "key": "was",
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "event": [
+    "party",
+    "wedding",
+    "test",
+    "concert"
+   ],
+   "day": [
+    "Friday",
+    "Saturday",
+    "Sunday",
+    "Monday"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word.",
+  "source": "Nothing in this {place} ______ (cost) more than ten dollars, {name}.",
+  "key": "costs",
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "place": [
+    "shop",
+    "café",
+    "bazaar",
+    "market"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word.",
+  "source": "Somebody ______ (have) your {thing}, {name}. Ask the teacher.",
+  "key": "has",
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "thing": [
+    "bag",
+    "book",
+    "jacket",
+    "phone"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word.",
+  "source": "No one ______ (live) on the top floor of our {home}, {name}.",
+  "key": "lives",
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "home": [
+    "building",
+    "house",
+    "block",
+    "new building"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word.",
+  "source": "Everything in the {place} ______ (be) new, {name}.",
+  "key": "is",
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "place": [
+    "kitchen",
+    "classroom",
+    "flat",
+    "shop"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word.",
+  "source": "Everyone ______ (love) {name}'s {food}.",
+  "key": "loves",
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "food": [
+    "cakes",
+    "plov",
+    "soup",
+    "salads"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word.",
+  "source": "Nobody ______ (be) at the bus stop at {time} yesterday, {name}.",
+  "key": "was",
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "time": [
+    "six",
+    "seven",
+    "midnight",
+    "five"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word.",
+  "source": "Someone always ______ (help) {who} with the {task}.",
+  "key": "helps",
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "who": [
+    "Grandma",
+    "Grandpa",
+    "Mum",
+    "our teacher"
+   ],
+   "task": [
+    "shopping",
+    "garden",
+    "cooking",
+    "cleaning"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word.",
+  "source": "Everybody in our {group} ______ (speak) a little English, {name}.",
+  "key": "speaks",
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "group": [
+    "class",
+    "family",
+    "office",
+    "street"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word.",
+  "source": "No one in our {group} ______ (watch) TV in the {when}.",
+  "key": "watches",
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "group": [
+    "family",
+    "flat",
+    "house",
+    "building"
+   ],
+   "when": [
+    "morning",
+    "afternoon",
+    "evening",
+    "daytime"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word.",
+  "source": "Everyone {group} ______ (go) to the {place} on Sundays.",
+  "key": "goes",
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "group": [
+    "in my family",
+    "in our house",
+    "in our flat",
+    "at my grandma's"
+   ],
+   "place": [
+    "bazaar",
+    "park",
+    "café",
+    "market"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the verb in brackets in the right form. Use the present, or the past if the sentence has a past time word.",
+  "source": "Somebody ______ (be) in my {room} this morning, {name}.",
+  "key": "was",
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "room": [
+    "room",
+    "kitchen",
+    "car",
+    "garden"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with everyone or everybody.",
+  "source": "All the students in our class like {subj}, {name}.",
+  "hint": "Everyone in our class ______ {subj}, {name}.",
+  "key": "likes",
+  "why": "everyone → singular verb: likes.",
+  "slots": {
+   "subj": [
+    "music",
+    "art",
+    "English",
+    "PE"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with everyone or everybody.",
+  "source": "All my friends are at the {event}, {name}.",
+  "hint": "Everybody ______ at the {event}, {name}.",
+  "key": "is",
+  "why": "everybody → is, not are.",
+  "slots": {
+   "event": [
+    "party",
+    "match",
+    "concert",
+    "café"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with everyone or everybody.",
+  "source": "All the people in our {place} have a {thing}.",
+  "hint": "Everyone in our {place} ______ a {thing}.",
+  "key": "has",
+  "why": "everyone → has, not have.",
+  "slots": {
+   "place": [
+    "street",
+    "building",
+    "village",
+    "family"
+   ],
+   "thing": [
+    "car",
+    "garden",
+    "dog",
+    "bike"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with everyone or everybody.",
+  "source": "All the guests were happy at the {event}, {name}.",
+  "hint": "Everybody ______ happy at the {event}, {name}.",
+  "key": "was",
+  "why": "everybody → was, not were.",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "dinner",
+    "picnic"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with everyone or everybody.",
+  "source": "All the people in my family speak {lang}, {name}.",
+  "hint": "Everyone in my family ______ {lang}, {name}.",
+  "key": "speaks",
+  "why": "everyone → speaks, with -s.",
+  "slots": {
+   "lang": [
+    "English",
+    "Russian",
+    "Tajik",
+    "Turkish"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Everyone are here, {name}. Let's start the {event}.",
+  "hint": "Everyone ______ here, {name}. Let's start the {event}.",
+  "key": "is",
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "event": [
+    "lesson",
+    "game",
+    "meeting",
+    "film"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Nobody know the answer, {name}. Ask {who}.",
+  "hint": "Nobody ______ the answer, {name}. Ask {who}.",
+  "key": "knows",
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "who": [
+    "the teacher",
+    "Dad",
+    "Grandpa",
+    "Mum"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Somebody have my {thing}, {name}.",
+  "hint": "Somebody ______ my {thing}, {name}.",
+  "key": "has",
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "thing": [
+    "pen",
+    "key",
+    "book",
+    "phone"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Everybody were tired after the {event}, {name}.",
+  "hint": "Everybody ______ tired after the {event}, {name}.",
+  "key": "was",
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "event": [
+    "match",
+    "trip",
+    "exam",
+    "wedding"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "No one want to clean the {room}, {name}.",
+  "hint": "No one ______ to clean the {room}, {name}.",
+  "key": "wants",
+  "why": "everyone, everybody, nobody, no one, someone, everything and nothing take a singular verb (like he or she).",
+  "slots": {
+   "room": [
+    "kitchen",
+    "yard",
+    "garage",
+    "bathroom"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with nobody or no one.",
+  "source": "The students don't like the new {thing}, {name}.",
+  "hint": "Nobody ______ the new {thing}, {name}.",
+  "key": "likes",
+  "why": "nobody → singular verb: likes (no don't).",
+  "slots": {
+   "thing": [
+    "timetable",
+    "rule",
+    "canteen",
+    "uniform"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with nobody or no one.",
+  "source": "The people in the {place} aren't happy, {name}.",
+  "hint": "No one in the {place} ______ happy, {name}.",
+  "key": "is",
+  "why": "no one → is (no not).",
+  "slots": {
+   "place": [
+    "office",
+    "class",
+    "street",
+    "village"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with nobody or no one.",
+  "source": "My friends weren't at home {when}, {name}.",
+  "hint": "Nobody ______ at home {when}, {name}.",
+  "key": "was",
+  "why": "nobody → was (no not).",
+  "slots": {
+   "when": [
+    "yesterday",
+    "on Sunday",
+    "last night",
+    "at five"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with nobody or no one.",
+  "source": "The children don't know the {thing}, {name}.",
+  "hint": "No one ______ the {thing}, {name}.",
+  "key": "knows",
+  "why": "no one → knows (no don't).",
+  "slots": {
+   "thing": [
+    "answer",
+    "way",
+    "rules",
+    "song"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with nobody or no one.",
+  "source": "My classmates haven't got a {thing}, {name}.",
+  "hint": "Nobody in my class ______ a {thing}, {name}.",
+  "key": "has",
+  "why": "nobody → has (no not).",
+  "slots": {
+   "thing": [
+    "car",
+    "horse",
+    "boat",
+    "dog"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  },
+  "acceptable": [
+   "has got"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your family with Everyone.",
+  "requiredElement": "Everyone in my family + verb-s",
+  "constraints": [
+   "exactly one sentence",
+   "Everyone",
+   "a verb with -s"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your class with Nobody.",
+  "requiredElement": "Nobody in my class + verb-s",
+  "constraints": [
+   "exactly one sentence",
+   "Nobody",
+   "a singular verb"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a party last week with Everybody was.",
+  "requiredElement": "Everybody was …",
+  "constraints": [
+   "exactly one sentence",
+   "Everybody was",
+   "a feeling word"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your street with No one.",
+  "requiredElement": "No one in our street …",
+  "constraints": [
+   "exactly one sentence",
+   "No one",
+   "a singular verb"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a mystery phone call with Someone.",
+  "requiredElement": "Someone calls / called …",
+  "constraints": [
+   "exactly one sentence",
+   "Someone",
+   "call"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a shop with Everything is.",
+  "requiredElement": "Everything in this shop is …",
+  "constraints": [
+   "exactly one sentence",
+   "Everything is",
+   "a price or adjective"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a food that everybody likes.",
+  "requiredElement": "Everybody likes …",
+  "constraints": [
+   "exactly one sentence",
+   "Everybody likes",
+   "a food word"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: one with Everyone and one with Nobody.",
+  "requiredElement": "Everyone … -s. Nobody … -s.",
+  "constraints": [
+   "exactly two sentences",
+   "Everyone once",
+   "Nobody once"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a family holiday: what does everyone do, and what does nobody like?",
+  "targetGrammar": "Everyone + verb-s / Nobody + verb-s",
+  "lookFor": [
+   "Everyone",
+   "Nobody",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your class: what everybody has, likes or does.",
+  "targetGrammar": "Everybody has / likes …",
+  "lookFor": [
+   "Everybody",
+   "a singular verb",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a wedding or party you went to. How was everyone?",
+  "targetGrammar": "Everyone was … Nobody was …",
+  "lookFor": [
+   "was twice",
+   "Everyone or Nobody",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe your street or village. Who lives there, and what does everyone do?",
+  "targetGrammar": "Everyone knows … No one lives …",
+  "lookFor": [
+   "Everyone",
+   "No one",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "indefinite",
+  "topic": "indefinite-agreement",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a strange morning: someone was in the kitchen, but nobody knows who.",
+  "targetGrammar": "Someone was … Nobody knows …",
+  "lookFor": [
+   "Someone",
+   "Nobody knows",
+   "three or four sentences"
+  ]
+ }
+]

@@ -1,0 +1,1726 @@
+[
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Please remember ______ the door when you leave, {name}.",
+  "options": [
+   "to lock",
+   "locking",
+   "lock",
+   "locked"
+  ],
+  "key": 0,
+  "why": "\"Please … when you leave\": a task still to do, so remember + to + base (to lock).",
+  "slots": {
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Ulugbek",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Remember ______ some {food} on your way home, {name}.",
+  "options": [
+   "buying",
+   "buy",
+   "bought",
+   "to buy"
+  ],
+  "key": 3,
+  "why": "\"On your way home\" is later: a task still to do, so remember + to + base (to buy).",
+  "slots": {
+   "food": [
+    "bread",
+    "milk",
+    "eggs",
+    "fruit"
+   ],
+   "name": [
+    "Sardor",
+    "Zarina",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I must remember ______ Grandma on her {day}, {name}.",
+  "options": [
+   "call",
+   "called",
+   "to call",
+   "calling"
+  ],
+  "key": 2,
+  "why": "\"I must\" = a duty: a task still to do, so remember + to + base (to call).",
+  "slots": {
+   "day": [
+    "birthday",
+    "name day",
+    "anniversary",
+    "holiday"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Ulugbek",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Remember ______ your passport to the {place}, {name}.",
+  "options": [
+   "took",
+   "to take",
+   "taking",
+   "take"
+  ],
+  "key": 1,
+  "why": "An instruction for the trip: a task still to do, so remember + to + base (to take).",
+  "slots": {
+   "place": [
+    "airport",
+    "bank",
+    "embassy",
+    "hotel"
+   ],
+   "name": [
+    "Sardor",
+    "Zarina",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Will you remember ______ the {pet} while I'm away?",
+  "options": [
+   "to feed",
+   "feeding",
+   "feed",
+   "fed"
+  ],
+  "key": 0,
+  "why": "\"While I'm away\" is the future: a task still to do, so remember + to + base (to feed).",
+  "slots": {
+   "pet": [
+    "cat",
+    "dog",
+    "fish",
+    "parrot"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Please remember ______ the {plant} every morning, {name}.",
+  "options": [
+   "watering",
+   "water",
+   "watered",
+   "to water"
+  ],
+  "key": 3,
+  "why": "\"Every morning\" from now on: a task still to do, so remember + to + base (to water).",
+  "slots": {
+   "plant": [
+    "flowers",
+    "tomatoes",
+    "roses",
+    "plants"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Ulugbek",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Always remember ______ off the {thing} before you go to bed.",
+  "options": [
+   "turn",
+   "turned",
+   "to turn",
+   "turning"
+  ],
+  "key": 2,
+  "why": "\"Always … before you go to bed\": a task still to do, so remember + to + base (to turn).",
+  "slots": {
+   "thing": [
+    "gas",
+    "lights",
+    "heater",
+    "TV"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I'll remember ______ you the photos from {city}, {name}.",
+  "options": [
+   "sent",
+   "to send",
+   "sending",
+   "send"
+  ],
+  "key": 1,
+  "why": "\"I'll\" = a promise for later: a task still to do, so remember + to + base (to send).",
+  "slots": {
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Istanbul",
+    "Khiva"
+   ],
+   "name": [
+    "Sardor",
+    "Zarina",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Remember ______ your {thing} to the lesson tomorrow, {name}.",
+  "options": [
+   "to bring",
+   "bringing",
+   "bring",
+   "brought"
+  ],
+  "key": 0,
+  "why": "\"Tomorrow\" is later: a task still to do, so remember + to + base (to bring).",
+  "slots": {
+   "thing": [
+    "dictionary",
+    "notebook",
+    "laptop",
+    "homework"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Ulugbek",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Remember ______ a hat in the {place} — it's very cold, {name}.",
+  "options": [
+   "wearing",
+   "wear",
+   "wore",
+   "to wear"
+  ],
+  "key": 3,
+  "why": "An instruction for later: a task still to do, so remember + to + base (to wear).",
+  "slots": {
+   "place": [
+    "mountains",
+    "park",
+    "stadium",
+    "village"
+   ],
+   "name": [
+    "Sardor",
+    "Zarina",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "You must remember ______ the {bill} by Friday, {name}.",
+  "options": [
+   "pay",
+   "paid",
+   "to pay",
+   "paying"
+  ],
+  "key": 2,
+  "why": "\"By Friday\" = a deadline: a task still to do, so remember + to + base (to pay).",
+  "slots": {
+   "bill": [
+    "rent",
+    "phone bill",
+    "school fee",
+    "gas bill"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Ulugbek",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Please remember ______ your answers before you finish the {test}.",
+  "options": [
+   "checked",
+   "to check",
+   "checking",
+   "check"
+  ],
+  "key": 1,
+  "why": "\"Before you finish\" is later: a task still to do, so remember + to + base (to check).",
+  "slots": {
+   "test": [
+    "exam",
+    "test",
+    "quiz",
+    "form"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Remember ______ thank you to your {who}, {name}.",
+  "options": [
+   "to say",
+   "saying",
+   "say",
+   "said"
+  ],
+  "key": 0,
+  "why": "A reminder about good manners: a task still to do, so remember + to + base (to say).",
+  "slots": {
+   "who": [
+    "aunt",
+    "teacher",
+    "host",
+    "grandmother"
+   ],
+   "name": [
+    "Sardor",
+    "Zarina",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Remember ______ the windows if it starts to rain, {name}.",
+  "options": [
+   "closing",
+   "close",
+   "closed",
+   "to close"
+  ],
+  "key": 3,
+  "why": "\"If it starts to rain\" is later: a task still to do, so remember + to + base (to close).",
+  "slots": {
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Ulugbek",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I always remember ______ my {thing} at night.",
+  "options": [
+   "charge",
+   "charged",
+   "to charge",
+   "charging"
+  ],
+  "key": 2,
+  "why": "\"Always\" = a habit, a task each night: a task still to do, so remember + to + base (to charge).",
+  "slots": {
+   "thing": [
+    "phone",
+    "laptop",
+    "watch",
+    "tablet"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Remember ______ a lot of water in the {place}, {name}.",
+  "options": [
+   "drank",
+   "to drink",
+   "drinking",
+   "drink"
+  ],
+  "key": 1,
+  "why": "An instruction for later: a task still to do, so remember + to + base (to drink).",
+  "slots": {
+   "place": [
+    "desert",
+    "heat",
+    "gym",
+    "mountains"
+   ],
+   "name": [
+    "Sardor",
+    "Zarina",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I hope he remembers ______ his name on the {form}.",
+  "options": [
+   "to write",
+   "writing",
+   "write",
+   "wrote"
+  ],
+  "key": 0,
+  "why": "\"I hope he will\" = a task he must not forget: a task still to do, so remember + to + base (to write).",
+  "slots": {
+   "form": [
+    "form",
+    "test",
+    "list",
+    "card"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Remember ______ the {who} about the homework, {name}.",
+  "options": [
+   "asking",
+   "ask",
+   "asked",
+   "to ask"
+  ],
+  "key": 3,
+  "why": "A task for later: a task still to do, so remember + to + base (to ask).",
+  "slots": {
+   "who": [
+    "teacher",
+    "tutor",
+    "coach",
+    "librarian"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Ulugbek",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We must remember ______ the hotel in {city} soon, {name}.",
+  "options": [
+   "book",
+   "booked",
+   "to book",
+   "booking"
+  ],
+  "key": 2,
+  "why": "\"Soon\" = later: a task still to do, so remember + to + base (to book).",
+  "slots": {
+   "city": [
+    "Bukhara",
+    "Khiva",
+    "Istanbul",
+    "Dubai"
+   ],
+   "name": [
+    "Sardor",
+    "Zarina",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Please remember ______ this letter to your {who}.",
+  "options": [
+   "gave",
+   "to give",
+   "giving",
+   "give"
+  ],
+  "key": 1,
+  "why": "\"Please\" = a request for later: a task still to do, so remember + to + base (to give).",
+  "slots": {
+   "who": [
+    "mother",
+    "teacher",
+    "boss",
+    "neighbour"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a task. Complete with to + the verb in brackets.",
+  "source": "Please remember ______ (lock) the {thing} at night, {name}.",
+  "key": "to lock",
+  "why": "It is a task still to do, so remember + to + base: to lock.",
+  "slots": {
+   "thing": [
+    "door",
+    "gate",
+    "car",
+    "garage"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Ulugbek",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a task. Complete with to + the verb in brackets.",
+  "source": "Remember ______ (buy) {food} at the bazaar, {name}.",
+  "key": "to buy",
+  "why": "It is a task still to do, so remember + to + base: to buy.",
+  "slots": {
+   "food": [
+    "bread",
+    "melons",
+    "rice",
+    "onions"
+   ],
+   "name": [
+    "Sardor",
+    "Zarina",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a task. Complete with to + the verb in brackets.",
+  "source": "I must remember ______ (call) the {who} on Monday.",
+  "key": "to call",
+  "why": "It is a task still to do, so remember + to + base: to call.",
+  "slots": {
+   "who": [
+    "dentist",
+    "bank",
+    "school",
+    "plumber"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a task. Complete with to + the verb in brackets.",
+  "source": "Remember ______ (take) your {pills} after dinner, {name}.",
+  "key": "to take",
+  "why": "It is a task still to do, so remember + to + base: to take.",
+  "slots": {
+   "pills": [
+    "pills",
+    "vitamins",
+    "medicine",
+    "drops"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Ulugbek",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a task. Complete with to + the verb in brackets.",
+  "source": "Will you remember ______ (feed) the {pet}, {name}?",
+  "key": "to feed",
+  "why": "It is a task still to do, so remember + to + base: to feed.",
+  "slots": {
+   "pet": [
+    "cat",
+    "dog",
+    "fish",
+    "parrot"
+   ],
+   "name": [
+    "Sardor",
+    "Zarina",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a task. Complete with to + the verb in brackets.",
+  "source": "Remember ______ (switch) off the {thing} when you leave, {name}.",
+  "key": "to switch",
+  "why": "It is a task still to do, so remember + to + base: to switch.",
+  "slots": {
+   "thing": [
+    "lights",
+    "computer",
+    "heater",
+    "fan"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Ulugbek",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a task. Complete with to + the verb in brackets.",
+  "source": "I'll remember ______ (send) you the {doc}, {name}.",
+  "key": "to send",
+  "why": "It is a task still to do, so remember + to + base: to send.",
+  "slots": {
+   "doc": [
+    "photos",
+    "address",
+    "link",
+    "report"
+   ],
+   "name": [
+    "Sardor",
+    "Zarina",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a task. Complete with to + the verb in brackets.",
+  "source": "Remember ______ (bring) your {thing} on Friday, {name}.",
+  "key": "to bring",
+  "why": "It is a task still to do, so remember + to + base: to bring.",
+  "slots": {
+   "thing": [
+    "passport",
+    "ticket",
+    "swimsuit",
+    "laptop"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Ulugbek",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a task. Complete with to + the verb in brackets.",
+  "source": "You must remember ______ (pay) for the {thing} online.",
+  "key": "to pay",
+  "why": "It is a task still to do, so remember + to + base: to pay.",
+  "slots": {
+   "thing": [
+    "tickets",
+    "course",
+    "hotel",
+    "parking"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a task. Complete with to + the verb in brackets.",
+  "source": "Always remember ______ (wear) a seat belt in the {car}, {name}.",
+  "key": "to wear",
+  "why": "It is a task still to do, so remember + to + base: to wear.",
+  "slots": {
+   "car": [
+    "car",
+    "taxi",
+    "bus",
+    "van"
+   ],
+   "name": [
+    "Sardor",
+    "Zarina",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a task. Complete with to + the verb in brackets.",
+  "source": "Please remember ______ (check) the {thing} before the trip.",
+  "key": "to check",
+  "why": "It is a task still to do, so remember + to + base: to check.",
+  "slots": {
+   "thing": [
+    "tyres",
+    "tickets",
+    "weather",
+    "oil"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a task. Complete with to + the verb in brackets.",
+  "source": "Remember ______ (thank) your {who} for the present, {name}.",
+  "key": "to thank",
+  "why": "It is a task still to do, so remember + to + base: to thank.",
+  "slots": {
+   "who": [
+    "aunt",
+    "uncle",
+    "grandma",
+    "teacher"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Ulugbek",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a task. Complete with to + the verb in brackets.",
+  "source": "Please remember ______ (close) the {thing} behind you, {name}.",
+  "key": "to close",
+  "why": "It is a task still to do, so remember + to + base: to close.",
+  "slots": {
+   "thing": [
+    "door",
+    "gate",
+    "fridge",
+    "window"
+   ],
+   "name": [
+    "Sardor",
+    "Zarina",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a task. Complete with to + the verb in brackets.",
+  "source": "Always remember ______ (drink) water during the {sport}.",
+  "key": "to drink",
+  "why": "It is a task still to do, so remember + to + base: to drink.",
+  "slots": {
+   "sport": [
+    "match",
+    "training",
+    "race",
+    "game"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a task. Complete with to + the verb in brackets.",
+  "source": "Remember ______ (clean) your {thing} before the guests come, {name}.",
+  "key": "to clean",
+  "why": "It is a task still to do, so remember + to + base: to clean.",
+  "slots": {
+   "thing": [
+    "room",
+    "shoes",
+    "desk",
+    "kitchen"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Ulugbek",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a task. Complete with to + the verb in brackets.",
+  "source": "I hope she remembers ______ (write) her address on the {form}.",
+  "key": "to write",
+  "why": "It is a task still to do, so remember + to + base: to write.",
+  "slots": {
+   "form": [
+    "form",
+    "parcel",
+    "list",
+    "card"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a task. Complete with to + the verb in brackets.",
+  "source": "Remember ______ (ask) the {who} about the price, {name}.",
+  "key": "to ask",
+  "why": "It is a task still to do, so remember + to + base: to ask.",
+  "slots": {
+   "who": [
+    "driver",
+    "seller",
+    "manager",
+    "guide"
+   ],
+   "name": [
+    "Sardor",
+    "Zarina",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a task. Complete with to + the verb in brackets.",
+  "source": "We must remember ______ (book) a table at the {place}, {name}.",
+  "key": "to book",
+  "why": "It is a task still to do, so remember + to + base: to book.",
+  "slots": {
+   "place": [
+    "restaurant",
+    "café",
+    "chaikhana",
+    "hotel"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Ulugbek",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a task. Complete with to + the verb in brackets.",
+  "source": "Please remember ______ (give) the {who} the keys back.",
+  "key": "to give",
+  "why": "It is a task still to do, so remember + to + base: to give.",
+  "slots": {
+   "who": [
+    "owner",
+    "landlord",
+    "neighbour",
+    "caretaker"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "It is a task. Complete with to + the verb in brackets.",
+  "source": "Remember ______ (post) this letter on your way {where}, {name}.",
+  "key": "to post",
+  "why": "It is a task still to do, so remember + to + base: to post.",
+  "slots": {
+   "where": [
+    "home",
+    "out",
+    "back",
+    "home tonight"
+   ],
+   "name": [
+    "Sardor",
+    "Zarina",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Please remember locking the {thing} tonight, {name}.",
+  "hint": "Please remember ______ the {thing} tonight, {name}.",
+  "key": "to lock",
+  "why": "A task for tonight: remember to lock.",
+  "slots": {
+   "thing": [
+    "door",
+    "gate",
+    "car",
+    "garage"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Ulugbek",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Remember buy some {food} on your way home, {name}.",
+  "hint": "Remember ______ some {food} on your way home, {name}.",
+  "key": "to buy",
+  "why": "remember + to + base: don't forget \"to\".",
+  "slots": {
+   "food": [
+    "bread",
+    "milk",
+    "eggs",
+    "fruit"
+   ],
+   "name": [
+    "Sardor",
+    "Zarina",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "I must remember calling the {who} tomorrow, {name}.",
+  "hint": "I must remember ______ the {who} tomorrow, {name}.",
+  "key": "to call",
+  "why": "A task for tomorrow: remember to call.",
+  "slots": {
+   "who": [
+    "dentist",
+    "bank",
+    "school",
+    "plumber"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Ulugbek",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Always remember turned off the {thing}, {name}.",
+  "hint": "Always remember ______ off the {thing}, {name}.",
+  "key": "to turn",
+  "why": "remember + to + base: to turn.",
+  "slots": {
+   "thing": [
+    "gas",
+    "lights",
+    "heater",
+    "TV"
+   ],
+   "name": [
+    "Sardor",
+    "Zarina",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Will you remember feeding the {pet} tomorrow, {name}?",
+  "hint": "Will you remember ______ the {pet} tomorrow, {name}?",
+  "key": "to feed",
+  "why": "A task for tomorrow: remember to feed.",
+  "slots": {
+   "pet": [
+    "cat",
+    "dog",
+    "fish",
+    "parrot"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Ulugbek",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with Remember + to.",
+  "source": "Don't forget: bring your {thing} tomorrow, {name}.",
+  "hint": "Remember ______ your {thing} tomorrow, {name}.",
+  "key": "to bring",
+  "why": "Don't forget X = Remember to X.",
+  "slots": {
+   "thing": [
+    "passport",
+    "ticket",
+    "swimsuit",
+    "laptop"
+   ],
+   "name": [
+    "Sardor",
+    "Zarina",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with Remember + to.",
+  "source": "Don't forget: water the {plant} on Sunday, {name}.",
+  "hint": "Remember ______ the {plant} on Sunday, {name}.",
+  "key": "to water",
+  "why": "Don't forget X = Remember to X.",
+  "slots": {
+   "plant": [
+    "flowers",
+    "tomatoes",
+    "roses",
+    "plants"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Ulugbek",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with Remember + to.",
+  "source": "Don't forget: pay the {bill} this week, {name}.",
+  "hint": "Remember ______ the {bill} this week, {name}.",
+  "key": "to pay",
+  "why": "Don't forget X = Remember to X.",
+  "slots": {
+   "bill": [
+    "rent",
+    "phone bill",
+    "school fee",
+    "gas bill"
+   ],
+   "name": [
+    "Sardor",
+    "Zarina",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with Remember + to.",
+  "source": "Don't forget: send me the {doc} tonight, {name}.",
+  "hint": "Remember ______ me the {doc} tonight, {name}.",
+  "key": "to send",
+  "why": "Don't forget X = Remember to X.",
+  "slots": {
+   "doc": [
+    "photos",
+    "address",
+    "link",
+    "report"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Ulugbek",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite with Remember + to.",
+  "source": "Don't forget: ask your {who} about Saturday, {name}.",
+  "hint": "Remember ______ your {who} about Saturday, {name}.",
+  "key": "to ask",
+  "why": "Don't forget X = Remember to X.",
+  "slots": {
+   "who": [
+    "mum",
+    "dad",
+    "teacher",
+    "boss"
+   ],
+   "name": [
+    "Sardor",
+    "Zarina",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the advice with Remember + to.",
+  "source": "Take an umbrella. It may rain at the {place}, {name}.",
+  "hint": "Remember ______ an umbrella. It may rain at the {place}, {name}.",
+  "key": "to take",
+  "why": "An important task: remember to take.",
+  "slots": {
+   "place": [
+    "park",
+    "station",
+    "match",
+    "bazaar"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Ulugbek",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the advice with Remember + to.",
+  "source": "You need a helmet on your {bike}. Wear it, {name}.",
+  "hint": "Remember ______ a helmet on your {bike}, {name}.",
+  "key": "to wear",
+  "why": "An important task: remember to wear.",
+  "slots": {
+   "bike": [
+    "bike",
+    "scooter",
+    "motorbike",
+    "horse"
+   ],
+   "name": [
+    "Sardor",
+    "Zarina",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the advice with Remember + to.",
+  "source": "Please check the {thing} before the trip. It's important, {name}.",
+  "hint": "Remember ______ the {thing} before the trip, {name}.",
+  "key": "to check",
+  "why": "An important task: remember to check.",
+  "slots": {
+   "thing": [
+    "tyres",
+    "tickets",
+    "weather",
+    "oil"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Ulugbek",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the advice with Remember + to.",
+  "source": "It's important that you thank the {who}, {name}.",
+  "hint": "Remember ______ the {who}, {name}.",
+  "key": "to thank",
+  "why": "An important task: remember to thank.",
+  "slots": {
+   "who": [
+    "host",
+    "driver",
+    "teacher",
+    "doctor"
+   ],
+   "name": [
+    "Sardor",
+    "Zarina",
+    "Akmal",
+    "Feruza"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the advice with Remember + to.",
+  "source": "You should drink water in the {place}, {name}.",
+  "hint": "Remember ______ water in the {place}, {name}.",
+  "key": "to drink",
+  "why": "An important task: remember to drink.",
+  "slots": {
+   "place": [
+    "desert",
+    "gym",
+    "heat",
+    "mountains"
+   ],
+   "name": [
+    "Otabek",
+    "Dilnoza",
+    "Ulugbek",
+    "Malika"
+   ]
+  }
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one reminder for a friend who is going on a trip.",
+  "requiredElement": "Remember to …",
+  "constraints": [
+   "exactly one sentence",
+   "remember + to + base",
+   "a task"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you must remember to do tomorrow.",
+  "requiredElement": "I must remember to …",
+  "constraints": [
+   "exactly one sentence",
+   "remember to",
+   "tomorrow"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with Always remember to ….",
+  "requiredElement": "Always remember to …",
+  "constraints": [
+   "exactly one sentence",
+   "always remember to",
+   "base verb"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with remember to and one with remember + -ing.",
+  "requiredElement": "task vs memory",
+  "constraints": [
+   "exactly two sentences",
+   "remember to + base",
+   "remember + -ing"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one question: Will you remember to …?",
+  "requiredElement": "Will you remember to …?",
+  "constraints": [
+   "exactly one question",
+   "remember to",
+   "a question mark"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one reminder from a parent to a child.",
+  "requiredElement": "Remember to …",
+  "constraints": [
+   "exactly one sentence",
+   "remember to",
+   "base verb"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with Please remember to ….",
+  "requiredElement": "Please remember to …",
+  "constraints": [
+   "exactly one sentence",
+   "please remember to",
+   "base verb"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a rule at your school with remember to.",
+  "requiredElement": "Remember to …",
+  "constraints": [
+   "exactly one sentence",
+   "remember to",
+   "a rule"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Your little brother is staying at home alone. Write three or four reminders with remember to.",
+  "targetGrammar": "remember + to",
+  "lookFor": [
+   "remember to",
+   "base verbs",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short note (three or four sentences) to a neighbour who is looking after your flat.",
+  "targetGrammar": "Please remember to …",
+  "lookFor": [
+   "remember to",
+   "please",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four tips for a student before an exam with remember to.",
+  "targetGrammar": "remember + to",
+  "lookFor": [
+   "remember to",
+   "always",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences about things you must remember to do this week.",
+  "targetGrammar": "I must remember to …",
+  "lookFor": [
+   "remember to",
+   "must",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "verb-patterns",
+  "branch": "meaning-change-verbs",
+  "topic": "remember-infinitive",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write three or four sentences: one memory (remember + -ing) and some tasks (remember to).",
+  "targetGrammar": "memory vs task",
+  "lookFor": [
+   "remember + -ing",
+   "remember to",
+   "three or four sentences"
+  ]
+ }
+]

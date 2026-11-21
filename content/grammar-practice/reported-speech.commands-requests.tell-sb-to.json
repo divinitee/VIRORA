@@ -1,0 +1,1846 @@
+[
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Close the {thing},' the {who} said to us. The {who} ______ the {thing}.",
+  "options": [
+   "told us to close",
+   "told us close",
+   "said us to close",
+   "told to us closing"
+  ],
+  "key": 0,
+  "why": "A reported command: told + person + to + base verb.",
+  "slots": {
+   "thing": [
+    "window",
+    "door",
+    "books",
+    "laptops"
+   ],
+   "who": [
+    "teacher",
+    "coach",
+    "director",
+    "guide"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Sit down on the {seat},' the {who} said to me. The {who} ______ down on the {seat}.",
+  "options": [
+   "told me sit",
+   "said me to sit",
+   "told to me sitting",
+   "told me to sit"
+  ],
+  "key": 3,
+  "why": "A reported command: told + person + to + base verb.",
+  "slots": {
+   "seat": [
+    "chair",
+    "bench",
+    "sofa",
+    "floor"
+   ],
+   "who": [
+    "doctor",
+    "teacher",
+    "nurse",
+    "manager"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Wait for me at the {place},' {m} said to his {who}. {m} ______ for him at the {place}.",
+  "options": [
+   "said her to wait",
+   "told to her waiting",
+   "told her to wait",
+   "told her wait"
+  ],
+  "key": 2,
+  "why": "A reported command: told + person + to + base verb.",
+  "slots": {
+   "place": [
+    "station",
+    "gate",
+    "café",
+    "car"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "who": [
+    "sister",
+    "wife",
+    "daughter",
+    "mother"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Turn off your phones,' the {who} said to the students. The {who} ______ off their phones.",
+  "options": [
+   "told to them turning",
+   "told them to turn",
+   "told them turn",
+   "said them to turn"
+  ],
+  "key": 1,
+  "why": "A reported command: told + person + to + base verb.",
+  "slots": {
+   "who": [
+    "teacher",
+    "director",
+    "guide",
+    "coach"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Call me after the {event},' {f} said to {m}. {f} ______ her after the {event}.",
+  "options": [
+   "told him to call",
+   "told him call",
+   "said him to call",
+   "told to him calling"
+  ],
+  "key": 0,
+  "why": "A reported command: told + person + to + base verb.",
+  "slots": {
+   "event": [
+    "match",
+    "meeting",
+    "lesson",
+    "party"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Bring your {thing},' the {who} said to us. The {who} ______ our {thing}.",
+  "options": [
+   "told us bring",
+   "said us to bring",
+   "told to us bringing",
+   "told us to bring"
+  ],
+  "key": 3,
+  "why": "A reported command: told + person + to + base verb.",
+  "slots": {
+   "thing": [
+    "passports",
+    "books",
+    "tickets",
+    "IDs"
+   ],
+   "who": [
+    "guide",
+    "teacher",
+    "coach",
+    "manager"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Eat your {food},' my {who} said to me. My {who} ______ my {food}.",
+  "options": [
+   "said me to eat",
+   "told to me eating",
+   "told me to eat",
+   "told me eat"
+  ],
+  "key": 2,
+  "why": "A reported command: told + person + to + base verb.",
+  "slots": {
+   "food": [
+    "soup",
+    "plov",
+    "breakfast",
+    "vegetables"
+   ],
+   "who": [
+    "mum",
+    "grandma",
+    "dad",
+    "aunt"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Wear a {coat},' my {who} said to my brother. My {who} ______ a {coat}.",
+  "options": [
+   "told to him wearing",
+   "told him to wear",
+   "told him wear",
+   "said him to wear"
+  ],
+  "key": 1,
+  "why": "A reported command: told + person + to + base verb.",
+  "slots": {
+   "coat": [
+    "coat",
+    "hat",
+    "scarf",
+    "jacket"
+   ],
+   "who": [
+    "mum",
+    "grandma",
+    "dad",
+    "aunt"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Study for the {test},' the teacher said to {f}. The teacher ______ for the {test}.",
+  "options": [
+   "told her to study",
+   "told her study",
+   "said her to study",
+   "told to her studying"
+  ],
+  "key": 0,
+  "why": "A reported command: told + person + to + base verb.",
+  "slots": {
+   "test": [
+    "exam",
+    "test",
+    "quiz",
+    "final exam"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Clean your {room},' {m}'s mother said to him. His mother ______ his {room}.",
+  "options": [
+   "told him clean",
+   "said him to clean",
+   "told to him cleaning",
+   "told him to clean"
+  ],
+  "key": 3,
+  "why": "A reported command: told + person + to + base verb.",
+  "slots": {
+   "room": [
+    "room",
+    "shoes",
+    "bike",
+    "desk"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Write your name on the {form},' the {who} said to me. The {who} ______ my name on the {form}.",
+  "options": [
+   "said me to write",
+   "told to me writing",
+   "told me to write",
+   "told me write"
+  ],
+  "key": 2,
+  "why": "A reported command: told + person + to + base verb.",
+  "slots": {
+   "form": [
+    "form",
+    "list",
+    "card",
+    "paper"
+   ],
+   "who": [
+    "clerk",
+    "nurse",
+    "teacher",
+    "receptionist"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Take the {bus} from the {place},' the man said to us. The man ______ the {bus} from the {place}.",
+  "options": [
+   "told to us taking",
+   "told us to take",
+   "told us take",
+   "said us to take"
+  ],
+  "key": 1,
+  "why": "A reported command: told + person + to + base verb.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "metro",
+    "minibus"
+   ],
+   "place": [
+    "station",
+    "bazaar",
+    "corner",
+    "square"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Don't be late for the {event},' the {who} said to us. The {who} ______ late for the {event}.",
+  "options": [
+   "told us not to be",
+   "told us don't be",
+   "said us not to be",
+   "told us not be"
+  ],
+  "key": 0,
+  "why": "A reported 'Don't …': told + person + not to + base verb.",
+  "slots": {
+   "event": [
+    "lesson",
+    "match",
+    "trip",
+    "meeting"
+   ],
+   "who": [
+    "teacher",
+    "coach",
+    "guide",
+    "manager"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Don't touch the {thing},' {f} said to the children. {f} ______ the {thing}.",
+  "options": [
+   "told them don't touch",
+   "said them not to touch",
+   "told them not touch",
+   "told them not to touch"
+  ],
+  "key": 3,
+  "why": "A reported 'Don't …': told + person + not to + base verb.",
+  "slots": {
+   "thing": [
+    "cake",
+    "oven",
+    "paint",
+    "plants"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Don't worry about the {test},' my {who} said to me. My {who} ______ about the {test}.",
+  "options": [
+   "said me not to worry",
+   "told me not worry",
+   "told me not to worry",
+   "told me don't worry"
+  ],
+  "key": 2,
+  "why": "A reported 'Don't …': told + person + not to + base verb.",
+  "slots": {
+   "test": [
+    "exam",
+    "test",
+    "interview",
+    "match"
+   ],
+   "who": [
+    "mum",
+    "teacher",
+    "friend",
+    "dad"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Don't open the {door},' {m} said to his sister. {m} ______ the {door}.",
+  "options": [
+   "told her not open",
+   "told her not to open",
+   "told her don't open",
+   "said her not to open"
+  ],
+  "key": 1,
+  "why": "A reported 'Don't …': told + person + not to + base verb.",
+  "slots": {
+   "door": [
+    "door",
+    "window",
+    "box",
+    "fridge"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Please help me with the {thing},' {f} said to me. {f} ______ her with the {thing}.",
+  "options": [
+   "asked me to help",
+   "asked me help",
+   "asked to me help",
+   "said me to help"
+  ],
+  "key": 0,
+  "why": "A reported request: asked + person + to + base verb.",
+  "slots": {
+   "thing": [
+    "bags",
+    "homework",
+    "cooking",
+    "boxes"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Could you open the {door}, please?' the {who} said to {m}. The {who} ______ the {door}.",
+  "options": [
+   "asked him open",
+   "asked to him open",
+   "said him to open",
+   "asked him to open"
+  ],
+  "key": 3,
+  "why": "A reported request: asked + person + to + base verb.",
+  "slots": {
+   "door": [
+    "door",
+    "window",
+    "gate",
+    "jar"
+   ],
+   "who": [
+    "old woman",
+    "teacher",
+    "lady",
+    "girl"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Please speak more slowly,' the {who} said to us. The {who} ______ more slowly.",
+  "options": [
+   "asked to us speak",
+   "said us to speak",
+   "asked us to speak",
+   "asked us speak"
+  ],
+  "key": 2,
+  "why": "A reported request: asked + person + to + base verb.",
+  "slots": {
+   "who": [
+    "tourist",
+    "guest",
+    "student",
+    "old man"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "'Can you lend me your {thing}?' {m} said to me. {m} ______ him my {thing}.",
+  "options": [
+   "said me to lend",
+   "asked me to lend",
+   "asked me lend",
+   "asked to me lend"
+  ],
+  "key": 1,
+  "why": "A reported request: asked + person + to + base verb.",
+  "slots": {
+   "thing": [
+    "car",
+    "pen",
+    "bike",
+    "camera"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
+  "source": "The {who} told us ______ (close) the {thing}.",
+  "key": "to close",
+  "why": "A reported command: told + person + to + base verb.",
+  "slots": {
+   "who": [
+    "teacher",
+    "coach",
+    "director",
+    "guide"
+   ],
+   "thing": [
+    "window",
+    "door",
+    "books",
+    "laptops"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
+  "source": "The {who} told me ______ (sit) down on the {seat}.",
+  "key": "to sit",
+  "why": "A reported command: told + person + to + base verb.",
+  "slots": {
+   "who": [
+    "doctor",
+    "teacher",
+    "nurse",
+    "manager"
+   ],
+   "seat": [
+    "chair",
+    "bench",
+    "sofa",
+    "floor"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
+  "source": "{m} told his {who} ______ (wait) for him at the {place}.",
+  "key": "to wait",
+  "why": "A reported command: told + person + to + base verb.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "who": [
+    "sister",
+    "wife",
+    "daughter",
+    "mother"
+   ],
+   "place": [
+    "station",
+    "gate",
+    "café",
+    "car"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
+  "source": "The {who} told the students ______ (turn) off their phones, {f}.",
+  "key": "to turn",
+  "why": "A reported command: told + person + to + base verb.",
+  "slots": {
+   "who": [
+    "teacher",
+    "director",
+    "guide",
+    "coach"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
+  "source": "{f} told {m} ______ (call) her after the {event}.",
+  "key": "to call",
+  "why": "A reported command: told + person + to + base verb.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "event": [
+    "match",
+    "meeting",
+    "lesson",
+    "party"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
+  "source": "The {who} told us ______ (bring) our {thing}.",
+  "key": "to bring",
+  "why": "A reported command: told + person + to + base verb.",
+  "slots": {
+   "who": [
+    "guide",
+    "teacher",
+    "coach",
+    "manager"
+   ],
+   "thing": [
+    "passports",
+    "books",
+    "tickets",
+    "IDs"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
+  "source": "My {who} told me ______ (eat) my {food}.",
+  "key": "to eat",
+  "why": "A reported command: told + person + to + base verb.",
+  "slots": {
+   "who": [
+    "mum",
+    "grandma",
+    "dad",
+    "aunt"
+   ],
+   "food": [
+    "soup",
+    "plov",
+    "breakfast",
+    "vegetables"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
+  "source": "My {who} told my brother ______ (wear) a {coat}.",
+  "key": "to wear",
+  "why": "A reported command: told + person + to + base verb.",
+  "slots": {
+   "who": [
+    "mum",
+    "grandma",
+    "dad",
+    "aunt"
+   ],
+   "coat": [
+    "coat",
+    "hat",
+    "scarf",
+    "jacket"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
+  "source": "The teacher told {f} ______ (study) for the {test}.",
+  "key": "to study",
+  "why": "A reported command: told + person + to + base verb.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "test": [
+    "exam",
+    "test",
+    "quiz",
+    "final exam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
+  "source": "{m}'s mother told him ______ (clean) his {room}.",
+  "key": "to clean",
+  "why": "A reported command: told + person + to + base verb.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "room": [
+    "room",
+    "shoes",
+    "bike",
+    "desk"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
+  "source": "The {who} told me ______ (write) my name on the {form}.",
+  "key": "to write",
+  "why": "A reported command: told + person + to + base verb.",
+  "slots": {
+   "who": [
+    "clerk",
+    "nurse",
+    "teacher",
+    "receptionist"
+   ],
+   "form": [
+    "form",
+    "list",
+    "card",
+    "paper"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
+  "source": "The man told us ______ (take) the {bus} from the {place}.",
+  "key": "to take",
+  "why": "A reported command: told + person + to + base verb.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "metro",
+    "minibus"
+   ],
+   "place": [
+    "station",
+    "bazaar",
+    "corner",
+    "square"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
+  "source": "The {who} told us ______ (not / be) late for the {event}.",
+  "key": "not to be",
+  "why": "A reported 'Don't …': told + person + not to + base verb.",
+  "slots": {
+   "who": [
+    "teacher",
+    "coach",
+    "guide",
+    "manager"
+   ],
+   "event": [
+    "lesson",
+    "match",
+    "trip",
+    "meeting"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
+  "source": "{f} told the children ______ (not / touch) the {thing}.",
+  "key": "not to touch",
+  "why": "A reported 'Don't …': told + person + not to + base verb.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "thing": [
+    "cake",
+    "oven",
+    "paint",
+    "plants"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
+  "source": "My {who} told me ______ (not / worry) about the {test}.",
+  "key": "not to worry",
+  "why": "A reported 'Don't …': told + person + not to + base verb.",
+  "slots": {
+   "who": [
+    "mum",
+    "teacher",
+    "friend",
+    "dad"
+   ],
+   "test": [
+    "exam",
+    "test",
+    "interview",
+    "match"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
+  "source": "{m} told his sister ______ (not / open) the {door}.",
+  "key": "not to open",
+  "why": "A reported 'Don't …': told + person + not to + base verb.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "door": [
+    "door",
+    "window",
+    "box",
+    "fridge"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
+  "source": "{f} asked me ______ (help) her with the {thing}.",
+  "key": "to help",
+  "why": "A reported request: asked + person + to + base verb.",
+  "slots": {
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "thing": [
+    "bags",
+    "homework",
+    "cooking",
+    "boxes"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
+  "source": "The {who} asked {m} ______ (open) the {door}.",
+  "key": "to open",
+  "why": "A reported request: asked + person + to + base verb.",
+  "slots": {
+   "who": [
+    "old woman",
+    "teacher",
+    "lady",
+    "girl"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "door": [
+    "door",
+    "window",
+    "gate",
+    "jar"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
+  "source": "The {who} asked us ______ (speak) more slowly, {f}.",
+  "key": "to speak",
+  "why": "A reported request: asked + person + to + base verb.",
+  "slots": {
+   "who": [
+    "tourist",
+    "guest",
+    "student",
+    "old man"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
+  "source": "{m} asked me ______ (lend) him my {thing}.",
+  "key": "to lend",
+  "why": "A reported request: asked + person + to + base verb.",
+  "slots": {
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ],
+   "thing": [
+    "car",
+    "pen",
+    "bike",
+    "camera"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the command with told + person + to.",
+  "source": "'Close the {thing},' the {who} said to us.",
+  "hint": "The {who} ______ the {thing}.",
+  "key": "told us to close",
+  "why": "A reported command: told + person + to + base verb.",
+  "slots": {
+   "thing": [
+    "window",
+    "door",
+    "books",
+    "laptops"
+   ],
+   "who": [
+    "teacher",
+    "coach",
+    "director",
+    "guide"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the command with told + person + to.",
+  "source": "'Sit down on the {seat},' the {who} said to me.",
+  "hint": "The {who} ______ down on the {seat}.",
+  "key": "told me to sit",
+  "why": "A reported command: told + person + to + base verb.",
+  "slots": {
+   "seat": [
+    "chair",
+    "bench",
+    "sofa",
+    "floor"
+   ],
+   "who": [
+    "doctor",
+    "teacher",
+    "nurse",
+    "manager"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the command with told + person + to.",
+  "source": "'Bring your {thing},' the {who} said to us.",
+  "hint": "The {who} ______ our {thing}.",
+  "key": "told us to bring",
+  "why": "A reported command: told + person + to + base verb.",
+  "slots": {
+   "thing": [
+    "passports",
+    "books",
+    "tickets",
+    "IDs"
+   ],
+   "who": [
+    "guide",
+    "teacher",
+    "coach",
+    "manager"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the command with told + person + to.",
+  "source": "'Study for the {test},' the teacher said to {f}.",
+  "hint": "The teacher ______ for the {test}.",
+  "key": "told her to study",
+  "why": "A reported command: told + person + to + base verb.",
+  "slots": {
+   "test": [
+    "exam",
+    "test",
+    "quiz",
+    "final exam"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the command with told + person + to.",
+  "source": "'Clean your {room},' {m}'s mother said to him.",
+  "hint": "His mother ______ his {room}.",
+  "key": "told him to clean",
+  "why": "A reported command: told + person + to + base verb.",
+  "slots": {
+   "room": [
+    "room",
+    "shoes",
+    "bike",
+    "desk"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the command with told + person + not to.",
+  "source": "'Don't be late for the {event},' the {who} said to us.",
+  "hint": "The {who} ______ late for the {event}.",
+  "key": "told us not to be",
+  "why": "A reported 'Don't …': told + person + not to + base verb.",
+  "slots": {
+   "event": [
+    "lesson",
+    "match",
+    "trip",
+    "meeting"
+   ],
+   "who": [
+    "teacher",
+    "coach",
+    "guide",
+    "manager"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the command with told + person + not to.",
+  "source": "'Don't touch the {thing},' {f} said to the children.",
+  "hint": "{f} ______ the {thing}.",
+  "key": "told them not to touch",
+  "why": "A reported 'Don't …': told + person + not to + base verb.",
+  "slots": {
+   "thing": [
+    "cake",
+    "oven",
+    "paint",
+    "plants"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the command with told + person + not to.",
+  "source": "'Don't worry about the {test},' my {who} said to me.",
+  "hint": "My {who} ______ about the {test}.",
+  "key": "told me not to worry",
+  "why": "A reported 'Don't …': told + person + not to + base verb.",
+  "slots": {
+   "test": [
+    "exam",
+    "test",
+    "interview",
+    "match"
+   ],
+   "who": [
+    "mum",
+    "teacher",
+    "friend",
+    "dad"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the command with told + person + not to.",
+  "source": "'Don't open the {door},' {m} said to his sister.",
+  "hint": "{m} ______ the {door}.",
+  "key": "told her not to open",
+  "why": "A reported 'Don't …': told + person + not to + base verb.",
+  "slots": {
+   "door": [
+    "door",
+    "window",
+    "box",
+    "fridge"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the command with told + person + not to.",
+  "source": "'Don't eat all the {food},' {f} said to her brother.",
+  "hint": "{f} ______ all the {food}.",
+  "key": "told him not to eat",
+  "why": "A reported 'Don't …': told + person + not to + base verb.",
+  "slots": {
+   "food": [
+    "cake",
+    "sweets",
+    "bread",
+    "fruit"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the request with asked + person + to.",
+  "source": "'Please help me with the {thing},' {f} said to me.",
+  "hint": "{f} ______ her with the {thing}.",
+  "key": "asked me to help",
+  "why": "A reported request: asked + person + to + base verb.",
+  "slots": {
+   "thing": [
+    "bags",
+    "homework",
+    "cooking",
+    "boxes"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the request with asked + person + to.",
+  "source": "'Could you open the {door}, please?' the {who} said to {m}.",
+  "hint": "The {who} ______ the {door}.",
+  "key": "asked him to open",
+  "why": "A reported request: asked + person + to + base verb.",
+  "slots": {
+   "door": [
+    "door",
+    "window",
+    "gate",
+    "jar"
+   ],
+   "who": [
+    "old woman",
+    "teacher",
+    "lady",
+    "girl"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the request with asked + person + to.",
+  "source": "'Please speak more slowly,' the {who} said to us.",
+  "hint": "The {who} ______ more slowly, {f}.",
+  "key": "asked us to speak",
+  "why": "A reported request: asked + person + to + base verb.",
+  "slots": {
+   "who": [
+    "tourist",
+    "guest",
+    "student",
+    "old man"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the request with asked + person + to.",
+  "source": "'Can you lend me your {thing}?' {m} said to me.",
+  "hint": "{m} ______ him my {thing}.",
+  "key": "asked me to lend",
+  "why": "A reported request: asked + person + to + base verb.",
+  "slots": {
+   "thing": [
+    "car",
+    "pen",
+    "bike",
+    "camera"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Report the request with asked + person + to.",
+  "source": "'Please call a taxi for me,' the {who} said to {f}.",
+  "hint": "The {who} ______ a taxi for him, {m}.",
+  "key": "asked her to call",
+  "why": "A reported request: asked + person + to + base verb.",
+  "slots": {
+   "who": [
+    "old man",
+    "guest",
+    "teacher",
+    "waiter"
+   ],
+   "f": [
+    "Olga",
+    "Lola",
+    "Madina",
+    "Sevara"
+   ],
+   "m": [
+    "Aziz",
+    "Timur",
+    "Bekzod",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Your teacher said: 'Open your books.' Report it.",
+  "requiredElement": "The teacher told us to open our books",
+  "constraints": [
+   "exactly one sentence",
+   "told + person + to",
+   "past"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Your mum said: 'Don't come home late.' Report it.",
+  "requiredElement": "My mum told me not to come home late",
+  "constraints": [
+   "exactly one sentence",
+   "told me not to",
+   "base verb"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "A friend said: 'Please help me.' Report it with asked.",
+  "requiredElement": "He / She asked me to help him / her",
+  "constraints": [
+   "exactly one sentence",
+   "asked + person + to",
+   "pronoun change"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Report an order a coach gave a team.",
+  "requiredElement": "The coach told the players to …",
+  "constraints": [
+   "exactly one sentence",
+   "told",
+   "to + base verb"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Report a request someone made in a shop.",
+  "requiredElement": "… asked the assistant to …",
+  "constraints": [
+   "exactly one sentence",
+   "asked",
+   "to + base verb"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write the direct command and then report it.",
+  "requiredElement": "command → told + person + to",
+  "constraints": [
+   "exactly two sentences",
+   "quotation marks",
+   "told + person + to"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Report a rule your parents gave you as a child with told me not to.",
+  "requiredElement": "My parents told me not to …",
+  "constraints": [
+   "exactly one sentence",
+   "not to",
+   "past"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Report something a doctor told you to do.",
+  "requiredElement": "The doctor told me to …",
+  "constraints": [
+   "exactly one sentence",
+   "told me to",
+   "base verb"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Report three or four things your parents told you (not) to do when you were a child.",
+  "targetGrammar": "told me (not) to",
+  "lookFor": [
+   "told me to",
+   "told me not to",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Report the instructions a teacher gave your class before an exam. Write three or four sentences.",
+  "targetGrammar": "told us (not) to",
+  "lookFor": [
+   "told us to",
+   "not to",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Report what a doctor told you to do when you were ill. Write three or four sentences.",
+  "targetGrammar": "told / asked + person + to",
+  "lookFor": [
+   "told me to",
+   "not to",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Report three or four requests a guest made at a hotel. Use asked … to.",
+  "targetGrammar": "asked + person + to",
+  "lookFor": [
+   "asked",
+   "to + base verb",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "reported-speech",
+  "branch": "commands-requests",
+  "topic": "tell-sb-to",
+  "level": "B1",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Report a coach's orders at a football training. Write three or four sentences.",
+  "targetGrammar": "told + person + (not) to",
+  "lookFor": [
+   "told the players to",
+   "not to",
+   "three or four sentences"
+  ]
+ }
+]

@@ -1,0 +1,1828 @@
+[
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This {thing} is ______, {name}. Please give it back.",
+  "options": [
+   "mine",
+   "my",
+   "me",
+   "I"
+  ],
+  "key": 0,
+  "why": "No noun comes after it, so use mine, not my.",
+  "slots": {
+   "thing": [
+    "phone",
+    "pen",
+    "bag",
+    "book"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "That isn't your {thing}, {name}. It's ______.",
+  "options": [
+   "my",
+   "me",
+   "I",
+   "mine"
+  ],
+  "key": 3,
+  "why": "No noun comes after it, so use mine, not my.",
+  "slots": {
+   "thing": [
+    "phone",
+    "pen",
+    "bag",
+    "book"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Your {thing} is {c1}, and ______ is {c2}.",
+  "options": [
+   "me",
+   "I",
+   "mine",
+   "my"
+  ],
+  "key": 2,
+  "why": "No noun comes after it, so use mine, not my.",
+  "slots": {
+   "thing": [
+    "bike",
+    "bag",
+    "phone",
+    "jacket"
+   ],
+   "c1": [
+    "red",
+    "white",
+    "grey",
+    "green"
+   ],
+   "c2": [
+    "blue",
+    "black",
+    "pink",
+    "yellow"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Is this {thing} ______, {name}? It was on the {place}.",
+  "options": [
+   "your's",
+   "yours",
+   "your",
+   "you"
+  ],
+  "key": 1,
+  "why": "No noun comes after it, so use yours, not your. Yours has no apostrophe.",
+  "slots": {
+   "thing": [
+    "phone",
+    "pen",
+    "bag",
+    "book"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "place": [
+    "floor",
+    "desk",
+    "chair",
+    "bus"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {room} is small, but ______ is very big, {name}.",
+  "options": [
+   "yours",
+   "your",
+   "you",
+   "your's"
+  ],
+  "key": 0,
+  "why": "No noun comes after it, so use yours, not your. Yours has no apostrophe.",
+  "slots": {
+   "room": [
+    "room",
+    "flat",
+    "house",
+    "kitchen"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I've got my {thing}. Have you got ______, {name}?",
+  "options": [
+   "your",
+   "you",
+   "your's",
+   "yours"
+  ],
+  "key": 3,
+  "why": "No noun comes after it, so use yours, not your. Yours has no apostrophe.",
+  "slots": {
+   "thing": [
+    "ticket",
+    "book",
+    "pen",
+    "passport"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This is {name}'s {thing}. It's ______.",
+  "options": [
+   "him",
+   "he's",
+   "his",
+   "he"
+  ],
+  "key": 2,
+  "why": "No noun comes after it, so use his: it means his thing.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Rustam"
+   ],
+   "thing": [
+    "phone",
+    "pen",
+    "bag",
+    "book"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My {who} has got a {thing}. ______ is new, but mine is old.",
+  "options": [
+   "He's",
+   "His",
+   "He",
+   "Him"
+  ],
+  "key": 1,
+  "why": "No noun comes after it, so use his: it means his thing.",
+  "slots": {
+   "who": [
+    "brother",
+    "cousin",
+    "uncle",
+    "dad"
+   ],
+   "thing": [
+    "bike",
+    "phone",
+    "laptop",
+    "watch"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} can't find her {thing}. Is this one ______?",
+  "options": [
+   "hers",
+   "her",
+   "she",
+   "her's"
+  ],
+  "key": 0,
+  "why": "No noun comes after it, so use hers, not her. Hers has no apostrophe.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "thing": [
+    "phone",
+    "pen",
+    "bag",
+    "book"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Whose {thing} is this? – It's ______. {name} left it here.",
+  "options": [
+   "her",
+   "she",
+   "her's",
+   "hers"
+  ],
+  "key": 3,
+  "why": "No noun comes after it, so use hers, not her. Hers has no apostrophe.",
+  "slots": {
+   "thing": [
+    "phone",
+    "pen",
+    "bag",
+    "book"
+   ],
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My sister and I have got new {things}. Mine is blue, and ______ is {color}.",
+  "options": [
+   "she",
+   "her's",
+   "hers",
+   "her"
+  ],
+  "key": 2,
+  "why": "No noun comes after it, so use hers, not her. Hers has no apostrophe.",
+  "slots": {
+   "things": [
+    "bikes",
+    "bags",
+    "phones",
+    "coats"
+   ],
+   "color": [
+    "red",
+    "pink",
+    "white",
+    "green"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "This classroom isn't ______. We're in room {n}, {name}.",
+  "options": [
+   "our's",
+   "ours",
+   "our",
+   "us"
+  ],
+  "key": 1,
+  "why": "No noun comes after it, so use ours, not our. Ours has no apostrophe.",
+  "slots": {
+   "n": [
+    "12",
+    "15",
+    "21",
+    "30"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Their {home} is big, but ______ is small, {name}.",
+  "options": [
+   "ours",
+   "our",
+   "us",
+   "our's"
+  ],
+  "key": 0,
+  "why": "No noun comes after it, so use ours, not our. Ours has no apostrophe.",
+  "slots": {
+   "home": [
+    "flat",
+    "house",
+    "garden",
+    "car"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Is that {pet} ______, {name}? – No, it's our neighbours'.",
+  "options": [
+   "our",
+   "us",
+   "our's",
+   "ours"
+  ],
+  "key": 3,
+  "why": "No noun comes after it, so use ours, not our. Ours has no apostrophe.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "parrot",
+    "rabbit"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "These {things} aren't ours. They're ______. Ask the {who}.",
+  "options": [
+   "them",
+   "their's",
+   "theirs",
+   "their"
+  ],
+  "key": 2,
+  "why": "No noun comes after it, so use theirs, not their. Theirs has no apostrophe.",
+  "slots": {
+   "things": [
+    "books",
+    "pens",
+    "bags",
+    "chairs"
+   ],
+   "who": [
+    "neighbours",
+    "teachers",
+    "other students",
+    "Karimovs"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our {home} is old, but ______ is new. They built it {when}.",
+  "options": [
+   "their's",
+   "theirs",
+   "their",
+   "them"
+  ],
+  "key": 1,
+  "why": "No noun comes after it, so use theirs, not their. Theirs has no apostrophe.",
+  "slots": {
+   "home": [
+    "house",
+    "garage",
+    "school",
+    "shop"
+   ],
+   "when": [
+    "last year",
+    "this year",
+    "two years ago",
+    "in the summer"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Is this {thing} ______, {name}? – Yes, the children left it here.",
+  "options": [
+   "theirs",
+   "their",
+   "them",
+   "their's"
+  ],
+  "key": 0,
+  "why": "No noun comes after it, so use theirs, not their. Theirs has no apostrophe.",
+  "slots": {
+   "thing": [
+    "ball",
+    "kite",
+    "bike",
+    "toy car"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Can I use your {thing}, {name}? ______ is at home.",
+  "options": [
+   "My",
+   "Me",
+   "I",
+   "Mine"
+  ],
+  "key": 3,
+  "why": "No noun comes after it, so use mine, not my.",
+  "slots": {
+   "thing": [
+    "pen",
+    "ruler",
+    "charger",
+    "dictionary"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{name} is a friend of ______. We play {sport} together.",
+  "options": [
+   "me",
+   "I",
+   "mine",
+   "my"
+  ],
+  "key": 2,
+  "why": "No noun comes after it, so use mine, not my.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ],
+   "sport": [
+    "football",
+    "chess",
+    "tennis",
+    "basketball"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I've got my {thing}, and {name} has got ______.",
+  "options": [
+   "he's",
+   "his",
+   "he",
+   "him"
+  ],
+  "key": 1,
+  "why": "No noun comes after it, so use his: it means his thing.",
+  "slots": {
+   "thing": [
+    "ticket",
+    "book",
+    "phone",
+    "lunch"
+   ],
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the possessive pronoun for the word in brackets: mine, yours, his, hers, ours or theirs.",
+  "source": "This {thing} is ______ (I), {name}.",
+  "key": "mine",
+  "why": "No noun comes after it, so use mine, not my.",
+  "slots": {
+   "thing": [
+    "phone",
+    "pen",
+    "bag",
+    "book"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the possessive pronoun for the word in brackets: mine, yours, his, hers, ours or theirs.",
+  "source": "Is this {thing} ______ (you), {name}?",
+  "key": "yours",
+  "why": "No noun comes after it, so use yours, not your. Yours has no apostrophe.",
+  "slots": {
+   "thing": [
+    "phone",
+    "pen",
+    "bag",
+    "book"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the possessive pronoun for the word in brackets: mine, yours, his, hers, ours or theirs.",
+  "source": "That {thing} isn't mine. It's ______ (she). It was on her {place}.",
+  "key": "hers",
+  "why": "No noun comes after it, so use hers, not her. Hers has no apostrophe.",
+  "slots": {
+   "thing": [
+    "phone",
+    "pen",
+    "bag",
+    "book"
+   ],
+   "place": [
+    "desk",
+    "chair",
+    "bed",
+    "table"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the possessive pronoun for the word in brackets: mine, yours, his, hers, ours or theirs.",
+  "source": "These {things} are ______ (we), {name}.",
+  "key": "ours",
+  "why": "No noun comes after it, so use ours, not our. Ours has no apostrophe.",
+  "slots": {
+   "things": [
+    "books",
+    "pens",
+    "bags",
+    "chairs"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the possessive pronoun for the word in brackets: mine, yours, his, hers, ours or theirs.",
+  "source": "The {home} on the corner is ______ (they), {name}.",
+  "key": "theirs",
+  "why": "No noun comes after it, so use theirs, not their. Theirs has no apostrophe.",
+  "slots": {
+   "home": [
+    "house",
+    "shop",
+    "café",
+    "car"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the possessive pronoun for the word in brackets: mine, yours, his, hers, ours or theirs.",
+  "source": "My {thing} is old, but ______ (he) is new, {name}.",
+  "key": "his",
+  "why": "No noun comes after it, so use his: it means his thing.",
+  "slots": {
+   "thing": [
+    "bike",
+    "phone",
+    "laptop",
+    "watch"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the possessive pronoun for the word in brackets: mine, yours, his, hers, ours or theirs.",
+  "source": "Your {room} is bigger than ______ (I), {name}.",
+  "key": "mine",
+  "why": "No noun comes after it, so use mine, not my.",
+  "slots": {
+   "room": [
+    "room",
+    "flat",
+    "house",
+    "garden"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the possessive pronoun for the word in brackets: mine, yours, his, hers, ours or theirs.",
+  "source": "Our {thing} is {c1}, and ______ (they) is {c2}.",
+  "key": "theirs",
+  "why": "No noun comes after it, so use theirs, not their. Theirs has no apostrophe.",
+  "slots": {
+   "thing": [
+    "car",
+    "door",
+    "gate",
+    "house"
+   ],
+   "c1": [
+    "red",
+    "white",
+    "grey",
+    "green"
+   ],
+   "c2": [
+    "blue",
+    "black",
+    "brown",
+    "yellow"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the possessive pronoun for the word in brackets: mine, yours, his, hers, ours or theirs.",
+  "source": "Is that {pet} ______ (you), {name}?",
+  "key": "yours",
+  "why": "No noun comes after it, so use yours, not your. Yours has no apostrophe.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "parrot",
+    "rabbit"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the possessive pronoun for the word in brackets: mine, yours, his, hers, ours or theirs.",
+  "source": "Whose {thing} is this? Is it ______ (she), {name}?",
+  "key": "hers",
+  "why": "No noun comes after it, so use hers, not her. Hers has no apostrophe.",
+  "slots": {
+   "thing": [
+    "phone",
+    "pen",
+    "bag",
+    "book"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the possessive pronoun for the word in brackets: mine, yours, his, hers, ours or theirs.",
+  "source": "{name} is a cousin of ______ (I). He lives in {city}.",
+  "key": "mine",
+  "why": "No noun comes after it, so use mine, not my.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Rustam"
+   ],
+   "city": [
+    "Samarkand",
+    "Bukhara",
+    "Tashkent",
+    "Fergana"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the possessive pronoun for the word in brackets: mine, yours, his, hers, ours or theirs.",
+  "source": "The {things} on the table are ______ (we). Please don't take them, {name}.",
+  "key": "ours",
+  "why": "No noun comes after it, so use ours, not our. Ours has no apostrophe.",
+  "slots": {
+   "things": [
+    "cups",
+    "plates",
+    "books",
+    "phones"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the possessive pronoun for the word in brackets: mine, yours, his, hers, ours or theirs.",
+  "source": "Those {things} are ______ (he). He got them {when}.",
+  "key": "his",
+  "why": "No noun comes after it, so use his: it means his thing.",
+  "slots": {
+   "things": [
+    "shoes",
+    "books",
+    "games",
+    "headphones"
+   ],
+   "when": [
+    "last week",
+    "yesterday",
+    "on Monday",
+    "in the summer"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the possessive pronoun for the word in brackets: mine, yours, his, hers, ours or theirs.",
+  "source": "My {sib} and I share a room. The {thing} is ______ (we).",
+  "key": "ours",
+  "why": "No noun comes after it, so use ours, not our. Ours has no apostrophe.",
+  "slots": {
+   "sib": [
+    "brother",
+    "sister",
+    "cousin",
+    "twin"
+   ],
+   "thing": [
+    "desk",
+    "TV",
+    "computer",
+    "wardrobe"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the possessive pronoun for the word in brackets: mine, yours, his, hers, ours or theirs.",
+  "source": "I've got my {thing}. Have you got ______ (you), {name}?",
+  "key": "yours",
+  "why": "No noun comes after it, so use yours, not your. Yours has no apostrophe.",
+  "slots": {
+   "thing": [
+    "ticket",
+    "book",
+    "pen",
+    "passport"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the possessive pronoun for the word in brackets: mine, yours, his, hers, ours or theirs.",
+  "source": "They can't find their {thing}. Is this one ______ (they), {name}?",
+  "key": "theirs",
+  "why": "No noun comes after it, so use theirs, not their. Theirs has no apostrophe.",
+  "slots": {
+   "thing": [
+    "ball",
+    "map",
+    "key",
+    "umbrella"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the possessive pronoun for the word in brackets: mine, yours, his, hers, ours or theirs.",
+  "source": "{name} says the {thing} is ______ (she).",
+  "key": "hers",
+  "why": "No noun comes after it, so use hers, not her. Hers has no apostrophe.",
+  "slots": {
+   "name": [
+    "Lola",
+    "Olga",
+    "Madina",
+    "Kamila"
+   ],
+   "thing": [
+    "phone",
+    "pen",
+    "bag",
+    "book"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the possessive pronoun for the word in brackets: mine, yours, his, hers, ours or theirs.",
+  "source": "Can I borrow your {thing}, {name}? ______ (I) is broken.",
+  "key": "Mine",
+  "why": "No noun comes after it, so use mine, not my.",
+  "slots": {
+   "thing": [
+    "pen",
+    "ruler",
+    "charger",
+    "calculator"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the possessive pronoun for the word in brackets: mine, yours, his, hers, ours or theirs.",
+  "source": "Our {home} is near the park, and ______ (they) is near the {place}.",
+  "key": "theirs",
+  "why": "No noun comes after it, so use theirs, not their. Theirs has no apostrophe.",
+  "slots": {
+   "home": [
+    "flat",
+    "house",
+    "school",
+    "shop"
+   ],
+   "place": [
+    "station",
+    "bazaar",
+    "river",
+    "bank"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Write the possessive pronoun for the word in brackets: mine, yours, his, hers, ours or theirs.",
+  "source": "This isn't my {thing}, {name}. ______ (I) is in my bag.",
+  "key": "Mine",
+  "why": "No noun comes after it, so use mine, not my.",
+  "slots": {
+   "thing": [
+    "phone",
+    "pen",
+    "bag",
+    "book"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with a possessive pronoun.",
+  "source": "This is my {thing}, {name}.",
+  "hint": "This {thing} is ______, {name}.",
+  "key": "mine",
+  "why": "My + noun → mine: This is my phone = This phone is mine.",
+  "slots": {
+   "thing": [
+    "phone",
+    "pen",
+    "bag",
+    "book"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with a possessive pronoun.",
+  "source": "Is this your {thing}, {name}?",
+  "hint": "Is this {thing} ______, {name}?",
+  "key": "yours",
+  "why": "Your + noun → yours: Is this phone yours?",
+  "slots": {
+   "thing": [
+    "phone",
+    "pen",
+    "bag",
+    "book"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with a possessive pronoun.",
+  "source": "These are our {things}, {name}.",
+  "hint": "These {things} are ______, {name}.",
+  "key": "ours",
+  "why": "Our + noun → ours: These books are ours.",
+  "slots": {
+   "things": [
+    "books",
+    "pens",
+    "bags",
+    "chairs"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with a possessive pronoun.",
+  "source": "That is {name}'s {thing}.",
+  "hint": "That {thing} is ______.",
+  "key": "his",
+  "why": "Aziz's thing → his: That phone is his.",
+  "slots": {
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Rustam"
+   ],
+   "thing": [
+    "phone",
+    "pen",
+    "bag",
+    "book"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Rewrite the sentence with a possessive pronoun.",
+  "source": "Those are their {things}, {who}.",
+  "hint": "Those {things} are ______, {who}.",
+  "key": "theirs",
+  "why": "Their + noun → theirs: Those books are theirs.",
+  "slots": {
+   "things": [
+    "books",
+    "pens",
+    "bags",
+    "chairs"
+   ],
+   "who": [
+    "Ms Ivanova",
+    "Mr Karimov",
+    "Mum",
+    "Dad"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "This {thing} is my, {name}.",
+  "hint": "This {thing} is ______, {name}.",
+  "key": "mine",
+  "why": "No noun after it, so use mine, not my.",
+  "slots": {
+   "thing": [
+    "phone",
+    "pen",
+    "bag",
+    "book"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "The {color} {thing} is her's.",
+  "hint": "The {color} {thing} is ______.",
+  "key": "hers",
+  "why": "Hers never has an apostrophe: her's is wrong.",
+  "slots": {
+   "color": [
+    "white",
+    "red",
+    "blue",
+    "black"
+   ],
+   "thing": [
+    "bag",
+    "bike",
+    "coat",
+    "phone"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Is this {thing} your, {name}?",
+  "hint": "Is this {thing} ______, {name}?",
+  "key": "yours",
+  "why": "No noun after it, so use yours, not your.",
+  "slots": {
+   "thing": [
+    "phone",
+    "pen",
+    "bag",
+    "book"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "These {things} are our's, {name}.",
+  "hint": "These {things} are ______, {name}.",
+  "key": "ours",
+  "why": "Ours never has an apostrophe: our's is wrong.",
+  "slots": {
+   "things": [
+    "books",
+    "pens",
+    "bags",
+    "chairs"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake.",
+  "source": "Those {things} are their, {who}.",
+  "hint": "Those {things} are ______, {who}.",
+  "key": "theirs",
+  "why": "No noun after it, so use theirs, not their.",
+  "slots": {
+   "things": [
+    "books",
+    "pens",
+    "bags",
+    "chairs"
+   ],
+   "who": [
+    "Ms Ivanova",
+    "Mr Karimov",
+    "Mum",
+    "Dad"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer with mine, yours, his, hers, ours or theirs.",
+  "source": "Whose {thing} is this? – It's {name}'s.",
+  "hint": "Whose {thing} is this? – It's ______.",
+  "key": "his",
+  "why": "A boy's thing → his, with no noun after it.",
+  "slots": {
+   "thing": [
+    "phone",
+    "pen",
+    "bag",
+    "book"
+   ],
+   "name": [
+    "Aziz",
+    "Timur",
+    "Bobur",
+    "Rustam"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer with mine, yours, his, hers, ours or theirs.",
+  "source": "Whose {thing} is this? – It's my {who}'s.",
+  "hint": "Whose {thing} is this? – It's ______.",
+  "key": "hers",
+  "why": "My mum's or my sister's thing → hers.",
+  "slots": {
+   "thing": [
+    "phone",
+    "pen",
+    "bag",
+    "book"
+   ],
+   "who": [
+    "mum",
+    "sister",
+    "aunt",
+    "grandma"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer with mine, yours, his, hers, ours or theirs.",
+  "source": "Whose {things} are these? – They're my {who}'.",
+  "hint": "Whose {things} are these? – They're ______.",
+  "key": "theirs",
+  "why": "My parents' or my cousins' things → theirs.",
+  "slots": {
+   "things": [
+    "books",
+    "pens",
+    "bags",
+    "chairs"
+   ],
+   "who": [
+    "parents",
+    "cousins",
+    "grandparents",
+    "neighbours"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer with mine, yours, his, hers, ours or theirs.",
+  "source": "Whose {thing} is this, {name}? – It's my {thing}.",
+  "hint": "Whose {thing} is this, {name}? – It's ______.",
+  "key": "mine",
+  "why": "My + noun → mine, with no noun after it.",
+  "slots": {
+   "thing": [
+    "phone",
+    "pen",
+    "bag",
+    "book"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Answer with mine, yours, his, hers, ours or theirs.",
+  "source": "Whose {pet} is that, {name}? – It's our {pet}.",
+  "hint": "Whose {pet} is that, {name}? – It's ______.",
+  "key": "ours",
+  "why": "Our + noun → ours, with no noun after it.",
+  "slots": {
+   "pet": [
+    "dog",
+    "cat",
+    "parrot",
+    "rabbit"
+   ],
+   "name": [
+    "Aziz",
+    "Olga",
+    "Timur",
+    "Lola"
+   ]
+  }
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a thing in your classroom that is yours.",
+  "requiredElement": "… is mine.",
+  "constraints": [
+   "exactly one sentence",
+   "mine",
+   "a school word"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Compare your phone or bag with a friend's in one sentence.",
+  "requiredElement": "Mine is … , but yours / his / hers is …",
+  "constraints": [
+   "exactly one sentence",
+   "mine",
+   "yours, his or hers"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Someone has left a bag on the bus. Write one question to find who owns it.",
+  "requiredElement": "Is this yours?",
+  "constraints": [
+   "exactly one question",
+   "yours",
+   "a thing word"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your family's home and your neighbours' home.",
+  "requiredElement": "Ours is … , and theirs is …",
+  "constraints": [
+   "exactly one sentence",
+   "ours",
+   "theirs"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a friend of yours.",
+  "requiredElement": "… is a friend of mine.",
+  "constraints": [
+   "exactly one sentence",
+   "a friend of mine",
+   "a name"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Answer the question Whose pen is this? in one sentence. It's your sister's.",
+  "requiredElement": "It's hers.",
+  "constraints": [
+   "exactly one sentence",
+   "hers",
+   "no noun after it"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your brother's or uncle's car.",
+  "requiredElement": "… is his.",
+  "constraints": [
+   "exactly one sentence",
+   "his",
+   "a colour word"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write two sentences: one with mine and one with yours.",
+  "requiredElement": "… is mine. / Is … yours?",
+  "constraints": [
+   "exactly two sentences",
+   "mine once",
+   "yours once"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "After a lesson, there are things on the floor. Write a short dialogue: who owns what?",
+  "targetGrammar": "Is this yours? – No, it's his / hers.",
+  "lookFor": [
+   "yours",
+   "his or hers",
+   "three or four lines"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Compare your room with your brother's or sister's room.",
+  "targetGrammar": "Mine is … , but his / hers is …",
+  "lookFor": [
+   "mine",
+   "his or hers",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Compare your family's flat or house with a neighbour's.",
+  "targetGrammar": "Ours is … , and theirs is …",
+  "lookFor": [
+   "ours",
+   "theirs",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You and a friend have bought the same phone. Explain how you know which one is yours.",
+  "targetGrammar": "Mine is … , and yours is …",
+  "lookFor": [
+   "mine",
+   "yours",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "pronouns",
+  "branch": "possessive",
+  "topic": "possessive-pronouns",
+  "level": "A2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about two friends of yours: who they are and what you do together.",
+  "targetGrammar": "a friend of mine",
+  "lookFor": [
+   "a friend of mine",
+   "his or hers",
+   "three or four sentences"
+  ]
+ }
+]
