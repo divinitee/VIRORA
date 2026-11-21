@@ -194,5 +194,163 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/tenses.future.arrangement-continuous.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "\"We arranged it last week\": a fixed plan with a person: am meeting.",
+   "\"She called my mother yesterday\": the stay is arranged: is staying.",
+   "\"My father phoned them\": the visit is fixed: are visiting.",
+   "\"She has an appointment\": is seeing.",
+   "\"They invited twenty guests\": the party is arranged: are having.",
+   "\"We booked the court\": am playing.",
+   "\"My mother invited them\": they are coming.",
+   "\"We agreed on it last night\": is taking.",
+   "\"We booked a table\": am having dinner.",
+   "\"My mother called him\": the repair is arranged: is fixing.",
+   "\"We already have the tickets\": are watching.",
+   "\"We planned it a month ago\": am visiting.",
+   "\"He promised them last week\": is meeting.",
+   "\"They promised last week\": are helping.",
+   "\"I bought the tickets yesterday\": am taking.",
+   "\"Everyone has an invitation\": is cooking.",
+   "\"They booked a room\": are staying.",
+   "\"I made an appointment\": am seeing.",
+   "\"We planned it on the phone\": are studying.",
+   "\"The family asked him a month ago\": is playing."
+  ],
+  "build": [
+   "\"We arranged it on Monday\": am meeting.",
+   "\"She called my mother\": is staying.",
+   "\"Dad bought the train tickets\": are visiting.",
+   "\"She made an appointment\": is seeing.",
+   "\"They invited all their friends\": are having.",
+   "\"We booked the court\": am playing.",
+   "\"My mother invited them\": are coming.",
+   "\"We agreed on it yesterday\": is taking.",
+   "\"We booked a table\": am having lunch.",
+   "\"My father called him\": is fixing.",
+   "\"We have the tickets\": are watching.",
+   "\"I can't come\" because of a plan: am helping.",
+   "\"They planned it in a group chat\": is meeting.",
+   "\"She invited the whole family\": is cooking.",
+   "\"Their tickets came by email\": are going.",
+   "\"I promised him last week\": am taking.",
+   "\"We booked two rooms\": are staying.",
+   "\"We planned it after class\": are studying.",
+   "\"The family asked her\": is singing.",
+   "\"The receptionist gave me a time\": am seeing."
+  ],
+  "transform": [
+   "A diary entry is an arrangement: am seeing.",
+   "A diary entry with a person: am having dinner.",
+   "A diary entry with a time: am playing.",
+   "A diary entry: am meeting my grandmother.",
+   "A diary entry: am helping my uncle.",
+   "New subject my … (one person): is meeting.",
+   "New subject my … (one person): is driving.",
+   "New subject We: are visiting.",
+   "New subject I: am playing.",
+   "New subject my … (more than one): are having.",
+   "\"We arranged it\": a plan, not a habit: am meeting.",
+   "is + -ing: visiting, not visit.",
+   "are is missing: are going.",
+   "Not will + -ing for a booked plan: is playing.",
+   "am + -ing: having, not have."
+  ]
+ },
+ "slot": [
+  [
+   "choose",
+   9,
+   "",
+   "place",
+   [
+    "canteen"
+   ]
+  ],
+  [
+   "build",
+   9,
+   "",
+   "place",
+   [
+    "canteen"
+   ]
+  ],
+  [
+   "choose",
+   18,
+   "",
+   "part",
+   [
+    "after lunch"
+   ]
+  ],
+  [
+   "build",
+   20,
+   "",
+   "part",
+   [
+    "after lunch"
+   ]
+  ],
+  [
+   "choose",
+   20,
+   "",
+   "who",
+   [
+    "nephew"
+   ]
+  ],
+  [
+   "build",
+   16,
+   "",
+   "who",
+   [
+    "son"
+   ]
+  ],
+  [
+   "transform",
+   1,
+   "",
+   "pro",
+   [
+    "nurse"
+   ]
+  ],
+  [
+   "transform",
+   4,
+   "",
+   "place",
+   [
+    "metro station"
+   ]
+  ]
+ ]
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);
