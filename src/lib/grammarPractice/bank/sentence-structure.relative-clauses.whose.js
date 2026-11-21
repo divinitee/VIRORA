@@ -964,7 +964,7 @@ export default [
   "instr": "Write who or whose.",
   "source": "They have a {pet} ______ name is {pname}.",
   "key": "whose",
-  "why": "Its name → whose name.",
+  "why": "The pet's name → a … whose name.",
   "slots": {
    "pet": [
     "cat",
@@ -1445,7 +1445,7 @@ export default [
   "source": "My neighbour, who's dog is very big, is a {job}, {name}.",
   "hint": "My neighbour, ______ dog is very big, is a {job}, {name}.",
   "key": "whose",
-  "why": "who's = who is; belonging needs whose.",
+  "why": "Not who's (who is): the dog belongs to her → whose.",
   "slots": {
    "job": [
     "doctor",

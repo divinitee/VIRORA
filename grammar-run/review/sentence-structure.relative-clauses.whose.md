@@ -149,7 +149,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 13. _Write who or whose._  
    They have a **dog** ______ name is **Bars**.  
    key: whose  
-   why: Its name → whose name.
+   why: The pet's name → a … whose name.
 
 14. _Write who or whose._  
    The company ______ office is next to ours is looking for new workers, **Olga**.  
@@ -246,7 +246,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    My neighbour, who's dog is very big, is a **driver**, **Olga**.  
    → My neighbour, ______ dog is very big, is a **driver**, **Olga**.  
    key: whose  
-   why: who's = who is; belonging needs whose.
+   why: Not who's (who is): the dog belongs to her → whose.
 
 11. _Join the two sentences with whose and the noun._  
    That's **Rustam**. **Rustam**'s sister is my **coach**.  
