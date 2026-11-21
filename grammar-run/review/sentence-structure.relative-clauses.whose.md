@@ -192,7 +192,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    I have a friend. His father is a **driver**, **Timur**.  
    → I have a friend ______ father is a **driver**, **Timur**.  
    key: whose  
-   why: His father → whose father.
+   why: Join two sentences: His father → a friend whose father.
 
 2. _Join the two sentences with whose._  
    This is **Madina**. Her brother lives in **Khiva**.  

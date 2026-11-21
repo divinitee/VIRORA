@@ -188,7 +188,7 @@ const VARIETY = {
    "Verb helped after the gap: who."
   ],
   "transform": [
-   "His father → whose father.",
+   "Join two sentences: His father → a friend whose father.",
    "Her brother → , whose brother.",
    "Its walls → whose walls (things too).",
    "Her parents → whose parents.",

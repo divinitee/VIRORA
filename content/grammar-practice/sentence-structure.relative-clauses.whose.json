@@ -1191,7 +1191,7 @@
   "source": "I have a friend. His father is a {job}, {name}.",
   "hint": "I have a friend ______ father is a {job}, {name}.",
   "key": "whose",
-  "why": "His father → whose father.",
+  "why": "Join two sentences: His father → a friend whose father.",
   "slots": {
    "job": [
     "doctor",
