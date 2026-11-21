@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useRef, useState } from "react";
+import React, { Fragment, useEffect, useMemo, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Check, ChevronDown, Lock, Play, RotateCcw, Sparkles, X, BookOpen } from "lucide-react";
 import { PATH_UNITS, topicLabel } from "@/lib/grammarCourse";
@@ -13,7 +13,7 @@ import { GRAMMAR_ACCENT as ACCENT } from "@/components/grammar/map/tierMeta";
 
 const STR = {
   uz: {
-    unit: "Bo'lim", level: (l) => `${l} daraja`, next: "Keyingi", soon: "Tez orada", preview: "Qo'shimcha", review: "Takrorlash",
+    unit: "Bo'lim", level: (l) => `${l} darajasi`, next: "Keyingi", soon: "Tez orada", preview: "Qo'shimcha", review: "Takrorlash",
     status: { new: "Yangi", practising: "Mashq qilinmoqda", review: "Takrorlash", secure: "O'zlashtirildi" },
     secureOf: (a, b) => `${a}/${b} o'zlashtirildi`, playable: (n) => `${n} ta mavzu tayyor`,
     continue: "Davom etish", suggested: "Tavsiya", allDone: "Hozircha hammasi bajarildi!", learn: "O'rganish", learnSoon: "Tez orada",
