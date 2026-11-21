@@ -154,5 +154,89 @@ for (const [st, m, acc] of AUDIT_ACC) {
   for (const it of hit) it.acceptable = [...new Set([...(it.acceptable || []), ...acc])];
 }
 const out = "content/grammar-practice/questions-negation.wh-questions.question-preposition.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "wait for someone: \"for\" stays at the end of the question.",
+   "look for a lost thing: \"for\" goes at the end.",
+   "talk to a person: \"to\" goes at the end.",
+   "A book is about something: \"about\" goes at the end.",
+   "come from a place: \"from\" goes at the end.",
+   "Something belongs to someone: \"to\" goes at the end.",
+   "be afraid of something: \"of\" goes at the end.",
+   "",
+   "",
+   "go with someone: \"with\" goes at the end.",
+   "be interested in something: \"in\" goes at the end.",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "build": [
+   "Asking about the listener: talk to … → talking to?",
+   "\"I can't find them\": look for → looking for?",
+   "My brother came too: go with → go … with?",
+   "The story of the film: be about → about?",
+   "Home town question: come from → come from?",
+   "The owner: belong to → belong to?",
+   "The thing that scares him: afraid of → afraid of?",
+   "\"Her bus is …\": wait for → waiting for?",
+   "The cause of the worry: worried about → worried about?",
+   "",
+   "Hobbies: interested in → interested in?",
+   "The sender: be from → message from?",
+   "",
+   "",
+   "",
+   "",
+   "Music you hear: listen to → listen to?",
+   "",
+   "",
+   ""
+  ],
+  "transform": [
+   "Everyday English ends with the preposition: Who … for?",
+   "",
+   "",
+   "Not To whom: Who does this … belong to?",
+   "Not From where: Where is … from?",
+   "",
+   "Ask about her: Who … talking to?",
+   "Ask about the worry: What … worried about?",
+   "Ask about the place: Where … come from?",
+   "Ask about the music: What … listening to?",
+   "wait needs for: waiting for.",
+   "look needs for when you search: looking for.",
+   "Not With who: Who … with?",
+   "",
+   "Not About what: What was … about?"
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${out} — ${items.length} items`);

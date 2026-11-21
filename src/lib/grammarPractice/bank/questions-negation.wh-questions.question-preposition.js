@@ -17,7 +17,7 @@ export default [
    "at"
   ],
   "key": 0,
-  "why": "The verb is wait for. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "wait for someone: \"for\" stays at the end of the question.",
   "slots": {
    "name": [
     "Aziz",
@@ -49,7 +49,7 @@ export default [
    "for"
   ],
   "key": 3,
-  "why": "The verb is look for. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "look for a lost thing: \"for\" goes at the end.",
   "slots": {
    "name": [
     "Aziz",
@@ -81,7 +81,7 @@ export default [
    "–"
   ],
   "key": 2,
-  "why": "The verb is talk to. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "talk to a person: \"to\" goes at the end.",
   "slots": {
    "event": [
     "party",
@@ -113,7 +113,7 @@ export default [
    "of"
   ],
   "key": 1,
-  "why": "The verb is be about. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "A book is about something: \"about\" goes at the end.",
   "slots": {
    "name": [
     "Aziz",
@@ -145,7 +145,7 @@ export default [
    "in"
   ],
   "key": 0,
-  "why": "The verb is come from. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "come from a place: \"from\" goes at the end.",
   "slots": {
    "name": [
     "Aziz",
@@ -177,7 +177,7 @@ export default [
    "to"
   ],
   "key": 3,
-  "why": "The verb is belong to. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "Something belongs to someone: \"to\" goes at the end.",
   "slots": {
    "thing": [
     "bag",
@@ -209,7 +209,7 @@ export default [
    "–"
   ],
   "key": 2,
-  "why": "The verb is be afraid of. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "be afraid of something: \"of\" goes at the end.",
   "slots": {
    "name": [
     "Aziz",
@@ -305,7 +305,7 @@ export default [
    "with"
   ],
   "key": 3,
-  "why": "The verb is go with. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "go with someone: \"with\" goes at the end.",
   "slots": {
    "event": [
     "party",
@@ -337,7 +337,7 @@ export default [
    "–"
   ],
   "key": 2,
-  "why": "The verb is be interested in. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "be interested in something: \"in\" goes at the end.",
   "slots": {
    "name": [
     "Aziz",
@@ -652,7 +652,7 @@ export default [
   "instr": "Write the preposition that ends the question: for, to, about, with, from, at, of, in or on.",
   "source": "Who is {name} talking ______? — Her {who}.",
   "key": "to",
-  "why": "The verb is talk to. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "Asking about the listener: talk to … → talking to?",
   "slots": {
    "name": [
     "Olga",
@@ -682,7 +682,7 @@ export default [
   "instr": "Write the preposition that ends the question: for, to, about, with, from, at, of, in or on.",
   "source": "What are you looking ______, {name}? — My glasses. I can't find them.",
   "key": "for",
-  "why": "The verb is look for. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "\"I can't find them\": look for → looking for?",
   "slots": {
    "name": [
     "Aziz",
@@ -703,7 +703,7 @@ export default [
   "instr": "Write the preposition that ends the question: for, to, about, with, from, at, of, in or on.",
   "source": "Who did you go to the {place} ______, {name}? — My brother.",
   "key": "with",
-  "why": "The verb is go with. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "My brother came too: go with → go … with?",
   "slots": {
    "place": [
     "bazaar",
@@ -730,7 +730,7 @@ export default [
   "instr": "Write the preposition that ends the question: for, to, about, with, from, at, of, in or on.",
   "source": "What is the film ______, {name}? — Two {who} and a lost dog.",
   "key": "about",
-  "why": "The verb is be about. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "The story of the film: be about → about?",
   "slots": {
    "name": [
     "Aziz",
@@ -757,7 +757,7 @@ export default [
   "instr": "Write the preposition that ends the question: for, to, about, with, from, at, of, in or on.",
   "source": "Where does your new neighbour come ______, {name}? — {city}.",
   "key": "from",
-  "why": "The verb is come from. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "Home town question: come from → come from?",
   "slots": {
    "name": [
     "Aziz",
@@ -784,7 +784,7 @@ export default [
   "instr": "Write the preposition that ends the question: for, to, about, with, from, at, of, in or on.",
   "source": "Who does this {thing} belong ______, {name}? — My little sister.",
   "key": "to",
-  "why": "The verb is belong to. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "The owner: belong to → belong to?",
   "slots": {
    "thing": [
     "bag",
@@ -811,7 +811,7 @@ export default [
   "instr": "Write the preposition that ends the question: for, to, about, with, from, at, of, in or on.",
   "source": "What is your brother afraid ______, {name}? — Dogs and {thing}.",
   "key": "of",
-  "why": "The verb is be afraid of. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "The thing that scares him: afraid of → afraid of?",
   "slots": {
    "name": [
     "Aziz",
@@ -838,7 +838,7 @@ export default [
   "instr": "Write the preposition that ends the question: for, to, about, with, from, at, of, in or on.",
   "source": "Who are you waiting ______, {name}? — My cousin. Her bus is {late}.",
   "key": "for",
-  "why": "The verb is wait for. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "\"Her bus is …\": wait for → waiting for?",
   "slots": {
    "name": [
     "Aziz",
@@ -865,7 +865,7 @@ export default [
   "instr": "Write the preposition that ends the question: for, to, about, with, from, at, of, in or on.",
   "source": "What are you so worried ______, {name}? — My {test} tomorrow.",
   "key": "about",
-  "why": "The verb is be worried about. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "The cause of the worry: worried about → worried about?",
   "slots": {
    "name": [
     "Aziz",
@@ -919,7 +919,7 @@ export default [
   "instr": "Write the preposition that ends the question: for, to, about, with, from, at, of, in or on.",
   "source": "What are you interested ______, {name}? — Music and {subject}.",
   "key": "in",
-  "why": "The verb is be interested in. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "Hobbies: interested in → interested in?",
   "slots": {
    "name": [
     "Aziz",
@@ -946,7 +946,7 @@ export default [
   "instr": "Write the preposition that ends the question: for, to, about, with, from, at, of, in or on.",
   "source": "Who is this message ______, {name}? — Your {who} sent it.",
   "key": "from",
-  "why": "The verb is be from. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "The sender: be from → message from?",
   "slots": {
    "name": [
     "Aziz",
@@ -1081,7 +1081,7 @@ export default [
   "instr": "Write the preposition that ends the question: for, to, about, with, from, at, of, in or on.",
   "source": "What kind of music do you listen ______, {name}? — Mostly {genre}.",
   "key": "to",
-  "why": "The verb is listen to. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "Music you hear: listen to → listen to?",
   "slots": {
    "name": [
     "Aziz",
@@ -1193,7 +1193,7 @@ export default [
    "Who",
    "for"
   ],
-  "why": "The verb is wait for. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "Everyday English ends with the preposition: Who … for?",
   "slots": {
    "place": [
     "station",
@@ -1286,7 +1286,7 @@ export default [
    "Who",
    "to"
   ],
-  "why": "The verb is belong to. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "Not To whom: Who does this … belong to?",
   "slots": {
    "thing": [
     "bag",
@@ -1317,7 +1317,7 @@ export default [
    "Where",
    "from"
   ],
-  "why": "The verb is be from. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "Not From where: Where is … from?",
   "slots": {
    "who": [
     "friend",
@@ -1379,7 +1379,7 @@ export default [
    "Who",
    "to"
   ],
-  "why": "The verb is talk to. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "Ask about her: Who … talking to?",
   "slots": {
    "who": [
     "coach",
@@ -1410,7 +1410,7 @@ export default [
    "What",
    "about"
   ],
-  "why": "The verb is be worried about. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "Ask about the worry: What … worried about?",
   "slots": {
    "test": [
     "exam",
@@ -1441,7 +1441,7 @@ export default [
    "Where",
    "from"
   ],
-  "why": "The verb is come from. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "Ask about the place: Where … come from?",
   "slots": {
    "city": [
     "Tashkent",
@@ -1472,7 +1472,7 @@ export default [
    "What",
    "to"
   ],
-  "why": "The verb is listen to. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "Ask about the music: What … listening to?",
   "slots": {
    "music": [
     "the radio",
@@ -1500,7 +1500,7 @@ export default [
   "source": "Who are you waiting, {name}? Everyone is {where}.",
   "hint": "Who are you waiting ______, {name}? Everyone is {where}.",
   "key": "for",
-  "why": "The verb is wait for. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "wait needs for: waiting for.",
   "slots": {
    "name": [
     "Aziz",
@@ -1528,7 +1528,7 @@ export default [
   "source": "What are you looking, {name}? Did you lose your {thing}?",
   "hint": "What are you looking ______, {name}? Did you lose your {thing}?",
   "key": "for",
-  "why": "The verb is look for. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "look needs for when you search: looking for.",
   "slots": {
    "name": [
     "Aziz",
@@ -1559,7 +1559,7 @@ export default [
    "Who",
    "with"
   ],
-  "why": "The verb is go with. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "Not With who: Who … with?",
   "slots": {
    "event": [
     "party",
@@ -1618,7 +1618,7 @@ export default [
   "source": "About what was the {film}, {name}?",
   "hint": "What was the {film} ______, {name}?",
   "key": "about",
-  "why": "The verb is be about. In a wh-question the preposition stays: it goes at the end of the question.",
+  "why": "Not About what: What was … about?",
   "slots": {
    "film": [
     "film",
