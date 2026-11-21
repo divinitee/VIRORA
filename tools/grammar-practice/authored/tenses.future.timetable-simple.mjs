@@ -156,5 +156,89 @@ for (const [st, m, acc] of AUDIT_ACC) {
   for (const it of hit) it.acceptable = [...new Set([...(it.acceptable || []), ...acc])];
 }
 const out = "content/grammar-practice/tenses.future.timetable-simple.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "A train timetable, even for \"tomorrow morning\": present simple leaves.",
+   "A film's fixed start time: present simple starts.",
+   "A school timetable for next Monday: starts.",
+   "Shop opening hours tomorrow: present simple opens.",
+   "A fixed concert time tonight: finishes.",
+   "A flight timetable: takes off, present simple.",
+   "A course start date on the calendar: begins.",
+   "A bus timetable for tonight: leaves.",
+   "A fixed event time next Saturday: ends.",
+   "The museum's timetable next week: closes.",
+   "Plural \"buses\" on a timetable: run, no -s.",
+   "Plural \"shops\" with fixed hours: close.",
+   "Plural \"exams\" on a fixed date: start.",
+   "Plural transport times tomorrow: leave.",
+   "Plural \"holidays\" on the school calendar: start.",
+   "Plural \"Lessons\" on tomorrow's timetable: finish.",
+   "Question about a fixed time, singular event: does.",
+   "Question about \"the next\" one on the timetable: does.",
+   "Question about shop hours, plural: do.",
+   "Yes/no question, plural exams: Do … begin."
+  ],
+  "build": [
+   "Timetable for tomorrow, singular: leaves.",
+   "School timetable, singular class: starts.",
+   "Opening hours tomorrow, singular shop: opens.",
+   "Fixed film time, singular: finishes.",
+   "Flight timetable: lands.",
+   "Fixed event time, singular: begins.",
+   "Plural shops, fixed hours: close.",
+   "Plural holidays on the calendar: end.",
+   "Plural trains on the timetable: run.",
+   "A course start date, singular: begins.",
+   "Museum hours today, singular: closes.",
+   "Plural lessons, fixed time: finish.",
+   "After does, the base verb: start.",
+   "After does, the base verb: leave.",
+   "After do, the base verb: open.",
+   "After Does, the base verb: begin.",
+   "After doesn't, the base verb: stop.",
+   "After don't, the base verb: open.",
+   "After doesn't, the base verb: end.",
+   "After doesn't, the base verb: leave."
+  ],
+  "transform": [
+   "Timetables use the present simple, not will: leaves.",
+   "Opening hours: present simple, not will: opens.",
+   "A school timetable, plural lessons: start.",
+   "A fixed event time: finishes.",
+   "A bus timetable, plural buses: run.",
+   "Question about a fixed time: does + the film.",
+   "Question about a timetable: does + the train.",
+   "Question about shop hours, plural: do + the shops.",
+   "Question about exam dates: do + your exams.",
+   "Question about a fixed end time: does + the concert.",
+   "Singular bus needs -s: leaves.",
+   "After does, no -s: start.",
+   "Plural shops, no -s: open.",
+   "\"tomorrow\" on a timetable needs the present simple, not landed: lands.",
+   "After Does, no -s: begin."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);
