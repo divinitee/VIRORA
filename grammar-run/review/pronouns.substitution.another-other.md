@@ -70,7 +70,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 17. Be kind to ______ at **school**, **Lola**.  
    options: ✔ others · other · another · the another  
-   why: No noun after it: other people: others.
+   why: "Be kind to …": people in general, no noun: others.
 
 18. Some **guests** are always early for the **wedding**, and ______ are always late.  
    options: other · another · the another · ✔ others  
@@ -82,7 +82,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 20. Some **families** speak Russian at home; ______ speak Uzbek.  
    options: the another · ✔ others · other · another  
-   why: No noun after it: the rest of them: others.
+   why: Some speak one language; the rest, no noun: others.
 
 ## build (20)
 
@@ -164,17 +164,17 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 16. _Write another, other or others._  
    Some of the **chairs** are new; ______ are very old.  
    key: others  
-   why: No noun after it: the rest of them: others.
+   why: Some are new; the rest of them, no noun: others.
 
 17. _Write another, other or others._  
    Don't worry about what ______ think about your **clothes**, **Aziz**.  
    key: others  
-   why: No noun after it: other people: others.
+   why: "what … think": other people, no noun: others.
 
 18. _Write another, other or others._  
    Help ______ at **home** when you can, **Aziz**.  
    key: others  
-   why: No noun after it: other people: others.
+   why: "Help … when you can": other people, no noun: others.
 
 19. _Write another, other or others._  
    Some shops open at eight, and ______ open at **ten**.  
@@ -222,7 +222,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    Can I have one more **apple**, **Timur**?  
    → Can I have ______ **apple**, **Timur**?  
    key: another  
-   why: one more = another.
+   why: one more + singular food = another.
 
 7. _Rewrite with another._  
    I need one more day to finish the **report**, **Olga**.  
@@ -234,13 +234,13 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    Let's wait for one more **week**, **Aziz**.  
    → Let's wait for ______ **week**, **Aziz**.  
    key: another  
-   why: one more = another.
+   why: Wait for one more = wait for another.
 
 9. _Rewrite with another._  
    There's one more **apple** in the fridge, **Timur**.  
    → There's ______ **apple** in the fridge, **Timur**.  
    key: another  
-   why: one more = another.
+   why: There's one more = there's another.
 
 10. _Rewrite with another._  
    We'll stay for two more days in **Bukhara**.  

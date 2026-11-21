@@ -509,7 +509,7 @@ export default [
     "chess",
     "cards",
     "draughts",
-    "football"
+    "board games"
    ]
   }
  },
@@ -529,7 +529,7 @@ export default [
    "the another"
   ],
   "key": 0,
-  "why": "No noun after it: other people: others.",
+  "why": "\"Be kind to …\": people in general, no noun: others.",
   "slots": {
    "place": [
     "school",
@@ -625,7 +625,7 @@ export default [
    "another"
   ],
   "key": 1,
-  "why": "No noun after it: the rest of them: others.",
+  "why": "Some speak one language; the rest, no noun: others.",
   "slots": {
    "who": [
     "families",
@@ -1039,7 +1039,7 @@ export default [
   "instr": "Write another, other or others.",
   "source": "Some of the {thing} are new; ______ are very old.",
   "key": "others",
-  "why": "No noun after it: the rest of them: others.",
+  "why": "Some are new; the rest of them, no noun: others.",
   "slots": {
    "thing": [
     "books",
@@ -1060,7 +1060,7 @@ export default [
   "instr": "Write another, other or others.",
   "source": "Don't worry about what ______ think about your {thing}, {name}.",
   "key": "others",
-  "why": "No noun after it: other people: others.",
+  "why": "\"what … think\": other people, no noun: others.",
   "slots": {
    "thing": [
     "hair",
@@ -1087,7 +1087,7 @@ export default [
   "instr": "Write another, other or others.",
   "source": "Help ______ at {place} when you can, {name}.",
   "key": "others",
-  "why": "No noun after it: other people: others.",
+  "why": "\"Help … when you can\": other people, no noun: others.",
   "slots": {
    "place": [
     "school",
@@ -1303,7 +1303,7 @@ export default [
   "source": "Can I have one more {food}, {name}?",
   "hint": "Can I have ______ {food}, {name}?",
   "key": "another",
-  "why": "one more = another.",
+  "why": "one more + singular food = another.",
   "slots": {
    "food": [
     "samsa",
@@ -1359,7 +1359,7 @@ export default [
   "source": "Let's wait for one more {time}, {name}.",
   "hint": "Let's wait for ______ {time}, {name}.",
   "key": "another",
-  "why": "one more = another.",
+  "why": "Wait for one more = wait for another.",
   "slots": {
    "time": [
     "minute",
@@ -1387,7 +1387,7 @@ export default [
   "source": "There's one more {thing} in the fridge, {name}.",
   "hint": "There's ______ {thing} in the fridge, {name}.",
   "key": "another",
-  "why": "one more = another.",
+  "why": "There's one more = there's another.",
   "slots": {
    "thing": [
     "egg",

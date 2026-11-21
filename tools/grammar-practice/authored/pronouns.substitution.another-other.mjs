@@ -165,10 +165,10 @@ const VARIETY = {
    "any + plural noun students: other.",
    "Plural noun ways after the gap: other.",
    "No noun after it: the rest of my friends: others.",
-   "No noun after it: other people: others.",
+   "\"Be kind to …\": people in general, no noun: others.",
    "No noun after it: the rest of the guests: others.",
    "No noun after it: other books: others.",
-   "No noun after it: the rest of them: others."
+   "Some speak one language; the rest, no noun: others."
   ],
   "build": [
    "\"This one doesn't work\": one more: another.",
@@ -186,9 +186,9 @@ const VARIETY = {
    "any + plural noun plans: other.",
    "some + plural noun boys: other.",
    "No noun after it: other children: others.",
-   "No noun after it: the rest of them: others.",
-   "No noun after it: other people: others.",
-   "No noun after it: other people: others.",
+   "Some are new; the rest of them, no noun: others.",
+   "\"what … think\": other people, no noun: others.",
+   "\"Help … when you can\": other people, no noun: others.",
    "No noun after it: the rest of the shops: others.",
    "No noun after it: other ones: others."
   ],
@@ -198,10 +198,10 @@ const VARIETY = {
    "Plural noun books: other, not another.",
    "another is one word: another way.",
    "No noun after it: others, not other.",
-   "one more = another.",
+   "one more + singular food = another.",
    "one more day = another day.",
-   "one more = another.",
-   "one more = another.",
+   "Wait for one more = wait for another.",
+   "There's one more = there's another.",
    "two more days = another two days.",
    "different colours = other colours.",
    "Some students …; the rest, no noun: others.",
@@ -268,7 +268,7 @@ const VARIETY = {
     "chess",
     "cards",
     "draughts",
-    "football"
+    "board games"
    ]
   ],
   [
