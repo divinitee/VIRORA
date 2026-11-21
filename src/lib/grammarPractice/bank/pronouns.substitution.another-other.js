@@ -17,7 +17,7 @@ export default [
    "an other"
   ],
   "key": 0,
-  "why": "One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.",
+  "why": "\"This one is dirty\": one more of the same kind: another.",
   "slots": {
    "thing": [
     "cup",
@@ -49,7 +49,7 @@ export default [
    "another"
   ],
   "key": 3,
-  "why": "One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.",
+  "why": "\"still hungry\": one more: another.",
   "slots": {
    "food": [
     "samsa",
@@ -73,7 +73,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "We'll stay in {city} for ______ two days.",
+  "prompt": "We'll stay in {city} for ______ {n} days.",
   "options": [
    "others",
    "an other",
@@ -81,13 +81,19 @@ export default [
    "other"
   ],
   "key": 2,
-  "why": "One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.",
+  "why": "Two more days: another + a number.",
   "slots": {
    "city": [
     "Samarkand",
     "Bukhara",
     "Khiva",
     "Termez"
+   ],
+   "n": [
+    "two",
+    "three",
+    "four",
+    "five"
    ]
   }
  },
@@ -107,7 +113,7 @@ export default [
    "an other"
   ],
   "key": 1,
-  "why": "One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.",
+  "why": "\"I don't like this\": a different one: another.",
   "slots": {
    "thing": [
     "jacket",
@@ -139,7 +145,7 @@ export default [
    "an other"
   ],
   "key": 0,
-  "why": "One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.",
+  "why": "Offering one more drink: another.",
   "slots": {
    "drink": [
     "cup of tea",
@@ -171,7 +177,7 @@ export default [
    "another"
   ],
   "key": 3,
-  "why": "One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.",
+  "why": "He missed one, so he waited for one more: another.",
   "slots": {
    "bus": [
     "one",
@@ -203,7 +209,7 @@ export default [
    "other"
   ],
   "key": 2,
-  "why": "One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.",
+  "why": "One more good idea, singular: another.",
   "slots": {
    "act": [
     "try it",
@@ -227,7 +233,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My phone broke, so I had to buy ______ {when}.",
+  "prompt": "My {dev} broke, so I had to buy ______ {when}.",
   "options": [
    "the another",
    "another",
@@ -235,13 +241,19 @@ export default [
    "an other"
   ],
   "key": 1,
-  "why": "One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.",
+  "why": "Mine broke, so one more, a new one: another.",
   "slots": {
    "when": [
     "yesterday",
     "last night",
     "on Friday",
     "last week"
+   ],
+   "dev": [
+    "phone",
+    "watch",
+    "umbrella",
+    "bike"
    ]
   }
  },
@@ -253,7 +265,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Some people like tea, but ______ people prefer coffee, {name}.",
+  "prompt": "Some people like tea, but ______ people prefer {drink2}, {name}.",
   "options": [
    "other",
    "others",
@@ -261,13 +273,19 @@ export default [
    "the another"
   ],
   "key": 0,
-  "why": "Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.",
+  "why": "other + plural noun people: other.",
   "slots": {
    "name": [
     "Aziz",
     "Olga",
     "Timur",
     "Lola"
+   ],
+   "drink2": [
+    "coffee",
+    "juice",
+    "milk",
+    "cocoa"
    ]
   }
  },
@@ -287,7 +305,7 @@ export default [
    "other"
   ],
   "key": 3,
-  "why": "Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.",
+  "why": "any + plural noun colours: other.",
   "slots": {
    "thing": [
     "shirt",
@@ -311,7 +329,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "We visited {city} and some ______ cities on our trip.",
+  "prompt": "We visited {city} and some ______ cities on our {trip}.",
   "options": [
    "another",
    "the another",
@@ -319,13 +337,19 @@ export default [
    "others"
   ],
   "key": 2,
-  "why": "Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.",
+  "why": "some + plural noun cities: other.",
   "slots": {
    "city": [
     "Samarkand",
     "Bukhara",
     "Khiva",
     "Termez"
+   ],
+   "trip": [
+    "trip",
+    "holiday",
+    "journey",
+    "tour"
    ]
   }
  },
@@ -345,7 +369,7 @@ export default [
    "another"
   ],
   "key": 1,
-  "why": "Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.",
+  "why": "any + plural noun questions: other.",
   "slots": {
    "act": [
     "start",
@@ -377,7 +401,7 @@ export default [
    "the another"
   ],
   "key": 0,
-  "why": "Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.",
+  "why": "two + plural noun languages: other.",
   "slots": {
    "lang": [
     "English",
@@ -409,7 +433,7 @@ export default [
    "other"
   ],
   "key": 3,
-  "why": "Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.",
+  "why": "any + plural noun students: other.",
   "slots": {
    "group": [
     "class",
@@ -441,7 +465,7 @@ export default [
    "others"
   ],
   "key": 2,
-  "why": "Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.",
+  "why": "Plural noun ways after the gap: other.",
   "slots": {
    "what": [
     "new words",
@@ -465,7 +489,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Some of my friends like {sport}; ______ prefer chess.",
+  "prompt": "Some of my friends like {sport}; ______ prefer {game}.",
   "options": [
    "the another",
    "others",
@@ -473,13 +497,19 @@ export default [
    "another"
   ],
   "key": 1,
-  "why": "No noun follows, so use others (= other people / other ones). Other needs a noun after it; another is only one.",
+  "why": "No noun after it: the rest of my friends: others.",
   "slots": {
    "sport": [
     "football",
     "tennis",
     "basketball",
     "volleyball"
+   ],
+   "game": [
+    "chess",
+    "cards",
+    "draughts",
+    "football"
    ]
   }
  },
@@ -499,7 +529,7 @@ export default [
    "the another"
   ],
   "key": 0,
-  "why": "No noun follows, so use others (= other people / other ones). Other needs a noun after it; another is only one.",
+  "why": "No noun after it: other people: others.",
   "slots": {
    "place": [
     "school",
@@ -523,7 +553,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Some guests are always early for the {event}, and ______ are always late.",
+  "prompt": "Some {who} are always early for the {event}, and ______ are always late.",
   "options": [
    "other",
    "another",
@@ -531,13 +561,19 @@ export default [
    "others"
   ],
   "key": 3,
-  "why": "No noun follows, so use others (= other people / other ones). Other needs a noun after it; another is only one.",
+  "why": "No noun after it: the rest of the guests: others.",
   "slots": {
    "event": [
     "party",
     "wedding",
     "dinner",
     "concert"
+   ],
+   "who": [
+    "guests",
+    "friends",
+    "cousins",
+    "students"
    ]
   }
  },
@@ -557,7 +593,7 @@ export default [
    "other"
   ],
   "key": 2,
-  "why": "No noun follows, so use others (= other people / other ones). Other needs a noun after it; another is only one.",
+  "why": "No noun after it: other books: others.",
   "slots": {
    "who": [
     "writer",
@@ -589,7 +625,7 @@ export default [
    "another"
   ],
   "key": 1,
-  "why": "No noun follows, so use others (= other people / other ones). Other needs a noun after it; another is only one.",
+  "why": "No noun after it: the rest of them: others.",
   "slots": {
    "who": [
     "families",
@@ -610,7 +646,7 @@ export default [
   "instr": "Write another, other or others.",
   "source": "I need ______ {thing}. This one doesn't work, {name}.",
   "key": "another",
-  "why": "One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.",
+  "why": "\"This one doesn't work\": one more: another.",
   "slots": {
    "thing": [
     "pen",
@@ -637,7 +673,7 @@ export default [
   "instr": "Write another, other or others.",
   "source": "Can we meet ______ day, {name}? I'm busy on {day}.",
   "key": "another",
-  "why": "One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.",
+  "why": "\"I'm busy on …\": a different day: another.",
   "slots": {
    "name": [
     "Aziz",
@@ -664,7 +700,7 @@ export default [
   "instr": "Write another, other or others.",
   "source": "Let's watch ______ film {when}, {name}.",
   "key": "another",
-  "why": "One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.",
+  "why": "One more film, singular: another.",
   "slots": {
    "when": [
     "tonight",
@@ -691,7 +727,7 @@ export default [
   "instr": "Write another, other or others.",
   "source": "There's ______ {bus} in ten minutes, {name}.",
   "key": "another",
-  "why": "One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.",
+  "why": "One more bus, singular: another.",
   "slots": {
    "bus": [
     "bus",
@@ -718,7 +754,7 @@ export default [
   "instr": "Write another, other or others.",
   "source": "I'd like ______ {drink}, please, {name}.",
   "key": "another",
-  "why": "One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.",
+  "why": "One more drink, singular: another.",
   "slots": {
    "drink": [
     "cup of tea",
@@ -745,7 +781,7 @@ export default [
   "instr": "Write another, other or others.",
   "source": "She has ______ exam on {day}, {name}.",
   "key": "another",
-  "why": "One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.",
+  "why": "One more exam, singular: another.",
   "slots": {
    "day": [
     "Monday",
@@ -772,7 +808,7 @@ export default [
   "instr": "Write another, other or others.",
   "source": "Please give him ______ chance, {name}. He's only {age}.",
   "key": "another",
-  "why": "One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.",
+  "why": "One more chance, singular: another.",
   "slots": {
    "name": [
     "Aziz",
@@ -799,7 +835,7 @@ export default [
   "instr": "Write another, other or others.",
   "source": "I like {sport} and ______ sports too, {name}.",
   "key": "other",
-  "why": "Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.",
+  "why": "Plural noun sports: other.",
   "slots": {
    "sport": [
     "football",
@@ -826,7 +862,7 @@ export default [
   "instr": "Write another, other or others.",
   "source": "Are there any ______ ideas for the {event}, {name}?",
   "key": "other",
-  "why": "Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.",
+  "why": "any + plural noun ideas: other.",
   "slots": {
    "event": [
     "party",
@@ -853,7 +889,7 @@ export default [
   "instr": "Write another, other or others.",
   "source": "We met people from many ______ countries in {city}.",
   "key": "other",
-  "why": "Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.",
+  "why": "many + plural noun countries: other.",
   "slots": {
    "city": [
     "Samarkand",
@@ -874,7 +910,7 @@ export default [
   "instr": "Write another, other or others.",
   "source": "Do you know any ______ songs by this {who}, {name}?",
   "key": "other",
-  "why": "Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.",
+  "why": "any + plural noun songs: other.",
   "slots": {
    "who": [
     "singer",
@@ -901,7 +937,7 @@ export default [
   "instr": "Write another, other or others.",
   "source": "There are some ______ ways to cook {food}.",
   "key": "other",
-  "why": "Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.",
+  "why": "some + plural noun ways: other.",
   "slots": {
    "food": [
     "plov",
@@ -922,7 +958,7 @@ export default [
   "instr": "Write another, other or others.",
   "source": "I don't have any ______ plans for {when}, {name}.",
   "key": "other",
-  "why": "Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.",
+  "why": "any + plural noun plans: other.",
   "slots": {
    "when": [
     "the weekend",
@@ -949,7 +985,7 @@ export default [
   "instr": "Write another, other or others.",
   "source": "My brother and some ______ boys played {sport} {when}.",
   "key": "other",
-  "why": "Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.",
+  "why": "some + plural noun boys: other.",
   "slots": {
    "sport": [
     "football",
@@ -976,7 +1012,7 @@ export default [
   "instr": "Write another, other or others.",
   "source": "Some children like {food}, but ______ don't, {name}.",
   "key": "others",
-  "why": "No noun follows, so use others (= other people / other ones). Other needs a noun after it; another is only one.",
+  "why": "No noun after it: other children: others.",
   "slots": {
    "food": [
     "plov",
@@ -1003,7 +1039,7 @@ export default [
   "instr": "Write another, other or others.",
   "source": "Some of the {thing} are new; ______ are very old.",
   "key": "others",
-  "why": "No noun follows, so use others (= other people / other ones). Other needs a noun after it; another is only one.",
+  "why": "No noun after it: the rest of them: others.",
   "slots": {
    "thing": [
     "books",
@@ -1024,7 +1060,7 @@ export default [
   "instr": "Write another, other or others.",
   "source": "Don't worry about what ______ think about your {thing}, {name}.",
   "key": "others",
-  "why": "No noun follows, so use others (= other people / other ones). Other needs a noun after it; another is only one.",
+  "why": "No noun after it: other people: others.",
   "slots": {
    "thing": [
     "hair",
@@ -1051,7 +1087,7 @@ export default [
   "instr": "Write another, other or others.",
   "source": "Help ______ at {place} when you can, {name}.",
   "key": "others",
-  "why": "No noun follows, so use others (= other people / other ones). Other needs a noun after it; another is only one.",
+  "why": "No noun after it: other people: others.",
   "slots": {
    "place": [
     "school",
@@ -1078,7 +1114,7 @@ export default [
   "instr": "Write another, other or others.",
   "source": "Some shops open at eight, and ______ open at {h}.",
   "key": "others",
-  "why": "No noun follows, so use others (= other people / other ones). Other needs a noun after it; another is only one.",
+  "why": "No noun after it: the rest of the shops: others.",
   "slots": {
    "h": [
     "nine",
@@ -1099,7 +1135,7 @@ export default [
   "instr": "Write another, other or others.",
   "source": "This {thing} is too small. Do you have any ______, {name}?",
   "key": "others",
-  "why": "No noun follows, so use others (= other people / other ones). Other needs a noun after it; another is only one.",
+  "why": "No noun after it: other ones: others.",
   "slots": {
    "thing": [
     "shirt",
@@ -1127,7 +1163,7 @@ export default [
   "source": "Can I have other {drink}, {name}?",
   "hint": "Can I have ______ {drink}, {name}?",
   "key": "another",
-  "why": "One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.",
+  "why": "Singular noun: another, not other.",
   "slots": {
    "drink": [
     "cup of tea",
@@ -1155,7 +1191,7 @@ export default [
   "source": "Others people think the {plan} is a good idea, {name}.",
   "hint": "______ people think the {plan} is a good idea, {name}.",
   "key": "Other",
-  "why": "Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.",
+  "why": "Before a noun, other has no -s: Other people.",
   "slots": {
    "plan": [
     "trip",
@@ -1183,7 +1219,7 @@ export default [
   "source": "I want to read another books by this {who}, {name}.",
   "hint": "I want to read ______ books by this {who}, {name}.",
   "key": "other",
-  "why": "Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.",
+  "why": "Plural noun books: other, not another.",
   "slots": {
    "who": [
     "writer",
@@ -1211,7 +1247,7 @@ export default [
   "source": "Let's try an other way to {do}, {name}.",
   "hint": "Let's try ______ way to {do}, {name}.",
   "key": "another",
-  "why": "One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.",
+  "why": "another is one word: another way.",
   "slots": {
    "do": [
     "get there",
@@ -1239,7 +1275,7 @@ export default [
   "source": "Some people walk to {place}; other take the bus, {name}.",
   "hint": "Some people walk to {place}; ______ take the bus, {name}.",
   "key": "others",
-  "why": "No noun follows, so use others (= other people / other ones). Other needs a noun after it; another is only one.",
+  "why": "No noun after it: others, not other.",
   "slots": {
    "place": [
     "work",
@@ -1267,7 +1303,7 @@ export default [
   "source": "Can I have one more {food}, {name}?",
   "hint": "Can I have ______ {food}, {name}?",
   "key": "another",
-  "why": "One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.",
+  "why": "one more = another.",
   "slots": {
    "food": [
     "samsa",
@@ -1295,7 +1331,7 @@ export default [
   "source": "I need one more day to finish the {work}, {name}.",
   "hint": "I need ______ day to finish the {work}, {name}.",
   "key": "another",
-  "why": "One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.",
+  "why": "one more day = another day.",
   "slots": {
    "work": [
     "project",
@@ -1323,7 +1359,7 @@ export default [
   "source": "Let's wait for one more {time}, {name}.",
   "hint": "Let's wait for ______ {time}, {name}.",
   "key": "another",
-  "why": "One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.",
+  "why": "one more = another.",
   "slots": {
    "time": [
     "minute",
@@ -1351,7 +1387,7 @@ export default [
   "source": "There's one more {thing} in the fridge, {name}.",
   "hint": "There's ______ {thing} in the fridge, {name}.",
   "key": "another",
-  "why": "One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.",
+  "why": "one more = another.",
   "slots": {
    "thing": [
     "egg",
@@ -1379,7 +1415,7 @@ export default [
   "source": "We'll stay for two more days in {city}.",
   "hint": "We'll stay for ______ two days in {city}.",
   "key": "another",
-  "why": "One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.",
+  "why": "two more days = another two days.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1401,7 +1437,7 @@ export default [
   "source": "Do you have this {thing} in any different colours, {name}?",
   "hint": "Do you have this {thing} in any ______ colours, {name}?",
   "key": "other",
-  "why": "Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.",
+  "why": "different colours = other colours.",
   "slots": {
    "thing": [
     "shirt",
@@ -1429,7 +1465,7 @@ export default [
   "source": "Some students like grammar. Some students like {skill} more, {name}.",
   "hint": "Some students like grammar; ______ like {skill} more, {name}.",
   "key": "others",
-  "why": "No noun follows, so use others (= other people / other ones). Other needs a noun after it; another is only one.",
+  "why": "Some students …; the rest, no noun: others.",
   "slots": {
    "skill": [
     "speaking",
@@ -1457,7 +1493,7 @@ export default [
   "source": "Ask different people about the {thing}, not only me, {name}.",
   "hint": "Ask ______ people about the {thing}, not only me, {name}.",
   "key": "other",
-  "why": "Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.",
+  "why": "different people = other people.",
   "slots": {
    "thing": [
     "trip",
@@ -1485,7 +1521,7 @@ export default [
   "source": "Some days are hot, and some days are cold in {month}.",
   "hint": "Some days are hot, and ______ are cold in {month}.",
   "key": "others",
-  "why": "No noun follows, so use others (= other people / other ones). Other needs a noun after it; another is only one.",
+  "why": "Some days …; the rest, no noun: others.",
   "slots": {
    "month": [
     "March",
@@ -1507,7 +1543,7 @@ export default [
   "source": "Are there any more questions about the {topic}, {name}?",
   "hint": "Are there any ______ questions about the {topic}, {name}?",
   "key": "other",
-  "why": "Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.",
+  "why": "more questions = other questions.",
   "slots": {
    "topic": [
     "homework",
