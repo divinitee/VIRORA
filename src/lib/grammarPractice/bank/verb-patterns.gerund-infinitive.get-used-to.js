@@ -355,7 +355,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I'm getting used to ______ English at work, {name}.",
+  "prompt": "I'm getting used to ______ English at {where}, {name}.",
   "options": [
    "to speak",
    "speaking",
@@ -370,6 +370,12 @@ export default [
     "Akmal",
     "Malika",
     "Ulugbek"
+   ],
+   "where": [
+    "work",
+    "school",
+    "home",
+    "the café"
    ]
   }
  },
@@ -381,7 +387,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The baby still can't get used to ______ in her own {room}.",
+  "prompt": "The {kid} still can't get used to ______ in her own {room}.",
   "options": [
    "sleeping",
    "sleep",
@@ -396,6 +402,12 @@ export default [
     "bed",
     "cot",
     "bedroom"
+   ],
+   "kid": [
+    "baby",
+    "toddler",
+    "little girl",
+    "youngest child"
    ]
   }
  },
@@ -407,7 +419,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My dad got used to ______ at night when he was a {job}.",
+  "prompt": "My {rel} got used to ______ at night when he was a {job}.",
   "options": [
    "work",
    "worked",
@@ -422,6 +434,12 @@ export default [
     "nurse",
     "baker",
     "guard"
+   ],
+   "rel": [
+    "dad",
+    "uncle",
+    "grandpa",
+    "brother"
    ]
   }
  },
@@ -653,7 +671,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the right form of the verb in brackets.",
-  "source": "My cousin finally got used to ______ (drive) in {city}.",
+  "source": "My {rel} finally got used to ______ (drive) in {city}.",
   "key": "driving",
   "why": "got used to + -ing: driving.",
   "slots": {
@@ -662,6 +680,12 @@ export default [
     "Moscow",
     "Istanbul",
     "Dubai"
+   ],
+   "rel": [
+    "cousin",
+    "brother",
+    "aunt",
+    "friend"
    ]
   }
  },
@@ -674,7 +698,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the right form of the verb in brackets.",
-  "source": "Are you getting used to ______ (live) without your parents, {name}?",
+  "source": "Are you getting used to ______ (live) without your {who}, {name}?",
   "key": "living",
   "why": "getting used to + -ing: living.",
   "slots": {
@@ -683,6 +707,12 @@ export default [
     "Akmal",
     "Malika",
     "Ulugbek"
+   ],
+   "who": [
+    "parents",
+    "family",
+    "brothers",
+    "sisters"
    ]
   }
  },
@@ -749,15 +779,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the right form of the verb in brackets.",
-  "source": "We got used to ______ (eat) spicy food in {country}.",
+  "source": "We got used to ______ (eat) {adj} food in {country}.",
   "key": "eating",
-  "why": "got used to + -ing: eating.",
+  "why": "New food habits: got used to + eating.",
   "slots": {
    "country": [
     "India",
     "Thailand",
     "Mexico",
     "Korea"
+   ],
+   "adj": [
+    "spicy",
+    "sour",
+    "sweet",
+    "salty"
    ]
   }
  },
@@ -770,7 +806,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the right form of the verb in brackets.",
-  "source": "My mum is getting used to ______ (work) from home, {name}.",
+  "source": "My {rel} is getting used to ______ (work) from home, {name}.",
   "key": "working",
   "why": "getting used to + -ing: working.",
   "slots": {
@@ -779,6 +815,12 @@ export default [
     "Sardor",
     "Feruza",
     "Otabek"
+   ],
+   "rel": [
+    "mum",
+    "dad",
+    "aunt",
+    "sister"
    ]
   }
  },
@@ -818,7 +860,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the right form of the verb in brackets.",
-  "source": "Grandpa never got used to ______ (take) his {pills} every day.",
+  "source": "Grandpa never got used to ______ (take) his {pills} every {per}.",
   "key": "taking",
   "why": "got used to + -ing: taking.",
   "slots": {
@@ -827,6 +869,12 @@ export default [
     "vitamins",
     "medicine",
     "drops"
+   ],
+   "per": [
+    "day",
+    "morning",
+    "evening",
+    "night"
    ]
   }
  },
@@ -841,7 +889,7 @@ export default [
   "instr": "Complete with the right form of the verb in brackets.",
   "source": "It's hard to get used to ______ (wear) a {thing} all day, {name}.",
   "key": "wearing",
-  "why": "get used to + -ing: wearing.",
+  "why": "\"all day\" is hard at first: used to + wearing.",
   "slots": {
    "thing": [
     "helmet",
@@ -893,7 +941,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the right form of the verb in brackets.",
-  "source": "My brother got used to ______ (cook) for himself at {place}.",
+  "source": "My {rel} got used to ______ (cook) for himself at {place}.",
   "key": "cooking",
   "why": "got used to + -ing: cooking.",
   "slots": {
@@ -902,6 +950,12 @@ export default [
     "college",
     "work",
     "camp"
+   ],
+   "rel": [
+    "brother",
+    "cousin",
+    "uncle",
+    "son"
    ]
   }
  },
@@ -1022,7 +1076,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with get / got / getting + used to.",
-  "source": "My little sister quickly ______ her new {school} last year.",
+  "source": "My little {rel} quickly ______ her new {school} last year.",
   "key": "got used to",
   "why": "\"Quickly … last year\" = past: got used to.",
   "slots": {
@@ -1031,6 +1085,12 @@ export default [
     "teacher",
     "classmates",
     "kindergarten"
+   ],
+   "rel": [
+    "sister",
+    "cousin",
+    "daughter",
+    "niece"
    ]
   }
  },
@@ -1097,7 +1157,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with get / got / getting + used to.",
-  "source": "After two weeks in {country}, we ______ the time difference.",
+  "source": "After {n} weeks in {country}, we ______ the time difference.",
   "key": "got used to",
   "why": "\"After two weeks\" in the past: got used to.",
   "slots": {
@@ -1106,6 +1166,12 @@ export default [
     "Canada",
     "Brazil",
     "Australia"
+   ],
+   "n": [
+    "two",
+    "three",
+    "four",
+    "five"
    ]
   }
  },
@@ -1177,7 +1243,7 @@ export default [
   "source": "We are getting used to live in a small {home}, {name}.",
   "hint": "We are getting used to ______ in a small {home}, {name}.",
   "key": "living",
-  "why": "getting used to + -ing: living.",
+  "why": "to here is a preposition, so -ing: living, not live.",
   "slots": {
    "home": [
     "flat",
@@ -1233,7 +1299,7 @@ export default [
   "source": "My uncle never got used to work at night as a {job}, {name}.",
   "hint": "My uncle never got used to ______ at night as a {job}, {name}.",
   "key": "working",
-  "why": "got used to + -ing: working.",
+  "why": "to here is a preposition, so -ing: working, not work.",
   "slots": {
    "job": [
     "taxi driver",
