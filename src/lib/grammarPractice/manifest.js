@@ -1801,8 +1801,8 @@ export const PRACTICE_MANIFEST = {
   "level": "B1",
   "authored": 68,
   "stages": {
-   "choose": 296,
-   "build": 248,
+   "choose": 320,
+   "build": 320,
    "transform": 240,
    "create": 8,
    "express": 5

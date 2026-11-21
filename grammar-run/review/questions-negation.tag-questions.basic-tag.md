@@ -6,277 +6,277 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 1. You live near the **bazaar**, ______, **Timur**?  
    options: ✔ don't you · aren't you · doesn't you · isn't it  
-   why: Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.
+   why: Positive "You live", no helper: negative tag with do: don't you.
 
 2. Your sister works at the **bank**, ______, **Aziz**?  
    options: isn't she · don't she · doesn't it · ✔ doesn't she  
-   why: Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.
+   why: Positive "works" (she): doesn't she.
 
-3. Your cousins play **chess** on Saturdays, ______?  
+3. Your cousins play **chess** on **Fridays**, ______?  
    options: doesn't they · didn't they · ✔ don't they · aren't they  
-   why: Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.
+   why: Positive "play" (they): don't they.
 
-4. You saw the **news** last night, ______, **Aziz**?  
+4. You saw the **match** last night, ______, **Lola**?  
    options: hadn't you · ✔ didn't you · don't you · weren't you  
-   why: Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.
+   why: Positive past "saw": didn't you.
 
-5. **Kamila** called you **on Friday**, ______?  
+5. **Madina** called you **last night**, ______?  
    options: ✔ didn't she · doesn't she · wasn't she · didn't he  
-   why: Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.
+   why: Positive past "called" (she): didn't she.
 
-6. The **bank** is open **now**, ______?  
+6. The **bank** is open **until six**, ______?  
    options: doesn't it · wasn't it · isn't she · ✔ isn't it  
-   why: Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.
+   why: Positive "is": negative tag: isn't it.
 
-7. Your parents were at the **meeting** **on Friday**, ______?  
+7. Your parents were at the **concert** **yesterday**, ______?  
    options: wasn't they · aren't they · ✔ weren't they · didn't they  
-   why: Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.
+   why: Positive "were": weren't they.
 
-8. **Aziz** can **drive**, ______?  
+8. **Timur** can **swim**, ______?  
    options: can't she · ✔ can't he · doesn't he · isn't he  
-   why: Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.
+   why: Positive "can": can't he.
 
-9. You'll come to the **party**, ______, **Timur**?  
+9. You'll come to the **concert**, ______, **Aziz**?  
    options: ✔ won't you · don't you · will not you · aren't you  
-   why: Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.
+   why: Positive "'ll" (will): won't you.
 
-10. We've met before at a **party**, ______, **Timur**?  
+10. We've met before at a **concert**, ______, **Olga**?  
    options: didn't we · don't we · weren't we · ✔ haven't we  
-   why: Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.
+   why: Positive "'ve" (have): haven't we.
 
-11. **Lola** isn't coming **tonight**, ______?  
+11. **Olga** isn't coming **tonight**, ______?  
    options: does she · is it · ✔ is she · isn't she  
-   why: Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.
+   why: Negative "isn't": positive tag: is she.
 
-12. You don't eat **meat**, ______, **Lola**?  
+12. You don't eat **spicy food**, ______, **Lola**?  
    options: does you · ✔ do you · don't you · are you  
-   why: Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.
+   why: Negative "don't": positive tag: do you.
 
-13. Your brother doesn't speak **Chinese**, ______?  
+13. Your **uncle** doesn't speak **Russian**, ______?  
    options: ✔ does he · doesn't he · is he · do he  
-   why: Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.
+   why: Negative "doesn't": positive tag: does he.
 
-14. They didn't go to the **party** **last night**, ______?  
+14. They didn't go to the **meeting** **yesterday**, ______?  
    options: didn't they · do they · were they · ✔ did they  
-   why: Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.
+   why: Negative "didn't": positive tag: did they.
 
-15. The **bike** wasn't very expensive, ______, **Aziz**?  
+15. The **phone** wasn't very expensive, ______, **Timur**?  
    options: did it · is it · ✔ was it · wasn't it  
-   why: Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.
+   why: Negative "wasn't": positive tag: was it.
 
-16. You can't come **tonight**, ______, **Timur**?  
+16. You can't come **on Friday**, ______, **Olga**?  
    options: are you · ✔ can you · can't you · do you  
-   why: Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.
+   why: Negative "can't": positive tag: can you.
 
-17. The children aren't hungry **today**, ______, **Olga**?  
+17. The children aren't hungry **now**, ______, **Lola**?  
    options: ✔ are they · aren't they · do they · is it  
-   why: Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.
+   why: Negative "aren't": positive tag: are they.
 
-18. The bus won't be late **today**, ______, **Lola**?  
+18. The bus won't be late **tonight**, ______, **Aziz**?  
    options: won't it · does it · is it · ✔ will it  
-   why: Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.
+   why: Negative "won't": positive tag: will it.
 
-19. We haven't got any **bread**, ______, **Aziz**?  
+19. We haven't got any **eggs**, ______, **Olga**?  
    options: do we · are we · ✔ have we · haven't we  
-   why: Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.
+   why: Negative "haven't got": positive tag: have we.
 
-20. There isn't a **café** near here, ______, **Olga**?  
+20. There isn't a **pharmacy** near here, ______, **Lola**?  
    options: does there · ✔ is there · isn't there · is it  
-   why: Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.
+   why: Negative "There isn't": tag uses there: is there.
 
 ## build (20)
 
 1. _Write the question tag._  
-   **Olga** lives near the **river**, ______?  
+   **Lola** lives near the **bazaar**, ______?  
    key: doesn't she  
-   why: Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.
+   why: "lives" (she), no helper: doesn't she.
 
 2. _Write the question tag._  
-   Your brother works at the **hospital**, ______?  
+   Your **grandpa** works at the **bank**, ______?  
    key: doesn't he  
-   why: Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.
+   why: "works" (he), no helper: doesn't he.
 
 3. _Write the question tag._  
-   The shop opens at **nine**, ______, **Aziz**?  
+   The shop opens at **eight**, ______, **Lola**?  
    key: doesn't it  
-   why: Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.
+   why: "opens" (it), no helper: doesn't it.
 
 4. _Write the question tag._  
-   Your parents liked the **trip**, ______, **Aziz**?  
+   Your parents liked the **dinner**, ______, **Aziz**?  
    key: didn't they  
-   why: Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.
+   why: Past "liked": didn't they.
 
 5. _Write the question tag._  
-   **Rustam** was at the **wedding** yesterday, ______?  
+   **Bekzod** was at the **wedding** yesterday, ______?  
    key: wasn't he  
-   why: Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.
+   why: Past "was" (he): wasn't he.
 
 6. _Write the question tag._  
-   The **phone** is new, ______, **Timur**?  
+   The **laptop** is new, ______, **Timur**?  
    key: isn't it  
-   why: Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.
+   why: "is" (it): isn't it.
 
 7. _Write the question tag._  
-   Your cousins are from **Bukhara**, ______?  
+   Your **cousins** are from **Samarkand**, ______?  
    key: aren't they  
-   why: Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.
+   why: "are" (they): aren't they.
 
 8. _Write the question tag._  
-   **Kamila** can **cook**, ______?  
+   **Lola** can **swim**, ______?  
    key: can't she  
-   why: Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.
+   why: "can" (she): can't she.
 
 9. _Write the question tag._  
-   The train will be on time **today**, ______?  
+   The **bus** will be on time **today**, ______?  
    key: won't it  
-   why: Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.
+   why: "will be" (it): won't it.
 
 10. _Write the question tag._  
-   Your grandparents have got a **garden**, ______?  
+   Your **cousins** have got a **car**, ______?  
    key: haven't they  
-   why: Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.
+   why: "have got" (they): haven't they.
 
 11. _Write the question tag._  
-   **Timur** isn't at home **now**, ______?  
+   **Rustam** isn't at home **today**, ______?  
    key: is he  
-   why: Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.
+   why: "isn't" (he): is he.
 
 12. _Write the question tag._  
-   Your sister doesn't like **plov**, ______?  
+   Your **aunt** doesn't like **fish**, ______?  
    key: does she  
-   why: Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.
+   why: "doesn't like" (she): does she.
 
 13. _Write the question tag._  
-   The children didn't eat their **vegetables**, ______?  
+   The **twins** didn't eat their **vegetables**, ______?  
    key: did they  
-   why: Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.
+   why: "didn't eat" (they): did they.
 
 14. _Write the question tag._  
-   The **shop** wasn't open **last night**, ______?  
+   The **bank** wasn't open **on Sunday**, ______?  
    key: was it  
-   why: Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.
+   why: "wasn't" (it): was it.
 
 15. _Write the question tag._  
-   **Kamila** can't come to the **wedding**, ______?  
+   **Lola** can't come to the **party**, ______?  
    key: can she  
-   why: Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.
+   why: "can't" (she): can she.
 
 16. _Write the question tag._  
-   Your friends aren't coming **today**, ______, **Olga**?  
+   Your friends aren't coming **tomorrow**, ______, **Aziz**?  
    key: are they  
-   why: Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.
+   why: "aren't" (they): are they.
 
 17. _Write the question tag._  
    The bus doesn't stop at the **museum**, ______, **Lola**?  
    key: does it  
-   why: Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.
+   why: "doesn't stop" (it): does it.
 
 18. _Write the question tag._  
-   **Timur** won't forget the **keys**, ______?  
+   **Rustam** won't forget the **map**, ______?  
    key: will he  
-   why: Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.
+   why: "won't" (he): will he.
 
 19. _Write the question tag._  
-   Your uncle hasn't seen the **video**, ______, **Aziz**?  
+   Your uncle hasn't seen the **new house**, ______, **Lola**?  
    key: has he  
-   why: Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.
+   why: "hasn't seen" (he): has he.
 
 20. _Write the question tag._  
-   The tickets weren't expensive **for the concert**, ______, **Aziz**?  
+   The tickets weren't expensive **for the concert**, ______, **Timur**?  
    key: were they  
-   why: Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.
+   why: "weren't" (they): were they.
 
 ## transform (15)
 
 1. _Correct the question tag._  
-   Your sister works at the **hospital**, isn't she, **Lola**?  
-   → Your sister works at the **hospital**, ______, **Lola**?  
+   Your sister works at the **hotel**, isn't she, **Aziz**?  
+   → Your sister works at the **hotel**, ______, **Aziz**?  
    key: doesn't she  
-   why: Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.
+   why: "works" has no be: tag with does: doesn't she.
 
 2. _Correct the question tag._  
-   **Rustam** went to **Termez** last week, doesn't he?  
-   → **Rustam** went to **Termez** last week, ______?  
+   **Timur** went to **Bukhara** last week, doesn't he?  
+   → **Timur** went to **Bukhara** last week, ______?  
    key: didn't he  
-   why: Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.
+   why: "went" is past: didn't he.
 
 3. _Correct the question tag._  
-   The **clock** is broken, doesn't it, **Lola**?  
-   → The **clock** is broken, ______, **Lola**?  
+   The **printer** is broken, doesn't it, **Olga**?  
+   → The **printer** is broken, ______, **Olga**?  
    key: isn't it  
-   why: Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.
+   why: "is broken": tag with be: isn't it.
 
 4. _Correct the question tag._  
    Your parents aren't at home **tonight**, aren't they, **Timur**?  
    → Your parents aren't at home **tonight**, ______, **Timur**?  
    key: are they  
-   why: Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.
+   why: Negative sentence: positive tag: are they.
 
 5. _Correct the question tag._  
-   **Madina** can't come **tomorrow**, can't she?  
-   → **Madina** can't come **tomorrow**, ______?  
+   **Lola** can't come **this weekend**, can't she?  
+   → **Lola** can't come **this weekend**, ______?  
    key: can she  
-   why: Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.
+   why: Negative sentence: positive tag: can she.
 
 6. _Make the statement negative and change the tag._  
-   Your brother eats **fish**, doesn't he, **Olga**?  
-   → Your brother ______ eat **fish**, ______, **Olga**?  
+   Your brother eats **meat**, doesn't he, **Olga**?  
+   → Your brother ______ eat **meat**, ______, **Olga**?  
    key: doesn't + does he  
-   why: Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.
+   why: Positive tag → negative sentence: doesn't, does he.
 
 7. _Make the statement negative and change the tag._  
-   **Olga** is at the **library**, isn't she?  
-   → **Olga** ______ at the **library**, ______?  
+   **Madina** is at the **library**, isn't she?  
+   → **Madina** ______ at the **library**, ______?  
    key: isn't + is she  
-   why: Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.
+   why: Positive tag → negative sentence: isn't, is she.
 
 8. _Make the statement negative and change the tag._  
-   The children liked the **food**, didn't they, **Timur**?  
-   → The children ______ like the **food**, ______, **Timur**?  
+   The children liked the **film**, didn't they, **Lola**?  
+   → The children ______ like the **film**, ______, **Lola**?  
    key: didn't + did they  
-   why: Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.
+   why: Positive tag → negative sentence: didn't, did they.
 
 9. _Make the statement negative and change the tag._  
    Your friends will come **tomorrow**, won't they, **Lola**?  
    → Your friends ______ come **tomorrow**, ______, **Lola**?  
    key: won't + will they  
-   why: Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.
+   why: Positive tag → negative sentence: won't, will they.
 
 10. _Make the statement negative and change the tag._  
-   The **bazaar** was busy **last night**, wasn't it?  
-   → The **bazaar** ______ busy **last night**, ______?  
+   The **station** was busy **last night**, wasn't it?  
+   → The **station** ______ busy **last night**, ______?  
    key: wasn't + was it  
-   why: Negative statement → positive tag, with the same auxiliary and a pronoun for the subject.
+   why: Positive tag → negative sentence: wasn't, was it.
 
 11. _Make the statement positive and change the tag._  
-   Your cousin doesn't live in **Khiva**, does she, **Olga**?  
-   → Your cousin ______ in **Khiva**, ______, **Olga**?  
+   Your cousin doesn't live in **Samarkand**, does she, **Lola**?  
+   → Your cousin ______ in **Samarkand**, ______, **Lola**?  
    key: lives + doesn't she  
-   why: Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.
+   why: Negative tag → positive sentence: lives, doesn't she.
 
 12. _Make the statement positive and change the tag._  
-   **Aziz** didn't call **last week**, did he?  
-   → **Aziz** ______ **last week**, ______?  
+   **Rustam** didn't call **last night**, did he?  
+   → **Rustam** ______ **last night**, ______?  
    key: called + didn't he  
-   why: Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.
+   why: Negative tag → positive sentence: called, didn't he.
 
 13. _Make the statement positive and change the tag._  
-   The bus isn't late **again**, is it, **Lola**?  
-   → The bus ______ late **again**, ______, **Lola**?  
+   The bus isn't late **today**, is it, **Aziz**?  
+   → The bus ______ late **today**, ______, **Aziz**?  
    key: is + isn't it  
-   why: Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.
+   why: Negative tag → positive sentence: is, isn't it.
 
 14. _Make the statement positive and change the tag._  
-   Your parents can't drive a **bus**, can they, **Olga**?  
-   → Your parents ______ drive a **bus**, ______, **Olga**?  
+   Your parents can't drive a **bus**, can they, **Timur**?  
+   → Your parents ______ drive a **bus**, ______, **Timur**?  
    key: can + can't they  
-   why: Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.
+   why: Negative tag → positive sentence: can, can't they.
 
 15. _Make the statement positive and change the tag._  
-   The **tickets** weren't cheap, were they, **Lola**?  
-   → The **tickets** ______ cheap, ______, **Lola**?  
+   The **flowers** weren't cheap, were they, **Lola**?  
+   → The **flowers** ______ cheap, ______, **Lola**?  
    key: were + weren't they  
-   why: Positive statement → negative tag. Use the same auxiliary (do / does / did for a main verb) and a pronoun for the subject.
+   why: Negative tag → positive sentence: were, weren't they.
 
 ## create (8)
 
