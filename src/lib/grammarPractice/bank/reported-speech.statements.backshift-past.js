@@ -393,12 +393,12 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "'Someone stole my {thing},' {m} said. He said someone ______ his {thing}.",
+  "prompt": "'Someone took my {thing} by mistake,' {m} said. He said someone ______ his {thing} by mistake.",
   "options": [
-   "had stolen",
-   "has stolen",
-   "had stole",
-   "have stolen"
+   "had taken",
+   "has taken",
+   "had took",
+   "have taken"
   ],
   "key": 0,
   "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
@@ -649,7 +649,7 @@ export default [
   "level": "B1",
   "stage": "build",
   "format": "gap_fill",
-  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "instr": "Report it. Use the past perfect (had + past participle) of the verb in brackets.",
   "source": "'The film began at six,' {m} said. He said the film ______ (begin) at six, {f}.",
   "key": "had begun",
   "acceptable": [
@@ -679,7 +679,7 @@ export default [
   "level": "B1",
   "stage": "build",
   "format": "gap_fill",
-  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "instr": "Report it. Use the past perfect (had + past participle) of the verb in brackets.",
   "source": "'I flew to {city},' {f} said. She said she ______ (fly) to {city}.",
   "key": "had flown",
   "acceptable": [
@@ -709,7 +709,7 @@ export default [
   "level": "B1",
   "stage": "build",
   "format": "gap_fill",
-  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "instr": "Report it. Use the past perfect (had + past participle) of the verb in brackets.",
   "source": "'I rode a horse in the {place},' {m} said. He said he ______ (ride) a horse in the {place}.",
   "key": "had ridden",
   "acceptable": [
@@ -739,7 +739,7 @@ export default [
   "level": "B1",
   "stage": "build",
   "format": "gap_fill",
-  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "instr": "Report it. Use the past perfect (had + past participle) of the verb in brackets.",
   "source": "'We sang at the {event},' the {who} said. They said they ______ (sing) at the {event}.",
   "key": "had sung",
   "acceptable": [
@@ -769,7 +769,7 @@ export default [
   "level": "B1",
   "stage": "build",
   "format": "gap_fill",
-  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "instr": "Report it. Use the past perfect (had + past participle) of the verb in brackets.",
   "source": "'I drew a {thing},' {f} said. She said she ______ (draw) a {thing}.",
   "key": "had drawn",
   "acceptable": [
@@ -799,7 +799,7 @@ export default [
   "level": "B1",
   "stage": "build",
   "format": "gap_fill",
-  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "instr": "Report it. Use the past perfect (had + past participle) of the verb in brackets.",
   "source": "'I hid the {thing},' {m} said. He said he ______ (hide) the {thing}.",
   "key": "had hidden",
   "acceptable": [
@@ -829,7 +829,7 @@ export default [
   "level": "B1",
   "stage": "build",
   "format": "gap_fill",
-  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "instr": "Report it. Use the past perfect (had + past participle) of the verb in brackets.",
   "source": "'I threw the ball over the {place},' {m} said. He said he ______ (throw) the ball over the {place}.",
   "key": "had thrown",
   "acceptable": [
@@ -859,7 +859,7 @@ export default [
   "level": "B1",
   "stage": "build",
   "format": "gap_fill",
-  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "instr": "Report it. Use the past perfect (had + past participle) of the verb in brackets.",
   "source": "'I saw your {who} at the bazaar,' {f} said. She said she ______ (see) my {who} at the bazaar.",
   "key": "had seen",
   "acceptable": [
@@ -889,7 +889,7 @@ export default [
   "level": "B1",
   "stage": "build",
   "format": "gap_fill",
-  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "instr": "Report it. Use the past perfect (had + past participle) of the verb in brackets.",
   "source": "'I went to the {place},' {m} said. He said he ______ (go) to the {place}.",
   "key": "had gone",
   "acceptable": [
@@ -919,7 +919,7 @@ export default [
   "level": "B1",
   "stage": "build",
   "format": "gap_fill",
-  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "instr": "Report it. Use the past perfect (had + past participle) of the verb in brackets.",
   "source": "'We ate at the new {place},' my {who} said. They said they ______ (eat) at the new {place}.",
   "key": "had eaten",
   "acceptable": [
@@ -949,7 +949,7 @@ export default [
   "level": "B1",
   "stage": "build",
   "format": "gap_fill",
-  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "instr": "Report it. Use the past perfect (had + past participle) of the verb in brackets.",
   "source": "'I took a lot of photos in {city},' {f} said. She said she ______ (take) a lot of photos in {city}.",
   "key": "had taken",
   "acceptable": [
@@ -979,7 +979,7 @@ export default [
   "level": "B1",
   "stage": "build",
   "format": "gap_fill",
-  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "instr": "Report it. Use the past perfect (had + past participle) of the verb in brackets.",
   "source": "'I wrote to the {who},' {m} said. He said he ______ (write) to the {who}.",
   "key": "had written",
   "acceptable": [
@@ -1009,7 +1009,7 @@ export default [
   "level": "B1",
   "stage": "build",
   "format": "gap_fill",
-  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "instr": "Report it. Use the past perfect (had + past participle) of the verb in brackets.",
   "source": "'I forgot her {thing},' {f} said. She said she ______ (forget) her {thing}.",
   "key": "had forgotten",
   "acceptable": [
@@ -1039,7 +1039,7 @@ export default [
   "level": "B1",
   "stage": "build",
   "format": "gap_fill",
-  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "instr": "Report it. Use the past perfect (had + past participle) of the verb in brackets.",
   "source": "'I broke my {part},' {m} said. He said he ______ (break) his {part}.",
   "key": "had broken",
   "acceptable": [
@@ -1069,7 +1069,7 @@ export default [
   "level": "B1",
   "stage": "build",
   "format": "gap_fill",
-  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "instr": "Report it. Use the past perfect (had + past participle) of the verb in brackets.",
   "source": "'I gave my old {thing} away,' {f} said. She said she ______ (give) her old {thing} away.",
   "key": "had given",
   "acceptable": [
@@ -1099,8 +1099,8 @@ export default [
   "level": "B1",
   "stage": "build",
   "format": "gap_fill",
-  "instr": "Report it. Use had + the past participle of the verb in brackets.",
-  "source": "'We spoke {lang} in {city},' the {who} said. They said they ______ (speak) {lang} in {city}.",
+  "instr": "Report it. Use the past perfect (had + past participle) of the verb in brackets.",
+  "source": "'We spoke {lang} on the trip,' the {who} said. They said they ______ (speak) {lang} on the trip.",
   "key": "had spoken",
   "acceptable": [
    "spoke"
@@ -1118,12 +1118,6 @@ export default [
     "Russian",
     "Turkish",
     "Korean"
-   ],
-   "city": [
-    "Istanbul",
-    "Moscow",
-    "Seoul",
-    "London"
    ]
   }
  },
@@ -1135,7 +1129,7 @@ export default [
   "level": "B1",
   "stage": "build",
   "format": "gap_fill",
-  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "instr": "Report it. Use the past perfect (had + past participle) of the verb in brackets.",
   "source": "'I fell asleep in the {place},' {m} said. He said he ______ (fall) asleep in the {place}.",
   "key": "had fallen",
   "acceptable": [
@@ -1165,7 +1159,7 @@ export default [
   "level": "B1",
   "stage": "build",
   "format": "gap_fill",
-  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "instr": "Report it. Use the past perfect (had + past participle) of the verb in brackets.",
   "source": "'I drove all night,' {f} said. She said she ______ (drive) all night, {m}.",
   "key": "had driven",
   "acceptable": [
@@ -1195,19 +1189,19 @@ export default [
   "level": "B1",
   "stage": "build",
   "format": "gap_fill",
-  "instr": "Report it. Use had + the past participle of the verb in brackets.",
-  "source": "'Somebody stole our {thing},' the {who} said. They said somebody ______ (steal) their {thing}.",
-  "key": "had stolen",
+  "instr": "Report it. Use the past perfect (had + past participle) of the verb in brackets.",
+  "source": "'Somebody took our {thing} by mistake,' the {who} said. They said somebody ______ (take) their {thing} by mistake.",
+  "key": "had taken",
   "acceptable": [
-   "stole"
+   "took"
   ],
   "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
   "slots": {
    "thing": [
-    "car",
+    "coats",
     "bikes",
     "bags",
-    "money"
+    "umbrellas"
    ],
    "who": [
     "tourists",
@@ -1225,7 +1219,7 @@ export default [
   "level": "B1",
   "stage": "build",
   "format": "gap_fill",
-  "instr": "Report it. Use had + the past participle of the verb in brackets.",
+  "instr": "Report it. Use the past perfect (had + past participle) of the verb in brackets.",
   "source": "'I wore a suit to the {event},' {m} said. He said he ______ (wear) a suit to the {event}.",
   "key": "had worn",
   "acceptable": [
@@ -1260,7 +1254,8 @@ export default [
   "hint": "{m} said that ______ to the {place}.",
   "key": "he had gone",
   "acceptable": [
-   "he went"
+   "he went",
+   "he'd gone"
   ],
   "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
   "slots": {
@@ -1291,7 +1286,8 @@ export default [
   "hint": "{f} said that ______ the {film}.",
   "key": "she had seen",
   "acceptable": [
-   "she saw"
+   "she saw",
+   "she'd seen"
   ],
   "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
   "slots": {
@@ -1322,7 +1318,8 @@ export default [
   "hint": "The {who} said that ______ all the {food}.",
   "key": "they had eaten",
   "acceptable": [
-   "they ate"
+   "they ate",
+   "they'd eaten"
   ],
   "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
   "slots": {
@@ -1353,7 +1350,8 @@ export default [
   "hint": "{m} said that ______ his {thing}.",
   "key": "he had forgotten",
   "acceptable": [
-   "he forgot"
+   "he forgot",
+   "he'd forgotten"
   ],
   "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
   "slots": {
@@ -1384,7 +1382,8 @@ export default [
   "hint": "{f} said that ______ the {thing}.",
   "key": "she had broken",
   "acceptable": [
-   "she broke"
+   "she broke",
+   "she'd broken"
   ],
   "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
   "slots": {

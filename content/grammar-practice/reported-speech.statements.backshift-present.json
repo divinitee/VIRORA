@@ -519,7 +519,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Last week {m} said, 'My {car} doesn't work.' He said his {car} ______ work.",
+  "prompt": "Last week {m} said, 'My {car} doesn't work.' He said his {car} ______ work, but it works now.",
   "options": [
    "didn't",
    "doesn't",
@@ -615,7 +615,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Last week the {who} said, 'The {thing} is broken.' She said the {thing} ______ broken.",
+  "prompt": "Last week the {who} said, 'The {thing} is broken.' She said the {thing} ______ broken. They fixed it on Friday.",
   "options": [
    "has been",
    "was",
@@ -1080,7 +1080,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Report it. Put the words in brackets one step into the past.",
-  "source": "Last week {m} said his {car} ______ (doesn't) work.",
+  "source": "Last week {m} said his {car} ______ (doesn't) work. He fixed it the next day.",
   "key": "didn't",
   "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
   "slots": {
@@ -1161,7 +1161,7 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Report it. Put the words in brackets one step into the past.",
-  "source": "Last week the {who} said the {thing} ______ (is) broken.",
+  "source": "Last week the {who} said the {thing} ______ (is) broken. It works again now.",
   "key": "was",
   "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
   "slots": {
@@ -1469,7 +1469,7 @@
   "format": "rewrite",
   "instr": "Report the words. Change my / our and the verb.",
   "source": "'My {thing} is broken,' {m} said yesterday.",
-  "hint": "Yesterday {m} said that ______ {thing} ______ broken.",
+  "hint": "Yesterday {m} said that ______ {thing} ______ broken. It is fine again now.",
   "key": [
    "his",
    "was"
@@ -1531,7 +1531,7 @@
   "format": "rewrite",
   "instr": "Report the words. Change my / our and the verb.",
   "source": "'Our {car} doesn't work,' the {who} said last week.",
-  "hint": "Last week the {who} said that ______ {car} ______ work.",
+  "hint": "Last week the {who} said that ______ {car} ______ work. Now it works again.",
   "key": [
    "their",
    "didn't"
