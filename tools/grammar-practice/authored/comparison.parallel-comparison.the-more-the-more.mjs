@@ -137,5 +137,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/comparison.parallel-comparison.the-more-the-more.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "Practice goes up, skill goes up: the + better.",
+   "Longer wait, more anger: the + angrier.",
+   "Less sleep, more tired: The less.",
+   "Hotter weather, more drinking: the more water.",
+   "More reading, more words: The more.",
+   "Earlier start, sooner arrival: the sooner.",
+   "Bigger size, higher price: the more it costs.",
+   "Older age, more wisdom: the wiser.",
+   "Faster driving, more danger: the more dangerous.",
+   "More eating, more thirst: thirsty → the thirstier.",
+   "More smiles, kinder people: the nicer.",
+   "More training, a better team: The more.",
+   "Colder weather, more layers: the more clothes.",
+   "Spend less, save more: the more.",
+   "More work, more tiredness: the more tired.",
+   "Harder study, a higher mark: the higher.",
+   "Scarier film, more liking: scary → The scarier.",
+   "More people, more fun: the more fun.",
+   "Faster speech, harder to follow: the harder.",
+   "Cheaper price, more buyers: the more."
+  ],
+  "build": [
+   "much → more, good → better: The more … the better.",
+   "long → longer, angry → angrier.",
+   "little → less, tired → more tired.",
+   "hot → hotter, much → more.",
+   "early → earlier, soon → sooner.",
+   "big → bigger, expensive → more expensive.",
+   "old → older, wise → wiser.",
+   "fast → faster, dangerous → more dangerous.",
+   "much → more, easy → easier.",
+   "cold → colder, warm → warmer.",
+   "hard → harder, high → higher.",
+   "near → nearer, nervous → more nervous.",
+   "many → more, fun → more fun.",
+   "little → less, much → more.",
+   "fast → faster, difficult → more difficult.",
+   "scary → scarier, much → more.",
+   "high → higher, cold → colder.",
+   "much → more, thirsty → thirstier.",
+   "loud → louder, happy → happier.",
+   "much → more, strong → stronger."
+  ],
+  "transform": [
+   "If more …, better …: The more … the better.",
+   "If earlier …, sooner …: The earlier … the sooner.",
+   "If more …, easier …: The more … the easier.",
+   "If less …, more …: The less … the more.",
+   "If faster …, more dangerous …: The faster … the more dangerous.",
+   "Both halves need the: the better.",
+   "Not more angrier: the angrier.",
+   "The first half needs The too: The more.",
+   "more, not most: the more.",
+   "many people → The more, not The much.",
+   "As … older, … wiser: The older … the wiser.",
+   "As … higher, … colder: The higher … the colder.",
+   "As … later, … more tired: The later … the more tired.",
+   "As … trains more, … stronger: The more … the stronger.",
+   "As … louder, … happier: The louder … the happier."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);
