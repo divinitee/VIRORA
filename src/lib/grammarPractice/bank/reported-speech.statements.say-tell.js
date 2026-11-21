@@ -17,7 +17,7 @@ export default [
    "told to"
   ],
   "key": 0,
-  "why": "No person after the verb: say (said that …, said hello).",
+  "why": "No listener after the gap, just that: said.",
   "slots": {
    "m": [
     "Aziz",
@@ -49,7 +49,7 @@ export default [
    "said"
   ],
   "key": 3,
-  "why": "No person after the verb: say (said that …, said hello).",
+  "why": "No listener after the gap: said she was tired.",
   "slots": {
    "f": [
     "Olga",
@@ -81,7 +81,7 @@ export default [
    "told"
   ],
   "key": 2,
-  "why": "No person after the verb: say (said that …, said hello).",
+  "why": "No listener, just that: said.",
   "slots": {
    "who": [
     "man",
@@ -113,7 +113,7 @@ export default [
    "said me"
   ],
   "key": 1,
-  "why": "No person after the verb: say (said that …, said hello).",
+  "why": "No listener, just it would rain: said.",
   "slots": {
    "who": [
     "dad",
@@ -145,7 +145,7 @@ export default [
    "told to"
   ],
   "key": 0,
-  "why": "No person after the verb: say (said that …, said hello).",
+  "why": "Before the exact words 'I'm hungry': said.",
   "slots": {
    "m": [
     "Aziz",
@@ -177,7 +177,7 @@ export default [
    "said"
   ],
   "key": 3,
-  "why": "No person after the verb: say (said that …, said hello).",
+  "why": "No listener after the gap: said the … was.",
   "slots": {
    "food": [
     "plov",
@@ -209,7 +209,7 @@ export default [
    "told"
   ],
   "key": 2,
-  "why": "No person after the verb: say (said that …, said hello).",
+  "why": "No listener, just that: said.",
   "slots": {
    "day": [
     "Monday",
@@ -241,7 +241,7 @@ export default [
    "said me"
   ],
   "key": 1,
-  "why": "No person after the verb: say (said that …, said hello).",
+  "why": "Fixed phrase say hello: said hello.",
   "slots": {
    "f": [
     "Olga",
@@ -273,7 +273,7 @@ export default [
    "tell to"
   ],
   "key": 0,
-  "why": "No person after the verb: say (said that …, said hello).",
+  "why": "After did, base form, no listener: say.",
   "slots": {
    "who": [
     "doctor",
@@ -305,7 +305,7 @@ export default [
    "said"
   ],
   "key": 3,
-  "why": "No person after the verb: say (said that …, said hello).",
+  "why": "Fixed phrase say goodbye: said goodbye.",
   "slots": {
    "m": [
     "Aziz",
@@ -337,7 +337,7 @@ export default [
    "said"
   ],
   "key": 2,
-  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "why": "A listener (me) after the gap: told me.",
   "slots": {
    "f": [
     "Olga",
@@ -369,7 +369,7 @@ export default [
    "told to"
   ],
   "key": 1,
-  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "why": "tell a story: told us a story.",
   "slots": {
    "m": [
     "Aziz",
@@ -401,7 +401,7 @@ export default [
    "talked"
   ],
   "key": 0,
-  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "why": "A listener (my …) after the gap: told.",
   "slots": {
    "who": [
     "dad",
@@ -433,7 +433,7 @@ export default [
    "told"
   ],
   "key": 3,
-  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "why": "A listener (you) after the gap: told you.",
   "slots": {
    "event": [
     "party",
@@ -465,7 +465,7 @@ export default [
    "said"
   ],
   "key": 2,
-  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "why": "Fixed phrase tell the truth: told.",
   "slots": {
    "f": [
     "Olga",
@@ -497,7 +497,7 @@ export default [
    "told to"
   ],
   "key": 1,
-  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "why": "tell a secret, with a listener (me): told.",
   "slots": {
    "who": [
     "sister",
@@ -529,7 +529,7 @@ export default [
    "talked"
   ],
   "key": 0,
-  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "why": "tell a story, with a listener (the children): told.",
   "slots": {
    "who": [
     "teacher",
@@ -561,7 +561,7 @@ export default [
    "told"
   ],
   "key": 3,
-  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "why": "A listener (me) after the gap: told me.",
   "slots": {
    "m": [
     "Aziz",
@@ -593,7 +593,7 @@ export default [
    "say"
   ],
   "key": 2,
-  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "why": "After did, base form, a listener follows: tell.",
   "slots": {
    "who": [
     "Timur",
@@ -625,7 +625,7 @@ export default [
    "told to"
   ],
   "key": 1,
-  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "why": "tell someone the way: told him the way.",
   "slots": {
    "place": [
     "station",
@@ -652,7 +652,7 @@ export default [
   "instr": "Write said or told (or say / tell).",
   "source": "{m} ______ that he was busy on {day}.",
   "key": "said",
-  "why": "No person after the verb: say (said that …, said hello).",
+  "why": "No person after the gap, just that: said.",
   "slots": {
    "m": [
     "Aziz",
@@ -679,7 +679,7 @@ export default [
   "instr": "Write said or told (or say / tell).",
   "source": "{f} ______ the {thing} was too expensive.",
   "key": "said",
-  "why": "No person after the verb: say (said that …, said hello).",
+  "why": "No person after the gap: said the … was.",
   "slots": {
    "f": [
     "Olga",
@@ -706,7 +706,7 @@ export default [
   "instr": "Write said or told (or say / tell).",
   "source": "The {who} ______ that the {bus} was late.",
   "key": "said",
-  "why": "No person after the verb: say (said that …, said hello).",
+  "why": "No person, just that: said.",
   "slots": {
    "who": [
     "driver",
@@ -733,7 +733,7 @@ export default [
   "instr": "Write said or told (or say / tell).",
   "source": "My {who} ______ the {plan} was a good idea.",
   "key": "said",
-  "why": "No person after the verb: say (said that …, said hello).",
+  "why": "No person after the gap: said the … was.",
   "slots": {
    "who": [
     "dad",
@@ -760,7 +760,7 @@ export default [
   "instr": "Write said or told (or say / tell).",
   "source": "Everyone ______ the {event} was great, {m}.",
   "key": "said",
-  "why": "No person after the verb: say (said that …, said hello).",
+  "why": "No person after the gap: everyone said.",
   "slots": {
    "event": [
     "wedding",
@@ -787,7 +787,7 @@ export default [
   "instr": "Write said or told (or say / tell).",
   "source": "{m} ______ sorry and helped me with the {thing}.",
   "key": "said",
-  "why": "No person after the verb: say (said that …, said hello).",
+  "why": "Fixed phrase say sorry: said.",
   "slots": {
    "m": [
     "Aziz",
@@ -814,7 +814,7 @@ export default [
   "instr": "Write said or told (or say / tell).",
   "source": "{f} ______ she liked {food}.",
   "key": "said",
-  "why": "No person after the verb: say (said that …, said hello).",
+  "why": "No person after the gap: said she liked.",
   "slots": {
    "f": [
     "Olga",
@@ -841,7 +841,7 @@ export default [
   "instr": "Write said or told (or say / tell).",
   "source": "The {who} ______, 'Please sit down, {m}.'",
   "key": "said",
-  "why": "No person after the verb: say (said that …, said hello).",
+  "why": "Before exact words in quotes: said.",
   "slots": {
    "who": [
     "teacher",
@@ -868,7 +868,7 @@ export default [
   "instr": "Write said or told (or say / tell).",
   "source": "What did {f} ______ about the {thing}?",
   "key": "say",
-  "why": "No person after the verb: say (said that …, said hello).",
+  "why": "After did, base form, no person: say.",
   "slots": {
    "f": [
     "Olga",
@@ -895,7 +895,7 @@ export default [
   "instr": "Write said or told (or say / tell).",
   "source": "Nobody ______ anything about the {event}, {m}.",
   "key": "said",
-  "why": "No person after the verb: say (said that …, said hello).",
+  "why": "say anything, no person: said.",
   "slots": {
    "event": [
     "party",
@@ -922,7 +922,7 @@ export default [
   "instr": "Write said or told (or say / tell).",
   "source": "{f} ______ me she was moving to {city}.",
   "key": "told",
-  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "why": "A person (me) after the gap: told.",
   "slots": {
    "f": [
     "Olga",
@@ -949,7 +949,7 @@ export default [
   "instr": "Write said or told (or say / tell).",
   "source": "{m} ______ us about his trip to {city}.",
   "key": "told",
-  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "why": "tell someone about something: told us about.",
   "slots": {
    "m": [
     "Aziz",
@@ -976,7 +976,7 @@ export default [
   "instr": "Write said or told (or say / tell).",
   "source": "My {who} ______ me a funny joke at the {event}.",
   "key": "told",
-  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "why": "tell a joke, with a person (me): told.",
   "slots": {
    "who": [
     "sister",
@@ -1003,7 +1003,7 @@ export default [
   "instr": "Write said or told (or say / tell).",
   "source": "Who ______ you about the {event}, {m}?",
   "key": "told",
-  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "why": "A person (you) after the gap: told.",
   "slots": {
    "event": [
     "party",
@@ -1030,7 +1030,7 @@ export default [
   "instr": "Write said or told (or say / tell).",
   "source": "{f} ______ her {who} the truth.",
   "key": "told",
-  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "why": "Fixed phrase tell the truth: told.",
   "slots": {
    "f": [
     "Olga",
@@ -1057,7 +1057,7 @@ export default [
   "instr": "Write said or told (or say / tell).",
   "source": "The {who} ______ the class a story about the {topic}.",
   "key": "told",
-  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "why": "tell a story to the class: told.",
   "slots": {
    "who": [
     "teacher",
@@ -1084,7 +1084,7 @@ export default [
   "instr": "Write said or told (or say / tell).",
   "source": "Did you ______ {who} the news, {f}?",
   "key": "tell",
-  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "why": "After did, base form, a person follows: tell.",
   "slots": {
    "who": [
     "Timur",
@@ -1111,7 +1111,7 @@ export default [
   "instr": "Write said or told (or say / tell).",
   "source": "{m} ______ me he would be late for the {event}.",
   "key": "told",
-  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "why": "A person (me) after the gap: told.",
   "slots": {
    "m": [
     "Aziz",
@@ -1138,7 +1138,7 @@ export default [
   "instr": "Write said or told (or say / tell).",
   "source": "I ______ the {who} my name and address, {f}.",
   "key": "told",
-  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "why": "tell someone your name: told.",
   "slots": {
    "who": [
     "receptionist",
@@ -1165,7 +1165,7 @@ export default [
   "instr": "Write said or told (or say / tell).",
   "source": "Please ______ me the time of the {event}, {m}.",
   "key": "tell",
-  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "why": "Please + base form, a person follows: tell.",
   "slots": {
    "event": [
     "match",
@@ -1193,7 +1193,7 @@ export default [
   "source": "{f} said me that she was tired after the {trip}.",
   "hint": "{f} ______ me that she was tired after the {trip}.",
   "key": "told",
-  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "why": "say has no listener after it: told me.",
   "slots": {
    "f": [
     "Olga",
@@ -1221,7 +1221,7 @@ export default [
   "source": "{m} told that he was busy on {day}.",
   "hint": "{m} ______ that he was busy on {day}.",
   "key": "said",
-  "why": "No person after the verb: say (said that …, said hello).",
+  "why": "tell needs a listener: said that.",
   "slots": {
    "m": [
     "Aziz",
@@ -1249,7 +1249,7 @@ export default [
   "source": "The {who} said us a story about the {topic}.",
   "hint": "The {who} ______ us a story about the {topic}.",
   "key": "told",
-  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "why": "A story with us: told us a story.",
   "slots": {
    "who": [
     "teacher",
@@ -1277,7 +1277,7 @@ export default [
   "source": "{f} told to me the truth about the {thing}.",
   "hint": "{f} ______ me the truth about the {thing}.",
   "key": "told",
-  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "why": "tell + person, no to: told me.",
   "slots": {
    "f": [
     "Olga",
@@ -1305,7 +1305,7 @@ export default [
   "source": "My {who} told it was going to rain {when}.",
   "hint": "My {who} ______ it was going to rain {when}.",
   "key": "said",
-  "why": "No person after the verb: say (said that …, said hello).",
+  "why": "No listener after the gap: said.",
   "slots": {
    "who": [
     "dad",
@@ -1333,7 +1333,7 @@ export default [
   "source": "{m} said to me that he was hungry after the {event}.",
   "hint": "{m} ______ that he was hungry after the {event}.",
   "key": "told me",
-  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "why": "said to me = told me.",
   "slots": {
    "m": [
     "Aziz",
@@ -1361,7 +1361,7 @@ export default [
   "source": "{f} said to us that the {event} was at six.",
   "hint": "{f} ______ that the {event} was at six.",
   "key": "told us",
-  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "why": "said to us = told us.",
   "slots": {
    "f": [
     "Olga",
@@ -1389,7 +1389,7 @@ export default [
   "source": "The {who} said to the students that the test was easy.",
   "hint": "The {who} ______ the students that the test was easy.",
   "key": "told",
-  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "why": "said to the students = told the students.",
   "slots": {
    "who": [
     "teacher",
@@ -1411,7 +1411,7 @@ export default [
   "source": "{m} said to his {who} that he was sorry.",
   "hint": "{m} ______ his {who} that he was sorry.",
   "key": "told",
-  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "why": "said to his … = told his ….",
   "slots": {
    "m": [
     "Aziz",
@@ -1439,7 +1439,7 @@ export default [
   "source": "My {who} said to me, 'Dinner is ready, {m}.'",
   "hint": "My {who} ______ that dinner was ready.",
   "key": "told me",
-  "why": "A person comes straight after the verb: tell (told me, told us, told her).",
+  "why": "said to me = told me.",
   "slots": {
    "who": [
     "mother",
@@ -1467,7 +1467,7 @@ export default [
   "source": "{m} told me that he was tired after the {event}.",
   "hint": "{m} ______ that he was tired after the {event}.",
   "key": "said",
-  "why": "No person after the verb: say (said that …, said hello).",
+  "why": "Remove the listener: said.",
   "slots": {
    "m": [
     "Aziz",
@@ -1495,7 +1495,7 @@ export default [
   "source": "{f} told us that the {place} was closed.",
   "hint": "{f} ______ that the {place} was closed.",
   "key": "said",
-  "why": "No person after the verb: say (said that …, said hello).",
+  "why": "Without us after the verb: said.",
   "slots": {
    "f": [
     "Olga",
@@ -1523,7 +1523,7 @@ export default [
   "source": "The {who} told me the {thing} was ready.",
   "hint": "The {who} ______ the {thing} was ready.",
   "key": "said",
-  "why": "No person after the verb: say (said that …, said hello).",
+  "why": "Without me after the verb: said.",
   "slots": {
    "who": [
     "waiter",
@@ -1551,7 +1551,7 @@ export default [
   "source": "{m} told everyone at the {event} that he was getting married.",
   "hint": "At the {event}, {m} ______ that he was getting married.",
   "key": "said",
-  "why": "No person after the verb: say (said that …, said hello).",
+  "why": "No listener now: said.",
   "slots": {
    "m": [
     "Aziz",
@@ -1579,7 +1579,7 @@ export default [
   "source": "{f} told her {who} that she was sorry.",
   "hint": "{f} ______ that she was sorry.",
   "key": "said",
-  "why": "No person after the verb: say (said that …, said hello).",
+  "why": "Remove her …: said.",
   "slots": {
    "f": [
     "Olga",

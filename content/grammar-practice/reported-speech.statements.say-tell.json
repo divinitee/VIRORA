@@ -1493,7 +1493,7 @@
   "source": "{f} told us that the {place} was closed.",
   "hint": "{f} ______ that the {place} was closed.",
   "key": "said",
-  "why": "Remove us: said.",
+  "why": "Without us after the verb: said.",
   "slots": {
    "f": [
     "Olga",
@@ -1521,7 +1521,7 @@
   "source": "The {who} told me the {thing} was ready.",
   "hint": "The {who} ______ the {thing} was ready.",
   "key": "said",
-  "why": "Remove me: said.",
+  "why": "Without me after the verb: said.",
   "slots": {
    "who": [
     "waiter",

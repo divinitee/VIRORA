@@ -189,8 +189,8 @@ const VARIETY = {
    "said to his … = told his ….",
    "said to me = told me.",
    "Remove the listener: said.",
-   "Remove us: said.",
-   "Remove me: said.",
+   "Without us after the verb: said.",
+   "Without me after the verb: said.",
    "No listener now: said.",
    "Remove her …: said."
   ]
