@@ -159,7 +159,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 15. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
    The two **players** fell on the **stairs** and hurt ______.  
    key: themselves  
-   why: Each boy hurt his own body: themselves.
+   why: They fell and each one got hurt: themselves.
 
 16. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
    The **girls** cut ______ on the broken **plate**.  
@@ -169,7 +169,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 17. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
    We locked ______ out of the **office** **last week**.  
    key: ourselves  
-   why: We locked our own selves out: ourselves.
+   why: "We locked … out": the doors shut on us: ourselves.
 
 18. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
    Behave ______ at the **museum**, **children**!  
@@ -270,7 +270,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    The **girls** burned each other on the hot **pan**.  
    → The **girls** burned ______ on the hot **pan**.  
    key: themselves  
-   why: Each kid burned his or her own hand: themselves.
+   why: Not one hurting the other: each one burned a hand: themselves.
 
 15. _Correct the mistake._  
    Did you two hurt you on the **ice**?  

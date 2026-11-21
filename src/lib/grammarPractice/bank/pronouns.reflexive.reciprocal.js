@@ -1096,7 +1096,7 @@ export default [
   "instr": "Write each other or a -selves word (themselves, ourselves, yourselves).",
   "source": "The two {kids} fell on the {surface} and hurt ______.",
   "key": "themselves",
-  "why": "Each boy hurt his own body: themselves.",
+  "why": "They fell and each one got hurt: themselves.",
   "slots": {
    "surface": [
     "ice",
@@ -1150,7 +1150,7 @@ export default [
   "instr": "Write each other or a -selves word (themselves, ourselves, yourselves).",
   "source": "We locked ______ out of the {place} {when}.",
   "key": "ourselves",
-  "why": "We locked our own selves out: ourselves.",
+  "why": "\"We locked … out\": the doors shut on us: ourselves.",
   "slots": {
    "place": [
     "house",
@@ -1653,7 +1653,7 @@ export default [
   "source": "The {kids} burned each other on the hot {pan}.",
   "hint": "The {kids} burned ______ on the hot {pan}.",
   "key": "themselves",
-  "why": "Each kid burned his or her own hand: themselves.",
+  "why": "Not one hurting the other: each one burned a hand: themselves.",
   "slots": {
    "pan": [
     "pan",

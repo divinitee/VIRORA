@@ -184,9 +184,9 @@ const VARIETY = {
    "Each one smiled at the other: each other.",
    "Books that belong to the other: each other's.",
    "Homework that belongs to the other: each other's.",
-   "Each boy hurt his own body: themselves.",
+   "They fell and each one got hurt: themselves.",
    "Each child cut his or her own hand: themselves.",
-   "We locked our own selves out: ourselves.",
+   "\"We locked … out\": the doors shut on us: ourselves.",
    "Talking to boys, plural you: yourselves.",
    "\"you two\": plural you, own hands: yourselves.",
    "Our own selves locked out: ourselves."
@@ -205,7 +205,7 @@ const VARIETY = {
    "Each boy hurt his own body: themselves, not each other.",
    "We, our own selves: ourselves, not us.",
    "Talking to many children: yourselves, not yourself.",
-   "Each kid burned his or her own hand: themselves.",
+   "Not one hurting the other: each one burned a hand: themselves.",
    "\"you two\": yourselves, not you."
   ]
  },
