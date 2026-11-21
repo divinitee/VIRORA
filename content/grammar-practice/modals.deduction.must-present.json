@@ -702,8 +702,8 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "The speaker is sure. Complete with must and the verb in brackets.",
-  "source": "She speaks perfect {lang}. She ______ (study) a lot, {name}.",
-  "key": "must study",
+  "source": "She speaks perfect {lang}. She ______ (be) very good at languages, {name}.",
+  "key": "must be",
   "why": "The speaker is sure, from the evidence: must + base verb.",
   "slots": {
    "lang": [

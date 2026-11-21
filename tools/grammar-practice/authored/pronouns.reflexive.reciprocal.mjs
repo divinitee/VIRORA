@@ -41,18 +41,18 @@ const OT = ["each other", "themselves", "them", "each others"];
 const OU = ["each other", "ourselves", "us", "each others"];
 const OP = ["each other's", "each others", "themselves", "each others'"]; // "their" removed by Claude's audit: "wear their clothes / know their secrets" is English
 const ST = ["themselves", "each other", "them", "theirselves"];
-const SU = ["ourselves", "each other", "us", "ourself"];
+const SU = ["ourselves", "our", "us", "ourself"];
 
 /* ---------------- choose: 20 mcq ---------------- */
 const CHOOSE = [
   [OT, W_EO, "{b} helps {g} with maths, and {g} helps him with English. They help ______.", { b: BOY, g: GIRL }],
   [OT, W_EO, "The two sisters live in {city} and {town}. They phone ______ every {day}.", { city: ["Tashkent", "Andijan", "Nukus", "Jizzakh"], town: CITY, day: ["day", "evening", "Sunday", "week"] }],
-  [OT, W_EO, "{b} and {g} met at university, fell in love and married ______ {when}.", { b: BOY, g: GIRL, when: ["two years later", "last summer", "in 2020", "a year later"] }],
+  [OT, W_EO, "{b} and {g} met at university and have helped ______ with {what} ever since.", { b: BOY, g: GIRL, what: ["homework", "work", "exams", "everything"] }],
   [OU, W_EO, "My best friend and I tell ______ everything, {g}.", { g: GIRL }],
   [OT, W_EO, "When {b} and his cousin meet, they always hug ______.", { b: BOY }],
   [OT, W_EO, "The two teams shook hands with ______ after the {match}.", { match: ["match", "game", "final", "race"] }],
   [OU, W_EO, "{b} and I sat in silence and looked at ______ {how}.", { b: BOY, how: ["for a long time", "and smiled", "across the table", "in surprise"] }],
-  [OT, W_EO, "The two brothers don't talk to ______ any more after the {fight}.", { fight: ["argument", "quarrel", "fight about money", "argument at the wedding"] }],
+  [OT, W_EO, "The two brothers don't talk to ______ any more after the {fight}.", { fight: ["argument", "quarrel", "argument about money", "argument at the wedding"] }],
   [OT, W_EO, "{b} and {g} gave ______ presents for {event}.", { b: BOY, g: GIRL, event: ["New Year", "Navruz", "their birthdays", "the holiday"] }],
   [OU, W_EO, "My neighbour and I have known ______ for {n} years.", { n: ["ten", "twenty", "five", "many"] }],
   [OT, W_EO, "The two girls in the {place} were shouting at ______.", { place: ["street", "yard", "bus", "shop"] }],
@@ -64,7 +64,7 @@ const CHOOSE = [
   [ST, W_SELF, "The kids burned ______ on the hot {pan} in the kitchen.", { pan: ["pan", "pot", "oven", "kettle"] }],
   [SU, W_SELF, "We left the keys inside and locked ______ out of the {place}, {g}.", { place: ["house", "flat", "car", "office"], g: GIRL }],
   [["yourselves", "each other", "you", "yourself"], W_SELF, "Behave ______ at Grandma's {event}, children!", { event: ["party", "house", "birthday", "wedding"] }],
-  [SU, W_SELF, "Did we hurt ______ when we fell on the {surface}? No, we're fine.", { surface: ["ice", "stairs", "wet floor", "path"] }],
+  [SU, W_SELF, "Did we hurt ______ when we slipped on the {surface}, one after the other? No, we're fine.", { surface: ["ice", "stairs", "wet floor", "path"] }],
 ].map(([opts, why, prompt, slots], i) => {
   const options = rot(opts, i);
   return { ...BASE, stage: "choose", format: "mcq", prompt, options, key: options.indexOf(opts[0]), why, slots: pick(prompt, slots) };
@@ -128,7 +128,7 @@ const CREATE = [
   ["Write one sentence about two people who don't like each other.", "… don't like each other because …", ["exactly one sentence", "each other", "a negative verb"]],
   ["Write one sentence about people who hurt themselves.", "They fell and hurt themselves.", ["exactly one sentence", "themselves", "no each other"]],
   ["Write one sentence about two friends who send each other something.", "… send each other …", ["exactly one sentence", "each other", "a present verb"]],
-  ["Write one sentence about a couple who met and fell in love.", "They met … and fell in love with each other.", ["exactly one sentence", "each other", "past verbs"]],
+  ["Write one sentence about two friends who help each other.", "They help each other with …", ["exactly one sentence", "each other", "past verbs"]],
   ["Write two sentences: one with each other and one with themselves.", "They helped each other. / They hurt themselves.", ["exactly two sentences", "each other", "themselves"]],
 ].map(([prompt, requiredElement, constraints]) => ({ ...BASE, stage: "create", format: "constrained_sentence", prompt, requiredElement, constraints }));
 

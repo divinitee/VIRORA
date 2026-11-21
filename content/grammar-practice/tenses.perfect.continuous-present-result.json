@@ -1246,7 +1246,10 @@
     "eggs",
     "pancakes"
    ]
-  }
+  },
+  "acceptable": [
+   "have been making"
+  ]
  },
  {
   "domain": "tenses",

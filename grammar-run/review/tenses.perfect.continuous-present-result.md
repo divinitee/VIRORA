@@ -203,7 +203,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 3. _The result is still here now. Rewrite the second sentence with the present perfect continuous._  
    The kitchen is a mess. My **cousins** cooked **plov**.  
    → The kitchen is a mess. My **cousins** ______ **plov**.  
-   key: have been cooking  
+   key: have been cooking (also: have been making)  
    why: A recent activity explains how things are now, so use the present perfect continuous: have been cooking.
 
 4. _The result is still here now. Rewrite the second sentence with the present perfect continuous._  

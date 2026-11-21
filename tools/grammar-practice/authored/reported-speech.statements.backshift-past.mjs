@@ -43,7 +43,7 @@ const CHOOSE = [
   [opts("speak"), WHY, "'I spoke to the {who},' {m} said. He said he ______ to the {who}.", { m: M, who: ["teacher", "manager", "doctor", "director"] }],
   [opts("fall"), WHY, "'I fell off my {bike},' {f} said. She said she ______ off her {bike}.", { f: F, bike: ["bike", "horse", "chair", "scooter"] }],
   [opts("drive"), WHY, "'We drove to {city},' the {who} said. They said they ______ to {city}.", { who: ["tourists", "students", "neighbours", "guests"], city: ["Samarkand", "Bukhara", "Khiva", "Termez"] }],
-  [opts("steal"), WHY, "'Someone stole my {thing},' {m} said. He said someone ______ his {thing}.", { m: M, thing: ["bike", "phone", "wallet", "car"] }],
+  [opts("take"), WHY, "'Someone took my {thing} by mistake,' {m} said. He said someone ______ his {thing} by mistake.", { m: M, thing: ["bike", "phone", "wallet", "car"] }],
   [opts("swim"), WHY, "'I swam in the {water},' {f} said. She said she ______ in the {water}.", { f: F, water: ["lake", "sea", "river", "pool"] }],
   [opts("choose"), WHY, "'We chose the {color} one,' my {who} said. They said they ______ the {color} one.", { who: ["parents", "friends", "cousins", "neighbours"], color: ["blue", "red", "black", "white"] }],
   [opts("wear"), WHY, "'I wore my new {thing},' {f} said. She said she ______ her new {thing}.", { f: F, thing: ["dress", "coat", "shoes", "scarf"] }],
@@ -57,7 +57,7 @@ const CHOOSE = [
 });
 
 /* ---------------- build: 20 gap_fill ---------------- */
-const INSTR = "Report it. Use had + the past participle of the verb in brackets.";
+const INSTR = "Report it. Use the past perfect (had + past participle) of the verb in brackets.";
 // [verb, source, slots] — no source prints "had" or the participle; the past simple is also accepted
 const BUILD = [
   ["begin", "'The film began at six,' {m} said. He said the film ______ (begin) at six, {f}.", { m: M, f: F }],
@@ -75,10 +75,10 @@ const BUILD = [
   ["forget", "'I forgot her {thing},' {f} said. She said she ______ (forget) her {thing}.", { f: F, thing: ["birthday", "name", "number", "address"] }],
   ["break", "'I broke my {part},' {m} said. He said he ______ (break) his {part}.", { m: M, part: ["arm", "leg", "finger", "nose"] }],
   ["give", "'I gave my old {thing} away,' {f} said. She said she ______ (give) her old {thing} away.", { f: F, thing: ["bike", "clothes", "books", "toys"] }],
-  ["speak", "'We spoke {lang} in {city},' the {who} said. They said they ______ (speak) {lang} in {city}.", { who: ["tourists", "students", "girls", "boys"], lang: ["English", "Russian", "Turkish", "Korean"], city: ["Istanbul", "Moscow", "Seoul", "London"] }],
+  ["speak", "'We spoke {lang} on the trip,' the {who} said. They said they ______ (speak) {lang} on the trip.", { who: ["tourists", "students", "girls", "boys"], lang: ["English", "Russian", "Turkish", "Korean"] }],
   ["fall", "'I fell asleep in the {place},' {m} said. He said he ______ (fall) asleep in the {place}.", { m: M, place: ["cinema", "car", "lesson", "meeting"] }],
   ["drive", "'I drove all night,' {f} said. She said she ______ (drive) all night, {m}.", { f: F, m: M }],
-  ["steal", "'Somebody stole our {thing},' the {who} said. They said somebody ______ (steal) their {thing}.", { thing: ["car", "bikes", "bags", "money"], who: ["tourists", "neighbours", "students", "guests"] }],
+  ["take", "'Somebody took our {thing} by mistake,' the {who} said. They said somebody ______ (take) their {thing} by mistake.", { thing: ["coats", "bikes", "bags", "umbrellas"], who: ["tourists", "neighbours", "students", "guests"] }],
   ["wear", "'I wore a suit to the {event},' {m} said. He said he ______ (wear) a suit to the {event}.", { m: M, event: ["wedding", "interview", "party", "concert"] }],
 ].map(([v, source, slots]) => ({ ...BASE, stage: "build", format: "gap_fill", instr: INSTR, source, key: `had ${V[v][1]}`, acceptable: [V[v][0]], why: WHY, slots }));
 
@@ -88,11 +88,11 @@ const FIX = "Correct the mistake.";
 const PERF = "Report the words. The present perfect becomes the past perfect.";
 // [instr, source, hint, key, acceptable, why, slots]
 const TRANSFORM = [
-  [REP, "'I went to the {place},' {m} said.", "{m} said that ______ to the {place}.", "he had gone", ["he went"], WHY, { m: M, place: ["dentist", "bank", "gym", "museum"] }],
-  [REP, "'I saw the {film},' {f} said.", "{f} said that ______ the {film}.", "she had seen", ["she saw"], WHY, { f: F, film: ["film", "match", "play", "show"] }],
-  [REP, "'We ate all the {food},' the {who} said.", "The {who} said that ______ all the {food}.", "they had eaten", ["they ate"], WHY, { who: ["children", "boys", "girls", "guests"], food: ["cake", "plov", "bread", "sweets"] }],
-  [REP, "'I forgot my {thing},' {m} said.", "{m} said that ______ his {thing}.", "he had forgotten", ["he forgot"], WHY, { m: M, thing: ["keys", "passport", "phone", "ticket"] }],
-  [REP, "'I broke the {thing},' {f} said.", "{f} said that ______ the {thing}.", "she had broken", ["she broke"], WHY, { f: F, thing: ["vase", "window", "cup", "plate"] }],
+  [REP, "'I went to the {place},' {m} said.", "{m} said that ______ to the {place}.", "he had gone", ["he went", "he'd gone"], WHY, { m: M, place: ["dentist", "bank", "gym", "museum"] }],
+  [REP, "'I saw the {film},' {f} said.", "{f} said that ______ the {film}.", "she had seen", ["she saw", "she'd seen"], WHY, { f: F, film: ["film", "match", "play", "show"] }],
+  [REP, "'We ate all the {food},' the {who} said.", "The {who} said that ______ all the {food}.", "they had eaten", ["they ate", "they'd eaten"], WHY, { who: ["children", "boys", "girls", "guests"], food: ["cake", "plov", "bread", "sweets"] }],
+  [REP, "'I forgot my {thing},' {m} said.", "{m} said that ______ his {thing}.", "he had forgotten", ["he forgot", "he'd forgotten"], WHY, { m: M, thing: ["keys", "passport", "phone", "ticket"] }],
+  [REP, "'I broke the {thing},' {f} said.", "{f} said that ______ the {thing}.", "she had broken", ["she broke", "she'd broken"], WHY, { f: F, thing: ["vase", "window", "cup", "plate"] }],
   [FIX, "{m} said he has seen the {film}.", "{m} said he ______ the {film}.", "had seen", ["saw"], WHY, { m: M, film: ["film", "match", "play", "show"] }],
   [FIX, "{f} said she had went to {city}.", "{f} said she ______ to {city}.", "had gone", ["went"], WHY, { f: F, city: ["Samarkand", "Bukhara", "Khiva", "Istanbul"] }],
   [FIX, "{m} said he had took my {thing}.", "{m} said he ______ my {thing}.", "had taken", ["took"], WHY, { m: M, thing: ["pen", "umbrella", "charger", "book"] }],

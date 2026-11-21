@@ -157,8 +157,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Two changes go together: The + comparative …, the + comparative ….
 
 15. _Complete both parts with the + comparative. Use the words in brackets._  
-   ______ (quick) you speak **Russian**, ______ (difficult) it is to understand you, **Nodira**.  
-   key: The quicker + the more difficult  
+   ______ (fast) you speak **Russian**, ______ (difficult) it is to understand you, **Nodira**.  
+   key: The faster + the more difficult  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 16. _Complete both parts with the + comparative. Use the words in brackets._  
@@ -261,9 +261,9 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Two changes go together: The + comparative …, the + comparative ….
 
 13. _Rewrite the sentence with The …, the … ._  
-   As the **exam** gets nearer, I feel more nervous, **Nodira**.  
-   → ______ the **exam** gets, ______ I feel, **Nodira**.  
-   key: The nearer + the more nervous  
+   As it gets later at the **party**, I feel more tired, **Nodira**.  
+   → ______ it gets at the **party**, ______ I feel, **Nodira**.  
+   key: The later + the more tired  
    why: Two changes go together: The + comparative …, the + comparative ….
 
 14. _Rewrite the sentence with The …, the … ._  

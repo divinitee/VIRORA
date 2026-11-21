@@ -113,7 +113,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 6. _Report the yes / no question. Write if + the subject + the verb, one step into the past._  
    'Did you see the **film**?' **Aziz** asked me. He asked me ______ the **film**.  
-   key: if I had seen (also: whether I had seen, if I saw, whether I saw)  
+   key: if I had seen (also: whether I had seen, if I saw, whether I saw, if I'd seen, whether I'd seen)  
    why: A reported yes / no question: if (or whether) + subject + verb, one step into the past.
 
 7. _Report the yes / no question. Write if + the subject + the verb, one step into the past._  
@@ -158,7 +158,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 15. _Report the yes / no question. Write if + the subject + the verb, one step into the past._  
    'Did you lock the **door**?' my **sister** asked me. She asked me ______ the **door**.  
-   key: if I had locked (also: whether I had locked, if I locked, whether I locked)  
+   key: if I had locked (also: whether I had locked, if I locked, whether I locked, if I'd locked, whether I'd locked)  
    why: A reported yes / no question: if (or whether) + subject + verb, one step into the past.
 
 16. _Report the yes / no question. Write if + the subject + the verb, one step into the past._  
@@ -209,13 +209,13 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 4. _Report the question with if. Start with the words given._  
    'Have you been to **Bukhara**?' **Olga** asked us.  
    → **Olga** asked us ______ to **Bukhara**.  
-   key: if we had been (also: whether we had been)  
+   key: if we had been (also: whether we had been, if we'd been, whether we'd been)  
    why: A reported yes / no question: if (or whether) + subject + verb, one step into the past.
 
 5. _Report the question with if. Start with the words given._  
    'Will you be at home tonight?' my **sister** asked me.  
    → My **sister** asked me ______ at home that night.  
-   key: if I would be (also: whether I would be)  
+   key: if I would be (also: whether I would be, if I'd be, whether I'd be)  
    why: A reported yes / no question: if (or whether) + subject + verb, one step into the past.
 
 6. _Correct the mistake._  
@@ -263,7 +263,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 13. _Report the question with wanted to know if._  
    'Did you pay for the **taxi**?' **Madina** asked me.  
    → **Madina** wanted to know ______ for the **taxi**.  
-   key: if I had paid (also: whether I had paid, if I paid, whether I paid)  
+   key: if I had paid (also: whether I had paid, if I paid, whether I paid, if I'd paid, whether I'd paid)  
    why: A reported yes / no question: if (or whether) + subject + verb, one step into the past.
 
 14. _Report the question with wanted to know if._  

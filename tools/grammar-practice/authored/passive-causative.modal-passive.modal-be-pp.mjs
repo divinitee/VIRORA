@@ -29,7 +29,7 @@ const shapes = (m, b, pp, p = "") => [`${m} be ${pp}${p}`, `${m} ${pp}${p}`, `${
 const CHOOSE = [
   [shapes("must", "sign", "signed"), "This {form} form ______ by a parent, {name}.", { form: ["school", "trip", "visa", "medical"], name: NAME }],
   [shapes("can", "recycle", "recycled"), "Plastic {thing} ______, so don't throw them away, {name}.", { thing: ["bottles", "bags", "cups", "boxes"], name: NAME }],
-  [shapes("should", "keep", "kept"), "This {med} ______ away from children, {name}.", { med: ["medicine", "cleaning spray", "knife", "glue"], name: NAME }],
+  [shapes("should", "keep", "kept"), "This {med} ______ away from children, {name}.", { med: ["medicine", "cleaning spray", "pair of scissors", "glue"], name: NAME }],
   [shapes("will", "finish", "finished"), "The new {place} ______ next year, {name}.", { place: ["bridge", "metro line", "stadium", "hospital"], name: NAME }],
   [shapes("might", "cancel", "cancelled"), "The {event} ______ if it rains, {name}.", { event: ["match", "picnic", "concert", "festival"], name: NAME }],
   [shapes("can't", "fix", "fixed"), "My old {thing} ______. I need a new one, {name}.", { thing: ["phone", "laptop", "TV", "watch"], name: NAME }],

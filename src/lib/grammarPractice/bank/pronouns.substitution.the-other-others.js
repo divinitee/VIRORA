@@ -983,15 +983,15 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write other or others.",
-  "source": "I've found one {thing}. Can you help me find the ______, {name}?",
+  "source": "I've found one of my five {thing}. Can you help me find the ______, {name}?",
   "key": "others",
   "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
   "slots": {
    "thing": [
-    "key",
-    "sock",
-    "card",
-    "piece"
+    "keys",
+    "cards",
+    "pens",
+    "pieces"
    ],
    "name": [
     "Aziz",
@@ -1010,7 +1010,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write other or others.",
-  "source": "I'll take this {box}, and you can carry the ______, {name}.",
+  "source": "I'll take this {box}, and you can carry all the ______, {name}.",
   "key": "others",
   "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
   "slots": {

@@ -72,7 +72,7 @@ const BUILD = [
   ["likes", "Do you know if your sister usually ______ (like) {food}, {name}?", { food: ["plov", "fish", "spicy food", "ice cream"], name: NAME }],
   ["rained", "I wonder if it ______ (rain) in {city} {when}.", { city: ["Samarkand", "Bukhara", "Khiva", "Termez"], when: ["yesterday", "last night", "last week", "on Monday"] }],
   ["locked", "Can you check if you ______ (lock) the {thing} this morning, {name}?", { thing: ["door", "car", "gate", "window"], name: NAME }],
-  ["opens", "Please ask if the shop ______ (open) at {time} every day, {name}?", { time: ["eight", "nine", "ten", "seven"], name: NAME }],
+  ["opens", "Please ask if the shop ______ (open) at {time} every day, {name}.", { time: ["eight", "nine", "ten", "seven"], name: NAME }],
   ["has", "Could you ask if the hotel ______ (have) {thing}, {name}?", { thing: ["wifi", "a pool", "parking", "a lift"], name: NAME }],
   ["started", "Do you know if the {event} ______ (start) on time yesterday, {name}?", { event: ["lesson", "match", "film", "concert"], name: NAME }],
   ["came", "I don't know if your cousin ______ (come) to the {event} last {when}.", { event: ["party", "wedding", "concert", "picnic"], when: ["week", "Saturday", "month", "Friday"] }],
@@ -81,7 +81,7 @@ const BUILD = [
   ["goes", "Could you check if this bus ______ (go) to the {place} every hour, {name}?", { place: PLACE, name: NAME }],
   ["was", "Can you tell me if the exam ______ (be) {adj} yesterday, {name}?", { adj: ["difficult", "long", "easy", "fair"], name: NAME }],
   ["enjoyed", "I'd like to know if your parents ______ (enjoy) the {thing} last week, {name}.", { thing: ["trip", "concert", "dinner", "film"], name: NAME }],
-  ["is", "I'd like to know if the museum ______ (be) free on {day} every week, {name}?", { day: DAY, name: NAME }],
+  ["is", "I'd like to know if the museum ______ (be) free on {day}, {name}.", { day: DAY, name: NAME }],
   ["speaks", "I'm not sure if your teacher ______ (speak) {lang} at home, {name}.", { lang: LANG, name: NAME }],
   ["understood", "Could you ask Grandpa if he ______ (understand) the {thing} yesterday, {name}?", { thing: ["film", "letter", "message", "news"], name: NAME }],
 ].map(([key, source, slots]) => {
@@ -139,6 +139,15 @@ const EXPRESS = [
 ].map(([prompt, targetGrammar, lookFor]) => ({ ...BASE, stage: "express", format: "free_response", prompt, targetGrammar, lookFor }));
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
+// Audit 21 Nov (MED/LOW): extra right answers.
+const AUDIT_ACC = [
+  ["transform", "Can I ask ______ the {work}", ["if you have finished", "if you've finished", "whether you have finished", "whether you've finished", "whether you finished"]],
+];
+for (const [st, m, acc] of AUDIT_ACC) {
+  const hit = items.filter((it) => it.stage === st && [it.prompt, it.source, it.hint].filter(Boolean).join(" ").includes(m));
+  if (!hit.length) throw new Error(`AUDIT_ACC: no ${st} item matches ${m}`);
+  for (const it of hit) it.acceptable = [...new Set([...(it.acceptable || []), ...acc])];
+}
 const out = "content/grammar-practice/questions-negation.indirect-questions.embedded-if-whether.json";
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${out} — ${items.length} items`);

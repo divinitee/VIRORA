@@ -483,7 +483,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "They live in a {building} in {city} ______ roof is green.",
+  "prompt": "In {city} they live in a {building} ______ roof is green.",
   "options": [
    "who's",
    "whose",
@@ -1246,8 +1246,8 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Join the two sentences with whose.",
-  "source": "We visited a {place} in {city}. Its walls are very old.",
-  "hint": "We visited a {place} in {city} ______ walls are very old.",
+  "source": "In {city} we visited a {place}. Its walls are very old.",
+  "hint": "In {city} we visited a {place} ______ walls are very old.",
   "key": "whose",
   "why": "The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.",
   "slots": {

@@ -12,7 +12,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: themselves · them · each others · ✔ each other  
    why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
 
-3. **Bobur** and **Olga** met at university, fell in love and married ______ **a year later**.  
+3. **Bobur** and **Olga** met at university and have helped ______ with **everything** ever since.  
    options: them · each others · ✔ each other · themselves  
    why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
 
@@ -73,15 +73,15 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.
 
 18. We left the keys inside and locked ______ out of the **flat**, **Kamila**.  
-   options: each other · us · ourself · ✔ ourselves  
+   options: our · us · ourself · ✔ ourselves  
    why: Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.
 
 19. Behave ______ at Grandma's **party**, children!  
    options: you · yourself · ✔ yourselves · each other  
    why: Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.
 
-20. Did we hurt ______ when we fell on the **stairs**? No, we're fine.  
-   options: ourself · ✔ ourselves · each other · us  
+20. Did we hurt ______ when we slipped on the **stairs**, one after the other? No, we're fine.  
+   options: ourself · ✔ ourselves · our · us  
    why: Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.
 
 ## build (20)
@@ -298,8 +298,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 6. Write one sentence about two friends who send each other something.  
    must use: … send each other … · exactly one sentence · each other · a present verb
 
-7. Write one sentence about a couple who met and fell in love.  
-   must use: They met … and fell in love with each other. · exactly one sentence · each other · past verbs
+7. Write one sentence about two friends who help each other.  
+   must use: They help each other with … · exactly one sentence · each other · past verbs
 
 8. Write two sentences: one with each other and one with themselves.  
    must use: They helped each other. / They hurt themselves. · exactly two sentences · each other · themselves

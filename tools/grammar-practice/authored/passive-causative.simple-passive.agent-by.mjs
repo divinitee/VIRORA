@@ -3,7 +3,7 @@
 //
 // Tests ONE point (placement item): in a passive sentence BY introduces the doer
 // (the agent) and WITH introduces the thing they used (the instrument):
-// The lock was forced with a screwdriver by one of the thieves.
+// The lock was opened with a hairpin by the caretaker.
 // Triage: kept. A2 active-to-passive owns turning active → passive with by; this
 // topic is by vs with (and the "from / of" calque for the agent). Materials
 // (made of / from) are never used, so of and from are always wrong here.
@@ -27,19 +27,19 @@ const OPTS = ["by", "with", "from", "of"];
 /* ---------------- choose: 20 mcq ---------------- */
 // [key, prompt, slots]
 const CHOOSE = [
-  ["with", "The lock was opened ______ a {tool} by the {who}.", { tool: ["screwdriver", "knife", "key", "hairpin"], who: ["locksmith", "neighbour", "plumber", "caretaker"] }],
+  ["with", "The lock was opened ______ a {tool} by the {who}.", { tool: ["screwdriver", "spare key", "key", "hairpin"], who: ["locksmith", "neighbour", "plumber", "caretaker"] }],
   ["with", "The cake was cut ______ a {tool}, {name}.", { tool: ["knife", "bread knife", "sharp knife", "long knife"], name: NAME }],
   ["with", "The letter was written ______ a {pen}, {name}.", { pen: ["pencil", "blue pen", "black pen", "fountain pen"], name: NAME }],
   ["with", "The walls were painted ______ a {tool} by my grandfather, {name}.", { tool: ["brush", "roller", "small brush", "big roller"], name: NAME }],
   ["with", "The window was broken ______ a {thing}, {name}.", { thing: ["stone", "ball", "brick", "stick"], name: NAME }],
   ["with", "The plov was eaten ______ our hands at the {event}, {name}.", { event: ["wedding", "party", "picnic", "festival"], name: NAME }],
   ["with", "The box was tied ______ {rope}, {name}.", { rope: ["string", "rope", "ribbon", "wire"], name: NAME }],
-  ["with", "The photo was taken ______ an old {camera} by my {who}.", { camera: ["camera", "phone", "Nikon", "Kodak"], who: ["uncle", "father", "cousin", "brother"] }],
+  ["with", "The photo was taken ______ an old {camera} by my {who}.", { camera: ["camera", "phone", "film camera", "digital camera"], who: ["uncle", "father", "cousin", "brother"] }],
   ["with", "The tree was cut down ______ a {tool} by the {who}.", { tool: ["saw", "chainsaw", "big saw", "small saw"], who: ["farmer", "gardener", "workers", "neighbours"] }],
   ["with", "The floor was cleaned ______ a {tool}, {name}.", { tool: ["mop", "brush", "cloth", "vacuum cleaner"], name: NAME }],
   ["with", "The meat was cut ______ a {tool}, {name}.", { tool: ["knife", "cleaver", "blade", "pair of scissors"], name: NAME }],
   ["with", "The car was washed ______ a {tool} and soap, {name}.", { tool: ["sponge", "hose", "cloth", "brush"], name: NAME }],
-  ["by", "The door was opened ______ the caretaker with a {tool}, {name}.", { tool: ["screwdriver", "knife", "hammer", "metal bar"], name: NAME }],
+  ["by", "The door was opened ______ the caretaker with a {tool}, {name}.", { tool: ["screwdriver", "spare key", "card", "hairpin"], name: NAME }],
   ["by", "This song was written ______ a famous {who}, {name}.", { who: ["singer", "poet", "composer", "band"], name: NAME }],
   ["by", "The window was broken ______ the {who} next door, {name}.", { who: ["boy", "children", "girl", "kids"], name: NAME }],
   ["by", "The plov was cooked ______ my {who}, {name}.", { who: ["grandmother", "uncle", "father", "mother"], name: NAME }],
@@ -55,13 +55,13 @@ const CHOOSE = [
 /* ---------------- build: 20 gap_fill ---------------- */
 const INSTR = "Write by (who did it) or with (what they used).";
 const BUILD = [
-  ["with", "The door was opened ______ a {tool}, {name}.", { tool: ["key", "card", "knife", "hairpin"], name: NAME }],
+  ["with", "The door was opened ______ a {tool}, {name}.", { tool: ["key", "card", "spare key", "hairpin"], name: NAME }],
   ["with", "The bread was cut ______ a {knife}, {name}.", { knife: ["knife", "bread knife", "sharp knife", "long knife"], name: NAME }],
   ["with", "The picture was drawn ______ a {pen}, {name}.", { pen: ["pencil", "black pen", "marker", "piece of chalk"], name: NAME }],
   ["with", "The fence was painted ______ a {tool}, {name}.", { tool: ["brush", "roller", "small brush", "big roller"], name: NAME }],
   ["with", "The glass was broken ______ a {thing}, {name}.", { thing: ["stone", "ball", "brick", "stick"], name: NAME }],
   ["with", "The parcel was tied ______ {rope}, {name}.", { rope: ["string", "rope", "ribbon", "wire"], name: NAME }],
-  ["with", "The video was filmed ______ a {camera}, {name}.", { camera: ["phone", "drone", "camera", "GoPro"], name: NAME }],
+  ["with", "The video was filmed ______ a {camera}, {name}.", { camera: ["phone", "drone", "camera", "tablet"], name: NAME }],
   ["with", "The soup was stirred ______ a {spoon}, {name}.", { spoon: ["spoon", "wooden spoon", "ladle", "stick"], name: NAME }],
   ["by", "The book was written ______ a young {who} from {city}.", { who: ["writer", "student", "teacher", "doctor"], city: ["Samarkand", "Bukhara", "Khiva", "Termez"] }],
   ["by", "The cake was made ______ my {who}, {name}.", { who: ["grandmother", "aunt", "sister", "mother"], name: NAME }],
@@ -69,9 +69,9 @@ const BUILD = [
   ["by", "The phone was found ______ a {who} in the park, {name}.", { who: ["boy", "cleaner", "woman", "student"], name: NAME }],
   ["by", "These photos were taken ______ my {who}, {name}.", { who: ["uncle", "father", "cousin", "brother"], name: NAME }],
   ["by", "The house was built ______ my {who} in 1990, {name}.", { who: ["grandfather", "father", "uncle", "family"], name: NAME }],
-  ["by", "The {thing} was stolen ______ two young men, {name}.", { thing: ["bike", "car", "bag", "phone"], name: NAME }],
+  ["by", "The {thing} was repaired ______ two young men, {name}.", { thing: ["bike", "car", "roof", "fence"], name: NAME }],
   ["by", "The tea was served ______ the {who}, {name}.", { who: ["waiter", "host", "owner", "waitress"], name: NAME }],
-  ["with", "The letter was opened ______ a {tool} by Olga, {name}.", { tool: ["knife", "pair of scissors", "pen", "finger"], name: NAME }],
+  ["with", "The letter was opened ______ a {tool} by Olga, {name}.", { tool: ["knife", "pair of scissors", "pen", "ruler"], name: NAME }],
   ["by", "The window was cleaned ______ the {who} with a cloth, {name}.", { who: ["cleaner", "caretaker", "boy", "girl"], name: NAME }],
   ["with", "The tree was cut down ______ a {saw}, {name}.", { saw: ["saw", "chainsaw", "big saw", "small saw"], name: NAME }],
   ["by", "The song was sung ______ the {who} at the {event}.", { who: ["children", "choir", "bride", "teacher"], event: ["wedding", "party", "concert", "festival"] }],
@@ -86,11 +86,11 @@ const TRANSFORM = [
   [TOP, "A famous {who} wrote this song, {name}.", "This song ______ a famous {who}, {name}.", "was written by", { who: ["singer", "poet", "composer", "band"], name: NAME }],
   [TOP, "My {who} cooked the plov, {name}.", "The plov ______ my {who}, {name}.", "was cooked by", { who: ["grandmother", "uncle", "father", "mother"], name: NAME }],
   [TOP, "{team} won the cup, {name}.", "The cup ______ {team}, {name}.", "was won by", { team: TEAM, name: NAME }],
-  [TOP, "A {who} found my wallet in the {place}.", "My wallet ______ a {who} in the {place}.", "was found by", { who: ["boy", "cleaner", "woman", "student"], place: ["park", "bus", "café", "street"] }],
-  [TOP, "Two young men stole the {thing}, {name}.", "The {thing} ______ two young men, {name}.", "was stolen by", { thing: ["bike", "car", "bag", "phone"], name: NAME }],
+  [TOP, "A {who} found my wallet in the {place}.", "My wallet ______ a {who} in the {place}.", "was found by", { who: ["boy", "cleaner", "woman", "student"], place: ["park", "square", "café", "street"] }],
+  [TOP, "Two young men repaired the {thing}, {name}.", "The {thing} ______ two young men, {name}.", "was repaired by", { thing: ["bike", "car", "roof", "fence"], name: NAME }],
   [USED, "Someone broke the window. He used a {thing}, {name}.", "The window was broken ______ a {thing}, {name}.", "with", { thing: ["stone", "ball", "brick", "stick"], name: NAME }],
   [USED, "Grandma cut the bread. She used a {knife}, {name}.", "The bread was cut by Grandma ______ a {knife}, {name}.", "with", { knife: ["knife", "bread knife", "sharp knife", "long knife"], name: NAME }],
-  [USED, "The caretaker opened the lock. He used a {tool}, {name}.", "The lock was opened by the caretaker ______ a {tool}, {name}.", "with", { tool: ["screwdriver", "knife", "hammer", "metal bar"], name: NAME }],
+  [USED, "The caretaker opened the lock. He used a {tool}, {name}.", "The lock was opened by the caretaker ______ a {tool}, {name}.", "with", { tool: ["screwdriver", "spare key", "card", "hairpin"], name: NAME }],
   [USED, "My dad painted the fence. He used a {tool}, {name}.", "The fence was painted by my dad ______ a {tool}, {name}.", "with", { tool: ["brush", "roller", "small brush", "big roller"], name: NAME }],
   [USED, "They tied the box. They used {rope}, {name}.", "The box was tied ______ {rope}, {name}.", "with", { rope: ["string", "rope", "ribbon", "wire"], name: NAME }],
   [FIX, "This song was written from a famous {who}, {name}.", "This song was written ______ a famous {who}, {name}.", "by", { who: ["singer", "poet", "composer", "band"], name: NAME }],

@@ -68,7 +68,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: have been · ✔ were · are · was  
    why: Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.
 
-17. Last week **Aziz** said, 'My **fridge** doesn't work.' He said his **fridge** ______ work.  
+17. Last week **Aziz** said, 'My **fridge** doesn't work.' He said his **fridge** ______ work, but it works now.  
    options: ✔ didn't · doesn't · don't · wasn't  
    why: Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.
 
@@ -80,7 +80,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: cooked · were cooking · ✔ was cooking · is cooking  
    why: Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.
 
-20. Last week the **teacher** said, 'The **door** is broken.' She said the **door** ______ broken.  
+20. Last week the **teacher** said, 'The **door** is broken.' She said the **door** ______ broken. They fixed it on Friday.  
    options: has been · ✔ was · is · were  
    why: Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.
 
@@ -167,7 +167,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.
 
 17. _Report it. Put the words in brackets one step into the past._  
-   Last week **Timur** said his **fridge** ______ (doesn't) work.  
+   Last week **Timur** said his **fridge** ______ (doesn't) work. He fixed it the next day.  
    key: didn't  
    why: Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.
 
@@ -182,7 +182,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.
 
 20. _Report it. Put the words in brackets one step into the past._  
-   Last week the **receptionist** said the **heater** ______ (is) broken.  
+   Last week the **receptionist** said the **heater** ______ (is) broken. It works again now.  
    key: was  
    why: Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.
 
@@ -250,7 +250,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 11. _Report the words. Change my / our and the verb._  
    'My **watch** is broken,' **Aziz** said yesterday.  
-   → Yesterday **Aziz** said that ______ **watch** ______ broken.  
+   → Yesterday **Aziz** said that ______ **watch** ______ broken. It is fine again now.  
    key: his + was  
    why: Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.
 
@@ -262,7 +262,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 13. _Report the words. Change my / our and the verb._  
    'Our **car** doesn't work,' the **neighbours** said last week.  
-   → Last week the **neighbours** said that ______ **car** ______ work.  
+   → Last week the **neighbours** said that ______ **car** ______ work. Now it works again.  
    key: their + didn't  
    why: Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.
 

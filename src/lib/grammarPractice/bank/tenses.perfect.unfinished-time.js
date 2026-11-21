@@ -1454,7 +1454,10 @@ export default [
     "uncle",
     "brother"
    ]
-  }
+  },
+  "acceptable": [
+   "has drunk"
+  ]
  },
  {
   "id": "gpr.tenses.perfect.unfinished-time.transform.013",

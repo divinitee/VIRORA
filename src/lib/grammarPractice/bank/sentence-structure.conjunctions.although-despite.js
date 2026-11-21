@@ -1280,7 +1280,8 @@ export default [
   "hint": "Despite ______, {name} went to {work}.",
   "key": "being ill",
   "acceptable": [
-   "his illness"
+   "his illness",
+   "feeling ill"
   ],
   "why": "Despite + a noun or -ing form, not a whole clause.",
   "slots": {
@@ -1448,7 +1449,10 @@ export default [
     "breakfast",
     "lunch"
    ]
-  }
+  },
+  "acceptable": [
+   "he felt tired"
+  ]
  },
  {
   "id": "gpr.sentence-structure.conjunctions.although-despite.transform.008",

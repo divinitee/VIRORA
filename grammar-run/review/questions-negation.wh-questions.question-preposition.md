@@ -88,7 +88,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 1. _Write the preposition that ends the question: for, to, about, with, from, at, of, in or on._  
    Who is **Lola** talking ______? — Her **mother**.  
-   key: to  
+   key: to (also: with)  
    why: The verb is talk to. In a wh-question the preposition stays: it goes at the end of the question.
 
 2. _Write the preposition that ends the question: for, to, about, with, from, at, of, in or on._  

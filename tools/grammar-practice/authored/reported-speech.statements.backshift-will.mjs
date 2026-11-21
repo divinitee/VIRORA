@@ -35,16 +35,16 @@ const TODAY = ["that day", "today", "yesterday", "the day after"];
 const CHOOSE = [
   [MOD, WHY, "Last week {m} said, 'I'll call you tomorrow.' He said he ______ call me the next day.", { m: M, x: [] }],
   [MOD, WHY, "On Monday {f} said, 'I'll bring the {thing}.' She said she ______ bring the {thing}.", { f: F, thing: ["cake", "music", "chairs", "drinks"] }],
-  [MOD, WHY, "Last year the {who} said, 'The {place} will open in May.' He said the {place} ______ open in May. It opened in June.", { who: ["mayor", "director", "manager", "builder"], place: ["new school", "metro station", "park", "hospital"] }],
+  [MOD, WHY, "Last year the {who} said, 'The {place} will open in May.' He said the {place} ______ open in May. It opened in June.", { who: ["headteacher", "director", "manager", "builder"], place: ["new school", "metro station", "park", "hospital"] }],
   [MOD, WHY, "Last year {m} said, 'I'll learn {lang}.' He said he ______ learn {lang}.", { m: M, lang: ["Korean", "English", "Turkish", "German"] }],
   [MOD, WHY, "Last week my {who} said, 'We'll help you move.' They said they ______ help me move.", { who: ["friends", "cousins", "neighbours", "brothers"], x: [] }],
   [MOD, WHY, "Last month {f} said, 'It will rain in {city} at the weekend.' She said it ______ rain in {city} that weekend.", { f: F, city: ["Tashkent", "Samarkand", "Fergana", "Bukhara"] }],
-  [MOD, WHY, "Last month the {who} said, 'Prices will go up.' He said prices ______ go up.", { who: ["shopkeeper", "manager", "baker", "driver"], x: [] }],
+  [MOD, WHY, "Last month the {who} said, 'Prices will go up.' He said prices ______ go up. They went up in June.", { who: ["shopkeeper", "manager", "baker", "driver"], x: [] }],
   [MOD, WHY, "Last winter {m} said, 'I'll fix the {thing} soon.' He said he ______ fix the {thing} soon.", { m: M, thing: ["roof", "car", "heater", "door"] }],
   [NEG, WHY, "Last week {f} said, 'I won't be late.' She said she ______ be late for the {event}.", { f: F, event: ["wedding", "meeting", "lesson", "match"] }],
   [NEG, WHY, "On Sunday {m} said, 'I won't tell anyone.' He said he ______ tell anyone about the {thing}.", { m: M, thing: ["party", "gift", "plan", "test"] }],
   [NEG, WHY, "Last month the {who} said, 'It won't take long.' She said it ______ take long.", { who: ["doctor", "teacher", "mechanic", "nurse"], x: [] }],
-  [NEG, WHY, "Last year my {who} said, 'We won't sell the {thing}.' They said they ______ sell the {thing}.", { who: ["parents", "grandparents", "neighbours", "uncles"], thing: ["house", "car", "garden", "piano"] }],
+  [NEG, WHY, "Last year my {who} said, 'We won't sell the {thing}.' They said they ______ sell the {thing}. But they sold it this spring.", { who: ["parents", "grandparents", "neighbours", "uncles"], thing: ["house", "car", "garden", "piano"] }],
   [DAY, WHY_T, "Last week {m} said, 'I'll come tomorrow.' He said he would come ______.", { m: M, x: [] }],
   [DAY, WHY_T, "On Monday {f} said, 'I'll send the {doc} tomorrow.' She said she would send the {doc} ______.", { f: F, doc: ["report", "photos", "email", "ticket"] }],
   [WEEK, WHY_T, "Last month {m} said, 'I'll visit you next week.' He said he would visit me ______.", { m: M, x: [] }],
@@ -63,22 +63,24 @@ const CHOOSE = [
 /* ---------------- build: 20 gap_fill ---------------- */
 const INSTR = "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.";
 const INSTR_T = "Report it later. Change the time word in brackets.";
+// Audit 21 Nov: two-gap time items use only time words with one answer (that night / that day),
+// because array keys cannot list "the following day" etc.
 // [instr, key, acceptable, why, source, slots] — no source prints would; time-word sources never print "the"
 const BUILD = [
   [INSTR, "would call", [], WHY, "Last week {m} said he ______ (will / call) me soon.", { m: M, x: [] }],
   [INSTR, "would bring", [], WHY, "On Monday {f} said she ______ (will / bring) the {thing}.", { f: F, thing: ["cake", "music", "chairs", "drinks"] }],
-  [INSTR, "would open", [], WHY, "Last year the {who} said the {place} ______ (will / open) in May. It opened in June.", { who: ["mayor", "director", "manager", "builder"], place: ["new school", "metro station", "park", "hospital"] }],
+  [INSTR, "would open", [], WHY, "Last year the {who} said the {place} ______ (will / open) in May. It opened in June.", { who: ["headteacher", "director", "manager", "builder"], place: ["new school", "metro station", "park", "hospital"] }],
   [INSTR, "would learn", [], WHY, "Last year {m} said he ______ (will / learn) {lang}.", { m: M, lang: ["Korean", "English", "Turkish", "German"] }],
   [INSTR, "would help", [], WHY, "Last week my {who} said they ______ (will / help) me move.", { who: ["friends", "cousins", "neighbours", "brothers"], x: [] }],
   [INSTR, "would rain", [], WHY, "Last month {f} said it ______ (will / rain) in {city} that weekend.", { f: F, city: ["Tashkent", "Samarkand", "Fergana", "Bukhara"] }],
-  [INSTR, "would go", [], WHY, "Last month the {who} said prices ______ (will / go) up.", { who: ["shopkeeper", "manager", "baker", "driver"], x: [] }],
+  [INSTR, "would go", [], WHY, "Last month the {who} said prices ______ (will / go) up. They went up in June.", { who: ["shopkeeper", "manager", "baker", "driver"], x: [] }],
   [INSTR, "would fix", [], WHY, "Last winter {m} said he ______ (will / fix) the {thing} soon.", { m: M, thing: ["roof", "car", "heater", "door"] }],
   [INSTR, "would meet", [], WHY, "In June {f} said she ______ (will / meet) us at the {place}.", { f: F, place: ["station", "airport", "café", "bazaar"] }],
   [INSTR, "would win", [], WHY, "Before the match, {m} said {team} ______ (will / win).", { m: M, team: ["Sunrise FC", "Blue Star", "Green Valley", "Riverside"] }],
   [INSTR, "wouldn't be", [], WHY, "Last week {f} said she ______ (won't / be) late for the {event}.", { f: F, event: ["wedding", "meeting", "lesson", "match"] }],
   [INSTR, "wouldn't tell", [], WHY, "On Sunday {m} said he ______ (won't / tell) anyone about the {thing}.", { m: M, thing: ["party", "gift", "plan", "test"] }],
   [INSTR, "wouldn't take", [], WHY, "Last month the {who} said it ______ (won't / take) long.", { who: ["doctor", "teacher", "mechanic", "nurse"], x: [] }],
-  [INSTR, "wouldn't sell", [], WHY, "Last year my {who} said they ______ (won't / sell) the {thing}.", { who: ["parents", "grandparents", "neighbours", "uncles"], thing: ["house", "car", "garden", "piano"] }],
+  [INSTR, "wouldn't sell", [], WHY, "Last year my {who} said they ______ (won't / sell) the {thing}. But they sold it this spring.", { who: ["parents", "grandparents", "neighbours", "uncles"], thing: ["house", "car", "garden", "piano"] }],
   [INSTR_T, "the next day", ["the following day"], WHY_T, "Last week {m} said he would come ______ (tomorrow).", { m: M, x: [] }],
   [INSTR_T, "the next day", ["the following day"], WHY_T, "On Monday {f} said she would send my {doc} ______ (tomorrow).", { f: F, doc: ["report", "photos", "email", "ticket"] }],
   [INSTR_T, "the following week", ["the next week"], WHY_T, "Last month {m} said he would visit me ______ (next week).", { m: M, x: [] }],
@@ -106,11 +108,11 @@ const TRANSFORM = [
   [FIX, "On Monday {m} said he would finish his {work} tomorrow.", "On Monday {m} said he would finish his {work} ______.", "the next day", { m: M, work: ["report", "essay", "project", "painting"] }],
   [FIX, "Last week {f} said she won't be late for the {event}.", "Last week {f} said she ______ be late for the {event}.", "wouldn't", { f: F, event: ["wedding", "meeting", "lesson", "match"] }],
   [FIX, "Last Friday {m} said he would phone me from {city} tonight.", "Last Friday {m} said he would phone me from {city} ______.", "that night", { m: M, city: ["Samarkand", "Bukhara", "Khiva", "Termez"] }],
-  [TIME, "'I'll come to the {event} tomorrow,' {m} said last week.", "Last week {m} said he ______ come to the {event} ______.", ["would", "the next day"], { m: M, event: ["party", "wedding", "match", "meeting"] }],
-  [TIME, "'We'll visit you in {city} next week,' my {who} said last month.", "Last month my {who} said they ______ visit me in {city} ______.", ["would", "the following week"], { who: ["parents", "friends", "cousins", "neighbours"], city: ["Samarkand", "Bukhara", "Khiva", "Termez"] }],
+  [TIME, "'I'll come to the {event} tonight,' {m} said last week.", "Last week {m} said he ______ come to the {event} ______.", ["would", "that night"], { m: M, event: ["party", "wedding", "match", "meeting"] }],
+  [TIME, "'We'll visit you in {city} today,' my {who} said on Monday.", "On Monday my {who} said they ______ visit me in {city} ______.", ["would", "that day"], { who: ["parents", "friends", "cousins", "neighbours"], city: ["Samarkand", "Bukhara", "Khiva", "Termez"] }],
   [TIME, "'I'll phone you from the {place} tonight,' {f} said on Friday.", "On Friday {f} said she ______ phone me from the {place} ______.", ["would", "that night"], { f: F, place: ["office", "station", "airport", "hotel"] }],
   [TIME, "'I'll pay you for the {thing} today,' {m} said on Monday.", "On Monday {m} said he ______ pay me for the {thing} ______.", ["would", "that day"], { m: M, thing: ["tickets", "food", "taxi", "book"] }],
-  [TIME, "'The {test} will be tomorrow,' the {who} said last week.", "Last week the {who} said the {test} ______ be ______.", ["would", "the next day"], { test: ["test", "exam", "match", "meeting"], who: ["teacher", "director", "coach", "manager"] }],
+  [TIME, "'The {test} will be tonight,' the {who} said last week.", "Last week the {who} said the {test} ______ be ______.", ["would", "that night"], { test: ["test", "exam", "match", "meeting"], who: ["teacher", "director", "coach", "manager"] }],
 ].map(([instr, source, hint, key, slots]) => {
   const s = {};
   for (const [n, f] of Object.entries(slots)) if ((source + hint).includes(`{${n}}`)) s[n] = f;

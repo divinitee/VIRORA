@@ -947,15 +947,15 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Imagine. Complete the if-part with the past simple of the verb in brackets.",
-  "source": "If they ______ (go) by plane, they would arrive in {city} in two hours, {name}.",
+  "source": "If they ______ (go) by plane, they would arrive at the {event} much faster, {name}.",
   "key": "went",
   "why": "Imagined situation: if + past simple, … would + base verb.",
   "slots": {
-   "city": [
-    "Moscow",
-    "Istanbul",
-    "Dubai",
-    "Almaty"
+   "event": [
+    "wedding",
+    "conference",
+    "match",
+    "festival"
    ],
    "name": [
     "Dilnoza",
@@ -1283,8 +1283,8 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Imagine it is different. Complete the if-part with the past simple.",
-  "source": "She doesn't speak {lang}, so she can't work in {city}.",
-  "hint": "If she ______ {lang}, she could work in {city}.",
+  "source": "She doesn't speak {lang}, so she can't work {job}.",
+  "hint": "If she ______ {lang}, she could work {job}.",
   "key": "spoke",
   "why": "Imagined situation: if + past simple, … would + base verb.",
   "slots": {
@@ -1294,11 +1294,11 @@ export default [
     "Turkish",
     "Chinese"
    ],
-   "city": [
-    "Seoul",
-    "Berlin",
-    "Istanbul",
-    "Beijing"
+   "job": [
+    "as a guide",
+    "as a translator",
+    "for that company",
+    "in that hotel"
    ]
   }
  },

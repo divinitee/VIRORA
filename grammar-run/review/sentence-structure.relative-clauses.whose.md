@@ -64,7 +64,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: what · who's · ✔ whose · which  
    why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
 
-16. They live in a **cottage** in **Khiva** ______ roof is green.  
+16. In **Khiva** they live in a **cottage** ______ roof is green.  
    options: who's · ✔ whose · which · what  
    why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
 
@@ -201,8 +201,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
 
 3. _Join the two sentences with whose._  
-   We visited a **museum** in **Bukhara**. Its walls are very old.  
-   → We visited a **museum** in **Bukhara** ______ walls are very old.  
+   In **Bukhara** we visited a **museum**. Its walls are very old.  
+   → In **Bukhara** we visited a **museum** ______ walls are very old.  
    key: whose  
    why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
 

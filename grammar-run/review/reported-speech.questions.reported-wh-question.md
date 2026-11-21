@@ -118,7 +118,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 7. _Report the question. Write the subject and the verb in statement order, one step into the past (the words in brackets are the original question)._  
    'Where did you buy your **phone**?' **Olga** asked me. She asked me where ______ my **phone**.  
-   key: I had bought (also: I bought)  
+   key: I had bought (also: I bought, I'd bought)  
    why: A reported question has statement order (subject + verb), no do / did, and the verb moves back.
 
 8. _Report the question. Write the subject and the verb in statement order, one step into the past (the words in brackets are the original question)._  
@@ -138,7 +138,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 11. _Report the question. Write the subject and the verb in statement order, one step into the past (the words in brackets are the original question)._  
    'Why did you leave the **meeting**?' **Lola** asked **Rustam**. She asked him why ______ the **meeting**.  
-   key: he had left (also: he left)  
+   key: he had left (also: he left, he'd left)  
    why: A reported question has statement order (subject + verb), no do / did, and the verb moves back.
 
 12. _Report the question. Write the subject and the verb in statement order, one step into the past (the words in brackets are the original question)._  
@@ -153,12 +153,12 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 14. _Report the question. Write the subject and the verb in statement order, one step into the past (the words in brackets are the original question)._  
    'What did you eat at the **wedding**?' the doctor asked **Timur**. She asked him what ______ at the **wedding**.  
-   key: he had eaten (also: he ate)  
+   key: he had eaten (also: he ate, he'd eaten)  
    why: A reported question has statement order (subject + verb), no do / did, and the verb moves back.
 
 15. _Report the question. Write the subject and the verb in statement order, one step into the past (the words in brackets are the original question)._  
    My **grandma** asked me when ______ (I / will come) back from **Tashkent**.  
-   key: I would come  
+   key: I would come (also: I'd come)  
    why: A reported question has statement order (subject + verb), no do / did, and the verb moves back.
 
 16. _Report the question. Write the subject and the verb in statement order, one step into the past (the words in brackets are the original question)._  
@@ -178,7 +178,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 19. _Report the question. Write the subject and the verb in statement order, one step into the past (the words in brackets are the original question)._  
    My **brother** asked me where ______ (I / have been) all **night**.  
-   key: I had been  
+   key: I had been (also: I'd been)  
    why: A reported question has statement order (subject + verb), no do / did, and the verb moves back.
 
 20. _Report the question. Write the subject and the verb in statement order, one step into the past (the words in brackets are the original question)._  
@@ -209,13 +209,13 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 4. _Report the question. Start with the words given._  
    'When did you arrive in **Bukhara**?' **Olga** asked me.  
    → **Olga** asked me ______ in **Bukhara**.  
-   key: when I had arrived (also: when I arrived)  
+   key: when I had arrived (also: when I arrived, when I'd arrived)  
    why: A reported question has statement order (subject + verb), no do / did, and the verb moves back.
 
 5. _Report the question. Start with the words given._  
    'How do you get to the **station**?' a tourist asked **Bekzod**.  
    → A tourist asked **Bekzod** ______ to the **station**.  
-   key: how he got  
+   key: how he got (also: how to get)  
    why: A reported question has statement order (subject + verb), no do / did, and the verb moves back.
 
 6. _Correct the mistake._  
@@ -245,7 +245,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 10. _Correct the mistake._  
    My **grandpa** asked me where I have been.  
    → My **grandpa** asked me where ______.  
-   key: I had been  
+   key: I had been (also: I'd been)  
    why: A reported question has statement order (subject + verb), no do / did, and the verb moves back.
 
 11. _Report the question with wanted to know._  
@@ -263,7 +263,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 13. _Report the question with wanted to know._  
    'How much did you pay for the **carpet**?' **Olga** asked me.  
    → **Olga** wanted to know how much ______ for the **carpet**.  
-   key: I had paid (also: I paid)  
+   key: I had paid (also: I paid, I'd paid)  
    why: A reported question has statement order (subject + verb), no do / did, and the verb moves back.
 
 14. _Report the question with wanted to know._  
@@ -275,7 +275,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 15. _Report the question with wanted to know._  
    'Why did you choose **Samarkand**?' **Sevara** asked me.  
    → **Sevara** wanted to know why ______ **Samarkand**.  
-   key: I had chosen (also: I chose)  
+   key: I had chosen (also: I chose, I'd chosen)  
    why: A reported question has statement order (subject + verb), no do / did, and the verb moves back.
 
 ## create (8)

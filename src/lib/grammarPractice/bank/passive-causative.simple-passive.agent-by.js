@@ -21,7 +21,7 @@ export default [
   "slots": {
    "tool": [
     "screwdriver",
-    "knife",
+    "spare key",
     "key",
     "hairpin"
    ],
@@ -246,8 +246,8 @@ export default [
    "camera": [
     "camera",
     "phone",
-    "Nikon",
-    "Kodak"
+    "film camera",
+    "digital camera"
    ],
    "who": [
     "uncle",
@@ -405,9 +405,9 @@ export default [
   "slots": {
    "tool": [
     "screwdriver",
-    "knife",
-    "hammer",
-    "metal bar"
+    "spare key",
+    "card",
+    "hairpin"
    ],
    "name": [
     "Gulnora",
@@ -657,7 +657,7 @@ export default [
    "tool": [
     "key",
     "card",
-    "knife",
+    "spare key",
     "hairpin"
    ],
    "name": [
@@ -820,7 +820,7 @@ export default [
     "phone",
     "drone",
     "camera",
-    "GoPro"
+    "tablet"
    ],
    "name": [
     "Gulnora",
@@ -1028,15 +1028,15 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write by (who did it) or with (what they used).",
-  "source": "The {thing} was stolen ______ two young men, {name}.",
+  "source": "The {thing} was repaired ______ two young men, {name}.",
   "key": "by",
   "why": "by + the doer (who did it).",
   "slots": {
    "thing": [
     "bike",
     "car",
-    "bag",
-    "phone"
+    "roof",
+    "fence"
    ],
    "name": [
     "Gulnora",
@@ -1090,7 +1090,7 @@ export default [
     "knife",
     "pair of scissors",
     "pen",
-    "finger"
+    "ruler"
    ],
    "name": [
     "Gulnora",
@@ -1287,7 +1287,7 @@ export default [
    ],
    "place": [
     "park",
-    "bus",
+    "square",
     "café",
     "street"
    ]
@@ -1302,16 +1302,16 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite in the passive with by. Start with the words given.",
-  "source": "Two young men stole the {thing}, {name}.",
+  "source": "Two young men repaired the {thing}, {name}.",
   "hint": "The {thing} ______ two young men, {name}.",
-  "key": "was stolen by",
+  "key": "was repaired by",
   "why": "by + the doer (who did it).",
   "slots": {
    "thing": [
     "bike",
     "car",
-    "bag",
-    "phone"
+    "roof",
+    "fence"
    ],
    "name": [
     "Gulnora",
@@ -1393,9 +1393,9 @@ export default [
   "slots": {
    "tool": [
     "screwdriver",
-    "knife",
-    "hammer",
-    "metal bar"
+    "spare key",
+    "card",
+    "hairpin"
    ],
    "name": [
     "Gulnora",

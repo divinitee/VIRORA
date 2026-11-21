@@ -52,8 +52,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: have driven · ✔ had driven · has driven · had drove  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
-13. 'Someone stole my **phone**,' **Aziz** said. He said someone ______ his **phone**.  
-   options: ✔ had stolen · has stolen · had stole · have stolen  
+13. 'Someone took my **phone** by mistake,' **Aziz** said. He said someone ______ his **phone** by mistake.  
+   options: ✔ had taken · has taken · had took · have taken  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
 14. 'I swam in the **lake**,' **Sevara** said. She said she ______ in the **lake**.  
@@ -86,102 +86,102 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 ## build (20)
 
-1. _Report it. Use had + the past participle of the verb in brackets._  
+1. _Report it. Use the past perfect (had + past participle) of the verb in brackets._  
    'The film began at six,' **Timur** said. He said the film ______ (begin) at six, **Lola**.  
    key: had begun (also: began)  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
-2. _Report it. Use had + the past participle of the verb in brackets._  
+2. _Report it. Use the past perfect (had + past participle) of the verb in brackets._  
    'I flew to **Seoul**,' **Olga** said. She said she ______ (fly) to **Seoul**.  
    key: had flown (also: flew)  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
-3. _Report it. Use had + the past participle of the verb in brackets._  
+3. _Report it. Use the past perfect (had + past participle) of the verb in brackets._  
    'I rode a horse in the **park**,' **Aziz** said. He said he ______ (ride) a horse in the **park**.  
    key: had ridden (also: rode)  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
-4. _Report it. Use had + the past participle of the verb in brackets._  
+4. _Report it. Use the past perfect (had + past participle) of the verb in brackets._  
    'We sang at the **wedding**,' the **girls** said. They said they ______ (sing) at the **wedding**.  
    key: had sung (also: sang)  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
-5. _Report it. Use had + the past participle of the verb in brackets._  
+5. _Report it. Use the past perfect (had + past participle) of the verb in brackets._  
    'I drew a **map**,' **Madina** said. She said she ______ (draw) a **map**.  
    key: had drawn (also: drew)  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
-6. _Report it. Use had + the past participle of the verb in brackets._  
+6. _Report it. Use the past perfect (had + past participle) of the verb in brackets._  
    'I hid the **keys**,' **Rustam** said. He said he ______ (hide) the **keys**.  
    key: had hidden (also: hid)  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
-7. _Report it. Use had + the past participle of the verb in brackets._  
+7. _Report it. Use the past perfect (had + past participle) of the verb in brackets._  
    'I threw the ball over the **wall**,' **Aziz** said. He said he ______ (throw) the ball over the **wall**.  
    key: had thrown (also: threw)  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
-8. _Report it. Use had + the past participle of the verb in brackets._  
+8. _Report it. Use the past perfect (had + past participle) of the verb in brackets._  
    'I saw your **brother** at the bazaar,' **Lola** said. She said she ______ (see) my **brother** at the bazaar.  
    key: had seen (also: saw)  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
-9. _Report it. Use had + the past participle of the verb in brackets._  
+9. _Report it. Use the past perfect (had + past participle) of the verb in brackets._  
    'I went to the **bank**,' **Aziz** said. He said he ______ (go) to the **bank**.  
    key: had gone (also: went)  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
-10. _Report it. Use had + the past participle of the verb in brackets._  
+10. _Report it. Use the past perfect (had + past participle) of the verb in brackets._  
    'We ate at the new **chaikhana**,' my **cousins** said. They said they ______ (eat) at the new **chaikhana**.  
    key: had eaten (also: ate)  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
-11. _Report it. Use had + the past participle of the verb in brackets._  
+11. _Report it. Use the past perfect (had + past participle) of the verb in brackets._  
    'I took a lot of photos in **Bukhara**,' **Sevara** said. She said she ______ (take) a lot of photos in **Bukhara**.  
    key: had taken (also: took)  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
-12. _Report it. Use had + the past participle of the verb in brackets._  
+12. _Report it. Use the past perfect (had + past participle) of the verb in brackets._  
    'I wrote to the **director**,' **Timur** said. He said he ______ (write) to the **director**.  
    key: had written (also: wrote)  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
-13. _Report it. Use had + the past participle of the verb in brackets._  
+13. _Report it. Use the past perfect (had + past participle) of the verb in brackets._  
    'I forgot her **address**,' **Lola** said. She said she ______ (forget) her **address**.  
    key: had forgotten (also: forgot)  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
-14. _Report it. Use had + the past participle of the verb in brackets._  
+14. _Report it. Use the past perfect (had + past participle) of the verb in brackets._  
    'I broke my **leg**,' **Timur** said. He said he ______ (break) his **leg**.  
    key: had broken (also: broke)  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
-15. _Report it. Use had + the past participle of the verb in brackets._  
+15. _Report it. Use the past perfect (had + past participle) of the verb in brackets._  
    'I gave my old **bike** away,' **Lola** said. She said she ______ (give) her old **bike** away.  
    key: had given (also: gave)  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
-16. _Report it. Use had + the past participle of the verb in brackets._  
-   'We spoke **English** in **Moscow**,' the **girls** said. They said they ______ (speak) **English** in **Moscow**.  
+16. _Report it. Use the past perfect (had + past participle) of the verb in brackets._  
+   'We spoke **English** on the trip,' the **girls** said. They said they ______ (speak) **English** on the trip.  
    key: had spoken (also: spoke)  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
-17. _Report it. Use had + the past participle of the verb in brackets._  
-   'I fell asleep in the **meeting**,' **Rustam** said. He said he ______ (fall) asleep in the **meeting**.  
+17. _Report it. Use the past perfect (had + past participle) of the verb in brackets._  
+   'I fell asleep in the **meeting**,' **Timur** said. He said he ______ (fall) asleep in the **meeting**.  
    key: had fallen (also: fell)  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
-18. _Report it. Use had + the past participle of the verb in brackets._  
+18. _Report it. Use the past perfect (had + past participle) of the verb in brackets._  
    'I drove all night,' **Sevara** said. She said she ______ (drive) all night, **Rustam**.  
    key: had driven (also: drove)  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
-19. _Report it. Use had + the past participle of the verb in brackets._  
-   'Somebody stole our **money**,' the **students** said. They said somebody ______ (steal) their **money**.  
-   key: had stolen (also: stole)  
+19. _Report it. Use the past perfect (had + past participle) of the verb in brackets._  
+   'Somebody took our **umbrellas** by mistake,' the **guests** said. They said somebody ______ (take) their **umbrellas** by mistake.  
+   key: had taken (also: took)  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
-20. _Report it. Use had + the past participle of the verb in brackets._  
+20. _Report it. Use the past perfect (had + past participle) of the verb in brackets._  
    'I wore a suit to the **party**,' **Bekzod** said. He said he ______ (wear) a suit to the **party**.  
    key: had worn (also: wore)  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
@@ -189,80 +189,80 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 ## transform (15)
 
 1. _Report the words. Use the past perfect._  
-   'I went to the **bank**,' **Aziz** said.  
-   → **Aziz** said that ______ to the **bank**.  
-   key: he had gone (also: he went)  
+   'I went to the **dentist**,' **Bekzod** said.  
+   → **Bekzod** said that ______ to the **dentist**.  
+   key: he had gone (also: he went, he'd gone)  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
 2. _Report the words. Use the past perfect._  
-   'I saw the **film**,' **Lola** said.  
-   → **Lola** said that ______ the **film**.  
-   key: she had seen (also: she saw)  
+   'I saw the **match**,' **Lola** said.  
+   → **Lola** said that ______ the **match**.  
+   key: she had seen (also: she saw, she'd seen)  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
 3. _Report the words. Use the past perfect._  
-   'We ate all the **bread**,' the **boys** said.  
-   → The **boys** said that ______ all the **bread**.  
-   key: they had eaten (also: they ate)  
+   'We ate all the **plov**,' the **children** said.  
+   → The **children** said that ______ all the **plov**.  
+   key: they had eaten (also: they ate, they'd eaten)  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
 4. _Report the words. Use the past perfect._  
-   'I forgot my **passport**,' **Bekzod** said.  
-   → **Bekzod** said that ______ his **passport**.  
-   key: he had forgotten (also: he forgot)  
+   'I forgot my **phone**,' **Bekzod** said.  
+   → **Bekzod** said that ______ his **phone**.  
+   key: he had forgotten (also: he forgot, he'd forgotten)  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
 5. _Report the words. Use the past perfect._  
-   'I broke the **vase**,' **Sevara** said.  
-   → **Sevara** said that ______ the **vase**.  
-   key: she had broken (also: she broke)  
+   'I broke the **plate**,' **Lola** said.  
+   → **Lola** said that ______ the **plate**.  
+   key: she had broken (also: she broke, she'd broken)  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
 6. _Correct the mistake._  
-   **Timur** said he has seen the **play**.  
-   → **Timur** said he ______ the **play**.  
+   **Aziz** said he has seen the **match**.  
+   → **Aziz** said he ______ the **match**.  
    key: had seen (also: saw)  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
 7. _Correct the mistake._  
-   **Lola** said she had went to **Samarkand**.  
-   → **Lola** said she ______ to **Samarkand**.  
+   **Madina** said she had went to **Bukhara**.  
+   → **Madina** said she ______ to **Bukhara**.  
    key: had gone (also: went)  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
 8. _Correct the mistake._  
-   **Rustam** said he had took my **umbrella**.  
-   → **Rustam** said he ______ my **umbrella**.  
+   **Aziz** said he had took my **book**.  
+   → **Aziz** said he ______ my **book**.  
    key: had taken (also: took)  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
 9. _Correct the mistake._  
-   My **neighbours** said they have driven to **Khiva**.  
-   → My **neighbours** said they ______ to **Khiva**.  
+   My **cousins** said they have driven to **Termez**.  
+   → My **cousins** said they ______ to **Termez**.  
    key: had driven (also: drove)  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
 10. _Correct the mistake._  
-   **Lola** said she had wrote a **poem**.  
-   → **Lola** said she ______ a **poem**.  
+   **Madina** said she had wrote a **song**.  
+   → **Madina** said she ______ a **song**.  
    key: had written (also: wrote)  
    why: Reported after said, the past simple moves back to the past perfect: had + past participle.
 
 11. _Report the words. The present perfect becomes the past perfect._  
-   'I've finished the **book**,' **Sevara** said.  
-   → **Sevara** said that she ______ the **book**.  
+   'I've finished the **book**,' **Olga** said.  
+   → **Olga** said that she ______ the **book**.  
    key: had finished  
    why: Reported after said, the present perfect (have done) moves back to the past perfect (had done).
 
 12. _Report the words. The present perfect becomes the past perfect._  
-   'I've lost my **keys**,' **Timur** said.  
-   → **Timur** said that he ______ his **keys**.  
+   'I've lost my **passport**,' **Rustam** said.  
+   → **Rustam** said that he ______ his **passport**.  
    key: had lost  
    why: Reported after said, the present perfect (have done) moves back to the past perfect (had done).
 
 13. _Report the words. The present perfect becomes the past perfect._  
-   'We've never been to **Paris**,' my **parents** said.  
-   → My **parents** said that they ______ never ______ to **Paris**.  
+   'We've never been to **London**,' my **parents** said.  
+   → My **parents** said that they ______ never ______ to **London**.  
    key: had + been  
    why: Reported after said, the present perfect (have done) moves back to the past perfect (had done).
 
@@ -273,8 +273,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Reported after said, the present perfect (have done) moves back to the past perfect (had done).
 
 15. _Report the words. The present perfect becomes the past perfect._  
-   'I've just bought a new **phone**,' **Sevara** said.  
-   → **Sevara** said that she ______ just ______ a new **phone**.  
+   'I've just bought a new **laptop**,' **Madina** said.  
+   → **Madina** said that she ______ just ______ a new **laptop**.  
    key: had + bought  
    why: Reported after said, the present perfect (have done) moves back to the past perfect (had done).
 

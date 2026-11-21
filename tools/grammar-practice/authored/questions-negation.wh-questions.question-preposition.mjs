@@ -144,6 +144,15 @@ const EXPRESS = [
 ].map(([prompt, targetGrammar, lookFor]) => ({ ...BASE, stage: "express", format: "free_response", prompt, targetGrammar, lookFor }));
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
+// Audit 21 Nov (MED/LOW): extra right answers.
+const AUDIT_ACC = [
+  ["build", "Who is {name} talking ______?", ["with"]],
+];
+for (const [st, m, acc] of AUDIT_ACC) {
+  const hit = items.filter((it) => it.stage === st && [it.prompt, it.source, it.hint].filter(Boolean).join(" ").includes(m));
+  if (!hit.length) throw new Error(`AUDIT_ACC: no ${st} item matches ${m}`);
+  for (const it of hit) it.acceptable = [...new Set([...(it.acceptable || []), ...acc])];
+}
 const out = "content/grammar-practice/questions-negation.wh-questions.question-preposition.json";
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${out} — ${items.length} items`);

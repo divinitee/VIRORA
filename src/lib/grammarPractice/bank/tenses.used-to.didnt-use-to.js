@@ -134,7 +134,7 @@ export default [
   "prompt": "I ______ {subj} at school. Now it's my favourite subject, {name}.",
   "options": [
    "didn't use to enjoy",
-   "didn't used to enjoy",
+   "don't use to enjoy",
    "wasn't used to enjoy",
    "didn't use enjoy"
   ],
@@ -165,7 +165,7 @@ export default [
   "format": "mcq",
   "prompt": "My cousins ______ near us. They moved here from {city} last {when}.",
   "options": [
-   "didn't used to live",
+   "weren't used to live",
    "don't use to live",
    "didn't use to living",
    "didn't use to live"
@@ -200,7 +200,7 @@ export default [
    "wasn't used to wear",
    "didn't use wear",
    "didn't use to wear",
-   "didn't used to wear"
+   "doesn't use to wear"
   ],
   "key": 2,
   "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to wear. After did, write use with no -d.",
@@ -231,7 +231,7 @@ export default [
   "options": [
    "didn't use to eating",
    "didn't use to eat",
-   "didn't used to eat",
+   "wasn't used to eat",
    "don't use to eat"
   ],
   "key": 1,
@@ -262,7 +262,7 @@ export default [
   "prompt": "My sister ______ up early, but now she gets up at {time} for {thing}.",
   "options": [
    "didn't use to get",
-   "didn't used to get",
+   "doesn't use to get",
    "wasn't used to get",
    "didn't use get"
   ],
@@ -293,7 +293,7 @@ export default [
   "format": "mcq",
   "prompt": "We ______ {where} on holiday, but now we go there every {season}.",
   "options": [
-   "didn't used to go",
+   "weren't used to go",
    "don't use to go",
    "didn't use to going",
    "didn't use to go"
@@ -328,7 +328,7 @@ export default [
    "wasn't used to play",
    "didn't use play",
    "didn't use to play",
-   "didn't used to play"
+   "doesn't use to play"
   ],
   "key": 2,
   "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to play. After did, write use with no -d.",
@@ -365,7 +365,7 @@ export default [
   "options": [
    "didn't use to knowing",
    "didn't use to know",
-   "didn't used to know",
+   "wasn't used to know",
    "don't use to know"
   ],
   "key": 1,
@@ -396,7 +396,7 @@ export default [
   "prompt": "My parents ______ {show}, but now they watch it every {day}.",
   "options": [
    "didn't use to watch",
-   "didn't used to watch",
+   "don't use to watch",
    "weren't used to watch",
    "didn't use watch"
   ],
@@ -427,7 +427,7 @@ export default [
   "format": "mcq",
   "prompt": "{name} ______ to school, but now she walks there every {day} with {who}.",
   "options": [
-   "didn't used to walk",
+   "wasn't used to walk",
    "doesn't use to walk",
    "didn't use to walking",
    "didn't use to walk"
@@ -466,7 +466,7 @@ export default [
    "weren't used to have",
    "didn't use have",
    "didn't use to have",
-   "didn't used to have"
+   "don't use to have"
   ],
   "key": 2,
   "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to have. After did, write use with no -d.",
@@ -496,7 +496,7 @@ export default [
   "options": [
    "didn't use to liking",
    "didn't use to like",
-   "didn't used to like",
+   "wasn't used to like",
    "doesn't use to like"
   ],
   "key": 1,
@@ -527,7 +527,7 @@ export default [
   "prompt": "I ______ good at {subj}, but I practised a lot last {when}.",
   "options": [
    "didn't use to be",
-   "didn't used to be",
+   "don't use to be",
    "wasn't used to be",
    "didn't use be"
   ],
@@ -558,7 +558,7 @@ export default [
   "format": "mcq",
   "prompt": "My {who} ______ {food}, but now she makes it every {day}.",
   "options": [
-   "didn't used to cook",
+   "wasn't used to cook",
    "doesn't use to cook",
    "didn't use to cooking",
    "didn't use to cook"
@@ -599,7 +599,7 @@ export default [
    "weren't used to talk",
    "didn't use talk",
    "didn't use to talk",
-   "didn't used to talk"
+   "don't use to talk"
   ],
   "key": 2,
   "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to talk. After did, write use with no -d.",
@@ -630,7 +630,7 @@ export default [
   "options": [
    "didn't use to reading",
    "didn't use to read",
-   "didn't used to read",
+   "wasn't used to read",
    "don't use to read"
   ],
   "key": 1,

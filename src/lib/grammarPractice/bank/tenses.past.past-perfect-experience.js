@@ -163,7 +163,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "{name} stayed near the beach. She had never ______ in the {water} before.",
+  "prompt": "{name} stayed near the shore because she had never ______ in the {water} before.",
   "options": [
    "swam",
    "swim",
@@ -951,7 +951,7 @@ export default [
    "sport": [
     "judo",
     "tennis",
-    "boxing",
+    "chess",
     "swimming"
    ]
   }
@@ -1159,7 +1159,10 @@ export default [
     "Dilnoza",
     "Sardor"
    ]
-  }
+  },
+  "acceptable": [
+   "had never been"
+  ]
  },
  {
   "id": "gpr.tenses.past.past-perfect-experience.transform.002",
@@ -1215,7 +1218,10 @@ export default [
     "Dilnoza",
     "Sardor"
    ]
-  }
+  },
+  "acceptable": [
+   "had never tried"
+  ]
  },
  {
   "id": "gpr.tenses.past.past-perfect-experience.transform.004",

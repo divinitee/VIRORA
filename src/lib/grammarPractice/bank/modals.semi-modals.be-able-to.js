@@ -910,7 +910,7 @@ export default [
     "here",
     "back",
     "home",
-    "over"
+    "to the city"
    ],
    "name": [
     "Feruza",
@@ -1543,7 +1543,7 @@ export default [
     "job",
     "flat",
     "room",
-    "school"
+    "car"
    ]
   },
   "acceptable": [

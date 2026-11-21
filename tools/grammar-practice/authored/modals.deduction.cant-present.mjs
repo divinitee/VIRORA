@@ -32,7 +32,7 @@ const CHOOSE = [
   ["The {shop} ______ be open. It's three o'clock in the morning, {name}.", { shop: ["bank", "post office", "bakery", "library"], name: NAME }],
   ["You ______ be tired. You slept for {n} hours, {name}!", { n: ["twelve", "ten", "eleven", "fourteen"], name: NAME }],
   ["That ______ be the right bus. This one goes to the {place}, not the airport, {name}.", { place: ["bazaar", "station", "stadium", "university"], name: NAME }],
-  ["She ______ be Lola's sister. Lola has only {sib}, {name}.", { sib: ["brothers", "one brother", "two brothers", "a brother"], name: NAME }],
+  ["She ______ be Lola's sister. Lola has only {sib}, {name}.", { sib: ["brothers", "one brother", "two brothers", "three brothers"], name: NAME }],
   ["He ______ know about the {event}. Nobody told him, {name}.", { event: ["party", "surprise", "wedding", "plan"], name: NAME }],
   ["This {food} ______ be fresh. It's from last {time}.", { food: ["bread", "milk", "fish", "cake"], time: ["week", "month", "Monday", "Friday"] }],
   ["You ______ be serious, {name}! A new {thing} for five dollars?", { thing: ["phone", "laptop", "car", "bike"], name: NAME }],
@@ -67,7 +67,7 @@ const BUILD = [
   ["be", "That ______ (be) Madina's {car}. She doesn't have one, {name}.", { car: ["car", "bike", "scooter", "boat"], name: NAME }],
   ["be", "This ______ (be) the way to the {place}. The signs say it's behind us, {name}.", { place: ["station", "museum", "airport", "stadium"], name: NAME }],
   ["be", "He ______ (be) {age}. He's still at school, {name}.", { age: ["thirty", "forty", "twenty-five", "fifty"], name: NAME }],
-  ["need", "The car ______ (need) petrol. I filled it up {when}, {name}.", { when: ["this morning", "yesterday", "an hour ago", "today"], name: NAME }],
+  ["be", "The tank ______ (be) empty. I filled it up {when}, {name}.", { when: ["this morning", "yesterday", "an hour ago", "today"], name: NAME }],
   ["be", "The {food} ______ (be) ready. We put it in the oven {when}.", { food: ["cake", "bread", "chicken", "pie"], when: ["five minutes ago", "just now", "a minute ago", "two minutes ago"] }],
   ["be", "She ______ (be) at the {place}. It's closed today, {name}.", { place: ["library", "pool", "gym", "museum"], name: NAME }],
 ].map(([v, source, slots]) => ({ ...BASE, stage: "build", format: "gap_fill", instr: INSTR, source, key: `can't ${v}`, why: WHY, slots }));

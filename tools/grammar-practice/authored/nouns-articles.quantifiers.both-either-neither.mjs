@@ -45,7 +45,7 @@ const WHY = {
 const CHOOSE = [
   ["both", "b", "My mum can {skill}, and my dad can too. ______ of my parents can {skill}, {name}.", { skill: ["drive", "swim", "cook plov", "speak Russian"], name: NAME }],
   ["neither", "n", "Aziz can't {skill}, and Timur can't either. ______ of them can {skill}.", { skill: ["swim", "ski", "cook", "ride a horse"], x: [] }],
-  ["either", "e", "There are two buses to the {place}, the 12 and the 45. You can take ______ of them, {name}.", { place: ["bazaar", "station", "university", "airport"], name: NAME }],
+  ["either", "e", "There are two buses to the {place}, the 12 and the 45. You can take ______ of them, but not both, {name}.", { place: ["bazaar", "station", "university", "airport"], name: NAME }],
   ["both", "b", "______ my grandparents live in {city}, {name}. They have a house there.", { city: ["Samarkand", "Termez", "Nukus", "Jizzakh"], name: NAME }],
   ["neither", "n", "I asked my two friends for help, but ______ of them had time {when}, {name}.", { when: ["yesterday", "on Saturday", "last week", "this morning"], name: NAME }],
   ["either", "en", "I don't like ______ of these two {things}, {name}. Can I see another one?", { things: ["shirts", "bags", "phones", "jackets"], name: NAME }],

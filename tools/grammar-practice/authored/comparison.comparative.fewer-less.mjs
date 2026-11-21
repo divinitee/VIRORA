@@ -20,7 +20,7 @@ import { writeFileSync } from "node:fs";
 const BASE = { domain: "comparison", branch: "comparative", topic: "fewer-less", level: "B1", pv: "2.5" };
 const NAME = ["Gulnora", "Jamshid", "Malika", "Ulugbek"]; // listener names: never printed in a sentence (audit 20 Nov)
 const WHY = {
-  fewer: "The noun is plural and you can count it, so use fewer.",
+  fewer: "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
   less: "The noun is uncountable (you can't count it), so use less.",
 };
 const OPT = { fewer: ["fewer", "less", "little", "lesser"], less: ["less", "fewer", "little", "lesser"] };

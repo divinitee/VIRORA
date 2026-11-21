@@ -67,7 +67,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "There are two buses to the {place}, the 12 and the 45. You can take ______ of them, {name}.",
+  "prompt": "There are two buses to the {place}, the 12 and the 45. You can take ______ of them, but not both, {name}.",
   "options": [
    "either",
    "none",

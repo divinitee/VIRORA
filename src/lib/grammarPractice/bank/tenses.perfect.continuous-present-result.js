@@ -1248,7 +1248,10 @@ export default [
     "eggs",
     "pancakes"
    ]
-  }
+  },
+  "acceptable": [
+   "have been making"
+  ]
  },
  {
   "id": "gpr.tenses.perfect.continuous-present-result.transform.004",

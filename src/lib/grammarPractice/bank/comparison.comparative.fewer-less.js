@@ -17,7 +17,7 @@ export default [
    "lesser"
   ],
   "key": 0,
-  "why": "The noun is plural and you can count it, so use fewer.",
+  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
   "slots": {
    "event": [
     "concert",
@@ -81,7 +81,7 @@ export default [
    "less"
   ],
   "key": 2,
-  "why": "The noun is plural and you can count it, so use fewer.",
+  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
   "slots": {
    "place": [
     "street",
@@ -145,7 +145,7 @@ export default [
    "lesser"
   ],
   "key": 0,
-  "why": "The noun is plural and you can count it, so use fewer.",
+  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
   "slots": {
    "test": [
     "test",
@@ -208,7 +208,7 @@ export default [
    "less"
   ],
   "key": 2,
-  "why": "The noun is plural and you can count it, so use fewer.",
+  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
   "slots": {
    "day": [
     "Sundays",
@@ -272,7 +272,7 @@ export default [
    "lesser"
   ],
   "key": 0,
-  "why": "The noun is plural and you can count it, so use fewer.",
+  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
   "slots": {
    "name": [
     "Madina",
@@ -336,7 +336,7 @@ export default [
    "less"
   ],
   "key": 2,
-  "why": "The noun is plural and you can count it, so use fewer.",
+  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
   "slots": {
    "thing": [
     "phone",
@@ -393,7 +393,7 @@ export default [
    "lesser"
   ],
   "key": 0,
-  "why": "The noun is plural and you can count it, so use fewer.",
+  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
   "slots": {
    "goods": [
     "melons",
@@ -457,7 +457,7 @@ export default [
    "less"
   ],
   "key": 2,
-  "why": "The noun is plural and you can count it, so use fewer.",
+  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
   "slots": {
    "group": [
     "group",
@@ -521,7 +521,7 @@ export default [
    "lesser"
   ],
   "key": 0,
-  "why": "The noun is plural and you can count it, so use fewer.",
+  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
   "slots": {
    "season": [
     "season",
@@ -584,7 +584,7 @@ export default [
    "less"
   ],
   "key": 2,
-  "why": "The noun is plural and you can count it, so use fewer.",
+  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
   "slots": {
    "when": [
     "today than yesterday",
@@ -643,7 +643,7 @@ export default [
   "instr": "Write fewer or less.",
   "source": "There are ______ buses to {city} on Sundays, {name}.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so use fewer.",
+  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
   "slots": {
    "city": [
     "Samarkand",
@@ -697,7 +697,7 @@ export default [
   "instr": "Write fewer or less.",
   "source": "We need ______ chairs than we have, {name}. Only {n} guests are coming.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so use fewer.",
+  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
   "slots": {
    "n": [
     "six",
@@ -751,7 +751,7 @@ export default [
   "instr": "Write fewer or less.",
   "source": "My {who2} works ______ hours than last year, so he can see his {who} more.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so use fewer.",
+  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
   "slots": {
    "who2": [
     "uncle",
@@ -805,7 +805,7 @@ export default [
   "instr": "Write fewer or less.",
   "source": "There were ______ tourists in {city} in {month} than in May.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so use fewer.",
+  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
   "slots": {
    "city": [
     "Samarkand",
@@ -859,7 +859,7 @@ export default [
   "instr": "Write fewer or less.",
   "source": "I read ______ books this {period} than last {period}, {name}.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so use fewer.",
+  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
   "slots": {
    "period": [
     "year",
@@ -912,7 +912,7 @@ export default [
   "instr": "Write fewer or less.",
   "source": "There are ______ shops in our village than in the {place}, {name}.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so use fewer.",
+  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
   "slots": {
    "place": [
     "town",
@@ -966,7 +966,7 @@ export default [
   "instr": "Write fewer or less.",
   "source": "This {test} has ______ questions than the last one, {name}.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so use fewer.",
+  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
   "slots": {
    "test": [
     "test",
@@ -1020,7 +1020,7 @@ export default [
   "instr": "Write fewer or less.",
   "source": "My little {sib} eats ______ vegetables than he should, {name}.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so use fewer.",
+  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
   "slots": {
    "sib": [
     "brother",
@@ -1073,7 +1073,7 @@ export default [
   "instr": "Write fewer or less.",
   "source": "There are ______ birds in the city than in the {place}, {name}.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so use fewer.",
+  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
   "slots": {
    "place": [
     "mountains",
@@ -1127,7 +1127,7 @@ export default [
   "instr": "Write fewer or less.",
   "source": "{name} wants to make ______ mistakes in her {subj} essays.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so use fewer.",
+  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
   "slots": {
    "name": [
     "Madina",
@@ -1182,7 +1182,7 @@ export default [
   "source": "Last year our {group} had 30 students. This year it has {n}.",
   "hint": "This year our {group} has ______ students than last year.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so use fewer.",
+  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
   "slots": {
    "group": [
     "group",
@@ -1210,7 +1210,7 @@ export default [
   "source": "I slept eight hours on Monday and {n} hours on Tuesday, {name}.",
   "hint": "I slept for ______ on Tuesday than on Monday, {name}.",
   "key": "fewer hours",
-  "why": "The noun is plural and you can count it, so use fewer.",
+  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
   "slots": {
    "n": [
     "six",
@@ -1266,7 +1266,7 @@ export default [
   "source": "We had 40 guests at my sister's wedding and {n} at mine, {name}.",
   "hint": "We had ______ guests at my wedding than at my sister's, {name}.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so use fewer.",
+  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
   "slots": {
    "n": [
     "30",
@@ -1322,7 +1322,7 @@ export default [
   "source": "I have less friends in {city} than in my village, {name}.",
   "hint": "I have ______ friends in {city} than in my village, {name}.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so use fewer.",
+  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
   "slots": {
    "city": [
     "Tashkent",
@@ -1378,7 +1378,7 @@ export default [
   "source": "We bought lesser {goods} this week than last week, {name}.",
   "hint": "We bought ______ {goods} this week than last week, {name}.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so use fewer.",
+  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
   "slots": {
    "goods": [
     "apples",
@@ -1434,7 +1434,7 @@ export default [
   "source": "There were less mistakes in your {test} this time, {name}.",
   "hint": "There were ______ mistakes in your {test} this time, {name}.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so use fewer.",
+  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
   "slots": {
    "test": [
     "test",
@@ -1462,7 +1462,7 @@ export default [
   "source": "I don't watch as many films as my {who}, {name}.",
   "hint": "I watch ______ films than my {who}, {name}.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so use fewer.",
+  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
   "slots": {
    "who": [
     "brother",
@@ -1546,7 +1546,7 @@ export default [
   "source": "This {shop} doesn't sell as many {goods} as the bazaar.",
   "hint": "This {shop} sells ______ {goods} than the bazaar.",
   "key": "fewer",
-  "why": "The noun is plural and you can count it, so use fewer.",
+  "why": "The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).",
   "slots": {
    "shop": [
     "shop",

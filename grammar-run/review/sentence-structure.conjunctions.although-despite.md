@@ -197,7 +197,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 2. _Rewrite with despite. Keep the meaning._  
    Although he was ill, **Bekzod** went to **school**.  
    → Despite ______, **Bekzod** went to **school**.  
-   key: being ill (also: his illness)  
+   key: being ill (also: his illness, feeling ill)  
    why: Despite + a noun or -ing form, not a whole clause.
 
 3. _Rewrite with despite. Keep the meaning._  
@@ -227,7 +227,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 7. _Rewrite with although. Keep the meaning._  
    Despite being tired, **Aziz** cooked **plov**.  
    → Although ______, **Aziz** cooked **plov**.  
-   key: he was tired  
+   key: he was tired (also: he felt tired)  
    why: Although + a full clause: subject + verb.
 
 8. _Rewrite with although. Keep the meaning._  

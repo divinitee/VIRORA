@@ -33,7 +33,7 @@ const CHOOSE = [
   ["see", "saw", "seen", "seeing", "The children were so happy. They had never ______ {thing} before.", { thing: ["snow", "the sea", "a real camel", "mountains"], x: [] }],
   ["eat", "ate", "eaten", "eating", "{name} didn't know how to use chopsticks. He had never ______ {food} before.", { name: NAME_M, food: ["Korean food", "Chinese food", "sushi", "noodles"] }],
   ["ride", "rode", "ridden", "riding", "My little brother fell off the {animal} at the {place} because he had never ______ one before.", { animal: ["horse", "camel", "donkey", "pony"], place: ["farm", "zoo", "park", "village"] }],
-  ["swim", "swam", "swum", "swimming", "{name} stayed near the beach. She had never ______ in the {water} before.", { name: NAME_F, water: ["sea", "ocean", "lake", "river"] }],
+  ["swim", "swam", "swum", "swimming", "{name} stayed near the shore because she had never ______ in the {water} before.", { name: NAME_F, water: ["sea", "ocean", "lake", "river"] }],
   ["drive", "drove", "driven", "driving", "My father was careful in {city} because he had never ______ there before, {name}.", { city: ["Tashkent", "Almaty", "Moscow", "Istanbul"], name: NAME }],
   ["write", "wrote", "written", "writing", "I didn't know how to start. I had never ______ a {text} in English before, {name}.", { text: ["letter", "story", "report", "cover letter"], name: NAME }],
   ["wear", "wore", "worn", "wearing", "{name} felt strange in the {thing}. He had never ______ one before.", { name: NAME_M, thing: ["suit", "tie", "uniform", "chapan"] }],
@@ -71,7 +71,7 @@ const BUILD = [
   ["sung", "Our {group} had never ______ (sing) in front of the whole {school} before.", { group: ["class", "choir", "group", "team"], school: ["school", "lyceum", "college", "town"] }],
   ["taken", "I had never ______ (take) the {transport} on my own before last {when}.", { transport: ["metro", "train", "night bus", "minibus"], when: ["week", "month", "summer", "Friday"] }],
   ["been", "{name} was excited. She had never ______ (be) to {city} before.", { name: NAME_F, city: ["Khiva", "Samarkand", "Bukhara", "Shahrisabz"] }],
-  ["done", "My cousin had never ______ (do) a {sport} lesson before, so the coach helped him.", { sport: ["judo", "tennis", "boxing", "swimming"], x: [] }],
+  ["done", "My cousin had never ______ (do) a {sport} lesson before, so the coach helped him.", { sport: ["judo", "tennis", "chess", "swimming"], x: [] }],
   ["met", "My parents had never ______ (meet) my teacher before the {event}, {name}.", { event: ["parents' meeting", "school concert", "graduation", "open day"], name: NAME }],
   ["drunk", "My {who} had never ______ (drink) {drink} before, and he didn't like it.", { who: ["grandfather", "father", "uncle", "little brother"], drink: ["coffee", "cola", "a milkshake", "a smoothie"] }],
   ["made", "{name} was proud. She had never ______ (make) {food} on her own before.", { name: NAME_F, food: ["plov", "manti", "a cake", "samsa"] }],
@@ -138,6 +138,16 @@ const EXPRESS = [
 ].map(([prompt, targetGrammar, lookFor]) => ({ ...BASE, stage: "express", format: "free_response", prompt, targetGrammar, lookFor }));
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
+// Audit 21 Nov (MED/LOW): extra right answers.
+const AUDIT_ACC = [
+  ["transform", "______ on a plane", ["had never been"]],
+  ["transform", "Before the party, I ______", ["had never tried"]],
+];
+for (const [st, m, acc] of AUDIT_ACC) {
+  const hit = items.filter((it) => it.stage === st && [it.prompt, it.source, it.hint].filter(Boolean).join(" ").includes(m));
+  if (!hit.length) throw new Error(`AUDIT_ACC: no ${st} item matches ${m}`);
+  for (const it of hit) it.acceptable = [...new Set([...(it.acceptable || []), ...acc])];
+}
 const out = "content/grammar-practice/tenses.past.past-perfect-experience.json";
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

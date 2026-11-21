@@ -78,7 +78,7 @@ export default [
   "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
   "slots": {
    "who": [
-    "mayor",
+    "headteacher",
     "director",
     "manager",
     "builder"
@@ -189,7 +189,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Last month the {who} said, 'Prices will go up.' He said prices ______ go up.",
+  "prompt": "Last month the {who} said, 'Prices will go up.' He said prices ______ go up. They went up in June.",
   "options": [
    "would to",
    "will be",
@@ -337,7 +337,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Last year my {who} said, 'We won't sell the {thing}.' They said they ______ sell the {thing}.",
+  "prompt": "Last year my {who} said, 'We won't sell the {thing}.' They said they ______ sell the {thing}. But they sold it this spring.",
   "options": [
    "didn't",
    "wouldn't",
@@ -655,7 +655,7 @@ export default [
   "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
   "slots": {
    "who": [
-    "mayor",
+    "headteacher",
     "director",
     "manager",
     "builder"
@@ -752,7 +752,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
-  "source": "Last month the {who} said prices ______ (will / go) up.",
+  "source": "Last month the {who} said prices ______ (will / go) up. They went up in June.",
   "key": "would go",
   "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
   "slots": {
@@ -938,7 +938,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
-  "source": "Last year my {who} said they ______ (won't / sell) the {thing}.",
+  "source": "Last year my {who} said they ______ (won't / sell) the {thing}. But they sold it this spring.",
   "key": "wouldn't sell",
   "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
   "slots": {
@@ -1401,11 +1401,11 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Report it. Change will and the time word.",
-  "source": "'I'll come to the {event} tomorrow,' {m} said last week.",
+  "source": "'I'll come to the {event} tonight,' {m} said last week.",
   "hint": "Last week {m} said he ______ come to the {event} ______.",
   "key": [
    "would",
-   "the next day"
+   "that night"
   ],
   "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
   "slots": {
@@ -1432,11 +1432,11 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Report it. Change will and the time word.",
-  "source": "'We'll visit you in {city} next week,' my {who} said last month.",
-  "hint": "Last month my {who} said they ______ visit me in {city} ______.",
+  "source": "'We'll visit you in {city} today,' my {who} said on Monday.",
+  "hint": "On Monday my {who} said they ______ visit me in {city} ______.",
   "key": [
    "would",
-   "the following week"
+   "that day"
   ],
   "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
   "slots": {
@@ -1525,11 +1525,11 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Report it. Change will and the time word.",
-  "source": "'The {test} will be tomorrow,' the {who} said last week.",
+  "source": "'The {test} will be tonight,' the {who} said last week.",
   "hint": "Last week the {who} said the {test} ______ be ______.",
   "key": [
    "would",
-   "the next day"
+   "that night"
   ],
   "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
   "slots": {

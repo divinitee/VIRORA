@@ -842,7 +842,8 @@ export default [
   "source": "'Where did you buy your {thing}?' {f} asked me. She asked me where ______ my {thing}.",
   "key": "I had bought",
   "acceptable": [
-   "I bought"
+   "I bought",
+   "I'd bought"
   ],
   "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
   "slots": {
@@ -956,7 +957,8 @@ export default [
   "source": "'Why did you leave the {event}?' {f} asked {m}. She asked him why ______ the {event}.",
   "key": "he had left",
   "acceptable": [
-   "he left"
+   "he left",
+   "he'd left"
   ],
   "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
   "slots": {
@@ -1049,7 +1051,8 @@ export default [
   "source": "'What did you eat at the {event}?' the doctor asked {m}. She asked him what ______ at the {event}.",
   "key": "he had eaten",
   "acceptable": [
-   "he ate"
+   "he ate",
+   "he'd eaten"
   ],
   "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
   "slots": {
@@ -1092,7 +1095,10 @@ export default [
     "Khiva",
     "Tashkent"
    ]
-  }
+  },
+  "acceptable": [
+   "I'd come"
+  ]
  },
  {
   "id": "gpr.reported-speech.questions.reported-wh-question.build.016",
@@ -1212,7 +1218,10 @@ export default [
     "uncle",
     "grandpa"
    ]
-  }
+  },
+  "acceptable": [
+   "I'd been"
+  ]
  },
  {
   "id": "gpr.reported-speech.questions.reported-wh-question.build.020",
@@ -1329,7 +1338,8 @@ export default [
   "hint": "{f} asked me ______ in {city}.",
   "key": "when I had arrived",
   "acceptable": [
-   "when I arrived"
+   "when I arrived",
+   "when I'd arrived"
   ],
   "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
   "slots": {
@@ -1359,6 +1369,9 @@ export default [
   "source": "'How do you get to the {place}?' a tourist asked {m}.",
   "hint": "A tourist asked {m} ______ to the {place}.",
   "key": "how he got",
+  "acceptable": [
+   "how to get"
+  ],
   "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
   "slots": {
    "m": [
@@ -1504,7 +1517,10 @@ export default [
     "uncle",
     "grandpa"
    ]
-  }
+  },
+  "acceptable": [
+   "I'd been"
+  ]
  },
  {
   "id": "gpr.reported-speech.questions.reported-wh-question.transform.011",
@@ -1575,7 +1591,8 @@ export default [
   "hint": "{f} wanted to know how much ______ for the {thing}.",
   "key": "I had paid",
   "acceptable": [
-   "I paid"
+   "I paid",
+   "I'd paid"
   ],
   "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
   "slots": {
@@ -1634,7 +1651,8 @@ export default [
   "hint": "{f} wanted to know why ______ {city}.",
   "key": "I had chosen",
   "acceptable": [
-   "I chose"
+   "I chose",
+   "I'd chosen"
   ],
   "why": "A reported question has statement order (subject + verb), no do / did, and the verb moves back.",
   "slots": {

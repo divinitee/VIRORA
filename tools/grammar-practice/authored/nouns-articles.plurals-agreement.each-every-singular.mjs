@@ -30,7 +30,7 @@ const pick = (text, slots) => {
 };
 const det = (t) => (/\bEach of\b/i.test(t) ? "Each of" : /\bEach\b/.test(t) ? "Each" : "Every");
 const WHYV = (t, v) => det(t) === "Each of"
-  ? `Each of + a plural noun still means one by one, so the verb is singular: ${v}.`
+  ? `Each of + a plural noun still means one by one, so in careful English the verb is singular: ${v}.`
   : `${det(t)} + a singular noun takes a singular verb: ${v}.`;
 const WHYN = (t, n) => `${det(t)} is followed by a singular noun (${n}), never a plural.`;
 

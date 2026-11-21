@@ -75,7 +75,7 @@ const BUILD = [
   ["The nearer", "the more nervous", "______ (near) the {event} gets, ______ (nervous) I feel, {name}.", { event: ["exam", "wedding", "match", "interview"], name: NAME }],
   ["The more", "the more fun", "______ (many) people come to the {event}, ______ (fun) it is, {name}.", { event: ["party", "wedding", "picnic", "concert"], name: NAME }],
   ["The less", "the more", "______ (little) you spend at the {shop}, ______ (much) you save, {name}.", { shop: ["bazaar", "mall", "café", "supermarket"], name: NAME }],
-  ["The quicker", "the more difficult", "______ (quick) you speak {lang}, ______ (difficult) it is to understand you, {name}.", { lang: ["English", "Russian", "Uzbek", "Korean"], name: NAME }],
+  ["The faster", "the more difficult", "______ (fast) you speak {lang}, ______ (difficult) it is to understand you, {name}.", { lang: ["English", "Russian", "Uzbek", "Korean"], name: NAME }],
   ["The scarier", "the more", "______ (scary) the {film}, ______ (much) I like it, {name}.", { film: ["film", "story", "book", "game"], name: NAME }],
   ["The higher", "the colder", "______ (high) we climbed up the {hill}, ______ (cold) it got, {name}.", { hill: ["hill", "mountain", "tower", "path"], name: NAME }],
   ["The more", "the thirstier", "______ (much) {food} you eat, ______ (thirsty) you get, {name}.", { food: ["salty crisps", "salted nuts", "dried fish", "salty cheese"], name: NAME }],
@@ -105,7 +105,7 @@ const TRANSFORM = [
   [FIX, "The much people come to the {event}, the more fun it is, {name}.", "______ people come to the {event}, ______ it is, {name}.", "The more", "the more fun", { event: ["party", "wedding", "picnic", "concert"], name: NAME }],
   [AS, "As my {who} gets older, he gets wiser, {name}.", "______ my {who} gets, ______ he gets, {name}.", "The older", "the wiser", { who: ["grandfather", "uncle", "father", "teacher"], name: NAME }],
   [AS, "As we climbed higher up the {hill}, it got colder, {name}.", "______ we climbed up the {hill}, ______ it got, {name}.", "The higher", "the colder", { hill: ["hill", "mountain", "tower", "path"], name: NAME }],
-  [AS, "As the {event} gets nearer, I feel more nervous, {name}.", "______ the {event} gets, ______ I feel, {name}.", "The nearer", "the more nervous", { event: ["exam", "wedding", "match", "interview"], name: NAME }],
+  [AS, "As it gets later at the {event}, I feel more tired, {name}.", "______ it gets at the {event}, ______ I feel, {name}.", "The later", "the more tired", { event: ["party", "wedding", "concert", "meeting"], name: NAME }],
   [AS, "As {name} trains more at the {gym}, she gets stronger.", "______ {name} trains at the {gym}, ______ she gets.", "The more", "the stronger", { name: SHE, gym: ["gym", "club", "stadium", "pool"] }],
   [AS, "As the music at the {event} gets louder, the children get happier, {name}.", "______ the music at the {event} gets, ______ the children get, {name}.", "The louder", "the happier", { event: ["party", "wedding", "picnic", "festival"], name: NAME }],
 ].map(([instr, source, hint, k1, k2, slots]) => {

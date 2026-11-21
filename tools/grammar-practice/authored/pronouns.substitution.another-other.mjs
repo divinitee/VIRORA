@@ -61,7 +61,7 @@ const CHOOSE = [
   [OO, W_OT, "She speaks {lang} and two ______ languages, {name}.", { lang: ["English", "Uzbek", "Russian", "Korean"], name: NAME }],
   [OO, W_OT, "I don't know any ______ students in this {group}, {name}.", { group: ["class", "group", "course", "school"], name: NAME }],
   [OO, W_OT, "Let's try ______ ways to learn {what}, {name}.", { what: ["new words", "grammar", "English", "spelling"], name: NAME }],
-  [OS, W_OS, "Some of my friends like {sport}; ______ prefer chess.", { sport: ["football", "tennis", "boxing", "volleyball"] }],
+  [OS, W_OS, "Some of my friends like {sport}; ______ prefer chess.", { sport: ["football", "tennis", "basketball", "volleyball"] }],
   [OS, W_OS, "Be kind to ______ at {place}, {name}.", { place: PLACE, name: NAME }],
   [OS, W_OS, "Some guests are always early for the {event}, and ______ are always late.", { event: ["party", "wedding", "dinner", "concert"] }],
   [OS, W_OS, "I've read this book. Do you have any ______ by the same {who}, {name}?", { who: ["writer", "author", "poet", "novelist"], name: NAME }],

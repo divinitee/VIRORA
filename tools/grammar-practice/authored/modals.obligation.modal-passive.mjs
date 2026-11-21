@@ -52,7 +52,7 @@ const CHOOSE = [
   ["follow", 1, "The {place} rules ______ by everyone, {name}.", { place: RULES, name: NAME }],
   ["wear", 1, "Helmets ______ on the {site}, {name}.", { site: SITE, name: NAME }],
   ["check", 1, "The rooms ______ by {time} every day, {name}.", { time: ["noon", "eleven", "ten o'clock", "twelve"], name: NAME }],
-  ["complete", 1, "The {form} form ______ in black ink, {name}.", { form: FORM, name: NAME }],
+  ["sign", 1, "The {form} form ______ in black ink, {name}.", { form: FORM, name: NAME }],
   ["respect", 1, "The {who}'s decision ______ by all players, {name}.", { who: ["referee", "coach", "captain", "judge"], name: NAME }],
 ].map(([v, pas, prompt, slots], i) => {
   const o = shapes(v);

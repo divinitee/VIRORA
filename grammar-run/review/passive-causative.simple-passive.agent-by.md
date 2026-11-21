@@ -4,7 +4,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 ## choose (20)
 
-1. The lock was opened ______ a **knife** by the **plumber**.  
+1. The lock was opened ______ a **spare key** by the **plumber**.  
    options: by · ✔ with · from · of  
    why: with + the thing that was used (a tool or an object).
 
@@ -157,7 +157,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: by + the doer (who did it).
 
 15. _Write by (who did it) or with (what they used)._  
-   The **car** was stolen ______ two young men, **Gulnora**.  
+   The **car** was repaired ______ two young men, **Gulnora**.  
    key: by  
    why: by + the doer (who did it).
 
@@ -213,9 +213,9 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: by + the doer (who did it).
 
 5. _Rewrite in the passive with by. Start with the words given._  
-   Two young men stole the **car**, **Ulugbek**.  
+   Two young men repaired the **car**, **Ulugbek**.  
    → The **car** ______ two young men, **Ulugbek**.  
-   key: was stolen by  
+   key: was repaired by  
    why: by + the doer (who did it).
 
 6. _Rewrite as one passive sentence. Show what was used._  

@@ -79,7 +79,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "{b} and {g} met at university, fell in love and married ______ {when}.",
+  "prompt": "{b} and {g} met at university and have helped ______ with {what} ever since.",
   "options": [
    "them",
    "each others",
@@ -101,11 +101,11 @@ export default [
     "Madina",
     "Kamila"
    ],
-   "when": [
-    "two years later",
-    "last summer",
-    "in 2020",
-    "a year later"
+   "what": [
+    "homework",
+    "work",
+    "exams",
+    "everything"
    ]
   }
  },
@@ -240,7 +240,7 @@ export default [
    "fight": [
     "argument",
     "quarrel",
-    "fight about money",
+    "argument about money",
     "argument at the wedding"
    ]
   }
@@ -501,7 +501,7 @@ export default [
   "format": "mcq",
   "prompt": "We left the keys inside and locked ______ out of the {place}, {g}.",
   "options": [
-   "each other",
+   "our",
    "us",
    "ourself",
    "ourselves"
@@ -557,11 +557,11 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Did we hurt ______ when we fell on the {surface}? No, we're fine.",
+  "prompt": "Did we hurt ______ when we slipped on the {surface}, one after the other? No, we're fine.",
   "options": [
    "ourself",
    "ourselves",
-   "each other",
+   "our",
    "us"
   ],
   "key": 1,
@@ -1597,8 +1597,8 @@ export default [
   "level": "B1",
   "stage": "create",
   "format": "constrained_sentence",
-  "prompt": "Write one sentence about a couple who met and fell in love.",
-  "requiredElement": "They met … and fell in love with each other.",
+  "prompt": "Write one sentence about two friends who help each other.",
+  "requiredElement": "They help each other with …",
   "constraints": [
    "exactly one sentence",
    "each other",

@@ -1278,7 +1278,8 @@
   "hint": "Despite ______, {name} went to {work}.",
   "key": "being ill",
   "acceptable": [
-   "his illness"
+   "his illness",
+   "feeling ill"
   ],
   "why": "Despite + a noun or -ing form, not a whole clause.",
   "slots": {
@@ -1446,7 +1447,10 @@
     "breakfast",
     "lunch"
    ]
-  }
+  },
+  "acceptable": [
+   "he felt tired"
+  ]
  },
  {
   "domain": "sentence-structure",

@@ -45,7 +45,7 @@ const CHOOSE = [
   ["worry", 1, "You studied a lot. If I were you, I ______ about the {test}, {name}.", { test: ["exam", "test", "interview", "quiz"], name: NAME }],
   ["spend", 1, "Prices there are crazy. If I were you, I ______ much at the {place}, {name}.", { place: ["airport", "mall", "hotel", "tourist shop"], name: NAME }],
   ["lend", 1, "I ______ him your {thing} if I were you, {name}. He never gives things back.", { thing: ["car", "laptop", "camera", "bike"], name: NAME }],
-  ["leave", 1, "This street isn't safe. If I were you, I ______ the {thing} in the car, {name}.", { thing: ["bag", "laptop", "phone", "passport"], name: NAME }],
+  ["leave", 1, "It's very hot today. If I were you, I ______ the {thing} in the car, {name}.", { thing: ["chocolate", "laptop", "phone", "medicine"], name: NAME }],
 ].map(([v, n, prompt, slots], i) => {
   const o = n ? neg(v) : pos(v);
   const options = o.map((_, j) => o[(j + i) % 4]);
@@ -59,7 +59,7 @@ const BUILD = [
   ["apply", 0, "You'd be great there. If I were you, I ______ (apply) for the job at the {place}, {name}.", { place: ["bank", "hotel", "airport", "hospital"], name: NAME }],
   ["see", 0, "Your {part} hurts? If I were you, I ______ (see) a doctor, {name}.", { part: ["tooth", "back", "knee", "eye"], name: NAME }],
   ["take", 0, "I ______ (take) a taxi to the {place} if I were you, {name}.", { place: ["airport", "station", "wedding", "hospital"], name: NAME }],
-  ["call", 0, "It's her birthday. If I were you, I ______ (call) your {who} tonight, {name}.", { who: ["mother", "grandmother", "sister", "aunt"], name: NAME }],
+  ["call", 0, "It's your {who}'s birthday. If I were you, I ______ (call) her tonight, {name}.", { who: ["mother", "grandmother", "sister", "aunt"], name: NAME }],
   ["buy", 0, "Both are nice. If I were you, I ______ (buy) the {color} one, {name}.", { color: ["blue", "black", "red", "white"], name: NAME }],
   ["go", 0, "I ______ (go) to bed early if I were you. The {test} is tomorrow, {name}.", { test: ["exam", "test", "interview", "match"], name: NAME }],
   ["ask", 0, "You look lost. If I were you, I ______ (ask) the {who} for help, {name}.", { who: ["teacher", "manager", "coach", "librarian"], name: NAME }],
@@ -74,7 +74,7 @@ const BUILD = [
   ["eat", 1, "I ______ (not / eat) that {food} if I were you, {name}. It smells bad.", { food: ["fish", "cheese", "meat", "cake"], name: NAME }],
   ["worry", 1, "You're ready. If I were you, I ______ (not / worry) about the {test}, {name}.", { test: ["exam", "test", "interview", "quiz"], name: NAME }],
   ["lend", 1, "I ______ (not / lend) him your {thing} if I were you, {name}.", { thing: ["car", "laptop", "camera", "bike"], name: NAME }],
-  ["leave", 1, "Cars get broken into here. If I were you, I ______ (not / leave) your {thing} in the car, {name}.", { thing: ["bag", "laptop", "phone", "passport"], name: NAME }],
+  ["leave", 1, "The sun is very strong. If I were you, I ______ (not / leave) your {thing} in the car, {name}.", { thing: ["chocolate", "laptop", "phone", "medicine"], name: NAME }],
   ["buy", 1, "That shop is expensive. If I were you, I ______ (not / buy) a {thing} there, {name}.", { thing: ["phone", "laptop", "TV", "fridge"], name: NAME }],
 ].map(([v, n, source, slots]) => ({ ...BASE, stage: "build", format: "gap_fill", instr: INSTR, source, key: `${n ? "wouldn't" : "would"} ${v}`, why: n ? WHY_NOT : WHY, slots }));
 

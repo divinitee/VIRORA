@@ -80,7 +80,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: don't lend · didn't lend · ✔ wouldn't lend · won't lend  
    why: Advice not to do something: If I were you, I wouldn't + base verb.
 
-20. This street isn't safe. If I were you, I ______ the **bag** in the car, **Jamshid**.  
+20. It's very hot today. If I were you, I ______ the **chocolate** in the car, **Jamshid**.  
    options: didn't leave · ✔ wouldn't leave · won't leave · don't leave  
    why: Advice not to do something: If I were you, I wouldn't + base verb.
 
@@ -102,7 +102,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Advice: If I were you, I would + base verb.
 
 4. _Give advice. Complete with would (or wouldn't) and the verb in brackets._  
-   It's her birthday. If I were you, I ______ (call) your **grandmother** tonight, **Malika**.  
+   It's your **grandmother**'s birthday. If I were you, I ______ (call) her tonight, **Malika**.  
    key: would call  
    why: Advice: If I were you, I would + base verb.
 
@@ -177,7 +177,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Advice not to do something: If I were you, I wouldn't + base verb.
 
 19. _Give advice. Complete with would (or wouldn't) and the verb in brackets._  
-   Cars get broken into here. If I were you, I ______ (not / leave) your **passport** in the car, **Jamshid**.  
+   The sun is very strong. If I were you, I ______ (not / leave) your **medicine** in the car, **Jamshid**.  
    key: wouldn't leave  
    why: Advice not to do something: If I were you, I wouldn't + base verb.
 

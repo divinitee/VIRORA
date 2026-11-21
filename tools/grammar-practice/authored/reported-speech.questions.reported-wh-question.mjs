@@ -90,7 +90,7 @@ const TRANSFORM = [
   [REP, "'What are you cooking?' my {who} asked me.", "My {who} asked me ______.", "what I was cooking", [], { who: ["sister", "brother", "friend", "cousin"], x: [] }],
   [REP, "'Why are you so tired?' the {who} asked {m}.", "The {who} asked {m} ______.", "why he was so tired", [], { who: ["teacher", "coach", "doctor", "nurse"], m: M }],
   [REP, "'When did you arrive in {city}?' {f} asked me.", "{f} asked me ______ in {city}.", "when I had arrived", ["when I arrived"], { f: F, city: CITY }],
-  [REP, "'How do you get to the {place}?' a tourist asked {m}.", "A tourist asked {m} ______ to the {place}.", "how he got", [], { m: M, place: ["museum", "station", "old town", "bazaar"] }],
+  [REP, "'How do you get to the {place}?' a tourist asked {m}.", "A tourist asked {m} ______ to the {place}.", "how he got", ["how to get"], { m: M, place: ["museum", "station", "old town", "bazaar"] }],
   [FIX, "{f} asked me where did I live.", "{f} asked me where ______.", "I lived", ["I live"], { f: F, x: [] }],
   [FIX, "{m} asked me what was I doing in {city}.", "{m} asked me what ______ in {city}.", "I was doing", [], { m: M, city: CITY }],
   [FIX, "The {who} asked us why were we late.", "The {who} asked us why ______ late.", "we were", [], { who: ["teacher", "coach", "manager", "director"], x: [] }],
@@ -129,6 +129,14 @@ const EXPRESS = [
 ].map(([prompt, targetGrammar, lookFor]) => ({ ...BASE, stage: "express", format: "free_response", prompt, targetGrammar, lookFor }));
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
+// Audit 21 Nov: accept 'd contractions (he'd left, I'd come, if I'd seen); grading does not expand 'd.
+const CONTR = (t) => t.replace(/\b(I|he|she|we|they|you) (had|would) (?=\w)/gi, (_, p) => `${p}'d `);
+for (const it of items) {
+  if (typeof it.key !== "string") continue;
+  const all = [it.key, ...(it.acceptable || [])];
+  const extra = [...new Set(all.map(CONTR))].filter((x) => !all.includes(x));
+  if (extra.length) it.acceptable = [...(it.acceptable || []), ...extra];
+}
 const out = "content/grammar-practice/reported-speech.questions.reported-wh-question.json";
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

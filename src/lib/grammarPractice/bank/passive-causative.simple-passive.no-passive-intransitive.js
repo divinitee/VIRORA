@@ -1451,7 +1451,7 @@ export default [
     "door",
     "window",
     "gate",
-    "safe"
+    "shop"
    ],
    "name": [
     "Feruza",

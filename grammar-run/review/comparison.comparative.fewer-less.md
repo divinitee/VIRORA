@@ -6,7 +6,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 1. There were ______ people at the **festival** than last year, **Malika**.  
    options: ✔ fewer · less · little · lesser  
-   why: The noun is plural and you can count it, so use fewer.
+   why: The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).
 
 2. I spend ______ money on **clothes** than my **sister**.  
    options: fewer · little · lesser · ✔ less  
@@ -14,7 +14,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 3. Our **yard** has ______ trees than the park near the **bazaar**.  
    options: little · lesser · ✔ fewer · less  
-   why: The noun is plural and you can count it, so use fewer.
+   why: The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).
 
 4. This **fridge** uses ______ electricity than our old one, **Ulugbek**.  
    options: lesser · ✔ less · fewer · little  
@@ -22,7 +22,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 5. My brother made ______ mistakes in the **dictation** than me, **Jamshid**.  
    options: ✔ fewer · less · little · lesser  
-   why: The noun is plural and you can count it, so use fewer.
+   why: The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).
 
 6. We have ______ homework this **week** than last **week**, **Ulugbek**.  
    options: fewer · little · lesser · ✔ less  
@@ -30,7 +30,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 7. There are ______ cars on the road on **Saturdays** than on weekdays, **Gulnora**.  
    options: little · lesser · ✔ fewer · less  
-   why: The noun is plural and you can count it, so use fewer.
+   why: The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).
 
 8. My **father** drinks ______ **coffee** than he did last year.  
    options: lesser · ✔ less · fewer · little  
@@ -38,7 +38,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 9. **Sevara** has ______ friends in **Tashkent** than in her old town.  
    options: ✔ fewer · less · little · lesser  
-   why: The noun is plural and you can count it, so use fewer.
+   why: The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).
 
 10. It takes ______ time by **car** than by bus, **Jamshid**.  
    options: fewer · little · lesser · ✔ less  
@@ -46,7 +46,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 11. This **phone** costs more, but it has ______ problems than the cheap one, **Gulnora**.  
    options: little · lesser · ✔ fewer · less  
-   why: The noun is plural and you can count it, so use fewer.
+   why: The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).
 
 12. There was ______ snow this **month** than last **month**.  
    options: lesser · ✔ less · fewer · little  
@@ -54,7 +54,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 13. We sold ______ **shoes** at the bazaar today than yesterday, **Gulnora**.  
    options: ✔ fewer · less · little · lesser  
-   why: The noun is plural and you can count it, so use fewer.
+   why: The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).
 
 14. You should eat ______ sugar and more **vegetables**, **Ulugbek**.  
    options: fewer · little · lesser · ✔ less  
@@ -62,7 +62,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 15. There are ______ students in our **group** than in yours, **Jamshid**.  
    options: little · lesser · ✔ fewer · less  
-   why: The noun is plural and you can count it, so use fewer.
+   why: The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).
 
 16. My new job gives me ______ free time than my old **course**, **Malika**.  
    options: lesser · ✔ less · fewer · little  
@@ -70,7 +70,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 17. Our team scored ______ goals this **season** than last **season**, **Gulnora**.  
    options: ✔ fewer · less · little · lesser  
-   why: The noun is plural and you can count it, so use fewer.
+   why: The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).
 
 18. The **garden** is quieter, **Jamshid**: there is ______ noise than in the centre.  
    options: fewer · little · lesser · ✔ less  
@@ -78,7 +78,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 19. I got ______ messages **today than yesterday**, **Malika**.  
    options: little · lesser · ✔ fewer · less  
-   why: The noun is plural and you can count it, so use fewer.
+   why: The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).
 
 20. This **road** has ______ traffic than the main road, **Gulnora**.  
    options: lesser · ✔ less · fewer · little  
@@ -89,7 +89,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 1. _Write fewer or less._  
    There are ______ buses to **Nukus** on Sundays, **Jamshid**.  
    key: fewer  
-   why: The noun is plural and you can count it, so use fewer.
+   why: The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).
 
 2. _Write fewer or less._  
    I want to spend ______ time on my phone this **month**, **Gulnora**.  
@@ -99,7 +99,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 3. _Write fewer or less._  
    We need ______ chairs than we have, **Gulnora**. Only **twelve** guests are coming.  
    key: fewer  
-   why: The noun is plural and you can count it, so use fewer.
+   why: The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).
 
 4. _Write fewer or less._  
    Add ______ salt to the **rice** next time, **Jamshid**. It's too salty.  
@@ -109,7 +109,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 5. _Write fewer or less._  
    My **uncle** works ______ hours than last year, so he can see his **parents** more.  
    key: fewer  
-   why: The noun is plural and you can count it, so use fewer.
+   why: The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).
 
 6. _Write fewer or less._  
    Our new **house** gets ______ sun than the old one, **Ulugbek**.  
@@ -119,7 +119,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 7. _Write fewer or less._  
    There were ______ tourists in **Khiva** in **January** than in May.  
    key: fewer  
-   why: The noun is plural and you can count it, so use fewer.
+   why: The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).
 
 8. _Write fewer or less._  
    This **fan** makes ______ noise than the old one, **Jamshid**.  
@@ -129,7 +129,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 9. _Write fewer or less._  
    I read ______ books this **year** than last **year**, **Gulnora**.  
    key: fewer  
-   why: The noun is plural and you can count it, so use fewer.
+   why: The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).
 
 10. _Write fewer or less._  
    Please use ______ water in the **kitchen**, **Malika**. We pay a lot.  
@@ -139,7 +139,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 11. _Write fewer or less._  
    There are ______ shops in our village than in the **centre**, **Ulugbek**.  
    key: fewer  
-   why: The noun is plural and you can count it, so use fewer.
+   why: The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).
 
 12. _Write fewer or less._  
    Walking to **school** gives me ______ stress than driving, **Jamshid**.  
@@ -149,7 +149,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 13. _Write fewer or less._  
    This **exam** has ______ questions than the last one, **Jamshid**.  
    key: fewer  
-   why: The noun is plural and you can count it, so use fewer.
+   why: The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).
 
 14. _Write fewer or less._  
    We had ______ rain in **August** than in April, **Jamshid**.  
@@ -159,7 +159,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 15. _Write fewer or less._  
    My little **cousin** eats ______ vegetables than he should, **Jamshid**.  
    key: fewer  
-   why: The noun is plural and you can count it, so use fewer.
+   why: The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).
 
 16. _Write fewer or less._  
    I have ______ energy in the **evening** than in the morning, **Malika**.  
@@ -169,7 +169,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 17. _Write fewer or less._  
    There are ______ birds in the city than in the **mountains**, **Jamshid**.  
    key: fewer  
-   why: The noun is plural and you can count it, so use fewer.
+   why: The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).
 
 18. _Write fewer or less._  
    The new **speaker** needs ______ space on the desk, **Ulugbek**.  
@@ -179,7 +179,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 19. _Write fewer or less._  
    **Nilufar** wants to make ______ mistakes in her **Uzbek** essays.  
    key: fewer  
-   why: The noun is plural and you can count it, so use fewer.
+   why: The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).
 
 20. _Write fewer or less._  
    My **grandfather** earns ______ money than before, but he is happier at his new **school**.  
@@ -192,13 +192,13 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    Last year our **club** had 30 students. This year it has **20**.  
    → This year our **club** has ______ students than last year.  
    key: fewer  
-   why: The noun is plural and you can count it, so use fewer.
+   why: The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).
 
 2. _Compare the two numbers. Use fewer or less … than._  
    I slept eight hours on Monday and **six** hours on Tuesday, **Jamshid**.  
    → I slept for ______ on Tuesday than on Monday, **Jamshid**.  
    key: fewer hours  
-   why: The noun is plural and you can count it, so use fewer.
+   why: The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).
 
 3. _Compare the two numbers. Use fewer or less … than._  
    The old phone cost 3 million soum. The new one costs **2.5** million, **Gulnora**.  
@@ -210,7 +210,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    We had 40 guests at my sister's wedding and **25** at mine, **Malika**.  
    → We had ______ guests at my wedding than at my sister's, **Malika**.  
    key: fewer  
-   why: The noun is plural and you can count it, so use fewer.
+   why: The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).
 
 5. _Compare the two numbers. Use fewer or less … than._  
    Our old car used 10 litres of petrol a day. The new one uses **5**.  
@@ -222,7 +222,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    I have less friends in **Bukhara** than in my village, **Gulnora**.  
    → I have ______ friends in **Bukhara** than in my village, **Gulnora**.  
    key: fewer  
-   why: The noun is plural and you can count it, so use fewer.
+   why: The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).
 
 7. _Correct the mistake._  
    There is fewer traffic on **Saturday** than on Monday, **Malika**.  
@@ -234,7 +234,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    We bought lesser **eggs** this week than last week, **Gulnora**.  
    → We bought ______ **eggs** this week than last week, **Gulnora**.  
    key: fewer  
-   why: The noun is plural and you can count it, so use fewer.
+   why: The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).
 
 9. _Correct the mistake._  
    My **teacher** drinks fewer coffee than before, **Jamshid**.  
@@ -246,13 +246,13 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    There were less mistakes in your **dictation** this time, **Malika**.  
    → There were ______ mistakes in your **dictation** this time, **Malika**.  
    key: fewer  
-   why: The noun is plural and you can count it, so use fewer.
+   why: The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).
 
 11. _Rewrite the sentence with fewer or less … than._  
    I don't watch as many films as my **sister**, **Gulnora**.  
    → I watch ______ films than my **sister**, **Gulnora**.  
    key: fewer  
-   why: The noun is plural and you can count it, so use fewer.
+   why: The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).
 
 12. _Rewrite the sentence with fewer or less … than._  
    Our **valley** doesn't get as much rain as the mountains, **Ulugbek**.  
@@ -270,7 +270,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    This **shop** doesn't sell as many **shoes** as the bazaar.  
    → This **shop** sells ______ **shoes** than the bazaar.  
    key: fewer  
-   why: The noun is plural and you can count it, so use fewer.
+   why: The noun is plural and you can count it, so in careful English use fewer (people often say less in speech).
 
 15. _Rewrite the sentence with fewer or less … than._  
    My little sister doesn't eat as much **meat** as me, **Malika**.  

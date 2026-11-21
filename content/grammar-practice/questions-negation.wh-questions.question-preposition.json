@@ -664,7 +664,10 @@
     "boss",
     "neighbour"
    ]
-  }
+  },
+  "acceptable": [
+   "with"
+  ]
  },
  {
   "domain": "questions-negation",

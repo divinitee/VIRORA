@@ -666,7 +666,10 @@ export default [
     "boss",
     "neighbour"
    ]
-  }
+  },
+  "acceptable": [
+   "with"
+  ]
  },
  {
   "id": "gpr.questions-negation.wh-questions.question-preposition.build.002",

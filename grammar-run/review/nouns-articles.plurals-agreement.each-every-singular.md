@@ -38,7 +38,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 9. Each of the boys in my **street** ______ his own bike.  
    options: ✔ has · have · having · are have  
-   why: Each of + a plural noun still means one by one, so the verb is singular: has.
+   why: Each of + a plural noun still means one by one, so in careful English the verb is singular: has.
 
 10. Every ______ in my family can **drive**, **Aziz**.  
    options: people · of people · the people · ✔ person  
@@ -46,7 +46,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 11. Each of my friends ______ a different **film**, **Olga**.  
    options: liking · are like · ✔ likes · like  
-   why: Each of + a plural noun still means one by one, so the verb is singular: likes.
+   why: Each of + a plural noun still means one by one, so in careful English the verb is singular: likes.
 
 12. Each ______ in the **garden** needs water every day, **Aziz**.  
    options: the plants · ✔ plant · plants · of plants  
@@ -78,7 +78,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 19. Each of these **cups** ______ **twenty thousand** soum now.  
    options: costing · are cost · ✔ costs · cost  
-   why: Each of + a plural noun still means one by one, so the verb is singular: costs.
+   why: Each of + a plural noun still means one by one, so in careful English the verb is singular: costs.
 
 20. Every ______ in this city has a **café**, **Timur**.  
    options: the parks · ✔ park · parks · of parks  
@@ -94,7 +94,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 2. _Write the verb in the present simple._  
    Each of my brothers ______ (play) the **violin**, **Olga**.  
    key: plays  
-   why: Each of + a plural noun still means one by one, so the verb is singular: plays.
+   why: Each of + a plural noun still means one by one, so in careful English the verb is singular: plays.
 
 3. _Write the verb in the present simple._  
    Every flat in this **block** ______ (have) a balcony, **Aziz**.  
@@ -114,7 +114,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 6. _Write the verb in the present simple._  
    Each of the girls in my **class** ______ (want) to be a **singer**.  
    key: wants  
-   why: Each of + a plural noun still means one by one, so the verb is singular: wants.
+   why: Each of + a plural noun still means one by one, so in careful English the verb is singular: wants.
 
 7. _Write the verb in the present simple._  
    Every player ______ (need) a ball and a **water bottle**, **Lola**.  
@@ -134,7 +134,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 10. _Write the verb in the present simple._  
    Each of us ______ (bring) some **bread** to the picnic, **Aziz**.  
    key: brings  
-   why: Each of + a plural noun still means one by one, so the verb is singular: brings.
+   why: Each of + a plural noun still means one by one, so in careful English the verb is singular: brings.
 
 11. _Write the verb in the present simple._  
    Every computer in the **library** ______ (work) well now, **Timur**.  
@@ -154,7 +154,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 14. _Write the verb in the present simple._  
    Each of the **shirts** ______ (cost) **twenty thousand** soum.  
    key: costs  
-   why: Each of + a plural noun still means one by one, so the verb is singular: costs.
+   why: Each of + a plural noun still means one by one, so in careful English the verb is singular: costs.
 
 15. _Write the verb in the present simple._  
    Every child in this **group** ______ (speak) two languages, **Olga**.  
@@ -164,7 +164,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 16. _Write the verb in the present simple._  
    Each of my friends ______ (live) near the **bazaar**, **Olga**.  
    key: lives  
-   why: Each of + a plural noun still means one by one, so the verb is singular: lives.
+   why: Each of + a plural noun still means one by one, so in careful English the verb is singular: lives.
 
 17. _Write the verb in the present simple._  
    Every lesson ______ (start) at **eight**, **Timur**.  
@@ -184,7 +184,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 20. _Write the verb in the present simple._  
    Each of the boys ______ (do) his homework **on Sunday**, **Lola**.  
    key: does  
-   why: Each of + a plural noun still means one by one, so the verb is singular: does.
+   why: Each of + a plural noun still means one by one, so in careful English the verb is singular: does.
 
 ## transform (15)
 

@@ -251,19 +251,19 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 11. _Rewrite as one sentence with unless._  
    Take a coat. If you don't, you'll get cold in the **mountains**, **Sherzod**.  
    → You'll get cold in the **mountains** ______ a coat, **Sherzod**.  
-   key: unless you take  
+   key: unless you take (also: unless you wear, unless you bring, unless you have)  
    why: unless = if … not, with a positive present verb after it.
 
 12. _Rewrite as one sentence with unless._  
    Hurry up! If not, the **bakery** will be closed, **Akmal**.  
    → The **bakery** will be closed ______ up, **Akmal**.  
-   key: unless you hurry  
+   key: unless you hurry (also: unless we hurry)  
    why: unless = if … not, with a positive present verb after it.
 
 13. _Rewrite as one sentence with unless._  
    Book now. If you don't, there won't be any seats at the **concert**, **Nodira**.  
    → There won't be any seats at the **concert** ______ now, **Nodira**.  
-   key: unless you book  
+   key: unless you book (also: unless we book)  
    why: unless = if … not, with a positive present verb after it.
 
 14. _Rewrite as one sentence with unless._  
