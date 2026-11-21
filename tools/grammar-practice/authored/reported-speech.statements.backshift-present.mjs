@@ -45,10 +45,10 @@ const CHOOSE = [
   [["wasn't", "isn't", "weren't", "didn't"], "At lunch yesterday, {m} said, 'I'm not {adj}.' He said he ______ {adj}.", { m: M, adj: ["hungry", "tired", "ready", "cold"] }],
   [["wasn't", "isn't", "didn't", "weren't"], "At the {event} last night, {f} said, 'I'm not feeling well.' She said she ______ feeling well.", { f: F, event: ["party", "wedding", "concert", "dinner"] }],
   [["were", "are", "was", "have been"], "After the concert, my {who} said, 'We're very {adj}.' They said they ______ very {adj}.", { who: ["parents", "grandparents", "neighbours", "cousins"], adj: ["proud", "happy", "tired", "hungry"] }],
-  [["didn't", "doesn't", "don't", "wasn't"], "Last week {m} said, 'My {car} doesn't work.' He said his {car} ______ work.", { m: M, car: ["car", "phone", "laptop", "fridge"] }],
+  [["didn't", "doesn't", "don't", "wasn't"], "Last week {m} said, 'My {car} doesn't work.' He said his {car} ______ work, but it works now.", { m: M, car: ["car", "phone", "laptop", "fridge"] }],
   [["was", "is", "were", "has been"], "Yesterday {f} called and said, 'I'm lost in {city}.' She said she ______ lost in {city}.", { f: F, city: ["Samarkand", "Bukhara", "Istanbul", "Moscow"] }],
   [["was cooking", "is cooking", "cooked", "were cooking"], "Last night {m} said, 'I'm cooking {food}.' He said he ______ {food}.", { m: M, food: ["plov", "soup", "dinner", "pasta"] }],
-  [["was", "is", "were", "has been"], "Last week the {who} said, 'The {thing} is broken.' She said the {thing} ______ broken.", { who: ["teacher", "manager", "receptionist", "cleaner"], thing: ["lift", "printer", "heater", "door"] }],
+  [["was", "is", "were", "has been"], "Last week the {who} said, 'The {thing} is broken.' She said the {thing} ______ broken. They fixed it on Friday.", { who: ["teacher", "manager", "receptionist", "cleaner"], thing: ["lift", "printer", "heater", "door"] }],
 ].map(([o, prompt, slots], i) => {
   const options = o.map((_, j) => o[(j + i) % 4]);
   return { ...BASE, stage: "choose", format: "mcq", prompt, options, key: options.indexOf(o[0]), why: WHY, slots };
@@ -74,10 +74,10 @@ const BUILD = [
   ["wasn't", "At lunch yesterday, {m} said he ______ (am not) {adj}.", { m: M, adj: ["hungry", "tired", "ready", "cold"] }],
   ["wasn't feeling", "At the {event} last night, {f} said she ______ (am not feeling) well.", { f: F, event: ["party", "wedding", "concert", "dinner"] }],
   ["were", "After the concert, my {who} said they ______ (are) very {adj}.", { who: ["parents", "grandparents", "neighbours", "cousins"], adj: ["proud", "happy", "tired", "hungry"] }],
-  ["didn't", "Last week {m} said his {car} ______ (doesn't) work.", { m: M, car: ["car", "phone", "laptop", "fridge"] }],
+  ["didn't", "Last week {m} said his {car} ______ (doesn't) work. He fixed it the next day.", { m: M, car: ["car", "phone", "laptop", "fridge"] }],
   ["was", "Yesterday {f} called and said she ______ (am) lost in {city}.", { f: F, city: ["Samarkand", "Bukhara", "Istanbul", "Moscow"] }],
   ["was cooking", "Last night {m} said he ______ (am cooking) {food}.", { m: M, food: ["plov", "soup", "dinner", "pasta"] }],
-  ["was", "Last week the {who} said the {thing} ______ (is) broken.", { who: ["teacher", "manager", "receptionist", "cleaner"], thing: ["lift", "printer", "heater", "door"] }],
+  ["was", "Last week the {who} said the {thing} ______ (is) broken. It works again now.", { who: ["teacher", "manager", "receptionist", "cleaner"], thing: ["lift", "printer", "heater", "door"] }],
 ].map(([key, source, slots]) => ({ ...BASE, stage: "build", format: "gap_fill", instr: INSTR, source, key, why: WHY, slots }));
 
 /* ---------------- transform: 15 rewrite, three kinds ---------------- */
@@ -96,9 +96,9 @@ const TRANSFORM = [
   [FIX, "Last night the {who} said they are watching a {film}.", "Last night the {who} said they ______ a {film}.", "were watching", { who: ["kids", "boys", "girls", "students"], film: ["film", "match", "cartoon", "show"] }],
   [FIX, "Last week {m} said he has a {ill}.", "Last week {m} said he ______ a {ill}.", "had", { m: M, ill: ["cold", "headache", "toothache", "fever"] }],
   [FIX, "On Friday {f} said she can't come to the {event}.", "On Friday {f} said she ______ come to the {event}.", "couldn't", { f: F, event: ["party", "wedding", "match", "meeting"] }],
-  [POSS, "'My {thing} is broken,' {m} said yesterday.", "Yesterday {m} said that ______ {thing} ______ broken.", ["his", "was"], { m: M, thing: ["phone", "bike", "laptop", "watch"] }],
+  [POSS, "'My {thing} is broken,' {m} said yesterday.", "Yesterday {m} said that ______ {thing} ______ broken. It is fine again now.", ["his", "was"], { m: M, thing: ["phone", "bike", "laptop", "watch"] }],
   [POSS, "'My {who} is ill,' {f} said last week.", "Last week {f} said that ______ {who} ______ ill.", ["her", "was"], { f: F, who: ["mother", "son", "sister", "dog"] }],
-  [POSS, "'Our {car} doesn't work,' the {who} said last week.", "Last week the {who} said that ______ {car} ______ work.", ["their", "didn't"], { car: ["car", "fridge", "heater", "TV"], who: ["neighbours", "students", "workers", "guests"] }],
+  [POSS, "'Our {car} doesn't work,' the {who} said last week.", "Last week the {who} said that ______ {car} ______ work. Now it works again.", ["their", "didn't"], { car: ["car", "fridge", "heater", "TV"], who: ["neighbours", "students", "workers", "guests"] }],
   [POSS, "'I'm waiting for my {who},' {m} said this morning.", "This morning {m} said that ______ waiting for ______ {who}.", ["he was", "his"], { m: M, who: ["brother", "father", "friend", "son"] }],
   [POSS, "'We need our {thing},' the {who} said yesterday.", "Yesterday the {who} said that ______ ______ {thing}.", ["they needed", "their"], { thing: ["keys", "tickets", "passports", "bags"], who: ["tourists", "guests", "students", "players"] }],
 ].map(([instr, source, hint, key, slots]) => ({ ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why: WHY, slots }));
