@@ -131,5 +131,319 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/verb-patterns.gerund-infinitive.look-forward-to.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "to here is a preposition, so -ing: seeing you.",
+   "After looking forward to, go becomes going.",
+   "I look forward to + -ing, the polite letter form: hearing.",
+   "to + -ing, never to meet: meeting.",
+   "to + -ing, never to visit: visiting.",
+   "to + -ing: starting my new job.",
+   "to + -ing: having a break.",
+   "to + -ing: trying the food.",
+   "to + -ing in a formal reply: working.",
+   "to + -ing: playing in the match.",
+   "to + -ing: travelling (two l's in British English).",
+   "to + -ing: watching the film.",
+   "to + -ing: getting the results.",
+   "to + -ing: sleeping in my own bed.",
+   "look forward always needs to before the thing.",
+   "look forward to + a noun: to your reply.",
+   "look forward to + a noun: to his birthday party.",
+   "Questions keep to too: looking forward to the event.",
+   "look forward to + a noun: to the final.",
+   "look forward to + a noun, even with always."
+  ],
+  "build": [
+   "to + -ing: seeing them.",
+   "to + -ing: going.",
+   "to + -ing: hearing your news.",
+   "to + -ing: meeting.",
+   "to + -ing: moving.",
+   "to + -ing: eating it.",
+   "to + -ing: learning.",
+   "to + -ing, double m: swimming.",
+   "to + -ing: finishing it.",
+   "to + -ing, drop the e: celebrating.",
+   "to + -ing in a formal letter: working.",
+   "to + -ing, drop the e: riding.",
+   "to + -ing: having a day off.",
+   "to + -ing: staying.",
+   "to + -ing: watching.",
+   "to + -ing: speaking with you.",
+   "to + -ing, drop the e: receiving.",
+   "to + -ing: opening.",
+   "to + -ing: showing you.",
+   "to + -ing, drop the e: coming."
+  ],
+  "transform": [
+   "to is a preposition: see → seeing.",
+   "look forward takes to, not for.",
+   "to + -ing: start → starting.",
+   "to + -ing: went → going.",
+   "to + -ing: meet → meeting.",
+   "can't wait to see = looking forward to seeing.",
+   "can't wait to try = looking forward to trying.",
+   "can't wait to have = looking forward to having.",
+   "can't wait to play = looking forward to playing.",
+   "can't wait to sleep = looking forward to sleeping.",
+   "hope to hear → look forward to hearing.",
+   "hope we meet → look forward to meeting.",
+   "hope to work → look forward to working.",
+   "hope to receive → look forward to receiving.",
+   "hope to visit → look forward to visiting."
+  ]
+ },
+ "slot": [
+  [
+   "choose",
+   2,
+   "children",
+   "who",
+   [
+    "children",
+    "twins",
+    "students",
+    "boys"
+   ]
+  ],
+  [
+   "choose",
+   5,
+   "grandparents",
+   "who",
+   [
+    "grandparents",
+    "parents",
+    "cousins",
+    "neighbours"
+   ]
+  ],
+  [
+   "choose",
+   8,
+   "new café",
+   "venue",
+   [
+    "new café",
+    "new restaurant",
+    "bazaar",
+    "food festival"
+   ]
+  ],
+  [
+   "choose",
+   10,
+   "son",
+   "who",
+   [
+    "son",
+    "nephew",
+    "brother",
+    "cousin"
+   ]
+  ],
+  [
+   "choose",
+   13,
+   "exam results",
+   "res",
+   [
+    "exam results",
+    "test results",
+    "driving test result",
+    "IELTS score"
+   ]
+  ],
+  [
+   "choose",
+   16,
+   "reply",
+   "reply",
+   [
+    "reply",
+    "answer",
+    "email",
+    "call"
+   ]
+  ],
+  [
+   "choose",
+   19,
+   "team",
+   "who",
+   [
+    "team",
+    "class",
+    "club",
+    "school"
+   ]
+  ],
+  [
+   "build",
+   2,
+   "tomorrow",
+   "when",
+   [
+    "tomorrow",
+    "on Saturday",
+    "next week",
+    "after school"
+   ]
+  ],
+  [
+   "build",
+   3,
+   "news",
+   "what",
+   [
+    "news",
+    "answer",
+    "plans",
+    "story"
+   ]
+  ],
+  [
+   "build",
+   4,
+   "class",
+   "group",
+   [
+    "class",
+    "team",
+    "group",
+    "club"
+   ]
+  ],
+  [
+   "build",
+   7,
+   "university",
+   "where",
+   [
+    "university",
+    "college",
+    "the language centre",
+    "school"
+   ]
+  ],
+  [
+   "build",
+   10,
+   "together",
+   "how",
+   [
+    "together",
+    "with the family",
+    "at Grandma's",
+    "with our friends"
+   ]
+  ],
+  [
+   "build",
+   13,
+   "Everyone",
+   "who",
+   [
+    "Everyone",
+    "Everybody",
+    "The whole class",
+    "The whole team"
+   ]
+  ],
+  [
+   "build",
+   15,
+   "Dad",
+   "who",
+   [
+    "Dad",
+    "Grandpa",
+    "My uncle",
+    "My brother"
+   ]
+  ],
+  [
+   "build",
+   16,
+   "later",
+   "when",
+   [
+    "later",
+    "tonight",
+    "after work",
+    "tomorrow"
+   ]
+  ],
+  [
+   "build",
+   18,
+   "children",
+   "who",
+   [
+    "children",
+    "twins",
+    "kids",
+    "little ones"
+   ]
+  ],
+  [
+   "transform",
+   3,
+   "new",
+   "adj",
+   [
+    "new",
+    "first",
+    "summer",
+    "part-time"
+   ]
+  ],
+  [
+   "transform",
+   11,
+   "soon",
+   "when",
+   [
+    "soon",
+    "next week",
+    "this week",
+    "before Friday"
+   ]
+  ],
+  [
+   "transform",
+   14,
+   "answer",
+   "ans",
+   [
+    "answer",
+    "reply",
+    "decision",
+    "news"
+   ]
+  ]
+ ]
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

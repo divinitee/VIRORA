@@ -17,7 +17,7 @@ export default [
    "saw"
   ],
   "key": 0,
-  "why": "look forward to + -ing: seeing, because this \"to\" is a preposition.",
+  "why": "to here is a preposition, so -ing: seeing you.",
   "slots": {
    "event": [
     "wedding",
@@ -41,7 +41,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The children are looking forward to ______ to the {place} on Saturday.",
+  "prompt": "The {who} are looking forward to ______ to the {place} on Saturday.",
   "options": [
    "go",
    "to go",
@@ -49,13 +49,19 @@ export default [
    "going"
   ],
   "key": 3,
-  "why": "after look forward to, use -ing: going.",
+  "why": "After looking forward to, go becomes going.",
   "slots": {
    "place": [
     "zoo",
     "lake",
     "water park",
     "circus"
+   ],
+   "who": [
+    "children",
+    "twins",
+    "students",
+    "boys"
    ]
   }
  },
@@ -75,7 +81,7 @@ export default [
    "hear"
   ],
   "key": 2,
-  "why": "A polite email ending: look forward to hearing.",
+  "why": "I look forward to + -ing, the polite letter form: hearing.",
   "slots": {
    "thing": [
     "job",
@@ -107,7 +113,7 @@ export default [
    "to meet"
   ],
   "key": 1,
-  "why": "look forward to + -ing: meeting.",
+  "why": "to + -ing, never to meet: meeting.",
   "slots": {
    "who": [
     "parents",
@@ -131,7 +137,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My grandparents are looking forward to ______ {city} in May.",
+  "prompt": "My {who} are looking forward to ______ {city} in May.",
   "options": [
    "visiting",
    "visit",
@@ -139,13 +145,19 @@ export default [
    "visited"
   ],
   "key": 0,
-  "why": "look forward to + -ing: visiting.",
+  "why": "to + -ing, never to visit: visiting.",
   "slots": {
    "city": [
     "Samarkand",
     "Bukhara",
     "Khiva",
     "Istanbul"
+   ],
+   "who": [
+    "grandparents",
+    "parents",
+    "cousins",
+    "neighbours"
    ]
   }
  },
@@ -165,7 +177,7 @@ export default [
    "starting"
   ],
   "key": 3,
-  "why": "look forward to + -ing: starting.",
+  "why": "to + -ing: starting my new job.",
   "slots": {
    "job": [
     "job",
@@ -197,7 +209,7 @@ export default [
    "have"
   ],
   "key": 2,
-  "why": "look forward to + -ing: having.",
+  "why": "to + -ing: having a break.",
   "slots": {
    "test": [
     "exams",
@@ -221,7 +233,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "We look forward to ______ the {food} at the new café.",
+  "prompt": "We look forward to ______ the {food} at the {venue}.",
   "options": [
    "tried",
    "trying",
@@ -229,13 +241,19 @@ export default [
    "to try"
   ],
   "key": 1,
-  "why": "look forward to + -ing: trying.",
+  "why": "to + -ing: trying the food.",
   "slots": {
    "food": [
     "plov",
     "soup",
     "desserts",
     "coffee"
+   ],
+   "venue": [
+    "new café",
+    "new restaurant",
+    "bazaar",
+    "food festival"
    ]
   }
  },
@@ -255,7 +273,7 @@ export default [
    "worked"
   ],
   "key": 0,
-  "why": "A formal ending: look forward to working with you.",
+  "why": "to + -ing in a formal reply: working.",
   "slots": {
    "place": [
     "office",
@@ -279,7 +297,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My son is looking forward to ______ in the {match} on Sunday.",
+  "prompt": "My {who} is looking forward to ______ in the {match} on Sunday.",
   "options": [
    "play",
    "to play",
@@ -287,13 +305,19 @@ export default [
    "playing"
   ],
   "key": 3,
-  "why": "look forward to + -ing: playing.",
+  "why": "to + -ing: playing in the match.",
   "slots": {
    "match": [
     "final",
     "big match",
     "school match",
     "tournament"
+   ],
+   "who": [
+    "son",
+    "nephew",
+    "brother",
+    "cousin"
    ]
   }
  },
@@ -313,7 +337,7 @@ export default [
    "travel"
   ],
   "key": 2,
-  "why": "look forward to + -ing: travelling.",
+  "why": "to + -ing: travelling (two l's in British English).",
   "slots": {
    "country": [
     "Japan",
@@ -345,7 +369,7 @@ export default [
    "to watch"
   ],
   "key": 1,
-  "why": "look forward to + -ing: watching.",
+  "why": "to + -ing: watching the film.",
   "slots": {
    "film": [
     "film",
@@ -369,7 +393,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "She's looking forward to ______ her exam results on {day}.",
+  "prompt": "She's looking forward to ______ her {res} on {day}.",
   "options": [
    "getting",
    "get",
@@ -377,13 +401,19 @@ export default [
    "got"
   ],
   "key": 0,
-  "why": "look forward to + -ing: getting.",
+  "why": "to + -ing: getting the results.",
   "slots": {
    "day": [
     "Monday",
     "Friday",
     "Tuesday",
     "Thursday"
+   ],
+   "res": [
+    "exam results",
+    "test results",
+    "driving test result",
+    "IELTS score"
    ]
   }
  },
@@ -403,7 +433,7 @@ export default [
    "sleeping"
   ],
   "key": 3,
-  "why": "look forward to + -ing: sleeping.",
+  "why": "to + -ing: sleeping in my own bed.",
   "slots": {
    "trip": [
     "trip",
@@ -435,7 +465,7 @@ export default [
    "for"
   ],
   "key": 2,
-  "why": "The phrase is always look forward to.",
+  "why": "look forward always needs to before the thing.",
   "slots": {
    "hol": [
     "holidays",
@@ -459,7 +489,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "We look forward ______ your reply about the {thing}.",
+  "prompt": "We look forward ______ your {reply} about the {thing}.",
   "options": [
    "at",
    "to",
@@ -467,13 +497,19 @@ export default [
    "on"
   ],
   "key": 1,
-  "why": "look forward to + noun: to your reply.",
+  "why": "look forward to + a noun: to your reply.",
   "slots": {
    "thing": [
     "room",
     "job",
     "order",
     "course"
+   ],
+   "reply": [
+    "reply",
+    "answer",
+    "email",
+    "call"
    ]
   }
  },
@@ -493,7 +529,7 @@ export default [
    "at"
   ],
   "key": 0,
-  "why": "look forward to + noun: to his birthday party.",
+  "why": "look forward to + a noun: to his birthday party.",
   "slots": {
    "event": [
     "party",
@@ -525,7 +561,7 @@ export default [
    "to"
   ],
   "key": 3,
-  "why": "look forward to, not for or on.",
+  "why": "Questions keep to too: looking forward to the event.",
   "slots": {
    "event": [
     "concert",
@@ -549,7 +585,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Our team is looking forward ______ the final in {city}.",
+  "prompt": "Our {who} is looking forward ______ the final in {city}.",
   "options": [
    "on",
    "at",
@@ -557,13 +593,19 @@ export default [
    "for"
   ],
   "key": 2,
-  "why": "look forward to + noun: to the final.",
+  "why": "look forward to + a noun: to the final.",
   "slots": {
    "city": [
     "Tashkent",
     "Samarkand",
     "Bukhara",
     "Fergana"
+   ],
+   "who": [
+    "team",
+    "class",
+    "club",
+    "school"
    ]
   }
  },
@@ -583,7 +625,7 @@ export default [
    "on"
   ],
   "key": 1,
-  "why": "look forward to + noun: to Navruz.",
+  "why": "look forward to + a noun, even with always.",
   "slots": {
    "hol": [
     "Navruz",
@@ -610,7 +652,7 @@ export default [
   "instr": "Complete with the right form of the verb in brackets.",
   "source": "My cousins live in {city}. I'm looking forward to ______ (see) them, {name}.",
   "key": "seeing",
-  "why": "look forward to + -ing: seeing. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "why": "to + -ing: seeing them.",
   "slots": {
    "city": [
     "Samarkand",
@@ -635,15 +677,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the right form of the verb in brackets.",
-  "source": "We're looking forward to ______ (go) to the {place} tomorrow.",
+  "source": "We're looking forward to ______ (go) to the {place} {when}.",
   "key": "going",
-  "why": "look forward to + -ing: going. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "why": "to + -ing: going.",
   "slots": {
    "place": [
     "mountains",
     "lake",
     "seaside",
     "countryside"
+   ],
+   "when": [
+    "tomorrow",
+    "on Saturday",
+    "next week",
+    "after school"
    ]
   }
  },
@@ -656,15 +704,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the right form of the verb in brackets.",
-  "source": "I look forward to ______ (hear) your news, {name}.",
+  "source": "I look forward to ______ (hear) your {what}, {name}.",
   "key": "hearing",
-  "why": "look forward to + -ing: hearing. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "why": "to + -ing: hearing your news.",
   "slots": {
    "name": [
     "Nodira",
     "Akmal",
     "Feruza",
     "Otabek"
+   ],
+   "what": [
+    "news",
+    "answer",
+    "plans",
+    "story"
    ]
   }
  },
@@ -677,15 +731,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the right form of the verb in brackets.",
-  "source": "Our class is looking forward to ______ (meet) the new {who}.",
+  "source": "Our {group} is looking forward to ______ (meet) the new {who}.",
   "key": "meeting",
-  "why": "look forward to + -ing: meeting. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "why": "to + -ing: meeting.",
   "slots": {
    "who": [
     "teacher",
     "students",
     "coach",
     "director"
+   ],
+   "group": [
+    "class",
+    "team",
+    "group",
+    "club"
    ]
   }
  },
@@ -700,7 +760,7 @@ export default [
   "instr": "Complete with the right form of the verb in brackets.",
   "source": "My parents are looking forward to ______ (move) into the new {home}, {name}.",
   "key": "moving",
-  "why": "look forward to + -ing: moving. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "why": "to + -ing: moving.",
   "slots": {
    "home": [
     "flat",
@@ -727,7 +787,7 @@ export default [
   "instr": "Complete with the right form of the verb in brackets.",
   "source": "Grandma is making {food} on Sunday. I'm looking forward to ______ (eat) it, {name}.",
   "key": "eating",
-  "why": "look forward to + -ing: eating. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "why": "to + -ing: eating it.",
   "slots": {
    "food": [
     "plov",
@@ -752,15 +812,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the right form of the verb in brackets.",
-  "source": "She's looking forward to ______ (learn) {lang} at university.",
+  "source": "She's looking forward to ______ (learn) {lang} at {where}.",
   "key": "learning",
-  "why": "look forward to + -ing: learning. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "why": "to + -ing: learning.",
   "slots": {
    "lang": [
     "Korean",
     "Chinese",
     "German",
     "Arabic"
+   ],
+   "where": [
+    "university",
+    "college",
+    "the language centre",
+    "school"
    ]
   }
  },
@@ -775,7 +841,7 @@ export default [
   "instr": "Complete with the right form of the verb in brackets.",
   "source": "The kids are looking forward to ______ (swim) in the {water}, {name}.",
   "key": "swimming",
-  "why": "look forward to + -ing: swimming. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "why": "to + -ing, double m: swimming.",
   "slots": {
    "water": [
     "sea",
@@ -802,7 +868,7 @@ export default [
   "instr": "Complete with the right form of the verb in brackets.",
   "source": "This {work} is almost done. I'm looking forward to ______ (finish) it, {name}.",
   "key": "finishing",
-  "why": "look forward to + -ing: finishing. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "why": "to + -ing: finishing it.",
   "slots": {
    "work": [
     "project",
@@ -827,15 +893,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the right form of the verb in brackets.",
-  "source": "We're looking forward to ______ (celebrate) {event} together.",
+  "source": "We're looking forward to ______ (celebrate) {event} {how}.",
   "key": "celebrating",
-  "why": "look forward to + -ing: celebrating. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "why": "to + -ing, drop the e: celebrating.",
   "slots": {
    "event": [
     "Navruz",
     "New Year",
     "Mum's birthday",
     "the wedding"
+   ],
+   "how": [
+    "together",
+    "with the family",
+    "at Grandma's",
+    "with our friends"
    ]
   }
  },
@@ -850,7 +922,7 @@ export default [
   "instr": "Complete with the right form of the verb in brackets.",
   "source": "I look forward to ______ (work) with your {team}, {name}.",
   "key": "working",
-  "why": "look forward to + -ing: working. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "why": "to + -ing in a formal letter: working.",
   "slots": {
    "team": [
     "team",
@@ -877,7 +949,7 @@ export default [
   "instr": "Complete with the right form of the verb in brackets.",
   "source": "My son is looking forward to ______ (ride) his new {bike}, {name}.",
   "key": "riding",
-  "why": "look forward to + -ing: riding. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "why": "to + -ing, drop the e: riding.",
   "slots": {
    "bike": [
     "bike",
@@ -902,15 +974,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the right form of the verb in brackets.",
-  "source": "Everyone is looking forward to ______ (have) a day off on {day}.",
+  "source": "{who} is looking forward to ______ (have) a day off on {day}.",
   "key": "having",
-  "why": "look forward to + -ing: having. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "why": "to + -ing: having a day off.",
   "slots": {
    "day": [
     "Monday",
     "Friday",
     "Navruz",
     "Independence Day"
+   ],
+   "who": [
+    "Everyone",
+    "Everybody",
+    "The whole class",
+    "The whole team"
    ]
   }
  },
@@ -925,7 +1003,7 @@ export default [
   "instr": "Complete with the right form of the verb in brackets.",
   "source": "We're looking forward to ______ (stay) at a hotel in {city}, {name}.",
   "key": "staying",
-  "why": "look forward to + -ing: staying. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "why": "to + -ing: staying.",
   "slots": {
    "city": [
     "Istanbul",
@@ -950,15 +1028,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the right form of the verb in brackets.",
-  "source": "Dad is looking forward to ______ (watch) the {match} tonight.",
+  "source": "{who} is looking forward to ______ (watch) the {match} tonight.",
   "key": "watching",
-  "why": "look forward to + -ing: watching. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "why": "to + -ing: watching.",
   "slots": {
    "match": [
     "final",
     "big match",
     "derby",
     "game"
+   ],
+   "who": [
+    "Dad",
+    "Grandpa",
+    "My uncle",
+    "My brother"
    ]
   }
  },
@@ -971,15 +1055,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the right form of the verb in brackets.",
-  "source": "Call me later. I'm looking forward to ______ (speak) with you, {name}.",
+  "source": "Call me {when}. I'm looking forward to ______ (speak) with you, {name}.",
   "key": "speaking",
-  "why": "look forward to + -ing: speaking. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "why": "to + -ing: speaking with you.",
   "slots": {
    "name": [
     "Nodira",
     "Akmal",
     "Feruza",
     "Otabek"
+   ],
+   "when": [
+    "later",
+    "tonight",
+    "after work",
+    "tomorrow"
    ]
   }
  },
@@ -994,7 +1084,7 @@ export default [
   "instr": "Complete with the right form of the verb in brackets.",
   "source": "We look forward to ______ (receive) your {doc}, {name}.",
   "key": "receiving",
-  "why": "look forward to + -ing: receiving. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "why": "to + -ing, drop the e: receiving.",
   "slots": {
    "doc": [
     "order",
@@ -1019,15 +1109,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the right form of the verb in brackets.",
-  "source": "The children are looking forward to ______ (open) their {thing}.",
+  "source": "The {who} are looking forward to ______ (open) their {thing}.",
   "key": "opening",
-  "why": "look forward to + -ing: opening. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "why": "to + -ing: opening.",
   "slots": {
    "thing": [
     "presents",
     "gifts",
     "boxes",
     "cards"
+   ],
+   "who": [
+    "children",
+    "twins",
+    "kids",
+    "little ones"
    ]
   }
  },
@@ -1042,7 +1138,7 @@ export default [
   "instr": "Complete with the right form of the verb in brackets.",
   "source": "I'm looking forward to ______ (show) you my {home}, {name}.",
   "key": "showing",
-  "why": "look forward to + -ing: showing. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "why": "to + -ing: showing you.",
   "slots": {
    "home": [
     "new flat",
@@ -1069,7 +1165,7 @@ export default [
   "instr": "Complete with the right form of the verb in brackets.",
   "source": "Are you looking forward to ______ (come) home after the {trip}, {name}?",
   "key": "coming",
-  "why": "look forward to + -ing: coming. The \"to\" here is a preposition, so the verb cannot be the base form.",
+  "why": "to + -ing, drop the e: coming.",
   "slots": {
    "trip": [
     "trip",
@@ -1097,7 +1193,7 @@ export default [
   "source": "I look forward to see you in {city}, {name}.",
   "hint": "I look forward to ______ you in {city}, {name}.",
   "key": "seeing",
-  "why": "look forward to + -ing: seeing, not see.",
+  "why": "to is a preposition: see → seeing.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1125,7 +1221,7 @@ export default [
   "source": "We're looking forward for the {event}, {name}.",
   "hint": "We're looking forward ______ the {event}, {name}.",
   "key": "to",
-  "why": "The phrase is look forward to, not for.",
+  "why": "look forward takes to, not for.",
   "slots": {
    "event": [
     "wedding",
@@ -1150,16 +1246,22 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "She's looking forward to start her new {job}.",
-  "hint": "She's looking forward to ______ her new {job}.",
+  "source": "She's looking forward to start her {adj} {job}.",
+  "hint": "She's looking forward to ______ her {adj} {job}.",
   "key": "starting",
-  "why": "look forward to + -ing: starting.",
+  "why": "to + -ing: start → starting.",
   "slots": {
    "job": [
     "job",
     "course",
     "school",
     "classes"
+   ],
+   "adj": [
+    "new",
+    "first",
+    "summer",
+    "part-time"
    ]
   }
  },
@@ -1175,7 +1277,7 @@ export default [
   "source": "My kids look forward to went to the {place}, {name}.",
   "hint": "My kids look forward to ______ to the {place}, {name}.",
   "key": "going",
-  "why": "look forward to + -ing: going.",
+  "why": "to + -ing: went → going.",
   "slots": {
    "place": [
     "zoo",
@@ -1203,7 +1305,7 @@ export default [
   "source": "I'm looking forward to meet your {who}, {name}.",
   "hint": "I'm looking forward to ______ your {who}, {name}.",
   "key": "meeting",
-  "why": "look forward to + -ing: meeting.",
+  "why": "to + -ing: meet → meeting.",
   "slots": {
    "who": [
     "parents",
@@ -1231,7 +1333,7 @@ export default [
   "source": "I can't wait to see the {sight}, {name}!",
   "hint": "I'm really looking forward to ______ the {sight}, {name}!",
   "key": "seeing",
-  "why": "look forward to + -ing: seeing.",
+  "why": "can't wait to see = looking forward to seeing.",
   "slots": {
    "sight": [
     "mountains",
@@ -1259,7 +1361,7 @@ export default [
   "source": "We can't wait to try the {food} in {city}, {name}.",
   "hint": "We're looking forward to ______ the {food} in {city}, {name}.",
   "key": "trying",
-  "why": "look forward to + -ing: trying.",
+  "why": "can't wait to try = looking forward to trying.",
   "slots": {
    "food": [
     "plov",
@@ -1293,7 +1395,7 @@ export default [
   "source": "My sister can't wait to have a holiday at the {place}, {name}.",
   "hint": "My sister is really looking forward to ______ a holiday at the {place}, {name}.",
   "key": "having",
-  "why": "look forward to + -ing: having.",
+  "why": "can't wait to have = looking forward to having.",
   "slots": {
    "place": [
     "sea",
@@ -1321,7 +1423,7 @@ export default [
   "source": "The kids can't wait to play with their new {thing}, {name}!",
   "hint": "The kids are looking forward to ______ with their new {thing}, {name}!",
   "key": "playing",
-  "why": "look forward to + -ing: playing.",
+  "why": "can't wait to play = looking forward to playing.",
   "slots": {
    "thing": [
     "ball",
@@ -1349,7 +1451,7 @@ export default [
   "source": "I can't wait to sleep in the {place} tonight, {name}.",
   "hint": "I'm really looking forward to ______ in the {place} tonight, {name}.",
   "key": "sleeping",
-  "why": "look forward to + -ing: sleeping.",
+  "why": "can't wait to sleep = looking forward to sleeping.",
   "slots": {
    "place": [
     "tent",
@@ -1374,16 +1476,22 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite as a polite ending with I look forward to.",
-  "source": "I hope to hear from you soon, {name}.",
-  "hint": "I look forward to ______ from you soon, {name}.",
+  "source": "I hope to hear from you {when}, {name}.",
+  "hint": "I look forward to ______ from you {when}, {name}.",
   "key": "hearing",
-  "why": "Email ending: I look forward to hearing from you.",
+  "why": "hope to hear → look forward to hearing.",
   "slots": {
    "name": [
     "Nodira",
     "Akmal",
     "Feruza",
     "Otabek"
+   ],
+   "when": [
+    "soon",
+    "next week",
+    "this week",
+    "before Friday"
    ]
   }
  },
@@ -1399,7 +1507,7 @@ export default [
   "source": "I hope we meet at the {event}, {name}.",
   "hint": "I look forward to ______ you at the {event}, {name}.",
   "key": "meeting",
-  "why": "look forward to + -ing: meeting you.",
+  "why": "hope we meet → look forward to meeting.",
   "slots": {
    "event": [
     "conference",
@@ -1427,7 +1535,7 @@ export default [
   "source": "I hope to work with your {team}, {name}.",
   "hint": "I look forward to ______ with your {team}, {name}.",
   "key": "working",
-  "why": "look forward to + -ing: working.",
+  "why": "hope to work → look forward to working.",
   "slots": {
    "team": [
     "team",
@@ -1452,16 +1560,22 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite as a polite ending with I look forward to.",
-  "source": "I hope to receive your answer about the {thing} soon.",
-  "hint": "I look forward to ______ your answer about the {thing}.",
+  "source": "I hope to receive your {ans} about the {thing} soon.",
+  "hint": "I look forward to ______ your {ans} about the {thing}.",
   "key": "receiving",
-  "why": "look forward to + -ing: receiving.",
+  "why": "hope to receive → look forward to receiving.",
   "slots": {
    "thing": [
     "room",
     "job",
     "order",
     "course"
+   ],
+   "ans": [
+    "answer",
+    "reply",
+    "decision",
+    "news"
    ]
   }
  },
@@ -1477,7 +1591,7 @@ export default [
   "source": "I hope to visit your {place} next month, {name}.",
   "hint": "I look forward to ______ your {place} next month, {name}.",
   "key": "visiting",
-  "why": "look forward to + -ing: visiting.",
+  "why": "hope to visit → look forward to visiting.",
   "slots": {
    "place": [
     "school",
