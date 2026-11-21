@@ -15,7 +15,7 @@
    "However"
   ],
   "key": 0,
-  "why": "A full clause follows (subject + verb), so use although. Despite can't go before a clause.",
+  "why": "A full clause follows (it was raining): Although.",
   "slots": {
    "sport": [
     "football",
@@ -47,7 +47,7 @@
    "Although"
   ],
   "key": 3,
-  "why": "A full clause follows (subject + verb), so use although. Despite can't go before a clause.",
+  "why": "A full clause follows (… was tired): Although.",
   "slots": {
    "name": [
     "Olga",
@@ -79,7 +79,7 @@
    "despite"
   ],
   "key": 2,
-  "why": "A full clause follows (subject + verb), so use although. Despite can't go before a clause.",
+  "why": "A full clause follows (the hotel was …): although.",
   "slots": {
    "adj": [
     "small",
@@ -111,7 +111,7 @@
    "In spite"
   ],
   "key": 1,
-  "why": "A full clause follows (subject + verb), so use although. Despite can't go before a clause.",
+  "why": "A full clause follows (he studied hard): Although.",
   "slots": {
    "name": [
     "Aziz",
@@ -143,7 +143,7 @@
    "However"
   ],
   "key": 0,
-  "why": "A full clause follows (subject + verb), so use although. Despite can't go before a clause.",
+  "why": "A full clause follows (the tickets were …): Although.",
   "slots": {
    "n": [
     "two",
@@ -169,7 +169,7 @@
    "although"
   ],
   "key": 3,
-  "why": "A full clause follows (subject + verb), so use although. Despite can't go before a clause.",
+  "why": "A full clause follows (I ate a big …): although.",
   "slots": {
    "meal": [
     "lunch",
@@ -201,7 +201,7 @@
    "Despite"
   ],
   "key": 2,
-  "why": "A full clause follows (subject + verb), so use although. Despite can't go before a clause.",
+  "why": "A full clause follows (she lives near …): Although.",
   "slots": {
    "place": [
     "school",
@@ -233,7 +233,7 @@
    "In spite"
   ],
   "key": 1,
-  "why": "A full clause follows (subject + verb), so use although. Despite can't go before a clause.",
+  "why": "A full clause follows (my grandmother is …): Although.",
   "slots": {
    "age": [
     "eighty",
@@ -265,7 +265,7 @@
    "however"
   ],
   "key": 0,
-  "why": "A full clause follows (subject + verb), so use although. Despite can't go before a clause.",
+  "why": "A full clause follows (it is very old): although.",
   "slots": {
    "thing": [
     "car",
@@ -297,7 +297,7 @@
    "Although"
   ],
   "key": 3,
-  "why": "A full clause follows (subject + verb), so use although. Despite can't go before a clause.",
+  "why": "A full clause follows (we left home early): Although.",
   "slots": {
    "vehicle": [
     "bus",
@@ -329,7 +329,7 @@
    "Although"
   ],
   "key": 2,
-  "why": "A noun follows, not a clause, so use despite (no of).",
+  "why": "Only a noun follows (the rain): Despite.",
   "slots": {
    "sport": [
     "football",
@@ -361,7 +361,7 @@
    "despite of"
   ],
   "key": 1,
-  "why": "A noun follows, not a clause, so use despite (no of).",
+  "why": "Only a noun follows (the cold weather): despite.",
   "slots": {
    "place": [
     "park",
@@ -393,7 +393,7 @@
    "However"
   ],
   "key": 0,
-  "why": "A noun follows, not a clause, so use despite (no of).",
+  "why": "Only a noun follows (his illness): Despite.",
   "slots": {
    "name": [
     "Aziz",
@@ -425,7 +425,7 @@
    "despite"
   ],
   "key": 3,
-  "why": "A noun follows, not a clause, so use despite (no of).",
+  "why": "Only a noun follows (her age): despite.",
   "slots": {
    "name": [
     "Aziz",
@@ -457,7 +457,7 @@
    "Although"
   ],
   "key": 2,
-  "why": "A noun follows, not a clause, so use despite (no of).",
+  "why": "Only a noun follows (the traffic): Despite.",
   "slots": {
    "place": [
     "airport",
@@ -489,7 +489,7 @@
    "despite of"
   ],
   "key": 1,
-  "why": "A noun follows, not a clause, so use despite (no of).",
+  "why": "Only a noun follows (the …): despite.",
   "slots": {
    "weather": [
     "heavy rain",
@@ -521,7 +521,7 @@
    "Because"
   ],
   "key": 0,
-  "why": "An -ing form follows, so use despite (no of).",
+  "why": "An -ing form follows (feeling ill): Despite.",
   "slots": {
    "name": [
     "Olga",
@@ -553,7 +553,7 @@
    "Despite"
   ],
   "key": 3,
-  "why": "An -ing form follows, so use despite (no of).",
+  "why": "An -ing form follows (having little money): Despite.",
   "slots": {
    "city": [
     "Samarkand",
@@ -579,7 +579,7 @@
    "despite of"
   ],
   "key": 2,
-  "why": "An -ing form follows, so use despite (no of).",
+  "why": "An -ing form follows (missing many lessons): despite.",
   "slots": {
    "test": [
     "exam",
@@ -611,7 +611,7 @@
    "However"
   ],
   "key": 1,
-  "why": "An -ing form follows, so use despite (no of).",
+  "why": "An -ing form follows (living in …): Despite.",
   "slots": {
    "city": [
     "Samarkand",
@@ -642,7 +642,7 @@
    "Though",
    "Even though"
   ],
-  "why": "A full clause follows (subject + verb), so use although. Despite can't go before a clause.",
+  "why": "Subject + verb follow (it was …): Although.",
   "slots": {
    "time": [
     "late",
@@ -672,7 +672,7 @@
   "acceptable": [
    "in spite of"
   ],
-  "why": "A noun follows, not a clause, so use despite (no of).",
+  "why": "Noun follows (the cold water): despite.",
   "slots": {
    "place": [
     "lake",
@@ -703,7 +703,7 @@
    "Though",
    "Even though"
   ],
-  "why": "A full clause follows (subject + verb), so use although. Despite can't go before a clause.",
+  "why": "Subject + verb follow (the … was easy): Although.",
   "slots": {
    "test": [
     "exam",
@@ -733,7 +733,7 @@
   "acceptable": [
    "In spite of"
   ],
-  "why": "A noun follows, not a clause, so use despite (no of).",
+  "why": "Noun follows (the noise): Despite.",
   "slots": {
    "time": [
     "night",
@@ -764,7 +764,7 @@
    "though",
    "even though"
   ],
-  "why": "A full clause follows (subject + verb), so use although. Despite can't go before a clause.",
+  "why": "Subject + verb follow (she liked it): although.",
   "slots": {
    "name": [
     "Olga",
@@ -794,7 +794,7 @@
   "acceptable": [
    "in spite of"
   ],
-  "why": "A noun follows, not a clause, so use despite (no of).",
+  "why": "Noun follows (the high prices): despite.",
   "slots": {
    "place": [
     "restaurant",
@@ -825,7 +825,7 @@
    "Though",
    "Even though"
   ],
-  "why": "A full clause follows (subject + verb), so use although. Despite can't go before a clause.",
+  "why": "Subject + verb follow (we were tired): Although.",
   "slots": {
    "place": [
     "museum",
@@ -855,7 +855,7 @@
   "acceptable": [
    "In spite of"
   ],
-  "why": "An -ing form follows, so use despite (no of).",
+  "why": "-ing follows (being only …): Despite.",
   "slots": {
    "age": [
     "six",
@@ -886,7 +886,7 @@
    "though",
    "even though"
   ],
-  "why": "A full clause follows (subject + verb), so use although. Despite can't go before a clause.",
+  "why": "Subject + verb follow (I was very tired): although.",
   "slots": {
    "when": [
     "last night",
@@ -916,7 +916,7 @@
   "acceptable": [
    "in spite of"
   ],
-  "why": "A noun follows, not a clause, so use despite (no of).",
+  "why": "Noun follows (his mother's warning): despite.",
   "slots": {
    "name": [
     "Aziz",
@@ -947,7 +947,7 @@
    "Though",
    "Even though"
   ],
-  "why": "A full clause follows (subject + verb), so use although. Despite can't go before a clause.",
+  "why": "Subject + verb follow (the bus was late): Although.",
   "slots": {
    "event": [
     "party",
@@ -977,7 +977,7 @@
   "acceptable": [
    "In spite of"
   ],
-  "why": "A noun follows, not a clause, so use despite (no of).",
+  "why": "Noun follows (the heat): Despite.",
   "slots": {
    "place": [
     "old town",
@@ -1008,7 +1008,7 @@
    "though",
    "even though"
   ],
-  "why": "A full clause follows (subject + verb), so use although. Despite can't go before a clause.",
+  "why": "Subject + verb follow (he eats a lot): although.",
   "slots": {
    "who": [
     "brother",
@@ -1038,7 +1038,7 @@
   "acceptable": [
    "In spite of"
   ],
-  "why": "An -ing form follows, so use despite (no of).",
+  "why": "-ing follows (studying every day): Despite.",
   "slots": {
    "name": [
     "Aziz",
@@ -1069,7 +1069,7 @@
    "Though",
    "Even though"
   ],
-  "why": "A full clause follows (subject + verb), so use although. Despite can't go before a clause.",
+  "why": "Subject + verb follow (the shop was closed): Although.",
   "slots": {
    "thing": [
     "bread",
@@ -1099,7 +1099,7 @@
   "acceptable": [
    "in spite of"
   ],
-  "why": "A noun follows, not a clause, so use despite (no of).",
+  "why": "Noun follows (the …): despite.",
   "slots": {
    "place": [
     "tent",
@@ -1130,7 +1130,7 @@
    "Though",
    "Even though"
   ],
-  "why": "A full clause follows (subject + verb), so use although. Despite can't go before a clause.",
+  "why": "Subject + verb follow (she was nervous): Although.",
   "slots": {
    "name": [
     "Olga",
@@ -1160,7 +1160,7 @@
   "acceptable": [
    "in spite of"
   ],
-  "why": "An -ing form follows, so use despite (no of).",
+  "why": "-ing follows (wearing a warm …): despite.",
   "slots": {
    "name": [
     "Aziz",
@@ -1191,7 +1191,7 @@
    "Though",
    "Even though"
   ],
-  "why": "A full clause follows (subject + verb), so use although. Despite can't go before a clause.",
+  "why": "Subject + verb follow (it was expensive): Although.",
   "slots": {
    "who": [
     "dad",
@@ -1221,7 +1221,7 @@
   "acceptable": [
    "in spite of"
   ],
-  "why": "A noun follows, not a clause, so use despite (no of).",
+  "why": "Noun follows (the bad weather): despite.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1249,7 +1249,7 @@
   "source": "Although it was raining, we played {sport}, {name}.",
   "hint": "Despite ______, we played {sport}, {name}.",
   "key": "the rain",
-  "why": "Despite + a noun or -ing form, not a whole clause.",
+  "why": "Despite + noun: it was raining → the rain.",
   "slots": {
    "sport": [
     "football",
@@ -1281,7 +1281,7 @@
    "his illness",
    "feeling ill"
   ],
-  "why": "Despite + a noun or -ing form, not a whole clause.",
+  "why": "Despite + -ing: he was ill → being ill.",
   "slots": {
    "name": [
     "Aziz",
@@ -1312,7 +1312,7 @@
   "acceptable": [
    "the cold weather"
   ],
-  "why": "Despite + a noun or -ing form, not a whole clause.",
+  "why": "Despite + noun: it was cold → the cold.",
   "slots": {
    "time": [
     "day",
@@ -1343,7 +1343,7 @@
   "acceptable": [
    "feeling tired"
   ],
-  "why": "Despite + a noun or -ing form, not a whole clause.",
+  "why": "Despite + -ing: she was tired → being tired.",
   "slots": {
    "name": [
     "Olga",
@@ -1374,7 +1374,7 @@
   "acceptable": [
    "the traffic"
   ],
-  "why": "Despite + a noun or -ing form, not a whole clause.",
+  "why": "Despite + noun: the traffic was bad → the bad traffic.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1405,7 +1405,7 @@
   "acceptable": [
    "it rained"
   ],
-  "why": "Although + a full clause: subject + verb.",
+  "why": "Although + clause: the rain → it was raining.",
   "slots": {
    "event": [
     "match",
@@ -1433,7 +1433,7 @@
   "source": "Despite being tired, {name} cooked {meal}.",
   "hint": "Although ______, {name} cooked {meal}.",
   "key": "he was tired",
-  "why": "Although + a full clause: subject + verb.",
+  "why": "Although + clause: being tired → he was tired.",
   "slots": {
    "name": [
     "Aziz",
@@ -1467,7 +1467,7 @@
   "acceptable": [
    "there was a lot of noise"
   ],
-  "why": "Although + a full clause: subject + verb.",
+  "why": "Although + clause: the noise → it was noisy.",
   "slots": {
    "when": [
     "last night",
@@ -1495,7 +1495,7 @@
   "source": "Despite living near the {place}, {name} is always late.",
   "hint": "Although ______ near the {place}, {name} is always late.",
   "key": "she lives",
-  "why": "Although + a full clause: subject + verb.",
+  "why": "Although + clause: living → she lives.",
   "slots": {
    "place": [
     "school",
@@ -1526,7 +1526,7 @@
   "acceptable": [
    "the price was high"
   ],
-  "why": "Although + a full clause: subject + verb.",
+  "why": "Although + clause: the high price → it was expensive.",
   "slots": {
    "thing": [
     "sofa",
@@ -1558,7 +1558,7 @@
    "Though",
    "Even though"
   ],
-  "why": "A full clause follows (subject + verb), so use although. Despite can't go before a clause.",
+  "why": "A clause follows (it was late): Although, not Despite.",
   "slots": {
    "film": [
     "film",
@@ -1589,7 +1589,7 @@
   "acceptable": [
    "In spite of"
   ],
-  "why": "A noun follows, not a clause, so use despite (no of).",
+  "why": "A noun follows (the rain): Despite, not Although.",
   "slots": {
    "place": [
     "park",
@@ -1620,7 +1620,7 @@
   "acceptable": [
    "In spite of"
   ],
-  "why": "Despite has no of after it: despite the cold.",
+  "why": "Never despite of: just Despite.",
   "slots": {
    "name": [
     "Aziz",
@@ -1652,7 +1652,7 @@
    "Though",
    "Even though"
   ],
-  "why": "A full clause follows (subject + verb), so use although. Despite can't go before a clause.",
+  "why": "A clause follows (he was tired): Although, not Despite.",
   "slots": {
    "name": [
     "Aziz",
@@ -1684,7 +1684,7 @@
    "though",
    "even though"
   ],
-  "why": "A full clause follows (subject + verb), so use although. Despite can't go before a clause.",
+  "why": "A clause follows (she felt ill): although, not despite.",
   "slots": {
    "work": [
     "school",
