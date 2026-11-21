@@ -103,7 +103,7 @@ test('start: greeting text, first sentence voiced, ears pass for the phone; keys
   const tts = calls.filter((c) => c.url.includes('/text-to-speech/v-vira'));
   assert.equal(tts.length, 1);
   assert.match(JSON.parse(tts[0].init.body).text, /^\[warmly\] Hi! I am Vira\./); // first part voiced, tag kept
-  assert.equal(r.body.rest_text, 'How are you today?');
+  assert.equal(r.body.rest_text, '[warmly] How are you today?'); // voice direction carries into the 2nd half
   const lesson = svc.LiveTeacherLesson.rows[0];
   assert.equal(lesson.max_minutes, PERSONAS.vira.minutes);
   assert.match(lesson.model, /^v2:vira\|/);
