@@ -17,7 +17,7 @@ export default [
    "from eating"
   ],
   "key": 0,
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "Try not to eat: avoid + -ing: eating.",
   "slots": {
    "food": [
     "fast food",
@@ -49,7 +49,7 @@ export default [
    "drinking"
   ],
   "key": 3,
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "Not drinking is the advice: avoid + drinking.",
   "slots": {
    "who": [
     "dad",
@@ -81,7 +81,7 @@ export default [
    "to drive"
   ],
   "key": 2,
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "We stay away from driving there: avoid + driving.",
   "slots": {
    "place": [
     "city centre",
@@ -113,7 +113,7 @@ export default [
    "talk"
   ],
   "key": 1,
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "She doesn't talk about it: avoids + talking.",
   "slots": {
    "g": [
     "Olga",
@@ -145,7 +145,7 @@ export default [
    "from making"
   ],
   "key": 0,
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "Not making mistakes: avoid + making.",
   "slots": {
    "work": [
     "essays",
@@ -169,7 +169,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My brother avoided ______ my question {when}.",
+  "prompt": "My {rel} avoided ______ my question {when}.",
   "options": [
    "to answer",
    "answer",
@@ -177,13 +177,19 @@ export default [
    "answering"
   ],
   "key": 3,
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "He didn't answer: avoided + answering.",
   "slots": {
    "when": [
     "yesterday",
     "last night",
     "on Friday",
     "last week"
+   ],
+   "rel": [
+    "brother",
+    "cousin",
+    "uncle",
+    "dad"
    ]
   }
  },
@@ -203,7 +209,7 @@ export default [
    "to go"
   ],
   "key": 2,
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "\"too crowded\", so we don't go: avoid + going.",
   "slots": {
    "place": [
     "bazaar",
@@ -235,7 +241,7 @@ export default [
    "use"
   ],
   "key": 1,
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "Don't use it then: avoid + using.",
   "slots": {
    "act": [
     "drive",
@@ -267,7 +273,7 @@ export default [
    "from meeting"
   ],
   "key": 0,
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "She didn't want to meet her: avoided + meeting.",
   "slots": {
    "g": [
     "Olga",
@@ -305,7 +311,7 @@ export default [
    "spending"
   ],
   "key": 3,
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "Don't spend too much: avoid + spending.",
   "slots": {
    "thing": [
     "clothes",
@@ -337,7 +343,7 @@ export default [
    "to sit"
   ],
   "key": 2,
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "Don't sit in the sun: avoid + sitting.",
   "slots": {
    "when": [
     "in July",
@@ -369,7 +375,7 @@ export default [
    "look"
   ],
   "key": 1,
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "He didn't look at me: avoided + looking.",
   "slots": {
    "b": [
     "Aziz",
@@ -401,7 +407,7 @@ export default [
    "from waiting"
   ],
   "key": 0,
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "Not waiting in the queue: avoid + waiting.",
   "slots": {
    "place": [
     "bank",
@@ -433,7 +439,7 @@ export default [
    "saying"
   ],
   "key": 3,
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "Don't say it too often: avoid + saying.",
   "slots": {
    "talk": [
     "presentation",
@@ -457,7 +463,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My aunt avoids ______ because she is afraid of {fear}.",
+  "prompt": "My {rel} avoids ______ because she is afraid of {fear}.",
   "options": [
    "fly",
    "from flying",
@@ -465,13 +471,19 @@ export default [
    "to fly"
   ],
   "key": 2,
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "\"afraid of …\", so she doesn't fly: avoids + flying.",
   "slots": {
    "fear": [
     "heights",
     "planes",
     "small spaces",
     "storms"
+   ],
+   "rel": [
+    "aunt",
+    "grandma",
+    "mum",
+    "sister"
    ]
   }
  },
@@ -491,7 +503,7 @@ export default [
    "be"
   ],
   "key": 1,
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "Not being late: avoid + being.",
   "slots": {
    "event": [
     "lessons",
@@ -523,7 +535,7 @@ export default [
    "from watching"
   ],
   "key": 0,
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "They don't watch them: avoid + watching.",
   "slots": {
    "films": [
     "films",
@@ -547,7 +559,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My dad avoids ______ on {day} because it's family time.",
+  "prompt": "My {rel} avoids ______ on {day} because it's family time.",
   "options": [
    "to work",
    "work",
@@ -555,13 +567,19 @@ export default [
    "working"
   ],
   "key": 3,
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "\"family time\", so no work: avoids + working.",
   "slots": {
    "day": [
     "Sundays",
     "Saturdays",
     "Fridays",
     "holidays"
+   ],
+   "rel": [
+    "dad",
+    "uncle",
+    "grandpa",
+    "brother"
    ]
   }
  },
@@ -581,7 +599,7 @@ export default [
    "to hit"
   ],
   "key": 2,
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "He couldn't stop it happening: avoid + hitting.",
   "slots": {
    "thing": [
     "hole",
@@ -605,7 +623,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Why do you always avoid ______ me, {name}?",
+  "prompt": "Why do you {freq} avoid ______ me, {name}?",
   "options": [
    "from calling",
    "calling",
@@ -613,13 +631,19 @@ export default [
    "call"
   ],
   "key": 1,
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "You never call me: avoid + calling.",
   "slots": {
    "name": [
     "Aziz",
     "Olga",
     "Timur",
     "Lola"
+   ],
+   "freq": [
+    "always",
+    "often",
+    "sometimes",
+    "usually"
    ]
   }
  },
@@ -634,7 +658,7 @@ export default [
   "instr": "Write the verb in brackets in the right form.",
   "source": "I always avoid ______ (eat) {food} before an {event}.",
   "key": "eating",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "avoid + -ing: eat → eating.",
   "slots": {
    "food": [
     "heavy food",
@@ -661,7 +685,7 @@ export default [
   "instr": "Write the verb in brackets in the right form.",
   "source": "My mum avoids ______ (drive) at night in the {weather}, {name}.",
   "key": "driving",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "avoid + -ing: drive → driving (drop e).",
   "slots": {
    "weather": [
     "rain",
@@ -688,7 +712,7 @@ export default [
   "instr": "Write the verb in brackets in the right form.",
   "source": "You should avoid ______ (sit) at the computer all {span}, {name}.",
   "key": "sitting",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "avoid + -ing: sit → sitting (double t).",
   "slots": {
    "span": [
     "day",
@@ -715,7 +739,7 @@ export default [
   "instr": "Write the verb in brackets in the right form.",
   "source": "{b} avoided ______ (tell) his parents about the {thing}.",
   "key": "telling",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "avoid + -ing: tell → telling.",
   "slots": {
    "b": [
     "Aziz",
@@ -742,7 +766,7 @@ export default [
   "instr": "Write the verb in brackets in the right form.",
   "source": "We left at {h} {when} to avoid ______ (get) stuck in traffic.",
   "key": "getting",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "avoid + -ing: get → getting (double t).",
   "slots": {
    "h": [
     "six",
@@ -769,7 +793,7 @@ export default [
   "instr": "Write the verb in brackets in the right form.",
   "source": "Try to avoid ______ (use) {tool} in your essays, {name}.",
   "key": "using",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "avoid + -ing: use → using (drop e).",
   "slots": {
    "tool": [
     "slang",
@@ -796,7 +820,7 @@ export default [
   "instr": "Write the verb in brackets in the right form.",
   "source": "My cousin avoids ______ (answer) the phone when she is {busy}, {name}.",
   "key": "answering",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "avoid + -ing: answer → answering.",
   "slots": {
    "busy": [
     "busy",
@@ -823,7 +847,7 @@ export default [
   "instr": "Write the verb in brackets in the right form.",
   "source": "I avoid ______ (go) to the {place} on {day}.",
   "key": "going",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "avoid + -ing: go → going.",
   "slots": {
    "place": [
     "bazaar",
@@ -850,7 +874,7 @@ export default [
   "instr": "Write the verb in brackets in the right form.",
   "source": "{g} avoided ______ (speak) to the {who} after the {event}.",
   "key": "speaking",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "avoid + -ing: speak → speaking.",
   "slots": {
    "g": [
     "Olga",
@@ -883,7 +907,7 @@ export default [
   "instr": "Write the verb in brackets in the right form.",
   "source": "Avoid ______ (swim) in the {water} after a big meal, {name}.",
   "key": "swimming",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "avoid + -ing: swim → swimming (double m).",
   "slots": {
    "water": [
     "river",
@@ -910,7 +934,7 @@ export default [
   "instr": "Write the verb in brackets in the right form.",
   "source": "He always avoids ______ (pay) for {thing}, {name}.",
   "key": "paying",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "avoid + -ing: pay → paying.",
   "slots": {
    "thing": [
     "taxis",
@@ -937,7 +961,7 @@ export default [
   "instr": "Write the verb in brackets in the right form.",
   "source": "Doctors tell people to avoid ______ (smoke) {where}, {name}.",
   "key": "smoking",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "avoid + -ing: smoke → smoking (drop e).",
   "slots": {
    "where": [
     "near children",
@@ -964,7 +988,7 @@ export default [
   "instr": "Write the verb in brackets in the right form.",
   "source": "We avoided ______ (walk) through the {place} {when}.",
   "key": "walking",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "avoid + -ing: walk → walking.",
   "slots": {
    "place": [
     "park",
@@ -991,7 +1015,7 @@ export default [
   "instr": "Write the verb in brackets in the right form.",
   "source": "I try to avoid ______ (buy) {thing} online, {name}.",
   "key": "buying",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "avoid + -ing: buy → buying.",
   "slots": {
    "thing": [
     "shoes",
@@ -1018,7 +1042,7 @@ export default [
   "instr": "Write the verb in brackets in the right form.",
   "source": "My grandpa avoids ______ (take) the {transport} because it's {adj}.",
   "key": "taking",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "avoid + -ing: take → taking (drop e).",
   "slots": {
    "transport": [
     "bus",
@@ -1045,7 +1069,7 @@ export default [
   "instr": "Write the verb in brackets in the right form.",
   "source": "Avoid ______ (wake) {who}, {name}. He's just fallen asleep.",
   "key": "waking",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "avoid + -ing: wake → waking (drop e).",
   "slots": {
    "who": [
     "Grandpa",
@@ -1072,7 +1096,7 @@ export default [
   "instr": "Write the verb in brackets in the right form.",
   "source": "We avoided ______ (stay) in the {place} because it was too {adj}.",
   "key": "staying",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "avoid + -ing: stay → staying.",
   "slots": {
    "place": [
     "hotel",
@@ -1099,7 +1123,7 @@ export default [
   "instr": "Write the verb in brackets in the right form.",
   "source": "Try to avoid ______ (lose) your {thing} on the trip, {name}.",
   "key": "losing",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "avoid + -ing: lose → losing (drop e).",
   "slots": {
    "thing": [
     "tickets",
@@ -1126,7 +1150,7 @@ export default [
   "instr": "Write the verb in brackets in the right form.",
   "source": "My sister avoids ______ (cook) {food} because it takes too long, {name}.",
   "key": "cooking",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "avoid + -ing: cook → cooking.",
   "slots": {
    "food": [
     "plov",
@@ -1153,7 +1177,7 @@ export default [
   "instr": "Write the verb in brackets in the right form.",
   "source": "I couldn't avoid ______ (hear) their {talk} {when}.",
   "key": "hearing",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "avoid + -ing: hear → hearing.",
   "slots": {
    "talk": [
     "argument",
@@ -1181,7 +1205,7 @@ export default [
   "source": "I try to avoid to eat {food} at night, {name}.",
   "hint": "I try to avoid ______ {food} at night, {name}.",
   "key": "eating",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "avoid + -ing, not to + verb: eating.",
   "slots": {
    "food": [
     "sweets",
@@ -1209,7 +1233,7 @@ export default [
   "source": "My dad avoids from drinking {drink} {when}.",
   "hint": "My dad avoids ______ {drink} {when}.",
   "key": "drinking",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "No from after avoid: drinking.",
   "slots": {
    "drink": [
     "coffee",
@@ -1237,7 +1261,7 @@ export default [
   "source": "We avoid go to the {place} on {day}.",
   "hint": "We avoid ______ to the {place} on {day}.",
   "key": "going",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "avoid + -ing, not the base verb: going.",
   "slots": {
    "place": [
     "bazaar",
@@ -1265,7 +1289,7 @@ export default [
   "source": "{b} avoided to answer my question {when}.",
   "hint": "{b} avoided ______ my question {when}.",
   "key": "answering",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "avoid + -ing, not to + verb: answering.",
   "slots": {
    "b": [
     "Aziz",
@@ -1293,7 +1317,7 @@ export default [
   "source": "{g} avoids of talking about her {topic}.",
   "hint": "{g} avoids ______ about her {topic}.",
   "key": "talking",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "No of after avoid: talking.",
   "slots": {
    "g": [
     "Olga",
@@ -1321,7 +1345,7 @@ export default [
   "source": "I don't usually eat {food} at night, {name}.",
   "hint": "I try to avoid ______ {food} at night, {name}.",
   "key": "eating",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "don't usually eat → try to avoid eating.",
   "slots": {
    "food": [
     "sweets",
@@ -1349,7 +1373,7 @@ export default [
   "source": "I don't usually take taxis in {city}, {name}.",
   "hint": "I try to avoid ______ taxis in {city}, {name}.",
   "key": "taking",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "don't usually take → try to avoid taking.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1377,7 +1401,7 @@ export default [
   "source": "I don't usually spend money on {thing}, {name}.",
   "hint": "I try to avoid ______ money on {thing}, {name}.",
   "key": "spending",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "don't usually spend → try to avoid spending.",
   "slots": {
    "thing": [
     "clothes",
@@ -1405,7 +1429,7 @@ export default [
   "source": "I don't usually drive in the {place} at rush hour, {name}.",
   "hint": "I try to avoid ______ in the {place} at rush hour, {name}.",
   "key": "driving",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "don't usually drive → try to avoid driving.",
   "slots": {
    "place": [
     "city centre",
@@ -1433,7 +1457,7 @@ export default [
   "source": "I don't usually check my phone during {event}, {name}.",
   "hint": "I try to avoid ______ my phone during {event}, {name}.",
   "key": "checking",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "don't usually check → try to avoid checking.",
   "slots": {
    "event": [
     "lessons",
@@ -1461,7 +1485,7 @@ export default [
   "source": "Don't drink {drink} before bed, {name}.",
   "hint": "You should avoid ______ {drink} before bed, {name}.",
   "key": "drinking",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "Don't drink → should avoid drinking.",
   "slots": {
    "drink": [
     "coffee",
@@ -1489,7 +1513,7 @@ export default [
   "source": "Don't sit in the sun at midday {when}, {name}.",
   "hint": "You should avoid ______ in the sun at midday {when}, {name}.",
   "key": "sitting",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "Don't sit → should avoid sitting.",
   "slots": {
    "when": [
     "in July",
@@ -1517,7 +1541,7 @@ export default [
   "source": "Don't use your phone while you {act}, {name}.",
   "hint": "You should avoid ______ your phone while you {act}, {name}.",
   "key": "using",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "Don't use → should avoid using.",
   "slots": {
    "act": [
     "drive",
@@ -1545,7 +1569,7 @@ export default [
   "source": "Don't swim in the {water} after a big meal, {name}.",
   "hint": "You should avoid ______ in the {water} after a big meal, {name}.",
   "key": "swimming",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "Don't swim → should avoid swimming.",
   "slots": {
    "water": [
     "river",
@@ -1573,7 +1597,7 @@ export default [
   "source": "Don't walk through the {place} after dark, {name}.",
   "hint": "You should avoid ______ through the {place} after dark, {name}.",
   "key": "walking",
-  "why": "avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.",
+  "why": "Don't walk → should avoid walking.",
   "slots": {
    "place": [
     "park",
