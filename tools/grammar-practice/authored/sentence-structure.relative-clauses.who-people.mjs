@@ -56,7 +56,7 @@ const CHOOSE_A = [
   ["The woman ______ called you {when} was from the {place}.", { when: ["this morning", "an hour ago", "yesterday", "at lunch"], place: ["bank", "school", "hospital", "post office"] }],
 ];
 const CHOOSE_B = [
-  [["who lives", "who he lives", "which lives", "where lives"], "The man ______ near the {place} has three {animal}.", { place: ["river", "school", "mosque", "park"], animal: ["horses", "cows", "dogs", "goats"] }],
+  [["who lives", "who he lives", "which lives", "where lives"], "The man ______ near the {place} has three {animal}.", { place: ["river", "school", "library", "park"], animal: ["horses", "cows", "dogs", "goats"] }],
   [["who works", "who she works", "which works", "where works"], "My aunt is the woman ______ at the {job}, {name}.", { job: ["bank", "hospital", "post office", "school"], name: NAME }],
   [["who teaches", "who he teaches", "which teaches", "where teaches"], "Mr Karimov is the man ______ us {subj}, {name}.", { subj: ["maths", "history", "chemistry", "music"], name: NAME }],
   [["who sing", "who they sing", "which sing", "where sing"], "The girls ______ in the choir are from {city}, {name}.", { city: CITY, name: NAME }],
@@ -91,7 +91,7 @@ const BUILD = [
   ["who wrote", "The woman ______ (write) this {book} lives in {city}.", { book: ["book", "song", "poem", "story"], city: CITY }],
   ["who sits", "The boy ______ (sit) next to me in class is from {city}, {name}.", { city: CITY, name: NAME }],
   ["who made", "Do you know the person ______ (make) this {thing}, {name}?", { thing: ["cake", "video", "poster", "dress"], name: NAME }],
-  ["who visit", "Tourists ______ (visit) {city} love the old {place}.", { city: ["Samarkand", "Bukhara", "Khiva", "Shahrisabz"], place: ["town", "streets", "mosques", "bazaar"] }],
+  ["who visit", "Tourists ______ (visit) {city} love the old {place}.", { city: ["Samarkand", "Bukhara", "Khiva", "Shahrisabz"], place: ["town", "streets", "museums", "bazaar"] }],
   ["who drives", "My cousin is the man ______ (drive) the school {vehicle}, {name}.", { vehicle: ["bus", "van", "minibus", "coach"], name: NAME }],
   ["who arrived", "The students ______ (arrive) late had to wait {place}, {name}.", { place: ["outside", "in the hall", "at the door", "in the corridor"], name: NAME }],
 ].map(([key, source, slots]) => ({ ...BASE, stage: "build", format: "gap_fill", instr: INSTR_B, source, key, acceptable: thatOf(key), why: W.build, slots: fix(slots, source) }));

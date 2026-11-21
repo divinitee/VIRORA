@@ -189,8 +189,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 ## transform (15)
 
 1. _Say the same thing with a verb and an adverb._  
-   **Madina** is a good singer, **Aziz**.  
-   → **Madina** sings ______, **Aziz**.  
+   **Madina** is a good singer, **Dilnoza**.  
+   → **Madina** sings ______, **Dilnoza**.  
    key: well  
    why: A good singer sings well. Good describes the person, well describes the action.
 

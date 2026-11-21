@@ -141,7 +141,7 @@ const TRANSFORM = [
     { act: ["have a rest", "call home", "have dinner", "go for a walk"], name: ["Mum", "Aziz", "Olga", "Dad"] }],
   [SEQ, "First you'll see the {place}. Then turn {dir}.", "Turn {dir} when ______ (see) the {place}.", "you see", [],
     "When + present simple: when you see the bank.",
-    { place: ["bank", "school", "big mosque", "petrol station"], dir: ["left", "right"] }],
+    { place: ["bank", "school", "big hotel", "petrol station"], dir: ["left", "right"] }],
   [SEQ, "First I'll have enough money. Then I'll buy a {thing}.", "I'll buy a {thing} when ______ (have) enough money, {name}.", "I have", [],
     "When + present simple: when I have enough money.",
     { thing: ["car", "laptop", "bike", "new phone"], name: ["Mum", "Dad", "Aziz", "Olga"] }],

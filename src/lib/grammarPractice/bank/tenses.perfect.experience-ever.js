@@ -721,7 +721,7 @@ export default [
     "sea",
     "snow",
     "old city walls",
-    "big mosque"
+    "old palace"
    ],
    "city": [
     "Istanbul",

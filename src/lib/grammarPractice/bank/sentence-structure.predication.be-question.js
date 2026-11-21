@@ -380,7 +380,7 @@ export default [
    "name": [
     "Aziz",
     "Olga",
-    "Timur",
+    "Dilnoza",
     "Malika"
    ]
   }
@@ -1386,7 +1386,7 @@ export default [
    ],
    "name": [
     "Aziz",
-    "Olga",
+    "Dilnoza",
     "Timur",
     "Malika"
    ]

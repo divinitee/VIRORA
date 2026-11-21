@@ -316,7 +316,7 @@ export default [
    "name": [
     "Aziz",
     "Olga",
-    "Timur",
+    "Dilnoza",
     "Malika"
    ]
   }

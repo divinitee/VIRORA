@@ -225,8 +225,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: The subject is you, we, they or a plural noun, so the question starts with Are.
 
 7. _Ask the same question about the new subject. Write one word in the gap._  
-   Are you **busy**, **Olga**?  
-   → ______ Olga **busy**, **Olga**?  
+   Are you **busy**, **Dilnoza**?  
+   → ______ Olga **busy**, **Dilnoza**?  
    key: Is  
    why: The subject is he, she, it or one person or thing, so the question starts with Is.
 

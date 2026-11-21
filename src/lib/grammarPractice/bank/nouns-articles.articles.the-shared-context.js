@@ -1458,7 +1458,7 @@ export default [
     "tray"
    ],
    "name": [
-    "Mum",
+    "Dilnoza",
     "Aziz",
     "Grandma",
     "Olga"

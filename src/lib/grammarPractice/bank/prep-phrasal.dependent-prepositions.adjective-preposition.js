@@ -955,7 +955,7 @@ export default [
     "Aziz",
     "Olga",
     "Timur",
-    "Lola"
+    "Dilnoza"
    ],
    "city": [
     "Samarkand",

@@ -225,8 +225,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: If one thing is more expensive, the other is less expensive: less + the plain adjective.
 
 7. _Say the same thing from the other side. Use less._  
-   At our school, **basketball** is more popular than **boxing**.  
-   → At our school, **boxing** is ______ ______ than **basketball**.  
+   At our school, **basketball** is more popular than **badminton**.  
+   → At our school, **badminton** is ______ ______ than **basketball**.  
    key: less + popular  
    why: If one thing is more popular, the other is less popular: less + the plain adjective.
 

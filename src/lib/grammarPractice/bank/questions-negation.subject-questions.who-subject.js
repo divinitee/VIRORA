@@ -1261,7 +1261,7 @@ export default [
     "Aziz",
     "Olga",
     "Timur",
-    "Malika"
+    "Dilnoza"
    ]
   }
  },

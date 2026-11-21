@@ -187,6 +187,28 @@ const EXPRESS = [
 }));
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
+// Name-clash fix (Claude, 21 Nov 2026): a name slot never repeats a person printed in the
+// same item, and two name slots in one item never share a name.
+{
+  const POOL = ["Dilnoza", "Sardor", "Nodira", "Akmal", "Gulnora", "Jamshid", "Feruza", "Otabek", "Zarina", "Sherzod", "Malika", "Ulugbek"];
+  const isName = (x) => /^[A-Z][a-z]+$/.test(String(x));
+  for (const it of items) {
+    if (!["choose", "build", "transform"].includes(it.stage) || !it.slots) continue;
+    const printed = [it.prompt, it.source, it.hint, it.instr].filter(Boolean).join(" ").replace(/\{[a-z0-9_]+\}/gi, " ");
+    const used = new Set(Object.values(it.slots).flat());
+    const fresh = () => POOL.find((p) => !used.has(p) && !new RegExp(`\\b${p}\\b`).test(printed));
+    const seen = new Set();
+    for (const [k, vals] of Object.entries(it.slots)) {
+      const nameSlot = vals.every(isName);
+      it.slots[k] = vals.map((v) => {
+        const clash = isName(v) && (new RegExp(`\\b${v}\\b`).test(printed) || (nameSlot && seen.has(v)));
+        if (!clash) return v;
+        const r = fresh(); used.add(r); return r;
+      });
+      if (nameSlot) it.slots[k].forEach((v) => seen.add(v));
+    }
+  }
+}
 const out = "content/grammar-practice/verb-patterns.gerund-infinitive.preposition-gerund.json";
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

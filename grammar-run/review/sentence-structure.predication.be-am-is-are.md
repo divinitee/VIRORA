@@ -255,8 +255,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Two people joined with and are a plural subject, so use are.
 
 12. _Add a second person to the subject. Write one word in the gap._  
-   Malika is very **busy**, **Olga**.  
-   → Malika and Olga ______ very **busy**, **Olga**.  
+   Malika is very **busy**, **Dilnoza**.  
+   → Malika and Olga ______ very **busy**, **Dilnoza**.  
    key: are  
    why: Two people joined with and are a plural subject, so use are.
 
@@ -267,8 +267,8 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: Two people joined with and are a plural subject, so use are.
 
 14. _Add a second person to the subject. Write one word in the gap._  
-   Timur is in the **class**, **Timur**.  
-   → Timur and Nodir ______ in the **class**, **Timur**.  
+   Timur is in the **class**, **Dilnoza**.  
+   → Timur and Nodir ______ in the **class**, **Dilnoza**.  
    key: are  
    why: Two people joined with and are a plural subject, so use are.
 

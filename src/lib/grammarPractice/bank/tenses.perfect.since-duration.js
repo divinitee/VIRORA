@@ -694,7 +694,7 @@ export default [
     "river",
     "market",
     "school",
-    "mosque"
+    "library"
    ]
   }
  },

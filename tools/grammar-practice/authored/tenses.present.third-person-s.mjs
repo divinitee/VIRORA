@@ -138,7 +138,7 @@ const TRANSFORM = [
     { food: ["eggs", "bread", "porridge", "fruit"], meal: ["breakfast", "lunch", "dinner", "supper"] }],
   [NEW_SUBJ, "They watch {sport} on TV on {day}.", "Rustam ______ (watch) {sport} on TV on {day}.", "watches",
     "Rustam is one person. Watch ends in -ch, so it becomes watches.",
-    { sport: ["football", "boxing", "tennis", "wrestling"], day: ["Saturdays", "Sundays", "Fridays", "weekends"] }],
+    { sport: ["football", "basketball", "tennis", "wrestling"], day: ["Saturdays", "Sundays", "Fridays", "weekends"] }],
   [NEW_SUBJ, "I go to the {place} by {transport}.", "My sister ______ (go) to the {place} by {transport}.", "goes",
     "My sister is one person. Go ends in -o, so it becomes goes.",
     { place: ["market", "bank", "library", "gym"], transport: ["bus", "taxi", "metro", "bike"] }],

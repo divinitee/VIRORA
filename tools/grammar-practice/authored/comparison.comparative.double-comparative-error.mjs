@@ -121,7 +121,7 @@ const BUILD = [
   ["g", "bad", "worse", "My headache is ______ (bad) than it was {when}, {name}.",
     { when: ["this morning", "an hour ago", "at school", "before lunch"], name: ["Mum", "Dad", "Aziz", "Olga"] }],
   ["l", "popular", "", "Football is ______ ______ (popular) than {sport} in our {place}.",
-    { sport: ["tennis", "chess", "volleyball", "boxing"], place: ["school", "class", "town", "street"] }],
+    { sport: ["tennis", "chess", "volleyball", "basketball"], place: ["school", "class", "town", "street"] }],
   ["l", "careful", "", "Please be ______ ______ (careful) than last time with the {thing}, {name}.",
     { thing: ["glasses", "plates", "paint", "keys"], name: ["Aziz", "Olga", "Timur", "Lola"] }],
   ["l", "tired", "", "{name} is ______ ______ (tired) than usual after the {event}.",

@@ -67,7 +67,7 @@ const BUILD = [
   ["driver", "My uncle is ______ driver. He drives his {vehicle} in {city}.", { vehicle: ["bus", "taxi", "minibus", "truck"], city: CITY }],
   ["actor", "Bobur is ______ actor. He works in {place} in {city}.", { place: ["a theatre", "a big theatre", "the city theatre", "a small theatre"], city: CITY }],
   ["cook", "My grandmother was ______ cook at the {place} in {city}.", { place: ["school", "hospital", "café", "hotel"], city: CITY }],
-  ["architect", "Malika wants to be ______ architect. She loves {thing} in {city}.", { thing: ["old buildings", "the mosques", "the bridges", "the parks"], city: CITY }],
+  ["architect", "Malika wants to be ______ architect. She loves {thing} in {city}.", { thing: ["old buildings", "the old gates", "the bridges", "the parks"], city: CITY }],
   ["farmer", "Mr Tursunov is ______ farmer near {city}. He has {animal}.", { city: CITY, animal: ["sheep", "cows", "horses", "goats"] }],
   ["office worker", "Olga is ______ office worker. She takes the {transport} to work in {city}.", { transport: ["bus", "taxi", "train", "minibus"], city: CITY }],
   ["pilot", "Timur wants to be ______ pilot. He wants to fly to {city} and {city2}.", { city: ["Seoul", "Istanbul", "Dubai", "Moscow"], city2: ["Paris", "London", "Tokyo", "Rome"] }],

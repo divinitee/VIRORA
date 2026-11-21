@@ -92,7 +92,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: It started in the past and is still true now, so use the present perfect with since: have known.
 
 2. _Complete the sentence with the present perfect of the verb in brackets._  
-   My grandmother ______ (live) in her **house** since 1980, near the **mosque**.  
+   My grandmother ______ (live) in her **house** since 1980, near the **library**.  
    key: has lived (also: has been living)  
    why: It started in the past and is still true now, so use the present perfect with since: has lived.
 

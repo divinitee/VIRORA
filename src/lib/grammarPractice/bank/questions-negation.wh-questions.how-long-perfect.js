@@ -1663,7 +1663,7 @@ export default [
    ],
    "name": [
     "Aziz",
-    "Olga",
+    "Dilnoza",
     "Timur",
     "Malika"
    ]

@@ -1198,7 +1198,7 @@ export default [
    "voc": [
     "Mum",
     "Dad",
-    "Aziz",
+    "Dilnoza",
     "Olga"
    ]
   }
@@ -1478,7 +1478,7 @@ export default [
    "voc": [
     "Mum",
     "Dad",
-    "Aziz",
+    "Dilnoza",
     "Olga"
    ]
   }

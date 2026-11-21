@@ -468,7 +468,7 @@
    "place": [
     "river",
     "school",
-    "mosque",
+    "library",
     "park"
    ],
    "animal": [
@@ -1174,7 +1174,7 @@
    "place": [
     "town",
     "streets",
-    "mosques",
+    "museums",
     "bazaar"
    ]
   }

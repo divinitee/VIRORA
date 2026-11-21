@@ -899,7 +899,7 @@ export default [
   "slots": {
    "thing": [
     "old buildings",
-    "the mosques",
+    "the old gates",
     "the bridges",
     "the parks"
    ],

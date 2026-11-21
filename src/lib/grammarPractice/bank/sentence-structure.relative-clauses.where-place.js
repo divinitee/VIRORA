@@ -60,7 +60,7 @@ export default [
    "place": [
     "river",
     "park",
-    "mosque",
+    "library",
     "school"
    ]
   }
@@ -663,7 +663,7 @@ export default [
    "place": [
     "river",
     "park",
-    "mosque",
+    "library",
     "school"
    ]
   }
@@ -847,7 +847,7 @@ export default [
     "shop",
     "school",
     "bakery",
-    "mosque"
+    "café"
    ],
    "name": [
     "Aziz",

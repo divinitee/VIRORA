@@ -67,7 +67,7 @@ const CHOOSE = [
 const INSTR_B = "Complete the sentence with the present perfect of the verb in brackets.";
 const BUILD = [
   ["have known", "I ______ (know) my best friend {name} since 2016, from the {place}.", { name: ["Aziz", "Olga", "Bobur", "Nigora"], place: ["park", "school", "summer camp", "village"] }],
-  ["has lived", "My grandmother ______ (live) in her {home} since 1980, near the {place}.", { home: ["house", "flat", "village house", "old house"], place: ["river", "market", "school", "mosque"] }, ["has been living"]],
+  ["has lived", "My grandmother ______ (live) in her {home} since 1980, near the {place}.", { home: ["house", "flat", "village house", "old house"], place: ["river", "market", "school", "library"] }, ["has been living"]],
   ["have had", "We ______ (have) our {pet} since last summer, and she loves the {place}.", { pet: ["dog", "cat", "rabbit", "puppy"], place: ["garden", "yard", "park", "sofa"] }],
   ["has been", "Aziz ______ (be) at the {place} since 8 o'clock with his {person}.", { place: ["library", "gym", "hospital", "office"], person: ["brother", "friend", "father", "classmate"] }],
   ["have wanted", "I ______ (want) to visit {city} since I saw a film about it with my {person}.", { city: ["Khiva", "Istanbul", "Seoul", "Bukhara"], person: ["father", "family", "brother", "class"] }],
