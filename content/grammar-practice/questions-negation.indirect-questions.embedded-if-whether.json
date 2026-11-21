@@ -704,7 +704,7 @@
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
   "source": "I wonder if Grandma ______ (call) {when}, {name}.",
   "key": "called",
-  "why": "Past (Grandma, …): called.",
+  "why": "Past time, Grandma did it: called.",
   "slots": {
    "when": [
     "yesterday",
@@ -758,7 +758,7 @@
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
   "source": "I'm not sure if they ______ (be) at home {when}, {name}.",
   "key": "were",
-  "why": "Past, they: were.",
+  "why": "Past time, and they is plural: were.",
   "slots": {
    "when": [
     "yesterday",
@@ -812,7 +812,7 @@
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
   "source": "I wonder if it ______ (rain) in {city} {when}.",
   "key": "rained",
-  "why": "Past, it: rained.",
+  "why": "Past time, and it is the subject: rained.",
   "slots": {
    "city": [
     "Samarkand",
@@ -920,7 +920,7 @@
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
   "source": "Do you know if the {event} ______ (start) on time yesterday, {name}?",
   "key": "started",
-  "why": "\"yesterday\": started.",
+  "why": "\"yesterday\" is past time: started.",
   "slots": {
    "event": [
     "lesson",
@@ -947,7 +947,7 @@
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
   "source": "I don't know if your cousin ______ (come) to the {event} last {when}.",
   "key": "came",
-  "why": "\"last …\": came.",
+  "why": "\"last …\" is past time: came.",
   "slots": {
    "event": [
     "party",
@@ -1001,7 +1001,7 @@
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
   "source": "I wonder if the teacher ______ (check) our {work} last night, {name}.",
   "key": "checked",
-  "why": "\"last night\": checked.",
+  "why": "\"last night\" is past time: checked.",
   "slots": {
    "work": [
     "tests",
@@ -1082,7 +1082,7 @@
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
   "source": "I'd like to know if your parents ______ (enjoy) the {thing} last week, {name}.",
   "key": "enjoyed",
-  "why": "\"last week\": enjoyed.",
+  "why": "\"last week\" is past time: enjoyed.",
   "slots": {
    "thing": [
     "trip",
@@ -1163,7 +1163,7 @@
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
   "source": "Could you ask Grandpa if he ______ (understand) the {thing} yesterday, {name}?",
   "key": "understood",
-  "why": "\"yesterday\": understood.",
+  "why": "\"yesterday\" is past time: understood.",
   "slots": {
    "thing": [
     "film",

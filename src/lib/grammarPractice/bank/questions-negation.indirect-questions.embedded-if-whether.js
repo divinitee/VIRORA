@@ -17,7 +17,7 @@ export default [
    "does the bank"
   ],
   "key": 0,
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Yes/no question inside: if + the bank is.",
   "slots": {
    "day": [
     "Sundays",
@@ -49,7 +49,7 @@ export default [
    "if the train leaves"
   ],
   "key": 3,
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Yes/no question inside: if, no does: the train leaves.",
   "slots": {
    "time": [
     "six",
@@ -81,7 +81,7 @@ export default [
    "is my sister"
   ],
   "key": 2,
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Yes/no question inside: if + my sister is.",
   "slots": {
    "when": [
     "now",
@@ -113,7 +113,7 @@ export default [
    "if does your teacher speak"
   ],
   "key": 1,
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Yes/no inside, no does: if your teacher speaks.",
   "slots": {
    "lang": [
     "Russian",
@@ -145,7 +145,7 @@ export default [
    "whether she get"
   ],
   "key": 0,
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Yes/no inside, no did: whether she got.",
   "slots": {
    "thing": [
     "letter",
@@ -177,7 +177,7 @@ export default [
    "if he is coming"
   ],
   "key": 3,
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Yes/no inside: if he is coming, not is he.",
   "slots": {
    "event": [
     "party",
@@ -209,7 +209,7 @@ export default [
    "can your brother"
   ],
   "key": 2,
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Yes/no inside: if your brother can, not can your brother.",
   "slots": {
    "skill": [
     "swim",
@@ -241,7 +241,7 @@ export default [
    "if did I pass"
   ],
   "key": 1,
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Yes/no inside, no did: if I passed.",
   "slots": {
    "test": [
     "exam",
@@ -273,7 +273,7 @@ export default [
    "does there a pharmacy"
   ],
   "key": 0,
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Yes/no inside: if there is, not is there.",
   "slots": {
    "place": [
     "hotel",
@@ -305,7 +305,7 @@ export default [
    "whether it will rain"
   ],
   "key": 3,
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Yes/no inside: whether it will rain, not will it.",
   "slots": {
    "when": [
     "tomorrow",
@@ -337,7 +337,7 @@ export default [
    "does the price include"
   ],
   "key": 2,
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Yes/no inside, no does: if the price includes.",
   "slots": {
    "thing": [
     "breakfast",
@@ -369,7 +369,7 @@ export default [
    "if does the bus stop"
   ],
   "key": 1,
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Yes/no inside, no does: if the bus stops.",
   "slots": {
    "place": [
     "bazaar",
@@ -401,7 +401,7 @@ export default [
    "whether I leaved"
   ],
   "key": 0,
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Yes/no inside, no did: whether I left.",
   "slots": {
    "thing": [
     "phone",
@@ -433,7 +433,7 @@ export default [
    "if your cousin is"
   ],
   "key": 3,
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Yes/no inside: if your cousin is, not is your cousin.",
   "slots": {
    "day": [
     "Saturday",
@@ -465,7 +465,7 @@ export default [
    "are there"
   ],
   "key": 2,
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Yes/no inside: if there are, not are there.",
   "slots": {
    "vehicle": [
     "train",
@@ -497,7 +497,7 @@ export default [
    "if has the teacher read"
   ],
   "key": 1,
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Yes/no inside: if the teacher has read, not has the teacher.",
   "slots": {
    "work": [
     "essay",
@@ -529,7 +529,7 @@ export default [
    "if you locking"
   ],
   "key": 0,
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Yes/no inside, no did: if you locked.",
   "slots": {
    "thing": [
     "door",
@@ -561,7 +561,7 @@ export default [
    "if I can pay"
   ],
   "key": 3,
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Yes/no inside: if I can pay, not can I pay.",
   "slots": {
    "method": [
     "card",
@@ -593,7 +593,7 @@ export default [
    "are they coming"
   ],
   "key": 2,
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Yes/no inside: whether they are coming.",
   "slots": {
    "event": [
     "party",
@@ -625,7 +625,7 @@ export default [
    "if does your grandmother understand"
   ],
   "key": 1,
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Yes/no inside, no does: if your grandmother understands.",
   "slots": {
    "lang": [
     "Russian",
@@ -652,7 +652,7 @@ export default [
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
   "source": "Can you tell me if the bus ______ (stop) at the {place} every day, {name}?",
   "key": "stops",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "\"every day\", the bus: stops.",
   "slots": {
    "place": [
     "bazaar",
@@ -679,7 +679,7 @@ export default [
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
   "source": "Do you know if the shop ______ (be) usually open on {day}, {name}?",
   "key": "is",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "\"usually\", the shop: is.",
   "slots": {
    "day": [
     "Sundays",
@@ -706,7 +706,7 @@ export default [
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
   "source": "I wonder if Grandma ______ (call) {when}, {name}.",
   "key": "called",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Past time, Grandma did it: called.",
   "slots": {
    "when": [
     "yesterday",
@@ -733,7 +733,7 @@ export default [
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
   "source": "Can you find out if your brother still ______ (work) at the {place}, {name}?",
   "key": "works",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "\"still\", your brother: works.",
   "slots": {
    "place": [
     "bank",
@@ -760,7 +760,7 @@ export default [
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
   "source": "I'm not sure if they ______ (be) at home {when}, {name}.",
   "key": "were",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Past time, and they is plural: were.",
   "slots": {
    "when": [
     "yesterday",
@@ -787,7 +787,7 @@ export default [
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
   "source": "Do you know if your sister usually ______ (like) {food}, {name}?",
   "key": "likes",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "\"usually\", your sister: likes.",
   "slots": {
    "food": [
     "plov",
@@ -814,7 +814,7 @@ export default [
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
   "source": "I wonder if it ______ (rain) in {city} {when}.",
   "key": "rained",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Past time, and it is the subject: rained.",
   "slots": {
    "city": [
     "Samarkand",
@@ -841,7 +841,7 @@ export default [
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
   "source": "Can you check if you ______ (lock) the {thing} this morning, {name}?",
   "key": "locked",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "\"this morning\" is past: locked.",
   "slots": {
    "thing": [
     "door",
@@ -868,7 +868,7 @@ export default [
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
   "source": "Please ask if the shop ______ (open) at {time} every day, {name}.",
   "key": "opens",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "\"every day\", the shop: opens.",
   "slots": {
    "time": [
     "eight",
@@ -895,7 +895,7 @@ export default [
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
   "source": "Could you ask if the hotel ______ (have) {thing}, {name}?",
   "key": "has",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "One hotel, present: has.",
   "slots": {
    "thing": [
     "wifi",
@@ -922,7 +922,7 @@ export default [
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
   "source": "Do you know if the {event} ______ (start) on time yesterday, {name}?",
   "key": "started",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "\"yesterday\" is past time: started.",
   "slots": {
    "event": [
     "lesson",
@@ -949,7 +949,7 @@ export default [
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
   "source": "I don't know if your cousin ______ (come) to the {event} last {when}.",
   "key": "came",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "\"last …\" is past time: came.",
   "slots": {
    "event": [
     "party",
@@ -976,7 +976,7 @@ export default [
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
   "source": "Can you ask if they usually ______ (sell) {thing} here, {name}?",
   "key": "sell",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "\"usually\", they: sell (no -s).",
   "slots": {
    "thing": [
     "phone cards",
@@ -1003,7 +1003,7 @@ export default [
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
   "source": "I wonder if the teacher ______ (check) our {work} last night, {name}.",
   "key": "checked",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "\"last night\" is past time: checked.",
   "slots": {
    "work": [
     "tests",
@@ -1030,7 +1030,7 @@ export default [
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
   "source": "Could you check if this bus ______ (go) to the {place} every hour, {name}?",
   "key": "goes",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "\"every hour\", this bus: goes.",
   "slots": {
    "place": [
     "bazaar",
@@ -1057,7 +1057,7 @@ export default [
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
   "source": "Can you tell me if the exam ______ (be) {adj} yesterday, {name}?",
   "key": "was",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "\"yesterday\", the exam: was.",
   "slots": {
    "adj": [
     "difficult",
@@ -1084,7 +1084,7 @@ export default [
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
   "source": "I'd like to know if your parents ______ (enjoy) the {thing} last week, {name}.",
   "key": "enjoyed",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "\"last week\" is past time: enjoyed.",
   "slots": {
    "thing": [
     "trip",
@@ -1111,7 +1111,7 @@ export default [
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
   "source": "I'd like to know if the museum ______ (be) free on {day}, {name}.",
   "key": "is",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "On a weekday, the museum: is.",
   "slots": {
    "day": [
     "Sundays",
@@ -1138,7 +1138,7 @@ export default [
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
   "source": "I'm not sure if your teacher ______ (speak) {lang} at home, {name}.",
   "key": "speaks",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "\"at home\" (habit), your teacher: speaks.",
   "slots": {
    "lang": [
     "Russian",
@@ -1165,7 +1165,7 @@ export default [
   "instr": "Write the verb in brackets after if. Use statement order: no do / does / did.",
   "source": "Could you ask Grandpa if he ______ (understand) the {thing} yesterday, {name}?",
   "key": "understood",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "\"yesterday\" is past time: understood.",
   "slots": {
    "thing": [
     "film",
@@ -1196,7 +1196,7 @@ export default [
   "acceptable": [
    "whether the bank is open"
   ],
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Is the bank open? → if the bank is open.",
   "slots": {
    "day": [
     "Sundays",
@@ -1227,7 +1227,7 @@ export default [
   "acceptable": [
    "whether your friend eats"
   ],
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Does your friend eat? → if your friend eats.",
   "slots": {
    "food": [
     "meat",
@@ -1258,7 +1258,7 @@ export default [
   "acceptable": [
    "whether your sister is at home"
   ],
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Is your sister at home? → if your sister is at home.",
   "slots": {
    "when": [
     "now",
@@ -1289,7 +1289,7 @@ export default [
   "acceptable": [
    "whether they live"
   ],
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Do they live? → if they live.",
   "slots": {
    "place": [
     "bazaar",
@@ -1320,7 +1320,7 @@ export default [
   "acceptable": [
    "whether the museum closes"
   ],
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Does the museum close? → if the museum closes.",
   "slots": {
    "time": [
     "five",
@@ -1355,7 +1355,7 @@ export default [
    "whether you have finished",
    "whether you've finished"
   ],
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Did you finish? → if you finished.",
   "slots": {
    "work": [
     "homework",
@@ -1386,7 +1386,7 @@ export default [
   "acceptable": [
    "whether we can sit"
   ],
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Can we sit? → if we can sit.",
   "slots": {
    "place": [
     "window",
@@ -1417,7 +1417,7 @@ export default [
   "acceptable": [
    "whether the bus will come"
   ],
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Will the bus come? → if the bus will come.",
   "slots": {
    "when": [
     "soon",
@@ -1445,7 +1445,7 @@ export default [
   "source": "Has the {event} started, {name}?",
   "hint": "Can you check if the {event} ______, {name}?",
   "key": "has started",
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Has … started? → if … has started.",
   "slots": {
    "event": [
     "lesson",
@@ -1476,7 +1476,7 @@ export default [
   "acceptable": [
    "whether Grandma got"
   ],
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Did Grandma get? → if Grandma got.",
   "slots": {
    "thing": [
     "message",
@@ -1507,7 +1507,7 @@ export default [
   "acceptable": [
    "whether the shop is"
   ],
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Add if, then statement order: if the shop is.",
   "slots": {
    "day": [
     "Sundays",
@@ -1538,7 +1538,7 @@ export default [
   "acceptable": [
    "whether this train stops"
   ],
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "Add if, drop does: if this train stops.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1571,7 +1571,7 @@ export default [
    "if she's",
    "whether she's"
   ],
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "After if: she is, not is she.",
   "slots": {
    "when": [
     "today",
@@ -1602,7 +1602,7 @@ export default [
   "acceptable": [
    "whether they won"
   ],
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "After if: no did: they won.",
   "slots": {
    "match": [
     "match",
@@ -1633,7 +1633,7 @@ export default [
   "acceptable": [
    "whether I can come"
   ],
-  "why": "A yes/no question inside another sentence: if (or whether) + statement order, subject then verb. No do / does / did, no question order.",
+  "why": "After if: I can, not can I.",
   "slots": {
    "when": [
     "tomorrow",
