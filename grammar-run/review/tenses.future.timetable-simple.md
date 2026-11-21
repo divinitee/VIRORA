@@ -6,185 +6,185 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 1. The train to **Bukhara** ______ at **6:45** tomorrow morning.  
    options: ✔ leaves · leave · left · leaving  
-   why: A future event on a timetable takes the present simple. One train, film or shop → leaves.
+   why: A train timetable, even for "tomorrow morning": present simple leaves.
 
 2. Hurry up, **Nodira**! The film ______ in **ten** minutes.  
    options: start · started · starting · ✔ starts  
-   why: A future event on a timetable takes the present simple. One train, film or shop → starts.
+   why: A film's fixed start time: present simple starts.
 
 3. Our **maths** lesson ______ at **ten** next Monday.  
    options: started · starting · ✔ starts · start  
-   why: A future event on a timetable takes the present simple. One train, film or shop → starts.
+   why: A school timetable for next Monday: starts.
 
 4. The **bakery** ______ at **ten** tomorrow, so let's go early.  
    options: opening · ✔ opens · open · opened  
-   why: A future event on a timetable takes the present simple. One train, film or shop → opens.
+   why: Shop opening hours tomorrow: present simple opens.
 
 5. The concert ______ at **half past ten** tonight, so we can be home by midnight, **Akmal**.  
    options: ✔ finishes · finish · finished · finishing  
-   why: A future event on a timetable takes the present simple. One train, film or shop → finishes.
+   why: A fixed concert time tonight: finishes.
 
 6. My flight to **Moscow** ______ off at **midnight** next Friday.  
    options: take · took · taking · ✔ takes  
-   why: A future event on a timetable takes the present simple. One train, film or shop → takes.
+   why: A flight timetable: takes off, present simple.
 
 7. Our **driving course** ______ next **Monday**.  
    options: began · beginning · ✔ begins · begin  
-   why: A future event on a timetable takes the present simple. One train, film or shop → begins.
+   why: A course start date on the calendar: begins.
 
 8. The last bus to the **station** ______ at **11:30** tonight.  
    options: leaving · ✔ leaves · leave · left  
-   why: A future event on a timetable takes the present simple. One train, film or shop → leaves.
+   why: A bus timetable for tonight: leaves.
 
 9. The **exhibition** ______ at **six** next Saturday.  
    options: ✔ ends · end · ended · ending  
-   why: A future event on a timetable takes the present simple. One train, film or shop → ends.
+   why: A fixed event time next Saturday: ends.
 
 10. The museum ______ on **Wednesday** next week, **Akmal**.  
    options: close · closed · closing · ✔ closes  
-   why: A future event on a timetable takes the present simple. One train, film or shop → closes.
+   why: The museum's timetable next week: closes.
 
 11. The buses to **the airport** ______ every **ten** minutes tomorrow.  
    options: ran · running · ✔ run · runs  
-   why: A timetable future takes the present simple. More than one → the base form, run.
+   why: Plural "buses" on a timetable: run, no -s.
 
 12. The shops in our **district** ______ at **seven** next Sunday.  
    options: closing · ✔ close · closes · closed  
-   why: A timetable future takes the present simple. More than one → the base form, close.
+   why: Plural "shops" with fixed hours: close.
 
 13. Our **exams** ______ on **Tuesday**, so I'm studying all weekend.  
    options: ✔ start · starts · started · starting  
-   why: A timetable future takes the present simple. More than one → the base form, start.
+   why: Plural "exams" on a fixed date: start.
 
 14. The **coaches** to **Samarkand** ______ from the main station tomorrow.  
    options: leaves · left · leaving · ✔ leave  
-   why: A timetable future takes the present simple. More than one → the base form, leave.
+   why: Plural transport times tomorrow: leave.
 
 15. The school holidays ______ next **Monday**, **Zarina**!  
    options: started · starting · ✔ start · starts  
-   why: A timetable future takes the present simple. More than one → the base form, start.
+   why: Plural "holidays" on the school calendar: start.
 
 16. Lessons ______ at **one** tomorrow because of the **sports day**.  
    options: finishing · ✔ finish · finishes · finished  
-   why: A timetable future takes the present simple. More than one → the base form, finish.
+   why: Plural "Lessons" on tomorrow's timetable: finish.
 
 17. What time ______ the **film** start tomorrow, **Sherzod**?  
    options: ✔ does · do · is · did  
-   why: A question about a timetable uses the present simple: does + subject + base verb. Tomorrow or next shows the future, so not did.
+   why: Question about a fixed time, singular event: does.
 
 18. When ______ the next **bus** to **Samarkand** leave?  
    options: do · is · did · ✔ does  
-   why: A question about a timetable uses the present simple: does + subject + base verb. Tomorrow or next shows the future, so not did.
+   why: Question about "the next" one on the timetable: does.
 
 19. What time ______ the **markets** open tomorrow, **Akmal**?  
    options: are · did · ✔ do · does  
-   why: A question about a timetable uses the present simple: do + subject + base verb. Tomorrow or next shows the future, so not did.
+   why: Question about shop hours, plural: do.
 
 20. ______ your **exams** begin tomorrow, **Sherzod**?  
    options: Did · ✔ Do · Does · Are  
-   why: A question about a timetable uses the present simple: do + subject + base verb. Tomorrow or next shows the future, so not did.
+   why: Yes/no question, plural exams: Do … begin.
 
 ## build (20)
 
 1. _It's on the timetable. Write the verb in brackets in the present simple._  
    The **bus** to **Bukhara** ______ (leave) at **six** tomorrow.  
    key: leaves  
-   why: A future event on a timetable takes the present simple. One train, film or shop → leaves.
+   why: Timetable for tomorrow, singular: leaves.
 
 2. _It's on the timetable. Write the verb in brackets in the present simple._  
    Our **art** class ______ (start) at **nine** next Monday.  
    key: starts  
-   why: A future event on a timetable takes the present simple. One train, film or shop → starts.
+   why: School timetable, singular class: starts.
 
 3. _It's on the timetable. Write the verb in brackets in the present simple._  
    The **post office** ______ (open) at nine tomorrow, **Akmal**.  
    key: opens  
-   why: A future event on a timetable takes the present simple. One train, film or shop → opens.
+   why: Opening hours tomorrow, singular shop: opens.
 
 4. _It's on the timetable. Write the verb in brackets in the present simple._  
    The film ______ (finish) at **ten**, so we can catch the last **minibus**.  
    key: finishes  
-   why: A future event on a timetable takes the present simple. One train, film or shop → finishes.
+   why: Fixed film time, singular: finishes.
 
 5. _It's on the timetable. Write the verb in brackets in the present simple._  
    Our plane ______ (land) in **Moscow** at **7:30** next Sunday.  
    key: lands  
-   why: A future event on a timetable takes the present simple. One train, film or shop → lands.
+   why: A flight timetable for Sunday: lands.
 
 6. _It's on the timetable. Write the verb in brackets in the present simple._  
    The **match** ______ (begin) at **six** tomorrow evening.  
    key: begins  
-   why: A future event on a timetable takes the present simple. One train, film or shop → begins.
+   why: Fixed event time, singular: begins.
 
 7. _It's on the timetable. Write the verb in brackets in the present simple._  
    The shops ______ (close) early on **Friday**, **Akmal**.  
    key: close  
-   why: A timetable future takes the present simple. More than one → the base form, close.
+   why: Plural shops, fixed hours: close.
 
 8. _It's on the timetable. Write the verb in brackets in the present simple._  
    Our holidays ______ (end) next **Monday**, **Nodira**.  
    key: end  
-   why: A timetable future takes the present simple. More than one → the base form, end.
+   why: Plural holidays on the calendar: end.
 
 9. _It's on the timetable. Write the verb in brackets in the present simple._  
    The trains to **Bukhara** ______ (run) every **twenty** minutes tomorrow.  
    key: run  
-   why: A timetable future takes the present simple. More than one → the base form, run.
+   why: Plural trains on the timetable: run.
 
 10. _It's on the timetable. Write the verb in brackets in the present simple._  
    My English course ______ (begin) on **Tuesday**, **Sherzod**.  
    key: begins  
-   why: A future event on a timetable takes the present simple. One train, film or shop → begins.
+   why: A course start date, singular: begins.
 
 11. _It's on the timetable. Write the verb in brackets in the present simple._  
    The museum ______ (close) at **six** today, so we have only one hour, **Akmal**.  
    key: closes  
-   why: A future event on a timetable takes the present simple. One train, film or shop → closes.
+   why: Museum hours today, singular: closes.
 
 12. _It's on the timetable. Write the verb in brackets in the present simple._  
    Lessons ______ (finish) at **noon** tomorrow because of the **sports day**.  
    key: finish  
-   why: A timetable future takes the present simple. More than one → the base form, finish.
+   why: Plural lessons, fixed time: finish.
 
 13. _It's on the timetable. Write the verb in brackets in the present simple._  
    What time does the **lesson** ______ (start) tomorrow, **Akmal**?  
    key: start  
-   why: After does / do / doesn't / don't, use the base form: start.
+   why: After does, the base verb: start.
 
 14. _It's on the timetable. Write the verb in brackets in the present simple._  
    When does the next **bus** ______ (leave) for **Bukhara**?  
    key: leave  
-   why: After does / do / doesn't / don't, use the base form: leave.
+   why: After does, the base verb: leave.
 
 15. _It's on the timetable. Write the verb in brackets in the present simple._  
    What time do the **shops** ______ (open) on **Friday**?  
    key: open  
-   why: After does / do / doesn't / don't, use the base form: open.
+   why: After do, the base verb: open.
 
 16. _It's on the timetable. Write the verb in brackets in the present simple._  
    Does your **exam** ______ (begin) tomorrow, **Akmal**?  
    key: begin  
-   why: After does / do / doesn't / don't, use the base form: begin.
+   why: After Does, the base verb: begin.
 
 17. _It's on the timetable. Write the verb in brackets in the present simple._  
    This **tram** doesn't ______ (stop) in **the centre** on Sunday.  
    key: stop  
-   why: After does / do / doesn't / don't, use the base form: stop.
+   why: After doesn't, the base verb: stop.
 
 18. _It's on the timetable. Write the verb in brackets in the present simple._  
    The **cafés** don't ______ (open) until **nine** tomorrow.  
    key: open  
-   why: After does / do / doesn't / don't, use the base form: open.
+   why: After don't, the base verb: open.
 
 19. _It's on the timetable. Write the verb in brackets in the present simple._  
    The **film** doesn't ______ (end) until **half past ten** tonight, **Zarina**.  
    key: end  
-   why: After does / do / doesn't / don't, use the base form: end.
+   why: After doesn't, the base verb: end.
 
 20. _It's on the timetable. Write the verb in brackets in the present simple._  
    Our flight doesn't ______ (leave) until **eleven**, so we can sleep longer tomorrow, **Nodira**.  
    key: leave  
-   why: After does / do / doesn't / don't, use the base form: leave.
+   why: After doesn't, the base verb: leave.
 
 ## transform (15)
 
@@ -192,91 +192,91 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    The train will leave at **7:15** tomorrow, **Akmal**.  
    → The train ______ at **7:15** tomorrow, **Akmal**.  
    key: leaves  
-   why: A future event on a timetable takes the present simple. One train, film or shop → leaves.
+   why: Timetables use the present simple, not will: leaves.
 
 2. _It's on the timetable. Rewrite the sentence with the present simple instead of will._  
    The **bank** will open at **nine** on Monday.  
    → The **bank** ______ at **nine** on Monday.  
    key: opens  
-   why: A future event on a timetable takes the present simple. One train, film or shop → opens.
+   why: Opening hours: present simple, not will: opens.
 
 3. _It's on the timetable. Rewrite the sentence with the present simple instead of will._  
    Our lessons will start at **nine** next week, **Zarina**.  
    → Our lessons ______ at **nine** next week, **Zarina**.  
    key: start  
-   why: A timetable future takes the present simple. More than one → the base form, start.
+   why: A school timetable, plural lessons: start.
 
 4. _It's on the timetable. Rewrite the sentence with the present simple instead of will._  
    The **match** will finish at **midnight** tonight.  
    → The **match** ______ at **midnight** tonight.  
    key: finishes  
-   why: A future event on a timetable takes the present simple. One train, film or shop → finishes.
+   why: A fixed event time: finishes.
 
 5. _It's on the timetable. Rewrite the sentence with the present simple instead of will._  
    The buses to **Samarkand** will run every **twenty** minutes tomorrow.  
    → The buses to **Samarkand** ______ every **twenty** minutes tomorrow.  
    key: run  
-   why: A timetable future takes the present simple. More than one → the base form, run.
+   why: A bus timetable, plural buses: run.
 
 6. _Write the question for this answer. Use the present simple._  
    The film starts at **nine** tonight, **Akmal**.  
    → What time ______ start tonight, **Akmal**?  
    key: does the film  
-   why: Present simple question: does + the subject, then the base verb.
+   why: Question about a fixed time: does + the film.
 
 7. _Write the question for this answer. Use the present simple._  
    The train to **Samarkand** leaves at **9:40**.  
    → When ______ to **Samarkand** leave?  
    key: does the train  
-   why: Present simple question: does + the subject, then the base verb.
+   why: Question about a timetable: does + the train.
 
 8. _Write the question for this answer. Use the present simple._  
    The shops open at **ten** on **Monday**.  
    → What time ______ open on **Monday**?  
    key: do the shops  
-   why: Present simple question: do + the subject, then the base verb.
+   why: Question about shop hours, plural: do + the shops.
 
 9. _Write the question for this answer. Use the present simple._  
    Our exams begin on **the 10th**, **Akmal**.  
    → When ______ begin, **Akmal**?  
    key: do your exams (also: do the exams)  
-   why: Present simple question: do + your exams + begin. Use your when you ask about the other person's exams.
+   why: Question about exam dates: do + your exams.
 
 10. _Write the question for this answer. Use the present simple._  
    The concert ends at **ten**, **Sherzod**.  
    → What time ______ end, **Sherzod**?  
    key: does the concert  
-   why: Present simple question: does + the subject, then the base verb.
+   why: Question about a fixed end time: does + the concert.
 
 11. _Correct the mistake. Use the present simple._  
    The bus leave at **half past seven** tomorrow, **Akmal**.  
    → The bus ______ at **half past seven** tomorrow, **Akmal**.  
    key: leaves  
-   why: One bus → leaves, with -s.
+   why: Singular bus needs -s: leaves.
 
 12. _Correct the mistake. Use the present simple._  
    What time does the lesson starts on **Monday**, **Nodira**?  
    → What time does the lesson ______ on **Monday**, **Nodira**?  
    key: start  
-   why: After does, use the base form: start, not starts.
+   why: After does, no -s: start.
 
 13. _Correct the mistake. Use the present simple._  
    The shops opens at **eight** on **Friday**.  
    → The shops ______ at **eight** on **Friday**.  
    key: open  
-   why: The shops is plural → open, with no -s.
+   why: Plural shops, no -s: open.
 
 14. _Correct the mistake. Use the present simple._  
    Our plane landed in **Seoul** at **7:30** tomorrow.  
    → Our plane ______ in **Seoul** at **7:30** tomorrow.  
    key: lands  
-   why: Tomorrow is the future, so not the past: a timetable takes the present simple, lands.
+   why: "tomorrow" on a timetable needs the present simple, not landed: lands.
 
 15. _Correct the mistake. Use the present simple._  
    Does the **concert** begins at **nine**?  
    → Does the **concert** ______ at **nine**?  
    key: begin  
-   why: After does, use the base form: begin, not begins.
+   why: After Does, no -s: begin.
 
 ## create (8)
 

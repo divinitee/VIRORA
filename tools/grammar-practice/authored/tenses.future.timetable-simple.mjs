@@ -187,7 +187,7 @@ const VARIETY = {
    "School timetable, singular class: starts.",
    "Opening hours tomorrow, singular shop: opens.",
    "Fixed film time, singular: finishes.",
-   "Flight timetable: lands.",
+   "A flight timetable for Sunday: lands.",
    "Fixed event time, singular: begins.",
    "Plural shops, fixed hours: close.",
    "Plural holidays on the calendar: end.",

@@ -764,7 +764,7 @@
   "instr": "It's on the timetable. Write the verb in brackets in the present simple.",
   "source": "Our plane ______ (land) in {city} at {time} next Sunday.",
   "key": "lands",
-  "why": "Flight timetable: lands.",
+  "why": "A flight timetable for Sunday: lands.",
   "slots": {
    "city": [
     "Istanbul",
