@@ -148,5 +148,109 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/comparison.equality.not-as-as.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "Six hours against two: the bus is less fast: not as fast as.",
+   "300,000 against 900,000: not as expensive as.",
+   "\"but it's very cosy\": smaller, so not as big as.",
+   "\"I finished early\": easier, so not as difficult as.",
+   "40 against 45: not as old as.",
+   "\"I fell asleep\": not as interesting as.",
+   "\"only 10 degrees\": colder, so not as warm as.",
+   "Weekdays against Sundays: not as busy as.",
+   "1.50 against 1.70 m: not as tall as.",
+   "Fewer people play it: not as popular as.",
+   "\"He lived in … for a year\": not as good as.",
+   "\"I don't like it\": not as comfortable as.",
+   "\"It's quicker\": shorter, so not as long as.",
+   "Milder than Moscow: not as cold as.",
+   "Turn it round: not as heavy as → yours is heavier.",
+   "Turn it round: not as good as → the book was better.",
+   "Turn it round: not as fast as → the train is faster.",
+   "Turn it round: not as tall as → I am taller.",
+   "Turn it round: not as cheap as → the bazaar is cheaper.",
+   "Turn it round: not as hot as → it was hotter before."
+  ],
+  "build": [
+   "not as + adjective + as: not as cheap as.",
+   "The old one is slower: not as fast as.",
+   "A village is smaller: not as big as.",
+   "not as + base adjective + as, never easier: not as easy as.",
+   "Colder in winter: not as warm as.",
+   "Younger: not as old as.",
+   "Cheaper: not as expensive as.",
+   "\"There's a … next to it\": not as quiet as.",
+   "\"He goes to the gym\": not as strong as.",
+   "Less interesting: not as interesting as.",
+   "\"Can I carry yours?\": not as heavy as.",
+   "Fewer fans: not as popular as.",
+   "\"but she plays … better\": not as tall as.",
+   "Shorter: not as long as.",
+   "Cooler: not as hot as.",
+   "Less comfortable: not as comfortable as.",
+   "not as + good + as, never better: not as good as.",
+   "\"We should take the metro\": not as near as.",
+   "Safer: not as dangerous as.",
+   "Quieter roads: not as busy as."
+  ],
+  "transform": [
+   "cheaper than → the other one is not as cheap as.",
+   "taller than → I'm not as tall as.",
+   "more interesting than → not as interesting as.",
+   "bigger than → not as big as.",
+   "more comfortable than → not as comfortable as.",
+   "Five hours against two: not as fast as.",
+   "200,000 against 600,000: not as expensive as.",
+   "70 against 75: not as old as.",
+   "25 against 35 degrees: not as hot as.",
+   "Hard against easy: not as difficult as.",
+   "After as, the base form, not faster: not as fast as.",
+   "as … as, not as … than: not as busy as.",
+   "The first as is missing: not as big as.",
+   "No more inside as … as: not as expensive as.",
+   "Use as … as, not so … than: not as good as."
+  ]
+ },
+ "slot": [
+  [
+   "choose",
+   5,
+   "",
+   "who",
+   [
+    "uncle"
+   ]
+  ],
+  [
+   "choose",
+   18,
+   "",
+   "sib",
+   [
+    "nephew"
+   ]
+  ]
+ ]
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

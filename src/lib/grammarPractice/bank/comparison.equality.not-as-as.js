@@ -17,7 +17,7 @@ export default [
    "not fast as"
   ],
   "key": 0,
-  "why": "Not as fast as = less fast than. The base adjective goes between as and as.",
+  "why": "Six hours against two: the bus is less fast: not as fast as.",
   "slots": {
    "city": [
     "Samarkand",
@@ -49,7 +49,7 @@ export default [
    "not as expensive as"
   ],
   "key": 3,
-  "why": "Not as expensive as = less expensive than. The base adjective goes between as and as.",
+  "why": "300,000 against 900,000: not as expensive as.",
   "slots": {
    "thing": [
     "phone",
@@ -81,7 +81,7 @@ export default [
    "not as bigger as"
   ],
   "key": 2,
-  "why": "Not as big as = less big than. The base adjective goes between as and as.",
+  "why": "\"but it's very cosy\": smaller, so not as big as.",
   "slots": {
    "home": [
     "flat",
@@ -113,7 +113,7 @@ export default [
    "not as difficult than"
   ],
   "key": 1,
-  "why": "Not as difficult as = less difficult than. The base adjective goes between as and as.",
+  "why": "\"I finished early\": easier, so not as difficult as.",
   "slots": {
    "test": [
     "test",
@@ -145,7 +145,7 @@ export default [
    "not old as"
   ],
   "key": 0,
-  "why": "Not as old as = less old than. The base adjective goes between as and as.",
+  "why": "40 against 45: not as old as.",
   "slots": {
    "who": [
     "father",
@@ -176,7 +176,7 @@ export default [
    "not as interesting as"
   ],
   "key": 3,
-  "why": "Not as interesting as = less interesting than. The base adjective goes between as and as.",
+  "why": "\"I fell asleep\": not as interesting as.",
   "slots": {
    "thing": [
     "book",
@@ -208,7 +208,7 @@ export default [
    "not as warmer as"
   ],
   "key": 2,
-  "why": "Not as warm as = less warm than. The base adjective goes between as and as.",
+  "why": "\"only 10 degrees\": colder, so not as warm as.",
   "slots": {
    "city": [
     "Samarkand",
@@ -240,7 +240,7 @@ export default [
    "not as busy than"
   ],
   "key": 1,
-  "why": "Not as busy as = less busy than. The base adjective goes between as and as.",
+  "why": "Weekdays against Sundays: not as busy as.",
   "slots": {
    "day": [
     "Mondays",
@@ -272,7 +272,7 @@ export default [
    "not tall as"
   ],
   "key": 0,
-  "why": "Not as tall as = less tall than. The base adjective goes between as and as.",
+  "why": "1.50 against 1.70 m: not as tall as.",
   "slots": {
    "sib": [
     "sister",
@@ -304,7 +304,7 @@ export default [
    "not as popular as"
   ],
   "key": 3,
-  "why": "Not as popular as = less popular than. The base adjective goes between as and as.",
+  "why": "Fewer people play it: not as popular as.",
   "slots": {
    "place": [
     "school",
@@ -336,7 +336,7 @@ export default [
    "not as better as"
   ],
   "key": 2,
-  "why": "Not as good as = less good than. The base adjective goes between as and as.",
+  "why": "\"He lived in … for a year\": not as good as.",
   "slots": {
    "city": [
     "London",
@@ -368,7 +368,7 @@ export default [
    "not as comfortable than"
   ],
   "key": 1,
-  "why": "Not as comfortable as = less comfortable than. The base adjective goes between as and as.",
+  "why": "\"I don't like it\": not as comfortable as.",
   "slots": {
    "seat": [
     "sofa",
@@ -400,7 +400,7 @@ export default [
    "not long as"
   ],
   "key": 0,
-  "why": "Not as long as = less long than. The base adjective goes between as and as.",
+  "why": "\"It's quicker\": shorter, so not as long as.",
   "slots": {
    "place": [
     "park",
@@ -432,7 +432,7 @@ export default [
    "not as cold as"
   ],
   "key": 3,
-  "why": "Not as cold as = less cold than. The base adjective goes between as and as.",
+  "why": "Milder than Moscow: not as cold as.",
   "slots": {
    "city": [
     "Tashkent",
@@ -464,7 +464,7 @@ export default [
    "mine is heavier"
   ],
   "key": 2,
-  "why": "Not as … as means less: the other one has more of it.",
+  "why": "Turn it round: not as heavy as → yours is heavier.",
   "slots": {
    "thing": [
     "bag",
@@ -496,7 +496,7 @@ export default [
    "they were equally good"
   ],
   "key": 1,
-  "why": "Not as … as means less: the other one has more of it.",
+  "why": "Turn it round: not as good as → the book was better.",
   "slots": {
    "film": [
     "film",
@@ -528,7 +528,7 @@ export default [
    "both are very slow"
   ],
   "key": 0,
-  "why": "Not as … as means less: the other one has more of it.",
+  "why": "Turn it round: not as fast as → the train is faster.",
   "slots": {
    "transport": [
     "bus",
@@ -560,12 +560,13 @@ export default [
    "I am taller"
   ],
   "key": 3,
-  "why": "Not as … as means less: the other one has more of it.",
+  "why": "Turn it round: not as tall as → I am taller.",
   "slots": {
    "sib": [
     "sister",
     "cousin",
-    "niece"
+    "niece",
+    "nephew"
    ],
    "name": [
     "Malika",
@@ -591,7 +592,7 @@ export default [
    "this place is cheaper"
   ],
   "key": 2,
-  "why": "Not as … as means less: the other one has more of it.",
+  "why": "Turn it round: not as cheap as → the bazaar is cheaper.",
   "slots": {
    "shop": [
     "shop",
@@ -623,7 +624,7 @@ export default [
    "it is equally hot"
   ],
   "key": 1,
-  "why": "Not as … as means less: the other one has more of it.",
+  "why": "Turn it round: not as hot as → it was hotter before.",
   "slots": {
    "when": [
     "yesterday",
@@ -653,7 +654,7 @@ export default [
   "acceptable": [
    "not so cheap as"
   ],
-  "why": "Not as cheap as = less cheap than. The base adjective goes between as and as.",
+  "why": "not as + adjective + as: not as cheap as.",
   "slots": {
    "shop": [
     "shop",
@@ -683,7 +684,7 @@ export default [
   "acceptable": [
    "not so fast as"
   ],
-  "why": "Not as fast as = less fast than. The base adjective goes between as and as.",
+  "why": "The old one is slower: not as fast as.",
   "slots": {
    "device": [
     "phone",
@@ -713,7 +714,7 @@ export default [
   "acceptable": [
    "not so big as"
   ],
-  "why": "Not as big as = less big than. The base adjective goes between as and as.",
+  "why": "A village is smaller: not as big as.",
   "slots": {
    "city": [
     "Tashkent",
@@ -743,7 +744,7 @@ export default [
   "acceptable": [
    "not so easy as"
   ],
-  "why": "Not as easy as = less easy than. The base adjective goes between as and as.",
+  "why": "not as + base adjective + as, never easier: not as easy as.",
   "slots": {
    "lang": [
     "English",
@@ -773,7 +774,7 @@ export default [
   "acceptable": [
    "not so warm as"
   ],
-  "why": "Not as warm as = less warm than. The base adjective goes between as and as.",
+  "why": "Colder in winter: not as warm as.",
   "slots": {
    "room": [
     "bedroom",
@@ -803,7 +804,7 @@ export default [
   "acceptable": [
    "not so old as"
   ],
-  "why": "Not as old as = less old than. The base adjective goes between as and as.",
+  "why": "Younger: not as old as.",
   "slots": {
    "who": [
     "mother",
@@ -833,7 +834,7 @@ export default [
   "acceptable": [
    "not so expensive as"
   ],
-  "why": "Not as expensive as = less expensive than. The base adjective goes between as and as.",
+  "why": "Cheaper: not as expensive as.",
   "slots": {
    "thing": [
     "dress",
@@ -863,7 +864,7 @@ export default [
   "acceptable": [
    "not so quiet as"
   ],
-  "why": "Not as quiet as = less quiet than. The base adjective goes between as and as.",
+  "why": "\"There's a … next to it\": not as quiet as.",
   "slots": {
    "place": [
     "school",
@@ -893,7 +894,7 @@ export default [
   "acceptable": [
    "not so strong as"
   ],
-  "why": "Not as strong as = less strong than. The base adjective goes between as and as.",
+  "why": "\"He goes to the gym\": not as strong as.",
   "slots": {
    "day": [
     "day",
@@ -923,7 +924,7 @@ export default [
   "acceptable": [
    "not so interesting as"
   ],
-  "why": "Not as interesting as = less interesting than. The base adjective goes between as and as.",
+  "why": "Less interesting: not as interesting as.",
   "slots": {
    "part": [
     "half",
@@ -953,7 +954,7 @@ export default [
   "acceptable": [
    "not so heavy as"
   ],
-  "why": "Not as heavy as = less heavy than. The base adjective goes between as and as.",
+  "why": "\"Can I carry yours?\": not as heavy as.",
   "slots": {
    "bag": [
     "bag",
@@ -983,7 +984,7 @@ export default [
   "acceptable": [
    "not so popular as"
   ],
-  "why": "Not as popular as = less popular than. The base adjective goes between as and as.",
+  "why": "Fewer fans: not as popular as.",
   "slots": {
    "city": [
     "our town",
@@ -1013,7 +1014,7 @@ export default [
   "acceptable": [
    "not so tall as"
   ],
-  "why": "Not as tall as = less tall than. The base adjective goes between as and as.",
+  "why": "\"but she plays … better\": not as tall as.",
   "slots": {
    "name": [
     "Madina",
@@ -1043,7 +1044,7 @@ export default [
   "acceptable": [
    "not so long as"
   ],
-  "why": "Not as long as = less long than. The base adjective goes between as and as.",
+  "why": "Shorter: not as long as.",
   "slots": {
    "holiday": [
     "winter holiday",
@@ -1073,7 +1074,7 @@ export default [
   "acceptable": [
    "not so hot as"
   ],
-  "why": "Not as hot as = less hot than. The base adjective goes between as and as.",
+  "why": "Cooler: not as hot as.",
   "slots": {
    "month": [
     "July",
@@ -1102,7 +1103,7 @@ export default [
   "acceptable": [
    "not so comfortable as"
   ],
-  "why": "Not as comfortable as = less comfortable than. The base adjective goes between as and as.",
+  "why": "Less comfortable: not as comfortable as.",
   "slots": {
    "transport": [
     "bus",
@@ -1132,7 +1133,7 @@ export default [
   "acceptable": [
    "not so good as"
   ],
-  "why": "Not as good as = less good than. The base adjective goes between as and as.",
+  "why": "not as + good + as, never better: not as good as.",
   "slots": {
    "skill": [
     "English",
@@ -1162,7 +1163,7 @@ export default [
   "acceptable": [
    "not so near as"
   ],
-  "why": "Not as near as = less near than. The base adjective goes between as and as.",
+  "why": "\"We should take the metro\": not as near as.",
   "slots": {
    "name": [
     "Malika",
@@ -1192,7 +1193,7 @@ export default [
   "acceptable": [
    "not so dangerous as"
   ],
-  "why": "Not as dangerous as = less dangerous than. The base adjective goes between as and as.",
+  "why": "Safer: not as dangerous as.",
   "slots": {
    "place": [
     "park",
@@ -1222,7 +1223,7 @@ export default [
   "acceptable": [
    "not so busy as"
   ],
-  "why": "Not as busy as = less busy than. The base adjective goes between as and as.",
+  "why": "Quieter roads: not as busy as.",
   "slots": {
    "day": [
     "Sundays",
@@ -1253,7 +1254,7 @@ export default [
   "acceptable": [
    "not so cheap as"
   ],
-  "why": "Not as cheap as = less cheap than. The base adjective goes between as and as.",
+  "why": "cheaper than → the other one is not as cheap as.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1284,7 +1285,7 @@ export default [
   "acceptable": [
    "not so tall as"
   ],
-  "why": "Not as tall as = less tall than. The base adjective goes between as and as.",
+  "why": "taller than → I'm not as tall as.",
   "slots": {
    "who": [
     "brother",
@@ -1315,7 +1316,7 @@ export default [
   "acceptable": [
    "not so interesting as"
   ],
-  "why": "Not as interesting as = less interesting than. The base adjective goes between as and as.",
+  "why": "more interesting than → not as interesting as.",
   "slots": {
    "book": [
     "book",
@@ -1346,7 +1347,7 @@ export default [
   "acceptable": [
    "not so big as"
   ],
-  "why": "Not as big as = less big than. The base adjective goes between as and as.",
+  "why": "bigger than → not as big as.",
   "slots": {
    "city": [
     "Tashkent",
@@ -1377,7 +1378,7 @@ export default [
   "acceptable": [
    "not so comfortable as"
   ],
-  "why": "Not as comfortable as = less comfortable than. The base adjective goes between as and as.",
+  "why": "more comfortable than → not as comfortable as.",
   "slots": {
    "seat": [
     "sofa",
@@ -1408,7 +1409,7 @@ export default [
   "acceptable": [
    "not so fast as"
   ],
-  "why": "Not as fast as = less fast than. The base adjective goes between as and as.",
+  "why": "Five hours against two: not as fast as.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1439,7 +1440,7 @@ export default [
   "acceptable": [
    "not so expensive as"
   ],
-  "why": "Not as expensive as = less expensive than. The base adjective goes between as and as.",
+  "why": "200,000 against 600,000: not as expensive as.",
   "slots": {
    "thing": [
     "phone",
@@ -1470,7 +1471,7 @@ export default [
   "acceptable": [
    "not so old as"
   ],
-  "why": "Not as old as = less old than. The base adjective goes between as and as.",
+  "why": "70 against 75: not as old as.",
   "slots": {
    "who": [
     "grandmother",
@@ -1501,7 +1502,7 @@ export default [
   "acceptable": [
    "not so hot as"
   ],
-  "why": "Not as hot as = less hot than. The base adjective goes between as and as.",
+  "why": "25 against 35 degrees: not as hot as.",
   "slots": {
    "city": [
     "Tashkent",
@@ -1532,7 +1533,7 @@ export default [
   "acceptable": [
    "not so difficult as"
   ],
-  "why": "Not as difficult as = less difficult than. The base adjective goes between as and as.",
+  "why": "Hard against easy: not as difficult as.",
   "slots": {
    "test": [
     "test",
@@ -1563,7 +1564,7 @@ export default [
   "acceptable": [
    "not so fast as"
   ],
-  "why": "Not as fast as = less fast than. The base adjective goes between as and as.",
+  "why": "After as, the base form, not faster: not as fast as.",
   "slots": {
    "device": [
     "phone",
@@ -1594,7 +1595,7 @@ export default [
   "acceptable": [
    "not so busy as"
   ],
-  "why": "Not as busy as = less busy than. The base adjective goes between as and as.",
+  "why": "as … as, not as … than: not as busy as.",
   "slots": {
    "place": [
     "shop",
@@ -1625,7 +1626,7 @@ export default [
   "acceptable": [
    "not so big as"
   ],
-  "why": "Not as big as = less big than. The base adjective goes between as and as.",
+  "why": "The first as is missing: not as big as.",
   "slots": {
    "home": [
     "flat",
@@ -1656,7 +1657,7 @@ export default [
   "acceptable": [
    "not so expensive as"
   ],
-  "why": "Not as expensive as = less expensive than. The base adjective goes between as and as.",
+  "why": "No more inside as … as: not as expensive as.",
   "slots": {
    "thing": [
     "bag",
@@ -1687,7 +1688,7 @@ export default [
   "acceptable": [
    "not so good as"
   ],
-  "why": "Not as good as = less good than. The base adjective goes between as and as.",
+  "why": "Use as … as, not so … than: not as good as.",
   "slots": {
    "film": [
     "film",
