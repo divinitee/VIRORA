@@ -132,5 +132,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/modals.obligation.modal-passive.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "Visitors do the showing: active: must show.",
+   "Students do the turning off: active: must turn.",
+   "You do the washing: active: must wash.",
+   "Drivers do the wearing: active: must wear.",
+   "Passengers do the checking: active: must check.",
+   "Children do the following: active: must follow.",
+   "Workers do the wearing: active: must wear.",
+   "Guests do the leaving: active: must leave.",
+   "You fill in the form: active: must complete.",
+   "Players do the obeying: active: must obey.",
+   "The ID doesn't show itself: passive: must be shown.",
+   "Phones are turned off by people: must be turned.",
+   "Hands are washed by someone: must be washed.",
+   "Belts are worn by people: must be worn.",
+   "Bags are checked by staff: must be checked.",
+   "\"by everyone\": passive: must be followed.",
+   "Helmets are worn by workers: must be worn.",
+   "Rooms are checked by staff: must be checked.",
+   "A form is signed by a person: must be signed.",
+   "\"by all players\": passive: must be respected."
+  ],
+  "build": [
+   "Visitors act: must show.",
+   "The ID receives the action: must be shown.",
+   "Students act: must turn.",
+   "Phones receive the action: must be turned.",
+   "Drivers act: must wear.",
+   "Belts receive the action: must be worn (wear → worn).",
+   "Guests act: must leave.",
+   "Keys receive the action: must be left (leave → left).",
+   "You act: must pay.",
+   "The thing receives the action: must be paid.",
+   "Everybody acts: must follow.",
+   "\"by everybody\": passive: must be followed.",
+   "Workers act: must wear.",
+   "Homework receives the action: must be finished.",
+   "You act: must finish.",
+   "\"by a parent\": passive: must be signed.",
+   "A parent acts: must sign.",
+   "Food receives the action: must be kept (keep → kept).",
+   "You act: must keep.",
+   "Dogs are kept by owners: must be kept."
+  ],
+  "transform": [
+   "ID becomes the subject: must be shown.",
+   "Hands become the subject: must be washed.",
+   "Dogs become the subject: must be kept.",
+   "Phones become the subject: must be turned.",
+   "No doer named: the form must be signed.",
+   "Drivers become the subject again: active: must wear.",
+   "Students become the subject: active: must follow.",
+   "Passengers become the subject: active: must buy.",
+   "Guests become the subject: active: must leave.",
+   "Visitors become the subject: active: must show.",
+   "Visitors do it: no be: must show.",
+   "Belts can't wear: passive: must be worn.",
+   "be is missing: must be turned.",
+   "Students do it: no be: must follow.",
+   "Food can't keep itself: must be kept."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);
