@@ -160,5 +160,134 @@ for (const [st, m, acc] of AUDIT_ACC) {
   for (const it of hit) it.acceptable = [...new Set([...(it.acceptable || []), ...acc])];
 }
 const out = "content/grammar-practice/tenses.perfect.continuous-present-result.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "\"exhausted\" now from a long activity: has been studying.",
+   "\"out of breath\" now: I have been running.",
+   "\"eyes are red\" now, \"for an hour\": has been crying.",
+   "\"hands are dirty\" now from work: have been working.",
+   "\"The ground is wet\" now, \"all …\": has been raining.",
+   "\"tired … for … hours\": have been swimming.",
+   "\"smells of …\" now, \"since lunch\": has been cooking.",
+   "\"very dirty\" now from the game: have been playing.",
+   "\"paint on …\" now: she has been painting.",
+   "\"cold … for … minutes\": have been waiting.",
+   "\"legs hurt\" now from hard work: has been training.",
+   "\"looks great\" now after work \"all …\": have been cleaning.",
+   "\"The roads are white\" now, \"since …\": has been snowing.",
+   "\"feet hurt … for three hours\": have been dancing.",
+   "\"covered in oil\" now: he has been repairing.",
+   "\"throats hurt … all evening\": have been shouting.",
+   "Question about a red face now: Have you been running?",
+   "Question about red eyes now: Have you been crying?",
+   "Question about wet children now: Have they been playing?",
+   "Question about looking tired now: Has she been working?"
+  ],
+  "build": [
+   "\"tired because\" of a long activity: has been studying.",
+   "\"hot because\" of the activity: have been running.",
+   "\"Take your umbrella\" … \"all …\": has been raining.",
+   "\"tired … since early morning\": have been working.",
+   "\"for …\" up to now, \"Is she hungry?\": has been crying.",
+   "\"hungry because … all …\": have been playing.",
+   "\"since nine, so the house smells\": has been cooking.",
+   "\"for …\" up to now, \"Where is he?\": have been waiting.",
+   "\"paint on …\" now: has been painting.",
+   "\"hair is wet\" now: have been swimming.",
+   "\"The car is white\" now, \"since …\": has been snowing.",
+   "\"dirty because … all …\": have been cleaning.",
+   "\"very fit now … every day\": has been training.",
+   "\"feet hurt … since eight\": have been dancing.",
+   "\"hands are black\" now: has been fixing.",
+   "\"voices are gone … all …\": have been shouting.",
+   "\"eyes are tired … for hours\": has been reading.",
+   "\"tired because … all day\": have been walking.",
+   "\"tired … since lunch\": has been digging.",
+   "\"eyes are red … too long\": have been watching."
+  ],
+  "transform": [
+   "A result you can see now (red eyes): have been crying.",
+   "A result you can see now (wet): has been walking.",
+   "A result you can see now (a mess): have been cooking.",
+   "A result you feel now (tired): have been working.",
+   "A result you can see now (dirty clothes): has been playing.",
+   "has been + -ing: working, not work.",
+   "Plural subject + have been, not is been: have been waiting.",
+   "It + has been, not have been: has been raining.",
+   "I + have been, not has been: have been running.",
+   "has been, not has be: has been studying.",
+   "Question: Have + you + been running.",
+   "Question: Have + you + been crying.",
+   "Question: Have + they + been swimming.",
+   "Question: Has + he + been working.",
+   "Question: Has + your … + been cleaning."
+  ]
+ },
+ "slot": [
+  [
+   "build",
+   18,
+   "tired",
+   "feel",
+   [
+    "tired",
+    "exhausted",
+    "sleepy",
+    "worn out"
+   ]
+  ],
+  [
+   "build",
+   19,
+   "grandfather",
+   "who",
+   [
+    "grandfather",
+    "uncle",
+    "father",
+    "neighbour"
+   ]
+  ],
+  [
+   "choose",
+   20,
+   "",
+   "period",
+   [
+    "term",
+    "year"
+   ]
+  ],
+  [
+   "build",
+   12,
+   "",
+   "time",
+   [
+    "evening"
+   ]
+  ]
+ ]
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

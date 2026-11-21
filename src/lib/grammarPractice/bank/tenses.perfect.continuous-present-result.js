@@ -17,7 +17,7 @@ export default [
    "has be studying"
   ],
   "key": 0,
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: has been studying.",
+  "why": "\"exhausted\" now from a long activity: has been studying.",
   "slots": {
    "name": [
     "Sardor",
@@ -49,7 +49,7 @@ export default [
    "have been running"
   ],
   "key": 3,
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: have been running.",
+  "why": "\"out of breath\" now: I have been running.",
   "slots": {
    "transport": [
     "bus",
@@ -81,7 +81,7 @@ export default [
    "has been cry"
   ],
   "key": 2,
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: has been crying.",
+  "why": "\"eyes are red\" now, \"for an hour\": has been crying.",
   "slots": {
    "who": [
     "sister",
@@ -113,7 +113,7 @@ export default [
    "has been working"
   ],
   "key": 1,
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: have been working.",
+  "why": "\"hands are dirty\" now from work: have been working.",
   "slots": {
    "place": [
     "garden",
@@ -145,7 +145,7 @@ export default [
    "has be raining"
   ],
   "key": 0,
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: has been raining.",
+  "why": "\"The ground is wet\" now, \"all …\": has been raining.",
   "slots": {
    "time": [
     "night",
@@ -177,7 +177,7 @@ export default [
    "have been swimming"
   ],
   "key": 3,
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: have been swimming.",
+  "why": "\"tired … for … hours\": have been swimming.",
   "slots": {
    "water": [
     "sea",
@@ -209,7 +209,7 @@ export default [
    "has been cook"
   ],
   "key": 2,
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: has been cooking.",
+  "why": "\"smells of …\" now, \"since lunch\": has been cooking.",
   "slots": {
    "food": [
     "plov",
@@ -241,7 +241,7 @@ export default [
    "has been playing"
   ],
   "key": 1,
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: have been playing.",
+  "why": "\"very dirty\" now from the game: have been playing.",
   "slots": {
    "place": [
     "mud",
@@ -273,7 +273,7 @@ export default [
    "has be painting"
   ],
   "key": 0,
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: has been painting.",
+  "why": "\"paint on …\" now: she has been painting.",
   "slots": {
    "name": [
     "Madina",
@@ -305,7 +305,7 @@ export default [
    "have been waiting"
   ],
   "key": 3,
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: have been waiting.",
+  "why": "\"cold … for … minutes\": have been waiting.",
   "slots": {
    "transport": [
     "bus",
@@ -337,7 +337,7 @@ export default [
    "has been train"
   ],
   "key": 2,
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: has been training.",
+  "why": "\"legs hurt\" now from hard work: has been training.",
   "slots": {
    "who": [
     "brother",
@@ -369,7 +369,7 @@ export default [
    "has been cleaning"
   ],
   "key": 1,
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: have been cleaning.",
+  "why": "\"looks great\" now after work \"all …\": have been cleaning.",
   "slots": {
    "name": [
     "Dilnoza",
@@ -401,7 +401,7 @@ export default [
    "has be snowing"
   ],
   "key": 0,
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: has been snowing.",
+  "why": "\"The roads are white\" now, \"since …\": has been snowing.",
   "slots": {
    "time": [
     "six",
@@ -433,7 +433,7 @@ export default [
    "have been dancing"
   ],
   "key": 3,
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: have been dancing.",
+  "why": "\"feet hurt … for three hours\": have been dancing.",
   "slots": {
    "name": [
     "Dilnoza",
@@ -465,7 +465,7 @@ export default [
    "has been repair"
   ],
   "key": 2,
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: has been repairing.",
+  "why": "\"covered in oil\" now: he has been repairing.",
   "slots": {
    "who": [
     "father",
@@ -497,7 +497,7 @@ export default [
    "has been shouting"
   ],
   "key": 1,
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: have been shouting.",
+  "why": "\"throats hurt … all evening\": have been shouting.",
   "slots": {
    "event": [
     "match",
@@ -529,7 +529,7 @@ export default [
    "Have you running"
   ],
   "key": 0,
-  "why": "Question: Have + you + been + -ing.",
+  "why": "Question about a red face now: Have you been running?",
   "slots": {
    "name": [
     "Dilnoza",
@@ -561,7 +561,7 @@ export default [
    "Have you been crying"
   ],
   "key": 3,
-  "why": "Question: Have + you + been + -ing.",
+  "why": "Question about red eyes now: Have you been crying?",
   "slots": {
    "name": [
     "Dilnoza",
@@ -593,7 +593,7 @@ export default [
    "Did they been playing"
   ],
   "key": 2,
-  "why": "Question: Have + they + been + -ing.",
+  "why": "Question about wet children now: Have they been playing?",
   "slots": {
    "water": [
     "river",
@@ -625,7 +625,7 @@ export default [
    "Is she been working"
   ],
   "key": 1,
-  "why": "Question: Has + she + been + -ing.",
+  "why": "Question about looking tired now: Has she been working?",
   "slots": {
    "name": [
     "Madina",
@@ -635,7 +635,9 @@ export default [
    ],
    "period": [
     "week",
-    "month"
+    "month",
+    "term",
+    "year"
    ]
   }
  },
@@ -650,7 +652,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect continuous (has / have been + -ing).",
   "source": "{name} is tired because she ______ (study) for her {test}.",
   "key": "has been studying",
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: has been studying.",
+  "why": "\"tired because\" of a long activity: has been studying.",
   "slots": {
    "name": [
     "Madina",
@@ -677,7 +679,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect continuous (has / have been + -ing).",
   "source": "I'm hot because I ______ (run) in the {place}, {name}.",
   "key": "have been running",
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: have been running.",
+  "why": "\"hot because\" of the activity: have been running.",
   "slots": {
    "place": [
     "park",
@@ -704,7 +706,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect continuous (has / have been + -ing).",
   "source": "Take your umbrella, {name}. It ______ (rain) all {time}.",
   "key": "has been raining",
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: has been raining.",
+  "why": "\"Take your umbrella\" … \"all …\": has been raining.",
   "slots": {
    "time": [
     "morning",
@@ -731,7 +733,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect continuous (has / have been + -ing).",
   "source": "My {who} are tired. They ______ (work) in the {place} since early morning.",
   "key": "have been working",
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: have been working.",
+  "why": "\"tired … since early morning\": have been working.",
   "slots": {
    "who": [
     "parents",
@@ -758,7 +760,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect continuous (has / have been + -ing).",
   "source": "The baby ______ (cry) for {n}. Is she hungry, {name}?",
   "key": "has been crying",
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: has been crying.",
+  "why": "\"for …\" up to now, \"Is she hungry?\": has been crying.",
   "slots": {
    "n": [
     "an hour",
@@ -785,7 +787,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect continuous (has / have been + -ing).",
   "source": "The boys are hungry because they ______ (play) {sport} all {time}.",
   "key": "have been playing",
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: have been playing.",
+  "why": "\"hungry because … all …\": have been playing.",
   "slots": {
    "sport": [
     "football",
@@ -812,7 +814,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect continuous (has / have been + -ing).",
   "source": "{who} ______ (cook) {food} since nine, so the house smells wonderful.",
   "key": "has been cooking",
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: has been cooking.",
+  "why": "\"since nine, so the house smells\": has been cooking.",
   "slots": {
    "who": [
     "Grandma",
@@ -839,7 +841,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect continuous (has / have been + -ing).",
   "source": "We ______ (wait) for {name} for {n}. Where is he?",
   "key": "have been waiting",
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: have been waiting.",
+  "why": "\"for …\" up to now, \"Where is he?\": have been waiting.",
   "slots": {
    "name": [
     "Sardor",
@@ -866,7 +868,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect continuous (has / have been + -ing).",
   "source": "There is paint on my {who}'s {thing}. He ______ (paint) the fence.",
   "key": "has been painting",
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: has been painting.",
+  "why": "\"paint on …\" now: has been painting.",
   "slots": {
    "who": [
     "uncle",
@@ -893,7 +895,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect continuous (has / have been + -ing).",
   "source": "Our hair is wet because we ______ (swim) in the {water}, {name}.",
   "key": "have been swimming",
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: have been swimming.",
+  "why": "\"hair is wet\" now: have been swimming.",
   "slots": {
    "water": [
     "sea",
@@ -920,7 +922,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect continuous (has / have been + -ing).",
   "source": "The car is white, {name}. It ______ (snow) since {time}.",
   "key": "has been snowing",
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: has been snowing.",
+  "why": "\"The car is white\" now, \"since …\": has been snowing.",
   "slots": {
    "time": [
     "midnight",
@@ -947,7 +949,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect continuous (has / have been + -ing).",
   "source": "I'm dirty because I ______ (clean) the {room} all {time}.",
   "key": "have been cleaning",
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: have been cleaning.",
+  "why": "\"dirty because … all …\": have been cleaning.",
   "slots": {
    "room": [
     "garage",
@@ -958,7 +960,8 @@ export default [
    "time": [
     "morning",
     "afternoon",
-    "day"
+    "day",
+    "evening"
    ]
   }
  },
@@ -973,7 +976,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect continuous (has / have been + -ing).",
   "source": "{name} is very fit now. He ______ (train) every day for the {event}.",
   "key": "has been training",
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: has been training.",
+  "why": "\"very fit now … every day\": has been training.",
   "slots": {
    "name": [
     "Sardor",
@@ -1000,7 +1003,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect continuous (has / have been + -ing).",
   "source": "My feet hurt, {name}. I ______ (dance) at the {event} since eight.",
   "key": "have been dancing",
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: have been dancing.",
+  "why": "\"feet hurt … since eight\": have been dancing.",
   "slots": {
    "event": [
     "wedding",
@@ -1027,7 +1030,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect continuous (has / have been + -ing).",
   "source": "{who}'s hands are black. He ______ (fix) the {thing} in the garage.",
   "key": "has been fixing",
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: has been fixing.",
+  "why": "\"hands are black\" now: has been fixing.",
   "slots": {
    "who": [
     "Dad",
@@ -1054,7 +1057,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect continuous (has / have been + -ing).",
   "source": "Our voices are gone, {name}. We ______ (shout) for our team all {time}.",
   "key": "have been shouting",
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: have been shouting.",
+  "why": "\"voices are gone … all …\": have been shouting.",
   "slots": {
    "time": [
     "evening",
@@ -1081,7 +1084,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect continuous (has / have been + -ing).",
   "source": "{name}'s eyes are tired. She ______ (read) on her {device} for hours.",
   "key": "has been reading",
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: has been reading.",
+  "why": "\"eyes are tired … for hours\": has been reading.",
   "slots": {
    "name": [
     "Madina",
@@ -1106,15 +1109,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the present perfect continuous (has / have been + -ing).",
-  "source": "We are tired because we ______ (walk) around the {place} all day.",
+  "source": "We are {feel} because we ______ (walk) around the {place} all day.",
   "key": "have been walking",
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: have been walking.",
+  "why": "\"tired because … all day\": have been walking.",
   "slots": {
    "place": [
     "old city",
     "bazaar",
     "museum",
     "mountains"
+   ],
+   "feel": [
+    "tired",
+    "exhausted",
+    "sleepy",
+    "worn out"
    ]
   }
  },
@@ -1127,15 +1136,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the present perfect continuous (has / have been + -ing).",
-  "source": "My grandfather is tired. He ______ (dig) in the {place} since lunch.",
+  "source": "My {who} is tired. He ______ (dig) in the {place} since lunch.",
   "key": "has been digging",
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: has been digging.",
+  "why": "\"tired … since lunch\": has been digging.",
   "slots": {
    "place": [
     "garden",
     "yard",
     "field",
     "orchard"
+   ],
+   "who": [
+    "grandfather",
+    "uncle",
+    "father",
+    "neighbour"
    ]
   }
  },
@@ -1150,7 +1165,7 @@ export default [
   "instr": "Write the verb in brackets in the present perfect continuous (has / have been + -ing).",
   "source": "Your eyes are red, {name}. You ______ (watch) {thing} for too long.",
   "key": "have been watching",
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: have been watching.",
+  "why": "\"eyes are red … too long\": have been watching.",
   "slots": {
    "name": [
     "Dilnoza",
@@ -1178,7 +1193,7 @@ export default [
   "source": "Your eyes are red, {name}. You cried for {n}.",
   "hint": "Your eyes are red, {name}. You ______ for {n}.",
   "key": "have been crying",
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: have been crying.",
+  "why": "A result you can see now (red eyes): have been crying.",
   "slots": {
    "name": [
     "Dilnoza",
@@ -1206,7 +1221,7 @@ export default [
   "source": "{name} is wet. He walked in the {weather}.",
   "hint": "{name} is wet. He ______ in the {weather}.",
   "key": "has been walking",
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: has been walking.",
+  "why": "A result you can see now (wet): has been walking.",
   "slots": {
    "name": [
     "Sardor",
@@ -1234,7 +1249,7 @@ export default [
   "source": "The kitchen is a mess. My {who} cooked {food}.",
   "hint": "The kitchen is a mess. My {who} ______ {food}.",
   "key": "have been cooking",
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: have been cooking.",
+  "why": "A result you can see now (a mess): have been cooking.",
   "slots": {
    "who": [
     "brothers",
@@ -1265,7 +1280,7 @@ export default [
   "source": "I'm very tired, {name}. I worked in the {place} all day.",
   "hint": "I'm very tired, {name}. I ______ in the {place} all day.",
   "key": "have been working",
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: have been working.",
+  "why": "A result you feel now (tired): have been working.",
   "slots": {
    "name": [
     "Dilnoza",
@@ -1293,7 +1308,7 @@ export default [
   "source": "{name}'s clothes are dirty. She played in the {place}.",
   "hint": "{name}'s clothes are dirty. She ______ in the {place}.",
   "key": "has been playing",
-  "why": "A recent activity explains how things are now, so use the present perfect continuous: has been playing.",
+  "why": "A result you can see now (dirty clothes): has been playing.",
   "slots": {
    "name": [
     "Madina",
@@ -1321,7 +1336,7 @@ export default [
   "source": "She is tired because she has been work all {time}, {name}.",
   "hint": "She is tired because she ______ all {time}, {name}.",
   "key": "has been working",
-  "why": "After been, use the -ing form: has been working.",
+  "why": "has been + -ing: working, not work.",
   "slots": {
    "time": [
     "day",
@@ -1349,7 +1364,7 @@ export default [
   "source": "My {who} is been waiting for an hour, {name}.",
   "hint": "My {who} ______ for an hour, {name}.",
   "key": "have been waiting",
-  "why": "The subject is plural, so have been + -ing: have been waiting.",
+  "why": "Plural subject + have been, not is been: have been waiting.",
   "slots": {
    "who": [
     "parents",
@@ -1377,7 +1392,7 @@ export default [
   "source": "It have been raining since {time}, {name}.",
   "hint": "It ______ since {time}, {name}.",
   "key": "has been raining",
-  "why": "It takes has: has been raining.",
+  "why": "It + has been, not have been: has been raining.",
   "slots": {
    "time": [
     "six",
@@ -1405,7 +1420,7 @@ export default [
   "source": "I has been running in the {place}, so I'm out of breath, {name}.",
   "hint": "I ______ in the {place}, so I'm out of breath, {name}.",
   "key": "have been running",
-  "why": "I takes have: have been running.",
+  "why": "I + have been, not has been: have been running.",
   "slots": {
    "place": [
     "park",
@@ -1433,7 +1448,7 @@ export default [
   "source": "{name} has be studying for the {test}.",
   "hint": "{name} ______ for the {test}.",
   "key": "has been studying",
-  "why": "Has needs been, not be: has been studying.",
+  "why": "has been, not has be: has been studying.",
   "slots": {
    "name": [
     "Dilnoza",
@@ -1464,7 +1479,7 @@ export default [
    "Have",
    "been running"
   ],
-  "why": "Question: Have + you + been + -ing.",
+  "why": "Question: Have + you + been running.",
   "slots": {
    "name": [
     "Sardor",
@@ -1495,7 +1510,7 @@ export default [
    "Have",
    "been crying"
   ],
-  "why": "Question: Have + you + been + -ing.",
+  "why": "Question: Have + you + been crying.",
   "slots": {
    "name": [
     "Madina",
@@ -1526,7 +1541,7 @@ export default [
    "Have",
    "been swimming"
   ],
-  "why": "Question: Have + they + been + -ing.",
+  "why": "Question: Have + they + been swimming.",
   "slots": {
    "water": [
     "river",
@@ -1557,7 +1572,7 @@ export default [
    "Has",
    "been working"
   ],
-  "why": "Question: Has + he + been + -ing.",
+  "why": "Question: Has + he + been working.",
   "slots": {
    "who": [
     "brother",
@@ -1588,7 +1603,7 @@ export default [
    "Has",
    "been cleaning"
   ],
-  "why": "Question: Has + your … + been + -ing.",
+  "why": "Question: Has + your … + been cleaning.",
   "slots": {
    "who": [
     "sister",
