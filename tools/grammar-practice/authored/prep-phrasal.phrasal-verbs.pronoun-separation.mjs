@@ -158,7 +158,7 @@ const VARIETY = {
    "",
    "\"These …\" → them, inside: throw them away.",
    "\"my new …\" → it, inside: write it down.",
-   "\"the …\" (a form) → it, inside: fill it in.",
+   "\"the …\" (a paper) → it, inside: fill it in.",
    "",
    "\"Your toys\" → them, inside: Put them away.",
    "",

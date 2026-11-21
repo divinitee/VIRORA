@@ -42,7 +42,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 10. Here is the **paper**. Please ______ and give it to the nurse, **Gulnora**.  
    options: fill in it · fill in it in · fill it in it · ✔ fill it in  
-   why: "the …" (a form) → it, inside: fill it in.
+   why: "the …" (a paper) → it, inside: fill it in.
 
 11. Your **uncle** phoned while you were out. Can you ______ later, **Malika**?  
    options: call back he · call him back him · ✔ call him back · call back him  

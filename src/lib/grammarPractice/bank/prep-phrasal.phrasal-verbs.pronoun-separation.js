@@ -305,7 +305,7 @@ export default [
    "fill it in"
   ],
   "key": 3,
-  "why": "\"the …\" (a form) → it, inside: fill it in.",
+  "why": "\"the …\" (a paper) → it, inside: fill it in.",
   "slots": {
    "doc": [
     "form",
