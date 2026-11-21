@@ -43,7 +43,7 @@ const A = ["where", "which", "who", "what"];
 /* ---------------- choose: 20 mcq ---------------- */
 const CHOOSE_A = [
   ["That is the restaurant ______ we had dinner {when}, {name}.", { when: ["last night", "on Friday", "for my birthday", "last week"], name: NAME }],
-  ["This is the house ______ my grandparents live, {name}. It's near the {place}.", { name: NAME, place: ["river", "park", "mosque", "school"] }],
+  ["This is the house ______ my grandparents live, {name}. It's near the {place}.", { name: NAME, place: ["river", "park", "library", "school"] }],
   ["{city} is the city ______ I was born, {name}.", { city: CITY, name: NAME }],
   ["Do you know a shop ______ I can buy cheap {thing}, {name}?", { thing: ["shoes", "books", "phones", "toys"], name: NAME }],
   ["The park ______ we play football is near the {place}, {name}.", { place: ["school", "river", "bazaar", "station"], name: NAME }],
@@ -77,14 +77,14 @@ const CHOOSE = [
 const INSTR_B = "Write where or which.";
 const BUILD = [
   // where (12)
-  ["where", "This is the house ______ I grew up, {name}. It's near the {place}.", { name: NAME, place: ["river", "park", "mosque", "school"] }],
+  ["where", "This is the house ______ I grew up, {name}. It's near the {place}.", { name: NAME, place: ["river", "park", "library", "school"] }],
   ["where", "{city} is the city ______ my parents met, {name}.", { city: CITY, name: NAME }],
   ["where", "Is there a shop near here ______ I can buy {thing}, {name}?", { thing: ["bread", "milk", "stamps", "batteries"], name: NAME }],
   ["where", "The café ______ we had lunch {when} was very busy, {name}.", { when: ["today", "yesterday", "on Sunday", "last week"], name: NAME }],
   ["where", "This is the room ______ my brother sleeps, {name}. Be quiet in the {time}.", { name: NAME, time: ["morning", "afternoon", "evening", "night"] }],
   ["where", "The park ______ we run every {day} is very big, {name}.", { day: ["morning", "evening", "Sunday", "weekend"], name: NAME }],
   ["where", "I visited the school ______ my dad studied, {name}. It's in {city}.", { name: NAME, city: CITY }],
-  ["where", "The village ______ my grandma lives has a small {place}, {name}.", { place: ["shop", "school", "bakery", "mosque"], name: NAME }],
+  ["where", "The village ______ my grandma lives has a small {place}, {name}.", { place: ["shop", "school", "bakery", "café"], name: NAME }],
   ["where", "This is the beach ______ we swam {when}, {name}.", { when: ["last summer", "every day", "as children", "two years ago"], name: NAME }],
   ["where", "The office ______ my mum works is on the {floor} floor, {name}.", { floor: ["second", "third", "fifth", "top"], name: NAME }],
   ["where", "That's the stadium ______ the big match is {when}, {name}.", { when: ["on Saturday", "tomorrow", "next week", "tonight"], name: NAME }],

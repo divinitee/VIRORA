@@ -470,7 +470,7 @@ export default [
    "place": [
     "river",
     "school",
-    "mosque",
+    "library",
     "park"
    ],
    "animal": [
@@ -1176,7 +1176,7 @@ export default [
    "place": [
     "town",
     "streets",
-    "mosques",
+    "museums",
     "bazaar"
    ]
   }

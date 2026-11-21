@@ -339,7 +339,7 @@
   "slots": {
    "sport": [
     "football",
-    "boxing",
+    "cycling",
     "running",
     "swimming"
    ],
@@ -1453,7 +1453,7 @@
    "sport2": [
     "tennis",
     "chess",
-    "boxing",
+    "badminton",
     "swimming"
    ]
   }

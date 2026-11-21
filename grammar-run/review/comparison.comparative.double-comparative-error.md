@@ -172,7 +172,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: The comparative of bad is worse. It is already a comparative, so do not add more or -er.
 
 18. _Write the comparative of the word in brackets. Use one mark only: -er or more, never both._  
-   Football is ______ ______ (popular) than **boxing** in our **street**.  
+   Football is ______ ______ (popular) than **basketball** in our **street**.  
    key: more + popular  
    why: Popular is a long adjective, so the comparative is more popular. Do not add -er as well.
 

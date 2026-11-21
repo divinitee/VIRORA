@@ -30,7 +30,7 @@ const CHOOSE = [
   ["information", "The woman at the {place} gave us ______ about the tour of {city}.", { place: ["hotel", "station", "museum", "tourist office"], city: CITY }],
   ["information", "I found ______ about the {thing} on the college website, {name}.", { thing: ["exam", "course", "teachers", "timetable"], name: NAME }],
   ["information", "{name} needs ______ for the {subject} project.", { name: NAME, subject: ["history", "science", "geography", "English"] }],
-  ["information", "Our guide in {city} told us ______ about the {thing}.", { city: CITY, thing: ["old mosque", "market", "museum", "city walls"] }],
+  ["information", "Our guide in {city} told us ______ about the {thing}.", { city: CITY, thing: ["old palace", "market", "museum", "city walls"] }],
   ["information", "The {person} sent me ______ about the trip by {how}.", { person: ["teacher", "school", "travel agent", "coach"], how: ["email", "message", "phone", "post"] }],
   ["information", "There is ______ about the {event} on the wall in the {place}.", { event: ["concert", "exam", "trip", "match"], place: ["hall", "classroom", "library", "corridor"] }],
   ["news", "I have ______ for you, {name}! It's about {topic}.", { name: NAME, topic: ["the trip", "the exam", "our team", "my new job"] }],
@@ -93,7 +93,7 @@ const TRANSFORM = [
   [T_S, "My teacher has many knowledges about {subject}, {name}.", "My teacher has a lot of ______ about {subject}, {name}.", "knowledge", "Knowledge is uncountable, so it never takes -s.", { subject: ["history", "science", "music", "computers"], name: NAME }],
   [T_CH, "We have three suitcases for the trip to {city}, {name}.", "We have ______ luggage for the trip to {city}, {name}.", "some", "Suitcase is countable, but luggage is uncountable, so use some luggage.", { city: CITY, name: NAME }],
   [T_CH, "The gym has new balls and nets, {name}.", "The gym has ______ new equipment, {name}.", "some", "Balls and nets are countable, but equipment is uncountable, so use some.", { name: NAME }],
-  [T_CH, "I have two facts about the {thing} in {city}.", "I have ______ information about the {thing} in {city}.", "some", "Fact is countable, but information is uncountable, so use some.", { thing: ["museum", "old town", "market", "mosque"], city: CITY }],
+  [T_CH, "I have two facts about the {thing} in {city}.", "I have ______ information about the {thing} in {city}.", "some", "Fact is countable, but information is uncountable, so use some.", { thing: ["museum", "old town", "market", "palace"], city: CITY }],
   [T_CH, "{name} has two tasks for the {event}.", "{name} has ______ work for the {event}.", "some", "Task is countable, but work (meaning things to do) is uncountable, so use some.", { name: NAME, event: ["meeting", "party", "trip", "exam"] }],
   [T_CH, "I have two messages from {city}, {name}.", "I have ______ news from {city}, {name}.", "some", "Message is countable, but news is uncountable, so use some.", { city: CITY, name: NAME }],
 ].map(([instr, source, hint, key, why, slots]) => ({ ...BASE, stage: "transform", format: "rewrite", instr, source, hint, key, why, slots }));

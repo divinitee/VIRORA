@@ -1376,7 +1376,7 @@ export default [
    "place": [
     "bank",
     "school",
-    "big mosque",
+    "big hotel",
     "petrol station"
    ],
    "dir": [

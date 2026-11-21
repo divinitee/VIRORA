@@ -58,7 +58,7 @@
    "place": [
     "river",
     "park",
-    "mosque",
+    "library",
     "school"
    ]
   }
@@ -661,7 +661,7 @@
    "place": [
     "river",
     "park",
-    "mosque",
+    "library",
     "school"
    ]
   }
@@ -845,7 +845,7 @@
     "shop",
     "school",
     "bakery",
-    "mosque"
+    "café"
    ],
    "name": [
     "Aziz",

@@ -122,7 +122,7 @@ export default [
     "Termez"
    ],
    "thing": [
-    "old mosque",
+    "old palace",
     "market",
     "museum",
     "city walls"
@@ -1487,7 +1487,7 @@ export default [
     "museum",
     "old town",
     "market",
-    "mosque"
+    "palace"
    ],
    "city": [
     "Samarkand",

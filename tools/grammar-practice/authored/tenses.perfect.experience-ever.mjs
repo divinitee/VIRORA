@@ -78,7 +78,7 @@ const BUILD = [
   ["Has", "eaten", "______ your sister ever ______ (eat) {food} at a {place}?",
     { food: ["sushi", "pizza", "Korean food", "fish soup"], place: ["café", "restaurant", "party", "friend's house"] }],
   ["Have", "seen", "______ your parents ever ______ (see) the {thing} in {city}?",
-    { thing: ["sea", "snow", "old city walls", "big mosque"], city: ["Istanbul", "Khiva", "Bukhara", "Samarkand"] }],
+    { thing: ["sea", "snow", "old city walls", "old palace"], city: ["Istanbul", "Khiva", "Bukhara", "Samarkand"] }],
   ["Has", "played", "______ Bobur ever ______ (play) {sport} for the {team}?",
     { sport: ["football", "basketball", "volleyball", "chess"], team: ["school team", "city team", "college team", "club"] }],
   ["Has", "tried", "______ your uncle ever ______ (try) {food} from {country}?",

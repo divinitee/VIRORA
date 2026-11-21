@@ -1120,7 +1120,7 @@ export default [
     "tennis",
     "chess",
     "volleyball",
-    "boxing"
+    "basketball"
    ],
    "place": [
     "school",

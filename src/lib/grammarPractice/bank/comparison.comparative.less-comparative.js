@@ -341,7 +341,7 @@ export default [
   "slots": {
    "sport": [
     "football",
-    "boxing",
+    "cycling",
     "running",
     "swimming"
    ],
@@ -1455,7 +1455,7 @@ export default [
    "sport2": [
     "tennis",
     "chess",
-    "boxing",
+    "badminton",
     "swimming"
    ]
   }
