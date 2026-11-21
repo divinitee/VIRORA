@@ -63,6 +63,8 @@ const CHOOSE = [
 /* ---------------- build: 20 gap_fill ---------------- */
 const INSTR = "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.";
 const INSTR_T = "Report it later. Change the time word in brackets.";
+// Audit 21 Nov: two-gap time items use only time words with one answer (that night / that day),
+// because array keys cannot list "the following day" etc.
 // [instr, key, acceptable, why, source, slots] — no source prints would; time-word sources never print "the"
 const BUILD = [
   [INSTR, "would call", [], WHY, "Last week {m} said he ______ (will / call) me soon.", { m: M, x: [] }],
@@ -106,11 +108,11 @@ const TRANSFORM = [
   [FIX, "On Monday {m} said he would finish his {work} tomorrow.", "On Monday {m} said he would finish his {work} ______.", "the next day", { m: M, work: ["report", "essay", "project", "painting"] }],
   [FIX, "Last week {f} said she won't be late for the {event}.", "Last week {f} said she ______ be late for the {event}.", "wouldn't", { f: F, event: ["wedding", "meeting", "lesson", "match"] }],
   [FIX, "Last Friday {m} said he would phone me from {city} tonight.", "Last Friday {m} said he would phone me from {city} ______.", "that night", { m: M, city: ["Samarkand", "Bukhara", "Khiva", "Termez"] }],
-  [TIME, "'I'll come to the {event} tomorrow,' {m} said last week.", "Last week {m} said he ______ come to the {event} ______.", ["would", "the next day"], { m: M, event: ["party", "wedding", "match", "meeting"] }],
-  [TIME, "'We'll visit you in {city} next week,' my {who} said last month.", "Last month my {who} said they ______ visit me in {city} ______.", ["would", "the following week"], { who: ["parents", "friends", "cousins", "neighbours"], city: ["Samarkand", "Bukhara", "Khiva", "Termez"] }],
+  [TIME, "'I'll come to the {event} tonight,' {m} said last week.", "Last week {m} said he ______ come to the {event} ______.", ["would", "that night"], { m: M, event: ["party", "wedding", "match", "meeting"] }],
+  [TIME, "'We'll visit you in {city} today,' my {who} said on Monday.", "On Monday my {who} said they ______ visit me in {city} ______.", ["would", "that day"], { who: ["parents", "friends", "cousins", "neighbours"], city: ["Samarkand", "Bukhara", "Khiva", "Termez"] }],
   [TIME, "'I'll phone you from the {place} tonight,' {f} said on Friday.", "On Friday {f} said she ______ phone me from the {place} ______.", ["would", "that night"], { f: F, place: ["office", "station", "airport", "hotel"] }],
   [TIME, "'I'll pay you for the {thing} today,' {m} said on Monday.", "On Monday {m} said he ______ pay me for the {thing} ______.", ["would", "that day"], { m: M, thing: ["tickets", "food", "taxi", "book"] }],
-  [TIME, "'The {test} will be tomorrow,' the {who} said last week.", "Last week the {who} said the {test} ______ be ______.", ["would", "the next day"], { test: ["test", "exam", "match", "meeting"], who: ["teacher", "director", "coach", "manager"] }],
+  [TIME, "'The {test} will be tonight,' the {who} said last week.", "Last week the {who} said the {test} ______ be ______.", ["would", "that night"], { test: ["test", "exam", "match", "meeting"], who: ["teacher", "director", "coach", "manager"] }],
 ].map(([instr, source, hint, key, slots]) => {
   const s = {};
   for (const [n, f] of Object.entries(slots)) if ((source + hint).includes(`{${n}}`)) s[n] = f;
