@@ -7,7 +7,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Last week {m} said, 'I'll call you tomorrow.' He said he ______ call me the next day.",
+  "prompt": "Last week {m} said, 'I'll {verb} you tomorrow.' He said he ______ {verb} me the next day.",
   "options": [
    "would",
    "will",
@@ -15,13 +15,19 @@
    "will be"
   ],
   "key": 0,
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "'I'll' in a past report: will → would.",
   "slots": {
    "m": [
     "Aziz",
     "Timur",
     "Bekzod",
     "Rustam"
+   ],
+   "verb": [
+    "call",
+    "visit",
+    "text",
+    "help"
    ]
   }
  },
@@ -41,7 +47,7 @@
    "would"
   ],
   "key": 3,
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "'I'll bring' reported: would bring.",
   "slots": {
    "f": [
     "Olga",
@@ -73,7 +79,7 @@
    "will"
   ],
   "key": 2,
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "'will open' reported, and it already happened: would.",
   "slots": {
    "who": [
     "headteacher",
@@ -105,7 +111,7 @@
    "would to"
   ],
   "key": 1,
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "'I'll learn' reported last year: would.",
   "slots": {
    "m": [
     "Aziz",
@@ -129,7 +135,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Last week my {who} said, 'We'll help you move.' They said they ______ help me move.",
+  "prompt": "Last week my {who} said, 'We'll help you {task}.' They said they ______ help me {task}.",
   "options": [
    "would",
    "will",
@@ -137,13 +143,19 @@
    "will be"
   ],
   "key": 0,
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "'We'll help' reported: would.",
   "slots": {
    "who": [
     "friends",
     "cousins",
     "neighbours",
     "brothers"
+   ],
+   "task": [
+    "move",
+    "paint",
+    "clean",
+    "pack"
    ]
   }
  },
@@ -163,7 +175,7 @@
    "would"
   ],
   "key": 3,
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "'It will rain' reported: would.",
   "slots": {
    "f": [
     "Olga",
@@ -187,7 +199,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Last month the {who} said, 'Prices will go up.' He said prices ______ go up. They went up in June.",
+  "prompt": "Last month the {who} said, 'Prices will go up.' He said prices ______ go up. They went up in {month}.",
   "options": [
    "would to",
    "will be",
@@ -195,13 +207,19 @@
    "will"
   ],
   "key": 2,
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "'will go up' reported: would.",
   "slots": {
    "who": [
     "shopkeeper",
     "manager",
     "baker",
     "driver"
+   ],
+   "month": [
+    "June",
+    "July",
+    "March",
+    "April"
    ]
   }
  },
@@ -221,7 +239,7 @@
    "would to"
   ],
   "key": 1,
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "'I'll fix' reported: would.",
   "slots": {
    "m": [
     "Aziz",
@@ -253,7 +271,7 @@
    "didn't"
   ],
   "key": 0,
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "'I won't be late' reported: won't → wouldn't.",
   "slots": {
    "f": [
     "Olga",
@@ -285,7 +303,7 @@
    "wouldn't"
   ],
   "key": 3,
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "'I won't tell' reported: wouldn't.",
   "slots": {
    "m": [
     "Aziz",
@@ -309,7 +327,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Last month the {who} said, 'It won't take long.' She said it ______ take long.",
+  "prompt": "Last {period} the {who} said, 'It won't take long.' She said it ______ take long.",
   "options": [
    "wouldn't to",
    "didn't",
@@ -317,13 +335,19 @@
    "won't"
   ],
   "key": 2,
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "'It won't take long' reported: wouldn't.",
   "slots": {
    "who": [
     "doctor",
     "teacher",
     "mechanic",
     "nurse"
+   ],
+   "period": [
+    "month",
+    "week",
+    "year",
+    "summer"
    ]
   }
  },
@@ -343,7 +367,7 @@
    "wouldn't to"
   ],
   "key": 1,
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "'We won't sell' reported: wouldn't.",
   "slots": {
    "who": [
     "parents",
@@ -367,7 +391,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Last week {m} said, 'I'll come tomorrow.' He said he would come ______.",
+  "prompt": "Last week {m} said, 'I'll {verb} tomorrow.' He said he would {verb} ______.",
   "options": [
    "the next day",
    "tomorrow",
@@ -375,13 +399,19 @@
    "the day before"
   ],
   "key": 0,
-  "why": "Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.",
+  "why": "tomorrow, seen from later: the next day.",
   "slots": {
    "m": [
     "Aziz",
     "Timur",
     "Bekzod",
     "Rustam"
+   ],
+   "verb": [
+    "come",
+    "call",
+    "visit",
+    "help"
    ]
   }
  },
@@ -401,7 +431,7 @@
    "the next day"
   ],
   "key": 3,
-  "why": "Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.",
+  "why": "tomorrow in a past report: the next day.",
   "slots": {
    "f": [
     "Olga",
@@ -425,7 +455,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Last month {m} said, 'I'll visit you next week.' He said he would visit me ______.",
+  "prompt": "Last month {m} said, 'I'll {verb} you next week.' He said he would {verb} me ______.",
   "options": [
    "last week",
    "the week before",
@@ -433,13 +463,19 @@
    "next week"
   ],
   "key": 2,
-  "why": "Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.",
+  "why": "next week, seen from later: the following week.",
   "slots": {
    "m": [
     "Aziz",
     "Timur",
     "Bekzod",
     "Rustam"
+   ],
+   "verb": [
+    "visit",
+    "call",
+    "see",
+    "help"
    ]
   }
  },
@@ -459,7 +495,7 @@
    "last week"
   ],
   "key": 1,
-  "why": "Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.",
+  "why": "next week in a past report: the following week.",
   "slots": {
    "who": [
     "teacher",
@@ -483,7 +519,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Last Friday {f} said, 'I'll phone you tonight.' She said she would phone me ______.",
+  "prompt": "Last Friday {f} said, 'I'll {verb} you tonight.' She said she would {verb} me ______.",
   "options": [
    "that night",
    "tonight",
@@ -491,13 +527,19 @@
    "the night before"
   ],
   "key": 0,
-  "why": "Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.",
+  "why": "tonight, seen from later: that night.",
   "slots": {
    "f": [
     "Olga",
     "Lola",
     "Madina",
     "Sevara"
+   ],
+   "verb": [
+    "phone",
+    "text",
+    "call",
+    "email"
    ]
   }
  },
@@ -517,7 +559,7 @@
    "that night"
   ],
   "key": 3,
-  "why": "Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.",
+  "why": "tonight in a past report: that night.",
   "slots": {
    "m": [
     "Aziz",
@@ -549,7 +591,7 @@
    "today"
   ],
   "key": 2,
-  "why": "Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.",
+  "why": "today, seen from later: that day.",
   "slots": {
    "f": [
     "Olga",
@@ -573,7 +615,7 @@
   "pv": "2.5",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "On Monday {m} said, 'I'll pay you today.' He said he would pay me ______.",
+  "prompt": "On Monday {m} said, 'I'll {verb} you today.' He said he would {verb} me ______.",
   "options": [
    "the day after",
    "that day",
@@ -581,13 +623,19 @@
    "yesterday"
   ],
   "key": 1,
-  "why": "Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.",
+  "why": "today in a past report: that day.",
   "slots": {
    "m": [
     "Aziz",
     "Timur",
     "Bekzod",
     "Rustam"
+   ],
+   "verb": [
+    "pay",
+    "help",
+    "call",
+    "text"
    ]
   }
  },
@@ -600,15 +648,21 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
-  "source": "Last week {m} said he ______ (will / call) me soon.",
+  "source": "Last week {m} said he ______ (will / call) me {when}.",
   "key": "would call",
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "will call in a past report: would call.",
   "slots": {
    "m": [
     "Aziz",
     "Timur",
     "Bekzod",
     "Rustam"
+   ],
+   "when": [
+    "soon",
+    "later",
+    "that evening",
+    "after lunch"
    ]
   }
  },
@@ -623,7 +677,7 @@
   "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
   "source": "On Monday {f} said she ______ (will / bring) the {thing}.",
   "key": "would bring",
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "will bring in a past report: would bring.",
   "slots": {
    "f": [
     "Olga",
@@ -650,7 +704,7 @@
   "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
   "source": "Last year the {who} said the {place} ______ (will / open) in May. It opened in June.",
   "key": "would open",
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "will open, and it opened later: would open.",
   "slots": {
    "who": [
     "headteacher",
@@ -677,7 +731,7 @@
   "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
   "source": "Last year {m} said he ______ (will / learn) {lang}.",
   "key": "would learn",
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "will learn in a past report: would learn.",
   "slots": {
    "m": [
     "Aziz",
@@ -702,15 +756,21 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
-  "source": "Last week my {who} said they ______ (will / help) me move.",
+  "source": "Last week my {who} said they ______ (will / help) me {task}.",
   "key": "would help",
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "will help in a past report: would help.",
   "slots": {
    "who": [
     "friends",
     "cousins",
     "neighbours",
     "brothers"
+   ],
+   "task": [
+    "move",
+    "paint",
+    "clean",
+    "pack"
    ]
   }
  },
@@ -725,7 +785,7 @@
   "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
   "source": "Last month {f} said it ______ (will / rain) in {city} that weekend.",
   "key": "would rain",
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "will rain in a past report: would rain.",
   "slots": {
    "f": [
     "Olga",
@@ -750,15 +810,21 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
-  "source": "Last month the {who} said prices ______ (will / go) up. They went up in June.",
+  "source": "Last month the {who} said prices ______ (will / go) up. They went up in {month}.",
   "key": "would go",
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "will go up, and they did: would go.",
   "slots": {
    "who": [
     "shopkeeper",
     "manager",
     "baker",
     "driver"
+   ],
+   "month": [
+    "June",
+    "July",
+    "March",
+    "April"
    ]
   }
  },
@@ -773,7 +839,7 @@
   "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
   "source": "Last winter {m} said he ______ (will / fix) the {thing} soon.",
   "key": "would fix",
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "will fix in a past report: would fix.",
   "slots": {
    "m": [
     "Aziz",
@@ -800,7 +866,7 @@
   "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
   "source": "In June {f} said she ______ (will / meet) us at the {place}.",
   "key": "would meet",
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "will meet in a past report: would meet.",
   "slots": {
    "f": [
     "Olga",
@@ -827,7 +893,7 @@
   "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
   "source": "Before the match, {m} said {team} ______ (will / win).",
   "key": "would win",
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "will win, said before the match: would win.",
   "slots": {
    "m": [
     "Aziz",
@@ -854,7 +920,7 @@
   "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
   "source": "Last week {f} said she ______ (won't / be) late for the {event}.",
   "key": "wouldn't be",
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "won't be in a past report: wouldn't be.",
   "slots": {
    "f": [
     "Olga",
@@ -881,7 +947,7 @@
   "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
   "source": "On Sunday {m} said he ______ (won't / tell) anyone about the {thing}.",
   "key": "wouldn't tell",
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "won't tell in a past report: wouldn't tell.",
   "slots": {
    "m": [
     "Aziz",
@@ -906,15 +972,21 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
-  "source": "Last month the {who} said it ______ (won't / take) long.",
+  "source": "Last {period} the {who} said it ______ (won't / take) long.",
   "key": "wouldn't take",
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "won't take in a past report: wouldn't take.",
   "slots": {
    "who": [
     "doctor",
     "teacher",
     "mechanic",
     "nurse"
+   ],
+   "period": [
+    "month",
+    "week",
+    "year",
+    "summer"
    ]
   }
  },
@@ -929,7 +1001,7 @@
   "instr": "Report it later. Change will to would (won't to wouldn't) and use the verb in brackets.",
   "source": "Last year my {who} said they ______ (won't / sell) the {thing}. But they sold it this spring.",
   "key": "wouldn't sell",
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "won't sell, but they sold it: wouldn't sell.",
   "slots": {
    "who": [
     "parents",
@@ -954,18 +1026,24 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Report it later. Change the time word in brackets.",
-  "source": "Last week {m} said he would come ______ (tomorrow).",
+  "source": "Last week {m} said he would {verb} ______ (tomorrow).",
   "key": "the next day",
   "acceptable": [
    "the following day"
   ],
-  "why": "Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.",
+  "why": "tomorrow, told later: the next day.",
   "slots": {
    "m": [
     "Aziz",
     "Timur",
     "Bekzod",
     "Rustam"
+   ],
+   "verb": [
+    "come",
+    "call",
+    "visit",
+    "help"
    ]
   }
  },
@@ -983,7 +1061,7 @@
   "acceptable": [
    "the following day"
   ],
-  "why": "Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.",
+  "why": "tomorrow, reported on Monday: the next day.",
   "slots": {
    "f": [
     "Olga",
@@ -1008,18 +1086,24 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Report it later. Change the time word in brackets.",
-  "source": "Last month {m} said he would visit me ______ (next week).",
+  "source": "Last month {m} said he would {verb} me ______ (next week).",
   "key": "the following week",
   "acceptable": [
    "the next week"
   ],
-  "why": "Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.",
+  "why": "next week, told later: the following week.",
   "slots": {
    "m": [
     "Aziz",
     "Timur",
     "Bekzod",
     "Rustam"
+   ],
+   "verb": [
+    "visit",
+    "call",
+    "see",
+    "help"
    ]
   }
  },
@@ -1032,15 +1116,21 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Report it later. Change the time word in brackets.",
-  "source": "Last Friday {f} said she would phone me ______ (tonight).",
+  "source": "Last Friday {f} said she would {verb} me ______ (tonight).",
   "key": "that night",
-  "why": "Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.",
+  "why": "tonight, told later: that night.",
   "slots": {
    "f": [
     "Olga",
     "Lola",
     "Madina",
     "Sevara"
+   ],
+   "verb": [
+    "phone",
+    "text",
+    "call",
+    "email"
    ]
   }
  },
@@ -1055,7 +1145,7 @@
   "instr": "Report it later. Change the time word in brackets.",
   "source": "Last week {f} said she would finish her {work} ______ (today).",
   "key": "that day",
-  "why": "Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.",
+  "why": "today, told later: that day.",
   "slots": {
    "f": [
     "Olga",
@@ -1080,15 +1170,21 @@
   "stage": "build",
   "format": "gap_fill",
   "instr": "Report it later. Change the time word in brackets.",
-  "source": "On Monday {m} said he would pay me ______ (today).",
+  "source": "On Monday {m} said he would {verb} me ______ (today).",
   "key": "that day",
-  "why": "Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.",
+  "why": "today, reported on Monday: that day.",
   "slots": {
    "m": [
     "Aziz",
     "Timur",
     "Bekzod",
     "Rustam"
+   ],
+   "verb": [
+    "pay",
+    "help",
+    "call",
+    "text"
    ]
   }
  },
@@ -1104,7 +1200,7 @@
   "source": "'I'll help you with the {work},' {f} said last week.",
   "hint": "Last week {f} said that she ______ with the {work}.",
   "key": "would help me",
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "I'll help you → she would help me.",
   "slots": {
    "f": [
     "Olga",
@@ -1132,7 +1228,7 @@
   "source": "'I'll lend you my {thing},' {m} said last month.",
   "hint": "Last month {m} said that he ______ his {thing}.",
   "key": "would lend me",
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "I'll lend you → he would lend me.",
   "slots": {
    "m": [
     "Aziz",
@@ -1160,7 +1256,7 @@
   "source": "'We'll call you from {city},' my {who} said last week.",
   "hint": "Last week my {who} said that they ______ from {city}.",
   "key": "would call me",
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "We'll call you → they would call me.",
   "slots": {
    "who": [
     "parents",
@@ -1188,7 +1284,7 @@
   "source": "'I won't forget your {day},' {m} said last year.",
   "hint": "Last year {m} said that he ______ my {day}.",
   "key": "wouldn't forget",
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "I won't forget → he wouldn't forget.",
   "slots": {
    "m": [
     "Aziz",
@@ -1216,7 +1312,7 @@
   "source": "'I'll wait for you at the {place},' {f} said on Monday.",
   "hint": "On Monday {f} said that she ______ for me at the {place}.",
   "key": "would wait",
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "I'll wait → she would wait.",
   "slots": {
    "f": [
     "Olga",
@@ -1244,7 +1340,7 @@
   "source": "Last week {m} said he will call me from the {place} the next day.",
   "hint": "Last week {m} said he ______ call me from the {place} the next day.",
   "key": "would",
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "Past report: will → would.",
   "slots": {
    "m": [
     "Aziz",
@@ -1272,7 +1368,7 @@
   "source": "Last month {f} said she would visit us in {city} next week.",
   "hint": "Last month {f} said she would visit us in {city} ______.",
   "key": "the following week",
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "Past report: next week → the following week.",
   "slots": {
    "f": [
     "Olga",
@@ -1300,7 +1396,7 @@
   "source": "On Monday {m} said he would finish his {work} tomorrow.",
   "hint": "On Monday {m} said he would finish his {work} ______.",
   "key": "the next day",
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "Past report: tomorrow → the next day.",
   "slots": {
    "m": [
     "Aziz",
@@ -1328,7 +1424,7 @@
   "source": "Last week {f} said she won't be late for the {event}.",
   "hint": "Last week {f} said she ______ be late for the {event}.",
   "key": "wouldn't",
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "Past report: won't → wouldn't.",
   "slots": {
    "f": [
     "Olga",
@@ -1356,7 +1452,7 @@
   "source": "Last Friday {m} said he would phone me from {city} tonight.",
   "hint": "Last Friday {m} said he would phone me from {city} ______.",
   "key": "that night",
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "Past report: tonight → that night.",
   "slots": {
    "m": [
     "Aziz",
@@ -1387,7 +1483,7 @@
    "would",
    "that night"
   ],
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "I'll … tonight → would … that night.",
   "slots": {
    "m": [
     "Aziz",
@@ -1418,7 +1514,7 @@
    "would",
    "that day"
   ],
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "We'll … today → would … that day.",
   "slots": {
    "who": [
     "parents",
@@ -1449,7 +1545,7 @@
    "would",
    "that night"
   ],
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "I'll phone … tonight → would phone … that night.",
   "slots": {
    "f": [
     "Olga",
@@ -1480,7 +1576,7 @@
    "would",
    "that day"
   ],
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "I'll pay … today → would pay … that day.",
   "slots": {
    "m": [
     "Aziz",
@@ -1511,7 +1607,7 @@
    "would",
    "that night"
   ],
-  "why": "Reported later: will → would (won't → wouldn't), and tomorrow → the next day.",
+  "why": "will be tonight → would be that night.",
   "slots": {
    "test": [
     "test",
