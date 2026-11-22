@@ -183,7 +183,7 @@ export function brainSchema() {
   return {
     type: 'object',
     additionalProperties: false,
-    required: ['read', 'addressed_to_teacher', 'casual_swear', 'rude', 'reply', 'explanation_text', 'mistakes', 'correct_uses', 'level_estimate', 'vocabulary', 'end_lesson', 'summary', 'strengths', 'focus_next', 'lesson_focus', 'stage'],
+    required: ['read', 'addressed_to_teacher', 'casual_swear', 'rude', 'reply', 'explanation_text', 'mistakes', 'correct_uses', 'level_estimate', 'vocabulary', 'end_lesson', 'summary', 'strengths', 'focus_next', 'lesson_focus', 'stage', 'session'],
     properties: {
       // masterV0: think for one beat BEFORE speaking (never spoken). Keep it short.
       read: {
@@ -245,6 +245,16 @@ export function brainSchema() {
       focus_next: { type: 'array', items: { type: 'string' }, description: 'Only when end_lesson: up to 3 things to practise next time.' },
       lesson_focus: s('The ONE thing this lesson practises, a few words (e.g. "past simple irregular verbs"). Keep the same focus all lesson unless it is clearly done; empty only on the very first greeting if you do not know yet.'),
       stage: { type: 'string', enum: ['warm_up', 'notice', 'practice', 'free_talk', 'wrap_up'], description: 'Where the lesson is after this reply.' },
+      // 23 Nov (Tee): the student tells their situation first; the lesson fits it.
+      session: {
+        type: 'object', additionalProperties: false, required: ['minutes', 'place', 'energy'],
+        description: 'The student\'s situation as far as you know it (keep the values shown in SESSION unless they changed). minutes = how long they can talk today, 0 if unknown or "lots of time".',
+        properties: {
+          minutes: { type: 'number' },
+          place: { type: 'string', enum: ['unknown', 'quiet', 'noisy', 'outside'] },
+          energy: { type: 'string', enum: ['unknown', 'low', 'ok', 'high'] },
+        },
+      },
     },
   };
 }
@@ -375,6 +385,14 @@ ${DRIFT}
 - If the words are clearly NOT the student talking to you (another person speaking to them, "come eat!", a TV, a phone call, random noise): set addressed_to_teacher=false, report no mistakes, and reply with ONE short friendly line like "Sounds like someone needs you. Go ahead, I'll wait. Press Resume when you're back."
 - If it is unclear or very short, ask the student to say it again. Do not invent what they said.
 
+# SESSION FIT (the student's situation decides the lesson)
+Before the first lesson the app asks the student to tell you where they are, their energy and how much time they have. Fill "session" from what they say and adapt:
+- Little time (under 5 minutes, "waiting for the bus"): a compact lesson: one quick warm-up check + one tight practice round on the focus + a 1-line wrap-up. No long explanations.
+- Plenty of time, at home, quiet: the full lesson, thorough, all five stages, more free talk.
+- Noisy or outside: very short sentences, one thing at a time, and suggest the hold-to-talk button once.
+- Low energy: lighter: games, easy wins, less drilling, more warmth. High energy: challenge them.
+If they never say it, teach a normal lesson; ask again only if it matters.
+
 # LESSON SHAPE (a lesson with a spine, not an interview)
 The lesson has ONE focus. When the user message at LESSON START gives TODAY'S FOCUS, that is it (it was picked from their real mistakes across the app); otherwise pick one from STUDENT MEMORY or the warm-up. Five stages, roughly by the clock (the user message says where you should be):
 1. WARM-UP (~10% of the time): a little real chat + the one WARM-UP REVIEW check if given.
@@ -418,7 +436,7 @@ ${memory || 'No memory.'}
 # FIRST TURN
 If STUDENT MEMORY's last lesson says "ENDED EARLY FOR SWEARING" and was today or 1 day ago: your WHOLE first reply is ONLY the comeback check-in, then STOP and wait. No hello speech, no lesson plan, no focus, no task, nothing after the question. Tone: ${P.conduct.comeback.tone}. In the app-settings language (${settingsLang}), the gist of: "${P.conduct.comeback[settingsLang === 'Russian' ? 'ru' : settingsLang === 'English' ? 'en' : 'uz']}" (your own words are fine, keep it that short; informal). If the user message says they came back within MINUTES of you telling them to come back tomorrow, use your QUICK-RETURN version instead, the gist of: "${P.conduct.comeback.quick[settingsLang === 'Russian' ? 'ru' : settingsLang === 'English' ? 'en' : 'uz']}" (you noticed how fast they came back; a little guarded). Leave lesson_focus empty. On their answer: ${P.conduct.comeback.next}.
 ${supportLangText(level, uiLang)}
-When the user message says LESSON START: greet briefly in the way SUPPORT LANGUAGE says, say in ONE simple sentence what today is about (TODAY'S FOCUS if given, in plain words, no grammar jargon for A1-A2), and ask ONE easy warm-up question.${memory && !/FIRST LESSON/.test(memory) ? '' : ' Use the first minutes to estimate the level.'}`;
+When the user message says LESSON START: greet briefly in the way SUPPORT LANGUAGE says, say in ONE simple sentence what today is about (TODAY'S FOCUS if given, in plain words, no grammar jargon for A1-A2), then ask about their situation in one short, natural question (where they are, energy, how much time). That question is your ONE question for this turn.${memory && !/FIRST LESSON/.test(memory) ? '' : ' Use the first minutes to estimate the level.'}`;
 }
 
 const clip = (s, n) => String(s ?? '').replace(/\s+/g, ' ').trim().slice(0, n);
@@ -439,6 +457,10 @@ export function buildTurnMessage({ persona, history = [], studentText = '', less
   }
   const pl = cleanPlan(plan);
   if (!start) {
+    const ses = pl.session;
+    lines.push(ses.minutes || ses.place !== 'unknown' || ses.energy !== 'unknown'
+      ? `SESSION (their situation): ${ses.minutes ? `about ${ses.minutes} min` : 'time: plenty / not said'} | place: ${ses.place} | energy: ${ses.energy}. Fit the lesson to it.`
+      : 'SESSION: they have not told you their situation yet. If they say it now, fill session; if they skip it, just teach a normal lesson.');
     const ladder = pl.off_plan >= 5
       ? ' OFF-PLAN 5+: your deal was already made: do NOT repeat it or its sentences. Something changes now: a shorter, cooler last chance in a NEW form, or end the lesson calmly if patience is low.'
       : pl.off_plan === 4
@@ -463,7 +485,11 @@ export function buildTurnMessage({ persona, history = [], studentText = '', less
   if (minutesLeft !== null) {
     if (minutesLeft <= 0) lines.push('TIME IS UP: end the lesson now (end_lesson=true).');
     else if (minutesLeft <= 2) lines.push(`About ${Math.ceil(minutesLeft)} minute(s) left: start wrapping up.`);
-    if (!start && minutesLeft > 0) lines.push(`BY THE CLOCK (about ${Math.ceil(minutesLeft)} min left) you should be in: ${clockStage(minutesLeft, P.minutes)}.`);
+    const ses = cleanPlan(plan).session;
+    const target = ses.minutes ? Math.min(ses.minutes, P.minutes) : P.minutes;
+    const theirLeft = target - (P.minutes - minutesLeft); // their own time budget, not the max
+    if (!start && ses.minutes && theirLeft <= 0.5) lines.push(`THEIR TIME IS UP (they said they have about ${ses.minutes} min): wrap up in this reply and end the lesson (end_lesson=true).`);
+    else if (!start && minutesLeft > 0) lines.push(`BY THE CLOCK (about ${Math.max(1, Math.ceil(theirLeft))} min left of their time) you should be in: ${clockStage(theirLeft, target)}.`);
   }
   const turns = (Array.isArray(history) ? history : []).slice(-16);
   if (turns.length) {
@@ -508,6 +534,7 @@ export function cleanBrainOutput(o) {
       her_mood: MOODS.includes(rd.her_mood) ? rd.her_mood : 'warm', move: clip(rd.move, 80),
     },
     lesson_focus: clip(out.lesson_focus, 80),
+    session: cleanSession(out.session),
     stage: STAGES.includes(out.stage) ? out.stage : '',
     addressed_to_teacher: out.addressed_to_teacher !== false,
     reply: clip(out.reply, 600),
@@ -543,7 +570,22 @@ export function cleanPlan(p) {
     recent: arr(x.recent).map((r) => clip(r, 200)).filter(Boolean).slice(-8),
     tests: Math.max(0, Math.min(50, Number(x.tests) || 0)),
     focus_key: clip(x.focus_key, 40),
+    session: cleanSession(x.session),
   };
+}
+export function cleanSession(s) {
+  const x = s && typeof s === 'object' ? s : {};
+  const min = Math.round(Number(x.minutes));
+  return {
+    minutes: Number.isFinite(min) && min > 0 ? Math.min(60, min) : 0,
+    place: ['quiet', 'noisy', 'outside'].includes(x.place) ? x.place : 'unknown',
+    energy: ['low', 'ok', 'high'].includes(x.energy) ? x.energy : 'unknown',
+  };
+}
+/** New facts win; "unknown" / 0 never wipes what the student already said. */
+function mergeSession(prev, next) {
+  const a = cleanSession(prev), b = cleanSession(next);
+  return { minutes: b.minutes || a.minutes, place: b.place !== 'unknown' ? b.place : a.place, energy: b.energy !== 'unknown' ? b.energy : a.energy };
 }
 /** Where the lesson should be by the clock (the 5-stage arc). */
 export function clockStage(minutesLeft, totalMinutes) {
@@ -567,6 +609,7 @@ export function planAfter(plan, out, { rude = false, casual = false } = {}) {
     recent: spoken ? [...p.recent, spoken] : p.recent,
     tests: p.tests + (['test_me', 'escape_lesson'].includes(out?.read?.intent) ? 1 : 0),
     focus_key: p.focus_key,
+    session: mergeSession(p.session, out?.session),
   });
 }
 /** A new lesson starts with yesterday's last lines only (no focus/mood carry-over). */
