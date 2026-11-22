@@ -7,36 +7,15 @@
 // src/lib/grammarPractice/bank/<domain>.<branch>.<topic>.js
 import { readFileSync, writeFileSync, readdirSync } from "node:fs";
 import { validateBank, variantCount } from "../../src/lib/grammarPractice/schema.js";
+import { accepted, acceptedArray } from "./accepted-variants.mjs";
 
 const src = process.argv[2];
 const LEGACY = process.argv.includes("--allow-legacy");
 if (!src) { console.error("usage: ingest.mjs <file.json>"); process.exit(1); }
 const raw = JSON.parse(readFileSync(src, "utf8"));
 
-// Contractions are a real second valid answer — "doesn't watch" and "does not
-// watch" are both correct and a string matcher accepts only one. Expand them
-// here rather than asking the author to remember every time.
-const CONTRACTIONS = [["doesn't", "does not"], ["don't", "do not"], ["isn't", "is not"], ["aren't", "are not"],
-  // Added 2026-10-07 for topics beyond tenses/present. Unambiguous pairs only:
-  // "'s" (is/has) and "'d" (had/would) are NOT expanded — list those by hand in
-  // the item's own `acceptable` array, which is merged with these.
-  ["didn't", "did not"], ["wasn't", "was not"], ["weren't", "were not"], ["hasn't", "has not"],
-  ["haven't", "have not"], ["hadn't", "had not"], ["won't", "will not"], ["can't", "cannot"],
-  ["couldn't", "could not"], ["shouldn't", "should not"], ["wouldn't", "would not"], ["mustn't", "must not"],
-  ["needn't", "need not"], ["mightn't", "might not"], ["I'm", "I am"], ["you're", "you are"],
-  ["we're", "we are"], ["they're", "they are"], ["I've", "I have"], ["you've", "you have"],
-  ["we've", "we have"], ["they've", "they have"], ["I'll", "I will"], ["you'll", "you will"],
-  ["he'll", "he will"], ["she'll", "she will"], ["it'll", "it will"], ["we'll", "we will"], ["they'll", "they will"]];
-function accepted(key, own = []) {
-  if (typeof key !== "string") return null;
-  const alts = new Set(own);
-  for (const [short, long] of CONTRACTIONS) {
-    if (key.includes(short)) alts.add(key.replace(short, long));
-    if (key.includes(long)) alts.add(key.replace(long, short));
-  }
-  alts.delete(key);
-  return alts.size ? [...alts] : null;
-}
+// Accepted-answer variants (contractions, 'd short forms, multi-blank
+// alternatives) live in ./accepted-variants.mjs so the tests can check them.
 
 // Prompt-version stamp. Every generated item carries "pv" naming the version of
 // the generation prompt that produced it. Batches have twice been generated from
@@ -60,7 +39,7 @@ const items = raw.map((it) => {
   const k = `${it.stage}`;
   seq[k] = (seq[k] || 0) + 1;
   const id = `gpr.${it.domain}.${it.branch}.${it.topic}.${it.stage}.${String(seq[k]).padStart(3, "0")}`;
-  const alt = accepted(it.key, it.acceptable || []);
+  const alt = Array.isArray(it.key) ? acceptedArray(it.key, it.acceptable || []) : accepted(it.key, it.acceptable || []);
   const { pv, ...rest } = it;
   return { id, ...rest, ...(alt ? { acceptable: alt } : {}) };
 });

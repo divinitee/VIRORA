@@ -76,9 +76,12 @@ export function gradePractice(itemId, given) {
   const key = PRACTICE_KEYS[`${p[1]}.${p[2]}.${p[3]}`]?.[`${p[4][0]}${p[5]}`];
   if (!key) return null;
   if (key.startsWith("§")) {
-    const want = key.slice(1).split("+");
+    // "§a+b" or, with alternatives, "§a+b|c+d" (21 Nov 2026).
     const got = Array.isArray(given) ? given : [];
-    return got.length === want.length && want.every((w, i) => normalise(got[i]) === normalise(w));
+    return key.slice(1).split("|").some((alt) => {
+      const want = alt.split("+");
+      return got.length === want.length && want.every((w, i) => normalise(got[i]) === normalise(w));
+    });
   }
   if (typeof given !== "string") return false;
   return key.split("|").some((k) => normalise(k) === normalise(given));
