@@ -11,7 +11,7 @@ const EV = (past, base, ing, wrong) => [past, base, `has ${wrong}`, `was ${ing}`
 
 const CHOOSE = [
   [BG(true, "cooking", "cook"), "\"so I joined him\": the cooking was still going on.", "When I got home, my brother ______ dinner, so I joined him, {name}. We made {food}.", { food: ["plov", "soup", "salad", "pasta"], name: NAME }],
-  [BG(false, "watching", "watch"), "\"didn't hear the door\": they were in the middle of the film.", "The kids ______ a {show}, so they didn't hear the door, {name}.", { show: ["film", "cartoon", "match", "quiz show"], name: NAME }],
+  [BG(false, "watching", "watch"), "\"didn't hear the door\": they were in the middle of watching.", "The kids ______ a {show}, so they didn't hear the door, {name}.", { show: ["film", "cartoon", "match", "quiz show"], name: NAME }],
   [BG(true, "raining", "rain"), "\"we took the umbrella\": rain was in progress.", "It ______ when we left the {place}, so we took an umbrella, {name}.", { place: ["house", "café", "school", "cinema"], name: NAME }],
   [BG(true, "sleeping", "sleep"), "\"I didn't wake her\": she was asleep at that moment.", "Grandma ______ when the {who} arrived, so I didn't wake her, {name}.", { who: ["guests", "doctor", "neighbours", "postman"], name: NAME }],
   [BG(false, "having", "have"), "\"they asked me to join\": the lunch was in progress.", "When I came in, my colleagues ______ lunch in the {room}, and they asked me to join, {name}.", { room: ["kitchen", "garden", "canteen", "office"], name: NAME }],
@@ -24,7 +24,7 @@ const CHOOSE = [
   [EV("called", "call", "calling", "call"), "A short event while she was cooking: called.", "She was cooking when her {who} ______, {name}.", { who: ["sister", "aunt", "friend", "boss"], name: NAME }],
   [EV("fell", "fall", "falling", "fell"), "The fall happened during the run: fell.", "Timur ______ while he was running in the {place}, {name}.", { place: ["park", "stadium", "street", "forest"], name: NAME }],
   [EV("saw", "see", "seeing", "seed"), "One moment of seeing during the walk: saw.", "We were walking in the {place} when we ______ a fox, {name}.", { place: ["forest", "park", "hills", "field"], name: NAME }],
-  [EV("went", "go", "going", "goed"), "The lights went out once, during the film: went.", "We were watching a {show} when the lights ______ out, {name}.", { show: ["film", "match", "concert", "series"], name: NAME }],
+  [EV("went", "go", "going", "goed"), "The lights went out once, in the middle of it: went.", "We were watching a {show} when the lights ______ out, {name}.", { show: ["film", "match", "concert", "series"], name: NAME }],
   [EV("met", "meet", "meeting", "meeted"), "A single meeting during the trip: met.", "I ______ my best friend while I was studying in {city}, {name}.", { city: ["the capital", "Samarkand", "Bukhara", "Andijan"], name: NAME }],
   [EV("arrived", "arrive", "arriving", "arrive"), "The guests' arrival interrupted the cleaning: arrived.", "We were still cleaning the {room} when the guests ______, {name}.", { room: ["kitchen", "living room", "flat", "yard"], name: NAME }],
   [EV("stopped", "stop", "stopping", "stop"), "One stop in the middle of the drive: stopped.", "We were driving to the {place} when the car suddenly ______, {name}.", { place: ["coast", "mountains", "village", "airport"], name: NAME }],

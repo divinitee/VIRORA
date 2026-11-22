@@ -10,7 +10,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 2. The kids ______ a **film**, so they didn't hear the door, **Sardor**.  
    options: was watching · are watching · were watch · ✔ were watching  
-   why: "didn't hear the door": they were in the middle of the film.
+   why: "didn't hear the door": they were in the middle of watching.
 
 3. It ______ when we left the **café**, so we took an umbrella, **Akmal**.  
    options: is raining · was rain · ✔ was raining · were raining  
@@ -62,7 +62,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 15. We were watching a **match** when the lights ______ out, **Akmal**.  
    options: has goed · was going · ✔ went · go  
-   why: The lights went out once, during the film: went.
+   why: The lights went out once, in the middle of it: went.
 
 16. I ______ my best friend while I was studying in **Bukhara**, **Sardor**.  
    options: was meeting · ✔ met · meet · has meeted  

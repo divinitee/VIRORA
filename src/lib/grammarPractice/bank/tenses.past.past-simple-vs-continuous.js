@@ -51,7 +51,7 @@ export default [
    "were watching"
   ],
   "key": 3,
-  "why": "\"didn't hear the door\": they were in the middle of the film.",
+  "why": "\"didn't hear the door\": they were in the middle of watching.",
   "slots": {
    "show": [
     "film",
@@ -493,7 +493,7 @@ export default [
    "go"
   ],
   "key": 2,
-  "why": "The lights went out once, during the film: went.",
+  "why": "The lights went out once, in the middle of it: went.",
   "slots": {
    "show": [
     "film",
