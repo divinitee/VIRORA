@@ -164,3 +164,17 @@ Plan: claude.ai doc "masterV0: Making Vira Human". Phase 1 shipped on the branch
 - ElevenLabs 429 "system busy": one 400 ms retry for TTS (server) and direct ears (phone) before the backup path.
 - Admins see her read + lesson state under the timing line.
 Prompt ~4.7k tokens (cached after the first turn). Next: Phase 2 regression suite.
+
+## masterV0 Phase 3: lesson focus picker (2026-11-22)
+
+`base44/shared/liveTeacherFocus.js` (pure, tested in `tools/live-teacher-tests/focus.test.mjs`).
+At `v2_start` the engine reads (bounded, best effort): LiveTeacherProfile.mistakes (speaking), LearnerItem
+grammar rows (Coach Engine practice), AssessmentResult (AI-graded written answers), LearnerWordState
+(weakest words). Everything maps to ~25 FAMILIES (each source names topics differently: rule keys,
+taxonomy prefixes, subskill text). Score = frequency (recency-weighted, 60-day cut) x spread (1-3 skills)
+x basics (family level vs student level) x readiness (30-80% right = 1.0) x due (last 2 lessons' focus x0.4).
+Output: one focus (+ the student's own wrong->right examples) and one 1-minute warm-up review (an old
+speaking mistake from another family, else a weak word). The brain gets it as TODAY'S FOCUS at LESSON START;
+plan.focus_key is saved so the next lessons space it out. Lesson arc: warm_up 10% / notice 20% / practice 30% /
+free_talk 30% / wrap_up 10%; each turn shows BY THE CLOCK. Admins see "focus pick: ... why ..." in the UI.
+Support language by level (same day): A1-A2 instructions in Uzbek/Russian, unknown starts bilingual, B2+ English.
