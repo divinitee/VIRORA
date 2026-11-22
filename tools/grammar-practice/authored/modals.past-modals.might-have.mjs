@@ -126,5 +126,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/modals.past-modals.might-have.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "\"I don't know why\": one possible reason in the past: might have missed.",
+   "\"I'm not sure\": possibly she forgot: might have forgotten.",
+   "Can't find it: possibly I left it there: might have left.",
+   "\"I'm not sure\": possibly they went out: might have gone.",
+   "\"not sure who took it\": the cat is one possibility: might have eaten.",
+   "\"Nobody knows\": possibly he lost it: might have lost.",
+   "\"looks familiar\": possibly seen before: might have seen.",
+   "\"I don't know where\": possibly my brother took it: might have taken.",
+   "\"I don't know\": an accident is one possible reason: might have been.",
+   "\"I'm not sure\": possibly it closed early: might have closed.",
+   "\"I don't know why\": possibly someone broke it: might have broken.",
+   "\"I missed the game\": I'm not sure of the result: might have won.",
+   "\"I'm not sure\": possibly she bought it there: might have bought.",
+   "\"I don't know why\": possibly bad sleep: might have slept.",
+   "\"I'm not sure how\": possibly a lot of study: might have studied.",
+   "\"I'm not sure where\": possibly we met there: might have met.",
+   "\"I don't know how\": driving is one possibility: might have driven.",
+   "\"not sure what happened\": possibly a fall: might have fallen.",
+   "\"I don't know if\": possibly he's done: might have finished.",
+   "\"I'm not sure how she knows\": possibly from them: might have heard."
+  ],
+  "build": [
+   "He's late: possibly he missed it: might have missed.",
+   "She didn't come: possibly she forgot: forget → forgotten.",
+   "Not in my bag: possibly I left it: leave → left.",
+   "Nobody is there: possibly they went: go → gone.",
+   "It's gone: possibly the dog: eat → eaten.",
+   "He can't find it: possibly lost: lose → lost.",
+   "Not here: possibly my sister took it: take → taken.",
+   "A closed road: possibly an accident: be → been.",
+   "Dark: possibly it closed early: might have closed.",
+   "Not working: possibly broken: break → broken.",
+   "New: possibly bought in that city: buy → bought.",
+   "Looks tired: possibly bad sleep: sleep → slept.",
+   "I know his face: possibly we met: meet → met.",
+   "Her arm hurts: possibly a fall: fall → fallen.",
+   "Not sure about the score: possibly they won: win → won.",
+   "She didn't answer: possibly she didn't hear: might not have heard.",
+   "He didn't say hello: possibly he didn't see you: might not have seen.",
+   "No reply: possibly it didn't arrive: might not have received.",
+   "\"Don't be angry\": possibly he didn't know: might not have known.",
+   "The wrong work: possibly she didn't understand: might not have understood."
+  ],
+  "transform": [
+   "Perhaps he missed → he might have missed.",
+   "Maybe she forgot → she might have forgotten.",
+   "Perhaps they went → they might have gone.",
+   "Maybe I left → I might have left.",
+   "Perhaps it closed → it might have closed.",
+   "have is missing: might have missed.",
+   "might have, not might has: might have forgotten.",
+   "have + past participle: gone, not went.",
+   "might have, not might had: might have left.",
+   "have + past participle: eaten, not eat.",
+   "Perhaps she didn't hear → might not have heard.",
+   "Maybe he didn't see → might not have seen.",
+   "Perhaps they didn't receive → might not have received.",
+   "Maybe he didn't know → might not have known.",
+   "Perhaps she didn't understand → might not have understood."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

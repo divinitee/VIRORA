@@ -6,185 +6,185 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 1. This **trip** form ______ by a parent, **Gulnora**.  
    options: ✔ must be signed · must signed · must be sign · must been signed  
-   why: Passive with a modal: modal + be + past participle.
+   why: A rule, someone signs it: must be signed.
 
 2. Plastic **bottles** ______, so don't throw them away, **Malika**.  
    options: can recycled · can be recycle · can been recycled · ✔ can be recycled  
-   why: Passive with a modal: modal + be + past participle.
+   why: "don't throw them away": possible: can be recycled.
 
 3. This **cleaning spray** ______ away from children, **Gulnora**.  
    options: should be keep · should been kept · ✔ should be kept · should kept  
-   why: Passive with a modal: modal + be + past participle.
+   why: Advice, someone keeps it: should be kept.
 
 4. The new **bridge** ______ next year, **Jamshid**.  
    options: will been finished · ✔ will be finished · will finished · will be finish  
-   why: Passive with a modal: modal + be + past participle.
+   why: "next year": future passive: will be finished.
 
 5. The **concert** ______ if it rains, **Ulugbek**.  
    options: ✔ might be cancelled · might cancelled · might be cancel · might been cancelled  
-   why: Passive with a modal: modal + be + past participle.
+   why: "if it rains": maybe: might be cancelled.
 
 6. My old **laptop** ______. I need a new one, **Jamshid**.  
    options: can't fixed · can't be fix · can't been fixed · ✔ can't be fixed  
-   why: Passive with a modal: modal + be + past participle.
+   why: "I need a new one": impossible: can't be fixed.
 
 7. **Peaches** ______ before you eat them, **Malika**.  
    options: should be wash · should been washed · ✔ should be washed · should washed  
-   why: Passive with a modal: modal + be + past participle.
+   why: Advice before eating: should be washed.
 
 8. The **phone bill** ______ by the first of the month, **Malika**.  
    options: has to been paid · ✔ has to be paid · has to paid · has to be pay  
-   why: Passive with a modal: modal + be + past participle.
+   why: "by the first of the month": necessary: has to be paid.
 
 9. Your **parcel** ______ tomorrow, **Malika**.  
    options: ✔ will be sent · will sent · will be send · will been sent  
-   why: Passive with a modal: modal + be + past participle.
+   why: "tomorrow": future passive: will be sent.
 
 10. The mountains ______ from our **office** window, **Ulugbek**.  
    options: can seen · can be see · can been seen · ✔ can be seen  
-   why: Passive with a modal: modal + be + past participle.
+   why: Possible to see from the window: can be seen.
 
 11. Phones ______ in the **exam room**, **Malika**.  
    options: won't be allow · won't been allowed · ✔ won't be allowed · won't allowed  
-   why: Passive with a modal: modal + be + past participle.
+   why: A future rule, negative: won't be allowed.
 
 12. The lights ______ when you leave the **hall**, **Jamshid**.  
    options: should been turned off · ✔ should be turned off · should turned off · should be turn off  
-   why: Passive with a modal: modal + be + past participle.
+   why: Advice when you leave: should be turned off.
 
 13. Flights to **Moscow** ______ because of the snow, **Ulugbek**.  
    options: ✔ might be delayed · might delayed · might be delay · might been delayed  
-   why: Passive with a modal: modal + be + past participle.
+   why: "because of the snow": maybe: might be delayed.
 
 14. Tickets ______ online or at the **box office**, **Malika**.  
    options: can bought · can be buy · can been bought · ✔ can be bought  
-   why: Passive with a modal: modal + be + past participle.
+   why: Possible in two ways: can be bought.
 
 15. The **concert** ______ in the main hall, **Gulnora**.  
    options: will be hold · will been held · ✔ will be held · will held  
-   why: Passive with a modal: modal + be + past participle.
+   why: Future plan: will be held.
 
 16. Bags ______ on the **bus**, **Ulugbek**.  
    options: shouldn't been left · ✔ shouldn't be left · shouldn't left · shouldn't be leave  
-   why: Passive with a modal: modal + be + past participle.
+   why: Advice not to: shouldn't be left.
 
 17. The **roof** ______ before winter, **Jamshid**.  
    options: ✔ has to be repaired · has to repaired · has to be repair · has to been repaired  
-   why: Passive with a modal: modal + be + past participle.
+   why: "before winter": necessary: has to be repaired.
 
 18. This **box** ______ without a key, **Malika**.  
    options: can't opened · can't be open · can't been opened · ✔ can't be opened  
-   why: Passive with a modal: modal + be + past participle.
+   why: "without a key": impossible: can't be opened.
 
 19. The winners ______ on **Sunday**, **Ulugbek**.  
    options: will be announce · will been announced · ✔ will be announced · will announced  
-   why: Passive with a modal: modal + be + past participle.
+   why: On a future day: will be announced.
 
 20. Our old **car** ______ next month, **Jamshid**.  
    options: might been sold · ✔ might be sold · might sold · might be sell  
-   why: Passive with a modal: modal + be + past participle.
+   why: "next month": maybe: might be sold.
 
 ## build (20)
 
 1. _Complete with the passive: the modal in brackets + be + the past participle of the verb._  
    **Meat** ______ (should / keep) in the fridge, **Ulugbek**.  
    key: should be kept  
-   why: Passive with a modal: modal + be + past participle.
+   why: should + be + kept (keep → kept).
 
 2. _Complete with the passive: the modal in brackets + be + the past participle of the verb._  
    Old **newspapers** ______ (can / recycle), **Jamshid**.  
    key: can be recycled  
-   why: Passive with a modal: modal + be + past participle.
+   why: can + be + recycled.
 
 3. _Complete with the passive: the modal in brackets + be + the past participle of the verb._  
    The new **bridge** ______ (will / finish) in May, **Jamshid**.  
    key: will be finished  
-   why: Passive with a modal: modal + be + past participle.
+   why: will + be + finished.
 
 4. _Complete with the passive: the modal in brackets + be + the past participle of the verb._  
    The **picnic** ______ (might / postpone), **Malika**.  
    key: might be postponed  
-   why: Passive with a modal: modal + be + past participle.
+   why: might + be + postponed.
 
 5. _Complete with the passive: the modal in brackets + be + the past participle of the verb._  
    Your **TV** ______ (can't / fix), **Ulugbek**. Sorry.  
    key: can't be fixed  
-   why: Passive with a modal: modal + be + past participle.
+   why: can't + be + fixed, "Sorry".
 
 6. _Complete with the passive: the modal in brackets + be + the past participle of the verb._  
    This **medical** form ______ (must / sign) by a parent, **Gulnora**.  
    key: must be signed  
-   why: Passive with a modal: modal + be + past participle.
+   why: must + be + signed by a parent.
 
 7. _Complete with the passive: the modal in brackets + be + the past participle of the verb._  
    Your **ticket** ______ (will / send) tomorrow, **Malika**.  
    key: will be sent  
-   why: Passive with a modal: modal + be + past participle.
+   why: will + be + sent (send → sent).
 
 8. _Complete with the passive: the modal in brackets + be + the past participle of the verb._  
    The **river** ______ (can / see) from the hill, **Malika**.  
    key: can be seen  
-   why: Passive with a modal: modal + be + past participle.
+   why: can + be + seen (see → seen).
 
 9. _Complete with the passive: the modal in brackets + be + the past participle of the verb._  
    Dogs ______ (won't / allow) in the **café**, **Ulugbek**.  
    key: won't be allowed  
-   why: Passive with a modal: modal + be + past participle.
+   why: won't + be + allowed.
 
 10. _Complete with the passive: the modal in brackets + be + the past participle of the verb._  
    Phones ______ (should / turn off) in the **library**, **Gulnora**.  
    key: should be turned off  
-   why: Passive with a modal: modal + be + past participle.
+   why: should + be + turned off.
 
 11. _Complete with the passive: the modal in brackets + be + the past participle of the verb._  
    Trains to **Termez** ______ (might / delay) today, **Ulugbek**.  
    key: might be delayed  
-   why: Passive with a modal: modal + be + past participle.
+   why: might + be + delayed.
 
 12. _Complete with the passive: the modal in brackets + be + the past participle of the verb._  
    Tickets ______ (can / buy) at the **door**, **Ulugbek**.  
    key: can be bought  
-   why: Passive with a modal: modal + be + past participle.
+   why: can + be + bought (buy → bought).
 
 13. _Complete with the passive: the modal in brackets + be + the past participle of the verb._  
    The **festival** ______ (will / hold) in the park, **Jamshid**.  
    key: will be held  
-   why: Passive with a modal: modal + be + past participle.
+   why: will + be + held (hold → held).
 
 14. _Complete with the passive: the modal in brackets + be + the past participle of the verb._  
    Children ______ (shouldn't / leave) alone at the **beach**, **Ulugbek**.  
    key: shouldn't be left  
-   why: Passive with a modal: modal + be + past participle.
+   why: shouldn't + be + left (leave → left).
 
 15. _Complete with the passive: the modal in brackets + be + the past participle of the verb._  
    The **box** ______ (can't / open) without a code, **Malika**.  
    key: can't be opened  
-   why: Passive with a modal: modal + be + past participle.
+   why: can't + be + opened without a code.
 
 16. _Complete with the passive: the modal in brackets + be + the past participle of the verb._  
    The results ______ (will / announce) on **Sunday**, **Malika**.  
    key: will be announced  
-   why: Passive with a modal: modal + be + past participle.
+   why: will + be + announced.
 
 17. _Complete with the passive: the modal in brackets + be + the past participle of the verb._  
    The old **flat** ______ (might / sell) soon, **Jamshid**.  
    key: might be sold  
-   why: Passive with a modal: modal + be + past participle.
+   why: might + be + sold (sell → sold).
 
 18. _Complete with the passive: the modal in brackets + be + the past participle of the verb._  
    The **office** ______ (should / clean) every day, **Jamshid**.  
    key: should be cleaned  
-   why: Passive with a modal: modal + be + past participle.
+   why: should + be + cleaned every day.
 
 19. _Complete with the passive: the modal in brackets + be + the past participle of the verb._  
    This **pass** ______ (can't / use) after **August**.  
    key: can't be used  
-   why: Passive with a modal: modal + be + past participle.
+   why: can't + be + used (no longer possible).
 
 20. _Complete with the passive: the modal in brackets + be + the past participle of the verb._  
    The **gas bill** ______ (must / pay) today, **Gulnora**.  
    key: must be paid  
-   why: Passive with a modal: modal + be + past participle.
+   why: must + be + paid (pay → paid).
 
 ## transform (15)
 
@@ -192,91 +192,91 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    You can recycle these **cups**, **Malika**.  
    → These **cups** ______, **Malika**.  
    key: can be recycled  
-   why: Passive with a modal: modal + be + past participle.
+   why: You can recycle → can be recycled.
 
 2. _Rewrite in the passive. Start with the words given._  
    They will finish the new **metro line** next year, **Ulugbek**.  
    → The new **metro line** ______ next year, **Ulugbek**.  
    key: will be finished  
-   why: Passive with a modal: modal + be + past participle.
+   why: They will finish → will be finished.
 
 3. _Rewrite in the passive. Start with the words given._  
    You should keep this **medicine** in a cool place, **Ulugbek**.  
    → This **medicine** ______ in a cool place, **Ulugbek**.  
    key: should be kept  
-   why: Passive with a modal: modal + be + past participle.
+   why: You should keep → should be kept.
 
 4. _Rewrite in the passive. Start with the words given._  
    They might postpone the **concert**, **Gulnora**.  
    → The **concert** ______, **Gulnora**.  
    key: might be postponed  
-   why: Passive with a modal: modal + be + past participle.
+   why: They might postpone → might be postponed.
 
 5. _Rewrite in the passive. Start with the words given._  
    Nobody can fix my old **laptop**, **Jamshid**.  
    → My old **laptop** ______, **Jamshid**.  
    key: can't be fixed  
-   why: Passive with a modal: modal + be + past participle.
+   why: Nobody can fix → can't be fixed.
 
 6. _Correct the mistake._  
    Plastic **bottles** can recycled, **Ulugbek**.  
    → Plastic **bottles** ______, **Ulugbek**.  
    key: can be recycled  
-   why: Passive with a modal: modal + be + past participle.
+   why: be is missing: can be recycled.
 
 7. _Correct the mistake._  
    The **party** will be hold in the hall, **Ulugbek**.  
    → The **party** ______ in the hall, **Ulugbek**.  
    key: will be held  
-   why: Passive with a modal: modal + be + past participle.
+   why: Past participle: held, not hold.
 
 8. _Correct the mistake._  
    This **door** can't been opened without a key, **Jamshid**.  
    → This **door** ______ without a key, **Jamshid**.  
    key: can't be opened  
-   why: Passive with a modal: modal + be + past participle.
+   why: After can't use be, not been.
 
 9. _Correct the mistake._  
    **Grapes** should washed before you eat them, **Jamshid**.  
    → **Grapes** ______ before you eat them, **Jamshid**.  
    key: should be washed  
-   why: Passive with a modal: modal + be + past participle.
+   why: be is missing: should be washed.
 
 10. _Correct the mistake._  
    The **gas bill** must be pay today, **Ulugbek**.  
    → The **gas bill** ______ today, **Ulugbek**.  
    key: must be paid  
-   why: Passive with a modal: modal + be + past participle.
+   why: Past participle: paid, not pay.
 
 11. _Rewrite with a modal passive (can / can't / should / will / might + be + past participle)._  
    It's possible to see the **old town** from here, **Jamshid**.  
    → The **old town** ______ from here, **Jamshid**.  
    key: can be seen  
-   why: Passive with a modal: modal + be + past participle.
+   why: It's possible → can be seen.
 
 12. _Rewrite with a modal passive (can / can't / should / will / might + be + past participle)._  
    It's a good idea to water the **garden** every day, **Ulugbek**.  
    → The **garden** ______ every day, **Ulugbek**.  
    key: should be watered  
-   why: Passive with a modal: modal + be + past participle.
+   why: It's a good idea → should be watered.
 
 13. _Rewrite with a modal passive (can / can't / should / will / might + be + past participle)._  
    They are going to announce the winners on **Monday**, **Malika**.  
    → The winners ______ on **Monday**, **Malika**.  
    key: will be announced  
-   why: Passive with a modal: modal + be + past participle.
+   why: They are going to announce → will be announced.
 
 14. _Rewrite with a modal passive (can / can't / should / will / might + be + past participle)._  
    Maybe they will sell our old **house**, **Gulnora**.  
    → Our old **house** ______, **Gulnora**.  
    key: might be sold  
-   why: Passive with a modal: modal + be + past participle.
+   why: Maybe they will sell → might be sold.
 
 15. _Rewrite with a modal passive (can / can't / should / will / might + be + past participle)._  
    It's not possible to use this **coupon** after **August**.  
    → This **coupon** ______ after **August**.  
    key: can't be used  
-   why: Passive with a modal: modal + be + past participle.
+   why: It's not possible → can't be used.
 
 ## create (8)
 

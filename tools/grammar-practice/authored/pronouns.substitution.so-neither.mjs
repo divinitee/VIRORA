@@ -142,5 +142,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/pronouns.substitution.so-neither.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "\"I live\": present simple, positive: So do I.",
+   "\"I'm tired\": be, positive: So am I.",
+   "\"I can\": copy can: So can I.",
+   "\"I went\": past simple, positive: So did I.",
+   "\"I've been\": copy have: So have I.",
+   "\"I'll be\": copy will: So will I.",
+   "\"I was late\": copy was: So was I.",
+   "\"I love\": present simple, positive: So do I.",
+   "\"I'm learning\": copy am: So am I.",
+   "\"My cousin speaks\": he/she, present simple: So does.",
+   "\"I don't like\": negative, copy do: Neither do I.",
+   "\"I'm not ready\": negative be: Neither am I.",
+   "\"I can't\": negative, copy can: Neither can I.",
+   "\"I didn't sleep\": negative past: Neither did I.",
+   "\"I haven't seen\": negative, copy have: Neither have I.",
+   "\"I won't be\": negative, copy will: Neither will I.",
+   "\"I wasn't\": negative, copy was: Neither was I.",
+   "\"I don't drink\": negative, copy do: Neither do I.",
+   "\"My … doesn't eat\": he/she, negative: Neither does.",
+   "\"We weren't\": negative, copy were: Neither were."
+  ],
+  "build": [
+   "\"I live\" has no helper verb: So do I.",
+   "\"I'm hungry\": copy am: So am I.",
+   "\"I enjoyed\": past simple: So did I.",
+   "\"I've finished\": copy have: So have I.",
+   "\"I'll take\": copy will: So will I.",
+   "\"My brother likes\": he/she form: So does my sister.",
+   "\"I love\" has no helper verb: So do I.",
+   "\"I'm going\": copy am: So am I.",
+   "\"I saw\": past simple: So did I.",
+   "\"I've got\": copy have: So have I.",
+   "\"I don't like\": copy do: Neither do I.",
+   "\"I'm not hungry\": copy am: Neither am I.",
+   "\"I can't\": copy can: Neither can I.",
+   "\"I didn't go\": copy did: Neither did I.",
+   "\"I haven't been\": copy have: Neither have I.",
+   "\"I won't be\": copy will: Neither will I.",
+   "\"I wasn't\": copy was: Neither was I.",
+   "\"My mum doesn't\": he/she form: Neither does my dad.",
+   "\"I don't understand\": copy do: Neither do I.",
+   "\"We weren't\": copy were: Neither were we."
+  ],
+  "transform": [
+   "\"I like\": present simple, so do, not am.",
+   "\"I'm cold\": be, so am, not do.",
+   "Word order after Neither: verb, then I.",
+   "Neither + did + I, not I didn't neither.",
+   "\"I've lost\": copy have, not did.",
+   "\"I went\": past simple: So did I.",
+   "Agree with \"I'll be late\": will, then I: So will I.",
+   "Agree with a plan in the present continuous: So am I.",
+   "\"My sister works\": he/she form: So does.",
+   "Agree with \"I've got two\": have, then I: So have I.",
+   "\"I don't like\": Neither do I.",
+   "\"I wasn't\": Neither was I.",
+   "\"I haven't finished\": Neither have I.",
+   "\"My dad can't\": Neither can.",
+   "\"I won't be\": Neither will I."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${out} — ${items.length} items`);

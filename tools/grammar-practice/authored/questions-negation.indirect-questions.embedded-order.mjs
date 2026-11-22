@@ -133,5 +133,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/questions-negation.indirect-questions.embedded-order.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "After Can you tell me: statement order, the station is.",
+   "After Do you know: no does, so a ticket costs.",
+   "After I don't know: no does, so the film starts.",
+   "After Could you tell me: you were, not were you.",
+   "After I wonder: no did, so she left.",
+   "After Do you remember: his number is, not is his number.",
+   "After Can you tell me: I get, not do I get.",
+   "After I'm not sure: we are doing, not are we doing.",
+   "After Do you know: no does, so your uncle lives.",
+   "After Tell me: what happened, normal order.",
+   "After Could you tell me: no did, so you bought.",
+   "After I have no idea: she is, not is she.",
+   "After Can you ask him: he is coming, not is he coming.",
+   "After Do you know: no does, so the trip takes.",
+   "After Please tell me: no did, so you put.",
+   "After I can't remember: no did, so the teacher said.",
+   "After Can you find out: no does, so she eats.",
+   "After Could you explain: your brother is, not is your brother.",
+   "After I'd like to know: we are having, not are we having.",
+   "After Can you tell me: the bank is, not is the bank."
+  ],
+  "build": [
+   "Subject before verb: the station is.",
+   "No does, so the verb takes -s: costs.",
+   "No does, so the verb takes -s: starts.",
+   "Past time, and the subject is you: were.",
+   "No did, so the past form: left.",
+   "No does, so -s for your uncle: lives.",
+   "No does, so -s for the trip: takes.",
+   "No did; put stays put in the past.",
+   "No did, so the past form: said.",
+   "\"these days\", she: goes.",
+   "Present, your brother: is.",
+   "\"every day\", the shop: closes.",
+   "\"last year\", no did: bought.",
+   "\"now\", one person: is.",
+   "Timetable, the next bus: leaves.",
+   "No does, so -s for this word: means.",
+   "Past, no did: won.",
+   "\"last …\", no did: came.",
+   "Past, no did: did (do → did).",
+   "Past, no did: parked."
+  ],
+  "transform": [
+   "Where does she live → where she lives.",
+   "What time does it open → what time it opens.",
+   "How much are they → how much they are.",
+   "Where is the toilet → where the toilet is.",
+   "Why is he → why he is.",
+   "Where did you buy → where you bought.",
+   "What did the doctor say → what the doctor said.",
+   "How can I get → how I can get.",
+   "When will they arrive → when they will arrive.",
+   "Who did you meet → who you met.",
+   "After tell me: it is, not is it.",
+   "After Do you know: no does, so the lesson starts.",
+   "After Can you remember: no did, so I put.",
+   "Subject first: the ticket costs, not costs the ticket.",
+   "After I wonder: she was, not was she."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${out} — ${items.length} items`);

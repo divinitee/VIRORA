@@ -111,7 +111,7 @@
    "try on they"
   ],
   "key": 1,
-  "why": "try them on: pronoun in the middle.",
+  "why": "\"these …\" → them, and them goes in the middle: try them on.",
   "slots": {
    "thing": [
     "shoes",
@@ -143,7 +143,7 @@
    "wake me up me"
   ],
   "key": 0,
-  "why": "wake me up: pronoun in the middle.",
+  "why": "Me is a pronoun, so it sits inside: wake me up.",
   "slots": {
    "event": [
     "flight",
@@ -175,7 +175,7 @@
    "turn it off"
   ],
   "key": 3,
-  "why": "turn it off: pronoun in the middle.",
+  "why": "\"the …\" → it, inside the verb: turn it off.",
   "slots": {
    "thing": [
     "TV",
@@ -239,7 +239,7 @@
    "throw away they"
   ],
   "key": 1,
-  "why": "throw them away: pronoun in the middle.",
+  "why": "\"These …\" → them, inside: throw them away.",
   "slots": {
    "food": [
     "biscuits",
@@ -271,7 +271,7 @@
    "write it down it"
   ],
   "key": 0,
-  "why": "write it down: pronoun in the middle.",
+  "why": "\"my new …\" → it, inside: write it down.",
   "slots": {
    "thing": [
     "phone number",
@@ -303,7 +303,7 @@
    "fill it in"
   ],
   "key": 3,
-  "why": "fill it in: pronoun in the middle.",
+  "why": "\"the …\" (a paper) → it, inside: fill it in.",
   "slots": {
    "doc": [
     "form",
@@ -367,7 +367,7 @@
    "Put away they"
   ],
   "key": 1,
-  "why": "put them away: pronoun in the middle.",
+  "why": "\"Your toys\" → them, inside: Put them away.",
   "slots": {
    "room": [
     "floor",
@@ -463,7 +463,7 @@
    "look up it"
   ],
   "key": 2,
-  "why": "look it up: pronoun in the middle.",
+  "why": "\"this word\" → it, inside: look it up.",
   "slots": {
    "thing": [
     "dictionary",
@@ -495,7 +495,7 @@
    "switch off it off"
   ],
   "key": 1,
-  "why": "switch it off: pronoun in the middle.",
+  "why": "\"The …\" → it, inside: switch it off.",
   "slots": {
    "thing": [
     "fan",
@@ -591,7 +591,7 @@
    "turn up it"
   ],
   "key": 2,
-  "why": "turn it up: pronoun in the middle.",
+  "why": "\"the …\" → it, inside: turn it up.",
   "slots": {
    "thing": [
     "radio",
@@ -743,7 +743,7 @@
    "them",
    "on"
   ],
-  "why": "try them on: pronoun in the middle.",
+  "why": "Pronoun them before on: them, on.",
   "slots": {
    "thing": [
     "shoes",
@@ -773,7 +773,7 @@
    "me",
    "up"
   ],
-  "why": "wake me up: pronoun in the middle.",
+  "why": "Pronoun me before up: me, up.",
   "slots": {
    "event": [
     "flight",
@@ -803,7 +803,7 @@
    "it",
    "off"
   ],
-  "why": "turn it off: pronoun in the middle.",
+  "why": "Pronoun it before off: it, off.",
   "slots": {
    "thing": [
     "TV",
@@ -863,7 +863,7 @@
    "them",
    "away"
   ],
-  "why": "throw them away: pronoun in the middle.",
+  "why": "Pronoun them before away: them, away.",
   "slots": {
    "thing": [
     "toys",
@@ -893,7 +893,7 @@
    "it",
    "down"
   ],
-  "why": "write it down: pronoun in the middle.",
+  "why": "Pronoun it before down: it, down.",
   "slots": {
    "place": [
     "hotel",
@@ -923,7 +923,7 @@
    "it",
    "in"
   ],
-  "why": "fill it in: pronoun in the middle.",
+  "why": "Pronoun it before in: it, in.",
   "slots": {
    "doc": [
     "form",
@@ -983,7 +983,7 @@
    "them",
    "away"
   ],
-  "why": "put them away: pronoun in the middle.",
+  "why": "Pronoun them before away: them, away (clothes).",
   "slots": {
    "place": [
     "floor",
@@ -1073,7 +1073,7 @@
    "it",
    "up"
   ],
-  "why": "look it up: pronoun in the middle.",
+  "why": "Pronoun it before up: it, up.",
   "slots": {
    "thing": [
     "dictionary",
@@ -1133,7 +1133,7 @@
    "it",
    "up"
   ],
-  "why": "turn it up: pronoun in the middle.",
+  "why": "Pronoun it before up (louder): it, up.",
   "slots": {
    "thing": [
     "song",
@@ -1223,7 +1223,7 @@
    "it",
    "off"
   ],
-  "why": "switch it off: pronoun in the middle.",
+  "why": "Pronoun it before off (switch): it, off.",
   "slots": {
    "thing": [
     "fan",
@@ -1626,7 +1626,7 @@
    "back",
    "my"
   ],
-  "why": "took my new phone back = took back my new phone.",
+  "why": "took my new … back = took back my new ….",
   "slots": {
    "thing": [
     "phone",
@@ -1688,7 +1688,7 @@
    "off",
    "the"
   ],
-  "why": "put the meeting off = put off the meeting.",
+  "why": "put the … off = put off the ….",
   "slots": {
    "event": [
     "meeting",

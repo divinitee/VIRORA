@@ -17,7 +17,7 @@ export default [
    "happen"
   ],
   "key": 0,
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "happen has no object, so no passive: happened.",
   "slots": {
    "place": [
     "bridge",
@@ -49,7 +49,7 @@ export default [
    "arrived"
   ],
   "key": 3,
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "arrive has no object: arrived.",
   "slots": {
    "bus": [
     "bus",
@@ -81,7 +81,7 @@ export default [
    "was died"
   ],
   "key": 2,
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "die has no object: died.",
   "slots": {
    "pet": [
     "dog",
@@ -113,7 +113,7 @@ export default [
    "was fall"
   ],
   "key": 1,
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "fall has no object: fell.",
   "slots": {
    "furn": [
     "table",
@@ -145,7 +145,7 @@ export default [
    "disappear"
   ],
   "key": 0,
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "disappear has no object: disappeared.",
   "slots": {
    "thing": [
     "pen",
@@ -183,7 +183,7 @@ export default [
    "came"
   ],
   "key": 3,
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "come has no object: came.",
   "slots": {
    "event": [
     "wedding",
@@ -215,7 +215,7 @@ export default [
    "was slept"
   ],
   "key": 2,
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "sleep has no object: slept.",
   "slots": {
    "when": [
     "last night",
@@ -247,7 +247,7 @@ export default [
    "was go"
   ],
   "key": 1,
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "go out has no object: went.",
   "slots": {
    "storm": [
     "storm",
@@ -279,7 +279,7 @@ export default [
    "stay"
   ],
   "key": 0,
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "stay has no object: stayed.",
   "slots": {
    "city": [
     "Samarkand",
@@ -311,7 +311,7 @@ export default [
    "appeared"
   ],
   "key": 3,
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "appear has no object: appeared.",
   "slots": {
    "place": [
     "mountains",
@@ -343,7 +343,7 @@ export default [
    "was laughed"
   ],
   "key": 2,
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "laugh (at) has no passive here: laughed.",
   "slots": {
    "event": [
     "wedding",
@@ -375,7 +375,7 @@ export default [
    "was wait"
   ],
   "key": 1,
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "wait has no object: waited.",
   "slots": {
    "place": [
     "airport",
@@ -407,7 +407,7 @@ export default [
    "stop"
   ],
   "key": 0,
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "stop by itself, no doer: stopped.",
   "slots": {
    "time": [
     "six",
@@ -439,7 +439,7 @@ export default [
    "occurred"
   ],
   "key": 3,
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "occur has no object: occurred.",
   "slots": {
    "when": [
     "yesterday",
@@ -471,7 +471,7 @@ export default [
    "built"
   ],
   "key": 2,
-  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "why": "Someone built it: passive was built.",
   "slots": {
    "year": [
     "1990",
@@ -503,7 +503,7 @@ export default [
    "was steal"
   ],
   "key": 1,
-  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "why": "Someone stole it: passive was stolen.",
   "slots": {
    "thing": [
     "bag",
@@ -535,7 +535,7 @@ export default [
    "invite"
   ],
   "key": 0,
-  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "why": "Someone invited them: passive were invited.",
   "slots": {
    "who": [
     "neighbours",
@@ -567,7 +567,7 @@ export default [
    "was cancelled"
   ],
   "key": 3,
-  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "why": "Someone cancelled it: passive was cancelled.",
   "slots": {
    "event": [
     "match",
@@ -599,7 +599,7 @@ export default [
    "took"
   ],
   "key": 2,
-  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "why": "Someone took them: passive were taken.",
   "slots": {
    "accident": [
     "accident",
@@ -631,7 +631,7 @@ export default [
    "was find"
   ],
   "key": 1,
-  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "why": "Someone found it: passive was found.",
   "slots": {
    "pet": [
     "dog",
@@ -658,7 +658,7 @@ export default [
   "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
   "source": "The accident ______ (happen) on the {road}, {name}.",
   "key": "happened",
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "Active only: happen → happened.",
   "slots": {
    "road": [
     "motorway",
@@ -685,7 +685,7 @@ export default [
   "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
   "source": "Our {bus} ______ (arrive) at nine, {name}.",
   "key": "arrived",
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "Active only: arrive → arrived.",
   "slots": {
    "bus": [
     "bus",
@@ -712,7 +712,7 @@ export default [
   "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
   "source": "The old {tree} in our yard ______ (die) last summer, {name}.",
   "key": "died",
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "Active only: die → died.",
   "slots": {
    "tree": [
     "tree",
@@ -739,7 +739,7 @@ export default [
   "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
   "source": "Lola ______ (fall) off her {bike} {when}.",
   "key": "fell",
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "Active only: fall → fell (irregular).",
   "slots": {
    "bike": [
     "bike",
@@ -766,7 +766,7 @@ export default [
   "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
   "source": "The {pet} ______ (disappear) for three days, {name}.",
   "key": "disappeared",
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "Active only: disappear → disappeared.",
   "slots": {
    "pet": [
     "cat",
@@ -793,7 +793,7 @@ export default [
   "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
   "source": "Twenty people ______ (come) to the {event}, {name}.",
   "key": "came",
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "Active only: come → came (irregular).",
   "slots": {
    "event": [
     "wedding",
@@ -820,7 +820,7 @@ export default [
   "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
   "source": "I ______ (sleep) badly in the {place}, {name}.",
   "key": "slept",
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "Active only: sleep → slept (irregular).",
   "slots": {
    "place": [
     "hotel",
@@ -847,7 +847,7 @@ export default [
   "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
   "source": "Prices ______ (go) up again {when}, {name}.",
   "key": "went",
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "Active only: go up → went up.",
   "slots": {
    "when": [
     "last month",
@@ -874,7 +874,7 @@ export default [
   "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
   "source": "They ______ (stay) with their {who} in {city}.",
   "key": "stayed",
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "Active only: stay → stayed.",
   "slots": {
    "who": [
     "grandparents",
@@ -901,7 +901,7 @@ export default [
   "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
   "source": "A strange man ______ (appear) at the {place}, {name}.",
   "key": "appeared",
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "Active only: appear → appeared.",
   "slots": {
    "place": [
     "door",
@@ -928,7 +928,7 @@ export default [
   "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
   "source": "We ______ (wait) for two hours at the {place}, {name}.",
   "key": "waited",
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "Active only: wait → waited.",
   "slots": {
    "place": [
     "airport",
@@ -955,7 +955,7 @@ export default [
   "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
   "source": "The mistake ______ (occur) in the {thing} again, {name}.",
   "key": "occurred",
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "Active only: occur → occurred (double r).",
   "slots": {
    "thing": [
     "report",
@@ -982,7 +982,7 @@ export default [
   "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
   "source": "It ______ (rain) all day in {city}, {name}.",
   "key": "rained",
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "Weather verb, active: rain → rained.",
   "slots": {
    "city": [
     "London",
@@ -1009,7 +1009,7 @@ export default [
   "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
   "source": "The music ______ (stop) at {time}, {name}.",
   "key": "stopped",
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "Active only: stop → stopped (double p).",
   "slots": {
    "time": [
     "midnight",
@@ -1036,7 +1036,7 @@ export default [
   "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
   "source": "This {building} ______ (build) in {year}.",
   "key": "was built",
-  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "why": "Someone built it: was built.",
   "slots": {
    "building": [
     "theatre",
@@ -1063,7 +1063,7 @@ export default [
   "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
   "source": "My {thing} ______ (steal) on the bus, {name}.",
   "key": "was stolen",
-  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "why": "Someone stole it: was stolen.",
   "slots": {
    "thing": [
     "bag",
@@ -1090,7 +1090,7 @@ export default [
   "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
   "source": "All my {who} ______ (invite) to the party, {name}.",
   "key": "were invited",
-  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "why": "Someone invited them, plural: were invited.",
   "slots": {
    "who": [
     "neighbours",
@@ -1117,7 +1117,7 @@ export default [
   "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
   "source": "The injured man ______ (take) to hospital after the {accident}, {name}.",
   "key": "was taken",
-  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "why": "Someone took him: was taken.",
   "slots": {
    "accident": [
     "accident",
@@ -1144,7 +1144,7 @@ export default [
   "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
   "source": "The lost {pet} ______ (find) in the park, {name}.",
   "key": "was found",
-  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "why": "Someone found it: was found.",
   "slots": {
    "pet": [
     "dog",
@@ -1171,7 +1171,7 @@ export default [
   "instr": "Use the past simple of the verb in brackets, active or passive. Some verbs (happen, arrive, die …) have no passive.",
   "source": "This {food} ______ (make) by my grandmother, {name}.",
   "key": "was made",
-  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "why": "My grandmother made it: was made.",
   "slots": {
    "food": [
     "cake",
@@ -1196,16 +1196,22 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "The accident was happened at six, {name}.",
-  "hint": "The accident ______ at six, {name}.",
+  "source": "The accident was happened at {h}, {name}.",
+  "hint": "The accident ______ at {h}, {name}.",
   "key": "happened",
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "No was with happen: happened.",
   "slots": {
    "name": [
     "Feruza",
     "Otabek",
     "Dilnoza",
     "Sardor"
+   ],
+   "h": [
+    "six",
+    "seven",
+    "noon",
+    "midnight"
    ]
   }
  },
@@ -1221,7 +1227,7 @@ export default [
   "source": "The {bus} was arrived late, {name}.",
   "hint": "The {bus} ______ late, {name}.",
   "key": "arrived",
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "No was with arrive: arrived.",
   "slots": {
    "bus": [
     "bus",
@@ -1249,7 +1255,7 @@ export default [
   "source": "Our old {pet} was died last year, {name}.",
   "hint": "Our old {pet} ______ last year, {name}.",
   "key": "died",
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "No was with die: died.",
   "slots": {
    "pet": [
     "dog",
@@ -1277,7 +1283,7 @@ export default [
   "source": "The vase was fallen off the {furn}, {name}.",
   "hint": "The vase ______ off the {furn}, {name}.",
   "key": "fell",
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "No was with fall: fell.",
   "slots": {
    "furn": [
     "table",
@@ -1305,7 +1311,7 @@ export default [
   "source": "My {thing} was disappeared from my bag, {name}.",
   "hint": "My {thing} ______ from my bag, {name}.",
   "key": "disappeared",
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "No was with disappear: disappeared.",
   "slots": {
    "thing": [
     "pen",
@@ -1333,7 +1339,7 @@ export default [
   "source": "Someone stole my {thing} at the bazaar, {name}.",
   "hint": "My {thing} ______ at the bazaar, {name}.",
   "key": "was stolen",
-  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "why": "Someone stole → was stolen.",
   "slots": {
    "thing": [
     "bag",
@@ -1361,7 +1367,7 @@ export default [
   "source": "They built this {building} in {year}.",
   "hint": "This {building} ______ in {year}.",
   "key": "was built",
-  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "why": "They built → was built.",
   "slots": {
    "building": [
     "theatre",
@@ -1389,7 +1395,7 @@ export default [
   "source": "Someone found the lost {pet} in the park, {name}.",
   "hint": "The lost {pet} ______ in the park, {name}.",
   "key": "was found",
-  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "why": "Someone found → was found.",
   "slots": {
    "pet": [
     "dog",
@@ -1417,7 +1423,7 @@ export default [
   "source": "They invited all the {who} to the wedding, {name}.",
   "hint": "All the {who} ______ to the wedding, {name}.",
   "key": "were invited",
-  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "why": "They invited → were invited.",
   "slots": {
    "who": [
     "neighbours",
@@ -1445,7 +1451,7 @@ export default [
   "source": "Someone opened the {thing} at night, {name}.",
   "hint": "The {thing} ______ at night, {name}.",
   "key": "was opened",
-  "why": "This verb has an object; here the subject receives the action: was / were + past participle.",
+  "why": "Someone opened → was opened.",
   "slots": {
    "thing": [
     "door",
@@ -1473,7 +1479,7 @@ export default [
   "source": "The {bus} arrives at nine, {name}.",
   "hint": "Yesterday the {bus} ______ at nine, {name}.",
   "key": "arrived",
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "Past time (Yesterday): arrived.",
   "slots": {
    "bus": [
     "bus",
@@ -1498,16 +1504,22 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite in the past simple.",
-  "source": "The guests come at six, {name}.",
-  "hint": "On Friday the guests ______ at six, {name}.",
+  "source": "The guests come at {h}, {name}.",
+  "hint": "On Friday the guests ______ at {h}, {name}.",
   "key": "came",
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "Past time (On Friday): came.",
   "slots": {
    "name": [
     "Feruza",
     "Otabek",
     "Dilnoza",
     "Sardor"
+   ],
+   "h": [
+    "six",
+    "seven",
+    "noon",
+    "eight"
    ]
   }
  },
@@ -1523,7 +1535,7 @@ export default [
   "source": "The baby sleeps well in the {room}, {name}.",
   "hint": "Last night the baby ______ well in the {room}, {name}.",
   "key": "slept",
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "Past time (Last night): slept.",
   "slots": {
    "room": [
     "bedroom",
@@ -1551,7 +1563,7 @@ export default [
   "source": "Accidents often happen on this {road}, {name}.",
   "hint": "Last week an accident ______ on this {road}, {name}.",
   "key": "happened",
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "Past time (Last week): happened.",
   "slots": {
    "road": [
     "road",
@@ -1576,16 +1588,22 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite in the past simple.",
-  "source": "Many tourists stay in this hotel in {city}.",
-  "hint": "Last year many tourists ______ in this hotel in {city}.",
+  "source": "Many tourists stay in this {stay} in {city}.",
+  "hint": "Last year many tourists ______ in this {stay} in {city}.",
   "key": "stayed",
-  "why": "This verb has no object, so it has no passive: use the active past simple.",
+  "why": "Past time (Last year): stayed.",
   "slots": {
    "city": [
     "Samarkand",
     "Bukhara",
     "Khiva",
     "Istanbul"
+   ],
+   "stay": [
+    "hotel",
+    "guesthouse",
+    "hostel",
+    "old house"
    ]
   }
  },

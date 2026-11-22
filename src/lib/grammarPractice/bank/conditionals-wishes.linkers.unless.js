@@ -17,7 +17,7 @@ export default [
    "so that"
   ],
   "key": 0,
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "You won't pass if you don't study more: unless.",
   "slots": {
    "test": [
     "exam",
@@ -49,7 +49,7 @@ export default [
    "unless"
   ],
   "key": 3,
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "We'll miss it if we don't leave now: unless.",
   "slots": {
    "bus": [
     "bus",
@@ -81,7 +81,7 @@ export default [
    "if"
   ],
   "key": 2,
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "I can't help if you don't tell me: unless.",
   "slots": {
    "thing": [
     "problem",
@@ -113,7 +113,7 @@ export default [
    "when"
   ],
   "key": 1,
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "Don't call if it isn't important: unless.",
   "slots": {
    "place": [
     "hospital",
@@ -145,7 +145,7 @@ export default [
    "so that"
   ],
   "key": 0,
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "They will die if you don't water them: unless.",
   "slots": {
    "plant": [
     "plants",
@@ -177,7 +177,7 @@ export default [
    "unless"
   ],
   "key": 3,
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "You can't enter if you don't have a ticket: unless.",
   "slots": {
    "place": [
     "museum",
@@ -209,7 +209,7 @@ export default [
    "if"
   ],
   "key": 2,
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "I'll be there if the … isn't late: unless.",
   "slots": {
    "bus": [
     "bus",
@@ -241,7 +241,7 @@ export default [
    "when"
   ],
   "key": 1,
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "She won't come if you don't invite her: unless.",
   "slots": {
    "event": [
     "party",
@@ -273,7 +273,7 @@ export default [
    "so that"
   ],
   "key": 0,
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "The picnic is on if it doesn't rain: unless.",
   "slots": {
    "place": [
     "park",
@@ -305,7 +305,7 @@ export default [
    "unless"
   ],
   "key": 3,
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "You'll get cold if you don't wear one: unless.",
   "slots": {
    "coat": [
     "coat",
@@ -337,7 +337,7 @@ export default [
    "if"
   ],
   "key": 2,
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "No borrowing if you don't promise: unless.",
   "slots": {
    "thing": [
     "car",
@@ -369,7 +369,7 @@ export default [
    "when"
   ],
   "key": 1,
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "Don't eat it if it isn't fresh: unless.",
   "slots": {
    "food": [
     "fish",
@@ -401,7 +401,7 @@ export default [
    "so that"
   ],
   "key": 0,
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "No entry if you don't take your shoes off: unless.",
   "slots": {
    "place": [
     "bedroom",
@@ -433,7 +433,7 @@ export default [
    "unless"
   ],
   "key": 3,
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "They will lose if they don't play better: unless.",
   "slots": {
    "team": [
     "Sunrise FC",
@@ -465,7 +465,7 @@ export default [
    "don't leave"
   ],
   "key": 2,
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "After unless, positive present: leave.",
   "slots": {
    "bus": [
     "bus",
@@ -497,7 +497,7 @@ export default [
    "will come"
   ],
   "key": 1,
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "After unless, positive present: come.",
   "slots": {
    "event": [
     "party",
@@ -529,7 +529,7 @@ export default [
    "was"
   ],
   "key": 0,
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "After unless, present for the future: everyone is.",
   "slots": {
    "thing": [
     "meeting",
@@ -561,7 +561,7 @@ export default [
    "speaks"
   ],
   "key": 3,
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "After unless + he, present: speaks.",
   "slots": {
    "lang": [
     "English",
@@ -593,7 +593,7 @@ export default [
    "don't give"
   ],
   "key": 2,
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "After unless, positive present: give.",
   "slots": {
    "pet": [
     "cat",
@@ -625,7 +625,7 @@ export default [
    "will have"
   ],
   "key": 1,
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "After unless, positive present: have.",
   "slots": {
    "car": [
     "car",
@@ -652,7 +652,7 @@ export default [
   "instr": "Write unless or if.",
   "source": "You'll be late for the {event} ______ you take a taxi, {name}.",
   "key": "unless",
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "Late if you don't take a taxi: unless.",
   "slots": {
    "event": [
     "wedding",
@@ -679,7 +679,7 @@ export default [
   "instr": "Write unless or if.",
   "source": "I won't tell {who} ______ you say it's OK, {name}.",
   "key": "unless",
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "I won't tell if you don't say OK: unless.",
   "slots": {
    "who": [
     "anyone",
@@ -706,7 +706,7 @@ export default [
   "instr": "Write unless or if.",
   "source": "We'll go to the {place} tomorrow ______ it snows, {name}.",
   "key": "unless",
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "We'll go if it doesn't snow: unless.",
   "slots": {
    "place": [
     "beach",
@@ -733,7 +733,7 @@ export default [
   "instr": "Write unless or if.",
   "source": "You can't use the {room} ______ you have a key, {name}.",
   "key": "unless",
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "No room use if you don't have a key: unless.",
   "slots": {
    "room": [
     "gym",
@@ -760,7 +760,7 @@ export default [
   "instr": "Write unless or if.",
   "source": "The {food} will go bad ______ you put it in the fridge, {name}.",
   "key": "unless",
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "It will go bad if it isn't in the fridge: unless.",
   "slots": {
    "food": [
     "milk",
@@ -787,7 +787,7 @@ export default [
   "instr": "Write unless or if.",
   "source": "Don't buy the {thing} ______ it's on sale, {name}.",
   "key": "unless",
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "Don't buy it if it isn't on sale: unless.",
   "slots": {
    "thing": [
     "TV",
@@ -814,7 +814,7 @@ export default [
   "instr": "Write unless or if.",
   "source": "I always walk ______ it's raining. Then I take the {bus}, {name}.",
   "key": "unless",
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "I walk, except when it's raining: unless.",
   "slots": {
    "bus": [
     "bus",
@@ -841,7 +841,7 @@ export default [
   "instr": "Write unless or if.",
   "source": "She won't speak to her {who} ______ he says sorry, {name}.",
   "key": "unless",
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "She won't speak if he doesn't say sorry: unless.",
   "slots": {
    "who": [
     "brother",
@@ -868,7 +868,7 @@ export default [
   "instr": "Write unless or if.",
   "source": "You won't get better before the {event} ______ you rest, {name}.",
   "key": "unless",
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "You won't get better if you don't rest: unless.",
   "slots": {
    "event": [
     "match",
@@ -895,7 +895,7 @@ export default [
   "instr": "Write unless or if.",
   "source": "They can't win ______ they score in the next {n} minutes, {name}.",
   "key": "unless",
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "They can't win if they don't score: unless.",
   "slots": {
    "n": [
     "five",
@@ -922,7 +922,7 @@ export default [
   "instr": "Write unless or if.",
   "source": "I'll see you at the {place} at eight ______ I'm working late, {name}.",
   "key": "unless",
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "I'll see you, except if I'm working late: unless.",
   "slots": {
    "place": [
     "café",
@@ -949,7 +949,7 @@ export default [
   "instr": "Write unless or if.",
   "source": "The {who} won't start ______ we're all quiet, {name}.",
   "key": "unless",
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "It won't start if we aren't quiet: unless.",
   "slots": {
    "who": [
     "teacher",
@@ -976,7 +976,7 @@ export default [
   "instr": "Write unless or if.",
   "source": "Don't open the {door} ______ you know who it is, {name}.",
   "key": "unless",
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "Don't open if you don't know who: unless.",
   "slots": {
    "door": [
     "door",
@@ -1003,7 +1003,7 @@ export default [
   "instr": "Write unless or if.",
   "source": "You can't park here ______ you live in this {street}, {name}.",
   "key": "unless",
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "No parking if you don't live here: unless.",
   "slots": {
    "street": [
     "street",
@@ -1030,7 +1030,7 @@ export default [
   "instr": "Write unless or if.",
   "source": "You'll pass the {test} ______ you study hard, {name}.",
   "key": "if",
-  "why": "The condition is positive here: if.",
+  "why": "Pass only when you study hard: positive condition: if.",
   "slots": {
    "test": [
     "exam",
@@ -1057,7 +1057,7 @@ export default [
   "instr": "Write unless or if.",
   "source": "Call me ______ you need help with the {work}, {name}.",
   "key": "if",
-  "why": "The condition is positive here: if.",
+  "why": "Call when you need help: positive condition: if.",
   "slots": {
    "work": [
     "move",
@@ -1084,7 +1084,7 @@ export default [
   "instr": "Write unless or if.",
   "source": "We'll stay at home ______ it rains on {day}, {name}.",
   "key": "if",
-  "why": "The condition is positive here: if.",
+  "why": "We stay home when it rains: positive condition: if.",
   "slots": {
    "day": [
     "Saturday",
@@ -1111,7 +1111,7 @@ export default [
   "instr": "Write unless or if.",
   "source": "I'll buy the {thing} ______ I get my salary on Friday, {name}.",
   "key": "if",
-  "why": "The condition is positive here: if.",
+  "why": "I'll buy it when I get paid: positive condition: if.",
   "slots": {
    "thing": [
     "TV",
@@ -1138,7 +1138,7 @@ export default [
   "instr": "Write unless or if.",
   "source": "The {pet} gets angry ______ you touch its food, {name}.",
   "key": "if",
-  "why": "The condition is positive here: if.",
+  "why": "It gets angry when you touch it: positive condition: if.",
   "slots": {
    "pet": [
     "cat",
@@ -1165,7 +1165,7 @@ export default [
   "instr": "Write unless or if.",
   "source": "You can sit on the {seat} ______ you're tired, {name}.",
   "key": "if",
-  "why": "The condition is positive here: if.",
+  "why": "Sit when you're tired: positive condition: if.",
   "slots": {
    "seat": [
     "bench",
@@ -1193,7 +1193,7 @@ export default [
   "source": "If you don't hurry, we'll miss the {bus}, {name}.",
   "hint": "______, we'll miss the {bus}, {name}.",
   "key": "Unless you hurry",
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "If you don't hurry → Unless you hurry.",
   "slots": {
    "bus": [
     "bus",
@@ -1221,7 +1221,7 @@ export default [
   "source": "If it doesn't rain, we'll have a picnic in the {place}, {name}.",
   "hint": "______, we'll have a picnic in the {place}, {name}.",
   "key": "Unless it rains",
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "If it doesn't rain → Unless it rains.",
   "slots": {
    "place": [
     "park",
@@ -1249,7 +1249,7 @@ export default [
   "source": "If Lola doesn't study, she won't pass the {test}, {name}.",
   "hint": "______, she won't pass the {test}, {name}.",
   "key": "Unless Lola studies",
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "If Lola doesn't study → Unless Lola studies.",
   "slots": {
    "test": [
     "exam",
@@ -1277,7 +1277,7 @@ export default [
   "source": "If they don't invite me, I won't go to the {event}, {name}.",
   "hint": "______, I won't go to the {event}, {name}.",
   "key": "Unless they invite me",
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "If they don't invite me → Unless they invite me.",
   "slots": {
    "event": [
     "party",
@@ -1305,7 +1305,7 @@ export default [
   "source": "If you don't water them, the {plant} will die, {name}.",
   "hint": "______, the {plant} will die, {name}.",
   "key": "Unless you water them",
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "If you don't water them → Unless you water them.",
   "slots": {
    "plant": [
     "flowers",
@@ -1333,7 +1333,7 @@ export default [
   "source": "We'll miss the {bus} unless you don't hurry, {name}.",
   "hint": "We'll miss the {bus} unless ______, {name}.",
   "key": "you hurry",
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "unless already means if not: you hurry, no don't.",
   "slots": {
    "bus": [
     "bus",
@@ -1361,7 +1361,7 @@ export default [
   "source": "I won't go to the {event} unless they don't invite me, {name}.",
   "hint": "I won't go to the {event} unless ______, {name}.",
   "key": "they invite me",
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "unless already means if not: they invite me.",
   "slots": {
    "event": [
     "party",
@@ -1389,7 +1389,7 @@ export default [
   "source": "Lola won't pass the {test} unless she doesn't study, {name}.",
   "hint": "Lola won't pass the {test} unless ______, {name}.",
   "key": "she studies",
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "unless already means if not: she studies.",
   "slots": {
    "test": [
     "exam",
@@ -1417,7 +1417,7 @@ export default [
   "source": "We'll start the {thing} at six unless Timur will be late, {name}.",
   "hint": "We'll start the {thing} at six unless ______, {name}.",
   "key": "Timur is late",
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "No will after unless: Timur is late.",
   "slots": {
    "thing": [
     "meeting",
@@ -1445,7 +1445,7 @@ export default [
   "source": "The {pet} won't eat unless you will give it {food}.",
   "hint": "The {pet} won't eat unless ______ it {food}.",
   "key": "you give",
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "No will after unless: you give.",
   "slots": {
    "pet": [
     "cat",
@@ -1473,7 +1473,7 @@ export default [
   "source": "Take a coat. If you don't, you'll get cold in the {place}, {name}.",
   "hint": "You'll get cold in the {place} ______ a coat, {name}.",
   "key": "unless you take",
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "If you don't take a coat → unless you take.",
   "slots": {
    "place": [
     "mountains",
@@ -1506,7 +1506,7 @@ export default [
   "source": "Hurry up! If not, the {shop} will be closed, {name}.",
   "hint": "The {shop} will be closed ______ up, {name}.",
   "key": "unless you hurry",
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "If not (hurry) → unless you hurry.",
   "slots": {
    "shop": [
     "bank",
@@ -1537,7 +1537,7 @@ export default [
   "source": "Book now. If you don't, there won't be any seats at the {event}, {name}.",
   "hint": "There won't be any seats at the {event} ______ now, {name}.",
   "key": "unless you book",
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "If you don't book → unless you book.",
   "slots": {
    "event": [
     "concert",
@@ -1568,7 +1568,7 @@ export default [
   "source": "Say sorry. If you don't, your {who} will stay angry, {name}.",
   "hint": "Your {who} will stay angry ______ sorry, {name}.",
   "key": "unless you say",
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "If you don't say sorry → unless you say.",
   "slots": {
    "who": [
     "brother",
@@ -1596,7 +1596,7 @@ export default [
   "source": "Turn left at the {place}. If you don't, you'll get lost, {name}.",
   "hint": "You'll get lost ______ left at the {place}, {name}.",
   "key": "unless you turn",
-  "why": "unless = if … not, with a positive present verb after it.",
+  "why": "If you don't turn left → unless you turn.",
   "slots": {
    "place": [
     "bank",

@@ -6,277 +6,277 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 1. This **glass** is dirty. Can I have ______ one, please, **Timur**?  
    options: ✔ another · other · others · an other  
-   why: One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.
+   why: "This one is dirty": one more of the same kind: another.
 
 2. I'm still hungry. Can I have ______ **samsa**, **Aziz**?  
    options: other · others · an other · ✔ another  
-   why: One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.
+   why: "still hungry": one more: another.
 
-3. We'll stay in **Bukhara** for ______ two days.  
+3. We'll stay in **Bukhara** for ______ **four** days.  
    options: others · an other · ✔ another · other  
-   why: One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.
+   why: A number + days after the gap: another + number.
 
-4. I don't like this **bag**. Can you show me ______, **Aziz**?  
+4. I don't like this **jacket**. Can you show me ______, **Lola**?  
    options: the another · ✔ another · other · an other  
-   why: One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.
+   why: "I don't like this": a different one: another.
 
-5. Would you like ______ **glass of water**, **Timur**?  
+5. Would you like ______ **cup of coffee**, **Olga**?  
    options: ✔ another · other · others · an other  
-   why: One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.
+   why: Offering one more drink: another.
 
-6. He missed the bus, so he waited for ______ **bus**, **Olga**.  
+6. He missed the bus, so he waited for ______ **bus**, **Lola**.  
    options: other · others · an other · ✔ another  
-   why: One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.
+   why: He missed one, so he waited for one more: another.
 
-7. That's ______ good idea, **Timur**! Let's **tell Mum**.  
+7. That's ______ good idea, **Aziz**! Let's **write it down**.  
    options: others · an other · ✔ another · other  
-   why: One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.
+   why: One more good idea, singular: another.
 
-8. My phone broke, so I had to buy ______ **yesterday**.  
+8. My **phone** broke, so I had to buy ______ **last night**.  
    options: the another · ✔ another · other · an other  
-   why: One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.
+   why: Mine broke, so one more, a new one: another.
 
-9. Some people like tea, but ______ people prefer coffee, **Olga**.  
+9. Some people like tea, but ______ people prefer **coffee**, **Timur**.  
    options: ✔ other · others · another · the another  
-   why: Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.
+   why: other + plural noun people: other.
 
-10. Do you have this **shirt** in any ______ colours, **Timur**?  
+10. Do you have this **bag** in any ______ colours, **Olga**?  
    options: others · another · the another · ✔ other  
-   why: Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.
+   why: any + plural noun colours: other.
 
-11. We visited **Samarkand** and some ______ cities on our trip.  
+11. We visited **Samarkand** and some ______ cities on our **trip**.  
    options: another · the another · ✔ other · others  
-   why: Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.
+   why: some + plural noun cities: other.
 
-12. Are there any ______ questions before we **go**, **Olga**?  
+12. Are there any ______ questions before we **stop**, **Lola**?  
    options: the another · ✔ other · others · another  
-   why: Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.
+   why: any + plural noun questions: other.
 
-13. She speaks **English** and two ______ languages, **Aziz**.  
+13. She speaks **English** and two ______ languages, **Olga**.  
    options: ✔ other · others · another · the another  
-   why: Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.
+   why: two + plural noun languages: other.
 
-14. I don't know any ______ students in this **school**, **Lola**.  
+14. I don't know any ______ students in this **school**, **Aziz**.  
    options: others · another · the another · ✔ other  
-   why: Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.
+   why: any + plural noun students: other.
 
-15. Let's try ______ ways to learn **new words**, **Olga**.  
+15. Let's try ______ ways to learn **grammar**, **Timur**.  
    options: another · the another · ✔ other · others  
-   why: Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.
+   why: Plural noun ways after the gap: other.
 
-16. Some of my friends like **volleyball**; ______ prefer chess.  
+16. Some of my friends like **basketball**; ______ prefer **cards**.  
    options: the another · ✔ others · other · another  
-   why: No noun follows, so use others (= other people / other ones). Other needs a noun after it; another is only one.
+   why: No noun after it: the rest of my friends: others.
 
-17. Be kind to ______ at **school**, **Olga**.  
+17. Be kind to ______ at **school**, **Lola**.  
    options: ✔ others · other · another · the another  
-   why: No noun follows, so use others (= other people / other ones). Other needs a noun after it; another is only one.
+   why: "Be kind to …": people in general, no noun: others.
 
-18. Some guests are always early for the **dinner**, and ______ are always late.  
+18. Some **guests** are always early for the **wedding**, and ______ are always late.  
    options: other · another · the another · ✔ others  
-   why: No noun follows, so use others (= other people / other ones). Other needs a noun after it; another is only one.
+   why: No noun after it: the rest of the …: others.
 
 19. I've read this book. Do you have any ______ by the same **poet**, **Olga**?  
    options: another · the another · ✔ others · other  
-   why: No noun follows, so use others (= other people / other ones). Other needs a noun after it; another is only one.
+   why: No noun after it: other books: others.
 
 20. Some **families** speak Russian at home; ______ speak Uzbek.  
    options: the another · ✔ others · other · another  
-   why: No noun follows, so use others (= other people / other ones). Other needs a noun after it; another is only one.
+   why: Some speak one language; the rest, no noun: others.
 
 ## build (20)
 
 1. _Write another, other or others._  
    I need ______ **charger**. This one doesn't work, **Olga**.  
    key: another  
-   why: One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.
+   why: "This one doesn't work": one more: another.
 
 2. _Write another, other or others._  
-   Can we meet ______ day, **Aziz**? I'm busy on **Friday**.  
+   Can we meet ______ day, **Olga**? I'm busy on **Monday**.  
    key: another  
-   why: One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.
+   why: "I'm busy on …": a different day: another.
 
 3. _Write another, other or others._  
-   Let's watch ______ film **tomorrow**, **Aziz**.  
+   Let's watch ______ film **at the weekend**, **Aziz**.  
    key: another  
-   why: One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.
+   why: One more film, singular: another.
 
 4. _Write another, other or others._  
    There's ______ **minibus** in ten minutes, **Olga**.  
    key: another  
-   why: One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.
+   why: One more …, singular: another.
 
 5. _Write another, other or others._  
-   I'd like ______ **glass of juice**, please, **Aziz**.  
+   I'd like ______ **cup of tea**, please, **Timur**.  
    key: another  
-   why: One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.
+   why: One more drink, singular: another.
 
 6. _Write another, other or others._  
-   She has ______ exam on **Saturday**, **Aziz**.  
+   She has ______ exam on **Tuesday**, **Lola**.  
    key: another  
-   why: One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.
+   why: One more exam, singular: another.
 
 7. _Write another, other or others._  
-   Please give him ______ chance, **Lola**. He's only **seven**.  
+   Please give him ______ chance, **Timur**. He's only **six**.  
    key: another  
-   why: One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.
+   why: One more chance, singular: another.
 
 8. _Write another, other or others._  
-   I like **football** and ______ sports too, **Timur**.  
+   I like **football** and ______ sports too, **Olga**.  
    key: other  
-   why: Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.
+   why: Plural noun sports: other.
 
 9. _Write another, other or others._  
-   Are there any ______ ideas for the **wedding**, **Lola**?  
+   Are there any ______ ideas for the **party**, **Aziz**?  
    key: other  
-   why: Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.
+   why: any + plural noun ideas: other.
 
 10. _Write another, other or others._  
-   We met people from many ______ countries in **Khiva**.  
+   We met people from many ______ countries in **Bukhara**.  
    key: other  
-   why: Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.
+   why: many + plural noun countries: other.
 
 11. _Write another, other or others._  
-   Do you know any ______ songs by this **singer**, **Aziz**?  
+   Do you know any ______ songs by this **group**, **Timur**?  
    key: other  
-   why: Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.
+   why: any + plural noun songs: other.
 
 12. _Write another, other or others._  
-   There are some ______ ways to cook **rice**.  
+   There are some ______ ways to cook **eggs**.  
    key: other  
-   why: Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.
+   why: some + plural noun ways: other.
 
 13. _Write another, other or others._  
-   I don't have any ______ plans for **the weekend**, **Aziz**.  
+   I don't have any ______ plans for **tonight**, **Olga**.  
    key: other  
-   why: Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.
+   why: any + plural noun plans: other.
 
 14. _Write another, other or others._  
-   My brother and some ______ boys played **basketball** **on Friday**.  
+   My brother and some ______ boys played **basketball** **last night**.  
    key: other  
-   why: Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.
+   why: some + plural noun boys: other.
 
 15. _Write another, other or others._  
-   Some children like **soup**, but ______ don't, **Lola**.  
+   Some children like **carrots**, but ______ don't, **Olga**.  
    key: others  
-   why: No noun follows, so use others (= other people / other ones). Other needs a noun after it; another is only one.
+   why: No noun after it: other children: others.
 
 16. _Write another, other or others._  
    Some of the **chairs** are new; ______ are very old.  
    key: others  
-   why: No noun follows, so use others (= other people / other ones). Other needs a noun after it; another is only one.
+   why: Some are new; the rest of them, no noun: others.
 
 17. _Write another, other or others._  
-   Don't worry about what ______ think about your **clothes**, **Olga**.  
+   Don't worry about what ______ think about your **clothes**, **Aziz**.  
    key: others  
-   why: No noun follows, so use others (= other people / other ones). Other needs a noun after it; another is only one.
+   why: "what … think": other people, no noun: others.
 
 18. _Write another, other or others._  
-   Help ______ at **work** when you can, **Lola**.  
+   Help ______ at **home** when you can, **Aziz**.  
    key: others  
-   why: No noun follows, so use others (= other people / other ones). Other needs a noun after it; another is only one.
+   why: "Help … when you can": other people, no noun: others.
 
 19. _Write another, other or others._  
    Some shops open at eight, and ______ open at **ten**.  
    key: others  
-   why: No noun follows, so use others (= other people / other ones). Other needs a noun after it; another is only one.
+   why: No noun after it: the rest of the shops: others.
 
 20. _Write another, other or others._  
-   This **jacket** is too small. Do you have any ______, **Olga**?  
+   This **bag** is too small. Do you have any ______, **Lola**?  
    key: others  
-   why: No noun follows, so use others (= other people / other ones). Other needs a noun after it; another is only one.
+   why: No noun after it: other ones: others.
 
 ## transform (15)
 
 1. _Correct the mistake._  
-   Can I have other **cup of tea**, **Timur**?  
-   → Can I have ______ **cup of tea**, **Timur**?  
+   Can I have other **glass of water**, **Lola**?  
+   → Can I have ______ **glass of water**, **Lola**?  
    key: another  
-   why: One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.
+   why: Singular noun: another, not other.
 
 2. _Correct the mistake._  
-   Others people think the **trip** is a good idea, **Olga**.  
-   → ______ people think the **trip** is a good idea, **Olga**.  
+   Others people think the **project** is a good idea, **Timur**.  
+   → ______ people think the **project** is a good idea, **Timur**.  
    key: Other  
-   why: Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.
+   why: Before a noun, other has no -s: Other people.
 
 3. _Correct the mistake._  
-   I want to read another books by this **novelist**, **Lola**.  
-   → I want to read ______ books by this **novelist**, **Lola**.  
+   I want to read another books by this **poet**, **Timur**.  
+   → I want to read ______ books by this **poet**, **Timur**.  
    key: other  
-   why: Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.
+   why: Plural noun books: other, not another.
 
 4. _Correct the mistake._  
-   Let's try an other way to **learn this**, **Lola**.  
-   → Let's try ______ way to **learn this**, **Lola**.  
+   Let's try an other way to **get there**, **Olga**.  
+   → Let's try ______ way to **get there**, **Olga**.  
    key: another  
-   why: One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.
+   why: another is one word: another way.
 
 5. _Correct the mistake._  
-   Some people walk to **college**; other take the bus, **Timur**.  
-   → Some people walk to **college**; ______ take the bus, **Timur**.  
+   Some people walk to **school**; other take the bus, **Aziz**.  
+   → Some people walk to **school**; ______ take the bus, **Aziz**.  
    key: others  
-   why: No noun follows, so use others (= other people / other ones). Other needs a noun after it; another is only one.
+   why: No noun after it: others, not other.
 
 6. _Rewrite with another._  
-   Can I have one more **sandwich**, **Timur**?  
-   → Can I have ______ **sandwich**, **Timur**?  
+   Can I have one more **apple**, **Timur**?  
+   → Can I have ______ **apple**, **Timur**?  
    key: another  
-   why: One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.
+   why: one more + singular food = another.
 
 7. _Rewrite with another._  
-   I need one more day to finish the **project**, **Olga**.  
-   → I need ______ day to finish the **project**, **Olga**.  
+   I need one more day to finish the **report**, **Olga**.  
+   → I need ______ day to finish the **report**, **Olga**.  
    key: another  
-   why: One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.
+   why: one more day = another day.
 
 8. _Rewrite with another._  
-   Let's wait for one more **hour**, **Aziz**.  
-   → Let's wait for ______ **hour**, **Aziz**.  
+   Let's wait for one more **week**, **Aziz**.  
+   → Let's wait for ______ **week**, **Aziz**.  
    key: another  
-   why: One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.
+   why: Wait for one more = wait for another.
 
 9. _Rewrite with another._  
    There's one more **apple** in the fridge, **Timur**.  
    → There's ______ **apple** in the fridge, **Timur**.  
    key: another  
-   why: One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.
+   why: There's one more = there's another.
 
 10. _Rewrite with another._  
-   We'll stay for two more days in **Khiva**.  
-   → We'll stay for ______ two days in **Khiva**.  
+   We'll stay for two more days in **Bukhara**.  
+   → We'll stay for ______ two days in **Bukhara**.  
    key: another  
-   why: One more, or a different single one: another (one word, an + other). Other can't stand before a singular noun on its own.
+   why: two more days = another two days.
 
 11. _Rewrite with other or others._  
-   Do you have this **dress** in any different colours, **Lola**?  
-   → Do you have this **dress** in any ______ colours, **Lola**?  
+   Do you have this **shirt** in any different colours, **Lola**?  
+   → Do you have this **shirt** in any ______ colours, **Lola**?  
    key: other  
-   why: Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.
+   why: different colours = other colours.
 
 12. _Rewrite with other or others._  
-   Some students like grammar. Some students like **speaking** more, **Olga**.  
-   → Some students like grammar; ______ like **speaking** more, **Olga**.  
+   Some students like grammar. Some students like **reading** more, **Lola**.  
+   → Some students like grammar; ______ like **reading** more, **Lola**.  
    key: others  
-   why: No noun follows, so use others (= other people / other ones). Other needs a noun after it; another is only one.
+   why: Some students …; the rest, no noun: others.
 
 13. _Rewrite with other or others._  
    Ask different people about the **school**, not only me, **Olga**.  
    → Ask ______ people about the **school**, not only me, **Olga**.  
    key: other  
-   why: Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.
+   why: different people = other people.
 
 14. _Rewrite with other or others._  
    Some days are hot, and some days are cold in **March**.  
    → Some days are hot, and ______ are cold in **March**.  
    key: others  
-   why: No noun follows, so use others (= other people / other ones). Other needs a noun after it; another is only one.
+   why: Some days …; the rest, no noun: others.
 
 15. _Rewrite with other or others._  
-   Are there any more questions about the **lesson**, **Olga**?  
-   → Are there any ______ questions about the **lesson**, **Olga**?  
+   Are there any more questions about the **lesson**, **Lola**?  
+   → Are there any ______ questions about the **lesson**, **Lola**?  
    key: other  
-   why: Before a plural noun, use other with no -s: other people, other colours. Another is only for one thing; others never goes before a noun.
+   why: more questions = other questions.
 
 ## create (8)
 

@@ -65,6 +65,12 @@ export function validateItem(it, i = 0) {
     if (n < 1) at(`${it.format} needs at least one blank`);
     if (Array.isArray(it.key)) {
       if (it.key.length !== n) at(`key has ${it.key.length} parts but there are ${n} blanks`);
+      // Alternatives for a multi-blank key (21 Nov 2026): each one is a whole
+      // answer, an array with one entry per blank.
+      if (it.acceptable !== undefined &&
+          !(Array.isArray(it.acceptable) && it.acceptable.every((a) =>
+            Array.isArray(a) && a.length === n && a.every((x) => typeof x === "string" && x.trim()))))
+        at(`acceptable for a ${n}-part key must be a list of ${n}-part answers`);
     } else if (typeof it.key === "string") {
       if (n > 1) at(`${n} blanks but key is a single string — use an array, one entry per blank`);
       // The defect an AI verifier does not catch: the key restating words that

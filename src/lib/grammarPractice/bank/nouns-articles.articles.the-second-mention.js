@@ -17,7 +17,7 @@ export default [
    "–"
   ],
   "key": 0,
-  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "why": "First mention of the man: a. Then \"The man\".",
   "slots": {
    "place": [
     "bus stop",
@@ -49,7 +49,7 @@ export default [
    "the"
   ],
   "key": 3,
-  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "why": "The dog was already mentioned: the.",
   "slots": {
    "place": [
     "yard",
@@ -81,7 +81,7 @@ export default [
    "the"
   ],
   "key": 2,
-  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "why": "First mention of the shop: a. Then \"The shop\".",
   "slots": {
    "city": [
     "Tashkent",
@@ -113,7 +113,7 @@ export default [
    "an"
   ],
   "key": 1,
-  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "why": "The sofa was already mentioned: the.",
   "slots": {
    "home": [
     "flat",
@@ -145,7 +145,7 @@ export default [
    "–"
   ],
   "key": 0,
-  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "why": "First mention of the letter: a. Then \"The letter\".",
   "slots": {
    "place": [
     "table",
@@ -177,7 +177,7 @@ export default [
    "the"
   ],
   "key": 3,
-  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "why": "The girl was already mentioned: the.",
   "slots": {
    "event": [
     "party",
@@ -209,7 +209,7 @@ export default [
    "the"
   ],
   "key": 2,
-  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "why": "First mention of the teacher: a. Then \"The teacher\".",
   "slots": {
    "city": [
     "Bukhara",
@@ -241,7 +241,7 @@ export default [
    "an"
   ],
   "key": 1,
-  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "why": "The film was already mentioned: the.",
   "slots": {
    "topic": [
     "space",
@@ -273,7 +273,7 @@ export default [
    "–"
   ],
   "key": 0,
-  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "why": "First mention of the tree: a. Then \"The tree\".",
   "slots": {
    "home": [
     "house",
@@ -305,7 +305,7 @@ export default [
    "the"
   ],
   "key": 3,
-  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "why": "The poem was already mentioned: the.",
   "slots": {
    "when": [
     "on Monday",
@@ -337,7 +337,7 @@ export default [
    "the"
   ],
   "key": 2,
-  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "why": "First mention of the bird: a. Then \"The bird\".",
   "slots": {
    "place": [
     "kitchen",
@@ -369,7 +369,7 @@ export default [
    "an"
   ],
   "key": 1,
-  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "why": "The salad was already mentioned: the.",
   "slots": {
    "place": [
     "café",
@@ -401,7 +401,7 @@ export default [
    "–"
   ],
   "key": 0,
-  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "why": "First mention of the cat: a. Then \"The cat\".",
   "slots": {
    "cname": [
     "Mosh",
@@ -433,7 +433,7 @@ export default [
    "the"
   ],
   "key": 3,
-  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "why": "The pharmacy was already mentioned: the.",
   "slots": {
    "street": [
     "street",
@@ -465,7 +465,7 @@ export default [
    "the"
   ],
   "key": 2,
-  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "why": "First mention of the student: a. Then \"The student\".",
   "slots": {
    "name": [
     "Aziz",
@@ -497,7 +497,7 @@ export default [
    "an"
   ],
   "key": 1,
-  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "why": "Her son was already mentioned: the.",
   "slots": {
    "vehicle": [
     "bus",
@@ -529,7 +529,7 @@ export default [
    "–"
   ],
   "key": 0,
-  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "why": "First mention of the queue: a. Then \"The queue\".",
   "slots": {
    "place": [
     "bank",
@@ -561,7 +561,7 @@ export default [
    "the"
   ],
   "key": 3,
-  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "why": "The cake was already mentioned: the.",
   "slots": {
    "event": [
     "party",
@@ -593,7 +593,7 @@ export default [
    "the"
   ],
   "key": 2,
-  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "why": "First mention of the plan: a. Then \"The plan\".",
   "slots": {
    "when": [
     "weekend",
@@ -625,7 +625,7 @@ export default [
    "an"
   ],
   "key": 1,
-  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "why": "The doctor was already mentioned: the.",
   "slots": {
    "event": [
     "wedding",
@@ -652,7 +652,7 @@ export default [
   "instr": "Write a or the.",
   "source": "There is ______ new café near {place}, {name}.",
   "key": "a",
-  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "why": "A new café, first mention: a.",
   "slots": {
    "place": [
     "our school",
@@ -679,7 +679,7 @@ export default [
   "instr": "Write a or the.",
   "source": "I bought a hat and a scarf for {who}. ______ scarf is {colour}.",
   "key": "The",
-  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "why": "The scarf was already mentioned: The.",
   "slots": {
    "who": [
     "Grandma",
@@ -706,7 +706,7 @@ export default [
   "instr": "Write a or the.",
   "source": "My brother has ______ new job in {city}, {name}.",
   "key": "a",
-  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "why": "A new job, first mention: a.",
   "slots": {
    "city": [
     "Tashkent",
@@ -733,7 +733,7 @@ export default [
   "instr": "Write a or the.",
   "source": "A man and his daughter were waiting for {what}. ______ daughter was {doing}.",
   "key": "The",
-  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "why": "His daughter was already mentioned: The.",
   "slots": {
    "what": [
     "a bus",
@@ -760,7 +760,7 @@ export default [
   "instr": "Write a or the.",
   "source": "In art class {name} drew ______ picture of {thing}.",
   "key": "a",
-  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "why": "One picture, first mention: a.",
   "slots": {
    "name": [
     "Aziz",
@@ -787,7 +787,7 @@ export default [
   "instr": "Write a or the.",
   "source": "We have a cat and a parrot at home. ______ parrot can say \"{word}\", {name}.",
   "key": "The",
-  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "why": "The parrot was already mentioned: The.",
   "slots": {
    "word": [
     "hello",
@@ -814,7 +814,7 @@ export default [
   "instr": "Write a or the.",
   "source": "There was ______ big box outside our door {when}, {name}.",
   "key": "a",
-  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "why": "A big box, first mention: a.",
   "slots": {
    "when": [
     "this morning",
@@ -841,7 +841,7 @@ export default [
   "instr": "Write a or the.",
   "source": "Our class has a new board and a new computer. ______ computer is very {adj}, {name}.",
   "key": "The",
-  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "why": "The computer was already mentioned: The.",
   "slots": {
    "adj": [
     "fast",
@@ -868,7 +868,7 @@ export default [
   "instr": "Write a or the.",
   "source": "{name} has ______ sister and two {who}.",
   "key": "a",
-  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "why": "One sister, first mention: a.",
   "slots": {
    "name": [
     "Aziz",
@@ -895,7 +895,7 @@ export default [
   "instr": "Write a or the.",
   "source": "I ordered a tea and a sandwich. ______ sandwich was {adj}, {name}.",
   "key": "The",
-  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "why": "The sandwich was already mentioned: The.",
   "slots": {
    "adj": [
     "cold",
@@ -922,7 +922,7 @@ export default [
   "instr": "Write a or the.",
   "source": "There's ______ small hole in my {thing}, {name}.",
   "key": "a",
-  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "why": "A small hole, first mention: a.",
   "slots": {
    "thing": [
     "shoe",
@@ -949,7 +949,7 @@ export default [
   "instr": "Write a or the.",
   "source": "A girl and a boy sang at our {event}. ______ boy was only {age}.",
   "key": "The",
-  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "why": "The boy was already mentioned: The.",
   "slots": {
    "event": [
     "concert",
@@ -976,7 +976,7 @@ export default [
   "instr": "Write a or the.",
   "source": "I had ______ strange dream last night, {name}. It was about {topic}.",
   "key": "a",
-  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "why": "A strange dream, first mention: a.",
   "slots": {
    "name": [
     "Aziz",
@@ -1003,7 +1003,7 @@ export default [
   "instr": "Write a or the.",
   "source": "There's a pen and a notebook on my {place}. ______ notebook is {owner}'s.",
   "key": "The",
-  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "why": "The notebook was already mentioned: The.",
   "slots": {
    "place": [
     "desk",
@@ -1030,7 +1030,7 @@ export default [
   "instr": "Write a or the.",
   "source": "Can I ask you ______ question about the {thing}, {name}?",
   "key": "a",
-  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "why": "One question, first mention: a.",
   "slots": {
    "thing": [
     "homework",
@@ -1057,7 +1057,7 @@ export default [
   "instr": "Write a or the.",
   "source": "I saw a horse and a cow near our {place}. ______ cow was {doing}.",
   "key": "The",
-  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "why": "The cow was already mentioned: The.",
   "slots": {
    "place": [
     "village",
@@ -1084,7 +1084,7 @@ export default [
   "instr": "Write a or the.",
   "source": "There's ______ man at the door, {name}. He wants to see {who}.",
   "key": "a",
-  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "why": "A man, not known yet: a.",
   "slots": {
    "name": [
     "Aziz",
@@ -1111,7 +1111,7 @@ export default [
   "instr": "Write a or the.",
   "source": "We stayed in a small hotel in {city}. It had a garden. ______ garden was full of {plant}.",
   "key": "The",
-  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "why": "\"It had a garden\", then the same garden: The.",
   "slots": {
    "city": [
     "Khiva",
@@ -1138,7 +1138,7 @@ export default [
   "instr": "Write a or the.",
   "source": "I've got ______ headache, {name}. Can you turn off the {thing}?",
   "key": "a",
-  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "why": "A headache, first mention: a.",
   "slots": {
    "name": [
     "Aziz",
@@ -1165,7 +1165,7 @@ export default [
   "instr": "Write a or the.",
   "source": "My friend sent me a photo and a video. ______ video was {adj}, {name}.",
   "key": "The",
-  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "why": "The video was already mentioned: The.",
   "slots": {
    "adj": [
     "funny",
@@ -1193,7 +1193,7 @@ export default [
   "source": "We met a boy and a girl at {event}. A girl was {who}'s sister.",
   "hint": "We met a boy and a girl at {event}. ______ girl was {who}'s sister.",
   "key": "The",
-  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "why": "The girl was mentioned before: The, not A.",
   "slots": {
    "event": [
     "my cousin's wedding",
@@ -1221,7 +1221,7 @@ export default [
   "source": "I bought a shirt and a belt {when}. Belt was {adj}.",
   "hint": "I bought a shirt and a belt {when}. ______ belt was {adj}.",
   "key": "The",
-  "why": "We already said a …, so we both know which one. Use the; English can't leave it out.",
+  "why": "Singular noun needs an article: The belt.",
   "slots": {
    "when": [
     "yesterday",
@@ -1249,7 +1249,7 @@ export default [
   "source": "My aunt has a dog and a cat. A cat is {colour}, {name}.",
   "hint": "My aunt has a dog and a cat. ______ cat is {colour}, {name}.",
   "key": "The",
-  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "why": "The cat was mentioned before: The, not A.",
   "slots": {
    "colour": [
     "white",
@@ -1277,7 +1277,7 @@ export default [
   "source": "We watched a match and a film {when}. Film was {adj}.",
   "hint": "We watched a match and a film {when}. ______ film was {adj}.",
   "key": "The",
-  "why": "We already said a …, so we both know which one. Use the; English can't leave it out.",
+  "why": "Singular noun needs an article: The film.",
   "slots": {
    "when": [
     "on Saturday",
@@ -1305,7 +1305,7 @@ export default [
   "source": "There's a sink and a cooker in our kitchen. A cooker is {adj}, {name}.",
   "hint": "There's a sink and a cooker in our kitchen. ______ cooker is {adj}, {name}.",
   "key": "The",
-  "why": "Second mention: we already said a …, so now we both know which one. Use the.",
+  "why": "The cooker was mentioned before: The, not A.",
   "slots": {
    "adj": [
     "new",
@@ -1333,7 +1333,7 @@ export default [
   "source": "There is the new shop on our {street}, {name}.",
   "hint": "There is ______ new shop on our {street}, {name}.",
   "key": "a",
-  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "why": "New shop, first mention: a, not the.",
   "slots": {
    "street": [
     "street",
@@ -1361,7 +1361,7 @@ export default [
   "source": "My uncle has the farm in {region}. The farm has {animal}.",
   "hint": "My uncle has ______ farm in {region}. The farm has {animal}.",
   "key": "a",
-  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "why": "New farm, first mention: a, not the.",
   "slots": {
    "region": [
     "the mountains",
@@ -1389,7 +1389,7 @@ export default [
   "source": "Last night I saw film about {topic}. The film was great, {name}.",
   "hint": "Last night I saw ______ film about {topic}. The film was great, {name}.",
   "key": "a",
-  "why": "First mention of one film: the listener doesn't know it yet. Use a; it can't be left out.",
+  "why": "Singular noun, first mention: a film.",
   "slots": {
    "topic": [
     "space",
@@ -1417,7 +1417,7 @@ export default [
   "source": "There's the strange noise in our {room}, {name}.",
   "hint": "There's ______ strange noise in our {room}, {name}.",
   "key": "a",
-  "why": "First mention: the listener doesn't know this one yet, so use a.",
+  "why": "New noise, first mention: a, not the.",
   "slots": {
    "room": [
     "kitchen",
@@ -1445,7 +1445,7 @@ export default [
   "source": "I have got new phone. The phone is {colour}, {name}.",
   "hint": "I have got ______ new phone. The phone is {colour}, {name}.",
   "key": "a",
-  "why": "First mention of one phone: the listener doesn't know it yet. Use a; it can't be left out.",
+  "why": "Singular noun, first mention: a new phone.",
   "slots": {
    "colour": [
     "black",
@@ -1476,7 +1476,7 @@ export default [
    "a",
    "The"
   ],
-  "why": "First mention → a; the same kitten again → the.",
+  "why": "First a kitten, then the kitten.",
   "slots": {
    "place": [
     "yard",
@@ -1507,7 +1507,7 @@ export default [
    "a",
    "The"
   ],
-  "why": "First mention → a; the same bakery again → the.",
+  "why": "First a bakery, then the bakery.",
   "slots": {
    "time": [
     "six",
@@ -1538,7 +1538,7 @@ export default [
    "a",
    "The"
   ],
-  "why": "First mention → a; the same garden again → the.",
+  "why": "First a garden, then the garden.",
   "slots": {
    "thing": [
     "flowers",
@@ -1569,7 +1569,7 @@ export default [
    "a",
    "The"
   ],
-  "why": "First mention → a; the same storm again → the.",
+  "why": "First a storm, then the storm.",
   "slots": {
    "when": [
     "last night",
@@ -1600,7 +1600,7 @@ export default [
    "a",
    "The"
   ],
-  "why": "First mention → a; the same woman again → the.",
+  "why": "First a woman, then the woman.",
   "slots": {
    "place": [
     "station",

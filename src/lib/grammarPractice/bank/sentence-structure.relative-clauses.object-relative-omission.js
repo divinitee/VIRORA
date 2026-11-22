@@ -17,7 +17,7 @@ export default [
    "(nothing)"
   ],
   "key": 0,
-  "why": "The noun is the object of the verb, so that, which or nothing all work. Where is only for places you are in (where I live), not for a thing you bought or saw.",
+  "why": "A thing I bought: that, which or nothing work; where is for places.",
   "slots": {
    "thing": [
     "jacket",
@@ -55,7 +55,7 @@ export default [
    "what"
   ],
   "key": 3,
-  "why": "That, which or nothing all work after a noun. What can't follow a noun: the film what we watched is wrong.",
+  "why": "Something we watched: that, which or nothing; never what after a noun.",
   "slots": {
    "film": [
     "film",
@@ -87,7 +87,7 @@ export default [
    "who"
   ],
   "key": 2,
-  "why": "For people use who or that, or leave the word out. Which is for things.",
+  "why": "A person we met: who, that or nothing work; which is for things.",
   "slots": {
    "who": [
     "woman",
@@ -119,7 +119,7 @@ export default [
    "which"
   ],
   "key": 1,
-  "why": "The noun is the object of the verb, so that, which or nothing all work. Where is only for places you are in (where I live), not for a thing you bought or saw.",
+  "why": "Something Grandma gave me: that, which or nothing; where is for places.",
   "slots": {
    "thing": [
     "ring",
@@ -151,7 +151,7 @@ export default [
    "(nothing)"
   ],
   "key": 0,
-  "why": "For people use who or that, or leave the word out. Which is for things.",
+  "why": "A person I called: who, that or nothing; which is for things.",
   "slots": {
    "who": [
     "doctor",
@@ -183,7 +183,7 @@ export default [
    "what"
   ],
   "key": 3,
-  "why": "That, which or nothing all work after a noun. What can't follow a noun: the film what we watched is wrong.",
+  "why": "Food Dad cooked: that, which or nothing; never what after a noun.",
   "slots": {
    "food": [
     "plov",
@@ -215,7 +215,7 @@ export default [
    "that"
   ],
   "key": 2,
-  "why": "The noun is the object of the verb, so that, which or nothing all work. Where is only for places you are in (where I live), not for a thing you bought or saw.",
+  "why": "A thing you lent me: that, which or nothing; where is for places.",
   "slots": {
    "thing": [
     "book",
@@ -247,7 +247,7 @@ export default [
    "what I wanted"
   ],
   "key": 1,
-  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "why": "I wanted it, so it's the object: leave out the word: I wanted.",
   "slots": {
    "thing": [
     "dress",
@@ -279,7 +279,7 @@ export default [
    "where we saw"
   ],
   "key": 0,
-  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "why": "We saw it, so it's the object: just we saw.",
   "slots": {
    "film": [
     "film",
@@ -311,7 +311,7 @@ export default [
    "you met"
   ],
   "key": 3,
-  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "why": "You met them, so the object: just you met.",
   "slots": {
    "who": [
     "woman",
@@ -343,7 +343,7 @@ export default [
    "you lost it"
   ],
   "key": 2,
-  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "why": "You lost it, so the object: just you lost.",
   "slots": {
    "thing": [
     "key",
@@ -375,7 +375,7 @@ export default [
    "what we had"
   ],
   "key": 1,
-  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "why": "We had it, so the object: just we had.",
   "slots": {
    "meal": [
     "plov",
@@ -407,7 +407,7 @@ export default [
    "where you gave me"
   ],
   "key": 0,
-  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "why": "You gave it to me: the object: just you gave me.",
   "slots": {
    "gift": [
     "scarf",
@@ -439,7 +439,7 @@ export default [
    "we stayed with"
   ],
   "key": 3,
-  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "why": "We stayed with them: the object, with stays at the end.",
   "slots": {
    "who": [
     "people",
@@ -471,7 +471,7 @@ export default [
    "lives"
   ],
   "key": 2,
-  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "why": "The person does the living, so the subject: who lives.",
   "slots": {
    "who": [
     "man",
@@ -509,7 +509,7 @@ export default [
    "which it is"
   ],
   "key": 1,
-  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "why": "The thing does the being, so the subject: which is.",
   "slots": {
    "thing": [
     "phone",
@@ -541,7 +541,7 @@ export default [
    "what lives"
   ],
   "key": 0,
-  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "why": "The person does the living (subject): who lives.",
   "slots": {
    "who": [
     "aunt",
@@ -573,7 +573,7 @@ export default [
    "which goes"
   ],
   "key": 3,
-  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "why": "The bus does the going (subject): which goes.",
   "slots": {
    "place": [
     "airport",
@@ -605,7 +605,7 @@ export default [
    "won"
   ],
   "key": 2,
-  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "why": "The person did the winning (subject): who won.",
   "slots": {
    "who": [
     "boys",
@@ -637,7 +637,7 @@ export default [
    "which it broke"
   ],
   "key": 1,
-  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "why": "The thing did the breaking (subject): which broke.",
   "slots": {
    "thing": [
     "lift",
@@ -667,7 +667,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "why": "A person who did the helping: subject, so who.",
   "slots": {
    "who": [
     "woman",
@@ -703,7 +703,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "why": "A person who speaks: subject, so who.",
   "slots": {
    "who": [
     "girl",
@@ -733,7 +733,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "why": "Children who won: subject, so who.",
   "slots": {
    "comp": [
     "race",
@@ -763,7 +763,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "why": "The man who fixed it: subject, so who.",
   "slots": {
    "thing": [
     "car",
@@ -793,7 +793,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "why": "A person who lives above: subject, so who.",
   "slots": {
    "who": [
     "woman",
@@ -823,7 +823,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "why": "A person who teaches: subject, so who.",
   "slots": {
    "who": [
     "teacher",
@@ -853,7 +853,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "why": "People who eat: subject, so who.",
   "slots": {
    "food": [
     "fruit",
@@ -883,7 +883,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "why": "A person who called: subject, so who.",
   "slots": {
    "who": [
     "man",
@@ -919,7 +919,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "why": "A person who sings: subject, so who.",
   "slots": {
    "who": [
     "girl",
@@ -949,7 +949,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "why": "Tourists who came: subject, so who.",
   "slots": {
    "city": [
     "Samarkand",
@@ -979,7 +979,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "why": "A thing that broke: subject, so which.",
   "slots": {
    "thing": [
     "chair",
@@ -1015,7 +1015,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "why": "A kind of thing that has an ending: subject, so which.",
   "slots": {
    "kind": [
     "films",
@@ -1045,7 +1045,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "why": "A bus that goes: subject, so which.",
   "slots": {
    "place": [
     "airport",
@@ -1075,7 +1075,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "why": "A thing that costs: subject, so which.",
   "slots": {
    "thing": [
     "phone",
@@ -1105,7 +1105,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "why": "A place that opened: subject, so which.",
   "slots": {
    "shop": [
     "bakery",
@@ -1135,7 +1135,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "why": "A hotel that had something: subject, so which.",
   "slots": {
    "thing": [
     "pool",
@@ -1165,7 +1165,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "why": "A thing that is in the kitchen: which.",
   "slots": {
    "thing": [
     "cup",
@@ -1195,7 +1195,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "why": "A thing that works: subject, so which.",
   "slots": {
    "thing": [
     "map",
@@ -1225,7 +1225,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "why": "A thing that fell: subject, so which.",
   "slots": {
    "thing": [
     "apple",
@@ -1255,7 +1255,7 @@ export default [
   "acceptable": [
    "that"
   ],
-  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "why": "Plants that grow: subject, so which.",
   "slots": {
    "place": [
     "in the garden",
@@ -1283,7 +1283,7 @@ export default [
   "source": "The {thing} that we watched was boring, {name}.",
   "hint": "The {thing} ______ was boring, {name}.",
   "key": "we watched",
-  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "why": "that is the object (we watched it): drop it.",
   "slots": {
    "thing": [
     "film",
@@ -1311,7 +1311,7 @@ export default [
   "source": "The {who} who I met at the {event} was {adj}.",
   "hint": "The {who} ______ at the {event} was {adj}.",
   "key": "I met",
-  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "why": "who is the object (I met them): drop it.",
   "slots": {
    "who": [
     "woman",
@@ -1345,7 +1345,7 @@ export default [
   "source": "Is this the {thing} which you bought {when}, {name}?",
   "hint": "Is this the {thing} ______ {when}, {name}?",
   "key": "you bought",
-  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "why": "which is the object (you bought it): drop it.",
   "slots": {
    "thing": [
     "bag",
@@ -1379,7 +1379,7 @@ export default [
   "source": "The {food} that Grandma cooks is the best, {name}.",
   "hint": "The {food} ______ is the best, {name}.",
   "key": "Grandma cooks",
-  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "why": "that is the object (Grandma cooks it): drop it.",
   "slots": {
    "food": [
     "plov",
@@ -1407,7 +1407,7 @@ export default [
   "source": "The people that we visited in {city} were very kind, {name}.",
   "hint": "The people ______ in {city} were very kind, {name}.",
   "key": "we visited",
-  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "why": "that is the object (we visited them): drop it.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1435,7 +1435,7 @@ export default [
   "source": "I bought a {thing} {when}. It was cheap.",
   "hint": "The {thing} ______ {when} was cheap.",
   "key": "I bought",
-  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "why": "Join the sentences: The … I bought.",
   "slots": {
    "thing": [
     "jacket",
@@ -1463,7 +1463,7 @@ export default [
   "source": "You recommended a {thing}. I loved it, {name}.",
   "hint": "I loved the {thing} ______, {name}.",
   "key": "you recommended",
-  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "why": "Join the sentences: the … you recommended.",
   "slots": {
    "thing": [
     "book",
@@ -1491,7 +1491,7 @@ export default [
   "source": "We met a {who} on the train. She was from {city}.",
   "hint": "The {who} ______ on the train was from {city}.",
   "key": "we met",
-  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "why": "Join the sentences: The … we met.",
   "slots": {
    "who": [
     "woman",
@@ -1519,7 +1519,7 @@ export default [
   "source": "My friend took some {photos}. They are beautiful, {name}.",
   "hint": "The {photos} ______ are beautiful, {name}.",
   "key": "my friend took",
-  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "why": "Join the sentences: The … my friend took.",
   "slots": {
    "photos": [
     "photos",
@@ -1547,7 +1547,7 @@ export default [
   "source": "Dad told a {story}. Everyone laughed at it, {name}.",
   "hint": "Everyone laughed at the {story} ______, {name}.",
   "key": "Dad told",
-  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "why": "Join the sentences: the … Dad told.",
   "slots": {
    "story": [
     "story",
@@ -1579,7 +1579,7 @@ export default [
    "that I bought",
    "which I bought"
   ],
-  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "why": "Don't repeat the object: I bought, not I bought it.",
   "slots": {
    "thing": [
     "phone",
@@ -1617,7 +1617,7 @@ export default [
    "who we met",
    "that we met"
   ],
-  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "why": "Don't repeat the object: we met, not we met him.",
   "slots": {
    "who": [
     "man",
@@ -1649,7 +1649,7 @@ export default [
    "that we visited",
    "which we visited"
   ],
-  "why": "The noun is the object of the clause, so you can leave out the relative word: the film we saw. Don't add it / him / them again, and never use what or where here.",
+  "why": "After a noun, never what: we visited.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1680,7 +1680,7 @@ export default [
   "acceptable": [
    "that lives"
   ],
-  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "why": "The woman is the subject: who lives can't be dropped.",
   "slots": {
    "job": [
     "doctor",
@@ -1711,7 +1711,7 @@ export default [
   "acceptable": [
    "that leaves"
   ],
-  "why": "Here the relative word is the subject of its clause (someone lives next door), so it can't be left out: who for people, which (or that) for things. No extra he / it after it.",
+  "why": "The train is the subject: which leaves can't be dropped.",
   "slots": {
    "time": [
     "six",

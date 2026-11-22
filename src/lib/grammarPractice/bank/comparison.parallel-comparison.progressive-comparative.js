@@ -17,7 +17,7 @@ export default [
    "most and most nervous"
   ],
   "key": 0,
-  "why": "The change keeps growing: comparative + and + comparative, more and more nervous.",
+  "why": "\"As the … got closer\": the feeling grew: more and more nervous.",
   "slots": {
    "test": [
     "exam",
@@ -49,7 +49,7 @@ export default [
    "hotter and hotter"
   ],
   "key": 3,
-  "why": "The change keeps growing: comparative + and + comparative, hotter and hotter.",
+  "why": "Day after day in that month: hotter and hotter.",
   "slots": {
    "month": [
     "June",
@@ -81,7 +81,7 @@ export default [
    "more and more dark"
   ],
   "key": 2,
-  "why": "The change keeps growing: comparative + and + comparative, darker and darker.",
+  "why": "The walk went on, the light went: darker and darker.",
   "slots": {
    "place": [
     "park",
@@ -113,7 +113,7 @@ export default [
    "more expensive and expensive"
   ],
   "key": 1,
-  "why": "The change keeps growing: comparative + and + comparative, more and more expensive.",
+  "why": "\"every year\" a step up: more and more expensive.",
   "slots": {
    "city": [
     "Tashkent",
@@ -145,7 +145,7 @@ export default [
    "more louder and louder"
   ],
   "key": 0,
-  "why": "The change keeps growing: comparative + and + comparative, louder and louder.",
+  "why": "\"so we left\": the music kept rising: louder and louder.",
   "slots": {
    "event": [
     "party",
@@ -177,7 +177,7 @@ export default [
    "more and more tired"
   ],
   "key": 3,
-  "why": "The change keeps growing: comparative + and + comparative, more and more tired.",
+  "why": "\"After five hours\": more and more tired.",
   "slots": {
    "place": [
     "old town",
@@ -209,7 +209,7 @@ export default [
    "more and more big"
   ],
   "key": 2,
-  "why": "The change keeps growing: comparative + and + comparative, bigger and bigger.",
+  "why": "\"every week\" a bit more: bigger and bigger.",
   "slots": {
    "pet": [
     "puppy",
@@ -241,7 +241,7 @@ export default [
    "more difficult and difficult"
   ],
   "key": 1,
-  "why": "The change keeps growing: comparative + and + comparative, more and more difficult.",
+  "why": "\"as we went on\": more and more difficult.",
   "slots": {
    "task": [
     "test",
@@ -273,7 +273,7 @@ export default [
    "more colder and colder"
   ],
   "key": 0,
-  "why": "The change keeps growing: comparative + and + comparative, colder and colder.",
+  "why": "Night after night: colder and colder.",
   "slots": {
    "month": [
     "October",
@@ -305,7 +305,7 @@ export default [
    "more and more popular"
   ],
   "key": 3,
-  "why": "The change keeps growing: comparative + and + comparative, more and more popular.",
+  "why": "A growing trend: more and more popular.",
   "slots": {
    "thing": [
     "app",
@@ -337,7 +337,7 @@ export default [
    "more and more long"
   ],
   "key": 2,
-  "why": "The change keeps growing: comparative + and + comparative, longer and longer.",
+  "why": "Day after day: longer and longer.",
   "slots": {
    "month": [
     "March",
@@ -369,7 +369,7 @@ export default [
    "angry and angry"
   ],
   "key": 1,
-  "why": "The change keeps growing: comparative + and + comparative, angrier and angrier.",
+  "why": "Waiting made it grow: angry → angrier and angrier.",
   "slots": {
    "who": [
     "teacher",
@@ -401,7 +401,7 @@ export default [
    "more busier and busier"
   ],
   "key": 0,
-  "why": "The change keeps growing: comparative + and + comparative, busier and busier.",
+  "why": "busy ends in -y: busier and busier.",
   "slots": {
    "city": [
     "town",
@@ -433,7 +433,7 @@ export default [
    "more and more interesting"
   ],
   "key": 3,
-  "why": "The change keeps growing: comparative + and + comparative, more and more interesting.",
+  "why": "\"after the first chapter\": more and more interesting.",
   "slots": {
    "book": [
     "book",
@@ -465,7 +465,7 @@ export default [
    "more and more fast"
   ],
   "key": 2,
-  "why": "The change keeps growing: comparative + and + comparative, faster and faster.",
+  "why": "\"at the end of the race\": faster and faster.",
   "slots": {
    "runner": [
     "boy",
@@ -497,7 +497,7 @@ export default [
    "hungry and hungry"
   ],
   "key": 1,
-  "why": "The change keeps growing: comparative + and + comparative, hungrier and hungrier.",
+  "why": "Waiting for dinner: hungry → hungrier and hungrier.",
   "slots": {
    "place": [
     "wedding",
@@ -529,7 +529,7 @@ export default [
    "more heavier and heavier"
   ],
   "key": 0,
-  "why": "The change keeps growing: comparative + and + comparative, heavier and heavier.",
+  "why": "\"as I put more books in it\": heavier and heavier.",
   "slots": {
    "bag": [
     "bag",
@@ -561,7 +561,7 @@ export default [
    "more and more worried"
   ],
   "key": 3,
-  "why": "The change keeps growing: comparative + and + comparative, more and more worried.",
+  "why": "No call, the worry grew: more and more worried.",
   "slots": {
    "when": [
     "all evening",
@@ -593,7 +593,7 @@ export default [
    "more and more good"
   ],
   "key": 2,
-  "why": "The change keeps growing: comparative + and + comparative, better and better.",
+  "why": "good → better, again and again: better and better.",
   "slots": {
    "skill": [
     "English",
@@ -625,7 +625,7 @@ export default [
    "strong and strong"
   ],
   "key": 1,
-  "why": "The change keeps growing: comparative + and + comparative, stronger and stronger.",
+  "why": "\"so we stayed inside\": stronger and stronger.",
   "slots": {
    "weather": [
     "wind",
@@ -652,7 +652,7 @@ export default [
   "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
   "source": "As the {event} got closer, {name} felt ______ (nervous).",
   "key": "more and more nervous",
-  "why": "The change keeps growing: comparative + and + comparative, more and more nervous.",
+  "why": "nervous is long: more and more nervous.",
   "slots": {
    "event": [
     "exam",
@@ -679,7 +679,7 @@ export default [
   "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
   "source": "The weather in {city} is getting ______ (hot) every week, {name}.",
   "key": "hotter and hotter",
-  "why": "The change keeps growing: comparative + and + comparative, hotter and hotter.",
+  "why": "hot doubles the t: hotter and hotter.",
   "slots": {
    "city": [
     "Termez",
@@ -706,7 +706,7 @@ export default [
   "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
   "source": "As the sun went down over the {place}, it got ______ (cold), {name}.",
   "key": "colder and colder",
-  "why": "The change keeps growing: comparative + and + comparative, colder and colder.",
+  "why": "\"As the sun went down\": colder and colder.",
   "slots": {
    "place": [
     "mountains",
@@ -733,7 +733,7 @@ export default [
   "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
   "source": "Food at the {place} is getting ______ (expensive), {name}.",
   "key": "more and more expensive",
-  "why": "The change keeps growing: comparative + and + comparative, more and more expensive.",
+  "why": "expensive is long: more and more expensive.",
   "slots": {
    "place": [
     "bazaar",
@@ -760,7 +760,7 @@ export default [
   "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
   "source": "Our {tree} is getting ______ (tall) every year, {name}.",
   "key": "taller and taller",
-  "why": "The change keeps growing: comparative + and + comparative, taller and taller.",
+  "why": "\"every year\": taller and taller.",
   "slots": {
    "tree": [
     "apple tree",
@@ -787,7 +787,7 @@ export default [
   "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
   "source": "The noise from the {place} got ______ (loud) all night, {name}.",
   "key": "louder and louder",
-  "why": "The change keeps growing: comparative + and + comparative, louder and louder.",
+  "why": "\"all night\": louder and louder.",
   "slots": {
    "place": [
     "street",
@@ -814,7 +814,7 @@ export default [
   "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
   "source": "The questions in the {test} got ______ (difficult), {name}.",
   "key": "more and more difficult",
-  "why": "The change keeps growing: comparative + and + comparative, more and more difficult.",
+  "why": "difficult is long: more and more difficult.",
   "slots": {
    "test": [
     "test",
@@ -841,7 +841,7 @@ export default [
   "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
   "source": "The clouds over the {place} got ______ (dark). It was going to rain, {name}.",
   "key": "darker and darker",
-  "why": "The change keeps growing: comparative + and + comparative, darker and darker.",
+  "why": "\"It was going to rain\": darker and darker.",
   "slots": {
    "place": [
     "city",
@@ -868,7 +868,7 @@ export default [
   "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
   "source": "Learning {lang} is becoming ______ (popular) in our {place}.",
   "key": "more and more popular",
-  "why": "The change keeps growing: comparative + and + comparative, more and more popular.",
+  "why": "popular is long: more and more popular.",
   "slots": {
    "lang": [
     "Korean",
@@ -898,7 +898,7 @@ export default [
   "acceptable": [
    "more and more busy"
   ],
-  "why": "The change keeps growing: comparative + and + comparative, busier and busier.",
+  "why": "busy → busier (y → ier), said twice: busier and busier.",
   "slots": {
    "shop": [
     "shop",
@@ -925,7 +925,7 @@ export default [
   "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
   "source": "The queue at the {place} got ______ (long), {name}.",
   "key": "longer and longer",
-  "why": "The change keeps growing: comparative + and + comparative, longer and longer.",
+  "why": "long is short: longer and longer.",
   "slots": {
    "place": [
     "bank",
@@ -952,7 +952,7 @@ export default [
   "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
   "source": "We climbed the {hill} for hours. My legs got ______ (tired), {name}.",
   "key": "more and more tired",
-  "why": "The change keeps growing: comparative + and + comparative, more and more tired.",
+  "why": "tired: more and more tired.",
   "slots": {
    "hill": [
     "hill",
@@ -979,7 +979,7 @@ export default [
   "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
   "source": "The town is getting ______ (big). There are new {thing} everywhere, {name}.",
   "key": "bigger and bigger",
-  "why": "The change keeps growing: comparative + and + comparative, bigger and bigger.",
+  "why": "big doubles the g: bigger and bigger.",
   "slots": {
    "thing": [
     "houses",
@@ -1006,7 +1006,7 @@ export default [
   "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
   "source": "The {match} got ______ (interesting) in the second half, {name}.",
   "key": "more and more interesting",
-  "why": "The change keeps growing: comparative + and + comparative, more and more interesting.",
+  "why": "\"in the second half\": more and more interesting.",
   "slots": {
    "match": [
     "match",
@@ -1033,7 +1033,7 @@ export default [
   "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
   "source": "In {month}, the water in the {water} gets ______ (warm).",
   "key": "warmer and warmer",
-  "why": "The change keeps growing: comparative + and + comparative, warmer and warmer.",
+  "why": "warm is short: warmer and warmer.",
   "slots": {
    "month": [
     "May",
@@ -1063,7 +1063,7 @@ export default [
   "acceptable": [
    "more and more angry"
   ],
-  "why": "The change keeps growing: comparative + and + comparative, angrier and angrier.",
+  "why": "angry ends in -y: angrier and angrier.",
   "slots": {
    "who": [
     "driver",
@@ -1088,15 +1088,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
-  "source": "{name}'s cooking is getting ______ (good). Her plov is great now.",
+  "source": "{name}'s cooking is getting ______ (good). Her {dish} is great now.",
   "key": "better and better",
-  "why": "The change keeps growing: comparative + and + comparative, better and better.",
+  "why": "good → better: better and better.",
   "slots": {
    "name": [
     "Madina",
     "Olga",
     "Sevara",
     "Nilufar"
+   ],
+   "dish": [
+    "plov",
+    "soup",
+    "bread",
+    "cake"
    ]
   }
  },
@@ -1111,7 +1117,7 @@ export default [
   "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
   "source": "The pain in my {part} got ______ (bad), so I called the doctor, {name}.",
   "key": "worse and worse",
-  "why": "The change keeps growing: comparative + and + comparative, worse and worse.",
+  "why": "bad → worse: worse and worse.",
   "slots": {
    "part": [
     "tooth",
@@ -1138,7 +1144,7 @@ export default [
   "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
   "source": "As the night went on, the {place} got ______ (quiet), {name}.",
   "key": "quieter and quieter",
-  "why": "The change keeps growing: comparative + and + comparative, quieter and quieter.",
+  "why": "quiet takes -er: quieter and quieter.",
   "slots": {
    "place": [
     "street",
@@ -1163,15 +1169,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Show the change that keeps growing: write the comparative twice (… and …) with the adjective in brackets.",
-  "source": "{name} trains every day, so she is getting ______ (strong).",
+  "source": "{name} trains {often}, so she is getting ______ (strong).",
   "key": "stronger and stronger",
-  "why": "The change keeps growing: comparative + and + comparative, stronger and stronger.",
+  "why": "\"trains …\": stronger and stronger.",
   "slots": {
    "name": [
     "Madina",
     "Olga",
     "Sevara",
     "Nilufar"
+   ],
+   "often": [
+    "every day",
+    "five times a week",
+    "every morning",
+    "after school"
    ]
   }
  },
@@ -1187,7 +1199,7 @@ export default [
   "source": "It gets a bit hotter every day in {month}, {name}.",
   "hint": "It gets ______ in {month}, {name}.",
   "key": "hotter and hotter",
-  "why": "The change keeps growing: comparative + and + comparative, hotter and hotter.",
+  "why": "\"a bit hotter every day\" = hotter and hotter.",
   "slots": {
    "month": [
     "June",
@@ -1215,7 +1227,7 @@ export default [
   "source": "My {who} gets a little weaker every year, {name}.",
   "hint": "My {who} is getting ______, {name}.",
   "key": "weaker and weaker",
-  "why": "The change keeps growing: comparative + and + comparative, weaker and weaker.",
+  "why": "\"a little weaker every year\" = weaker and weaker.",
   "slots": {
    "who": [
     "grandfather",
@@ -1243,7 +1255,7 @@ export default [
   "source": "The {test} questions got a bit harder each time, {name}.",
   "hint": "The {test} questions got ______, {name}.",
   "key": "harder and harder",
-  "why": "The change keeps growing: comparative + and + comparative, harder and harder.",
+  "why": "\"a bit harder each time\" = harder and harder.",
   "slots": {
    "test": [
     "test",
@@ -1274,7 +1286,7 @@ export default [
   "acceptable": [
    "more and more busy"
   ],
-  "why": "The change keeps growing: comparative + and + comparative, busier and busier.",
+  "why": "\"a little busier every year\" = busier and busier.",
   "slots": {
    "city": [
     "Tashkent",
@@ -1302,7 +1314,7 @@ export default [
   "source": "{thing} get a bit more expensive every year, {name}.",
   "hint": "{thing} are getting ______, {name}.",
   "key": "more and more expensive",
-  "why": "The change keeps growing: comparative + and + comparative, more and more expensive.",
+  "why": "\"a bit more expensive every year\" = more and more expensive.",
   "slots": {
    "thing": [
     "Phones",
@@ -1330,7 +1342,7 @@ export default [
   "source": "It's getting more and more cold in {city}, {name}.",
   "hint": "It's getting ______ in {city}, {name}.",
   "key": "colder and colder",
-  "why": "The change keeps growing: comparative + and + comparative, colder and colder.",
+  "why": "cold is short: colder and colder, not more and more cold.",
   "slots": {
    "city": [
     "Moscow",
@@ -1358,7 +1370,7 @@ export default [
   "source": "The music got loud and loud at the {event}, {name}.",
   "hint": "The music got ______ at the {event}, {name}.",
   "key": "louder and louder",
-  "why": "The change keeps growing: comparative + and + comparative, louder and louder.",
+  "why": "Repeat the -er form: louder and louder.",
   "slots": {
    "event": [
     "party",
@@ -1386,7 +1398,7 @@ export default [
   "source": "I felt more nervous and nervous before the {test}, {name}.",
   "hint": "I felt ______ before the {test}, {name}.",
   "key": "more and more nervous",
-  "why": "The change keeps growing: comparative + and + comparative, more and more nervous.",
+  "why": "Repeat more, not the adjective: more and more nervous.",
   "slots": {
    "test": [
     "exam",
@@ -1414,7 +1426,7 @@ export default [
   "source": "My little {pet} is getting more bigger and bigger, {name}.",
   "hint": "My little {pet} is getting ______, {name}.",
   "key": "bigger and bigger",
-  "why": "The change keeps growing: comparative + and + comparative, bigger and bigger.",
+  "why": "Not more + -er: bigger and bigger.",
   "slots": {
    "pet": [
     "puppy",
@@ -1442,7 +1454,7 @@ export default [
   "source": "This {thing} is becoming most and most popular, {name}.",
   "hint": "This {thing} is becoming ______, {name}.",
   "key": "more and more popular",
-  "why": "The change keeps growing: comparative + and + comparative, more and more popular.",
+  "why": "more, not most: more and more popular.",
   "slots": {
    "thing": [
     "app",
@@ -1470,7 +1482,7 @@ export default [
   "source": "At first the sky over the {place} was dark. Then it was darker. Then it was very dark, {name}.",
   "hint": "The sky got ______, {name}.",
   "key": "darker and darker",
-  "why": "The change keeps growing: comparative + and + comparative, darker and darker.",
+  "why": "dark → darker → very dark: darker and darker.",
   "slots": {
    "place": [
     "city",
@@ -1495,19 +1507,25 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "The change keeps growing. Rewrite the three sentences as one.",
-  "source": "At first my bag was heavy. Then it was heavier. At the end it was very heavy, {name}.",
-  "hint": "My bag got ______, {name}.",
+  "source": "At first my {bag} was heavy. Then it was heavier. At the end it was very heavy, {name}.",
+  "hint": "My {bag} got ______, {name}.",
   "key": "heavier and heavier",
   "acceptable": [
    "more and more heavy"
   ],
-  "why": "The change keeps growing: comparative + and + comparative, heavier and heavier.",
+  "why": "heavy → heavier → very heavy: heavier and heavier.",
   "slots": {
    "name": [
     "Dilnoza",
     "Sardor",
     "Feruza",
     "Otabek"
+   ],
+   "bag": [
+    "bag",
+    "box",
+    "suitcase",
+    "basket"
    ]
   }
  },
@@ -1523,7 +1541,7 @@ export default [
   "source": "At first the {film} was interesting. Then it was more interesting. At the end it was great, {name}.",
   "hint": "The {film} got ______, {name}.",
   "key": "more and more interesting",
-  "why": "The change keeps growing: comparative + and + comparative, more and more interesting.",
+  "why": "interesting → more interesting: more and more interesting.",
   "slots": {
    "film": [
     "film",
@@ -1551,7 +1569,7 @@ export default [
   "source": "At first the queue at the {place} was long. Then it was longer. Then it was very long, {name}.",
   "hint": "The queue got ______, {name}.",
   "key": "longer and longer",
-  "why": "The change keeps growing: comparative + and + comparative, longer and longer.",
+  "why": "long → longer → very long: longer and longer.",
   "slots": {
    "place": [
     "bank",
@@ -1576,19 +1594,25 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "The change keeps growing. Rewrite the three sentences as one.",
-  "source": "At first {name} was angry. Then she was angrier. In the end she shouted.",
+  "source": "At first {name} was angry. Then she was angrier. In the end she {end}.",
   "hint": "{name} got ______.",
   "key": "angrier and angrier",
   "acceptable": [
    "more and more angry"
   ],
-  "why": "The change keeps growing: comparative + and + comparative, angrier and angrier.",
+  "why": "angry → angrier → shouting: angrier and angrier.",
   "slots": {
    "name": [
     "Madina",
     "Olga",
     "Sevara",
     "Nilufar"
+   ],
+   "end": [
+    "shouted",
+    "left the room",
+    "cried",
+    "slammed the door"
    ]
   }
  },

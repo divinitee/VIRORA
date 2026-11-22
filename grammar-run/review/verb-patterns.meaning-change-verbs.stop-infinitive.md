@@ -32,67 +32,67 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: look · looked · ✔ to look · looking  
    why: She heard a noise, so we stopped in order to do it: stop + to + base (to look).
 
-8. My phone rang, so I stopped ______ it, **Otabek**.  
+8. My **phone** rang, so I stopped ______ it, **Otabek**.  
    options: answered · ✔ to answer · answering · answer  
-   why: The phone rang, so we stopped in order to do it: stop + to + base (to answer).
+   why: Something rang, so I stopped in order to answer it: stop + to + base.
 
-9. His shoelace was loose, so he stopped ______ it in the **street**, **Nodira**.  
+9. His shoelace was loose, so he stopped ______ it in the **corridor**, **Malika**.  
    options: ✔ to tie · tying · tie · tied  
    why: The shoelace was loose, so we stopped in order to do it: stop + to + base (to tie).
 
-10. I saw my old **teacher** in the street and stopped ______ to her, **Nodira**.  
+10. I saw my old **classmate** in the street and stopped ______ to her, **Jamshid**.  
    options: talking · talk · talked · ✔ to talk  
-   why: I saw an old friend, so we stopped in order to do it: stop + to + base (to talk).
+   why: I saw an old …, so we stopped in order to do it: stop + to + base (to talk).
 
-11. The driver heard a noise, so he stopped ______ the **engine**, **Malika**.  
+11. The driver heard a noise, so he stopped ______ the **tyres**, **Malika**.  
    options: check · checked · ✔ to check · checking  
    why: There was a noise, so we stopped in order to do it: stop + to + base (to check).
 
-12. An old man fell in the **street**, so we stopped ______ him, **Sardor**.  
+12. An old man fell in the **square**, so we stopped ______ him, **Sardor**.  
    options: helped · ✔ to help · helping · help  
    why: Someone needed help, so we stopped in order to do it: stop + to + base (to help).
 
-13. There was a street concert in **Khiva**, so we stopped ______ it, **Malika**.  
+13. There was a street concert in **Samarkand**, so we stopped ______ it, **Jamshid**.  
    options: ✔ to watch · watching · watch · watched  
    why: Something interesting was there, so we stopped in order to do it: stop + to + base (to watch).
 
-14. I saw a sign on the **shop** door, so I stopped ______ it, **Ulugbek**.  
+14. I saw a sign on the **bank** door, so I stopped ______ it, **Malika**.  
    options: reading · read · reads · ✔ to read  
    why: There was a sign, so we stopped in order to do it: stop + to + base (to read).
 
-15. I met my **aunt** at the bazaar and stopped ______ hello, **Otabek**.  
+15. I met my **teacher** at the bazaar and stopped ______ hello, **Feruza**.  
    options: say · said · ✔ to say · saying  
    why: I met someone I know, so we stopped in order to do it: stop + to + base (to say).
 
-16. We saw some ripe **cherries** by the road and stopped ______ a few, **Nodira**.  
+16. We saw some ripe **cherries** by the road and stopped ______ a few, **Jamshid**.  
    options: picked · ✔ to pick · picking · pick  
    why: We saw ripe fruit, so we stopped in order to do it: stop + to + base (to pick).
 
-17. The runners stopped ______ a short break at the **fountain**, **Malika**.  
+17. The runners stopped ______ a short break at the **bridge**, **Ulugbek**.  
    options: ✔ to make · making · make · made  
    why: They needed a break, so we stopped in order to do it: stop + to + base (to make).
 
-18. My friend was slow, so I stopped ______ for her at the **bus stop**, **Jamshid**.  
+18. My friend was slow, so I stopped ______ for her at the **gate**, **Malika**.  
    options: waiting · wait · waited · ✔ to wait  
    why: My friend was slow, so we stopped in order to do it: stop + to + base (to wait).
 
-19. It was cold, so we stopped ______ some tea at a **chaikhana**, **Feruza**.  
+19. It was cold, so we stopped ______ some tea at a **kiosk**, **Otabek**.  
    options: get · got · ✔ to get · getting  
    why: It was cold, so we stopped in order to do it: stop + to + base (to get).
 
-20. Her bike had a flat tyre, so she stopped ______ it near the **school**, **Malika**.  
+20. Her bike had a flat tyre, so she stopped ______ it near the **river**, **Ulugbek**.  
    options: fixed · ✔ to fix · fixing · fix  
    why: The tyre was flat, so we stopped in order to do it: stop + to + base (to fix).
 
 ## build (20)
 
 1. _We stopped in order to do something. Complete with to + the verb in brackets._  
-   I was thirsty, so I stopped ______ (drink) some juice, **Sardor**.  
+   I was thirsty, so I stopped ______ (drink) some **water**, **Otabek**.  
    key: to drink  
    why: They stopped in order to do it: stop + to + base (to drink).
 
 2. _We stopped in order to do something. Complete with to + the verb in brackets._  
-   We were lost, so we stopped ______ (ask) a **taxi driver** the way, **Jamshid**.  
+   We were lost, so we stopped ______ (ask) a **guard** the way, **Ulugbek**.  
    key: to ask  
    why: They stopped in order to do it: stop + to + base (to ask).
 
@@ -102,27 +102,27 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: They stopped in order to do it: stop + to + base (to take).
 
 4. _We stopped in order to do something. Complete with to + the verb in brackets._  
-   We were tired, so we stopped ______ (rest) in the shade, **Malika**.  
+   We were tired, so we stopped ______ (rest) in the **shade**, **Jamshid**.  
    key: to rest  
    why: They stopped in order to do it: stop + to + base (to rest).
 
 5. _We stopped in order to do something. Complete with to + the verb in brackets._  
-   Mum needed **meat**, so she stopped ______ (buy) some at the bazaar on the way home, **Jamshid**.  
+   Mum needed **grapes**, so she stopped ______ (buy) some at the bazaar on the way home, **Jamshid**.  
    key: to buy  
    why: They stopped in order to do it: stop + to + base (to buy).
 
 6. _We stopped in order to do something. Complete with to + the verb in brackets._  
-   We were hungry, so we stopped ______ (eat) at a **café**, **Feruza**.  
+   We were hungry, so we stopped ______ (eat) at a **restaurant**, **Feruza**.  
    key: to eat  
    why: They stopped in order to do it: stop + to + base (to eat).
 
 7. _We stopped in order to do something. Complete with to + the verb in brackets._  
-   The **shoes** in the shop window were beautiful, so I stopped ______ (look) at them, **Ulugbek**.  
+   The **dresses** in the shop window were beautiful, so I stopped ______ (look) at them, **Malika**.  
    key: to look  
    why: They stopped in order to do it: stop + to + base (to look).
 
 8. _We stopped in order to do something. Complete with to + the verb in brackets._  
-   My phone rang in the **car**, so I stopped ______ (answer) it, **Malika**.  
+   My phone rang in the **park**, so I stopped ______ (answer) it, **Malika**.  
    key: to answer  
    why: They stopped in order to do it: stop + to + base (to answer).
 
@@ -132,22 +132,22 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: They stopped in order to do it: stop + to + base (to tie).
 
 10. _We stopped in order to do something. Complete with to + the verb in brackets._  
-   I met an old friend and stopped ______ (chat) for a few minutes, **Zarina**.  
+   I met an old **neighbour** and stopped ______ (chat) for a few minutes, **Feruza**.  
    key: to chat  
    why: They stopped in order to do it: stop + to + base (to chat).
 
 11. _We stopped in order to do something. Complete with to + the verb in brackets._  
-   There was a strange noise, so the driver stopped ______ (check) the **tyres**, **Jamshid**.  
+   There was a strange noise, so the driver stopped ______ (check) the **lights**, **Jamshid**.  
    key: to check  
    why: They stopped in order to do it: stop + to + base (to check).
 
 12. _We stopped in order to do something. Complete with to + the verb in brackets._  
-   An old woman dropped her **suitcase**, so everyone stopped ______ (help) her, **Nodira**.  
+   An old woman dropped her **shopping**, so everyone stopped ______ (help) her, **Jamshid**.  
    key: to help  
    why: They stopped in order to do it: stop + to + base (to help).
 
 13. _We stopped in order to do something. Complete with to + the verb in brackets._  
-   The street dancers in **Bukhara** were great, so we stopped ______ (watch) them, **Jamshid**.  
+   The street dancers in **Istanbul** were great, so we stopped ______ (watch) them, **Ulugbek**.  
    key: to watch  
    why: They stopped in order to do it: stop + to + base (to watch).
 
@@ -157,124 +157,124 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: They stopped in order to do it: stop + to + base (to read).
 
 15. _We stopped in order to do something. Complete with to + the verb in brackets._  
-   I saw my **aunt** and stopped ______ (say) hello, **Ulugbek**.  
+   I saw my **aunt** and stopped ______ (say) hello, **Malika**.  
    key: to say  
    why: They stopped in order to do it: stop + to + base (to say).
 
 16. _We stopped in order to do something. Complete with to + the verb in brackets._  
-   We saw ripe **apricots** by the road and stopped ______ (pick) some, **Jamshid**.  
+   We saw ripe **cherries** by the road and stopped ______ (pick) some, **Malika**.  
    key: to pick  
    why: They stopped in order to do it: stop + to + base (to pick).
 
 17. _We stopped in order to do something. Complete with to + the verb in brackets._  
-   It was freezing, so we stopped ______ (get) a hot drink at a **kiosk**, **Malika**.  
+   It was freezing, so we stopped ______ (get) a hot drink at a **kiosk**, **Ulugbek**.  
    key: to get  
    why: They stopped in order to do it: stop + to + base (to get).
 
 18. _We stopped in order to do something. Complete with to + the verb in brackets._  
-   My little **cousin** was slow, so I stopped ______ (wait) for him at the corner, **Zarina**.  
+   My little **son** was slow, so I stopped ______ (wait) for him at the corner, **Sardor**.  
    key: to wait  
    why: They stopped in order to do it: stop + to + base (to wait).
 
 19. _We stopped in order to do something. Complete with to + the verb in brackets._  
-   Her bike had a flat tyre, so she stopped ______ (fix) it near the **school**, **Ulugbek**.  
+   Her bike had a flat tyre, so she stopped ______ (fix) it near the **shop**, **Ulugbek**.  
    key: to fix  
    why: They stopped in order to do it: stop + to + base (to fix).
 
 20. _We stopped in order to do something. Complete with to + the verb in brackets._  
-   The driver had an urgent call, so he stopped ______ (make) it outside **Karshi**, **Ulugbek**.  
+   The driver had an urgent call, so he stopped ______ (make) it outside **Samarkand**, **Nodira**.  
    key: to make  
    why: They stopped in order to do it: stop + to + base (to make).
 
 ## transform (15)
 
 1. _Correct the mistake._  
-   I was thirsty, so I stopped drinking some water at the **kiosk**, **Sardor**.  
-   → I was thirsty, so I stopped ______ some water at the **kiosk**, **Sardor**.  
+   I was thirsty, so I stopped drinking some water at the **shop**, **Zarina**.  
+   → I was thirsty, so I stopped ______ some water at the **shop**, **Zarina**.  
    key: to drink  
    why: Thirsty = stopped in order to drink: to drink.
 
 2. _Correct the mistake._  
-   We were lost, so we stopped ask a man in **Moscow**, **Nodira**.  
-   → We were lost, so we stopped ______ a man in **Moscow**, **Nodira**.  
+   We were lost, so we stopped ask a man in **Bukhara**, **Jamshid**.  
+   → We were lost, so we stopped ______ a man in **Bukhara**, **Jamshid**.  
    key: to ask  
    why: Lost = stopped in order to ask: to ask.
 
 3. _Correct the mistake._  
-   The view of the **old town** was great, so we stopped taking photos, **Zarina**.  
-   → The view of the **old town** was great, so we stopped ______ photos, **Zarina**.  
+   The view of the **mountains** was great, so we stopped taking photos, **Otabek**.  
+   → The view of the **mountains** was great, so we stopped ______ photos, **Otabek**.  
    key: to take  
    why: A great view = stopped in order to take photos.
 
 4. _Correct the mistake._  
-   My legs were tired, so I stopped for rest in the **square**, **Jamshid**.  
-   → My legs were tired, so I stopped ______ in the **square**, **Jamshid**.  
+   My legs were tired, so I stopped for rest in the **garden**, **Nodira**.  
+   → My legs were tired, so I stopped ______ in the **garden**, **Nodira**.  
    key: to rest  
    why: stop + to + base: to rest, not for rest.
 
 5. _Correct the mistake._  
-   Dad stopped buy petrol at the **petrol station**, **Otabek**.  
-   → Dad stopped ______ petrol at the **petrol station**, **Otabek**.  
+   Dad stopped buy petrol at the **garage**, **Sardor**.  
+   → Dad stopped ______ petrol at the **garage**, **Sardor**.  
    key: to buy  
    why: stop + to + base: to buy.
 
 6. _Rewrite as one sentence with stopped + to._  
-   We stopped at a **restaurant**. We wanted to eat, **Nodira**.  
-   → We stopped at a **restaurant** ______, **Nodira**.  
+   We stopped at a **café**. We wanted to eat, **Jamshid**.  
+   → We stopped at a **café** ______, **Jamshid**.  
    key: to eat  
    why: The reason for stopping: to eat.
 
 7. _Rewrite as one sentence with stopped + to._  
-   I stopped in the **garden**. I wanted to rest, **Sardor**.  
-   → I stopped in the **garden** ______, **Sardor**.  
+   I stopped in the **square**. I wanted to rest, **Otabek**.  
+   → I stopped in the **square** ______, **Otabek**.  
    key: to rest  
    why: The reason for stopping: to rest.
 
 8. _Rewrite as one sentence with stopped + to._  
-   She stopped at the **bakery**. She wanted to buy some bread, **Jamshid**.  
-   → She stopped at the **bakery** ______ some bread, **Jamshid**.  
+   She stopped at the **bakery**. She wanted to buy some bread, **Ulugbek**.  
+   → She stopped at the **bakery** ______ some bread, **Ulugbek**.  
    key: to buy  
    why: The reason for stopping: to buy.
 
 9. _Rewrite as one sentence with stopped + to._  
-   We stopped by the **old tower**. We wanted to take photos, **Otabek**.  
-   → We stopped by the **old tower** ______ photos, **Otabek**.  
+   We stopped by the **river**. We wanted to take photos, **Sardor**.  
+   → We stopped by the **river** ______ photos, **Sardor**.  
    key: to take  
    why: The reason for stopping: to take photos.
 
 10. _Rewrite as one sentence with stopped + to._  
-   He stopped at the corner. He wanted to wait for his **sister**, **Ulugbek**.  
-   → He stopped at the corner ______ for his **sister**, **Ulugbek**.  
+   He stopped at the corner. He wanted to wait for his **son**, **Jamshid**.  
+   → He stopped at the corner ______ for his **son**, **Jamshid**.  
    key: to wait  
    why: The reason for stopping: to wait.
 
 11. _Rewrite with stopped + to._  
-   I was walking home, but I stopped and talked with my **teacher**, **Sardor**.  
-   → I was walking home, but I stopped ______ with my **teacher**, **Sardor**.  
+   I was walking home, but I stopped and talked with my **neighbour**, **Sardor**.  
+   → I was walking home, but I stopped ______ with my **neighbour**, **Sardor**.  
    key: to talk  
    why: stopped and talked = stopped to talk.
 
 12. _Rewrite with stopped + to._  
-   The driver stopped and checked the **map**, **Jamshid**.  
-   → The driver stopped ______ the **map**, **Jamshid**.  
+   The driver stopped and checked the **lights**, **Jamshid**.  
+   → The driver stopped ______ the **lights**, **Jamshid**.  
    key: to check  
    why: stopped and checked = stopped to check.
 
 13. _Rewrite with stopped + to._  
-   We stopped and watched the dancers in **Samarkand**, **Sardor**.  
-   → We stopped ______ the dancers in **Samarkand**, **Sardor**.  
+   We stopped and watched the dancers in **Samarkand**, **Zarina**.  
+   → We stopped ______ the dancers in **Samarkand**, **Zarina**.  
    key: to watch  
    why: stopped and watched = stopped to watch.
 
 14. _Rewrite with stopped + to._  
-   My mum stopped and helped an old man in the **square**, **Jamshid**.  
-   → My mum stopped ______ an old man in the **square**, **Jamshid**.  
+   My mum stopped and helped an old man in the **park**, **Nodira**.  
+   → My mum stopped ______ an old man in the **park**, **Nodira**.  
    key: to help  
    why: stopped and helped = stopped to help.
 
 15. _Rewrite with stopped + to._  
-   He stopped and fixed his bike near the **river**, **Zarina**.  
-   → He stopped ______ his bike near the **river**, **Zarina**.  
+   He stopped and fixed his bike near the **park**, **Sardor**.  
+   → He stopped ______ his bike near the **park**, **Sardor**.  
    key: to fix  
    why: stopped and fixed = stopped to fix.
 

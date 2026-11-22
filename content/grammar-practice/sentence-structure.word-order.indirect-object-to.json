@@ -15,7 +15,7 @@
    "explained for us the rule"
   ],
   "key": 0,
-  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "why": "explain + the thing + to + person: explained the rule to us.",
   "slots": {
    "who": [
     "teacher",
@@ -47,7 +47,7 @@
    "described the hotel to me"
   ],
   "key": 3,
-  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "why": "describe + the thing + to + person: described the hotel to me.",
   "slots": {
    "name": [
     "Aziz",
@@ -79,7 +79,7 @@
    "explain me this word"
   ],
   "key": 2,
-  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "why": "explain + the thing + to + person, never explain me.",
   "slots": {
    "name": [
     "Aziz",
@@ -111,7 +111,7 @@
    "introduced his friend me"
   ],
   "key": 1,
-  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "why": "introduce + the friend + to + person.",
   "slots": {
    "event": [
     "party",
@@ -143,7 +143,7 @@
    "said for everyone goodbye"
   ],
   "key": 0,
-  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "why": "say goodbye to someone, never say someone goodbye.",
   "slots": {
    "event": [
     "party",
@@ -175,7 +175,7 @@
    "suggested a dish to us"
   ],
   "key": 3,
-  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "why": "suggest + the thing + to + person, never suggest us.",
   "slots": {
    "name": [
     "Aziz",
@@ -207,7 +207,7 @@
    "lent to him it"
   ],
   "key": 2,
-  "why": "With it / them as the object: verb + it / them + to (or for) + person.",
+  "why": "With it, use to: lent it to him.",
   "slots": {
    "name": [
     "Aziz",
@@ -239,7 +239,7 @@
    "showed them at her"
   ],
   "key": 1,
-  "why": "With it / them as the object: verb + it / them + to (or for) + person.",
+  "why": "With them, use to: showed them to her.",
   "slots": {
    "photo": [
     "photos",
@@ -271,7 +271,7 @@
    "–"
   ],
   "key": 0,
-  "why": "Give, lend, pass, show and hand: the thing, then to + the person who gets it.",
+  "why": "pass the thing to the person: to.",
   "slots": {
    "thing": [
     "salt",
@@ -303,7 +303,7 @@
    "to"
   ],
   "key": 3,
-  "why": "Give, lend, pass, show and hand: the thing, then to + the person who gets it.",
+  "why": "lend the thing to the person: to.",
   "slots": {
    "thing": [
     "bike",
@@ -335,7 +335,7 @@
    "at"
   ],
   "key": 2,
-  "why": "Give, lend, pass, show and hand: the thing, then to + the person who gets it.",
+  "why": "show the thing to the people: to.",
   "slots": {
    "photos": [
     "photos",
@@ -367,7 +367,7 @@
    "with"
   ],
   "key": 1,
-  "why": "Give, lend, pass, show and hand: the thing, then to + the person who gets it.",
+  "why": "give the thing to the person: to.",
   "slots": {
    "thing": [
     "letter",
@@ -399,7 +399,7 @@
    "–"
   ],
   "key": 0,
-  "why": "Give, lend, pass, show and hand: the thing, then to + the person who gets it.",
+  "why": "hand the thing to the person: to.",
   "slots": {
    "thing": [
     "money",
@@ -431,7 +431,7 @@
    "to"
   ],
   "key": 3,
-  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "why": "explain the thing to the people: to.",
   "slots": {
    "game": [
     "chess",
@@ -463,7 +463,7 @@
    "to"
   ],
   "key": 2,
-  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "why": "A present that helps her: buy … for.",
   "slots": {
    "thing": [
     "scarf",
@@ -495,7 +495,7 @@
    "at"
   ],
   "key": 1,
-  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "why": "Cooking that helps us: cook … for.",
   "slots": {
    "food": [
     "plov",
@@ -527,7 +527,7 @@
    "–"
   ],
   "key": 0,
-  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "why": "Something baked to please her: make … for.",
   "slots": {
    "name": [
     "Olga",
@@ -559,7 +559,7 @@
    "for"
   ],
   "key": 3,
-  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "why": "Finding something to help her: find … for.",
   "slots": {
    "name": [
     "Aziz",
@@ -591,7 +591,7 @@
    "to"
   ],
   "key": 2,
-  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "why": "Booking to help us: book … for.",
   "slots": {
    "place": [
     "hotel",
@@ -623,7 +623,7 @@
    "at"
   ],
   "key": 1,
-  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "why": "Keeping it to help you: keep … for.",
   "slots": {
    "name": [
     "Aziz",
@@ -656,7 +656,7 @@
   "instr": "Write to or for.",
   "source": "Please lend your {thing} ______ me {when}, {name}.",
   "key": "to",
-  "why": "Give, lend, pass, show and hand: the thing, then to + the person who gets it.",
+  "why": "lend, the thing goes to me: to.",
   "slots": {
    "thing": [
     "notes",
@@ -689,7 +689,7 @@
   "instr": "Write to or for.",
   "source": "I explained the problem ______ my {who}, {name}.",
   "key": "to",
-  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "why": "explain, the problem goes to them: to.",
   "slots": {
    "who": [
     "boss",
@@ -716,7 +716,7 @@
   "instr": "Write to or for.",
   "source": "She described her new {place} ______ us, {name}.",
   "key": "to",
-  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "why": "describe, the place goes to us: to.",
   "slots": {
    "place": [
     "flat",
@@ -743,7 +743,7 @@
   "instr": "Write to or for.",
   "source": "Pass this {thing} ______ the person on your left, {name}.",
   "key": "to",
-  "why": "Give, lend, pass, show and hand: the thing, then to + the person who gets it.",
+  "why": "pass, the thing goes to the person: to.",
   "slots": {
    "thing": [
     "paper",
@@ -770,7 +770,7 @@
   "instr": "Write to or for.",
   "source": "{name} said sorry ______ his {who}.",
   "key": "to",
-  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "why": "say sorry to someone: to.",
   "slots": {
    "name": [
     "Aziz",
@@ -797,7 +797,7 @@
   "instr": "Write to or for.",
   "source": "Show your {thing} ______ the driver, {name}.",
   "key": "to",
-  "why": "Give, lend, pass, show and hand: the thing, then to + the person who gets it.",
+  "why": "show, the thing goes to the driver: to.",
   "slots": {
    "thing": [
     "ticket",
@@ -824,7 +824,7 @@
   "instr": "Write to or for.",
   "source": "I introduced my cousin ______ my friends at the {event}, {name}.",
   "key": "to",
-  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "why": "introduce someone to someone: to.",
   "slots": {
    "event": [
     "party",
@@ -851,7 +851,7 @@
   "instr": "Write to or for.",
   "source": "He lent his {thing} ______ me {when}.",
   "key": "to",
-  "why": "Give, lend, pass, show and hand: the thing, then to + the person who gets it.",
+  "why": "He gave it to me for a while: lent … to.",
   "slots": {
    "thing": [
     "car",
@@ -878,7 +878,7 @@
   "instr": "Write to or for.",
   "source": "Pass the {thing} ______ {name}, please!",
   "key": "to",
-  "why": "Give, lend, pass, show and hand: the thing, then to + the person who gets it.",
+  "why": "pass, the thing goes to …: to.",
   "slots": {
    "thing": [
     "ball",
@@ -905,7 +905,7 @@
   "instr": "Write to or for.",
   "source": "Mum handed the {thing} ______ the waiter, {name}.",
   "key": "to",
-  "why": "Give, lend, pass, show and hand: the thing, then to + the person who gets it.",
+  "why": "hand, the thing goes to the waiter: to.",
   "slots": {
    "thing": [
     "money",
@@ -932,7 +932,7 @@
   "instr": "Write to or for.",
   "source": "I bought a {thing} ______ my little sister, {name}.",
   "key": "for",
-  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "why": "buy, as a present that helps her: for.",
   "slots": {
    "thing": [
     "doll",
@@ -959,7 +959,7 @@
   "instr": "Write to or for.",
   "source": "Dad cooked {food} ______ the guests {when}.",
   "key": "for",
-  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "why": "cook, to help the guests: for.",
   "slots": {
    "food": [
     "plov",
@@ -986,7 +986,7 @@
   "instr": "Write to or for.",
   "source": "{name} made a {card} ______ her teacher.",
   "key": "for",
-  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "why": "make, as a present for her: for.",
   "slots": {
    "name": [
     "Olga",
@@ -1013,7 +1013,7 @@
   "instr": "Write to or for.",
   "source": "Can you open the {thing} ______ me, {name}?",
   "key": "for",
-  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "why": "open, to help me: for.",
   "slots": {
    "thing": [
     "jar",
@@ -1040,7 +1040,7 @@
   "instr": "Write to or for.",
   "source": "I'll carry your {thing} ______ you, {name}.",
   "key": "for",
-  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "why": "carry, to help you: for.",
   "slots": {
    "thing": [
     "bag",
@@ -1067,7 +1067,7 @@
   "instr": "Write to or for.",
   "source": "My aunt found a good {who} ______ us, {name}.",
   "key": "for",
-  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "why": "find, to help us: for.",
   "slots": {
    "who": [
     "doctor",
@@ -1094,7 +1094,7 @@
   "instr": "Write to or for.",
   "source": "Could you hold this {thing} ______ me, {name}? My hands are full.",
   "key": "for",
-  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "why": "\"My hands are full\": hold, to help me: for.",
   "slots": {
    "thing": [
     "bag",
@@ -1121,7 +1121,7 @@
   "instr": "Write to or for.",
   "source": "We booked a table ______ {n} people at the {place}.",
   "key": "for",
-  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "why": "book a table, for the people who will sit: for.",
   "slots": {
    "n": [
     "six",
@@ -1148,7 +1148,7 @@
   "instr": "Write to or for.",
   "source": "Can you buy some {thing} ______ Grandma, {name}?",
   "key": "for",
-  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "why": "buy, to help Grandma: for.",
   "slots": {
    "thing": [
     "bread",
@@ -1175,7 +1175,7 @@
   "instr": "Write to or for.",
   "source": "I'll save a seat ______ you at the {event}, {name}.",
   "key": "for",
-  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "why": "save a seat, to help you: for.",
   "slots": {
    "event": [
     "concert",
@@ -1206,7 +1206,7 @@
    "it",
    "to"
   ],
-  "why": "With it / them as the object: verb + it / them + to (or for) + person.",
+  "why": "With it at the end: gave it to.",
   "slots": {
    "thing": [
     "scarf",
@@ -1237,7 +1237,7 @@
    "them",
    "for"
   ],
-  "why": "With it / them as the object: verb + it / them + to (or for) + person.",
+  "why": "With them, buy uses for: bought them for.",
   "slots": {
    "thing": [
     "flowers",
@@ -1268,7 +1268,7 @@
    "them",
    "to"
   ],
-  "why": "With it / them as the object: verb + it / them + to (or for) + person.",
+  "why": "With them, show uses to: show them to.",
   "slots": {
    "thing": [
     "photos",
@@ -1299,7 +1299,7 @@
    "it",
    "for"
   ],
-  "why": "With it / them as the object: verb + it / them + to (or for) + person.",
+  "why": "With it, make uses for: made it for.",
   "slots": {
    "name": [
     "Olga",
@@ -1330,7 +1330,7 @@
    "it",
    "to"
   ],
-  "why": "With it / them as the object: verb + it / them + to (or for) + person.",
+  "why": "With it, send uses to: send it to.",
   "slots": {
    "thing": [
     "file",
@@ -1358,7 +1358,7 @@
   "source": "Can you explain me the {thing}, {name}?",
   "hint": "Can you explain the {thing} ______, {name}?",
   "key": "to me",
-  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "why": "Never explain me: explain the … to me.",
   "slots": {
    "thing": [
     "rule",
@@ -1386,7 +1386,7 @@
   "source": "She described us her {place}, {name}.",
   "hint": "She described her {place} ______, {name}.",
   "key": "to us",
-  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "why": "Never described us: described … to us.",
   "slots": {
    "place": [
     "new flat",
@@ -1414,7 +1414,7 @@
   "source": "He said me hello at the {event}, {name}.",
   "hint": "He said hello ______ at the {event}, {name}.",
   "key": "to me",
-  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "why": "Never said me hello: said hello to me.",
   "slots": {
    "event": [
     "party",
@@ -1442,7 +1442,7 @@
   "source": "Let me introduce you my {who}, {name}.",
   "hint": "Let me introduce my {who} ______, {name}.",
   "key": "to you",
-  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "why": "Never introduce you my …: introduce … to you.",
   "slots": {
    "who": [
     "sister",
@@ -1473,7 +1473,7 @@
   "acceptable": [
    "for me"
   ],
-  "why": "Explain, describe, say, suggest and introduce never take the person straight after the verb: the thing first, then to + person.",
+  "why": "Never suggested me: suggested … to me.",
   "slots": {
    "thing": [
     "diet",
@@ -1501,7 +1501,7 @@
   "source": "I bought a {thing} to my mum, {name}.",
   "hint": "I bought a {thing} ______ my mum, {name}.",
   "key": "for",
-  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "why": "buy helps someone: for, not to.",
   "slots": {
    "thing": [
     "scarf",
@@ -1529,7 +1529,7 @@
   "source": "Dad cooked {food} to us {when}.",
   "hint": "Dad cooked {food} ______ us {when}.",
   "key": "for",
-  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "why": "cook helps someone: for, not to.",
   "slots": {
    "food": [
     "plov",
@@ -1557,7 +1557,7 @@
   "source": "Please give this {thing} for your teacher, {name}.",
   "hint": "Please give this {thing} ______ your teacher, {name}.",
   "key": "to",
-  "why": "Give, lend, pass, show and hand: the thing, then to + the person who gets it.",
+  "why": "give goes to someone: to, not for.",
   "slots": {
    "thing": [
     "letter",
@@ -1585,7 +1585,7 @@
   "source": "She lent her {thing} for me {when}.",
   "hint": "She lent her {thing} ______ me {when}.",
   "key": "to",
-  "why": "Give, lend, pass, show and hand: the thing, then to + the person who gets it.",
+  "why": "lend goes to someone: to, not for.",
   "slots": {
    "thing": [
     "bike",
@@ -1613,7 +1613,7 @@
   "source": "Can you find a seat to my grandmother, {name}? She's {age}.",
   "hint": "Can you find a seat ______ my grandmother, {name}? She's {age}.",
   "key": "for",
-  "why": "Buy, cook, make, find, carry and book: the thing, then for + the person it helps.",
+  "why": "find helps someone: for, not to.",
   "slots": {
    "name": [
     "Aziz",

@@ -17,7 +17,7 @@ export default [
    "your"
   ],
   "key": 0,
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "You might cut you: the same person, so yourself.",
   "slots": {
    "tool": [
     "knife",
@@ -49,7 +49,7 @@ export default [
    "myself"
   ],
   "key": 3,
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "I taught me: the same person, so myself.",
   "slots": {
    "inst": [
     "guitar",
@@ -81,7 +81,7 @@ export default [
    "me"
   ],
   "key": 2,
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "I hurt me: the same person, so myself.",
   "slots": {
    "surface": [
     "ice",
@@ -113,7 +113,7 @@ export default [
    "yours"
   ],
   "key": 1,
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "Help yourself = take what you want: yourself.",
   "slots": {
    "food": [
     "plov",
@@ -145,7 +145,7 @@ export default [
    "your"
   ],
   "key": 0,
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "enjoy needs an object: you enjoy yourself.",
   "slots": {
    "event": [
     "party",
@@ -177,7 +177,7 @@ export default [
    "myself"
   ],
   "key": 3,
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "I introduce me: the same person, so myself.",
   "slots": {
    "b": [
     "Aziz",
@@ -209,7 +209,7 @@ export default [
    "us"
   ],
   "key": 2,
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "We enjoyed us: the same people, so ourselves.",
   "slots": {
    "event": [
     "party",
@@ -241,7 +241,7 @@ export default [
    "his"
   ],
   "key": 1,
-  "why": "The -self words are myself, yourself, himself, herself, itself, ourselves, yourselves, themselves. hisself, theirselves and ourself are not English.",
+  "why": "He made a cup for him: the same person, so himself.",
   "slots": {
    "b": [
     "Aziz",
@@ -265,7 +265,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My sister bought ______ a new {thing} with her first salary.",
+  "prompt": "My {sis} bought ______ a new {thing} with her first salary.",
   "options": [
    "herself",
    "sheself",
@@ -273,13 +273,19 @@ export default [
    "she"
   ],
   "key": 0,
-  "why": "The -self words are myself, yourself, himself, herself, itself, ourselves, yourselves, themselves. hisself, theirselves and ourself are not English.",
+  "why": "She bought it for her: the same person, so herself.",
   "slots": {
    "thing": [
     "phone",
     "laptop",
     "bike",
     "coat"
+   ],
+   "sis": [
+    "sister",
+    "aunt",
+    "cousin",
+    "mother"
    ]
   }
  },
@@ -291,7 +297,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The {machine} turns ______ off after ten minutes.",
+  "prompt": "The {machine} turns ______ off after {n} minutes.",
   "options": [
    "its",
    "itselves",
@@ -299,13 +305,19 @@ export default [
    "itself"
   ],
   "key": 3,
-  "why": "The -self words are myself, yourself, himself, herself, itself, ourselves, yourselves, themselves. hisself, theirselves and ourself are not English.",
+  "why": "The machine turns the machine off: itself.",
   "slots": {
    "machine": [
     "TV",
     "heater",
     "printer",
     "fan"
+   ],
+   "n": [
+    "ten",
+    "five",
+    "twenty",
+    "thirty"
    ]
   }
  },
@@ -317,7 +329,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The children can dress ______ now; they're {age}.",
+  "prompt": "The {kids} can dress ______ now; they're {age}.",
   "options": [
    "their",
    "theirs",
@@ -325,13 +337,19 @@ export default [
    "theirselves"
   ],
   "key": 2,
-  "why": "The -self words are myself, yourself, himself, herself, itself, ourselves, yourselves, themselves. hisself, theirselves and ourself are not English.",
+  "why": "The … dress the …: themselves.",
   "slots": {
    "age": [
     "five",
     "six",
     "seven",
     "big now"
+   ],
+   "kids": [
+    "children",
+    "twins",
+    "girls",
+    "boys"
    ]
   }
  },
@@ -351,7 +369,7 @@ export default [
    "yours"
   ],
   "key": 1,
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "Look after you: the same person, so yourself.",
   "slots": {
    "city": [
     "Samarkand",
@@ -383,7 +401,7 @@ export default [
    "I"
   ],
   "key": 0,
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "I talk to me: the same person, so myself.",
   "slots": {
    "state": [
     "nervous",
@@ -407,7 +425,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "We built ______ a small {thing} in the garden.",
+  "prompt": "We built ______ a small {thing} in the {yard}.",
   "options": [
    "ourself",
    "our",
@@ -415,13 +433,19 @@ export default [
    "ourselves"
   ],
   "key": 3,
-  "why": "The -self words are myself, yourself, himself, herself, itself, ourselves, yourselves, themselves. hisself, theirselves and ourself are not English.",
+  "why": "We built it for us: the same people, so ourselves.",
   "slots": {
    "thing": [
     "house",
     "table",
     "bench",
     "shed"
+   ],
+   "yard": [
+    "garden",
+    "yard",
+    "backyard",
+    "courtyard"
    ]
   }
  },
@@ -441,7 +465,7 @@ export default [
    "you"
   ],
   "key": 2,
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "You blame you: the same person, so yourself.",
   "slots": {
    "g": [
     "Olga",
@@ -459,7 +483,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My mum looked at ______ and smiled, {g}.",
+  "prompt": "My mum looked at ______ and {act}, {g}.",
   "options": [
    "I",
    "me",
@@ -467,13 +491,19 @@ export default [
    "mine"
   ],
   "key": 1,
-  "why": "Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.",
+  "why": "Mum looked at a different person: me.",
   "slots": {
    "g": [
     "Olga",
     "Lola",
     "Madina",
     "Kamila"
+   ],
+   "act": [
+    "smiled",
+    "laughed",
+    "waved",
+    "nodded"
    ]
   }
  },
@@ -493,7 +523,7 @@ export default [
    "I"
   ],
   "key": 0,
-  "why": "Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.",
+  "why": "You help a different person: me.",
   "slots": {
    "bag": [
     "bag",
@@ -517,7 +547,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The teacher asked ______ a difficult question {when}.",
+  "prompt": "The teacher asked ______ a {adj} question {when}.",
   "options": [
    "myself",
    "mine",
@@ -525,13 +555,19 @@ export default [
    "me"
   ],
   "key": 3,
-  "why": "Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.",
+  "why": "The teacher asked a different person: me.",
   "slots": {
    "when": [
     "yesterday",
     "last night",
     "on Friday",
     "last week"
+   ],
+   "adj": [
+    "difficult",
+    "strange",
+    "funny",
+    "long"
    ]
   }
  },
@@ -551,7 +587,7 @@ export default [
    "ourselves"
   ],
   "key": 2,
-  "why": "Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.",
+  "why": "Our … invited different people: us.",
   "slots": {
    "who": [
     "neighbours",
@@ -575,7 +611,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I'll call ______ tomorrow, {g}.",
+  "prompt": "I'll call ______ {when}, {g}.",
   "options": [
    "your",
    "you",
@@ -583,13 +619,19 @@ export default [
    "yours"
   ],
   "key": 1,
-  "why": "Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.",
+  "why": "I call a different person: you.",
   "slots": {
    "g": [
     "Olga",
     "Lola",
     "Madina",
     "Kamila"
+   ],
+   "when": [
+    "tomorrow",
+    "tonight",
+    "later",
+    "on Monday"
    ]
   }
  },
@@ -604,7 +646,7 @@ export default [
   "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
   "source": "I cut ______ while I was cooking {food} {when}.",
   "key": "myself",
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "I cut me: same person: myself.",
   "slots": {
    "food": [
     "plov",
@@ -631,7 +673,7 @@ export default [
   "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
   "source": "Be careful, {g}! Don't burn ______ on the {pan}.",
   "key": "yourself",
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "Don't burn you: same person: yourself.",
   "slots": {
    "g": [
     "Olga",
@@ -658,7 +700,7 @@ export default [
   "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
   "source": "We introduced ______ to the new {who} on {day}.",
   "key": "ourselves",
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "We introduced us: same people: ourselves.",
   "slots": {
    "who": [
     "neighbours",
@@ -685,7 +727,7 @@ export default [
   "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
   "source": "I made ______ a {food} because I was hungry, {g}.",
   "key": "myself",
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "I made it for me: same person: myself.",
   "slots": {
    "food": [
     "sandwich",
@@ -712,7 +754,7 @@ export default [
   "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
   "source": "Did you hurt ______ when you fell on the {surface}, {g}?",
   "key": "yourself",
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "You hurt you: same person: yourself.",
   "slots": {
    "surface": [
     "ice",
@@ -739,7 +781,7 @@ export default [
   "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
   "source": "My grandpa taught ______ English from {source} in {city}.",
   "key": "himself",
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "Grandpa taught Grandpa: himself.",
   "slots": {
    "source": [
     "old books",
@@ -766,7 +808,7 @@ export default [
   "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
   "source": "I looked at ______ in the {mirror} and laughed, {g}.",
   "key": "myself",
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "I looked at me: same person: myself.",
   "slots": {
    "mirror": [
     "mirror",
@@ -793,7 +835,7 @@ export default [
   "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
   "source": "Enjoy ______ at the {event}, {g}!",
   "key": "yourself",
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "Enjoy needs an object: yourself.",
   "slots": {
    "event": [
     "party",
@@ -820,7 +862,7 @@ export default [
   "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
   "source": "We enjoyed ______ at the {event} {when}.",
   "key": "ourselves",
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "We enjoyed us: same people: ourselves.",
   "slots": {
    "event": [
     "party",
@@ -847,7 +889,7 @@ export default [
   "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
   "source": "The {room} door locks ______ when you close it, {g}.",
   "key": "itself",
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "The door locks the door: itself.",
   "slots": {
    "room": [
     "office",
@@ -874,7 +916,7 @@ export default [
   "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
   "source": "I'm angry with ______ because I forgot my {thing}, {g}.",
   "key": "myself",
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "I'm angry with me: same person: myself.",
   "slots": {
    "thing": [
     "keys",
@@ -901,7 +943,7 @@ export default [
   "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
   "source": "Take care of ______ in {city}, {g}.",
   "key": "yourself",
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "Take care of you: same person: yourself.",
   "slots": {
    "city": [
     "Samarkand",
@@ -928,7 +970,7 @@ export default [
   "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
   "source": "I sometimes talk to ______ when I'm {state}, {g}.",
   "key": "myself",
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "I talk to me: same person: myself.",
   "slots": {
    "state": [
     "nervous",
@@ -955,7 +997,7 @@ export default [
   "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
   "source": "We bought ______ new {things} for the trip to {city}.",
   "key": "ourselves",
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "We bought them for us: same people: ourselves.",
   "slots": {
    "things": [
     "bags",
@@ -982,7 +1024,7 @@ export default [
   "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
   "source": "Help ______ to some {food}, {g}.",
   "key": "yourself",
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "Help yourself = take some: yourself.",
   "slots": {
    "food": [
     "plov",
@@ -1009,7 +1051,7 @@ export default [
   "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
   "source": "My dad drove ______ (I) to the {place} {when}.",
   "key": "me",
-  "why": "Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.",
+  "why": "Dad drove a different person: I → me.",
   "slots": {
    "place": [
     "station",
@@ -1036,7 +1078,7 @@ export default [
   "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
   "source": "Can you show ______ (I) the way to the {place}, {g}?",
   "key": "me",
-  "why": "Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.",
+  "why": "You show a different person: I → me.",
   "slots": {
    "place": [
     "station",
@@ -1063,7 +1105,7 @@ export default [
   "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
   "source": "Our neighbours invited ______ (we) to their {event} {when}.",
   "key": "us",
-  "why": "Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.",
+  "why": "The neighbours invited other people: we → us.",
   "slots": {
    "event": [
     "party",
@@ -1090,7 +1132,7 @@ export default [
   "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
   "source": "I'll send ______ (you) the photos {when}, {g}.",
   "key": "you",
-  "why": "Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.",
+  "why": "I send to a different person: you stays you.",
   "slots": {
    "when": [
     "tonight",
@@ -1117,7 +1159,7 @@ export default [
   "instr": "Write the right pronoun (myself, yourself … or me, you, us …). A word in brackets says who it is.",
   "source": "The {who} gave ______ (I) a good mark {when}.",
   "key": "me",
-  "why": "Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.",
+  "why": "The … gave to a different person: I → me.",
   "slots": {
    "who": [
     "teacher",
@@ -1145,7 +1187,7 @@ export default [
   "source": "I cut me on the broken {thing} {when}.",
   "hint": "I cut ______ on the broken {thing} {when}.",
   "key": "myself",
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "Same person as I: myself, not me.",
   "slots": {
    "thing": [
     "glass",
@@ -1173,7 +1215,7 @@ export default [
   "source": "Did you hurt you on the {surface}, {g}?",
   "hint": "Did you hurt ______ on the {surface}, {g}?",
   "key": "yourself",
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "Same person as you: yourself, not you.",
   "slots": {
    "surface": [
     "ice",
@@ -1201,7 +1243,7 @@ export default [
   "source": "We enjoyed us at the {event} {when}.",
   "hint": "We enjoyed ______ at the {event} {when}.",
   "key": "ourselves",
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "Same people as we: ourselves, not us.",
   "slots": {
    "event": [
     "party",
@@ -1229,7 +1271,7 @@ export default [
   "source": "{b} taught hisself to {skill}.",
   "hint": "{b} taught ______ to {skill}.",
   "key": "himself",
-  "why": "The -self words are myself, yourself, himself, herself, itself, ourselves, yourselves, themselves. hisself, theirselves and ourself are not English.",
+  "why": "The word is himself, never hisself.",
   "slots": {
    "b": [
     "Aziz",
@@ -1257,7 +1299,7 @@ export default [
   "source": "The kids made theirselves some {food} {when}.",
   "hint": "The kids made ______ some {food} {when}.",
   "key": "themselves",
-  "why": "The -self words are myself, yourself, himself, herself, itself, ourselves, yourselves, themselves. hisself, theirselves and ourself are not English.",
+  "why": "The word is themselves, never theirselves.",
   "slots": {
    "food": [
     "sandwiches",
@@ -1285,7 +1327,7 @@ export default [
   "source": "My mum helped myself with the {work}, {g}.",
   "hint": "My mum helped ______ with the {work}, {g}.",
   "key": "me",
-  "why": "Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.",
+  "why": "Mum helped someone else: me, not myself.",
   "slots": {
    "work": [
     "homework",
@@ -1313,7 +1355,7 @@ export default [
   "source": "Can you call myself {when}, {g}?",
   "hint": "Can you call ______ {when}, {g}?",
   "key": "me",
-  "why": "Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.",
+  "why": "You call someone else: me, not myself.",
   "slots": {
    "when": [
     "tonight",
@@ -1341,7 +1383,7 @@ export default [
   "source": "Our {who} invited ourselves to the {event}.",
   "hint": "Our {who} invited ______ to the {event}.",
   "key": "us",
-  "why": "Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.",
+  "why": "Our … invited other people: us, not ourselves.",
   "slots": {
    "who": [
     "neighbours",
@@ -1369,7 +1411,7 @@ export default [
   "source": "I'll text yourself the {info}, {g}.",
   "hint": "I'll text ______ the {info}, {g}.",
   "key": "you",
-  "why": "Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.",
+  "why": "I text someone else: you, not yourself.",
   "slots": {
    "info": [
     "address",
@@ -1397,7 +1439,7 @@ export default [
   "source": "The {who} gave myself a present {when}.",
   "hint": "The {who} gave ______ a present {when}.",
   "key": "me",
-  "why": "Here the subject is a different person, so use an object pronoun (me, you, us). myself / yourself / ourselves only work when the subject is the same person.",
+  "why": "The … gave to someone else: me, not myself.",
   "slots": {
    "who": [
     "teacher",
@@ -1425,7 +1467,7 @@ export default [
   "source": "You can look after yourself in {city}, {g}.",
   "hint": "I can look after ______ in {city}, {g}.",
   "key": "myself",
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "New subject I, looking after me: myself.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1453,7 +1495,7 @@ export default [
   "source": "I enjoyed myself at the {event}, {g}.",
   "hint": "We enjoyed ______ at the {event}, {g}.",
   "key": "ourselves",
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "New subject we: ourselves.",
   "slots": {
    "event": [
     "party",
@@ -1481,7 +1523,7 @@ export default [
   "source": "We introduced ourselves to the new {who}, {g}.",
   "hint": "I introduced ______ to the new {who}, {g}.",
   "key": "myself",
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "New subject I, introducing me: myself.",
   "slots": {
    "who": [
     "neighbours",
@@ -1507,15 +1549,21 @@ export default [
   "format": "rewrite",
   "instr": "Start the sentence with My brother.",
   "source": "I taught myself to {skill}.",
-  "hint": "My brother taught ______ to {skill}.",
+  "hint": "My {bro} taught ______ to {skill}.",
   "key": "himself",
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "New subject he: himself.",
   "slots": {
    "skill": [
     "swim",
     "cook",
     "drive",
     "draw"
+   ],
+   "bro": [
+    "brother",
+    "uncle",
+    "cousin",
+    "dad"
    ]
   }
  },
@@ -1529,15 +1577,21 @@ export default [
   "format": "rewrite",
   "instr": "Start the sentence with My sister.",
   "source": "I bought myself a new {thing}.",
-  "hint": "My sister bought ______ a new {thing}.",
+  "hint": "My {sis} bought ______ a new {thing}.",
   "key": "herself",
-  "why": "The subject and the object are the same person, so use a -self word: I → myself, you → yourself, we → ourselves, he → himself, she → herself, it → itself, they → themselves.",
+  "why": "New subject she: herself.",
   "slots": {
    "thing": [
     "phone",
     "laptop",
     "bike",
     "coat"
+   ],
+   "sis": [
+    "sister",
+    "aunt",
+    "cousin",
+    "mother"
    ]
   }
  },

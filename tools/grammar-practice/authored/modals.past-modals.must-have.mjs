@@ -120,5 +120,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/modals.past-modals.must-have.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "Wet now, so I'm sure about last night: must have rained.",
+   "He didn't come: my sure guess about the past: must have forgotten.",
+   "Open now: someone did it earlier: must have left.",
+   "Lights off now: I'm sure they went: must have gone.",
+   "Nothing left: I'm sure they ate it: must have eaten.",
+   "Smiling with a …: I'm sure he won: must have won.",
+   "She can't find it: I'm sure it was the bus: must have lost.",
+   "100%: I'm sure she worked hard: must have studied.",
+   "He knows the end: I'm sure he saw it: must have seen.",
+   "It isn't here: I'm sure someone took it: must have taken.",
+   "So far yesterday: I'm sure it was tiring: must have been.",
+   "Glass on the floor: I'm sure a window broke: must have broken.",
+   "Everyone knows: I'm sure they heard it: must have heard.",
+   "Covered in dust: I'm sure he drove far: must have driven.",
+   "You look great now: I'm sure you slept well: must have slept.",
+   "It looks expensive: I'm sure about the price: must have cost.",
+   "New things in the kitchen: I'm sure Mum bought them: must have bought.",
+   "Watching TV now: I'm sure the work is done: must have finished.",
+   "White this morning: I'm sure about last night: must have got.",
+   "She knows him: I'm sure they met there: must have met."
+  ],
+  "build": [
+   "Wet now: must have rained.",
+   "Not here: must have forgotten (forget → forgotten).",
+   "Open now: must have left (leave → left).",
+   "Quiet now: must have gone (go → gone).",
+   "Gone now: must have eaten (eat → eaten).",
+   "Fans singing: must have won (win → won).",
+   "I can't find it: must have lost (lose → lost).",
+   "All the answers: must have studied.",
+   "Knows the end: must have seen (see → seen).",
+   "Not on the desk: must have taken (take → taken).",
+   "Twenty hours: must have been (be → been).",
+   "Glass on the floor: must have broken (break → broken).",
+   "Very dirty: must have driven (drive → driven).",
+   "Very fresh: must have slept (sleep → slept).",
+   "Beautiful: must have cost (cost → cost).",
+   "New in the kitchen: must have bought (buy → bought).",
+   "Playing games now: must have finished.",
+   "She knows him: must have met (meet → met).",
+   "Everyone knows: must have heard (hear → heard).",
+   "Apples everywhere: must have fallen (fall → fallen)."
+  ],
+  "transform": [
+   "I'm sure it rained → it must have rained.",
+   "I'm sure he forgot → he must have forgotten.",
+   "I'm sure they went → they must have gone.",
+   "I'm sure she studied → she must have studied.",
+   "I'm sure the … cost → it must have cost.",
+   "have is missing: must have rained.",
+   "have + past participle: forgotten, not forget.",
+   "must have, not must had: must have gone.",
+   "must have, not must has: must have lost.",
+   "have + past participle: eaten, not eat.",
+   "I'm sure … was → must have been.",
+   "I'm sure you were → you must have been.",
+   "I'm sure the … was → it must have been.",
+   "I'm sure they were → they must have been.",
+   "I'm sure it was → it must have been."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

@@ -139,5 +139,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/sentence-structure.relative-clauses.whose.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "Her brother → the girl whose brother.",
+   "His or her mother → a friend whose mother.",
+   "His bike → the boy whose bike.",
+   "Her son → a woman whose son.",
+   "His car → the man whose car.",
+   "The student's essay → whose essay.",
+   "My neighbour's dog → whose dog.",
+   "Her parents → a girl whose parents.",
+   "The teacher's lessons → whose lessons.",
+   "The son's name → a son whose name.",
+   "Their brother → anyone whose brother.",
+   "The family's house → whose house.",
+   "The hotel's rooms → a hotel whose rooms.",
+   "Its battery → a … whose battery.",
+   "Its name → a … whose name.",
+   "Its roof → a … whose roof.",
+   "She lives there (no noun after the gap): who.",
+   "He or she works (verb after the gap): who.",
+   "He won (verb after the gap): who.",
+   "They visited (verb after the gap): who."
+  ],
+  "build": [
+   "Her or his sister → whose sister.",
+   "His bag, I found it → whose bag.",
+   "Her dog → whose dog.",
+   "Their English → whose English.",
+   "Her husband → whose husband.",
+   "The student's notes → whose notes.",
+   "His father → whose father.",
+   "Her children → whose children.",
+   "The writer's books → whose books.",
+   "Its door → whose door.",
+   "The street's name → whose name.",
+   "Its windows → whose windows.",
+   "The pet's name → a … whose name.",
+   "The company's office → whose office.",
+   "Verb sits after the gap, person: who.",
+   "Verb can repair after the gap: who.",
+   "Verb came after the gap: who.",
+   "Verb works after the gap: who.",
+   "Verb broke after the gap: who.",
+   "Verb helped after the gap: who."
+  ],
+  "transform": [
+   "Join two sentences: His father → a friend whose father.",
+   "Her brother → , whose brother.",
+   "Its walls → whose walls (things too).",
+   "Her parents → whose parents.",
+   "His …, I found it → whose ….",
+   "who his → whose.",
+   "who's = who is; belonging needs whose.",
+   "For belonging use whose, not which.",
+   "who her → whose.",
+   "Not who's (who is): the dog belongs to her → whose.",
+   "'s sister → whose sister.",
+   "The girl's dog → whose dog.",
+   "The man's son → whose son.",
+   "The café's owner → whose owner.",
+   "My cousin's husband → whose husband."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${out} — ${items.length} items`);

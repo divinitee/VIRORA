@@ -126,5 +126,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/reported-speech.statements.backshift-present.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "'I'm' moves back a step: am → was.",
+   "'We're' moves back: are → were.",
+   "'I'm at the …' moves back: am → was.",
+   "'I'm working' moves back: was working.",
+   "'We're watching' moves back: were watching.",
+   "'I'm waiting' moves back: was waiting.",
+   "'I have' moves back: have → had.",
+   "'I have a lot of' moves back: had.",
+   "'I want' moves back: want → wanted.",
+   "'I need' moves back: need → needed.",
+   "'I can't' moves back: can't → couldn't.",
+   "'I can help' moves back: can → could.",
+   "'The … is ready' moves back: is → was.",
+   "'I'm not' moves back: wasn't.",
+   "'I'm not feeling' moves back: wasn't feeling.",
+   "'We're very …' moves back: were.",
+   "'doesn't work' moves back: didn't work.",
+   "'I'm lost' moves back: was lost.",
+   "'I'm cooking' moves back: was cooking.",
+   "'is broken', and it's fixed now: was."
+  ],
+  "build": [
+   "am in the report → was.",
+   "are in the report → were.",
+   "am (she) → was.",
+   "am working → was working.",
+   "are watching → were watching.",
+   "am waiting → was waiting.",
+   "have → had, as he reported it.",
+   "have → had, as she reported it.",
+   "want moves back a step: wanted.",
+   "need moves back a step: needed.",
+   "can't moves back a step: couldn't.",
+   "can moves back a step: could.",
+   "is → was (the …).",
+   "am not → wasn't.",
+   "am not feeling → wasn't feeling.",
+   "are → were (they).",
+   "doesn't → didn't, and he fixed it later.",
+   "am lost → was lost.",
+   "am cooking → was cooking.",
+   "is → was, and it works again now."
+  ],
+  "transform": [
+   "I'm → he was, one step back.",
+   "We're → they were, one step back.",
+   "I'm working → she was working.",
+   "I have → he had, one step back.",
+   "I can't → she couldn't, one step back.",
+   "Reported yesterday: is → was.",
+   "She talks about herself: I → she.",
+   "Reported last night: are watching → were watching.",
+   "Reported last week: has → had.",
+   "Reported on Friday: can't → couldn't.",
+   "My → his; is → was.",
+   "My → her; is → was.",
+   "Our → their; doesn't → didn't.",
+   "I'm → he was; my → his.",
+   "We need → they needed; our → their."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

@@ -17,7 +17,7 @@ export default [
    "have seen"
   ],
   "key": 0,
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "'I saw' moves back a step: saw → had seen.",
   "slots": {
    "m": [
     "Aziz",
@@ -49,7 +49,7 @@ export default [
    "had gone"
   ],
   "key": 3,
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "'We went' moves back a step: had gone.",
   "slots": {
    "who": [
     "friends",
@@ -81,7 +81,7 @@ export default [
    "has eaten"
   ],
   "key": 2,
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "'I ate' moves back a step: had eaten.",
   "slots": {
    "f": [
     "Olga",
@@ -113,7 +113,7 @@ export default [
    "had took"
   ],
   "key": 1,
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "'I took' moves back a step: had taken.",
   "slots": {
    "m": [
     "Aziz",
@@ -145,7 +145,7 @@ export default [
    "have written"
   ],
   "key": 0,
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "'I wrote' moves back a step: had written.",
   "slots": {
    "f": [
     "Olga",
@@ -177,7 +177,7 @@ export default [
    "had forgotten"
   ],
   "key": 3,
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "'I forgot' moves back a step: had forgotten.",
   "slots": {
    "m": [
     "Aziz",
@@ -209,7 +209,7 @@ export default [
    "has broken"
   ],
   "key": 2,
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "'I broke' moves back a step: had broken.",
   "slots": {
    "f": [
     "Olga",
@@ -241,7 +241,7 @@ export default [
    "had gave"
   ],
   "key": 1,
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "'I gave' moves back a step: had given.",
   "slots": {
    "m": [
     "Aziz",
@@ -273,7 +273,7 @@ export default [
    "have done"
   ],
   "key": 0,
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "'I did' moves back a step: had done.",
   "slots": {
    "f": [
     "Olga",
@@ -305,7 +305,7 @@ export default [
    "had spoken"
   ],
   "key": 3,
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "'I spoke' moves back a step: had spoken.",
   "slots": {
    "m": [
     "Aziz",
@@ -337,7 +337,7 @@ export default [
    "has fallen"
   ],
   "key": 2,
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "'I fell off' moves back a step: had fallen.",
   "slots": {
    "f": [
     "Olga",
@@ -369,7 +369,7 @@ export default [
    "had drove"
   ],
   "key": 1,
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "'We drove' moves back a step: had driven.",
   "slots": {
    "who": [
     "tourists",
@@ -401,7 +401,7 @@ export default [
    "have taken"
   ],
   "key": 0,
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "'Someone took' moves back a step: had taken.",
   "slots": {
    "m": [
     "Aziz",
@@ -433,7 +433,7 @@ export default [
    "had swum"
   ],
   "key": 3,
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "'I swam' moves back a step: had swum.",
   "slots": {
    "f": [
     "Olga",
@@ -465,7 +465,7 @@ export default [
    "has chosen"
   ],
   "key": 2,
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "'We chose' moves back a step: had chosen.",
   "slots": {
    "who": [
     "parents",
@@ -497,7 +497,7 @@ export default [
    "had wore"
   ],
   "key": 1,
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "'I wore' moves back a step: had worn.",
   "slots": {
    "f": [
     "Olga",
@@ -529,7 +529,7 @@ export default [
    "have known"
   ],
   "key": 0,
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "'I knew' moves back a step: had known.",
   "slots": {
    "m": [
     "Aziz",
@@ -561,7 +561,7 @@ export default [
    "had lost"
   ],
   "key": 3,
-  "why": "Reported after said, the present perfect (have done) moves back to the past perfect (had done).",
+  "why": "'I've lost' (present perfect) moves back: had lost.",
   "slots": {
    "m": [
     "Aziz",
@@ -593,7 +593,7 @@ export default [
    "has"
   ],
   "key": 2,
-  "why": "Reported after said, the present perfect (have done) moves back to the past perfect (had done).",
+  "why": "'I've never been' moves back: have → had.",
   "slots": {
    "f": [
     "Olga",
@@ -625,7 +625,7 @@ export default [
    "have"
   ],
   "key": 1,
-  "why": "Reported after said, the present perfect (have done) moves back to the past perfect (had done).",
+  "why": "'I've already done' moves back: have → had.",
   "slots": {
    "m": [
     "Aziz",
@@ -655,7 +655,7 @@ export default [
   "acceptable": [
    "began"
   ],
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "began moves back: had + begun.",
   "slots": {
    "m": [
     "Aziz",
@@ -685,7 +685,7 @@ export default [
   "acceptable": [
    "flew"
   ],
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "flew moves back: had + flown.",
   "slots": {
    "f": [
     "Olga",
@@ -715,7 +715,7 @@ export default [
   "acceptable": [
    "rode"
   ],
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "rode moves back: had + ridden.",
   "slots": {
    "m": [
     "Aziz",
@@ -745,7 +745,7 @@ export default [
   "acceptable": [
    "sang"
   ],
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "sang moves back: had + sung.",
   "slots": {
    "who": [
     "children",
@@ -775,7 +775,7 @@ export default [
   "acceptable": [
    "drew"
   ],
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "drew moves back: had + drawn.",
   "slots": {
    "f": [
     "Olga",
@@ -805,7 +805,7 @@ export default [
   "acceptable": [
    "hid"
   ],
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "hid moves back: had + hidden.",
   "slots": {
    "m": [
     "Aziz",
@@ -835,7 +835,7 @@ export default [
   "acceptable": [
    "threw"
   ],
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "threw moves back: had + thrown.",
   "slots": {
    "m": [
     "Aziz",
@@ -865,7 +865,7 @@ export default [
   "acceptable": [
    "saw"
   ],
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "saw moves back: had + seen.",
   "slots": {
    "f": [
     "Olga",
@@ -895,7 +895,7 @@ export default [
   "acceptable": [
    "went"
   ],
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "went moves back: had + gone.",
   "slots": {
    "m": [
     "Aziz",
@@ -925,7 +925,7 @@ export default [
   "acceptable": [
    "ate"
   ],
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "ate moves back: had + eaten.",
   "slots": {
    "who": [
     "parents",
@@ -955,7 +955,7 @@ export default [
   "acceptable": [
    "took"
   ],
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "took a lot of photos: had + taken.",
   "slots": {
    "f": [
     "Olga",
@@ -985,7 +985,7 @@ export default [
   "acceptable": [
    "wrote"
   ],
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "wrote moves back: had + written.",
   "slots": {
    "m": [
     "Aziz",
@@ -1015,7 +1015,7 @@ export default [
   "acceptable": [
    "forgot"
   ],
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "forgot moves back: had + forgotten.",
   "slots": {
    "f": [
     "Olga",
@@ -1045,7 +1045,7 @@ export default [
   "acceptable": [
    "broke"
   ],
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "broke moves back: had + broken.",
   "slots": {
    "m": [
     "Aziz",
@@ -1075,7 +1075,7 @@ export default [
   "acceptable": [
    "gave"
   ],
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "gave away moves back: had + given.",
   "slots": {
    "f": [
     "Olga",
@@ -1105,7 +1105,7 @@ export default [
   "acceptable": [
    "spoke"
   ],
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "spoke moves back: had + spoken.",
   "slots": {
    "who": [
     "tourists",
@@ -1135,7 +1135,7 @@ export default [
   "acceptable": [
    "fell"
   ],
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "fell asleep moves back: had + fallen.",
   "slots": {
    "m": [
     "Aziz",
@@ -1165,7 +1165,7 @@ export default [
   "acceptable": [
    "drove"
   ],
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "drove all night: had + driven.",
   "slots": {
    "f": [
     "Olga",
@@ -1195,7 +1195,7 @@ export default [
   "acceptable": [
    "took"
   ],
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "Somebody took it: had + taken.",
   "slots": {
    "thing": [
     "coats",
@@ -1225,7 +1225,7 @@ export default [
   "acceptable": [
    "wore"
   ],
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "wore moves back: had + worn.",
   "slots": {
    "m": [
     "Aziz",
@@ -1257,7 +1257,7 @@ export default [
    "he went",
    "he'd gone"
   ],
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "I went → he had gone.",
   "slots": {
    "m": [
     "Aziz",
@@ -1289,7 +1289,7 @@ export default [
    "she saw",
    "she'd seen"
   ],
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "I saw → she had seen.",
   "slots": {
    "f": [
     "Olga",
@@ -1321,7 +1321,7 @@ export default [
    "they ate",
    "they'd eaten"
   ],
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "We ate → they had eaten.",
   "slots": {
    "who": [
     "children",
@@ -1353,7 +1353,7 @@ export default [
    "he forgot",
    "he'd forgotten"
   ],
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "I forgot → he had forgotten.",
   "slots": {
    "m": [
     "Aziz",
@@ -1385,7 +1385,7 @@ export default [
    "she broke",
    "she'd broken"
   ],
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "I broke → she had broken.",
   "slots": {
    "f": [
     "Olga",
@@ -1416,7 +1416,7 @@ export default [
   "acceptable": [
    "saw"
   ],
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "Past report: has seen → had seen.",
   "slots": {
    "m": [
     "Aziz",
@@ -1447,7 +1447,7 @@ export default [
   "acceptable": [
    "went"
   ],
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "had + past participle: gone, not went.",
   "slots": {
    "f": [
     "Olga",
@@ -1478,7 +1478,7 @@ export default [
   "acceptable": [
    "took"
   ],
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "had + past participle: taken, not took.",
   "slots": {
    "m": [
     "Aziz",
@@ -1509,7 +1509,7 @@ export default [
   "acceptable": [
    "drove"
   ],
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "Past report: have driven → had driven.",
   "slots": {
    "who": [
     "friends",
@@ -1540,7 +1540,7 @@ export default [
   "acceptable": [
    "wrote"
   ],
-  "why": "Reported after said, the past simple moves back to the past perfect: had + past participle.",
+  "why": "had + past participle: written, not wrote.",
   "slots": {
    "f": [
     "Olga",
@@ -1568,7 +1568,7 @@ export default [
   "source": "'I've finished the {work},' {f} said.",
   "hint": "{f} said that she ______ the {work}.",
   "key": "had finished",
-  "why": "Reported after said, the present perfect (have done) moves back to the past perfect (had done).",
+  "why": "I've finished → she had finished.",
   "slots": {
    "f": [
     "Olga",
@@ -1596,7 +1596,7 @@ export default [
   "source": "'I've lost my {thing},' {m} said.",
   "hint": "{m} said that he ______ his {thing}.",
   "key": "had lost",
-  "why": "Reported after said, the present perfect (have done) moves back to the past perfect (had done).",
+  "why": "I've lost → he had lost.",
   "slots": {
    "m": [
     "Aziz",
@@ -1627,7 +1627,7 @@ export default [
    "had",
    "been"
   ],
-  "why": "Reported after said, the present perfect (have done) moves back to the past perfect (had done).",
+  "why": "We've never been → had never been.",
   "slots": {
    "who": [
     "parents",
@@ -1658,7 +1658,7 @@ export default [
    "had",
    "eaten"
   ],
-  "why": "Reported after said, the present perfect (have done) moves back to the past perfect (had done).",
+  "why": "I've already eaten → had already eaten.",
   "slots": {
    "m": [
     "Aziz",
@@ -1689,7 +1689,7 @@ export default [
    "had",
    "bought"
   ],
-  "why": "Reported after said, the present perfect (have done) moves back to the past perfect (had done).",
+  "why": "I've just bought → had just bought.",
   "slots": {
    "f": [
     "Olga",

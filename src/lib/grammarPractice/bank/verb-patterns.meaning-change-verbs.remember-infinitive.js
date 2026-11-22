@@ -9,7 +9,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Please remember ______ the door when you leave, {name}.",
+  "prompt": "Please remember ______ the {thing} when you leave, {name}.",
   "options": [
    "to lock",
    "locking",
@@ -24,6 +24,12 @@ export default [
     "Dilnoza",
     "Ulugbek",
     "Malika"
+   ],
+   "thing": [
+    "door",
+    "gate",
+    "window",
+    "garage"
    ]
   }
  },
@@ -131,7 +137,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Will you remember ______ the {pet} while I'm away?",
+  "prompt": "Will you remember ______ the {pet} while I'm {absent}?",
   "options": [
    "to feed",
    "feeding",
@@ -139,13 +145,19 @@ export default [
    "fed"
   ],
   "key": 0,
-  "why": "\"While I'm away\" is the future: a task still to do, so remember + to + base (to feed).",
+  "why": "\"While I'm …\" is later: a task still to do: remember + to feed.",
   "slots": {
    "pet": [
     "cat",
     "dog",
     "fish",
     "parrot"
+   ],
+   "absent": [
+    "away",
+    "on holiday",
+    "at work",
+    "on my trip"
    ]
   }
  },
@@ -189,7 +201,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Always remember ______ off the {thing} before you go to bed.",
+  "prompt": "Always remember ______ off the {thing} before you go to {go}.",
   "options": [
    "turn",
    "turned",
@@ -197,13 +209,19 @@ export default [
    "turning"
   ],
   "key": 2,
-  "why": "\"Always … before you go to bed\": a task still to do, so remember + to + base (to turn).",
+  "why": "\"Always … before you go to …\": a task each time: remember + to turn.",
   "slots": {
    "thing": [
     "gas",
     "lights",
     "heater",
     "TV"
+   ],
+   "go": [
+    "bed",
+    "sleep",
+    "work",
+    "school"
    ]
   }
  },
@@ -343,7 +361,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Please remember ______ your answers before you finish the {test}.",
+  "prompt": "Please remember ______ your {what} before you finish the {test}.",
   "options": [
    "checked",
    "to check",
@@ -358,6 +376,12 @@ export default [
     "test",
     "quiz",
     "form"
+   ],
+   "what": [
+    "answers",
+    "spelling",
+    "names",
+    "work"
    ]
   }
  },
@@ -401,7 +425,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Remember ______ the windows if it starts to rain, {name}.",
+  "prompt": "Remember ______ the {what} if it starts to rain, {name}.",
   "options": [
    "closing",
    "close",
@@ -416,6 +440,12 @@ export default [
     "Dilnoza",
     "Ulugbek",
     "Malika"
+   ],
+   "what": [
+    "windows",
+    "door",
+    "car windows",
+    "balcony door"
    ]
   }
  },
@@ -427,7 +457,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I always remember ______ my {thing} at night.",
+  "prompt": "I always remember ______ my {thing} at {when}.",
   "options": [
    "charge",
    "charged",
@@ -435,13 +465,19 @@ export default [
    "charging"
   ],
   "key": 2,
-  "why": "\"Always\" = a habit, a task each night: a task still to do, so remember + to + base (to charge).",
+  "why": "\"Always\" = a habit, a task each time: remember + to charge.",
   "slots": {
    "thing": [
     "phone",
     "laptop",
     "watch",
     "tablet"
+   ],
+   "when": [
+    "night",
+    "bedtime",
+    "the weekend",
+    "home"
    ]
   }
  },
@@ -575,7 +611,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Please remember ______ this letter to your {who}.",
+  "prompt": "Please remember ______ this {item} to your {who}.",
   "options": [
    "gave",
    "to give",
@@ -590,6 +626,12 @@ export default [
     "teacher",
     "boss",
     "neighbour"
+   ],
+   "item": [
+    "letter",
+    "parcel",
+    "book",
+    "key"
    ]
   }
  },
@@ -656,7 +698,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "It is a task. Complete with to + the verb in brackets.",
-  "source": "I must remember ______ (call) the {who} on Monday.",
+  "source": "I must remember ______ (call) the {who} on {day}.",
   "key": "to call",
   "why": "It is a task still to do, so remember + to + base: to call.",
   "slots": {
@@ -665,6 +707,12 @@ export default [
     "bank",
     "school",
     "plumber"
+   ],
+   "day": [
+    "Monday",
+    "Friday",
+    "Tuesday",
+    "Sunday"
    ]
   }
  },
@@ -812,7 +860,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "It is a task. Complete with to + the verb in brackets.",
-  "source": "You must remember ______ (pay) for the {thing} online.",
+  "source": "You must remember ______ (pay) for the {thing} {how}.",
   "key": "to pay",
   "why": "It is a task still to do, so remember + to + base: to pay.",
   "slots": {
@@ -821,6 +869,12 @@ export default [
     "course",
     "hotel",
     "parking"
+   ],
+   "how": [
+    "online",
+    "today",
+    "by Friday",
+    "at the desk"
    ]
   }
  },
@@ -860,7 +914,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "It is a task. Complete with to + the verb in brackets.",
-  "source": "Please remember ______ (check) the {thing} before the trip.",
+  "source": "Please remember ______ (check) the {thing} before the {trip}.",
   "key": "to check",
   "why": "It is a task still to do, so remember + to + base: to check.",
   "slots": {
@@ -869,6 +923,12 @@ export default [
     "tickets",
     "weather",
     "oil"
+   ],
+   "trip": [
+    "trip",
+    "flight",
+    "drive",
+    "journey"
    ]
   }
  },
@@ -935,7 +995,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "It is a task. Complete with to + the verb in brackets.",
-  "source": "Always remember ______ (drink) water during the {sport}.",
+  "source": "Always remember ______ (drink) {drink} during the {sport}.",
   "key": "to drink",
   "why": "It is a task still to do, so remember + to + base: to drink.",
   "slots": {
@@ -944,6 +1004,12 @@ export default [
     "training",
     "race",
     "game"
+   ],
+   "drink": [
+    "water",
+    "juice",
+    "tea",
+    "something"
    ]
   }
  },
@@ -983,7 +1049,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "It is a task. Complete with to + the verb in brackets.",
-  "source": "I hope she remembers ______ (write) her address on the {form}.",
+  "source": "I hope she remembers ______ (write) her {what} on the {form}.",
   "key": "to write",
   "why": "It is a task still to do, so remember + to + base: to write.",
   "slots": {
@@ -992,6 +1058,12 @@ export default [
     "parcel",
     "list",
     "card"
+   ],
+   "what": [
+    "address",
+    "name",
+    "phone number",
+    "email"
    ]
   }
  },
@@ -1058,7 +1130,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "It is a task. Complete with to + the verb in brackets.",
-  "source": "Please remember ______ (give) the {who} the keys back.",
+  "source": "Please remember ______ (give) the {who} the {what} back.",
   "key": "to give",
   "why": "It is a task still to do, so remember + to + base: to give.",
   "slots": {
@@ -1067,6 +1139,12 @@ export default [
     "landlord",
     "neighbour",
     "caretaker"
+   ],
+   "what": [
+    "keys",
+    "books",
+    "money",
+    "bike"
    ]
   }
  },
@@ -1249,7 +1327,7 @@ export default [
   "source": "Don't forget: bring your {thing} tomorrow, {name}.",
   "hint": "Remember ______ your {thing} tomorrow, {name}.",
   "key": "to bring",
-  "why": "Don't forget X = Remember to X.",
+  "why": "\"Don't forget: bring\" = Remember to bring.",
   "slots": {
    "thing": [
     "passport",
@@ -1277,7 +1355,7 @@ export default [
   "source": "Don't forget: water the {plant} on Sunday, {name}.",
   "hint": "Remember ______ the {plant} on Sunday, {name}.",
   "key": "to water",
-  "why": "Don't forget X = Remember to X.",
+  "why": "\"Don't forget: water\" = Remember to water.",
   "slots": {
    "plant": [
     "flowers",
@@ -1305,7 +1383,7 @@ export default [
   "source": "Don't forget: pay the {bill} this week, {name}.",
   "hint": "Remember ______ the {bill} this week, {name}.",
   "key": "to pay",
-  "why": "Don't forget X = Remember to X.",
+  "why": "\"Don't forget: pay\" = Remember to pay.",
   "slots": {
    "bill": [
     "rent",
@@ -1333,7 +1411,7 @@ export default [
   "source": "Don't forget: send me the {doc} tonight, {name}.",
   "hint": "Remember ______ me the {doc} tonight, {name}.",
   "key": "to send",
-  "why": "Don't forget X = Remember to X.",
+  "why": "\"Don't forget: send\" = Remember to send.",
   "slots": {
    "doc": [
     "photos",
@@ -1361,7 +1439,7 @@ export default [
   "source": "Don't forget: ask your {who} about Saturday, {name}.",
   "hint": "Remember ______ your {who} about Saturday, {name}.",
   "key": "to ask",
-  "why": "Don't forget X = Remember to X.",
+  "why": "\"Don't forget: ask\" = Remember to ask.",
   "slots": {
    "who": [
     "mum",

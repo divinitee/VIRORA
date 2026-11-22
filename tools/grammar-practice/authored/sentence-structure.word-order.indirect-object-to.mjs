@@ -140,5 +140,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/sentence-structure.word-order.indirect-object-to.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "explain + the thing + to + person: explained the rule to us.",
+   "describe + the thing + to + person: described the hotel to me.",
+   "explain + the thing + to + person, never explain me.",
+   "introduce + the friend + to + person.",
+   "say goodbye to someone, never say someone goodbye.",
+   "suggest + the thing + to + person, never suggest us.",
+   "With it, use to: lent it to him.",
+   "With them, use to: showed them to her.",
+   "pass the thing to the person: to.",
+   "lend the thing to the person: to.",
+   "show the thing to the people: to.",
+   "give the thing to the person: to.",
+   "hand the thing to the person: to.",
+   "explain the thing to the people: to.",
+   "A present that helps her: buy … for.",
+   "Cooking that helps us: cook … for.",
+   "Something baked to please her: make … for.",
+   "Finding something to help her: find … for.",
+   "Booking to help us: book … for.",
+   "Keeping it to help you: keep … for."
+  ],
+  "build": [
+   "lend, the thing goes to me: to.",
+   "explain, the problem goes to them: to.",
+   "describe, the place goes to us: to.",
+   "pass, the thing goes to the person: to.",
+   "say sorry to someone: to.",
+   "show, the thing goes to the driver: to.",
+   "introduce someone to someone: to.",
+   "He gave it to me for a while: lent … to.",
+   "pass, the thing goes to …: to.",
+   "hand, the thing goes to the waiter: to.",
+   "buy, as a present that helps her: for.",
+   "cook, to help the guests: for.",
+   "make, as a present for her: for.",
+   "open, to help me: for.",
+   "carry, to help you: for.",
+   "find, to help us: for.",
+   "\"My hands are full\": hold, to help me: for.",
+   "book a table, for the people who will sit: for.",
+   "buy, to help Grandma: for.",
+   "save a seat, to help you: for."
+  ],
+  "transform": [
+   "With it at the end: gave it to.",
+   "With them, buy uses for: bought them for.",
+   "With them, show uses to: show them to.",
+   "With it, make uses for: made it for.",
+   "With it, send uses to: send it to.",
+   "Never explain me: explain the … to me.",
+   "Never described us: described … to us.",
+   "Never said me hello: said hello to me.",
+   "Never introduce you my …: introduce … to you.",
+   "Never suggested me: suggested … to me.",
+   "buy helps someone: for, not to.",
+   "cook helps someone: for, not to.",
+   "give goes to someone: to, not for.",
+   "lend goes to someone: to, not for.",
+   "find helps someone: for, not to."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${out} — ${items.length} items`);

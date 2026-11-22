@@ -18,15 +18,15 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 4. These **shoes** look nice. Can I ______, **Feruza**?  
    options: try them on them · ✔ try them on · try on them · try on they  
-   why: try them on: pronoun in the middle.
+   why: "these …" → them, and them goes in the middle: try them on.
 
 5. I have an early **train** tomorrow. Please ______ at six, **Otabek**.  
    options: ✔ wake me up · wake up me · wake up I · wake me up me  
-   why: wake me up: pronoun in the middle.
+   why: Me is a pronoun, so it sits inside: wake me up.
 
 6. Nobody is watching the **computer**. Can you ______, **Feruza**?  
    options: turn off it · turn off it off · turn it off it · ✔ turn it off  
-   why: turn it off: pronoun in the middle.
+   why: "the …" → it, inside the verb: turn it off.
 
 7. That's my **phone**! ______ now, **Malika**!  
    options: Give back it back · Give it back it · ✔ Give it back · Give back it  
@@ -34,15 +34,15 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 8. These **apples** are old. Let's ______, **Ulugbek**.  
    options: throw them away them · ✔ throw them away · throw away them · throw away they  
-   why: throw them away: pronoun in the middle.
+   why: "These …" → them, inside: throw them away.
 
 9. This is my new **email**. Please ______ before you forget, **Malika**.  
    options: ✔ write it down · write down it · write down it down · write it down it  
-   why: write it down: pronoun in the middle.
+   why: "my new …" → it, inside: write it down.
 
 10. Here is the **paper**. Please ______ and give it to the nurse, **Gulnora**.  
    options: fill in it · fill in it in · fill it in it · ✔ fill it in  
-   why: fill it in: pronoun in the middle.
+   why: "the …" (a paper) → it, inside: fill it in.
 
 11. Your **uncle** phoned while you were out. Can you ______ later, **Malika**?  
    options: call back he · call him back him · ✔ call him back · call back him  
@@ -50,7 +50,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 12. Your toys are all over the **kitchen**. ______ now, please, **Feruza**.  
    options: Put them away them · ✔ Put them away · Put away them · Put away they  
-   why: put them away: pronoun in the middle.
+   why: "Your toys" → them, inside: Put them away.
 
 13. Your **coat** is wet. ______ and sit by the fire, **Otabek**.  
    options: ✔ Take it off · Take off it · Take off it off · Take it off it  
@@ -62,11 +62,11 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 15. I don't know this word. I'll ______ in the **app**, **Nodira**.  
    options: look up it up · look it up it · ✔ look it up · look up it  
-   why: look it up: pronoun in the middle.
+   why: "this word" → it, inside: look it up.
 
 16. The **washing machine** is very noisy. Can you ______, **Gulnora**?  
    options: switch it off it · ✔ switch it off · switch off it · switch off it off  
-   why: switch it off: pronoun in the middle.
+   why: "The …" → it, inside: switch it off.
 
 17. My sister lands at nine. I'm going to ______ from the **airport**, **Sherzod**.  
    options: ✔ pick her up · pick up her · pick up she · pick her up her  
@@ -78,7 +78,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 19. I can't hear the **music**. Please ______ a little, **Otabek**.  
    options: turn up it up · turn it up it · ✔ turn it up · turn up it  
-   why: turn it up: pronoun in the middle.
+   why: "the …" → it, inside: turn it up.
 
 20. The kids are asleep in the **car**. Please don't wake ______, **Feruza**.  
    options: ✔ them up · up them · up they · them up them  
@@ -104,17 +104,17 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 4. _Put the two words in brackets in the gaps, in the right order._  
    Do you like these **jeans**? Try ______ ______ (on / them), **Ulugbek**.  
    key: them + on  
-   why: try them on: pronoun in the middle.
+   why: Pronoun them before on: them, on.
 
 5. _Put the two words in brackets in the gaps, in the right order._  
    Please wake ______ ______ (up / me) at seven, **Otabek**. I have a **lesson**.  
    key: me + up  
-   why: wake me up: pronoun in the middle.
+   why: Pronoun me before up: me, up.
 
 6. _Put the two words in brackets in the gaps, in the right order._  
    The **computer** is still on. Turn ______ ______ (off / it), **Akmal**.  
    key: it + off  
-   why: turn it off: pronoun in the middle.
+   why: Pronoun it before off: it, off.
 
 7. _Put the two words in brackets in the gaps, in the right order._  
    I lent him my **bike**, but he never gave ______ ______ (back / it), **Malika**.  
@@ -124,17 +124,17 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 8. _Put the two words in brackets in the gaps, in the right order._  
    These old **shoes** are broken. Throw ______ ______ (away / them), **Ulugbek**.  
    key: them + away  
-   why: throw them away: pronoun in the middle.
+   why: Pronoun them before away: them, away.
 
 9. _Put the two words in brackets in the gaps, in the right order._  
    Here's the address of the **hotel**. Write ______ ______ (down / it), **Otabek**.  
    key: it + down  
-   why: write it down: pronoun in the middle.
+   why: Pronoun it before down: it, down.
 
 10. _Put the two words in brackets in the gaps, in the right order._  
    The **application** is on the desk. Please fill ______ ______ (in / it), **Akmal**.  
    key: it + in  
-   why: fill it in: pronoun in the middle.
+   why: Pronoun it before in: it, in.
 
 11. _Put the two words in brackets in the gaps, in the right order._  
    Your **sister** called. Please call ______ ______ (back / her), **Otabek**.  
@@ -144,7 +144,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 12. _Put the two words in brackets in the gaps, in the right order._  
    Your clothes are on the **bed**. Put ______ ______ (away / them), **Gulnora**.  
    key: them + away  
-   why: put them away: pronoun in the middle.
+   why: Pronoun them before away: them, away (clothes).
 
 13. _Put the two words in brackets in the gaps, in the right order._  
    Your **boots** are dirty. Take ______ ______ (off / them) at the door, **Sherzod**.  
@@ -159,7 +159,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 15. _Put the two words in brackets in the gaps, in the right order._  
    If you don't know the word, look ______ ______ (up / it) in the **app**, **Malika**.  
    key: it + up  
-   why: look it up: pronoun in the middle.
+   why: Pronoun it before up: it, up.
 
 16. _Put the two words in brackets in the gaps, in the right order._  
    Grandpa will pick ______ ______ (up / us) from the **bus stop**, **Ulugbek**.  
@@ -169,7 +169,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 17. _Put the two words in brackets in the gaps, in the right order._  
    I love this **music**! Turn ______ ______ (up / it), **Sherzod**!  
    key: it + up  
-   why: turn it up: pronoun in the middle.
+   why: Pronoun it before up (louder): it, up.
 
 18. _Put the two words in brackets in the gaps, in the right order._  
    The **shirts** were too big, so I took ______ ______ (back / them), **Feruza**.  
@@ -184,7 +184,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 20. _Put the two words in brackets in the gaps, in the right order._  
    It's hot in here, but the **air conditioner** is too loud. Switch ______ ______ (off / it), **Akmal**.  
    key: it + off  
-   why: switch it off: pronoun in the middle.
+   why: Pronoun it before off (switch): it, off.
 
 ## transform (15)
 
@@ -264,7 +264,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    I took my new **phone** back to the shop, **Malika**.  
    → I took ______ ______ new **phone** to the shop, **Malika**.  
    key: back + my  
-   why: took my new phone back = took back my new phone.
+   why: took my new … back = took back my new ….
 
 14. _Rewrite with the noun after the particle. One word in each gap._  
    Put your toys away, **Akmal**. Your **friends** are coming.  
@@ -276,7 +276,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    Let's put the **party** off until next week, **Sherzod**.  
    → Let's put ______ ______ **party** until next week, **Sherzod**.  
    key: off + the  
-   why: put the meeting off = put off the meeting.
+   why: put the … off = put off the ….
 
 ## create (8)
 

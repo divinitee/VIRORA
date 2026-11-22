@@ -129,5 +129,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/conditionals-wishes.second.second-if-clause.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "Imagined win, with would: if + past: won.",
+   "I don't have the time now: if + past: had.",
+   "We don't live there: if + past: lived.",
+   "I don't know it: if + past: knew.",
+   "Nobody can fly: if + past of can: could.",
+   "You don't speak it: if + past: spoke.",
+   "You aren't tall enough: if + were.",
+   "We don't have a car: if + past: had.",
+   "An imagined find: if + past: found.",
+   "An imagined loss: if + past: lost.",
+   "Not real yet: if + past: got.",
+   "An imagined meeting: if + past: met.",
+   "We aren't going that way now: if + past: went.",
+   "He doesn't study enough: if + past: studied.",
+   "He works a lot now: if + past: worked.",
+   "They aren't here: if + were.",
+   "I don't own one: if + past: owned.",
+   "You eat a lot now: if + past: ate.",
+   "I go to bed late now: if + past: went.",
+   "We can't choose now: if + past of can: could."
+  ],
+  "build": [
+   "Not real now: have → had.",
+   "We don't live there: live → lived.",
+   "I don't know the way: know → knew.",
+   "An imagined win: win → won.",
+   "She doesn't speak it: speak → spoke.",
+   "I can't cook like that: can → could.",
+   "We aren't rich: be → were.",
+   "He gets up late: get → got.",
+   "An imagined find: find → found.",
+   "He doesn't study enough: study → studied.",
+   "You don't eat enough: eat → ate.",
+   "They don't go by plane: go → went.",
+   "I don't own one: own → owned.",
+   "An imagined meeting: meet → met.",
+   "He works a lot: work → worked.",
+   "if + past, then would + verb: had, would learn.",
+   "if + past, then would + verb: lived, would visit.",
+   "if + were, then would + verb: were, would play.",
+   "if + past, then would + verb: knew, would come.",
+   "if + past, then would + verb: won, would buy."
+  ],
+  "transform": [
+   "don't have → If I had.",
+   "don't live → If we lived.",
+   "don't know → If I knew.",
+   "doesn't speak → If she spoke.",
+   "can't swim → If he could.",
+   "No would after if: If I had.",
+   "Unreal, so past after if: If we lived.",
+   "No will after if: if you won.",
+   "Unreal, so past after if: If she knew.",
+   "Unreal, so past of can: If I could.",
+   "Imagine + win → If you won.",
+   "Imagine + live → If you lived.",
+   "Picture + meet → If I met.",
+   "Imagine + have → If we had.",
+   "Imagine + find → If you found."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

@@ -6,277 +6,277 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 1. There is ______ milk in the **kitchen**, **Timur**. Let's buy some.  
    options: ✔ no · not · none · any  
-   why: There is a noun right after the gap and the verb is positive, so use no (no = not any).
+   why: Before a noun (milk), with a positive verb: no.
 
 2. I have ______ idea where **Dad** is, **Aziz**.  
    options: not · none · any · ✔ no  
-   why: There is a noun right after the gap and the verb is positive, so use no (no = not any).
+   why: Before a noun (idea): no.
 
 3. We have ______ lessons on **Navruz**, **Timur**.  
    options: none · any · ✔ no · not  
-   why: There is a noun right after the gap and the verb is positive, so use no (no = not any).
+   why: Before a noun (lessons): no.
 
-4. There were ______ seats on the **bus**, so we stood.  
+4. There were ______ seats on the **bus**, so we **got off**.  
    options: any · ✔ no · not · none  
-   why: There is a noun right after the gap and the verb is positive, so use no (no = not any).
+   why: Before a noun (seats): no.
 
-5. **Lola** has ______ time for games this **weekend**.  
+5. **Timur** has ______ time for games this **evening**.  
    options: ✔ no · not · none · any  
-   why: There is a noun right after the gap and the verb is positive, so use no (no = not any).
+   why: Before a noun (time): no.
 
-6. Sorry, there's ______ hot water in the **kitchen** today, **Olga**.  
+6. Sorry, there's ______ hot water in the **kitchen** today, **Lola**.  
    options: not · none · any · ✔ no  
-   why: There is a noun right after the gap and the verb is positive, so use no (no = not any).
+   why: Before a noun (hot water): no.
 
-7. My grandparents have ______ internet in their **old house**.  
+7. My **grandparents** have ______ internet in their **flat**.  
    options: none · any · ✔ no · not  
-   why: There is a noun right after the gap and the verb is positive, so use no (no = not any).
+   why: Before a noun (internet): no.
 
-8. There are ______ shops near our **school**, **Aziz**.  
+8. There are ______ shops near our **flat**, **Aziz**.  
    options: any · ✔ no · not · none  
-   why: There is a noun right after the gap and the verb is positive, so use no (no = not any).
+   why: Before a noun (shops): no.
 
-9. I've got ______ money left after the **wedding**, **Aziz**.  
+9. I've got ______ money left after the **holidays**, **Aziz**.  
    options: ✔ no · not · none · any  
-   why: There is a noun right after the gap and the verb is positive, so use no (no = not any).
+   why: Before a noun (money): no.
 
-10. The **little room** has ______ windows, so it's very dark.  
+10. The **little room** has ______ windows, so it's very **stuffy**.  
    options: not · none · any · ✔ no  
-   why: There is a noun right after the gap and the verb is positive, so use no (no = not any).
+   why: Before a noun (windows): no.
 
-11. There's ______ sugar in my **tea**, **Timur**. I don't like it sweet.  
+11. There's ______ sugar in my **tea**, **Aziz**. I don't like it sweet.  
    options: none · any · ✔ no · not  
-   why: There is a noun right after the gap and the verb is positive, so use no (no = not any).
+   why: Before a noun (sugar): no.
 
-12. The soup is ______ hot yet, **Olga**. Wait a **minute**.  
+12. The soup is ______ hot yet, **Lola**. Wait a **bit**.  
    options: any · no · ✔ not · none  
-   why: Use not before an adjective, a verb, a place word or any. No only goes straight before a noun.
+   why: Before an adjective (hot): not.
 
-13. I'm ______ working today, **Aziz**. It's my day off.  
+13. I'm ______ working **tonight**, **Aziz**. It's my day off.  
    options: no · ✔ not · none · any  
-   why: Use not before an adjective, a verb, a place word or any. No only goes straight before a noun.
+   why: Before an -ing verb (working): not.
 
-14. My brother is ______ very tall, but he plays **tennis** well.  
+14. My **brother** is ______ very tall, but he plays **tennis** well.  
    options: ✔ not · none · any · no  
-   why: Use not before an adjective, a verb, a place word or any. No only goes straight before a noun.
+   why: Before an adjective (very tall): not.
 
-15. We are ______ ready yet, **Lola**. Give us **five** minutes.  
+15. We are ______ ready yet, **Olga**. Give us **two** minutes.  
    options: none · any · no · ✔ not  
-   why: Use not before an adjective, a verb, a place word or any. No only goes straight before a noun.
+   why: Before an adjective (ready): not.
 
-16. There is ______ any bread left, **Olga**. Can you buy some?  
+16. There is ______ any **milk** left, **Timur**. Can you buy some?  
    options: any · no · ✔ not · none  
-   why: Not + any: the verb is negative with not, and any goes before the noun. "No any" is wrong.
+   why: "any …" after the gap: not.
 
-17. I have ______ any homework **for Monday**, **Aziz**.  
+17. I have ______ any homework **today**, **Lola**.  
    options: no · ✔ not · none · any  
-   why: Not + any: the verb is negative with not, and any goes before the noun. "No any" is wrong.
+   why: "any homework" after the gap: not.
 
-18. **Lola** is ______ at home. She's at the **gym**.  
+18. **Lola** is ______ at home. She's at the **bazaar**.  
    options: ✔ not · none · any · no  
-   why: Use not before an adjective, a verb, a place word or any. No only goes straight before a noun.
+   why: Before a place (at home): not.
 
-19. The station is ______ far from here, **Timur**. You can walk.  
+19. The **bazaar** is ______ far from here, **Timur**. You can walk.  
    options: none · any · no · ✔ not  
-   why: Use not before an adjective, a verb, a place word or any. No only goes straight before a noun.
+   why: Before an adjective (far): not.
 
-20. There were ______ any taxis at the **airport**, so we walked.  
+20. There were ______ any taxis at the **station**, so we **stayed**.  
    options: any · no · ✔ not · none  
-   why: Not + any: the verb is negative with not, and any goes before the noun. "No any" is wrong.
+   why: "any taxis" after the gap: not.
 
 ## build (20)
 
 1. _Write no or not._  
-   There's ______ cheese in the **fridge**, **Lola**.  
+   There's ______ cheese in the **kitchen**, **Olga**.  
    key: no  
-   why: There is a noun right after the gap and the verb is positive, so use no (no = not any).
+   why: Noun after the gap (cheese): no.
 
 2. _Write no or not._  
    I've got ______ brothers, but I have two **sisters**.  
    key: no  
-   why: There is a noun right after the gap and the verb is positive, so use no (no = not any).
+   why: Noun after the gap (brothers): no.
 
 3. _Write no or not._  
-   We had ______ rain **last month**, **Timur**.  
+   We had ______ rain **all week**, **Aziz**.  
    key: no  
-   why: There is a noun right after the gap and the verb is positive, so use no (no = not any).
+   why: Noun after the gap (rain): no.
 
 4. _Write no or not._  
-   There are ______ buses after **eleven** in our town, **Aziz**.  
+   There are ______ buses after **nine** in our town, **Olga**.  
    key: no  
-   why: There is a noun right after the gap and the verb is positive, so use no (no = not any).
+   why: Noun after the gap (buses): no.
 
 5. _Write no or not._  
-   **Lola** has ______ free time **today**.  
+   **Aziz** has ______ free time **on Mondays**.  
    key: no  
-   why: There is a noun right after the gap and the verb is positive, so use no (no = not any).
+   why: Noun after the gap (free time): no.
 
 6. _Write no or not._  
-   Our village has ______ cinema, **Olga**.  
+   Our **area** has ______ cinema, **Olga**.  
    key: no  
-   why: There is a noun right after the gap and the verb is positive, so use no (no = not any).
+   why: Noun after the gap (cinema): no.
 
 7. _Write no or not._  
-   There's ______ wifi in this **café**, **Lola**.  
+   There's ______ wifi in this **room**, **Aziz**.  
    key: no  
-   why: There is a noun right after the gap and the verb is positive, so use no (no = not any).
+   why: Noun after the gap (wifi): no.
 
 8. _Write no or not._  
-   I have ______ questions, **Aziz**. Everything is clear.  
+   I have ______ **problems**, **Aziz**. Everything is clear.  
    key: no  
-   why: There is a noun right after the gap and the verb is positive, so use no (no = not any).
+   why: Noun after the gap (…): no.
 
 9. _Write no or not._  
-   There were ______ eggs at the **supermarket**, **Olga**.  
+   There were ______ eggs at the **bazaar**, **Aziz**.  
    key: no  
-   why: There is a noun right after the gap and the verb is positive, so use no (no = not any).
+   why: Noun after the gap (eggs): no.
 
 10. _Write no or not._  
-   My uncle has ______ car, so he goes by **bus**.  
+   My **brother** has ______ car, so he goes by **metro**.  
    key: no  
-   why: There is a noun right after the gap and the verb is positive, so use no (no = not any).
+   why: Noun after the gap (car): no.
 
 11. _Write no or not._  
-   The museum is ______ open on **holidays**, **Olga**.  
+   The museum is ______ open on **holidays**, **Lola**.  
    key: not  
-   why: Use not before an adjective, a verb, a place word or any. No only goes straight before a noun.
+   why: Adjective after the gap (open): not.
 
 12. _Write no or not._  
-   I'm ______ hungry, **Lola**. I had a big **dinner**.  
+   I'm ______ hungry, **Olga**. I had a big **breakfast**.  
    key: not  
-   why: Use not before an adjective, a verb, a place word or any. No only goes straight before a noun.
+   why: Adjective after the gap (hungry): not.
 
 13. _Write no or not._  
-   There's ______ any juice left, **Aziz**.  
+   There's ______ any **milk** left, **Olga**.  
    key: not  
-   why: Not + any: the verb is negative with not, and any goes before the noun. "No any" is wrong.
+   why: any + a drink after the gap: not, never no any.
 
 14. _Write no or not._  
-   We have ______ any lessons on **Sunday**, **Olga**.  
+   We have ______ any lessons on **Independence Day**, **Olga**.  
    key: not  
-   why: Not + any: the verb is negative with not, and any goes before the noun. "No any" is wrong.
+   why: "any lessons" after the gap: not.
 
 15. _Write no or not._  
-   **Aziz** is ______ here. He's at the **gym**.  
+   **Timur** is ______ here. He's at the **bank**.  
    key: not  
-   why: Use not before an adjective, a verb, a place word or any. No only goes straight before a noun.
+   why: Place word after the gap (here): not.
 
 16. _Write no or not._  
-   It's ______ cold today, **Olga**. You don't need a **scarf**.  
+   It's ______ cold today, **Aziz**. You don't need a **scarf**.  
    key: not  
-   why: Use not before an adjective, a verb, a place word or any. No only goes straight before a noun.
+   why: Adjective after the gap (cold): not.
 
 17. _Write no or not._  
-   The test was ______ difficult, **Timur**. I finished it in **ten** minutes.  
+   The test was ______ difficult, **Aziz**. I finished it in **fifteen** minutes.  
    key: not  
-   why: Use not before an adjective, a verb, a place word or any. No only goes straight before a noun.
+   why: Adjective after the gap (difficult): not.
 
 18. _Write no or not._  
-   My phone is ______ working, **Olga**. Can I use yours?  
+   My **charger** is ______ working, **Lola**. Can I use yours?  
    key: not  
-   why: Use not before an adjective, a verb, a place word or any. No only goes straight before a noun.
+   why: -ing after the gap (working): not.
 
 19. _Write no or not._  
-   There were ______ any free seats, so we sat on the **stairs**.  
+   There were ______ any free seats, so we sat on the **steps**.  
    key: not  
-   why: Not + any: the verb is negative with not, and any goes before the noun. "No any" is wrong.
+   why: "any free seats" after the gap: not.
 
 20. _Write no or not._  
-   The bus is ______ late today, **Olga**. It's on time.  
+   The **tram** is ______ late today, **Lola**. It's on time.  
    key: not  
-   why: Use not before an adjective, a verb, a place word or any. No only goes straight before a noun.
+   why: Adjective after the gap (late): not.
 
 ## transform (15)
 
 1. _Rewrite with no. Keep the meaning._  
-   There isn't any milk in the **jug**, **Lola**.  
-   → There is ______ milk in the **jug**, **Lola**.  
+   There isn't any milk in the **bottle**, **Timur**.  
+   → There is ______ milk in the **bottle**, **Timur**.  
    key: no  
-   why: There is a noun right after the gap and the verb is positive, so use no (no = not any).
+   why: isn't any = is no.
 
 2. _Rewrite with no. Keep the meaning._  
-   We don't have any lessons on **Navruz**, **Olga**.  
-   → We have ______ lessons on **Navruz**, **Olga**.  
+   We don't have any lessons on **Saturday**, **Aziz**.  
+   → We have ______ lessons on **Saturday**, **Aziz**.  
    key: no  
-   why: There is a noun right after the gap and the verb is positive, so use no (no = not any).
+   why: don't have any = have no.
 
 3. _Rewrite with no. Keep the meaning._  
-   I haven't got any money for the **trip**, **Aziz**.  
-   → I have got ______ money for the **trip**, **Aziz**.  
+   I haven't got any money for the **trip**, **Olga**.  
+   → I have got ______ money for the **trip**, **Olga**.  
    key: no  
-   why: There is a noun right after the gap and the verb is positive, so use no (no = not any).
+   why: haven't got any = have got no.
 
 4. _Rewrite with no. Keep the meaning._  
-   There aren't any shops in our **building**.  
-   → There are ______ shops in our **building**.  
+   There aren't any **cafés** in our **village**.  
+   → There are ______ **cafés** in our **village**.  
    key: no  
-   why: There is a noun right after the gap and the verb is positive, so use no (no = not any).
+   why: aren't any = are no.
 
 5. _Rewrite with no. Keep the meaning._  
-   **Aziz** doesn't have any time **this week**.  
-   → **Aziz** has ______ time **this week**.  
+   **Timur** doesn't have any time **before the exam**.  
+   → **Timur** has ______ time **before the exam**.  
    key: no  
-   why: There is a noun right after the gap and the verb is positive, so use no (no = not any).
+   why: doesn't have any = has no.
 
 6. _Rewrite with not … any. Keep the meaning._  
-   There is no sugar in my **milk**, **Lola**.  
-   → There is ______ ______ sugar in my **milk**, **Lola**.  
+   There is no sugar in my **coffee**, **Lola**.  
+   → There is ______ ______ sugar in my **coffee**, **Lola**.  
    key: not + any  
-   why: Not + any: the verb is negative with not, and any goes before the noun. "No any" is wrong.
+   why: is no = is not any.
 
 7. _Rewrite with not … any. Keep the meaning._  
-   We have no bread for **the guests**, **Lola**.  
-   → We do ______ have ______ bread for **the guests**, **Lola**.  
+   We have no bread for **breakfast**, **Olga**.  
+   → We do ______ have ______ bread for **breakfast**, **Olga**.  
    key: not + any  
-   why: Not + any: the verb is negative with not, and any goes before the noun. "No any" is wrong.
+   why: have no = do not have any.
 
 8. _Rewrite with not … any. Keep the meaning._  
-   There were no taxis at the **hotel**.  
-   → There were ______ ______ taxis at the **hotel**.  
+   There were no **buses** at the **bus stop**.  
+   → There were ______ ______ **buses** at the **bus stop**.  
    key: not + any  
-   why: Not + any: the verb is negative with not, and any goes before the noun. "No any" is wrong.
+   why: were no = were not any.
 
 9. _Rewrite with not … any. Keep the meaning._  
-   **Timur** has no homework **this weekend**.  
-   → **Timur** does ______ have ______ homework **this weekend**.  
+   **Aziz** has no homework **for Monday**.  
+   → **Aziz** does ______ have ______ homework **for Monday**.  
    key: not + any  
-   why: Not + any: the verb is negative with not, and any goes before the noun. "No any" is wrong.
+   why: has no = does not have any.
 
 10. _Rewrite with not … any. Keep the meaning._  
-   I have no plans for the **evening**, **Aziz**.  
-   → I do ______ have ______ plans for the **evening**, **Aziz**.  
+   I have no plans for the **holidays**, **Lola**.  
+   → I do ______ have ______ plans for the **holidays**, **Lola**.  
    key: not + any  
-   why: Not + any: the verb is negative with not, and any goes before the noun. "No any" is wrong.
+   why: I have no plans = I do not have any plans.
 
 11. _Correct the mistake._  
-   There is no any milk in the **jug**, **Olga**.  
-   → There is ______ any milk in the **jug**, **Olga**.  
+   There is no any milk in the **kitchen**, **Olga**.  
+   → There is ______ any milk in the **kitchen**, **Olga**.  
    key: not  
-   why: Not + any: the verb is negative with not, and any goes before the noun. "No any" is wrong.
+   why: Never no any: not any.
 
 12. _Correct the mistake._  
-   I have not money for the **ticket**, **Olga**.  
-   → I have ______ money for the **ticket**, **Olga**.  
+   I have not money for the **ticket**, **Lola**.  
+   → I have ______ money for the **ticket**, **Lola**.  
    key: no  
-   why: There is a noun right after the gap and the verb is positive, so use no (no = not any).
+   why: Before a noun (money): no, not not.
 
 13. _Correct the mistake._  
-   The shop is no open on **holidays**, **Timur**.  
-   → The shop is ______ open on **holidays**, **Timur**.  
+   The shop is no open on **Navruz**, **Olga**.  
+   → The shop is ______ open on **Navruz**, **Olga**.  
    key: not  
-   why: Use not before an adjective, a verb, a place word or any. No only goes straight before a noun.
+   why: Before an adjective: not, not no.
 
 14. _Correct the mistake._  
-   We have not time for **lunch**, **Lola**.  
-   → We have ______ time for **lunch**, **Lola**.  
+   We have not time for **breakfast**, **Aziz**.  
+   → We have ______ time for **breakfast**, **Aziz**.  
    key: no  
-   why: There is a noun right after the gap and the verb is positive, so use no (no = not any).
+   why: Before a noun (time): no, not not.
 
 15. _Correct the mistake._  
-   My sister is no at home **today**, **Olga**.  
-   → My sister is ______ at home **today**, **Olga**.  
+   My sister is no at home **this week**, **Timur**.  
+   → My sister is ______ at home **this week**, **Timur**.  
    key: not  
-   why: Use not before an adjective, a verb, a place word or any. No only goes straight before a noun.
+   why: Before a place: not, not no.
 
 ## create (8)
 

@@ -17,7 +17,7 @@ export default [
    "musted"
   ],
   "key": 0,
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "\"Yesterday\" + \"My … asked me\": a past obligation: had to.",
   "slots": {
    "who": [
     "boss",
@@ -49,7 +49,7 @@ export default [
    "had to"
   ],
   "key": 3,
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "\"When I was a child\": a past duty: had to.",
   "slots": {
    "place": [
     "kitchen",
@@ -81,7 +81,7 @@ export default [
    "must"
   ],
   "key": 2,
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "\"The … was late, so\": no choice then: had to.",
   "slots": {
    "bus": [
     "bus",
@@ -113,7 +113,7 @@ export default [
    "have to"
   ],
   "key": 1,
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "\"Last …\": a past obligation: had to.",
   "slots": {
    "day": [
     "Monday",
@@ -145,7 +145,7 @@ export default [
    "musted"
   ],
   "key": 0,
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "\"My car broke down … so\": no choice: had to walk.",
   "slots": {
    "when": [
     "yesterday",
@@ -177,7 +177,7 @@ export default [
    "had to"
   ],
   "key": 3,
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "\"At my old school\": a past rule: had to.",
   "slots": {
    "uniform": [
     "uniform",
@@ -209,7 +209,7 @@ export default [
    "must"
   ],
   "key": 2,
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "\"was closed, so\": no choice: had to come back.",
   "slots": {
    "shop": [
     "bank",
@@ -241,7 +241,7 @@ export default [
    "have to"
   ],
   "key": 1,
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "\"I lost my …\": it was necessary: had to buy.",
   "slots": {
    "thing": [
     "phone",
@@ -273,7 +273,7 @@ export default [
    "musted"
   ],
   "key": 0,
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "\"yesterday\": no choice but to wait: had to.",
   "slots": {
    "place": [
     "airport",
@@ -305,7 +305,7 @@ export default [
    "had to"
   ],
   "key": 3,
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "\"At sports school … every morning\": a past rule: had to.",
   "slots": {
    "dist": [
     "five kilometres",
@@ -337,7 +337,7 @@ export default [
    "must"
   ],
   "key": 2,
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "\"was ill … so\": necessary: had to stay.",
   "slots": {
    "when": [
     "last week",
@@ -369,7 +369,7 @@ export default [
    "have to"
   ],
   "key": 1,
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "\"It was raining, so\": no choice: had to play inside.",
   "slots": {
    "place": [
     "school",
@@ -401,7 +401,7 @@ export default [
    "musted"
   ],
   "key": 0,
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "\"The … was hard\": necessary to read twice: had to.",
   "slots": {
    "test": [
     "exam",
@@ -433,7 +433,7 @@ export default [
    "had to"
   ],
   "key": 3,
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "\"because her baby was ill\": necessary: had to leave.",
   "slots": {
    "event": [
     "party",
@@ -465,7 +465,7 @@ export default [
    "mustn't"
   ],
   "key": 2,
-  "why": "It wasn't necessary in the past: didn't have to + base verb.",
+  "why": "A holiday: work was not necessary: didn't have to.",
   "slots": {
    "hol": [
     "a holiday",
@@ -497,7 +497,7 @@ export default [
    "didn't had to"
   ],
   "key": 1,
-  "why": "It wasn't necessary in the past: didn't have to + base verb.",
+  "why": "\"was easy\": study was not necessary: didn't have to.",
   "slots": {
    "test": [
     "exam",
@@ -529,7 +529,7 @@ export default [
    "don't have to"
   ],
   "key": 0,
-  "why": "It wasn't necessary in the past: didn't have to + base verb.",
+  "why": "\"My uncle drove us\": no need for the …: didn't have to.",
   "slots": {
    "bus": [
     "bus",
@@ -561,7 +561,7 @@ export default [
    "didn't have to"
   ],
   "key": 3,
-  "why": "It wasn't necessary in the past: didn't have to + base verb.",
+  "why": "\"was free\": no need to pay: didn't have to.",
   "slots": {
    "museum": [
     "museum",
@@ -593,7 +593,7 @@ export default [
    "mustn't"
   ],
   "key": 2,
-  "why": "It wasn't necessary in the past: didn't have to + base verb.",
+  "why": "\"We ate at the …\": no need to cook: didn't have to.",
   "slots": {
    "place": [
     "café",
@@ -625,7 +625,7 @@ export default [
    "didn't had to"
   ],
   "key": 1,
-  "why": "It wasn't necessary in the past: didn't have to + base verb.",
+  "why": "No long wait was needed: didn't have to.",
   "slots": {
    "place": [
     "bank",
@@ -652,7 +652,7 @@ export default [
   "instr": "It is the past. Complete with had to (or didn't have to) and the verb in brackets.",
   "source": "Yesterday I ______ (stay) late at work, {name}. My {who} asked me.",
   "key": "had to stay",
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "\"Yesterday … asked me\": had to stay.",
   "slots": {
    "who": [
     "boss",
@@ -679,7 +679,7 @@ export default [
   "instr": "It is the past. Complete with had to (or didn't have to) and the verb in brackets.",
   "source": "As a child, I ______ (help) my mother in the {place}, {name}.",
   "key": "had to help",
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "\"As a child\": had to help.",
   "slots": {
    "place": [
     "kitchen",
@@ -706,7 +706,7 @@ export default [
   "instr": "It is the past. Complete with had to (or didn't have to) and the verb in brackets.",
   "source": "The {bus} was late, so we ______ (take) a taxi, {name}.",
   "key": "had to take",
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "\"late, so\": had to take.",
   "slots": {
    "bus": [
     "bus",
@@ -733,7 +733,7 @@ export default [
   "instr": "It is the past. Complete with had to (or didn't have to) and the verb in brackets.",
   "source": "Last {day}, Aziz ______ (get) up at five, {name}.",
   "key": "had to get",
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "\"Last …\": had to get up.",
   "slots": {
    "day": [
     "Monday",
@@ -760,7 +760,7 @@ export default [
   "instr": "It is the past. Complete with had to (or didn't have to) and the verb in brackets.",
   "source": "My car broke down {when}, so I ______ (walk) home, {name}.",
   "key": "had to walk",
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "\"broke down … so\": had to walk.",
   "slots": {
    "when": [
     "yesterday",
@@ -787,7 +787,7 @@ export default [
   "instr": "It is the past. Complete with had to (or didn't have to) and the verb in brackets.",
   "source": "At my old school, we ______ (wear) a {uniform}, {name}.",
   "key": "had to wear",
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "\"At my old school\": had to wear.",
   "slots": {
    "uniform": [
     "uniform",
@@ -814,7 +814,7 @@ export default [
   "instr": "It is the past. Complete with had to (or didn't have to) and the verb in brackets.",
   "source": "The {shop} was closed, so she ______ (come) back the next day, {name}.",
   "key": "had to come",
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "\"was closed, so\": had to come.",
   "slots": {
    "shop": [
     "bank",
@@ -841,7 +841,7 @@ export default [
   "instr": "It is the past. Complete with had to (or didn't have to) and the verb in brackets.",
   "source": "I lost my {thing}, so I ______ (buy) a new one, {name}.",
   "key": "had to buy",
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "\"I lost my …, so\": had to buy.",
   "slots": {
    "thing": [
     "phone",
@@ -868,7 +868,7 @@ export default [
   "instr": "It is the past. Complete with had to (or didn't have to) and the verb in brackets.",
   "source": "We ______ (wait) two hours at the {place} yesterday, {name}.",
   "key": "had to wait",
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "\"two hours … yesterday\": had to wait.",
   "slots": {
    "place": [
     "airport",
@@ -895,7 +895,7 @@ export default [
   "instr": "It is the past. Complete with had to (or didn't have to) and the verb in brackets.",
   "source": "Timur was ill {when}, so he ______ (stay) in bed, {name}.",
   "key": "had to stay",
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "\"was ill … so\": had to stay.",
   "slots": {
    "when": [
     "last week",
@@ -922,7 +922,7 @@ export default [
   "instr": "It is the past. Complete with had to (or didn't have to) and the verb in brackets.",
   "source": "It was raining, so the children ______ (play) inside the {place}, {name}.",
   "key": "had to play",
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "\"It was raining, so\": had to play.",
   "slots": {
    "place": [
     "school",
@@ -949,7 +949,7 @@ export default [
   "instr": "It is the past. Complete with had to (or didn't have to) and the verb in brackets.",
   "source": "Olga ______ (leave) the {event} early. Her baby was ill, {name}.",
   "key": "had to leave",
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "\"Her baby was ill\": had to leave.",
   "slots": {
    "event": [
     "party",
@@ -976,7 +976,7 @@ export default [
   "instr": "It is the past. Complete with had to (or didn't have to) and the verb in brackets.",
   "source": "Parking at the {place} wasn't free. We ______ (pay) ten thousand sum, {name}.",
   "key": "had to pay",
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "\"wasn't free\": had to pay.",
   "slots": {
    "place": [
     "airport",
@@ -1003,7 +1003,7 @@ export default [
   "instr": "It is the past. Complete with had to (or didn't have to) and the verb in brackets.",
   "source": "Nobody answered the door, so I ______ (call) my {who}, {name}.",
   "key": "had to call",
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "\"Nobody answered the door, so\": had to call.",
   "slots": {
    "who": [
     "brother",
@@ -1030,7 +1030,7 @@ export default [
   "instr": "It is the past. Complete with had to (or didn't have to) and the verb in brackets.",
   "source": "Yesterday was {hol}, so I ______ (not / work), {name}.",
   "key": "didn't have to work",
-  "why": "It wasn't necessary in the past: didn't have to + base verb.",
+  "why": "A holiday yesterday: didn't have to work.",
   "slots": {
    "hol": [
     "a holiday",
@@ -1060,7 +1060,7 @@ export default [
   "instr": "It is the past. Complete with had to (or didn't have to) and the verb in brackets.",
   "source": "The {test} was easy. We ______ (not / study) much, {name}.",
   "key": "didn't have to study",
-  "why": "It wasn't necessary in the past: didn't have to + base verb.",
+  "why": "\"was easy\": didn't have to study.",
   "slots": {
    "test": [
     "exam",
@@ -1090,7 +1090,7 @@ export default [
   "instr": "It is the past. Complete with had to (or didn't have to) and the verb in brackets.",
   "source": "My uncle drove us, so we ______ (not / take) the {bus}, {name}.",
   "key": "didn't have to take",
-  "why": "It wasn't necessary in the past: didn't have to + base verb.",
+  "why": "\"My uncle drove us\": didn't have to take.",
   "slots": {
    "bus": [
     "bus",
@@ -1120,7 +1120,7 @@ export default [
   "instr": "It is the past. Complete with had to (or didn't have to) and the verb in brackets.",
   "source": "The {museum} was free. We ______ (not / pay), {name}.",
   "key": "didn't have to pay",
-  "why": "It wasn't necessary in the past: didn't have to + base verb.",
+  "why": "\"was free\": didn't have to pay.",
   "slots": {
    "museum": [
     "museum",
@@ -1150,7 +1150,7 @@ export default [
   "instr": "It is the past. Complete with had to (or didn't have to) and the verb in brackets.",
   "source": "She ______ (not / cook) last night. We ate at the {place}, {name}.",
   "key": "didn't have to cook",
-  "why": "It wasn't necessary in the past: didn't have to + base verb.",
+  "why": "\"We ate at the …\": didn't have to cook.",
   "slots": {
    "place": [
     "café",
@@ -1180,7 +1180,7 @@ export default [
   "instr": "It is the past. Complete with had to (or didn't have to) and the verb in brackets.",
   "source": "I ______ (not / wait) long at the {place} {when}.",
   "key": "didn't have to wait",
-  "why": "It wasn't necessary in the past: didn't have to + base verb.",
+  "why": "No long wait: didn't have to wait.",
   "slots": {
    "place": [
     "bank",
@@ -1211,7 +1211,7 @@ export default [
   "source": "Yesterday I must stay late at the {place}, {name}.",
   "hint": "Yesterday I ______ late at the {place}, {name}.",
   "key": "had to stay",
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "must has no past form: Yesterday → had to stay.",
   "slots": {
    "place": [
     "office",
@@ -1239,7 +1239,7 @@ export default [
   "source": "Last {day}, we must get up at five, {name}.",
   "hint": "Last {day}, we ______ up at five, {name}.",
   "key": "had to get",
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "Last … is past: had to get.",
   "slots": {
    "day": [
     "Monday",
@@ -1267,7 +1267,7 @@ export default [
   "source": "When I was at school, I must wear a {uniform}, {name}.",
   "hint": "When I was at school, I ______ a {uniform}, {name}.",
   "key": "had to wear",
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "At school (in the past): had to wear.",
   "slots": {
    "uniform": [
     "uniform",
@@ -1295,7 +1295,7 @@ export default [
   "source": "The {bus} was late, so we must take a taxi, {name}.",
   "hint": "The {bus} was late, so we ______ a taxi, {name}.",
   "key": "had to take",
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "In the past, so not must: had to take.",
   "slots": {
    "bus": [
     "bus",
@@ -1323,7 +1323,7 @@ export default [
   "source": "She musted leave the {event} early, {name}.",
   "hint": "She ______ the {event} early, {name}.",
   "key": "had to leave",
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "No musted: the past is had to leave.",
   "slots": {
    "event": [
     "party",
@@ -1351,7 +1351,7 @@ export default [
   "source": "At the {place}, they made us wait for hours, {name}.",
   "hint": "We ______ at the {place}, {name}.",
   "key": "had to wait",
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "They made us wait → we had to wait.",
   "slots": {
    "place": [
     "airport",
@@ -1379,7 +1379,7 @@ export default [
   "source": "The doctor told him to stay in bed {when}, {name}.",
   "hint": "He ______ in bed {when}, {name}.",
   "key": "had to stay",
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "The doctor told him to → he had to stay.",
   "slots": {
    "when": [
     "last week",
@@ -1407,7 +1407,7 @@ export default [
   "source": "I needed to call the {who}, {name}. There was no other way.",
   "hint": "I ______ the {who}, {name}. There was no other way.",
   "key": "had to call",
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "needed to = had to: had to call.",
   "slots": {
    "who": [
     "doctor",
@@ -1435,7 +1435,7 @@ export default [
   "source": "There were no taxis, so walking home from the {place} was necessary for them, {name}.",
   "hint": "There were no taxis, so they ______ home from the {place}, {name}.",
   "key": "had to walk",
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "was necessary → had to walk.",
   "slots": {
    "place": [
     "station",
@@ -1463,7 +1463,7 @@ export default [
   "source": "Her boss made Olga work on {day}, {name}.",
   "hint": "Her boss said Olga ______ on {day}, {name}.",
   "key": "had to work",
-  "why": "Past obligation: had to + base verb (must has no past form).",
+  "why": "Her boss made her → she had to work.",
   "slots": {
    "day": [
     "Sunday",
@@ -1491,7 +1491,7 @@ export default [
   "source": "Paying at the {museum} wasn't necessary for me, {name}.",
   "hint": "I ______ at the {museum}, {name}.",
   "key": "didn't have to pay",
-  "why": "It wasn't necessary in the past: didn't have to + base verb.",
+  "why": "wasn't necessary → didn't have to pay.",
   "slots": {
    "museum": [
     "museum",
@@ -1522,7 +1522,7 @@ export default [
   "source": "There was no need for us to take the {bus}, {name}.",
   "hint": "We ______ the {bus}, {name}.",
   "key": "didn't have to take",
-  "why": "It wasn't necessary in the past: didn't have to + base verb.",
+  "why": "no need → didn't have to take.",
   "slots": {
    "bus": [
     "bus",
@@ -1553,7 +1553,7 @@ export default [
   "source": "Cooking {when} wasn't necessary for her, {name}.",
   "hint": "She ______ {when}, {name}.",
   "key": "didn't have to cook",
-  "why": "It wasn't necessary in the past: didn't have to + base verb.",
+  "why": "wasn't necessary → didn't have to cook.",
   "slots": {
    "when": [
     "last night",
@@ -1584,7 +1584,7 @@ export default [
   "source": "He didn't need to wait long at the {place}, {name}.",
   "hint": "He ______ long at the {place}, {name}.",
   "key": "didn't have to wait",
-  "why": "It wasn't necessary in the past: didn't have to + base verb.",
+  "why": "didn't need to = didn't have to wait.",
   "slots": {
    "place": [
     "bank",
@@ -1615,7 +1615,7 @@ export default [
   "source": "The {test} was easy, so studying much wasn't necessary for them, {name}.",
   "hint": "The {test} was easy, so they ______ much, {name}.",
   "key": "didn't have to study",
-  "why": "It wasn't necessary in the past: didn't have to + base verb.",
+  "why": "wasn't necessary → didn't have to study.",
   "slots": {
    "test": [
     "exam",

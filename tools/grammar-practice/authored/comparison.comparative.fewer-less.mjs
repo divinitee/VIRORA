@@ -135,5 +135,166 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/comparison.comparative.fewer-less.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "people is plural and countable: fewer people.",
+   "money is uncountable: less money.",
+   "trees can be counted: fewer trees.",
+   "electricity can't be counted: less electricity.",
+   "mistakes can be counted: fewer mistakes.",
+   "homework is uncountable: less homework.",
+   "cars can be counted: fewer cars.",
+   "The drink is uncountable here: less.",
+   "friends can be counted: fewer friends.",
+   "time is uncountable: less time.",
+   "problems can be counted: fewer problems.",
+   "That weather word is uncountable: less, not fewer.",
+   "The goods are plural, so: fewer.",
+   "sugar is uncountable: less sugar.",
+   "students can be counted: fewer students.",
+   "free time is uncountable: less free time.",
+   "goals can be counted: fewer goals.",
+   "noise is uncountable: less noise.",
+   "messages can be counted: fewer messages.",
+   "traffic is uncountable: less traffic."
+  ],
+  "build": [
+   "buses can be counted: fewer.",
+   "time is uncountable: less.",
+   "chairs can be counted: fewer.",
+   "salt is uncountable: less.",
+   "hours can be counted: fewer.",
+   "sun (sunlight) is uncountable: less.",
+   "tourists can be counted: fewer.",
+   "noise is uncountable: less.",
+   "books can be counted: fewer.",
+   "water is uncountable: less.",
+   "shops can be counted: fewer.",
+   "stress is uncountable: less.",
+   "questions can be counted: fewer.",
+   "rain is uncountable: less.",
+   "vegetables can be counted: fewer.",
+   "energy is uncountable: less.",
+   "birds can be counted: fewer.",
+   "space is uncountable: less.",
+   "mistakes can be counted: fewer.",
+   "money is uncountable: less."
+  ],
+  "transform": [
+   "30 students to fewer: students are countable.",
+   "Hours can be counted: fewer hours.",
+   "money can't be counted: less.",
+   "guests can be counted: fewer.",
+   "petrol can't be counted: less.",
+   "friends are countable, so not less: fewer.",
+   "traffic is uncountable, so not fewer: less.",
+   "Not lesser: goods are countable: fewer.",
+   "coffee is uncountable, so not fewer: less.",
+   "mistakes are countable, so not less: fewer.",
+   "not as many + plural = fewer.",
+   "not as much + uncountable = less.",
+   "not as much = less.",
+   "not as many + a plural noun → fewer.",
+   "not as much + an uncountable noun → less."
+  ]
+ },
+ "slot": [
+  [
+   "choose",
+   12,
+   "snow",
+   "weather",
+   [
+    "snow",
+    "rain",
+    "wind",
+    "sunshine"
+   ]
+  ],
+  [
+   "choose",
+   6,
+   "",
+   "period",
+   [
+    "year"
+   ]
+  ],
+  [
+   "build",
+   9,
+   "",
+   "period",
+   [
+    "year"
+   ]
+  ],
+  [
+   "choose",
+   12,
+   "",
+   "season",
+   [
+    "autumn"
+   ]
+  ],
+  [
+   "choose",
+   17,
+   "",
+   "season",
+   [
+    "autumn"
+   ]
+  ],
+  [
+   "build",
+   15,
+   "",
+   "sib",
+   [
+    "nephew"
+   ]
+  ],
+  [
+   "build",
+   9,
+   "",
+   "period",
+   [
+    "spring"
+   ]
+  ],
+  [
+   "build",
+   15,
+   "",
+   "sib",
+   [
+    "son"
+   ]
+  ]
+ ]
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

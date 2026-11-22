@@ -17,7 +17,7 @@ export default [
    "each others"
   ],
   "key": 0,
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "He helps her and she helps him: each other.",
   "slots": {
    "b": [
     "Aziz",
@@ -49,7 +49,7 @@ export default [
    "each other"
   ],
   "key": 3,
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "Each sister phones the other: each other.",
   "slots": {
    "city": [
     "Tashkent",
@@ -87,7 +87,7 @@ export default [
    "themselves"
   ],
   "key": 2,
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "Each one helps the other: each other.",
   "slots": {
    "b": [
     "Aziz",
@@ -117,7 +117,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My best friend and I tell ______ everything, {g}.",
+  "prompt": "My best friend and I tell ______ {what}, {g}.",
   "options": [
    "each others",
    "each other",
@@ -125,13 +125,19 @@ export default [
    "us"
   ],
   "key": 1,
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "I tell my friend and my friend tells me: each other.",
   "slots": {
    "g": [
     "Olga",
     "Lola",
     "Madina",
     "Kamila"
+   ],
+   "what": [
+    "everything",
+    "secrets",
+    "jokes",
+    "stories"
    ]
   }
  },
@@ -143,7 +149,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "When {b} and his cousin meet, they always hug ______.",
+  "prompt": "When {b} and his {rel} meet, they always hug ______.",
   "options": [
    "each other",
    "themselves",
@@ -151,13 +157,19 @@ export default [
    "each others"
   ],
   "key": 0,
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "Each one hugs the other: each other.",
   "slots": {
    "b": [
     "Aziz",
     "Timur",
     "Bobur",
     "Jasur"
+   ],
+   "rel": [
+    "cousin",
+    "brother",
+    "uncle",
+    "friend"
    ]
   }
  },
@@ -169,7 +181,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The two teams shook hands with ______ after the {match}.",
+  "prompt": "The two {grp} shook hands with ______ after the {match}.",
   "options": [
    "themselves",
    "them",
@@ -177,13 +189,19 @@ export default [
    "each other"
   ],
   "key": 3,
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "Each side shakes the other side's hand: each other.",
   "slots": {
    "match": [
     "match",
     "game",
     "final",
     "race"
+   ],
+   "grp": [
+    "teams",
+    "coaches",
+    "captains",
+    "players"
    ]
   }
  },
@@ -203,7 +221,7 @@ export default [
    "ourselves"
   ],
   "key": 2,
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "I looked at him and he looked at me: each other.",
   "slots": {
    "b": [
     "Aziz",
@@ -227,7 +245,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The two brothers don't talk to ______ any more after the {fight}.",
+  "prompt": "The two {rel} don't talk to ______ any more after the {fight}.",
   "options": [
    "each others",
    "each other",
@@ -235,13 +253,19 @@ export default [
    "them"
   ],
   "key": 1,
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "Neither talks to the other: each other.",
   "slots": {
    "fight": [
     "argument",
     "quarrel",
     "argument about money",
     "argument at the wedding"
+   ],
+   "rel": [
+    "brothers",
+    "sisters",
+    "cousins",
+    "friends"
    ]
   }
  },
@@ -261,7 +285,7 @@ export default [
    "each others"
   ],
   "key": 0,
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "Each one gave the other a present: each other.",
   "slots": {
    "b": [
     "Aziz",
@@ -291,7 +315,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My neighbour and I have known ______ for {n} years.",
+  "prompt": "My {who} and I have known ______ for {n} years.",
   "options": [
    "ourselves",
    "us",
@@ -299,13 +323,19 @@ export default [
    "each other"
   ],
   "key": 3,
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "I know my … and my … knows me: each other.",
   "slots": {
    "n": [
     "ten",
     "twenty",
     "five",
     "many"
+   ],
+   "who": [
+    "neighbour",
+    "teacher",
+    "cousin",
+    "best friend"
    ]
   }
  },
@@ -317,7 +347,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The two girls in the {place} were shouting at ______.",
+  "prompt": "The two {kids} in the {place} were shouting at ______.",
   "options": [
    "them",
    "each others",
@@ -325,13 +355,19 @@ export default [
    "themselves"
   ],
   "key": 2,
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "Each girl shouted at the other: each other.",
   "slots": {
    "place": [
     "street",
     "yard",
     "bus",
     "shop"
+   ],
+   "kids": [
+    "girls",
+    "boys",
+    "women",
+    "men"
    ]
   }
  },
@@ -343,7 +379,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "We send ______ photos from our trips, {g}.",
+  "prompt": "We send ______ {what} from our trips, {g}.",
   "options": [
    "each others",
    "each other",
@@ -351,13 +387,19 @@ export default [
    "us"
   ],
   "key": 1,
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "I send to you and you send to me: each other.",
   "slots": {
    "g": [
     "Olga",
     "Lola",
     "Madina",
     "Kamila"
+   ],
+   "what": [
+    "photos",
+    "videos",
+    "postcards",
+    "messages"
    ]
   }
  },
@@ -369,7 +411,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The players on our team pass the ball to ______ {when}.",
+  "prompt": "The {who} on our team pass the ball to ______ {when}.",
   "options": [
    "each other",
    "themselves",
@@ -377,13 +419,19 @@ export default [
    "each others"
   ],
   "key": 0,
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "Each player passes to another: each other.",
   "slots": {
    "when": [
     "a lot",
     "every minute",
     "in big matches",
     "very well"
+   ],
+   "who": [
+    "players",
+    "girls",
+    "boys",
+    "kids"
    ]
   }
  },
@@ -395,7 +443,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The twins often wear ______ clothes, {g}.",
+  "prompt": "The twins often wear ______ {what}, {g}.",
   "options": [
    "each others",
    "themselves",
@@ -403,13 +451,19 @@ export default [
    "each other's"
   ],
   "key": 3,
-  "why": "For things that belong to the other person, use each other's: They wear each other's clothes. Never each others.",
+  "why": "… that belong to the other twin: each other's.",
   "slots": {
    "g": [
     "Olga",
     "Lola",
     "Madina",
     "Kamila"
+   ],
+   "what": [
+    "clothes",
+    "shoes",
+    "hats",
+    "jackets"
    ]
   }
  },
@@ -421,7 +475,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "{b} and his brother know ______ secrets.",
+  "prompt": "{b} and his brother know ______ {what}.",
   "options": [
    "themselves",
    "each others'",
@@ -429,13 +483,19 @@ export default [
    "each others"
   ],
   "key": 2,
-  "why": "For things that belong to the other person, use each other's: They wear each other's clothes. Never each others.",
+  "why": "… that belong to the other: each other's.",
   "slots": {
    "b": [
     "Aziz",
     "Timur",
     "Bobur",
     "Jasur"
+   ],
+   "what": [
+    "secrets",
+    "plans",
+    "dreams",
+    "phone numbers"
    ]
   }
  },
@@ -447,7 +507,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The boys fell off their bikes and hurt ______ {when}.",
+  "prompt": "The boys fell off their {veh} and hurt ______ {when}.",
   "options": [
    "theirselves",
    "themselves",
@@ -455,13 +515,19 @@ export default [
    "them"
   ],
   "key": 1,
-  "why": "Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.",
+  "why": "Each boy hurt his own body: themselves.",
   "slots": {
    "when": [
     "yesterday",
     "last night",
     "on Friday",
     "last week"
+   ],
+   "veh": [
+    "bikes",
+    "scooters",
+    "skateboards",
+    "horses"
    ]
   }
  },
@@ -473,7 +539,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The kids burned ______ on the hot {pan} in the kitchen.",
+  "prompt": "The {kids} burned ______ on the hot {pan} in the kitchen.",
   "options": [
    "themselves",
    "each other",
@@ -481,13 +547,19 @@ export default [
    "theirselves"
   ],
   "key": 0,
-  "why": "Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.",
+  "why": "Each kid burned his or her own hand: themselves.",
   "slots": {
    "pan": [
     "pan",
     "pot",
     "oven",
     "kettle"
+   ],
+   "kids": [
+    "kids",
+    "children",
+    "boys",
+    "girls"
    ]
   }
  },
@@ -507,7 +579,7 @@ export default [
    "ourselves"
   ],
   "key": 3,
-  "why": "Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.",
+  "why": "We locked our own selves out: ourselves.",
   "slots": {
    "place": [
     "house",
@@ -531,7 +603,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Behave ______ at Grandma's {event}, children!",
+  "prompt": "Behave ______ at {rel}'s {event}, children!",
   "options": [
    "you",
    "yourself",
@@ -539,13 +611,19 @@ export default [
    "each other"
   ],
   "key": 2,
-  "why": "Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.",
+  "why": "Talking to children, plural you: yourselves.",
   "slots": {
    "event": [
     "party",
     "house",
     "birthday",
     "wedding"
+   ],
+   "rel": [
+    "Grandma",
+    "Grandpa",
+    "Auntie",
+    "Uncle"
    ]
   }
  },
@@ -557,7 +635,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Did we hurt ______ when we slipped on the {surface}, one after the other? No, we're fine.",
+  "prompt": "Did we hurt ______ when we {act} on the {surface}, one after the other? No, we're fine.",
   "options": [
    "ourself",
    "ourselves",
@@ -565,13 +643,19 @@ export default [
    "us"
   ],
   "key": 1,
-  "why": "Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.",
+  "why": "Each of us, our own bodies: ourselves.",
   "slots": {
    "surface": [
     "ice",
     "stairs",
     "wet floor",
     "path"
+   ],
+   "act": [
+    "slipped",
+    "fell",
+    "tripped",
+    "slid"
    ]
   }
  },
@@ -589,7 +673,7 @@ export default [
   "acceptable": [
    "one another"
   ],
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "Each one writes to the other: each other.",
   "slots": {
    "b": [
     "Aziz",
@@ -620,18 +704,24 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write each other or a -selves word (themselves, ourselves, yourselves).",
-  "source": "My parents have loved ______ for {n} years.",
+  "source": "My parents have {verb} ______ for {n} years.",
   "key": "each other",
   "acceptable": [
    "one another"
   ],
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "Each parent loves the other: each other.",
   "slots": {
    "n": [
     "thirty",
     "twenty",
     "forty",
     "many"
+   ],
+   "verb": [
+    "loved",
+    "known",
+    "helped",
+    "trusted"
    ]
   }
  },
@@ -644,18 +734,24 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write each other or a -selves word (themselves, ourselves, yourselves).",
-  "source": "The two old friends hugged ______ at the {place}.",
+  "source": "The two old {who} hugged ______ at the {place}.",
   "key": "each other",
   "acceptable": [
    "one another"
   ],
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "Each friend hugged the other: each other.",
   "slots": {
    "place": [
     "station",
     "airport",
     "door",
     "bus stop"
+   ],
+   "who": [
+    "friends",
+    "teachers",
+    "neighbours",
+    "classmates"
    ]
   }
  },
@@ -673,7 +769,7 @@ export default [
   "acceptable": [
    "one another"
   ],
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "I help you and you help me: each other.",
   "slots": {
    "work": [
     "homework",
@@ -698,18 +794,24 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write each other or a -selves word (themselves, ourselves, yourselves).",
-  "source": "{b} and his sister don't understand ______ at all.",
+  "source": "{b} and his {rel} don't understand ______ at all.",
   "key": "each other",
   "acceptable": [
    "one another"
   ],
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "Neither understands the other: each other.",
   "slots": {
    "b": [
     "Aziz",
     "Timur",
     "Bobur",
     "Jasur"
+   ],
+   "rel": [
+    "sister",
+    "brother",
+    "cousin",
+    "friend"
    ]
   }
  },
@@ -722,18 +824,24 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write each other or a -selves word (themselves, ourselves, yourselves).",
-  "source": "The students in my group often call ______ in the {time}.",
+  "source": "The students in my group often {verb} ______ in the {time}.",
   "key": "each other",
   "acceptable": [
    "one another"
   ],
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "Each student calls another: each other.",
   "slots": {
    "time": [
     "evening",
     "morning",
     "afternoon",
     "holidays"
+   ],
+   "verb": [
+    "call",
+    "text",
+    "message",
+    "phone"
    ]
   }
  },
@@ -746,18 +854,24 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write each other or a -selves word (themselves, ourselves, yourselves).",
-  "source": "The two cats in the {place} were looking at ______.",
+  "source": "The two {an} in the {place} were looking at ______.",
   "key": "each other",
   "acceptable": [
    "one another"
   ],
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "Each cat looked at the other: each other.",
   "slots": {
    "place": [
     "yard",
     "garden",
     "street",
     "kitchen"
+   ],
+   "an": [
+    "cats",
+    "dogs",
+    "birds",
+    "horses"
    ]
   }
  },
@@ -775,7 +889,7 @@ export default [
   "acceptable": [
    "one another"
   ],
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "Each one bought the other flowers: each other.",
   "slots": {
    "b": [
     "Aziz",
@@ -806,18 +920,24 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write each other or a -selves word (themselves, ourselves, yourselves).",
-  "source": "My cousin and I see ______ at every {event}.",
+  "source": "My {rel} and I see ______ at every {event}.",
   "key": "each other",
   "acceptable": [
    "one another"
   ],
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "I see my … and my … sees me: each other.",
   "slots": {
    "event": [
     "wedding",
     "birthday",
     "holiday",
     "family dinner"
+   ],
+   "rel": [
+    "cousin",
+    "uncle",
+    "aunt",
+    "neighbour"
    ]
   }
  },
@@ -835,7 +955,7 @@ export default [
   "acceptable": [
    "one another"
   ],
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "Neither likes the other: each other.",
   "slots": {
    "who": [
     "grandmas",
@@ -854,18 +974,24 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write each other or a -selves word (themselves, ourselves, yourselves).",
-  "source": "The two teams thanked ______ after the {match}.",
+  "source": "The two teams {verb} ______ after the {match}.",
   "key": "each other",
   "acceptable": [
    "one another"
   ],
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "Each team … the other: each other.",
   "slots": {
    "match": [
     "match",
     "game",
     "final",
     "race"
+   ],
+   "verb": [
+    "thanked",
+    "congratulated",
+    "hugged",
+    "greeted"
    ]
   }
  },
@@ -883,7 +1009,7 @@ export default [
   "acceptable": [
    "one another"
   ],
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "Each one smiled at the other: each other.",
   "slots": {
    "b": [
     "Aziz",
@@ -908,18 +1034,24 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write each other or a -selves word (themselves, ourselves, yourselves).",
-  "source": "We often borrow ______ books, {g}.",
+  "source": "We often borrow ______ {what}, {g}.",
   "key": "each other's",
   "acceptable": [
    "one another's"
   ],
-  "why": "For things that belong to the other person, use each other's: They wear each other's clothes. Never each others.",
+  "why": "Belonging to the other person: each other's.",
   "slots": {
    "g": [
     "Olga",
     "Lola",
     "Madina",
     "Kamila"
+   ],
+   "what": [
+    "books",
+    "pens",
+    "notes",
+    "bikes"
    ]
   }
  },
@@ -932,18 +1064,24 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write each other or a -selves word (themselves, ourselves, yourselves).",
-  "source": "{b} and his friend always copy ______ homework.",
+  "source": "{b} and his friend always copy ______ {what}.",
   "key": "each other's",
   "acceptable": [
    "one another's"
   ],
-  "why": "For things that belong to the other person, use each other's: They wear each other's clothes. Never each others.",
+  "why": "… that belongs to the other: each other's.",
   "slots": {
    "b": [
     "Aziz",
     "Timur",
     "Bobur",
     "Jasur"
+   ],
+   "what": [
+    "homework",
+    "answers",
+    "notes",
+    "drawings"
    ]
   }
  },
@@ -956,15 +1094,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write each other or a -selves word (themselves, ourselves, yourselves).",
-  "source": "The two boys fell on the {surface} and hurt ______.",
+  "source": "The two {kids} fell on the {surface} and hurt ______.",
   "key": "themselves",
-  "why": "Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.",
+  "why": "They fell and each one got hurt: themselves.",
   "slots": {
    "surface": [
     "ice",
     "stairs",
     "wet floor",
     "path"
+   ],
+   "kids": [
+    "boys",
+    "girls",
+    "children",
+    "players"
    ]
   }
  },
@@ -977,15 +1121,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write each other or a -selves word (themselves, ourselves, yourselves).",
-  "source": "The children cut ______ on the broken {thing}.",
+  "source": "The {kids} cut ______ on the broken {thing}.",
   "key": "themselves",
-  "why": "Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.",
+  "why": "Each child cut his or her own hand: themselves.",
   "slots": {
    "thing": [
     "glass",
     "window",
     "bottle",
     "plate"
+   ],
+   "kids": [
+    "children",
+    "kids",
+    "boys",
+    "girls"
    ]
   }
  },
@@ -1000,7 +1150,7 @@ export default [
   "instr": "Write each other or a -selves word (themselves, ourselves, yourselves).",
   "source": "We locked ______ out of the {place} {when}.",
   "key": "ourselves",
-  "why": "Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.",
+  "why": "\"We locked … out\": the doors shut on us: ourselves.",
   "slots": {
    "place": [
     "house",
@@ -1025,15 +1175,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write each other or a -selves word (themselves, ourselves, yourselves).",
-  "source": "Behave ______ at the {event}, boys!",
+  "source": "Behave ______ at the {event}, {kids}!",
   "key": "yourselves",
-  "why": "Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.",
+  "why": "Talking to …, plural you: yourselves.",
   "slots": {
    "event": [
     "party",
     "wedding",
     "museum",
     "concert"
+   ],
+   "kids": [
+    "boys",
+    "girls",
+    "children",
+    "kids"
    ]
   }
  },
@@ -1048,7 +1204,7 @@ export default [
   "instr": "Write each other or a -selves word (themselves, ourselves, yourselves).",
   "source": "Did you two burn ______ on the {pan}? Show me your hands.",
   "key": "yourselves",
-  "why": "Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.",
+  "why": "\"you two\": plural you, own hands: yourselves.",
   "slots": {
    "pan": [
     "pan",
@@ -1069,7 +1225,7 @@ export default [
   "instr": "Write each other or a -selves word (themselves, ourselves, yourselves).",
   "source": "Did we lock ______ out again, {g}? Where are the keys?",
   "key": "ourselves",
-  "why": "Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.",
+  "why": "Our own selves locked out: ourselves.",
   "slots": {
    "g": [
     "Olga",
@@ -1094,7 +1250,7 @@ export default [
   "acceptable": [
    "one another"
   ],
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "A helps B, B helps A: each other.",
   "slots": {
    "b": [
     "Aziz",
@@ -1119,19 +1275,25 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Join the two sentences with each other.",
-  "source": "My mum calls my aunt. My aunt calls my mum every {day}.",
-  "hint": "My mum and my aunt call ______ every {day}.",
+  "source": "My mum calls my {rel}. My {rel} calls my mum every {day}.",
+  "hint": "My mum and my {rel} call ______ every {day}.",
   "key": "each other",
   "acceptable": [
    "one another"
   ],
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "A calls B, B calls A: each other.",
   "slots": {
    "day": [
     "day",
     "evening",
     "Sunday",
     "week"
+   ],
+   "rel": [
+    "aunt",
+    "sister",
+    "grandma",
+    "friend"
    ]
   }
  },
@@ -1150,7 +1312,7 @@ export default [
   "acceptable": [
    "one another"
   ],
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "A looked at B, B looked at A: each other.",
   "slots": {
    "b": [
     "Aziz",
@@ -1175,19 +1337,25 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Join the two sentences with each other.",
-  "source": "I trust my brother. My brother trusts me, {g}.",
-  "hint": "My brother and I trust ______, {g}.",
+  "source": "I trust my {rel}. My {rel} trusts me, {g}.",
+  "hint": "My {rel} and I trust ______, {g}.",
   "key": "each other",
   "acceptable": [
    "one another"
   ],
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "I trust him, he trusts me: each other.",
   "slots": {
    "g": [
     "Olga",
     "Lola",
     "Madina",
     "Kamila"
+   ],
+   "rel": [
+    "brother",
+    "sister",
+    "cousin",
+    "dad"
    ]
   }
  },
@@ -1206,7 +1374,7 @@ export default [
   "acceptable": [
    "one another"
   ],
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "A sent B, B sent A: each other.",
   "slots": {
    "b": [
     "Aziz",
@@ -1243,7 +1411,7 @@ export default [
   "acceptable": [
    "one another"
   ],
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "Two people phone the other one: each other, not themselves.",
   "slots": {
    "b": [
     "Aziz",
@@ -1274,7 +1442,7 @@ export default [
   "acceptable": [
    "one another"
   ],
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "Two-way action: each other, not us.",
   "slots": {
    "day": [
     "day",
@@ -1299,19 +1467,25 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "The two brothers talk to each others {when}.",
-  "hint": "The two brothers talk to ______ {when}.",
+  "source": "The two {rel} talk to each others {when}.",
+  "hint": "The two {rel} talk to ______ {when}.",
   "key": "each other",
   "acceptable": [
    "one another"
   ],
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "No -s on other: each other.",
   "slots": {
    "when": [
     "every day",
     "on the phone",
     "in the evening",
     "a lot"
+   ],
+   "rel": [
+    "brothers",
+    "sisters",
+    "cousins",
+    "twins"
    ]
   }
  },
@@ -1324,19 +1498,25 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "The twins wear each others clothes, {g}.",
-  "hint": "The twins wear ______ clothes, {g}.",
+  "source": "The twins wear each others {what}, {g}.",
+  "hint": "The twins wear ______ {what}, {g}.",
   "key": "each other's",
   "acceptable": [
    "one another's"
   ],
-  "why": "For things that belong to the other person, use each other's: They wear each other's clothes. Never each others.",
+  "why": "Belonging: each other's, with 's.",
   "slots": {
    "g": [
     "Olga",
     "Lola",
     "Madina",
     "Kamila"
+   ],
+   "what": [
+    "clothes",
+    "shoes",
+    "hats",
+    "jackets"
    ]
   }
  },
@@ -1355,7 +1535,7 @@ export default [
   "acceptable": [
    "one another"
   ],
-  "why": "A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.",
+  "why": "Two-way help: each other, not ourselves.",
   "slots": {
    "b": [
     "Aziz",
@@ -1386,16 +1566,22 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "The boys fell and hurt each other {when}.",
-  "hint": "The boys fell and hurt ______ {when}.",
+  "source": "The {kids} fell and hurt each other {when}.",
+  "hint": "The {kids} fell and hurt ______ {when}.",
   "key": "themselves",
-  "why": "Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.",
+  "why": "Each boy hurt his own body: themselves, not each other.",
   "slots": {
    "when": [
     "yesterday",
     "last night",
     "on Friday",
     "last week"
+   ],
+   "kids": [
+    "boys",
+    "girls",
+    "children",
+    "players"
    ]
   }
  },
@@ -1411,7 +1597,7 @@ export default [
   "source": "We locked us out of the {place}, {g}.",
   "hint": "We locked ______ out of the {place}, {g}.",
   "key": "ourselves",
-  "why": "Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.",
+  "why": "We, our own selves: ourselves, not us.",
   "slots": {
    "place": [
     "house",
@@ -1436,16 +1622,22 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "Behave yourself, children! We are at the {place}.",
-  "hint": "Behave ______, children! We are at the {place}.",
+  "source": "Behave yourself, {kids}! We are at the {place}.",
+  "hint": "Behave ______, {kids}! We are at the {place}.",
   "key": "yourselves",
-  "why": "Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.",
+  "why": "Talking to many …: yourselves, not yourself.",
   "slots": {
    "place": [
     "museum",
     "theatre",
     "hospital",
     "library"
+   ],
+   "kids": [
+    "children",
+    "kids",
+    "boys",
+    "girls"
    ]
   }
  },
@@ -1458,16 +1650,22 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "The kids burned each other on the hot {pan}.",
-  "hint": "The kids burned ______ on the hot {pan}.",
+  "source": "The {kids} burned each other on the hot {pan}.",
+  "hint": "The {kids} burned ______ on the hot {pan}.",
   "key": "themselves",
-  "why": "Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.",
+  "why": "Not one hurting the other: each one burned a hand: themselves.",
   "slots": {
    "pan": [
     "pan",
     "pot",
     "oven",
     "kettle"
+   ],
+   "kids": [
+    "kids",
+    "children",
+    "boys",
+    "girls"
    ]
   }
  },
@@ -1483,7 +1681,7 @@ export default [
   "source": "Did you two hurt you on the {surface}?",
   "hint": "Did you two hurt ______ on the {surface}?",
   "key": "yourselves",
-  "why": "Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.",
+  "why": "\"you two\": yourselves, not you.",
   "slots": {
    "surface": [
     "ice",

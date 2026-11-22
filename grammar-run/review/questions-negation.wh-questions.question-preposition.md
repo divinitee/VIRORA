@@ -6,31 +6,31 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 1. Who are you waiting ______, **Olga**? — My cousin. Her train is **late again**.  
    options: ✔ for · – · to · at  
-   why: The verb is wait for. In a wh-question the preposition stays: it goes at the end of the question.
+   why: wait for someone: "for" stays at the end of the question.
 
 2. What are you looking ______, **Aziz**? — My **phone**. I can't find it.  
    options: – · at · to · ✔ for  
-   why: The verb is look for. In a wh-question the preposition stays: it goes at the end of the question.
+   why: look for a lost thing: "for" goes at the end.
 
 3. Who did you talk ______ at the **wedding**? — **Timur**'s mother.  
    options: at · for · ✔ to · –  
-   why: The verb is talk to. In a wh-question the preposition stays: it goes at the end of the question.
+   why: talk to a person: "to" goes at the end.
 
 4. What is this book ______, **Aziz**? — It's a story of **an old ship**.  
    options: with · ✔ about · – · of  
-   why: The verb is be about. In a wh-question the preposition stays: it goes at the end of the question.
+   why: A book is about something: "about" goes at the end.
 
 5. Where does your new teacher come ______, **Timur**? — **Bukhara**, I think.  
    options: ✔ from · – · of · in  
-   why: The verb is come from. In a wh-question the preposition stays: it goes at the end of the question.
+   why: come from a place: "from" goes at the end.
 
 6. Who does this **ball** belong ______? — It's mine, **Lola**.  
    options: – · at · for · ✔ to  
-   why: The verb is belong to. In a wh-question the preposition stays: it goes at the end of the question.
+   why: Something belongs to someone: "to" goes at the end.
 
 7. What are you afraid ______, **Timur**? — **Spiders**!  
    options: from · about · ✔ of · –  
-   why: The verb is be afraid of. In a wh-question the preposition stays: it goes at the end of the question.
+   why: be afraid of something: "of" goes at the end.
 
 8. Which school did you go ______, **Olga**? — School number **5**.  
    options: at · ✔ to · – · in  
@@ -42,11 +42,11 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 10. Who are you going to the **match** ______? — My sister, **Olga**.  
    options: – · to · at · ✔ with  
-   why: The verb is go with. In a wh-question the preposition stays: it goes at the end of the question.
+   why: go with someone: "with" goes at the end.
 
 11. What are you interested ______, **Aziz**? — **History**.  
    options: on · for · ✔ in · –  
-   why: The verb is be interested in. In a wh-question the preposition stays: it goes at the end of the question.
+   why: be interested in something: "in" goes at the end.
 
 12. Who did you get this present ______? — My **teacher**. She sent it, **Lola**.  
    options: by · ✔ from · – · of  
@@ -89,47 +89,47 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 1. _Write the preposition that ends the question: for, to, about, with, from, at, of, in or on._  
    Who is **Lola** talking ______? — Her **mother**.  
    key: to (also: with)  
-   why: The verb is talk to. In a wh-question the preposition stays: it goes at the end of the question.
+   why: Asking about the listener: talk to … → talking to?
 
 2. _Write the preposition that ends the question: for, to, about, with, from, at, of, in or on._  
    What are you looking ______, **Aziz**? — My glasses. I can't find them.  
    key: for  
-   why: The verb is look for. In a wh-question the preposition stays: it goes at the end of the question.
+   why: "I can't find them": look for → looking for?
 
 3. _Write the preposition that ends the question: for, to, about, with, from, at, of, in or on._  
    Who did you go to the **museum** ______, **Aziz**? — My brother.  
    key: with  
-   why: The verb is go with. In a wh-question the preposition stays: it goes at the end of the question.
+   why: My brother came too: go with → go … with?
 
 4. _Write the preposition that ends the question: for, to, about, with, from, at, of, in or on._  
    What is the film ______, **Lola**? — Two **friends** and a lost dog.  
    key: about  
-   why: The verb is be about. In a wh-question the preposition stays: it goes at the end of the question.
+   why: The story of the film: be about → about?
 
 5. _Write the preposition that ends the question: for, to, about, with, from, at, of, in or on._  
    Where does your new neighbour come ______, **Aziz**? — **Kazan**.  
    key: from  
-   why: The verb is come from. In a wh-question the preposition stays: it goes at the end of the question.
+   why: Home town question: come from → come from?
 
 6. _Write the preposition that ends the question: for, to, about, with, from, at, of, in or on._  
    Who does this **ball** belong ______, **Lola**? — My little sister.  
    key: to  
-   why: The verb is belong to. In a wh-question the preposition stays: it goes at the end of the question.
+   why: The owner: belong to → belong to?
 
 7. _Write the preposition that ends the question: for, to, about, with, from, at, of, in or on._  
    What is your brother afraid ______, **Timur**? — Dogs and **spiders**.  
    key: of  
-   why: The verb is be afraid of. In a wh-question the preposition stays: it goes at the end of the question.
+   why: The thing that scares him: afraid of → afraid of?
 
 8. _Write the preposition that ends the question: for, to, about, with, from, at, of, in or on._  
    Who are you waiting ______, **Aziz**? — My cousin. Her bus is **very late**.  
    key: for  
-   why: The verb is wait for. In a wh-question the preposition stays: it goes at the end of the question.
+   why: "Her bus is …": wait for → waiting for?
 
 9. _Write the preposition that ends the question: for, to, about, with, from, at, of, in or on._  
    What are you so worried ______, **Aziz**? — My **exam** tomorrow.  
    key: about  
-   why: The verb is be worried about. In a wh-question the preposition stays: it goes at the end of the question.
+   why: The cause of the worry: worried about → worried about?
 
 10. _Write the preposition that ends the question: for, to, about, with, from, at, of, in or on._  
    Who did you buy these **sweets** ______? — My mum. It's her birthday, **Timur**.  
@@ -139,12 +139,12 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 11. _Write the preposition that ends the question: for, to, about, with, from, at, of, in or on._  
    What are you interested ______, **Timur**? — Music and **films**.  
    key: in  
-   why: The verb is be interested in. In a wh-question the preposition stays: it goes at the end of the question.
+   why: Hobbies: interested in → interested in?
 
 12. _Write the preposition that ends the question: for, to, about, with, from, at, of, in or on._  
    Who is this message ______, **Olga**? — Your **boss** sent it.  
    key: from  
-   why: The verb is be from. In a wh-question the preposition stays: it goes at the end of the question.
+   why: The sender: be from → message from?
 
 13. _Write the preposition that ends the question: for, to, about, with, from, at, of, in or on._  
    Which floor do you live ______, **Olga**? — The **fifth** floor.  
@@ -169,7 +169,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 17. _Write the preposition that ends the question: for, to, about, with, from, at, of, in or on._  
    What kind of music do you listen ______, **Aziz**? — Mostly **jazz**.  
    key: to  
-   why: The verb is listen to. In a wh-question the preposition stays: it goes at the end of the question.
+   why: Music you hear: listen to → listen to?
 
 18. _Write the preposition that ends the question: for, to, about, with, from, at, of, in or on._  
    Who did you dance ______ at the **festival**? — My cousin **Lola**.  
@@ -192,7 +192,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    For whom are you waiting at the **bus stop**, **Timur**?  
    → ______ are you waiting ______ at the **bus stop**, **Timur**?  
    key: Who + for  
-   why: The verb is wait for. In a wh-question the preposition stays: it goes at the end of the question.
+   why: Everyday English ends with the preposition: Who … for?
 
 2. _Make the question everyday English: put the preposition at the end._  
    About what are you and **your sister** talking, **Lola**?  
@@ -210,13 +210,13 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    To whom does this **bike** belong, **Timur**?  
    → ______ does this **bike** belong ______, **Timur**?  
    key: Who + to  
-   why: The verb is belong to. In a wh-question the preposition stays: it goes at the end of the question.
+   why: Not To whom: Who does this … belong to?
 
 5. _Make the question everyday English: put the preposition at the end._  
    From where is your new **neighbour**, **Olga**?  
    → ______ is your new **neighbour** ______, **Olga**?  
    key: Where + from  
-   why: The verb is be from. In a wh-question the preposition stays: it goes at the end of the question.
+   why: Not From where: Where is … from?
 
 6. _Write the question for this answer._  
    I'm looking at the **photo**, **Aziz**.  
@@ -228,43 +228,43 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    She's talking to her **teacher**, **Timur**.  
    → ______ is she talking ______, **Timur**?  
    key: Who + to  
-   why: The verb is talk to. In a wh-question the preposition stays: it goes at the end of the question.
+   why: Ask about her: Who … talking to?
 
 8. _Write the question for this answer._  
    We're worried about the **test**, **Aziz**.  
    → ______ are you worried ______, **Aziz**?  
    key: What + about  
-   why: The verb is be worried about. In a wh-question the preposition stays: it goes at the end of the question.
+   why: Ask about the worry: What … worried about?
 
 9. _Write the question for this answer._  
    He comes from **Almaty**, **Olga**.  
    → ______ does he come ______, **Olga**?  
    key: Where + from  
-   why: The verb is come from. In a wh-question the preposition stays: it goes at the end of the question.
+   why: Ask about the place: Where … come from?
 
 10. _Write the question for this answer._  
    They're listening to **an old song**, **Timur**.  
    → ______ are they listening ______, **Timur**?  
    key: What + to  
-   why: The verb is listen to. In a wh-question the preposition stays: it goes at the end of the question.
+   why: Ask about the music: What … listening to?
 
 11. _Correct the mistake._  
    Who are you waiting, **Olga**? Everyone is **here**.  
    → Who are you waiting ______, **Olga**? Everyone is **here**.  
    key: for  
-   why: The verb is wait for. In a wh-question the preposition stays: it goes at the end of the question.
+   why: wait needs for: waiting for.
 
 12. _Correct the mistake._  
    What are you looking, **Lola**? Did you lose your **ticket**?  
    → What are you looking ______, **Lola**? Did you lose your **ticket**?  
    key: for  
-   why: The verb is look for. In a wh-question the preposition stays: it goes at the end of the question.
+   why: look needs for when you search: looking for.
 
 13. _Correct the mistake._  
    With who did you go to the **concert**, **Aziz**?  
    → ______ did you go to the **concert** ______, **Aziz**?  
    key: Who + with  
-   why: The verb is go with. In a wh-question the preposition stays: it goes at the end of the question.
+   why: Not With who: Who … with?
 
 14. _Correct the mistake._  
    Who did you speak at the **bank**, **Timur**?  
@@ -276,7 +276,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    About what was the **lesson**, **Timur**?  
    → What was the **lesson** ______, **Timur**?  
    key: about  
-   why: The verb is be about. In a wh-question the preposition stays: it goes at the end of the question.
+   why: Not About what: What was … about?
 
 ## create (8)
 

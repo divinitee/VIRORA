@@ -17,7 +17,7 @@ export default [
    "more better"
   ],
   "key": 0,
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "Practice goes up, skill goes up: the + better.",
   "slots": {
    "skill": [
     "English",
@@ -49,7 +49,7 @@ export default [
    "the angrier"
   ],
   "key": 3,
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "Longer wait, more anger: the + angrier.",
   "slots": {
    "place": [
     "bus stop",
@@ -81,7 +81,7 @@ export default [
    "Less"
   ],
   "key": 2,
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "Less sleep, more tired: The less.",
   "slots": {
    "time": [
     "the morning",
@@ -113,7 +113,7 @@ export default [
    "the most"
   ],
   "key": 1,
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "Hotter weather, more drinking: the more water.",
   "slots": {
    "city": [
     "Termez",
@@ -145,7 +145,7 @@ export default [
    "The much"
   ],
   "key": 0,
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "More reading, more words: The more.",
   "slots": {
    "lang": [
     "English",
@@ -177,7 +177,7 @@ export default [
    "the sooner"
   ],
   "key": 3,
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "Earlier start, sooner arrival: the sooner.",
   "slots": {
    "place": [
     "airport",
@@ -209,7 +209,7 @@ export default [
    "more"
   ],
   "key": 2,
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "Bigger size, higher price: the more it costs.",
   "slots": {
    "thing": [
     "flat",
@@ -241,7 +241,7 @@ export default [
    "the wisest"
   ],
   "key": 1,
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "Older age, more wisdom: the wiser.",
   "slots": {
    "who": [
     "grandfather",
@@ -273,7 +273,7 @@ export default [
    "the dangerous"
   ],
   "key": 0,
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "Faster driving, more danger: the more dangerous.",
   "slots": {
    "road": [
     "motorway",
@@ -305,7 +305,7 @@ export default [
    "the thirstier"
   ],
   "key": 3,
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "More eating, more thirst: thirsty → the thirstier.",
   "slots": {
    "food": [
     "salty crisps",
@@ -337,7 +337,7 @@ export default [
    "nicer"
   ],
   "key": 2,
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "More smiles, kinder people: the nicer.",
   "slots": {
    "place": [
     "work",
@@ -369,7 +369,7 @@ export default [
    "The most"
   ],
   "key": 1,
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "More training, a better team: The more.",
   "slots": {
    "place": [
     "stadium",
@@ -401,7 +401,7 @@ export default [
    "the much"
   ],
   "key": 0,
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "Colder weather, more layers: the more clothes.",
   "slots": {
    "month": [
     "November",
@@ -433,7 +433,7 @@ export default [
    "the more"
   ],
   "key": 3,
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "Spend less, save more: the more.",
   "slots": {
    "shop": [
     "bazaar",
@@ -465,7 +465,7 @@ export default [
    "more tired"
   ],
   "key": 2,
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "More work, more tiredness: the more tired.",
   "slots": {
    "task": [
     "homework",
@@ -497,7 +497,7 @@ export default [
    "the highest"
   ],
   "key": 1,
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "Harder study, a higher mark: the higher.",
   "slots": {
    "test": [
     "exam",
@@ -529,7 +529,7 @@ export default [
    "More scarier"
   ],
   "key": 0,
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "Scarier …, more liking: scary → The scarier.",
   "slots": {
    "film": [
     "film",
@@ -561,7 +561,7 @@ export default [
    "the more fun"
   ],
   "key": 3,
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "More people, more fun: the more fun.",
   "slots": {
    "event": [
     "party",
@@ -593,7 +593,7 @@ export default [
    "harder"
   ],
   "key": 2,
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "Faster speech, harder to follow: the harder.",
   "slots": {
    "lang": [
     "English",
@@ -625,7 +625,7 @@ export default [
    "the most"
   ],
   "key": 1,
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "Cheaper price, more buyers: the more.",
   "slots": {
    "thing": [
     "bread",
@@ -655,7 +655,7 @@ export default [
    "The more",
    "the better"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "much → more, good → better: The more … the better.",
   "slots": {
    "skill": [
     "English",
@@ -685,7 +685,7 @@ export default [
    "The longer",
    "the angrier"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "long → longer, angry → angrier.",
   "slots": {
    "place": [
     "bus stop",
@@ -715,7 +715,7 @@ export default [
    "The less",
    "the more tired"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "little → less, tired → more tired.",
   "slots": {
    "time": [
     "the morning",
@@ -745,7 +745,7 @@ export default [
    "The hotter",
    "the more"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "hot → hotter, much → more.",
   "slots": {
    "city": [
     "Termez",
@@ -775,7 +775,7 @@ export default [
    "The earlier",
    "the sooner"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "early → earlier, soon → sooner.",
   "slots": {
    "place": [
     "airport",
@@ -805,7 +805,7 @@ export default [
    "The bigger",
    "the more expensive"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "big → bigger, expensive → more expensive.",
   "slots": {
    "thing": [
     "flat",
@@ -835,7 +835,7 @@ export default [
    "The older",
    "the wiser"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "old → older, wise → wiser.",
   "slots": {
    "who": [
     "grandfather",
@@ -865,7 +865,7 @@ export default [
    "The faster",
    "the more dangerous"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "fast → faster, dangerous → more dangerous.",
   "slots": {
    "road": [
     "motorway",
@@ -895,7 +895,7 @@ export default [
    "The more",
    "the easier"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "much → more, easy → easier.",
   "slots": {
    "lang": [
     "English",
@@ -925,7 +925,7 @@ export default [
    "The colder",
    "the warmer"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "cold → colder, warm → warmer.",
   "slots": {
    "month": [
     "November",
@@ -955,7 +955,7 @@ export default [
    "The harder",
    "the higher"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "hard → harder, high → higher.",
   "slots": {
    "test": [
     "exam",
@@ -985,7 +985,7 @@ export default [
    "The nearer",
    "the more nervous"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "near → nearer, nervous → more nervous.",
   "slots": {
    "event": [
     "exam",
@@ -999,7 +999,13 @@ export default [
     "Zarina",
     "Sherzod"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "The closer",
+    "the more nervous"
+   ]
+  ]
  },
  {
   "id": "gpr.comparison.parallel-comparison.the-more-the-more.build.013",
@@ -1015,7 +1021,7 @@ export default [
    "The more",
    "the more fun"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "many → more, fun → more fun.",
   "slots": {
    "event": [
     "party",
@@ -1045,7 +1051,7 @@ export default [
    "The less",
    "the more"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "little → less, much → more.",
   "slots": {
    "shop": [
     "bazaar",
@@ -1075,7 +1081,7 @@ export default [
    "The faster",
    "the more difficult"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "fast → faster, difficult → more difficult.",
   "slots": {
    "lang": [
     "English",
@@ -1105,7 +1111,7 @@ export default [
    "The scarier",
    "the more"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "scary → scarier, much → more.",
   "slots": {
    "film": [
     "film",
@@ -1135,7 +1141,7 @@ export default [
    "The higher",
    "the colder"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "high → higher, cold → colder.",
   "slots": {
    "hill": [
     "hill",
@@ -1165,7 +1171,7 @@ export default [
    "The more",
    "the thirstier"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "much → more, thirsty → thirstier.",
   "slots": {
    "food": [
     "salty crisps",
@@ -1195,7 +1201,7 @@ export default [
    "The louder",
    "the happier"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "loud → louder, happy → happier.",
   "slots": {
    "event": [
     "party",
@@ -1225,7 +1231,7 @@ export default [
    "The more",
    "the stronger"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "much → more, strong → stronger.",
   "slots": {
    "name": [
     "Madina",
@@ -1256,7 +1262,7 @@ export default [
    "The more",
    "the better"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "If more …, better …: The more … the better.",
   "slots": {
    "skill": [
     "English",
@@ -1287,7 +1293,7 @@ export default [
    "The earlier",
    "the sooner"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "If earlier …, sooner …: The earlier … the sooner.",
   "slots": {
    "place": [
     "airport",
@@ -1318,7 +1324,7 @@ export default [
    "The more",
    "the easier"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "If more …, easier …: The more … the easier.",
   "slots": {
    "lang": [
     "English",
@@ -1349,7 +1355,7 @@ export default [
    "The less",
    "the more"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "If less …, more …: The less … the more.",
   "slots": {
    "shop": [
     "bazaar",
@@ -1380,7 +1386,7 @@ export default [
    "The faster",
    "the more dangerous"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "If faster …, more dangerous …: The faster … the more dangerous.",
   "slots": {
    "road": [
     "motorway",
@@ -1411,7 +1417,7 @@ export default [
    "The more",
    "the better"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "Both halves need the: the better.",
   "slots": {
    "test": [
     "exam",
@@ -1442,7 +1448,7 @@ export default [
    "The longer",
    "the angrier"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "Not more angrier: the angrier.",
   "slots": {
    "place": [
     "bus stop",
@@ -1473,7 +1479,7 @@ export default [
    "The more",
    "the less tired"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "The first half needs The too: The more.",
   "slots": {
    "time": [
     "the morning",
@@ -1504,7 +1510,7 @@ export default [
    "The hotter",
    "the more"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "more, not most: the more.",
   "slots": {
    "city": [
     "Termez",
@@ -1535,7 +1541,7 @@ export default [
    "The more",
    "the more fun"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "many people → The more, not The much.",
   "slots": {
    "event": [
     "party",
@@ -1566,7 +1572,7 @@ export default [
    "The older",
    "the wiser"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "As … older, … wiser: The older … the wiser.",
   "slots": {
    "who": [
     "grandfather",
@@ -1597,7 +1603,7 @@ export default [
    "The higher",
    "the colder"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "As … higher, … colder: The higher … the colder.",
   "slots": {
    "hill": [
     "hill",
@@ -1628,7 +1634,7 @@ export default [
    "The later",
    "the more tired"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "As … later, … more tired: The later … the more tired.",
   "slots": {
    "event": [
     "party",
@@ -1659,7 +1665,7 @@ export default [
    "The more",
    "the stronger"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "As … trains more, … stronger: The more … the stronger.",
   "slots": {
    "name": [
     "Madina",
@@ -1690,7 +1696,7 @@ export default [
    "The louder",
    "the happier"
   ],
-  "why": "Two changes go together: The + comparative …, the + comparative ….",
+  "why": "As … louder, … happier: The louder … the happier.",
   "slots": {
    "event": [
     "party",

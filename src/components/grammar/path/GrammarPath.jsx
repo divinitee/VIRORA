@@ -1,7 +1,7 @@
-import React, { useEffect, useMemo, useRef, useState } from "react";
+import React, { Fragment, useEffect, useMemo, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Check, ChevronDown, Lock, Play, RotateCcw, Sparkles, X, BookOpen } from "lucide-react";
-import { UNITS, topicLabel } from "@/lib/grammarCourse";
+import { PATH_UNITS, topicLabel } from "@/lib/grammarCourse";
 import { STATUS, statusOf, nextTopic, unitProgress, reviewKeys } from "@/lib/grammarPathState";
 import { PRACTICE_STAGES } from "@/lib/grammarPractice/stages";
 import { PRACTICE_MANIFEST } from "@/lib/grammarPractice/manifest";
@@ -13,7 +13,7 @@ import { GRAMMAR_ACCENT as ACCENT } from "@/components/grammar/map/tierMeta";
 
 const STR = {
   uz: {
-    unit: "Bo'lim", next: "Keyingi", soon: "Tez orada", preview: "Qo'shimcha", review: "Takrorlash",
+    unit: "Bo'lim", level: (l) => `${l} darajasi`, next: "Keyingi", soon: "Tez orada", preview: "Qo'shimcha", review: "Takrorlash",
     status: { new: "Yangi", practising: "Mashq qilinmoqda", review: "Takrorlash", secure: "O'zlashtirildi" },
     secureOf: (a, b) => `${a}/${b} o'zlashtirildi`, playable: (n) => `${n} ta mavzu tayyor`,
     continue: "Davom etish", suggested: "Tavsiya", allDone: "Hozircha hammasi bajarildi!", learn: "O'rganish", learnSoon: "Tez orada",
@@ -22,7 +22,7 @@ const STR = {
     stages: { choose: ["Tanlash", "To'g'ri shaklni toping"], build: ["Tuzish", "O'zingiz yozing"], transform: ["O'zgartirish", "Gapni o'zgartiring"], create: ["Yaratish", ""], express: ["Erkin nutq", ""] },
   },
   en: {
-    unit: "Unit", next: "Next", soon: "Coming soon", preview: "Preview", review: "Review",
+    unit: "Unit", level: (l) => `Level ${l}`, next: "Next", soon: "Coming soon", preview: "Preview", review: "Review",
     status: { new: "New", practising: "Practising", review: "Review", secure: "Secure" },
     secureOf: (a, b) => `${a}/${b} secure`, playable: (n) => `${n} ready to play`,
     continue: "Continue", suggested: "Suggested", allDone: "All caught up for now!", learn: "Learn", learnSoon: "Coming soon",
@@ -31,7 +31,7 @@ const STR = {
     stages: { choose: ["Choose", "Spot the right form"], build: ["Build", "Make it yourself"], transform: ["Transform", "Change the sentence"], create: ["Create", ""], express: ["Express", ""] },
   },
   ru: {
-    unit: "Раздел", next: "Дальше", soon: "Скоро", preview: "Дополнительно", review: "Повторить",
+    unit: "Раздел", level: (l) => `Уровень ${l}`, next: "Дальше", soon: "Скоро", preview: "Дополнительно", review: "Повторить",
     status: { new: "Новое", practising: "В процессе", review: "Повторить", secure: "Усвоено" },
     secureOf: (a, b) => `${a}/${b} усвоено`, playable: (n) => `Готово тем: ${n}`,
     continue: "Продолжить", suggested: "Советуем", allDone: "Пока всё пройдено!", learn: "Теория", learnSoon: "Скоро",
@@ -207,7 +207,7 @@ export default function GrammarPath({ lang, statuses, available, onStart, openKe
   const ownNext = useMemo(() => nextTopic(statuses, available), [statuses, available]);
   const next = nextProp !== undefined ? nextProp : ownNext;
   const reviews = useMemo(() => reviewKeys(statuses), [statuses]);
-  const [openUnits, setOpenUnits] = useState(() => new Set(next ? [next.unitId] : [UNITS[0].id]));
+  const [openUnits, setOpenUnits] = useState(() => new Set(next ? [next.unitId] : [PATH_UNITS[0].id]));
   const [showReview, setShowReview] = useState(false);
   const currentRef = useRef(null);
 
@@ -245,11 +245,16 @@ export default function GrammarPath({ lang, statuses, available, onStart, openKe
       )}
 
       <div className="space-y-3">
-        {UNITS.map((u, i) => (
-          <UnitCard key={u.id} unit={u} index={i} s={s} lang={lang}
-            statuses={statuses} available={available} next={next}
-            open={openUnits.has(u.id)} onToggle={() => toggle(u.id)} onOpenTopic={onOpenKey}
-            cardRef={next?.unitId === u.id ? currentRef : undefined} />
+        {PATH_UNITS.map((u, i) => (
+          <Fragment key={u.id}>
+            {u.level && u.level !== PATH_UNITS[i - 1]?.level && (
+              <h3 className="pt-4 pb-1 px-1 text-xs font-bold uppercase tracking-wider text-muted-foreground">{s.level(u.level)}</h3>
+            )}
+            <UnitCard unit={u} index={i} s={s} lang={lang}
+              statuses={statuses} available={available} next={next}
+              open={openUnits.has(u.id)} onToggle={() => toggle(u.id)} onOpenTopic={onOpenKey}
+              cardRef={next?.unitId === u.id ? currentRef : undefined} />
+          </Fragment>
         ))}
       </div>
 

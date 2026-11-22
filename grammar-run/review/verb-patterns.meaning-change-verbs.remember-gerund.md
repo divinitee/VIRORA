@@ -8,237 +8,237 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    options: ✔ meeting · to meet · meet · met  
    why: "Last year" is in the past, so this is a memory of the past: remember + -ing (meeting).
 
-2. My grandpa remembers ______ to **Moscow** by train in 1975.  
+2. My **grandpa** remembers ______ to **Moscow** by train in 1975.  
    options: to go · go · went · ✔ going  
    why: "In 1975" is long ago, so this is a memory of the past: remember + -ing (going).
 
-3. Do you remember ______ **football** in the yard when we were kids, **Otabek**?  
+3. Do you remember ______ **hide and seek** in the yard when we were kids, **Zarina**?  
    options: play · played · ✔ playing · to play  
    why: "When we were kids" is the past, so this is a memory of the past: remember + -ing (playing).
 
-4. I remember ______ snow in **Almaty** for the first time, **Feruza**.  
+4. I remember ______ snow in **Moscow** for the first time, **Jamshid**.  
    options: saw · ✔ seeing · to see · see  
    why: "For the first time" here is a past moment, so this is a memory of the past: remember + -ing (seeing).
 
-5. She remembers ______ on her first day at **university**.  
+5. She remembers ______ on her first **morning** at **camp**.  
    options: ✔ crying · to cry · cry · cried  
-   why: Her first day was in the past, so this is a memory of the past: remember + -ing (crying).
+   why: Her first … there is in the past: a memory: remember + -ing (crying).
 
-6. I remember ______ the best **kebab** of my life in **Bukhara**, **Otabek**.  
+6. I remember ______ the best **samsa** of my life in **Tashkent**, **Zarina**.  
    options: to eat · eat · ate · ✔ eating  
    why: It happened on a past trip, so this is a memory of the past: remember + -ing (eating).
 
-7. My mum remembers ______ to ride a **donkey** when she was six.  
+7. My **aunt** remembers ______ to ride a **bike** when she was six.  
    options: learn · learned · ✔ learning · to learn  
    why: "When she was six" is the past, so this is a memory of the past: remember + -ing (learning).
 
-8. Do you remember ______ in the old **building** on **Navoi** Street, **Sherzod**?  
+8. Do you remember ______ in the old **flat** on **Bobur** Street, **Feruza**?  
    options: lived · ✔ living · to live · live  
-   why: The old flat is in the past, so this is a memory of the past: remember + -ing (living).
+   why: The old … is in the past, so this is a memory of the past: remember + -ing (living).
 
-9. I remember ______ my **gloves** on the bus last winter, **Zarina**.  
+9. I remember ______ my **hat** on the bus last winter, **Otabek**.  
    options: ✔ losing · to lose · lose · lost  
    why: "Last winter" is the past, so this is a memory of the past: remember + -ing (losing).
 
-10. We remember ______ in the **river** every summer as children.  
+10. We remember ______ in the **river** every **summer** as children.  
    options: to swim · swim · swam · ✔ swimming  
    why: "As children" is the past, so this is a memory of the past: remember + -ing (swimming).
 
-11. I remember ______ a lot at your **graduation**, **Sherzod**.  
+11. I remember ______ a lot at your **picnic**, **Jamshid**.  
    options: laugh · laughed · ✔ laughing · to laugh  
    why: The party is over: it is a memory, so this is a memory of the past: remember + -ing (laughing).
 
-12. My dad remembers ______ the **final** on a small black-and-white TV.  
+12. My **grandpa** remembers ______ the **final** on a small black-and-white TV.  
    options: watched · ✔ watching · to watch · watch  
    why: A black-and-white TV is from the past, so this is a memory of the past: remember + -ing (watching).
 
-13. I remember ______ to **school** in the snow as a child, **Akmal**.  
+13. I remember ______ to **kindergarten** in the snow as a child, **Gulnora**.  
    options: ✔ walking · to walk · walk · walked  
    why: "As a child" is the past, so this is a memory of the past: remember + -ing (walking).
 
-14. I don't remember ______ you about the **trip**, **Feruza**. Are you sure?  
+14. I don't remember ______ you about the **test**, **Nodira**. Are you sure?  
    options: to tell · tell · told · ✔ telling  
    why: Did I tell you before? I have no memory of it, so this is a memory of the past: remember + -ing (telling).
 
-15. She remembers ______ at her sister's **party** ten years ago.  
+15. She remembers ______ at her **cousin**'s **birthday** ten years ago.  
    options: sing · sang · ✔ singing · to sing  
    why: "Ten years ago" is the past, so this is a memory of the past: remember + -ing (singing).
 
-16. I remember ______ lost in **Dubai** on my first trip, **Gulnora**.  
+16. I remember ______ lost in **Istanbul** on my first trip, **Akmal**.  
    options: got · ✔ getting · to get · get  
    why: "On my first trip" is the past, so this is a memory of the past: remember + -ing (getting).
 
-17. Do you remember ______ this **teapot** at the bazaar years ago, **Nodira**?  
+17. Do you remember ______ this **teapot** at the bazaar years ago, **Feruza**?  
    options: ✔ buying · to buy · buy · bought  
    why: We bought it before: a memory, so this is a memory of the past: remember + -ing (buying).
 
-18. My son remembers ______ in a tent in the **forest** last summer.  
+18. My **daughter** remembers ______ in a tent in the **forest** last summer.  
    options: to sleep · sleep · slept · ✔ sleeping  
    why: "Last summer" is the past, so this is a memory of the past: remember + -ing (sleeping).
 
-19. I remember ______ over the **sea** for the first time, **Gulnora**.  
+19. I remember ______ over the **mountains** for the first time, **Akmal**.  
    options: fly · flew · ✔ flying · to fly  
    why: It is a memory of a past flight, so this is a memory of the past: remember + -ing (flying).
 
-20. Our coach remembers ______ the **championship** in **2005**.  
+20. Our coach remembers ______ the **final** in **2005**.  
    options: won · ✔ winning · to win · win  
-   why: "In 1998" is the past, so this is a memory of the past: remember + -ing (winning).
+   why: "In …" is the past, so this is a memory of the past: remember + -ing (winning).
 
 ## build (20)
 
 1. _It is a memory of the past. Complete with the right form of the verb in brackets._  
-   I remember ______ (visit) **Samarkand** with my parents in **2008**.  
+   I remember ______ (visit) **Samarkand** with my parents in **2012**.  
    key: visiting  
    why: A memory of something done before: remember + -ing (visiting).
 
 2. _It is a memory of the past. Complete with the right form of the verb in brackets._  
-   Do you remember ______ (ride) a camel in the **zoo**, **Feruza**?  
+   Do you remember ______ (ride) a camel in the **desert**, **Jamshid**?  
    key: riding  
    why: A memory of something done before: remember + -ing (riding).
 
 3. _It is a memory of the past. Complete with the right form of the verb in brackets._  
-   I remember ______ (hear) this song at a **festival** years ago, **Otabek**.  
+   I remember ______ (hear) this song at a **party** years ago, **Gulnora**.  
    key: hearing  
    why: A memory of something done before: remember + -ing (hearing).
 
 4. _It is a memory of the past. Complete with the right form of the verb in brackets._  
-   My grandma remembers ______ (make) bread in a **clay oven** as a girl.  
+   My **mum** remembers ______ (make) bread in a **village oven** as a girl.  
    key: making  
    why: A memory of something done before: remember + -ing (making).
 
 5. _It is a memory of the past. Complete with the right form of the verb in brackets._  
-   I don't remember ______ (break) the **vase**, **Jamshid**. Was it me?  
+   I don't remember ______ (break) the **lamp**, **Nodira**. Was it me?  
    key: breaking  
    why: A memory of something done before: remember + -ing (breaking).
 
 6. _It is a memory of the past. Complete with the right form of the verb in brackets._  
-   She remembers ______ (read) this **book** at school.  
+   She remembers ______ (read) this **book** at **school**.  
    key: reading  
    why: A memory of something done before: remember + -ing (reading).
 
 7. _It is a memory of the past. Complete with the right form of the verb in brackets._  
-   We remember ______ (climb) the **big tree** behind our village.  
+   We remember ______ (climb) the **mountain** behind our **village**.  
    key: climbing  
    why: A memory of something done before: remember + -ing (climbing).
 
 8. _It is a memory of the past. Complete with the right form of the verb in brackets._  
-   I remember ______ (dance) all night at my cousin's **party**, **Gulnora**.  
+   I remember ______ (dance) all night at my cousin's **wedding**, **Otabek**.  
    key: dancing  
    why: A memory of something done before: remember + -ing (dancing).
 
 9. _It is a memory of the past. Complete with the right form of the verb in brackets._  
-   I remember ______ (feel) very nervous before my first **match**, **Sherzod**.  
+   I remember ______ (feel) very nervous before my first **match**, **Nodira**.  
    key: feeling  
    why: A memory of something done before: remember + -ing (feeling).
 
 10. _It is a memory of the past. Complete with the right form of the verb in brackets._  
-   Do you remember ______ (write) letters to **Father Frost**, **Zarina**?  
+   Do you remember ______ (write) letters to **Father Frost**, **Otabek**?  
    key: writing  
    why: A memory of something done before: remember + -ing (writing).
 
 11. _It is a memory of the past. Complete with the right form of the verb in brackets._  
-   My brother remembers ______ (catch) a big fish in the **river**.  
+   My **dad** remembers ______ (catch) a big fish in the **lake**.  
    key: catching  
    why: A memory of something done before: remember + -ing (catching).
 
 12. _It is a memory of the past. Complete with the right form of the verb in brackets._  
-   I remember ______ (stay) at a small hotel in **Istanbul**, **Sherzod**.  
+   I remember ______ (stay) at a small hotel in **Bukhara**, **Jamshid**.  
    key: staying  
    why: A memory of something done before: remember + -ing (staying).
 
 13. _It is a memory of the past. Complete with the right form of the verb in brackets._  
-   Do you remember ______ (see) the **mountains** from the plane, **Gulnora**?  
+   Do you remember ______ (see) the **sea** from the plane, **Otabek**?  
    key: seeing  
    why: A memory of something done before: remember + -ing (seeing).
 
 14. _It is a memory of the past. Complete with the right form of the verb in brackets._  
-   I remember ______ (be) scared of the dark as a child, **Sherzod**.  
+   I remember ______ (be) scared of the **dark** as a child, **Sherzod**.  
    key: being  
    why: A memory of something done before: remember + -ing (being).
 
 15. _It is a memory of the past. Complete with the right form of the verb in brackets._  
-   Grandpa remembers ______ (plant) this **cherry tree** forty years ago.  
+   **Grandpa** remembers ______ (plant) this **cherry tree** forty years ago.  
    key: planting  
    why: A memory of something done before: remember + -ing (planting).
 
 16. _It is a memory of the past. Complete with the right form of the verb in brackets._  
-   I remember ______ (put) my **wallet** on this table an hour ago, **Akmal**.  
+   I remember ______ (put) my **phone** on this table an hour ago, **Akmal**.  
    key: putting  
    why: A memory of something done before: remember + -ing (putting).
 
 17. _It is a memory of the past. Complete with the right form of the verb in brackets._  
-   I don't remember ______ (send) that email to the **boss**, **Sherzod**.  
+   I don't remember ______ (send) that email to the **client**, **Jamshid**.  
    key: sending  
    why: A memory of something done before: remember + -ing (sending).
 
 18. _It is a memory of the past. Complete with the right form of the verb in brackets._  
-   She remembers ______ (talk) to a famous **footballer** at the airport.  
+   She remembers ______ (talk) to a famous **writer** at the **hotel**.  
    key: talking  
    why: A memory of something done before: remember + -ing (talking).
 
 19. _It is a memory of the past. Complete with the right form of the verb in brackets._  
-   I remember ______ (take) this photo in **Bukhara**, **Akmal**.  
+   I remember ______ (take) this photo in **Khiva**, **Zarina**.  
    key: taking  
    why: A memory of something done before: remember + -ing (taking).
 
 20. _It is a memory of the past. Complete with the right form of the verb in brackets._  
-   My uncle remembers ______ (work) on a farm near **Jizzakh** as a boy, **Sherzod**.  
+   My uncle remembers ______ (work) on a farm near **Namangan** as a boy, **Feruza**.  
    key: working  
    why: "As a boy" is the past: remember + -ing (working).
 
 ## transform (15)
 
 1. _Correct the mistake._  
-   I remember to meet your **sister** at the wedding last year, **Feruza**.  
-   → I remember ______ your **sister** at the wedding last year, **Feruza**.  
+   I remember to meet your **sister** at the wedding last year, **Sherzod**.  
+   → I remember ______ your **sister** at the wedding last year, **Sherzod**.  
    key: meeting  
    why: "Last year" is a memory: remember + -ing.
 
 2. _Correct the mistake._  
-   She remembers to cry on her first day at **camp**.  
-   → She remembers ______ on her first day at **camp**.  
+   She remembers to cry on her first day at **school**.  
+   → She remembers ______ on her first day at **school**.  
    key: crying  
    why: A memory of her first day: remember + -ing.
 
 3. _Correct the mistake._  
-   Do you remember play in the yard as kids, **Gulnora**?  
-   → Do you remember ______ in the yard as kids, **Gulnora**?  
+   Do you remember play in the **street** as kids, **Otabek**?  
+   → Do you remember ______ in the **street** as kids, **Otabek**?  
    key: playing  
    why: remember + -ing for a memory: playing.
 
 4. _Correct the mistake._  
-   My grandpa remembers went to **Tashkent** in 1975.  
-   → My grandpa remembers ______ to **Tashkent** in 1975.  
+   My **grandma** remembers went to **Samarkand** in 1975.  
+   → My **grandma** remembers ______ to **Samarkand** in 1975.  
    key: going  
    why: remember + -ing: going, not went.
 
 5. _Correct the mistake._  
-   I remember to see snow for the first time in **Istanbul**, **Jamshid**.  
-   → I remember ______ snow for the first time in **Istanbul**, **Jamshid**.  
+   I remember to see snow for the first time in **Istanbul**, **Feruza**.  
+   → I remember ______ snow for the first time in **Istanbul**, **Feruza**.  
    key: seeing  
    why: A first time in the past: remember + -ing.
 
 6. _Rewrite with I remember + -ing._  
-   I swam in the **canal** as a child. I still remember it, **Akmal**.  
-   → I remember ______ in the **canal** as a child, **Akmal**.  
+   I swam in the **lake** as a child. I still remember it, **Zarina**.  
+   → I remember ______ in the **lake** as a child, **Zarina**.  
    key: swimming  
    why: A memory: remember + -ing (swimming).
 
 7. _Rewrite with I remember + -ing._  
-   I visited **Termez** with my class in **2018**. I remember it well.  
-   → I remember ______ **Termez** with my class in **2018**.  
+   I visited **Bukhara** with my class in **2010**. I remember it well.  
+   → I remember ______ **Bukhara** with my class in **2010**.  
    key: visiting  
    why: A memory: remember + -ing (visiting).
 
 8. _Rewrite with I remember + -ing._  
-   I laughed a lot at your **graduation**. I remember that, **Nodira**.  
-   → I remember ______ a lot at your **graduation**, **Nodira**.  
+   I laughed a lot at your **picnic**. I remember that, **Sherzod**.  
+   → I remember ______ a lot at your **picnic**, **Sherzod**.  
    key: laughing  
    why: A memory: remember + -ing (laughing).
 
 9. _Rewrite with I remember + -ing._  
-   I got lost in **Istanbul** on my first trip. I remember it, **Otabek**.  
-   → I remember ______ lost in **Istanbul** on my first trip, **Otabek**.  
+   I got lost in **Dubai** on my first trip. I remember it, **Zarina**.  
+   → I remember ______ lost in **Dubai** on my first trip, **Zarina**.  
    key: getting  
    why: A memory: remember + -ing (getting lost).
 
@@ -249,32 +249,32 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    why: A memory: remember + -ing (feeling).
 
 11. _Rewrite with I don't remember + -ing._  
-   Did I say that at the **party**? I have no memory of it, **Zarina**.  
-   → I don't remember ______ that at the **party**, **Zarina**.  
+   Did I say that at the **lesson**? I have no memory of it, **Akmal**.  
+   → I don't remember ______ that at the **lesson**, **Akmal**.  
    key: saying  
    why: No memory of a past action: don't remember + -ing.
 
 12. _Rewrite with I don't remember + -ing._  
-   Did I borrow your **charger**? I can't remember it, **Sherzod**.  
-   → I don't remember ______ your **charger**, **Sherzod**.  
+   Did I borrow your **book**? I can't remember it, **Feruza**.  
+   → I don't remember ______ your **book**, **Feruza**.  
    key: borrowing  
    why: No memory: don't remember + -ing (borrowing).
 
 13. _Rewrite with I don't remember + -ing._  
-   Did we meet in **Moscow**? I have no memory of that, **Gulnora**.  
-   → I don't remember ______ you in **Moscow**, **Gulnora**.  
+   Did we meet in **Samarkand**? I have no memory of that, **Zarina**.  
+   → I don't remember ______ you in **Samarkand**, **Zarina**.  
    key: meeting  
    why: No memory: don't remember + -ing (meeting).
 
 14. _Rewrite with I don't remember + -ing._  
-   Did I pay for the **taxi**? I can't remember, **Nodira**.  
-   → I don't remember ______ for the **taxi**, **Nodira**.  
+   Did I pay for the **coffee**? I can't remember, **Nodira**.  
+   → I don't remember ______ for the **coffee**, **Nodira**.  
    key: paying  
    why: No memory: don't remember + -ing (paying).
 
 15. _Rewrite with I don't remember + -ing._  
-   Did I close the **door**? I have no memory of it, **Gulnora**.  
-   → I don't remember ______ the **door**, **Gulnora**.  
+   Did I close the **fridge**? I have no memory of it, **Gulnora**.  
+   → I don't remember ______ the **fridge**, **Gulnora**.  
    key: closing  
    why: No memory of the past action: don't remember + -ing.
 

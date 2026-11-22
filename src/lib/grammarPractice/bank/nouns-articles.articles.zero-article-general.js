@@ -17,7 +17,7 @@ export default [
    "some of"
   ],
   "key": 0,
-  "why": "This is about cats in general, not some cats we know. Use no article.",
+  "why": "Cats in general: no article.",
   "slots": {
    "name": [
     "Aziz",
@@ -49,7 +49,7 @@ export default [
    "–"
   ],
   "key": 3,
-  "why": "This is about money in general, not some money we know. Use no article.",
+  "why": "Money in general: no article.",
   "slots": {
    "thing": [
     "happiness",
@@ -81,7 +81,7 @@ export default [
    "the"
   ],
   "key": 2,
-  "why": "This is about fresh fruit in general, not some fresh fruit we know. Use no article.",
+  "why": "Fresh fruit in general: no article.",
   "slots": {
    "who": [
     "children",
@@ -107,7 +107,7 @@ export default [
    "A"
   ],
   "key": 2,
-  "why": "This is about specific water (the ones the sentence names), so use the.",
+  "why": "This particular water, in this container: The.",
   "slots": {
    "container": [
     "bottle",
@@ -139,7 +139,7 @@ export default [
    "Some of"
   ],
   "key": 0,
-  "why": "This is about children in general, not some children we know. Use no article.",
+  "why": "Children in general: no article.",
   "slots": {
    "who": [
     "adults",
@@ -171,7 +171,7 @@ export default [
    "–"
   ],
   "key": 0,
-  "why": "This is about specific students (the ones the sentence names), so use the.",
+  "why": "The students we met: particular ones: The.",
   "slots": {
    "adj": [
     "friendly",
@@ -203,7 +203,7 @@ export default [
    "the"
   ],
   "key": 2,
-  "why": "This is about coffee in general, not some coffee we know. Use no article.",
+  "why": "Coffee in general, as a drink I never have: no article.",
   "slots": {
    "drink": [
     "tea",
@@ -235,7 +235,7 @@ export default [
    "A"
   ],
   "key": 1,
-  "why": "This is about sport in general, not some sport we know. Use no article.",
+  "why": "Sport in general: no article.",
   "slots": {
    "part": [
     "heart",
@@ -267,7 +267,7 @@ export default [
    "Some of"
   ],
   "key": 1,
-  "why": "This is about specific bread (the ones the sentence names), so use the.",
+  "why": "The bread you bought: a particular loaf: The.",
   "slots": {
    "shop": [
     "bakery",
@@ -299,7 +299,7 @@ export default [
    "–"
   ],
   "key": 3,
-  "why": "This is about spiders in general, not some spiders we know. Use no article.",
+  "why": "Spiders in general: no article.",
   "slots": {
    "who": [
     "sister",
@@ -325,7 +325,7 @@ export default [
    "The"
   ],
   "key": 2,
-  "why": "This is about health in general, not some health we know. Use no article.",
+  "why": "Health in general: no article.",
   "slots": {
    "thing": [
     "money",
@@ -357,7 +357,7 @@ export default [
    "A"
   ],
   "key": 2,
-  "why": "This is about specific teachers (the ones the sentence names), so use the.",
+  "why": "The teachers I told you about: particular ones: The.",
   "slots": {
    "school": [
     "school",
@@ -389,7 +389,7 @@ export default [
    "some of"
   ],
   "key": 0,
-  "why": "This is about elephants in general, not some elephants we know. Use no article.",
+  "why": "Elephants in general: no article.",
   "slots": {
    "who": [
     "My teacher",
@@ -415,7 +415,7 @@ export default [
    "–"
   ],
   "key": 0,
-  "why": "This is about specific elephants (the ones the sentence names), so use the.",
+  "why": "The elephants we saw: particular ones: The.",
   "slots": {
    "doing": [
     "eating",
@@ -447,7 +447,7 @@ export default [
    "The"
   ],
   "key": 2,
-  "why": "This is about breakfast in general, not some breakfast we know. Use no article.",
+  "why": "Breakfast as a meal in general: no article.",
   "slots": {
    "who": [
     "my mum",
@@ -473,7 +473,7 @@ export default [
    "A"
   ],
   "key": 1,
-  "why": "This is about vegetables in general, not some vegetables we know. Use no article.",
+  "why": "Vegetables in general: no article.",
   "slots": {
    "who": [
     "you",
@@ -505,7 +505,7 @@ export default [
    "some of"
   ],
   "key": 1,
-  "why": "This is about specific money (the ones the sentence names), so use the.",
+  "why": "The money I gave you: particular money: the.",
   "slots": {
    "when": [
     "yesterday",
@@ -537,7 +537,7 @@ export default [
    "–"
   ],
   "key": 3,
-  "why": "This is about history in general, not some history we know. Use no article.",
+  "why": "History as a school subject: no article.",
   "slots": {
    "name": [
     "Aziz",
@@ -569,7 +569,7 @@ export default [
    "The"
   ],
   "key": 3,
-  "why": "This is about specific history (the ones the sentence names), so use the.",
+  "why": "The history of one place: particular: The.",
   "slots": {
    "place": [
     "city",
@@ -601,7 +601,7 @@ export default [
    "A"
   ],
   "key": 1,
-  "why": "This is about old people in general, not some old people we know. Use no article.",
+  "why": "Old people in general: no article.",
   "slots": {
    "task": [
     "phones",
@@ -628,7 +628,7 @@ export default [
   "instr": "Write the noun in brackets in the plural. Add the only if the sentence is about specific ones.",
   "source": "______ (dog) can hear much better than {who}, {name}.",
   "key": "Dogs",
-  "why": "This is about dogs in general, not some dogs we know. Use no article. The plural is dogs.",
+  "why": "All dogs: plural, no article: Dogs.",
   "slots": {
    "who": [
     "people",
@@ -655,7 +655,7 @@ export default [
   "instr": "Write the noun in brackets in the plural. Add the only if the sentence is about specific ones.",
   "source": "______ (bee) make honey from flowers, {name}.",
   "key": "Bees",
-  "why": "This is about bees in general, not some bees we know. Use no article. The plural is bees.",
+  "why": "All bees: plural, no article: Bees.",
   "slots": {
    "name": [
     "Aziz",
@@ -676,7 +676,7 @@ export default [
   "instr": "Write the noun in brackets in the plural. Add the only if the sentence is about specific ones.",
   "source": "______ (spider) have eight legs, {name}. Insects have six.",
   "key": "Spiders",
-  "why": "This is about spiders in general, not some spiders we know. Use no article. The plural is spiders.",
+  "why": "All spiders: plural, no article: Spiders.",
   "slots": {
    "name": [
     "Aziz",
@@ -697,7 +697,7 @@ export default [
   "instr": "Write the noun in brackets in the plural. Add the only if the sentence is about specific ones.",
   "source": "______ (bird) lay eggs, and so do {animal}.",
   "key": "Birds",
-  "why": "This is about birds in general, not some birds we know. Use no article. The plural is birds.",
+  "why": "All birds: plural, no article: Birds.",
   "slots": {
    "animal": [
     "snakes",
@@ -718,7 +718,7 @@ export default [
   "instr": "Write the noun in brackets in the plural. Add the only if the sentence is about specific ones.",
   "source": "______ (cow) give milk. My grandmother makes {product} from it, {name}.",
   "key": "Cows",
-  "why": "This is about cows in general, not some cows we know. Use no article. The plural is cows.",
+  "why": "All cows: plural, no article: Cows.",
   "slots": {
    "product": [
     "butter",
@@ -745,7 +745,7 @@ export default [
   "instr": "Write the noun in brackets in the plural. Add the only if the sentence is about specific ones.",
   "source": "______ (plant) need light and water to grow. Don't forget to water your {plant}, {name}.",
   "key": "Plants",
-  "why": "This is about plants in general, not some plants we know. Use no article. The plural is plants.",
+  "why": "All plants: plural, no article: Plants.",
   "slots": {
    "plant": [
     "flowers",
@@ -772,7 +772,7 @@ export default [
   "instr": "Write the noun in brackets in the plural. Add the only if the sentence is about specific ones.",
   "source": "______ (penguin) can't fly, but they can swim {how}, {name}.",
   "key": "Penguins",
-  "why": "This is about penguins in general, not some penguins we know. Use no article. The plural is penguins.",
+  "why": "All penguins: plural, no article: Penguins.",
   "slots": {
    "how": [
     "very fast",
@@ -799,7 +799,7 @@ export default [
   "instr": "Write the noun in brackets in the plural. Add the only if the sentence is about specific ones.",
   "source": "______ (camel) can live without water for many days. We saw some in {place}, {name}.",
   "key": "Camels",
-  "why": "This is about camels in general, not some camels we know. Use no article. The plural is camels.",
+  "why": "All camels: plural, no article: Camels.",
   "slots": {
    "place": [
     "the desert",
@@ -826,7 +826,7 @@ export default [
   "instr": "Write the noun in brackets in the plural. Add the only if the sentence is about specific ones.",
   "source": "______ (baby) sleep a lot. My little {who} sleeps all day, {name}.",
   "key": "Babies",
-  "why": "This is about babies in general, not some babies we know. Use no article. The plural is babies.",
+  "why": "All babies: y → ies, no article: Babies.",
   "slots": {
    "who": [
     "sister",
@@ -853,7 +853,7 @@ export default [
   "instr": "Write the noun in brackets in the plural. Add the only if the sentence is about specific ones.",
   "source": "______ (doctor) often work very long hours. My {who} is one, {name}.",
   "key": "Doctors",
-  "why": "This is about doctors in general, not some doctors we know. Use no article. The plural is doctors.",
+  "why": "All doctors: plural, no article: Doctors.",
   "slots": {
    "who": [
     "aunt",
@@ -880,7 +880,7 @@ export default [
   "instr": "Write the noun in brackets in the plural. Add the only if the sentence is about specific ones.",
   "source": "______ (horse) on my uncle's farm are {colour}, {name}.",
   "key": "The horses",
-  "why": "This is about specific horses (the ones the sentence names), so use the.",
+  "why": "Only the horses on the farm: The horses.",
   "slots": {
    "colour": [
     "brown",
@@ -907,7 +907,7 @@ export default [
   "instr": "Write the noun in brackets in the plural. Add the only if the sentence is about specific ones.",
   "source": "______ (book) on my {furniture} are all from {who}.",
   "key": "The books",
-  "why": "This is about specific books (the ones the sentence names), so use the.",
+  "why": "Only the books on my …: The books.",
   "slots": {
    "furniture": [
     "desk",
@@ -934,7 +934,7 @@ export default [
   "instr": "Write the noun in brackets in the plural. Add the only if the sentence is about specific ones.",
   "source": "______ (student) in our group are from {n} different cities, {name}.",
   "key": "The students",
-  "why": "This is about specific students (the ones the sentence names), so use the.",
+  "why": "Only the students in our group: The students.",
   "slots": {
    "n": [
     "three",
@@ -961,7 +961,7 @@ export default [
   "instr": "Write the noun in brackets in the plural. Add the only if the sentence is about specific ones.",
   "source": "Where are ______ (key) to our {thing}, {name}?",
   "key": "the keys",
-  "why": "This is about specific keys (the ones the sentence names), so use the.",
+  "why": "The keys to one thing: the keys.",
   "slots": {
    "thing": [
     "car",
@@ -988,7 +988,7 @@ export default [
   "instr": "Write the noun in brackets in the plural. Add the only if the sentence is about specific ones.",
   "source": "______ (shoe) you bought me {when} are too small, {name}.",
   "key": "The shoes",
-  "why": "This is about specific shoes (the ones the sentence names), so use the.",
+  "why": "The shoes you bought: The shoes.",
   "slots": {
    "when": [
     "last week",
@@ -1015,7 +1015,7 @@ export default [
   "instr": "Write the noun in brackets in the plural. Add the only if the sentence is about specific ones.",
   "source": "______ (apple) from our garden are very {adj}, {name}.",
   "key": "The apples",
-  "why": "This is about specific apples (the ones the sentence names), so use the.",
+  "why": "The apples from our garden: The apples.",
   "slots": {
    "adj": [
     "sweet",
@@ -1042,7 +1042,7 @@ export default [
   "instr": "Write the noun in brackets in the plural. Add the only if the sentence is about specific ones.",
   "source": "______ (child) in my building play football every {time}, {name}.",
   "key": "The children",
-  "why": "This is about specific children (the ones the sentence names), so use the.",
+  "why": "child → children; the ones in my building: The children.",
   "slots": {
    "time": [
     "evening",
@@ -1069,7 +1069,7 @@ export default [
   "instr": "Write the noun in brackets in the plural. Add the only if the sentence is about specific ones.",
   "source": "I liked ______ (photo) you sent me {when}, {name}.",
   "key": "the photos",
-  "why": "This is about specific photos (the ones the sentence names), so use the.",
+  "why": "The photos you sent: the photos.",
   "slots": {
    "when": [
     "yesterday",
@@ -1096,7 +1096,7 @@ export default [
   "instr": "Write the noun in brackets in the plural. Add the only if the sentence is about specific ones.",
   "source": "______ (bus) in our town are {adj} and clean, {name}.",
   "key": "The buses",
-  "why": "This is about specific buses (the ones the sentence names), so use the.",
+  "why": "bus → buses; the ones in our town: The buses.",
   "slots": {
    "adj": [
     "new",
@@ -1123,7 +1123,7 @@ export default [
   "instr": "Write the noun in brackets in the plural. Add the only if the sentence is about specific ones.",
   "source": "______ (flower) on {who}'s table are from her garden.",
   "key": "The flowers",
-  "why": "This is about specific flowers (the ones the sentence names), so use the.",
+  "why": "The flowers on her table: The flowers.",
   "slots": {
    "who": [
     "Grandma",
@@ -1148,7 +1148,7 @@ export default [
    "money",
    "happiness"
   ],
-  "why": "General statement about money and happiness: no article on either.",
+  "why": "Money and happiness in general: no the.",
   "slots": {
    "who": [
     "My grandfather",
@@ -1179,7 +1179,7 @@ export default [
    "cats",
    "water"
   ],
-  "why": "General statement about cats and water: no article on either.",
+  "why": "Cats and water in general: no the.",
   "slots": {
    "who": [
     "My aunt",
@@ -1204,7 +1204,7 @@ export default [
    "children",
    "sleep"
   ],
-  "why": "General statement about children and sleep: no article on either.",
+  "why": "Children and sleep in general: no the.",
   "slots": {
    "who": [
     "My grandfather",
@@ -1235,7 +1235,7 @@ export default [
    "air",
    "children"
   ],
-  "why": "General statement about fresh air and children: no article on either.",
+  "why": "Air and children in general: no the.",
   "slots": {
    "who": [
     "My grandfather",
@@ -1266,7 +1266,7 @@ export default [
    "sport",
    "health"
   ],
-  "why": "General statement about sport and health: no article on either.",
+  "why": "Sport and health in general: no the.",
   "slots": {
    "who": [
     "My grandfather",
@@ -1294,7 +1294,7 @@ export default [
   "source": "Apples are {adj}, {name}.",
   "hint": "______ from our garden are {adj}, {name}.",
   "key": "The apples",
-  "why": "This is about specific apples (the ones the sentence names), so use the.",
+  "why": "Only the apples from our garden: The apples.",
   "slots": {
    "adj": [
     "sweet",
@@ -1322,7 +1322,7 @@ export default [
   "source": "Students work hard {when}.",
   "hint": "______ in our group work hard {when}.",
   "key": "The students",
-  "why": "This is about specific students (the ones the sentence names), so use the.",
+  "why": "Not all students, just our group: The students.",
   "slots": {
    "when": [
     "before exams",
@@ -1344,7 +1344,7 @@ export default [
   "source": "Buses are often late {when}, {name}.",
   "hint": "______ in our town are often late {when}, {name}.",
   "key": "The buses",
-  "why": "This is about specific buses (the ones the sentence names), so use the.",
+  "why": "Only the buses in our town: The buses.",
   "slots": {
    "when": [
     "in winter",
@@ -1372,7 +1372,7 @@ export default [
   "source": "Children love {thing}, {name}.",
   "hint": "______ in my street love {thing}, {name}.",
   "key": "The children",
-  "why": "This is about specific children (the ones the sentence names), so use the.",
+  "why": "Only the children in my street: The children.",
   "slots": {
    "thing": [
     "football",
@@ -1400,7 +1400,7 @@ export default [
   "source": "Flowers need water {freq}.",
   "hint": "______ on my desk need water {freq}.",
   "key": "The flowers",
-  "why": "This is about specific flowers (the ones the sentence names), so use the.",
+  "why": "Only the flowers on my desk: The flowers.",
   "slots": {
    "freq": [
     "every day",
@@ -1422,7 +1422,7 @@ export default [
   "source": "The dogs in our street are very {adj}, {name}.",
   "hint": "______ are very {adj}, {name}.",
   "key": "Dogs",
-  "why": "This is about dogs in general, not some dogs we know. Use no article.",
+  "why": "Dogs in general now: no The.",
   "slots": {
    "adj": [
     "friendly",
@@ -1450,7 +1450,7 @@ export default [
   "source": "{name} says the coffee in this café is {adj}.",
   "hint": "{name} says ______ is {adj}.",
   "key": "coffee",
-  "why": "This is about coffee in general, not some coffee we know. Use no article.",
+  "why": "Coffee in general now: no the.",
   "slots": {
    "name": [
     "Aziz",
@@ -1478,7 +1478,7 @@ export default [
   "source": "The children in my class love {thing}, {name}.",
   "hint": "______ love {thing}, {name}.",
   "key": "Children",
-  "why": "This is about children in general, not some children we know. Use no article.",
+  "why": "Children in general now: no The.",
   "slots": {
    "thing": [
     "games",
@@ -1506,7 +1506,7 @@ export default [
   "source": "{who} thinks the books in this shop are {adj}.",
   "hint": "{who} thinks ______ are {adj}.",
   "key": "books",
-  "why": "This is about books in general, not some books we know. Use no article.",
+  "why": "Books in general now: no the.",
   "slots": {
    "who": [
     "My grandfather",
@@ -1534,7 +1534,7 @@ export default [
   "source": "The music in this café helps me {verb}, {name}.",
   "hint": "______ helps me {verb}, {name}.",
   "key": "Music",
-  "why": "This is about music in general, not some music we know. Use no article.",
+  "why": "Music in general now: no The.",
   "slots": {
    "verb": [
     "relax",

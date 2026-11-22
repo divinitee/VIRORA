@@ -1246,7 +1246,13 @@ export default [
     "Timur",
     "Malika"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "do not",
+    "play"
+   ]
+  ]
  },
  {
   "id": "gpr.questions-negation.negation.dont-doesnt.transform.002",
@@ -1271,7 +1277,13 @@ export default [
     "Fergana",
     "Termez"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "do not",
+    "live"
+   ]
+  ]
  },
  {
   "id": "gpr.questions-negation.negation.dont-doesnt.transform.003",
@@ -1302,7 +1314,13 @@ export default [
     "Timur",
     "Malika"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "do not",
+    "need"
+   ]
+  ]
  },
  {
   "id": "gpr.questions-negation.negation.dont-doesnt.transform.004",
@@ -1333,7 +1351,13 @@ export default [
     "Timur",
     "Malika"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "do not",
+    "eat"
+   ]
+  ]
  },
  {
   "id": "gpr.questions-negation.negation.dont-doesnt.transform.005",
@@ -1364,7 +1388,13 @@ export default [
     "Timur",
     "Malika"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "do not",
+    "like"
+   ]
+  ]
  },
  {
   "id": "gpr.questions-negation.negation.dont-doesnt.transform.006",
@@ -1389,7 +1419,13 @@ export default [
     "Fergana",
     "Termez"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "does not",
+    "work"
+   ]
+  ]
  },
  {
   "id": "gpr.questions-negation.negation.dont-doesnt.transform.007",
@@ -1420,7 +1456,13 @@ export default [
     "Timur",
     "Malika"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "does not",
+    "speak"
+   ]
+  ]
  },
  {
   "id": "gpr.questions-negation.negation.dont-doesnt.transform.008",
@@ -1451,7 +1493,13 @@ export default [
     "Timur",
     "Malika"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "does not",
+    "go"
+   ]
+  ]
  },
  {
   "id": "gpr.questions-negation.negation.dont-doesnt.transform.009",
@@ -1482,7 +1530,13 @@ export default [
     "Timur",
     "Malika"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "does not",
+    "drink"
+   ]
+  ]
  },
  {
   "id": "gpr.questions-negation.negation.dont-doesnt.transform.010",
@@ -1513,7 +1567,13 @@ export default [
     "Timur",
     "Malika"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "does not",
+    "sleep"
+   ]
+  ]
  },
  {
   "id": "gpr.questions-negation.negation.dont-doesnt.transform.011",
@@ -1538,7 +1598,13 @@ export default [
     "Friday",
     "Saturday"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "does not",
+    "watch"
+   ]
+  ]
  },
  {
   "id": "gpr.questions-negation.negation.dont-doesnt.transform.012",
@@ -1569,7 +1635,13 @@ export default [
     "Timur",
     "Malika"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "does not",
+    "have"
+   ]
+  ]
  },
  {
   "id": "gpr.questions-negation.negation.dont-doesnt.transform.013",
@@ -1600,7 +1672,13 @@ export default [
     "Timur",
     "Malika"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "do not",
+    "eat"
+   ]
+  ]
  },
  {
   "id": "gpr.questions-negation.negation.dont-doesnt.transform.014",
@@ -1631,7 +1709,13 @@ export default [
     "Timur",
     "Malika"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "do not",
+    "go"
+   ]
+  ]
  },
  {
   "id": "gpr.questions-negation.negation.dont-doesnt.transform.015",
@@ -1662,7 +1746,13 @@ export default [
     "Timur",
     "Malika"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "does not",
+    "know"
+   ]
+  ]
  },
  {
   "id": "gpr.questions-negation.negation.dont-doesnt.create.001",

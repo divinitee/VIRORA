@@ -17,7 +17,7 @@ export default [
    "leaving"
   ],
   "key": 0,
-  "why": "A future event on a timetable takes the present simple. One train, film or shop → leaves.",
+  "why": "A train timetable, even for \"tomorrow morning\": present simple leaves.",
   "slots": {
    "city": [
     "Samarkand",
@@ -49,7 +49,7 @@ export default [
    "starts"
   ],
   "key": 3,
-  "why": "A future event on a timetable takes the present simple. One train, film or shop → starts.",
+  "why": "A film's fixed start time: present simple starts.",
   "slots": {
    "name": [
     "Nodira",
@@ -81,7 +81,7 @@ export default [
    "start"
   ],
   "key": 2,
-  "why": "A future event on a timetable takes the present simple. One train, film or shop → starts.",
+  "why": "A school timetable for next Monday: starts.",
   "slots": {
    "subj": [
     "English",
@@ -113,7 +113,7 @@ export default [
    "opened"
   ],
   "key": 1,
-  "why": "A future event on a timetable takes the present simple. One train, film or shop → opens.",
+  "why": "Shop opening hours tomorrow: present simple opens.",
   "slots": {
    "shop": [
     "bakery",
@@ -145,7 +145,7 @@ export default [
    "finishing"
   ],
   "key": 0,
-  "why": "A future event on a timetable takes the present simple. One train, film or shop → finishes.",
+  "why": "A fixed concert time tonight: finishes.",
   "slots": {
    "time": [
     "ten",
@@ -177,7 +177,7 @@ export default [
    "takes"
   ],
   "key": 3,
-  "why": "A future event on a timetable takes the present simple. One train, film or shop → takes.",
+  "why": "A flight timetable: takes off, present simple.",
   "slots": {
    "city": [
     "Istanbul",
@@ -209,7 +209,7 @@ export default [
    "begin"
   ],
   "key": 2,
-  "why": "A future event on a timetable takes the present simple. One train, film or shop → begins.",
+  "why": "A course start date on the calendar: begins.",
   "slots": {
    "course": [
     "English course",
@@ -241,7 +241,7 @@ export default [
    "left"
   ],
   "key": 1,
-  "why": "A future event on a timetable takes the present simple. One train, film or shop → leaves.",
+  "why": "A bus timetable for tonight: leaves.",
   "slots": {
    "place": [
     "airport",
@@ -273,7 +273,7 @@ export default [
    "ending"
   ],
   "key": 0,
-  "why": "A future event on a timetable takes the present simple. One train, film or shop → ends.",
+  "why": "A fixed event time next Saturday: ends.",
   "slots": {
    "event": [
     "match",
@@ -305,7 +305,7 @@ export default [
    "closes"
   ],
   "key": 3,
-  "why": "A future event on a timetable takes the present simple. One train, film or shop → closes.",
+  "why": "The museum's timetable next week: closes.",
   "slots": {
    "day": [
     "Monday",
@@ -337,7 +337,7 @@ export default [
    "runs"
   ],
   "key": 2,
-  "why": "A timetable future takes the present simple. More than one → the base form, run.",
+  "why": "Plural \"buses\" on a timetable: run, no -s.",
   "slots": {
    "place": [
     "the airport",
@@ -369,7 +369,7 @@ export default [
    "closed"
   ],
   "key": 1,
-  "why": "A timetable future takes the present simple. More than one → the base form, close.",
+  "why": "Plural \"shops\" with fixed hours: close.",
   "slots": {
    "area": [
     "street",
@@ -401,7 +401,7 @@ export default [
    "starting"
   ],
   "key": 0,
-  "why": "A timetable future takes the present simple. More than one → the base form, start.",
+  "why": "Plural \"…\" on a fixed date: start.",
   "slots": {
    "exam": [
     "exams",
@@ -433,7 +433,7 @@ export default [
    "leave"
   ],
   "key": 3,
-  "why": "A timetable future takes the present simple. More than one → the base form, leave.",
+  "why": "Plural transport times tomorrow: leave.",
   "slots": {
    "transport": [
     "trains",
@@ -465,7 +465,7 @@ export default [
    "starts"
   ],
   "key": 2,
-  "why": "A timetable future takes the present simple. More than one → the base form, start.",
+  "why": "Plural \"holidays\" on the school calendar: start.",
   "slots": {
    "day": [
     "Friday",
@@ -497,7 +497,7 @@ export default [
    "finished"
   ],
   "key": 1,
-  "why": "A timetable future takes the present simple. More than one → the base form, finish.",
+  "why": "Plural \"Lessons\" on tomorrow's timetable: finish.",
   "slots": {
    "time": [
     "twelve",
@@ -529,7 +529,7 @@ export default [
    "did"
   ],
   "key": 0,
-  "why": "A question about a timetable uses the present simple: does + subject + base verb. Tomorrow or next shows the future, so not did.",
+  "why": "Question about a fixed time, singular event: does.",
   "slots": {
    "event": [
     "film",
@@ -561,7 +561,7 @@ export default [
    "does"
   ],
   "key": 3,
-  "why": "A question about a timetable uses the present simple: does + subject + base verb. Tomorrow or next shows the future, so not did.",
+  "why": "Question about \"the next\" one on the timetable: does.",
   "slots": {
    "transport": [
     "train",
@@ -593,7 +593,7 @@ export default [
    "does"
   ],
   "key": 2,
-  "why": "A question about a timetable uses the present simple: do + subject + base verb. Tomorrow or next shows the future, so not did.",
+  "why": "Question about shop hours, plural: do.",
   "slots": {
    "shop": [
     "shops",
@@ -625,7 +625,7 @@ export default [
    "Are"
   ],
   "key": 1,
-  "why": "A question about a timetable uses the present simple: do + subject + base verb. Tomorrow or next shows the future, so not did.",
+  "why": "Yes/no question, plural …: Do … begin.",
   "slots": {
    "exam": [
     "exams",
@@ -652,7 +652,7 @@ export default [
   "instr": "It's on the timetable. Write the verb in brackets in the present simple.",
   "source": "The {transport} to {city} ______ (leave) at {time} tomorrow.",
   "key": "leaves",
-  "why": "A future event on a timetable takes the present simple. One train, film or shop → leaves.",
+  "why": "Timetable for tomorrow, singular: leaves.",
   "slots": {
    "transport": [
     "train",
@@ -685,7 +685,7 @@ export default [
   "instr": "It's on the timetable. Write the verb in brackets in the present simple.",
   "source": "Our {subj} class ______ (start) at {time} next Monday.",
   "key": "starts",
-  "why": "A future event on a timetable takes the present simple. One train, film or shop → starts.",
+  "why": "School timetable, singular class: starts.",
   "slots": {
    "subj": [
     "English",
@@ -712,7 +712,7 @@ export default [
   "instr": "It's on the timetable. Write the verb in brackets in the present simple.",
   "source": "The {shop} ______ (open) at nine tomorrow, {name}.",
   "key": "opens",
-  "why": "A future event on a timetable takes the present simple. One train, film or shop → opens.",
+  "why": "Opening hours tomorrow, singular shop: opens.",
   "slots": {
    "shop": [
     "bank",
@@ -739,7 +739,7 @@ export default [
   "instr": "It's on the timetable. Write the verb in brackets in the present simple.",
   "source": "The film ______ (finish) at {time}, so we can catch the last {transport}.",
   "key": "finishes",
-  "why": "A future event on a timetable takes the present simple. One train, film or shop → finishes.",
+  "why": "Fixed film time, singular: finishes.",
   "slots": {
    "time": [
     "ten",
@@ -766,7 +766,7 @@ export default [
   "instr": "It's on the timetable. Write the verb in brackets in the present simple.",
   "source": "Our plane ______ (land) in {city} at {time} next Sunday.",
   "key": "lands",
-  "why": "A future event on a timetable takes the present simple. One train, film or shop → lands.",
+  "why": "A flight timetable for Sunday: lands.",
   "slots": {
    "city": [
     "Istanbul",
@@ -793,7 +793,7 @@ export default [
   "instr": "It's on the timetable. Write the verb in brackets in the present simple.",
   "source": "The {event} ______ (begin) at {time} tomorrow evening.",
   "key": "begins",
-  "why": "A future event on a timetable takes the present simple. One train, film or shop → begins.",
+  "why": "Fixed event time, singular: begins.",
   "slots": {
    "event": [
     "concert",
@@ -820,7 +820,7 @@ export default [
   "instr": "It's on the timetable. Write the verb in brackets in the present simple.",
   "source": "The shops ______ (close) early on {day}, {name}.",
   "key": "close",
-  "why": "A timetable future takes the present simple. More than one → the base form, close.",
+  "why": "Plural shops, fixed hours: close.",
   "slots": {
    "day": [
     "Friday",
@@ -847,7 +847,7 @@ export default [
   "instr": "It's on the timetable. Write the verb in brackets in the present simple.",
   "source": "Our holidays ______ (end) next {day}, {name}.",
   "key": "end",
-  "why": "A timetable future takes the present simple. More than one → the base form, end.",
+  "why": "Plural holidays on the calendar: end.",
   "slots": {
    "day": [
     "Monday",
@@ -874,7 +874,7 @@ export default [
   "instr": "It's on the timetable. Write the verb in brackets in the present simple.",
   "source": "The trains to {city} ______ (run) every {n} minutes tomorrow.",
   "key": "run",
-  "why": "A timetable future takes the present simple. More than one → the base form, run.",
+  "why": "Plural trains on the timetable: run.",
   "slots": {
    "city": [
     "Samarkand",
@@ -901,7 +901,7 @@ export default [
   "instr": "It's on the timetable. Write the verb in brackets in the present simple.",
   "source": "My English course ______ (begin) on {day}, {name}.",
   "key": "begins",
-  "why": "A future event on a timetable takes the present simple. One train, film or shop → begins.",
+  "why": "A course start date, singular: begins.",
   "slots": {
    "day": [
     "Monday",
@@ -928,7 +928,7 @@ export default [
   "instr": "It's on the timetable. Write the verb in brackets in the present simple.",
   "source": "The museum ______ (close) at {time} today, so we have only one hour, {name}.",
   "key": "closes",
-  "why": "A future event on a timetable takes the present simple. One train, film or shop → closes.",
+  "why": "Museum hours today, singular: closes.",
   "slots": {
    "time": [
     "five",
@@ -955,7 +955,7 @@ export default [
   "instr": "It's on the timetable. Write the verb in brackets in the present simple.",
   "source": "Lessons ______ (finish) at {time} tomorrow because of the {event}.",
   "key": "finish",
-  "why": "A timetable future takes the present simple. More than one → the base form, finish.",
+  "why": "Plural lessons, fixed time: finish.",
   "slots": {
    "time": [
     "twelve",
@@ -982,7 +982,7 @@ export default [
   "instr": "It's on the timetable. Write the verb in brackets in the present simple.",
   "source": "What time does the {event} ______ (start) tomorrow, {name}?",
   "key": "start",
-  "why": "After does / do / doesn't / don't, use the base form: start.",
+  "why": "After does, the base verb: start.",
   "slots": {
    "event": [
     "film",
@@ -1009,7 +1009,7 @@ export default [
   "instr": "It's on the timetable. Write the verb in brackets in the present simple.",
   "source": "When does the next {transport} ______ (leave) for {city}?",
   "key": "leave",
-  "why": "After does / do / doesn't / don't, use the base form: leave.",
+  "why": "After does, the base verb: leave.",
   "slots": {
    "transport": [
     "train",
@@ -1036,7 +1036,7 @@ export default [
   "instr": "It's on the timetable. Write the verb in brackets in the present simple.",
   "source": "What time do the {shop} ______ (open) on {day}?",
   "key": "open",
-  "why": "After does / do / doesn't / don't, use the base form: open.",
+  "why": "After do, the base verb: open.",
   "slots": {
    "shop": [
     "shops",
@@ -1063,7 +1063,7 @@ export default [
   "instr": "It's on the timetable. Write the verb in brackets in the present simple.",
   "source": "Does your {exam} ______ (begin) tomorrow, {name}?",
   "key": "begin",
-  "why": "After does / do / doesn't / don't, use the base form: begin.",
+  "why": "After Does, the base verb: begin.",
   "slots": {
    "exam": [
     "exam",
@@ -1090,7 +1090,7 @@ export default [
   "instr": "It's on the timetable. Write the verb in brackets in the present simple.",
   "source": "This {transport} doesn't ______ (stop) in {place} on Sunday.",
   "key": "stop",
-  "why": "After does / do / doesn't / don't, use the base form: stop.",
+  "why": "After doesn't, the base verb: stop.",
   "slots": {
    "transport": [
     "bus",
@@ -1117,7 +1117,7 @@ export default [
   "instr": "It's on the timetable. Write the verb in brackets in the present simple.",
   "source": "The {shop} don't ______ (open) until {time} tomorrow.",
   "key": "open",
-  "why": "After does / do / doesn't / don't, use the base form: open.",
+  "why": "After don't, the base verb: open.",
   "slots": {
    "shop": [
     "shops",
@@ -1144,7 +1144,7 @@ export default [
   "instr": "It's on the timetable. Write the verb in brackets in the present simple.",
   "source": "The {event} doesn't ______ (end) until {time} tonight, {name}.",
   "key": "end",
-  "why": "After does / do / doesn't / don't, use the base form: end.",
+  "why": "After doesn't, the base verb: end.",
   "slots": {
    "event": [
     "concert",
@@ -1177,7 +1177,7 @@ export default [
   "instr": "It's on the timetable. Write the verb in brackets in the present simple.",
   "source": "Our flight doesn't ______ (leave) until {time}, so we can sleep longer tomorrow, {name}.",
   "key": "leave",
-  "why": "After does / do / doesn't / don't, use the base form: leave.",
+  "why": "After doesn't, the base verb: leave.",
   "slots": {
    "time": [
     "noon",
@@ -1205,7 +1205,7 @@ export default [
   "source": "The train will leave at {time} tomorrow, {name}.",
   "hint": "The train ______ at {time} tomorrow, {name}.",
   "key": "leaves",
-  "why": "A future event on a timetable takes the present simple. One train, film or shop → leaves.",
+  "why": "Timetables use the present simple, not will: leaves.",
   "slots": {
    "time": [
     "six",
@@ -1233,7 +1233,7 @@ export default [
   "source": "The {shop} will open at {time} on Monday.",
   "hint": "The {shop} ______ at {time} on Monday.",
   "key": "opens",
-  "why": "A future event on a timetable takes the present simple. One train, film or shop → opens.",
+  "why": "Opening hours: present simple, not will: opens.",
   "slots": {
    "shop": [
     "bank",
@@ -1261,7 +1261,7 @@ export default [
   "source": "Our lessons will start at {time} next week, {name}.",
   "hint": "Our lessons ______ at {time} next week, {name}.",
   "key": "start",
-  "why": "A timetable future takes the present simple. More than one → the base form, start.",
+  "why": "A school timetable, plural lessons: start.",
   "slots": {
    "time": [
     "eight",
@@ -1289,7 +1289,7 @@ export default [
   "source": "The {event} will finish at {time} tonight.",
   "hint": "The {event} ______ at {time} tonight.",
   "key": "finishes",
-  "why": "A future event on a timetable takes the present simple. One train, film or shop → finishes.",
+  "why": "A fixed event time: finishes.",
   "slots": {
    "event": [
     "concert",
@@ -1317,7 +1317,7 @@ export default [
   "source": "The buses to {city} will run every {n} minutes tomorrow.",
   "hint": "The buses to {city} ______ every {n} minutes tomorrow.",
   "key": "run",
-  "why": "A timetable future takes the present simple. More than one → the base form, run.",
+  "why": "A bus timetable, plural buses: run.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1345,7 +1345,7 @@ export default [
   "source": "The film starts at {time} tonight, {name}.",
   "hint": "What time ______ start tonight, {name}?",
   "key": "does the film",
-  "why": "Present simple question: does + the subject, then the base verb.",
+  "why": "Question about a fixed time: does + the film.",
   "slots": {
    "time": [
     "seven",
@@ -1373,7 +1373,7 @@ export default [
   "source": "The train to {city} leaves at {time}.",
   "hint": "When ______ to {city} leave?",
   "key": "does the train",
-  "why": "Present simple question: does + the subject, then the base verb.",
+  "why": "Question about a timetable: does + the train.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1401,7 +1401,7 @@ export default [
   "source": "The shops open at {time} on {day}.",
   "hint": "What time ______ open on {day}?",
   "key": "do the shops",
-  "why": "Present simple question: do + the subject, then the base verb.",
+  "why": "Question about shop hours, plural: do + the shops.",
   "slots": {
    "time": [
     "nine",
@@ -1429,7 +1429,7 @@ export default [
   "source": "Our exams begin on {day}, {name}.",
   "hint": "When ______ begin, {name}?",
   "key": "do your exams",
-  "why": "Present simple question: do + your exams + begin. Use your when you ask about the other person's exams.",
+  "why": "Question about exam dates: do + your exams.",
   "slots": {
    "day": [
     "Monday",
@@ -1460,7 +1460,7 @@ export default [
   "source": "The concert ends at {time}, {name}.",
   "hint": "What time ______ end, {name}?",
   "key": "does the concert",
-  "why": "Present simple question: does + the subject, then the base verb.",
+  "why": "Question about a fixed end time: does + the concert.",
   "slots": {
    "time": [
     "ten",
@@ -1488,7 +1488,7 @@ export default [
   "source": "The bus leave at {time} tomorrow, {name}.",
   "hint": "The bus ______ at {time} tomorrow, {name}.",
   "key": "leaves",
-  "why": "One bus → leaves, with -s.",
+  "why": "Singular bus needs -s: leaves.",
   "slots": {
    "time": [
     "six",
@@ -1516,7 +1516,7 @@ export default [
   "source": "What time does the lesson starts on {day}, {name}?",
   "hint": "What time does the lesson ______ on {day}, {name}?",
   "key": "start",
-  "why": "After does, use the base form: start, not starts.",
+  "why": "After does, no -s: start.",
   "slots": {
    "day": [
     "Monday",
@@ -1544,7 +1544,7 @@ export default [
   "source": "The shops opens at {time} on {day}.",
   "hint": "The shops ______ at {time} on {day}.",
   "key": "open",
-  "why": "The shops is plural → open, with no -s.",
+  "why": "Plural shops, no -s: open.",
   "slots": {
    "time": [
     "nine",
@@ -1572,7 +1572,7 @@ export default [
   "source": "Our plane landed in {city} at {time} tomorrow.",
   "hint": "Our plane ______ in {city} at {time} tomorrow.",
   "key": "lands",
-  "why": "Tomorrow is the future, so not the past: a timetable takes the present simple, lands.",
+  "why": "\"tomorrow\" on a timetable needs the present simple, not landed: lands.",
   "slots": {
    "city": [
     "Istanbul",
@@ -1600,7 +1600,7 @@ export default [
   "source": "Does the {event} begins at {time}?",
   "hint": "Does the {event} ______ at {time}?",
   "key": "begin",
-  "why": "After does, use the base form: begin, not begins.",
+  "why": "After Does, no -s: begin.",
   "slots": {
    "event": [
     "concert",

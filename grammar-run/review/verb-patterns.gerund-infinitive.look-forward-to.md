@@ -6,277 +6,277 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 1. I'm looking forward to ______ you at the **party**, **Zarina**.  
    options: ✔ seeing · see · to see · saw  
-   why: look forward to + -ing: seeing, because this "to" is a preposition.
+   why: to here is a preposition, so -ing: seeing you.
 
-2. The children are looking forward to ______ to the **zoo** on Saturday.  
+2. The **children** are looking forward to ______ to the **zoo** on Saturday.  
    options: go · to go · went · ✔ going  
-   why: after look forward to, use -ing: going.
+   why: After looking forward to, go becomes going.
 
-3. I look forward to ______ from you about the **job**, **Akmal**.  
+3. I look forward to ______ from you about the **flat**, **Feruza**.  
    options: to hear · heard · ✔ hearing · hear  
-   why: A polite email ending: look forward to hearing.
+   why: I look forward to + -ing, the polite letter form: hearing.
 
-4. We're looking forward to ______ your **new boss** next week, **Gulnora**.  
+4. We're looking forward to ______ your **parents** next week, **Sherzod**.  
    options: met · ✔ meeting · meet · to meet  
-   why: look forward to + -ing: meeting.
+   why: to + -ing, never to meet: meeting.
 
-5. My grandparents are looking forward to ______ **Istanbul** in May.  
+5. My **parents** are looking forward to ______ **Khiva** in May.  
    options: ✔ visiting · visit · to visit · visited  
-   why: look forward to + -ing: visiting.
+   why: to + -ing, never to visit: visiting.
 
-6. I'm really looking forward to ______ my new **school**, **Akmal**.  
+6. I'm really looking forward to ______ my new **course**, **Otabek**.  
    options: start · to start · started · ✔ starting  
-   why: look forward to + -ing: starting.
+   why: to + -ing: starting my new ….
 
-7. Everyone is looking forward to ______ a break after the **project**, **Sherzod**.  
+7. Everyone is looking forward to ______ a break after the **busy week**, **Gulnora**.  
    options: to have · had · ✔ having · have  
-   why: look forward to + -ing: having.
+   why: to + -ing: having a break.
 
-8. We look forward to ______ the **desserts** at the new café.  
+8. We look forward to ______ the **soup** at the **new café**.  
    options: tried · ✔ trying · try · to try  
-   why: look forward to + -ing: trying.
+   why: to + -ing: trying the food.
 
-9. We look forward to ______ with you at the **office**, **Akmal**.  
+9. We look forward to ______ with you at the **hotel**, **Nodira**.  
    options: ✔ working · work · to work · worked  
-   why: A formal ending: look forward to working with you.
+   why: to + -ing in a formal reply: working.
 
-10. My son is looking forward to ______ in the **final** on Sunday.  
+10. My **nephew** is looking forward to ______ in the **school match** on Sunday.  
    options: play · to play · played · ✔ playing  
-   why: look forward to + -ing: playing.
+   why: to + -ing: playing in the match.
 
-11. Are you looking forward to ______ to **Turkey**, **Gulnora**?  
+11. Are you looking forward to ______ to **Japan**, **Gulnora**?  
    options: to travel · travelled · ✔ travelling · travel  
-   why: look forward to + -ing: travelling.
+   why: to + -ing: travelling (two l's in British English).
 
-12. I'm looking forward to ______ the new **show** with you, **Akmal**.  
+12. I'm looking forward to ______ the new **cartoon** with you, **Otabek**.  
    options: watched · ✔ watching · watch · to watch  
-   why: look forward to + -ing: watching.
+   why: to + -ing: watching the ….
 
-13. She's looking forward to ______ her exam results on **Monday**.  
+13. She's looking forward to ______ her **test results** on **Monday**.  
    options: ✔ getting · get · to get · got  
-   why: look forward to + -ing: getting.
+   why: to + -ing: getting the results.
 
-14. After this long **trip**, I'm looking forward to ______ in my own bed, **Sherzod**.  
+14. After this long **journey**, I'm looking forward to ______ in my own bed, **Gulnora**.  
    options: sleep · to sleep · slept · ✔ sleeping  
-   why: look forward to + -ing: sleeping.
+   why: to + -ing: sleeping in my own bed.
 
-15. I'm looking forward ______ the **school trip**, **Nodira**.  
+15. I'm looking forward ______ the **weekend**, **Feruza**.  
    options: on · at · ✔ to · for  
-   why: The phrase is always look forward to.
+   why: look forward always needs to before the thing.
 
-16. We look forward ______ your reply about the **job**.  
+16. We look forward ______ your **answer** about the **order**.  
    options: at · ✔ to · for · on  
-   why: look forward to + noun: to your reply.
+   why: look forward to + a noun: to your ….
 
-17. My little brother is looking forward ______ his birthday **trip**, **Gulnora**.  
+17. My little brother is looking forward ______ his birthday **party**, **Sherzod**.  
    options: ✔ to · for · on · at  
-   why: look forward to + noun: to his birthday party.
+   why: look forward to + a noun: to his birthday ….
 
-18. Are you looking forward ______ the **wedding** on Friday, **Feruza**?  
+18. Are you looking forward ______ the **wedding** on Friday, **Nodira**?  
    options: for · on · at · ✔ to  
-   why: look forward to, not for or on.
+   why: Questions keep to too: looking forward to the event.
 
-19. Our team is looking forward ______ the final in **Bukhara**.  
+19. Our **class** is looking forward ______ the final in **Bukhara**.  
    options: on · at · ✔ to · for  
-   why: look forward to + noun: to the final.
+   why: look forward to + a noun: to the final.
 
-20. I always look forward ______ **New Year**, **Gulnora**.  
+20. I always look forward ______ **Navruz**, **Sherzod**.  
    options: at · ✔ to · for · on  
-   why: look forward to + noun: to Navruz.
+   why: look forward to + a noun, even with always.
 
 ## build (20)
 
 1. _Complete with the right form of the verb in brackets._  
-   My cousins live in **Nukus**. I'm looking forward to ______ (see) them, **Jamshid**.  
+   My cousins live in **Fergana**. I'm looking forward to ______ (see) them, **Jamshid**.  
    key: seeing  
-   why: look forward to + -ing: seeing. The "to" here is a preposition, so the verb cannot be the base form.
+   why: to + -ing: seeing them.
 
 2. _Complete with the right form of the verb in brackets._  
-   We're looking forward to ______ (go) to the **mountains** tomorrow.  
+   We're looking forward to ______ (go) to the **mountains** **after school**.  
    key: going  
-   why: look forward to + -ing: going. The "to" here is a preposition, so the verb cannot be the base form.
+   why: to + -ing: going.
 
 3. _Complete with the right form of the verb in brackets._  
-   I look forward to ______ (hear) your news, **Feruza**.  
+   I look forward to ______ (hear) your **story**, **Nodira**.  
    key: hearing  
-   why: look forward to + -ing: hearing. The "to" here is a preposition, so the verb cannot be the base form.
+   why: to + -ing: hearing your ….
 
 4. _Complete with the right form of the verb in brackets._  
-   Our class is looking forward to ______ (meet) the new **students**.  
+   Our **class** is looking forward to ______ (meet) the new **students**.  
    key: meeting  
-   why: look forward to + -ing: meeting. The "to" here is a preposition, so the verb cannot be the base form.
+   why: to + -ing: meeting.
 
 5. _Complete with the right form of the verb in brackets._  
-   My parents are looking forward to ______ (move) into the new **flat**, **Sherzod**.  
+   My parents are looking forward to ______ (move) into the new **district**, **Jamshid**.  
    key: moving  
-   why: look forward to + -ing: moving. The "to" here is a preposition, so the verb cannot be the base form.
+   why: to + -ing: moving.
 
 6. _Complete with the right form of the verb in brackets._  
-   Grandma is making **manti** on Sunday. I'm looking forward to ______ (eat) it, **Akmal**.  
+   Grandma is making **soup** on Sunday. I'm looking forward to ______ (eat) it, **Feruza**.  
    key: eating  
-   why: look forward to + -ing: eating. The "to" here is a preposition, so the verb cannot be the base form.
+   why: to + -ing: eating it.
 
 7. _Complete with the right form of the verb in brackets._  
-   She's looking forward to ______ (learn) **Korean** at university.  
+   She's looking forward to ______ (learn) **Korean** at **university**.  
    key: learning  
-   why: look forward to + -ing: learning. The "to" here is a preposition, so the verb cannot be the base form.
+   why: to + -ing: learning.
 
 8. _Complete with the right form of the verb in brackets._  
-   The kids are looking forward to ______ (swim) in the **river**, **Gulnora**.  
+   The kids are looking forward to ______ (swim) in the **lake**, **Gulnora**.  
    key: swimming  
-   why: look forward to + -ing: swimming. The "to" here is a preposition, so the verb cannot be the base form.
+   why: to + -ing, double m: swimming.
 
 9. _Complete with the right form of the verb in brackets._  
-   This **book** is almost done. I'm looking forward to ______ (finish) it, **Akmal**.  
+   This **project** is almost done. I'm looking forward to ______ (finish) it, **Akmal**.  
    key: finishing  
-   why: look forward to + -ing: finishing. The "to" here is a preposition, so the verb cannot be the base form.
+   why: to + -ing: finishing it.
 
 10. _Complete with the right form of the verb in brackets._  
-   We're looking forward to ______ (celebrate) **Navruz** together.  
+   We're looking forward to ______ (celebrate) **Mum's birthday** **at Grandma's**.  
    key: celebrating  
-   why: look forward to + -ing: celebrating. The "to" here is a preposition, so the verb cannot be the base form.
+   why: to + -ing, drop the e: celebrating.
 
 11. _Complete with the right form of the verb in brackets._  
-   I look forward to ______ (work) with your **school**, **Jamshid**.  
+   I look forward to ______ (work) with your **group**, **Jamshid**.  
    key: working  
-   why: look forward to + -ing: working. The "to" here is a preposition, so the verb cannot be the base form.
+   why: to + -ing in a formal letter: working.
 
 12. _Complete with the right form of the verb in brackets._  
-   My son is looking forward to ______ (ride) his new **skateboard**, **Feruza**.  
+   My son is looking forward to ______ (ride) his new **scooter**, **Akmal**.  
    key: riding  
-   why: look forward to + -ing: riding. The "to" here is a preposition, so the verb cannot be the base form.
+   why: to + -ing, drop the e: riding.
 
 13. _Complete with the right form of the verb in brackets._  
-   Everyone is looking forward to ______ (have) a day off on **Monday**.  
+   **The whole team** is looking forward to ______ (have) a day off on **Friday**.  
    key: having  
-   why: look forward to + -ing: having. The "to" here is a preposition, so the verb cannot be the base form.
+   why: to + -ing: having a day off.
 
 14. _Complete with the right form of the verb in brackets._  
-   We're looking forward to ______ (stay) at a hotel in **Istanbul**, **Jamshid**.  
+   We're looking forward to ______ (stay) at a hotel in **Dubai**, **Jamshid**.  
    key: staying  
-   why: look forward to + -ing: staying. The "to" here is a preposition, so the verb cannot be the base form.
+   why: to + -ing: staying.
 
 15. _Complete with the right form of the verb in brackets._  
-   Dad is looking forward to ______ (watch) the **final** tonight.  
+   **Dad** is looking forward to ______ (watch) the **big match** tonight.  
    key: watching  
-   why: look forward to + -ing: watching. The "to" here is a preposition, so the verb cannot be the base form.
+   why: to + -ing: watching.
 
 16. _Complete with the right form of the verb in brackets._  
-   Call me later. I'm looking forward to ______ (speak) with you, **Nodira**.  
+   Call me **later**. I'm looking forward to ______ (speak) with you, **Feruza**.  
    key: speaking  
-   why: look forward to + -ing: speaking. The "to" here is a preposition, so the verb cannot be the base form.
+   why: to + -ing: speaking with you.
 
 17. _Complete with the right form of the verb in brackets._  
-   We look forward to ______ (receive) your **letter**, **Zarina**.  
+   We look forward to ______ (receive) your **letter**, **Sherzod**.  
    key: receiving  
-   why: look forward to + -ing: receiving. The "to" here is a preposition, so the verb cannot be the base form.
+   why: to + -ing, drop the e: receiving.
 
 18. _Complete with the right form of the verb in brackets._  
-   The children are looking forward to ______ (open) their **boxes**.  
+   The **little ones** are looking forward to ______ (open) their **cards**.  
    key: opening  
-   why: look forward to + -ing: opening. The "to" here is a preposition, so the verb cannot be the base form.
+   why: to + -ing: opening.
 
 19. _Complete with the right form of the verb in brackets._  
-   I'm looking forward to ______ (show) you my **school**, **Akmal**.  
+   I'm looking forward to ______ (show) you my **school**, **Otabek**.  
    key: showing  
-   why: look forward to + -ing: showing. The "to" here is a preposition, so the verb cannot be the base form.
+   why: to + -ing: showing you.
 
 20. _Complete with the right form of the verb in brackets._  
-   Are you looking forward to ______ (come) home after the **camp**, **Jamshid**?  
+   Are you looking forward to ______ (come) home after the **course**, **Zarina**?  
    key: coming  
-   why: look forward to + -ing: coming. The "to" here is a preposition, so the verb cannot be the base form.
+   why: to + -ing, drop the e: coming.
 
 ## transform (15)
 
 1. _Correct the mistake._  
-   I look forward to see you in **Bukhara**, **Sherzod**.  
-   → I look forward to ______ you in **Bukhara**, **Sherzod**.  
+   I look forward to see you in **Khiva**, **Gulnora**.  
+   → I look forward to ______ you in **Khiva**, **Gulnora**.  
    key: seeing  
-   why: look forward to + -ing: seeing, not see.
+   why: to is a preposition: see → seeing.
 
 2. _Correct the mistake._  
    We're looking forward for the **holidays**, **Akmal**.  
    → We're looking forward ______ the **holidays**, **Akmal**.  
    key: to  
-   why: The phrase is look forward to, not for.
+   why: look forward takes to, not for.
 
 3. _Correct the mistake._  
-   She's looking forward to start her new **course**.  
-   → She's looking forward to ______ her new **course**.  
+   She's looking forward to start her **first** **job**.  
+   → She's looking forward to ______ her **first** **job**.  
    key: starting  
-   why: look forward to + -ing: starting.
+   why: to + -ing: start → starting.
 
 4. _Correct the mistake._  
-   My kids look forward to went to the **zoo**, **Zarina**.  
-   → My kids look forward to ______ to the **zoo**, **Zarina**.  
+   My kids look forward to went to the **water park**, **Zarina**.  
+   → My kids look forward to ______ to the **water park**, **Zarina**.  
    key: going  
-   why: look forward to + -ing: going.
+   why: to + -ing: went → going.
 
 5. _Correct the mistake._  
-   I'm looking forward to meet your **parents**, **Akmal**.  
-   → I'm looking forward to ______ your **parents**, **Akmal**.  
+   I'm looking forward to meet your **family**, **Otabek**.  
+   → I'm looking forward to ______ your **family**, **Otabek**.  
    key: meeting  
-   why: look forward to + -ing: meeting.
+   why: to + -ing: meet → meeting.
 
 6. _Rewrite with looking forward to._  
-   I can't wait to see the **fireworks**, **Sherzod**!  
-   → I'm really looking forward to ______ the **fireworks**, **Sherzod**!  
+   I can't wait to see the **mountains**, **Jamshid**!  
+   → I'm really looking forward to ______ the **mountains**, **Jamshid**!  
    key: seeing  
-   why: look forward to + -ing: seeing.
+   why: can't wait to see = looking forward to seeing.
 
 7. _Rewrite with looking forward to._  
-   We can't wait to try the **kebabs** in **Khiva**, **Otabek**.  
-   → We're looking forward to ______ the **kebabs** in **Khiva**, **Otabek**.  
+   We can't wait to try the **bread** in **Bukhara**, **Nodira**.  
+   → We're looking forward to ______ the **bread** in **Bukhara**, **Nodira**.  
    key: trying  
-   why: look forward to + -ing: trying.
+   why: can't wait to try = looking forward to trying.
 
 8. _Rewrite with looking forward to._  
-   My sister can't wait to have a holiday at the **mountains**, **Zarina**.  
-   → My sister is really looking forward to ______ a holiday at the **mountains**, **Zarina**.  
+   My sister can't wait to have a holiday at the **dacha**, **Jamshid**.  
+   → My sister is really looking forward to ______ a holiday at the **dacha**, **Jamshid**.  
    key: having  
-   why: look forward to + -ing: having.
+   why: can't wait to have = looking forward to having.
 
 9. _Rewrite with looking forward to._  
-   The kids can't wait to play with their new **puppy**, **Nodira**!  
-   → The kids are looking forward to ______ with their new **puppy**, **Nodira**!  
+   The kids can't wait to play with their new **drone**, **Feruza**!  
+   → The kids are looking forward to ______ with their new **drone**, **Feruza**!  
    key: playing  
-   why: look forward to + -ing: playing.
+   why: can't wait to play = looking forward to playing.
 
 10. _Rewrite with looking forward to._  
-   I can't wait to sleep in the **mountains** tonight, **Jamshid**.  
-   → I'm really looking forward to ______ in the **mountains** tonight, **Jamshid**.  
+   I can't wait to sleep in the **mountains** tonight, **Gulnora**.  
+   → I'm really looking forward to ______ in the **mountains** tonight, **Gulnora**.  
    key: sleeping  
-   why: look forward to + -ing: sleeping.
+   why: can't wait to sleep = looking forward to sleeping.
 
 11. _Rewrite as a polite ending with I look forward to._  
-   I hope to hear from you soon, **Nodira**.  
-   → I look forward to ______ from you soon, **Nodira**.  
+   I hope to hear from you **before Friday**, **Otabek**.  
+   → I look forward to ______ from you **before Friday**, **Otabek**.  
    key: hearing  
-   why: Email ending: I look forward to hearing from you.
+   why: hope to hear → look forward to hearing.
 
 12. _Rewrite as a polite ending with I look forward to._  
-   I hope we meet at the **meeting**, **Zarina**.  
-   → I look forward to ______ you at the **meeting**, **Zarina**.  
+   I hope we meet at the **meeting**, **Gulnora**.  
+   → I look forward to ______ you at the **meeting**, **Gulnora**.  
    key: meeting  
-   why: look forward to + -ing: meeting you.
+   why: hope we meet → look forward to meeting.
 
 13. _Rewrite as a polite ending with I look forward to._  
-   I hope to work with your **school**, **Akmal**.  
-   → I look forward to ______ with your **school**, **Akmal**.  
+   I hope to work with your **team**, **Feruza**.  
+   → I look forward to ______ with your **team**, **Feruza**.  
    key: working  
-   why: look forward to + -ing: working.
+   why: hope to work → look forward to working.
 
 14. _Rewrite as a polite ending with I look forward to._  
-   I hope to receive your answer about the **course** soon.  
-   → I look forward to ______ your answer about the **course**.  
+   I hope to receive your **decision** about the **order** soon.  
+   → I look forward to ______ your **decision** about the **order**.  
    key: receiving  
-   why: look forward to + -ing: receiving.
+   why: hope to receive → look forward to receiving.
 
 15. _Rewrite as a polite ending with I look forward to._  
-   I hope to visit your **school** next month, **Jamshid**.  
-   → I look forward to ______ your **school** next month, **Jamshid**.  
+   I hope to visit your **shop** next month, **Gulnora**.  
+   → I look forward to ______ your **shop** next month, **Gulnora**.  
    key: visiting  
-   why: look forward to + -ing: visiting.
+   why: hope to visit → look forward to visiting.
 
 ## create (8)
 

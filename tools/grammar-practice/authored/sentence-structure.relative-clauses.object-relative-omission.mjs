@@ -147,5 +147,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/sentence-structure.relative-clauses.object-relative-omission.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "A thing I bought: that, which or nothing work; where is for places.",
+   "Something we watched: that, which or nothing; never what after a noun.",
+   "A person we met: who, that or nothing work; which is for things.",
+   "Something Grandma gave me: that, which or nothing; where is for places.",
+   "A person I called: who, that or nothing; which is for things.",
+   "Food Dad cooked: that, which or nothing; never what after a noun.",
+   "A thing you lent me: that, which or nothing; where is for places.",
+   "I wanted it, so it's the object: leave out the word: I wanted.",
+   "We saw it, so it's the object: just we saw.",
+   "You met them, so the object: just you met.",
+   "You lost it, so the object: just you lost.",
+   "We had it, so the object: just we had.",
+   "You gave it to me: the object: just you gave me.",
+   "We stayed with them: the object, with stays at the end.",
+   "The person does the living, so the subject: who lives.",
+   "The thing does the being, so the subject: which is.",
+   "The person does the living (subject): who lives.",
+   "The bus does the going (subject): which goes.",
+   "The person did the winning (subject): who won.",
+   "The thing did the breaking (subject): which broke."
+  ],
+  "build": [
+   "A person who did the helping: subject, so who.",
+   "A person who speaks: subject, so who.",
+   "Children who won: subject, so who.",
+   "The man who fixed it: subject, so who.",
+   "A person who lives above: subject, so who.",
+   "A person who teaches: subject, so who.",
+   "People who eat: subject, so who.",
+   "A person who called: subject, so who.",
+   "A person who sings: subject, so who.",
+   "Tourists who came: subject, so who.",
+   "A thing that broke: subject, so which.",
+   "A kind of thing that has an ending: subject, so which.",
+   "A bus that goes: subject, so which.",
+   "A thing that costs: subject, so which.",
+   "A place that opened: subject, so which.",
+   "A hotel that had something: subject, so which.",
+   "A thing that is in the kitchen: which.",
+   "A thing that works: subject, so which.",
+   "A thing that fell: subject, so which.",
+   "Plants that grow: subject, so which."
+  ],
+  "transform": [
+   "that is the object (we watched it): drop it.",
+   "who is the object (I met them): drop it.",
+   "which is the object (you bought it): drop it.",
+   "that is the object (Grandma cooks it): drop it.",
+   "that is the object (we visited them): drop it.",
+   "Join the sentences: The … I bought.",
+   "Join the sentences: the … you recommended.",
+   "Join the sentences: The … we met.",
+   "Join the sentences: The … my friend took.",
+   "Join the sentences: the … Dad told.",
+   "Don't repeat the object: I bought, not I bought it.",
+   "Don't repeat the object: we met, not we met him.",
+   "After a noun, never what: we visited.",
+   "The woman is the subject: who lives can't be dropped.",
+   "The train is the subject: which leaves can't be dropped."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${out} — ${items.length} items`);

@@ -163,5 +163,89 @@ for (const [st, m, acc] of AUDIT_ACC) {
   for (const it of hit) it.acceptable = [...new Set([...(it.acceptable || []), ...acc])];
 }
 const out = "content/grammar-practice/sentence-structure.conjunctions.although-despite.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "A full clause follows (it was raining): Although.",
+   "A full clause follows (… was tired): Although.",
+   "A full clause follows (the hotel was …): although.",
+   "A full clause follows (he studied hard): Although.",
+   "A full clause follows (the tickets were …): Although.",
+   "A full clause follows (I ate a big …): although.",
+   "A full clause follows (she lives near …): Although.",
+   "A full clause follows (my grandmother is …): Although.",
+   "A full clause follows (it is very old): although.",
+   "A full clause follows (we left home early): Although.",
+   "Only a noun follows (the rain): Despite.",
+   "Only a noun follows (the cold weather): despite.",
+   "Only a noun follows (his illness): Despite.",
+   "Only a noun follows (her age): despite.",
+   "Only a noun follows (the traffic): Despite.",
+   "Only a noun follows (the …): despite.",
+   "An -ing form follows (feeling ill): Despite.",
+   "An -ing form follows (having little money): Despite.",
+   "An -ing form follows (missing many lessons): despite.",
+   "An -ing form follows (living in …): Despite."
+  ],
+  "build": [
+   "Subject + verb follow (it was …): Although.",
+   "Noun follows (the cold water): despite.",
+   "Subject + verb follow (the … was easy): Although.",
+   "Noun follows (the noise): Despite.",
+   "Subject + verb follow (she liked it): although.",
+   "Noun follows (the high prices): despite.",
+   "Subject + verb follow (we were tired): Although.",
+   "-ing follows (being only …): Despite.",
+   "Subject + verb follow (I was very tired): although.",
+   "Noun follows (his mother's warning): despite.",
+   "Subject + verb follow (the bus was late): Although.",
+   "Noun follows (the heat): Despite.",
+   "Subject + verb follow (he eats a lot): although.",
+   "-ing follows (studying every day): Despite.",
+   "Subject + verb follow (the shop was closed): Although.",
+   "Noun follows (the …): despite.",
+   "Subject + verb follow (she was nervous): Although.",
+   "-ing follows (wearing a warm …): despite.",
+   "Subject + verb follow (it was expensive): Although.",
+   "Noun follows (the bad weather): despite."
+  ],
+  "transform": [
+   "Despite + noun: it was raining → the rain.",
+   "Despite + -ing: he was ill → being ill.",
+   "Despite + noun: it was cold → the cold.",
+   "Despite + -ing: she was tired → being tired.",
+   "Despite + noun: the traffic was bad → the bad traffic.",
+   "Although + clause: the rain → it was raining.",
+   "Although + clause: being tired → he was tired.",
+   "Although + clause: the noise → it was noisy.",
+   "Although + clause: living → she lives.",
+   "Although + clause: the high price → it was expensive.",
+   "A clause follows (it was late): Although, not Despite.",
+   "A noun follows (the rain): Despite, not Although.",
+   "Never despite of: just Despite.",
+   "A clause follows (he was tired): Although, not Despite.",
+   "A clause follows (she felt ill): although, not despite."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${out} — ${items.length} items`);

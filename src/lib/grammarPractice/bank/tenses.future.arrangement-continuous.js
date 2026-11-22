@@ -17,7 +17,7 @@ export default [
    "have met"
   ],
   "key": 0,
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: am meeting.",
+  "why": "\"We arranged it last week\": a fixed plan with a person: am meeting.",
   "slots": {
    "name": [
     "Aziz",
@@ -49,7 +49,7 @@ export default [
    "is stay"
   ],
   "key": 0,
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: is staying.",
+  "why": "\"She called my mother yesterday\": the stay is arranged: is staying.",
   "slots": {
    "who": [
     "aunt",
@@ -81,7 +81,7 @@ export default [
    "have visited"
   ],
   "key": 0,
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: are visiting.",
+  "why": "\"My father phoned them\": the visit is fixed: are visiting.",
   "slots": {
    "city": [
     "Samarkand",
@@ -113,7 +113,7 @@ export default [
    "has seen"
   ],
   "key": 0,
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: is seeing.",
+  "why": "\"She has an appointment\": is seeing.",
   "slots": {
    "name": [
     "Madina",
@@ -145,7 +145,7 @@ export default [
    "are have"
   ],
   "key": 0,
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: are having.",
+  "why": "\"They invited twenty guests\": the party is arranged: are having.",
   "slots": {
    "who": [
     "sister",
@@ -177,7 +177,7 @@ export default [
    "have played"
   ],
   "key": 0,
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: am playing.",
+  "why": "\"We booked the court\": am playing.",
   "slots": {
    "name": [
     "Sardor",
@@ -209,7 +209,7 @@ export default [
    "are come"
   ],
   "key": 0,
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: are coming.",
+  "why": "\"My mother invited them\": they are coming.",
   "slots": {
    "who": [
     "cousins",
@@ -241,7 +241,7 @@ export default [
    "has taken"
   ],
   "key": 0,
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: is taking.",
+  "why": "\"We agreed on it last night\": is taking.",
   "slots": {
    "place": [
     "airport",
@@ -273,7 +273,7 @@ export default [
    "am have"
   ],
   "key": 0,
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: am having.",
+  "why": "\"We booked a table\": am having dinner.",
   "slots": {
    "who": [
     "friends",
@@ -284,7 +284,8 @@ export default [
    "place": [
     "café",
     "restaurant",
-    "teahouse"
+    "teahouse",
+    "canteen"
    ]
   }
  },
@@ -304,7 +305,7 @@ export default [
    "has fixed"
   ],
   "key": 0,
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: is fixing.",
+  "why": "\"My mother called him\": the repair is arranged: is fixing.",
   "slots": {
    "thing": [
     "sink",
@@ -336,7 +337,7 @@ export default [
    "are watch"
   ],
   "key": 0,
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: are watching.",
+  "why": "\"We already have the tickets\": are watching.",
   "slots": {
    "who": [
     "cousins",
@@ -368,7 +369,7 @@ export default [
    "have visited"
   ],
   "key": 0,
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: am visiting.",
+  "why": "\"We planned it a month ago\": am visiting.",
   "slots": {
    "day": [
     "Monday",
@@ -400,7 +401,7 @@ export default [
    "is meet"
   ],
   "key": 0,
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: is meeting.",
+  "why": "\"He promised them last week\": is meeting.",
   "slots": {
    "name": [
     "Bobur",
@@ -432,7 +433,7 @@ export default [
    "have helped"
   ],
   "key": 0,
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: are helping.",
+  "why": "\"They promised last week\": are helping.",
   "slots": {
    "who": [
     "friends",
@@ -464,7 +465,7 @@ export default [
    "am take"
   ],
   "key": 0,
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: am taking.",
+  "why": "\"I bought the tickets yesterday\": am taking.",
   "slots": {
    "who": [
     "cousin",
@@ -496,7 +497,7 @@ export default [
    "has cooked"
   ],
   "key": 0,
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: is cooking.",
+  "why": "\"Everyone has an invitation\": is cooking.",
   "slots": {
    "food": [
     "plov",
@@ -528,7 +529,7 @@ export default [
    "are stay"
   ],
   "key": 0,
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: are staying.",
+  "why": "\"They booked a room\": are staying.",
   "slots": {
    "city": [
     "Samarkand",
@@ -560,7 +561,7 @@ export default [
    "have seen"
   ],
   "key": 0,
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: am seeing.",
+  "why": "\"I made an appointment\": am seeing.",
   "slots": {
    "day": [
     "Thursday",
@@ -571,7 +572,8 @@ export default [
    "part": [
     "afternoon",
     "morning",
-    "evening"
+    "evening",
+    "after lunch"
    ]
   }
  },
@@ -591,7 +593,7 @@ export default [
    "are study"
   ],
   "key": 0,
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: are studying.",
+  "why": "\"We planned it on the phone\": are studying.",
   "slots": {
    "name": [
     "Aziz",
@@ -623,12 +625,13 @@ export default [
    "has played"
   ],
   "key": 0,
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: is playing.",
+  "why": "\"The family asked him a month ago\": is playing.",
   "slots": {
    "who": [
     "brother",
     "cousin",
-    "uncle"
+    "uncle",
+    "nephew"
    ],
    "day": [
     "Saturday",
@@ -649,7 +652,7 @@ export default [
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
   "source": "I ______ (meet) {name} at the café at {time}. We arranged it on Monday.",
   "key": "am meeting",
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: am meeting.",
+  "why": "\"We arranged it on Monday\": am meeting.",
   "slots": {
    "name": [
     "Aziz",
@@ -676,7 +679,7 @@ export default [
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
   "source": "My {who} ______ (stay) with us next {when}. She called my mother yesterday.",
   "key": "is staying",
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: is staying.",
+  "why": "\"She called my mother\": is staying.",
   "slots": {
    "who": [
     "aunt",
@@ -703,7 +706,7 @@ export default [
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
   "source": "We ______ (visit) our grandparents in {city} on {day}. Dad bought the train tickets.",
   "key": "are visiting",
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: are visiting.",
+  "why": "\"Dad bought the train tickets\": are visiting.",
   "slots": {
    "city": [
     "Samarkand",
@@ -730,7 +733,7 @@ export default [
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
   "source": "{name} ______ (see) the dentist at {time} tomorrow. She made an appointment.",
   "key": "is seeing",
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: is seeing.",
+  "why": "\"She made an appointment\": is seeing.",
   "slots": {
    "name": [
     "Madina",
@@ -757,7 +760,7 @@ export default [
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
   "source": "My {who} ______ (have) a party on {day}. They invited all their friends.",
   "key": "are having",
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: are having.",
+  "why": "\"They invited all their friends\": are having.",
   "slots": {
    "who": [
     "parents",
@@ -784,7 +787,7 @@ export default [
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
   "source": "I ______ (play) tennis with my {who} this {when}. We booked the court.",
   "key": "am playing",
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: am playing.",
+  "why": "The court is booked, so it's fixed: am playing.",
   "slots": {
    "who": [
     "brother",
@@ -811,7 +814,7 @@ export default [
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
   "source": "Our {who} ______ (come) for dinner {when}. My mother invited them this morning.",
   "key": "are coming",
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: are coming.",
+  "why": "\"My mother invited them\": are coming.",
   "slots": {
    "who": [
     "cousins",
@@ -838,7 +841,7 @@ export default [
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
   "source": "My father ______ (take) me to the {place} at {time} tomorrow. We agreed on it yesterday.",
   "key": "is taking",
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: is taking.",
+  "why": "\"We agreed on it yesterday\": is taking.",
   "slots": {
    "place": [
     "airport",
@@ -865,7 +868,7 @@ export default [
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
   "source": "I ______ (have) lunch with my {who} on Friday. We booked a table at a {place}.",
   "key": "am having",
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: am having.",
+  "why": "\"We booked a table\": am having lunch.",
   "slots": {
    "who": [
     "friends",
@@ -876,7 +879,8 @@ export default [
    "place": [
     "café",
     "restaurant",
-    "teahouse"
+    "teahouse",
+    "canteen"
    ]
   }
  },
@@ -891,7 +895,7 @@ export default [
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
   "source": "The mechanic ______ (fix) our {thing} on {day}. My father called him.",
   "key": "is fixing",
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: is fixing.",
+  "why": "\"My father called him\": is fixing.",
   "slots": {
    "thing": [
     "car",
@@ -918,7 +922,7 @@ export default [
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
   "source": "We ______ (watch) the match with our {who} on {day}. We have the tickets.",
   "key": "are watching",
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: are watching.",
+  "why": "\"We have the tickets\": are watching.",
   "slots": {
    "who": [
     "cousins",
@@ -945,7 +949,7 @@ export default [
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
   "source": "Sorry, I can't come on {day}. I ______ (help) my uncle in his {place}.",
   "key": "am helping",
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: am helping.",
+  "why": "\"I can't come\" because of a plan: am helping.",
   "slots": {
    "day": [
     "Saturday",
@@ -972,7 +976,7 @@ export default [
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
   "source": "{name} ______ (meet) his friends at the {place} at eight. They planned it in a group chat.",
   "key": "is meeting",
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: is meeting.",
+  "why": "\"They planned it in a group chat\": is meeting.",
   "slots": {
    "name": [
     "Bobur",
@@ -999,7 +1003,7 @@ export default [
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
   "source": "My grandmother ______ (cook) {food} for everyone on {day}. She invited the whole family.",
   "key": "is cooking",
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: is cooking.",
+  "why": "\"She invited the whole family\": is cooking.",
   "slots": {
    "food": [
     "plov",
@@ -1026,7 +1030,7 @@ export default [
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
   "source": "My parents ______ (go) to {city} on {day}. Their tickets came by email.",
   "key": "are going",
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: are going.",
+  "why": "\"Their tickets came by email\": are going.",
   "slots": {
    "city": [
     "Dubai",
@@ -1053,12 +1057,13 @@ export default [
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
   "source": "I ______ (take) my little {who} to the {place} on Saturday. I promised him last week.",
   "key": "am taking",
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: am taking.",
+  "why": "\"I promised him last week\": am taking.",
   "slots": {
    "who": [
     "brother",
     "cousin",
-    "nephew"
+    "nephew",
+    "son"
    ],
    "place": [
     "zoo",
@@ -1079,7 +1084,7 @@ export default [
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
   "source": "We ______ (stay) at a hotel in {city} next {when}. We booked two rooms.",
   "key": "are staying",
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: are staying.",
+  "why": "\"We booked two rooms\": are staying.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1106,7 +1111,7 @@ export default [
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
   "source": "{name} and I ______ (study) together at the library {when}. We planned it after class.",
   "key": "are studying",
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: are studying.",
+  "why": "\"We planned it after class\": are studying.",
   "slots": {
    "name": [
     "Aziz",
@@ -1133,7 +1138,7 @@ export default [
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
   "source": "My {who} ______ (sing) at her friend's wedding in {month}. The family asked her last month.",
   "key": "is singing",
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: is singing.",
+  "why": "\"The family asked her\": is singing.",
   "slots": {
    "who": [
     "sister",
@@ -1160,7 +1165,7 @@ export default [
   "instr": "Complete the sentence with the present continuous of the verb in brackets.",
   "source": "I ______ (see) the doctor on {day} {part}. The receptionist gave me a time.",
   "key": "am seeing",
-  "why": "This is already arranged with other people for a fixed time, so use the present continuous: am seeing.",
+  "why": "\"The receptionist gave me a time\": am seeing.",
   "slots": {
    "day": [
     "Thursday",
@@ -1171,7 +1176,8 @@ export default [
    "part": [
     "afternoon",
     "morning",
-    "evening"
+    "evening",
+    "after lunch"
    ]
   }
  },
@@ -1187,7 +1193,7 @@ export default [
   "source": "Diary, {day}: 3 pm, {pro}.",
   "hint": "I ______ (see) the {pro} at three on {day}.",
   "key": "am seeing",
-  "why": "A diary plan is an arrangement, so use the present continuous: am seeing.",
+  "why": "A diary entry is an arrangement: am seeing.",
   "slots": {
    "day": [
     "Saturday",
@@ -1198,7 +1204,8 @@ export default [
    "pro": [
     "dentist",
     "doctor",
-    "eye doctor"
+    "eye doctor",
+    "nurse"
    ]
   }
  },
@@ -1214,7 +1221,7 @@ export default [
   "source": "Diary, {day}: 7 pm, dinner with {name}.",
   "hint": "I ______ (have) dinner with {name} at seven on {day}.",
   "key": "am having",
-  "why": "A diary plan is an arrangement, so use the present continuous: am having.",
+  "why": "A diary entry with a person: am having dinner.",
   "slots": {
    "day": [
     "Friday",
@@ -1242,7 +1249,7 @@ export default [
   "source": "Diary, {day}: football with my {who}, 10 am.",
   "hint": "I ______ (play) football with my {who} on {day} morning.",
   "key": "am playing",
-  "why": "A diary plan is an arrangement, so use the present continuous: am playing.",
+  "why": "A diary entry with a time: am playing.",
   "slots": {
    "day": [
     "Sunday",
@@ -1270,7 +1277,7 @@ export default [
   "source": "Diary, {day}: meet Grandma at the {place}.",
   "hint": "I ______ (meet) my grandmother at the {place} on {day}.",
   "key": "am meeting",
-  "why": "A diary plan is an arrangement, so use the present continuous: am meeting.",
+  "why": "A diary entry: am meeting my grandmother.",
   "slots": {
    "day": [
     "Monday",
@@ -1281,7 +1288,8 @@ export default [
    "place": [
     "station",
     "airport",
-    "bus station"
+    "bus station",
+    "metro station"
    ]
   }
  },
@@ -1297,7 +1305,7 @@ export default [
   "source": "Diary, {day}: help Uncle Rustam in the {place}.",
   "hint": "I ______ (help) my uncle in his {place} on {day}.",
   "key": "am helping",
-  "why": "A diary plan is an arrangement, so use the present continuous: am helping.",
+  "why": "A diary entry: am helping my uncle.",
   "slots": {
    "day": [
     "Thursday",
@@ -1325,7 +1333,7 @@ export default [
   "source": "I am meeting {name} at the café tomorrow.",
   "hint": "My {who} ______ {name} at the café tomorrow.",
   "key": "is meeting",
-  "why": "Same arrangement, new person: change am / is / are to match: is meeting.",
+  "why": "New subject my … (one person): is meeting.",
   "slots": {
    "name": [
     "Aziz",
@@ -1353,7 +1361,7 @@ export default [
   "source": "We are driving to {city} on Monday.",
   "hint": "My {who} ______ to {city} on Monday.",
   "key": "is driving",
-  "why": "Same arrangement, new person: change am / is / are to match: is driving.",
+  "why": "New subject my … (one person): is driving.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1381,7 +1389,7 @@ export default [
   "source": "She is visiting her grandparents in {city} on {day}.",
   "hint": "We ______ our grandparents in {city} on {day}.",
   "key": "are visiting",
-  "why": "Same arrangement, new person: change am / is / are to match: are visiting.",
+  "why": "New subject We: are visiting.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1409,7 +1417,7 @@ export default [
   "source": "My {who} is playing in a concert on {day}.",
   "hint": "I ______ in a concert on {day}.",
   "key": "am playing",
-  "why": "Same arrangement, new person: change am / is / are to match: am playing.",
+  "why": "New subject I: am playing.",
   "slots": {
    "who": [
     "brother",
@@ -1437,7 +1445,7 @@ export default [
   "source": "I am having a party at my house on {day}.",
   "hint": "My {who} ______ a party at their house on {day}.",
   "key": "are having",
-  "why": "Same arrangement, new person: change am / is / are to match: are having.",
+  "why": "New subject my … (more than one): are having.",
   "slots": {
    "who": [
     "cousins",
@@ -1465,7 +1473,7 @@ export default [
   "source": "I meet my {who} at the station {when}. We arranged it last week.",
   "hint": "I ______ my {who} at the station {when}. We arranged it last week.",
   "key": "am meeting",
-  "why": "Meet (present simple) is wrong for an arrangement. Use am / is / are + -ing: am meeting.",
+  "why": "\"We arranged it\": a plan, not a habit: am meeting.",
   "slots": {
    "who": [
     "cousin",
@@ -1493,7 +1501,7 @@ export default [
   "source": "{name} is visit her aunt in {city} on Friday.",
   "hint": "{name} ______ her aunt in {city} on Friday.",
   "key": "is visiting",
-  "why": "Is visit is wrong for an arrangement. Use am / is / are + -ing: is visiting.",
+  "why": "is + -ing: visiting, not visit.",
   "slots": {
    "name": [
     "Madina",
@@ -1521,7 +1529,7 @@ export default [
   "source": "We going to the {event} on {day}. We have the tickets.",
   "hint": "We ______ to the {event} on {day}. We have the tickets.",
   "key": "are going",
-  "why": "Going (no are) is wrong for an arrangement. Use am / is / are + -ing: are going.",
+  "why": "are is missing: are going.",
   "slots": {
    "event": [
     "concert",
@@ -1549,7 +1557,7 @@ export default [
   "source": "My {who} will playing tennis with his friend at {time}. They booked the court.",
   "hint": "My {who} ______ tennis with his friend at {time}. They booked the court.",
   "key": "is playing",
-  "why": "Will playing is wrong for an arrangement. Use am / is / are + -ing: is playing.",
+  "why": "Not will + -ing for a booked plan: is playing.",
   "slots": {
    "who": [
     "brother",
@@ -1577,7 +1585,7 @@ export default [
   "source": "I am have lunch with my {who} on {day}. We booked a table.",
   "hint": "I ______ lunch with my {who} on {day}. We booked a table.",
   "key": "am having",
-  "why": "Am have is wrong for an arrangement. Use am / is / are + -ing: am having.",
+  "why": "am + -ing: having, not have.",
   "slots": {
    "who": [
     "parents",

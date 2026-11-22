@@ -17,7 +17,7 @@ export default [
    "very"
   ],
   "key": 0,
-  "why": "The numbers are close, so the difference is small: slightly + comparative, slightly more expensive. Not very.",
+  "why": "100,000 against 103,000 is a tiny change: slightly.",
   "slots": {
    "thing": [
     "bag",
@@ -49,7 +49,7 @@ export default [
    "slightly"
   ],
   "key": 3,
-  "why": "The numbers are close, so the difference is small: slightly + comparative, slightly warmer. Not very.",
+  "why": "20 against 21 degrees: a small difference: slightly.",
   "slots": {
    "city": [
     "Tashkent",
@@ -81,7 +81,7 @@ export default [
    "much"
   ],
   "key": 2,
-  "why": "The numbers are close, so the difference is small: slightly + comparative, slightly taller. Not very.",
+  "why": "1.70 against 1.72 m: slightly taller.",
   "slots": {
    "who": [
     "brother",
@@ -113,7 +113,7 @@ export default [
    "far"
   ],
   "key": 1,
-  "why": "The numbers are close, so the difference is small: slightly + comparative, slightly longer. Not very.",
+  "why": "50 against 52 km: slightly longer.",
   "slots": {
    "city": [
     "Chirchiq",
@@ -145,12 +145,13 @@ export default [
    "very"
   ],
   "key": 0,
-  "why": "The numbers are close, so the difference is small: slightly + comparative, slightly older. Not very.",
+  "why": "Half a year is a small gap: slightly older.",
   "slots": {
    "who": [
     "sister",
     "cousin",
-    "niece"
+    "niece",
+    "daughter"
    ],
    "name": [
     "Zarina",
@@ -176,7 +177,7 @@ export default [
    "slightly"
   ],
   "key": 3,
-  "why": "The numbers are close, so the difference is small: slightly + comparative, slightly heavier. Not very.",
+  "why": "7 against 7.5 kg: slightly heavier.",
   "slots": {
    "bag": [
     "bag",
@@ -208,7 +209,7 @@ export default [
    "much"
   ],
   "key": 2,
-  "why": "The numbers are close, so the difference is small: slightly + comparative, slightly faster. Not very.",
+  "why": "13.1 against 13.3 seconds: slightly faster.",
   "slots": {
    "event": [
     "school race",
@@ -240,7 +241,7 @@ export default [
    "far"
   ],
   "key": 1,
-  "why": "The numbers are close, so the difference is small: slightly + comparative, slightly cheaper. Not very.",
+  "why": "49,000 against 50,000: slightly cheaper.",
   "slots": {
    "thing": [
     "melon",
@@ -272,7 +273,7 @@ export default [
    "very"
   ],
   "key": 0,
-  "why": "The numbers are close, so the difference is small: slightly + comparative, slightly bigger. Not very.",
+  "why": "70 against 72 square metres: slightly bigger.",
   "slots": {
    "home": [
     "flat",
@@ -304,7 +305,7 @@ export default [
    "slightly"
   ],
   "key": 3,
-  "why": "The numbers are close, so the difference is small: slightly + comparative, slightly earlier. Not very.",
+  "why": "Five minutes is a small gap: slightly earlier.",
   "slots": {
    "transport": [
     "bus",
@@ -336,7 +337,7 @@ export default [
    "efficient"
   ],
   "key": 2,
-  "why": "After slightly, use the comparative: more efficient.",
+  "why": "efficient is long: slightly more efficient.",
   "slots": {
    "thing": [
     "fridge",
@@ -368,7 +369,7 @@ export default [
    "cheapest"
   ],
   "key": 1,
-  "why": "After slightly, use the comparative: cheaper.",
+  "why": "cheap is short: slightly cheaper.",
   "slots": {
    "goods": [
     "apples",
@@ -400,7 +401,7 @@ export default [
    "comfortably"
   ],
   "key": 0,
-  "why": "After slightly, use the comparative: more comfortable.",
+  "why": "comfortable is long: slightly more comfortable.",
   "slots": {
    "seat": [
     "chair",
@@ -432,7 +433,7 @@ export default [
    "colder"
   ],
   "key": 3,
-  "why": "After slightly, use the comparative: colder.",
+  "why": "cold is short: slightly colder.",
   "slots": {
    "room": [
     "bedroom",
@@ -464,7 +465,7 @@ export default [
    "difficult"
   ],
   "key": 2,
-  "why": "After slightly, use the comparative: more difficult.",
+  "why": "difficult is long: slightly more difficult.",
   "slots": {
    "test": [
     "test",
@@ -496,7 +497,7 @@ export default [
    "shortest"
   ],
   "key": 1,
-  "why": "After slightly, use the comparative: shorter.",
+  "why": "short is short: slightly shorter.",
   "slots": {
    "who": [
     "sister",
@@ -528,7 +529,7 @@ export default [
    "interested"
   ],
   "key": 0,
-  "why": "After slightly, use the comparative: more interesting.",
+  "why": "interesting is long: slightly more interesting.",
   "slots": {
    "thing": [
     "book",
@@ -560,7 +561,7 @@ export default [
    "quieter"
   ],
   "key": 3,
-  "why": "After slightly, use the comparative: quieter.",
+  "why": "quiet takes -er: slightly quieter.",
   "slots": {
    "area": [
     "street",
@@ -592,7 +593,7 @@ export default [
    "late"
   ],
   "key": 2,
-  "why": "After slightly, use the comparative: later.",
+  "why": "late → later, a small gap: slightly later.",
   "slots": {
    "event": [
     "concert",
@@ -624,7 +625,7 @@ export default [
    "most popular"
   ],
   "key": 1,
-  "why": "After slightly, use the comparative: more popular.",
+  "why": "popular is long: slightly more popular.",
   "slots": {
    "place": [
     "office",
@@ -651,7 +652,7 @@ export default [
   "instr": "Write the comparative of the adjective in brackets.",
   "source": "This {thing} is slightly ______ (cheap) online, {name}.",
   "key": "cheaper",
-  "why": "After slightly, use the comparative: cheaper.",
+  "why": "cheap → cheaper (short adjective).",
   "slots": {
    "thing": [
     "phone",
@@ -678,7 +679,7 @@ export default [
   "instr": "Write the comparative of the adjective in brackets.",
   "source": "It's slightly ______ (warm) in {month} than in March, {name}.",
   "key": "warmer",
-  "why": "After slightly, use the comparative: warmer.",
+  "why": "warm → warmer (short adjective).",
   "slots": {
    "month": [
     "April",
@@ -705,7 +706,7 @@ export default [
   "instr": "Write the comparative of the adjective in brackets.",
   "source": "The red {thing} is slightly ______ (expensive) than the blue one, {name}.",
   "key": "more expensive",
-  "why": "After slightly, use the comparative: more expensive.",
+  "why": "expensive is long: more expensive.",
   "slots": {
    "thing": [
     "bag",
@@ -732,7 +733,7 @@ export default [
   "instr": "Write the comparative of the adjective in brackets.",
   "source": "My {who} is slightly ______ (tall) than me now, {name}.",
   "key": "taller",
-  "why": "After slightly, use the comparative: taller.",
+  "why": "tall → taller (short adjective).",
   "slots": {
    "who": [
     "little brother",
@@ -759,7 +760,7 @@ export default [
   "instr": "Write the comparative of the adjective in brackets.",
   "source": "The new {seat} is slightly ______ (comfortable) than the old one, {name}.",
   "key": "more comfortable",
-  "why": "After slightly, use the comparative: more comfortable.",
+  "why": "comfortable is long: more comfortable.",
   "slots": {
    "seat": [
     "sofa",
@@ -786,7 +787,7 @@ export default [
   "instr": "Write the comparative of the adjective in brackets.",
   "source": "This {transport} leaves slightly ______ (early) than the other one, {name}.",
   "key": "earlier",
-  "why": "After slightly, use the comparative: earlier.",
+  "why": "early ends in -y: earlier.",
   "slots": {
    "transport": [
     "bus",
@@ -813,7 +814,7 @@ export default [
   "instr": "Write the comparative of the adjective in brackets.",
   "source": "Today's {task} was slightly ______ (difficult) than yesterday's, {name}.",
   "key": "more difficult",
-  "why": "After slightly, use the comparative: more difficult.",
+  "why": "difficult is long: more difficult.",
   "slots": {
    "task": [
     "homework",
@@ -840,7 +841,7 @@ export default [
   "instr": "Write the comparative of the adjective in brackets.",
   "source": "The way through the {place} is slightly ______ (long), but it's nicer, {name}.",
   "key": "longer",
-  "why": "After slightly, use the comparative: longer.",
+  "why": "\"but it's nicer\": long → longer.",
   "slots": {
    "place": [
     "park",
@@ -867,7 +868,7 @@ export default [
   "instr": "Write the comparative of the adjective in brackets.",
   "source": "My {who} is slightly ______ (old) than my mother, {name}.",
   "key": "older",
-  "why": "After slightly, use the comparative: older.",
+  "why": "old → older (short adjective).",
   "slots": {
    "who": [
     "father",
@@ -894,7 +895,7 @@ export default [
   "instr": "Write the comparative of the adjective in brackets.",
   "source": "This {bag} is slightly ______ (heavy) than I thought, {name}.",
   "key": "heavier",
-  "why": "After slightly, use the comparative: heavier.",
+  "why": "heavy ends in -y: heavier.",
   "slots": {
    "bag": [
     "suitcase",
@@ -921,7 +922,7 @@ export default [
   "instr": "Write the comparative of the adjective in brackets.",
   "source": "The {room} is slightly ______ (quiet) in the evening, {name}.",
   "key": "quieter",
-  "why": "After slightly, use the comparative: quieter.",
+  "why": "quiet takes -er: quieter.",
   "slots": {
    "room": [
     "library",
@@ -948,7 +949,7 @@ export default [
   "instr": "Write the comparative of the adjective in brackets.",
   "source": "Volleyball is slightly ______ (popular) than {sport} in our {place}.",
   "key": "more popular",
-  "why": "After slightly, use the comparative: more popular.",
+  "why": "popular is long: more popular.",
   "slots": {
    "sport": [
     "basketball",
@@ -975,7 +976,7 @@ export default [
   "instr": "Write the comparative of the adjective in brackets.",
   "source": "The new {route} is slightly ______ (short) than the old one, {name}.",
   "key": "shorter",
-  "why": "After slightly, use the comparative: shorter.",
+  "why": "short → shorter (short adjective).",
   "slots": {
    "route": [
     "route",
@@ -1002,7 +1003,7 @@ export default [
   "instr": "Write the comparative of the adjective in brackets.",
   "source": "My {thing} is slightly ______ (small) than yours, {name}.",
   "key": "smaller",
-  "why": "After slightly, use the comparative: smaller.",
+  "why": "small → smaller (short adjective).",
   "slots": {
    "thing": [
     "room",
@@ -1029,7 +1030,7 @@ export default [
   "instr": "Write the comparative of the adjective in brackets.",
   "source": "The second {part} was slightly ______ (interesting) than the first, {name}.",
   "key": "more interesting",
-  "why": "After slightly, use the comparative: more interesting.",
+  "why": "interesting is long: more interesting.",
   "slots": {
    "part": [
     "half",
@@ -1056,7 +1057,7 @@ export default [
   "instr": "Write the comparative of the adjective in brackets.",
   "source": "Our {event} starts slightly ______ (late) this week, {name}.",
   "key": "later",
-  "why": "After slightly, use the comparative: later.",
+  "why": "late ends in -e: later.",
   "slots": {
    "event": [
     "lesson",
@@ -1083,7 +1084,7 @@ export default [
   "instr": "Write the comparative of the adjective in brackets.",
   "source": "This {test} is slightly ______ (easy) than the last one, {name}.",
   "key": "easier",
-  "why": "After slightly, use the comparative: easier.",
+  "why": "easy ends in -y: easier.",
   "slots": {
    "test": [
     "test",
@@ -1110,7 +1111,7 @@ export default [
   "instr": "Write the comparative of the adjective in brackets.",
   "source": "The new {device} is slightly ______ (fast) than my old one, {name}.",
   "key": "faster",
-  "why": "After slightly, use the comparative: faster.",
+  "why": "fast → faster (short adjective).",
   "slots": {
    "device": [
     "laptop",
@@ -1137,7 +1138,7 @@ export default [
   "instr": "Write the comparative of the adjective in brackets.",
   "source": "Your {room} is slightly ______ (big) than ours, {name}.",
   "key": "bigger",
-  "why": "After slightly, use the comparative: bigger.",
+  "why": "big doubles the g: bigger.",
   "slots": {
    "room": [
     "kitchen",
@@ -1164,7 +1165,7 @@ export default [
   "instr": "Write the comparative of the adjective in brackets.",
   "source": "The water in the {water} is slightly ______ (cold) today than yesterday, {name}.",
   "key": "colder",
-  "why": "After slightly, use the comparative: colder.",
+  "why": "cold → colder (short adjective).",
   "slots": {
    "water": [
     "pool",
@@ -1192,7 +1193,7 @@ export default [
   "source": "My {thing} cost 500,000 soum. Yours cost 510,000, {name}.",
   "hint": "Your {thing} was ______ than mine, {name}.",
   "key": "slightly more expensive",
-  "why": "A small difference: slightly + comparative, slightly more expensive.",
+  "why": "500,000 against 510,000: slightly more expensive.",
   "slots": {
    "thing": [
     "phone",
@@ -1220,7 +1221,7 @@ export default [
   "source": "I'm 1.60 m. My {who} is 1.62 m, {name}.",
   "hint": "My {who} is ______ than me, {name}.",
   "key": "slightly taller",
-  "why": "A small difference: slightly + comparative, slightly taller.",
+  "why": "1.60 against 1.62 m: slightly taller.",
   "slots": {
    "who": [
     "sister",
@@ -1248,7 +1249,7 @@ export default [
   "source": "Today it's 15 degrees in {city}. Yesterday it was 14, {name}.",
   "hint": "Today it's ______ than yesterday, {name}.",
   "key": "slightly warmer",
-  "why": "A small difference: slightly + comparative, slightly warmer.",
+  "why": "14 against 15 degrees: slightly warmer.",
   "slots": {
    "city": [
     "Tashkent",
@@ -1276,7 +1277,7 @@ export default [
   "source": "The {transport} takes 40 minutes. The train takes 38, {name}.",
   "hint": "The train is ______ than the {transport}, {name}.",
   "key": "slightly faster",
-  "why": "A small difference: slightly + comparative, slightly faster.",
+  "why": "40 against 38 minutes: slightly faster.",
   "slots": {
    "transport": [
     "bus",
@@ -1304,7 +1305,7 @@ export default [
   "source": "My {box} is 10 kg. {name}'s {box} is 11 kg.",
   "hint": "{name}'s {box} is ______ than mine.",
   "key": "slightly heavier",
-  "why": "A small difference: slightly + comparative, slightly heavier.",
+  "why": "10 against 11 kg: slightly heavier.",
   "slots": {
    "box": [
     "box",
@@ -1332,7 +1333,7 @@ export default [
   "source": "This {thing} is a bit cheaper than that one, {name}.",
   "hint": "This {thing} is ______ than that one, {name}.",
   "key": "slightly cheaper",
-  "why": "A small difference: slightly + comparative, slightly cheaper.",
+  "why": "a bit = slightly: slightly cheaper.",
   "slots": {
    "thing": [
     "shirt",
@@ -1360,7 +1361,7 @@ export default [
   "source": "The second {test} was a little more difficult, {name}.",
   "hint": "The second {test} was ______, {name}.",
   "key": "slightly more difficult",
-  "why": "A small difference: slightly + comparative, slightly more difficult.",
+  "why": "a little = slightly: slightly more difficult.",
   "slots": {
    "test": [
     "test",
@@ -1388,7 +1389,7 @@ export default [
   "source": "It's a bit colder in the {room} than in the kitchen, {name}.",
   "hint": "It's ______ in the {room} than in the kitchen, {name}.",
   "key": "slightly colder",
-  "why": "A small difference: slightly + comparative, slightly colder.",
+  "why": "a bit = slightly: slightly colder.",
   "slots": {
    "room": [
     "bedroom",
@@ -1416,7 +1417,7 @@ export default [
   "source": "My {who} is a little older than my father, {name}.",
   "hint": "My {who} is ______ than my father, {name}.",
   "key": "slightly older",
-  "why": "A small difference: slightly + comparative, slightly older.",
+  "why": "a little = slightly: slightly older.",
   "slots": {
    "who": [
     "mother",
@@ -1444,7 +1445,7 @@ export default [
   "source": "Our new {area} is a bit quieter, {name}.",
   "hint": "Our new {area} is ______, {name}.",
   "key": "slightly quieter",
-  "why": "A small difference: slightly + comparative, slightly quieter.",
+  "why": "a bit = slightly: slightly quieter.",
   "slots": {
    "area": [
     "street",
@@ -1472,7 +1473,7 @@ export default [
   "source": "This {thing} is slightly more cheaper than that one, {name}.",
   "hint": "This {thing} is ______ than that one, {name}.",
   "key": "slightly cheaper",
-  "why": "A small difference: slightly + comparative, slightly cheaper.",
+  "why": "Not more + -er: slightly cheaper.",
   "slots": {
    "thing": [
     "bag",
@@ -1500,7 +1501,7 @@ export default [
   "source": "Today is very warmer than {when}, but only a little, {name}.",
   "hint": "Today is ______ than {when}, {name}.",
   "key": "slightly warmer",
-  "why": "A small difference: slightly + comparative, slightly warmer.",
+  "why": "\"only a little\" means slightly, not very: slightly warmer.",
   "slots": {
    "when": [
     "yesterday",
@@ -1528,7 +1529,7 @@ export default [
   "source": "The new {seat} is slightly comfortable than the old one, {name}.",
   "hint": "The new {seat} is ______ than the old one, {name}.",
   "key": "slightly more comfortable",
-  "why": "A small difference: slightly + comparative, slightly more comfortable.",
+  "why": "comfortable needs more: slightly more comfortable.",
   "slots": {
    "seat": [
     "sofa",
@@ -1556,7 +1557,7 @@ export default [
   "source": "My {who} is slightly most tall than me, {name}.",
   "hint": "My {who} is ______ than me, {name}.",
   "key": "slightly taller",
-  "why": "A small difference: slightly + comparative, slightly taller.",
+  "why": "Not most tall: slightly taller.",
   "slots": {
    "who": [
     "brother",
@@ -1584,7 +1585,7 @@ export default [
   "source": "The {event} started slightly lately than usual, {name}.",
   "hint": "The {event} started ______ than usual, {name}.",
   "key": "slightly later",
-  "why": "A small difference: slightly + comparative, slightly later.",
+  "why": "late → later, not lately: slightly later.",
   "slots": {
    "event": [
     "concert",

@@ -144,5 +144,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/prep-phrasal.phrasal-verbs.pronoun-separation.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "",
+   "",
+   "",
+   "\"these …\" → them, and them goes in the middle: try them on.",
+   "Me is a pronoun, so it sits inside: wake me up.",
+   "\"the …\" → it, inside the verb: turn it off.",
+   "",
+   "\"These …\" → them, inside: throw them away.",
+   "\"my new …\" → it, inside: write it down.",
+   "\"the …\" (a paper) → it, inside: fill it in.",
+   "",
+   "\"Your toys\" → them, inside: Put them away.",
+   "",
+   "",
+   "\"this word\" → it, inside: look it up.",
+   "\"The …\" → it, inside: switch it off.",
+   "",
+   "",
+   "\"the …\" → it, inside: turn it up.",
+   ""
+  ],
+  "build": [
+   "",
+   "",
+   "",
+   "Pronoun them before on: them, on.",
+   "Pronoun me before up: me, up.",
+   "Pronoun it before off: it, off.",
+   "",
+   "Pronoun them before away: them, away.",
+   "Pronoun it before down: it, down.",
+   "Pronoun it before in: it, in.",
+   "",
+   "Pronoun them before away: them, away (clothes).",
+   "",
+   "",
+   "Pronoun it before up: it, up.",
+   "",
+   "Pronoun it before up (louder): it, up.",
+   "",
+   "",
+   "Pronoun it before off (switch): it, off."
+  ],
+  "transform": [
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "took my new … back = took back my new ….",
+   "",
+   "put the … off = put off the …."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

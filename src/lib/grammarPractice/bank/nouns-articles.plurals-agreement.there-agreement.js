@@ -241,7 +241,7 @@ export default [
    "has"
   ],
   "key": 2,
-  "why": "After there, the verb agrees with the first thing in the list: many people. That is plural, so use are.",
+  "why": "First item \"many people\" is plural: are.",
   "slots": {
    "animal": [
     "dog",
@@ -775,7 +775,7 @@ export default [
   "instr": "Write is or are.",
   "source": "There ______ (be) two dogs and a horse on my uncle's {place}, {name}.",
   "key": "are",
-  "why": "After there, the verb agrees with the first thing in the list: two dogs. That is plural, so use are.",
+  "why": "First item \"two dogs\" is plural: are.",
   "slots": {
    "place": [
     "farm",
@@ -802,7 +802,7 @@ export default [
   "instr": "Write was or were.",
   "source": "There ______ (be) a cake and some sweets on the table {when}, {name}.",
   "key": "was",
-  "why": "After there, the verb agrees with the first thing in the list: a cake. That is one thing (or uncountable), so use was.",
+  "why": "First item \"a cake\" is one, and the time is past: was.",
   "slots": {
    "when": [
     "last night",
@@ -1349,7 +1349,7 @@ export default [
   "source": "There is two dogs and a cat in our {place}, {name}.",
   "hint": "There ______ two dogs and a cat in our {place}, {name}.",
   "key": "are",
-  "why": "After there, the verb agrees with the first thing in the list: two dogs. That is plural, so use are.",
+  "why": "\"two dogs\" comes first and is plural: are, not is.",
   "slots": {
    "place": [
     "yard",
@@ -1377,7 +1377,7 @@ export default [
   "source": "There is many people and a car outside the {place}, {name}.",
   "hint": "There ______ many people and a car outside the {place}, {name}.",
   "key": "are",
-  "why": "After there, the verb agrees with the first thing in the list: many people. That is plural, so use are.",
+  "why": "\"many people\" comes first and is plural: are, not is.",
   "slots": {
    "place": [
     "school",
@@ -1461,7 +1461,7 @@ export default [
   "source": "There is a cake and two pies on the table {now}, {name}.",
   "hint": "There ______ a cake and two pies on the table last night, {name}.",
   "key": "was",
-  "why": "After there, the verb agrees with the first thing in the list: a cake. That is one thing (or uncountable), so use was.",
+  "why": "Past time, first item \"a cake\" is one: was.",
   "slots": {
    "now": [
     "now",

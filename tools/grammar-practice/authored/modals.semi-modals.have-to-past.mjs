@@ -123,5 +123,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/modals.semi-modals.have-to-past.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "\"Yesterday\" + \"My … asked me\": a past obligation: had to.",
+   "\"When I was a child\": a past duty: had to.",
+   "\"The … was late, so\": no choice then: had to.",
+   "\"Last …\": a past obligation: had to.",
+   "\"My car broke down … so\": no choice: had to walk.",
+   "\"At my old school\": a past rule: had to.",
+   "\"was closed, so\": no choice: had to come back.",
+   "\"I lost my …\": it was necessary: had to buy.",
+   "\"yesterday\": no choice but to wait: had to.",
+   "\"At sports school … every morning\": a past rule: had to.",
+   "\"was ill … so\": necessary: had to stay.",
+   "\"It was raining, so\": no choice: had to play inside.",
+   "\"The … was hard\": necessary to read twice: had to.",
+   "\"because her baby was ill\": necessary: had to leave.",
+   "A holiday: work was not necessary: didn't have to.",
+   "\"was easy\": study was not necessary: didn't have to.",
+   "\"My uncle drove us\": no need for the …: didn't have to.",
+   "\"was free\": no need to pay: didn't have to.",
+   "\"We ate at the …\": no need to cook: didn't have to.",
+   "No long wait was needed: didn't have to."
+  ],
+  "build": [
+   "\"Yesterday … asked me\": had to stay.",
+   "\"As a child\": had to help.",
+   "\"late, so\": had to take.",
+   "\"Last …\": had to get up.",
+   "\"broke down … so\": had to walk.",
+   "\"At my old school\": had to wear.",
+   "\"was closed, so\": had to come.",
+   "\"I lost my …, so\": had to buy.",
+   "\"two hours … yesterday\": had to wait.",
+   "\"was ill … so\": had to stay.",
+   "\"It was raining, so\": had to play.",
+   "\"Her baby was ill\": had to leave.",
+   "\"wasn't free\": had to pay.",
+   "\"Nobody answered the door, so\": had to call.",
+   "A holiday yesterday: didn't have to work.",
+   "\"was easy\": didn't have to study.",
+   "\"My uncle drove us\": didn't have to take.",
+   "\"was free\": didn't have to pay.",
+   "\"We ate at the …\": didn't have to cook.",
+   "No long wait: didn't have to wait."
+  ],
+  "transform": [
+   "must has no past form: Yesterday → had to stay.",
+   "Last … is past: had to get.",
+   "At school (in the past): had to wear.",
+   "In the past, so not must: had to take.",
+   "No musted: the past is had to leave.",
+   "They made us wait → we had to wait.",
+   "The doctor told him to → he had to stay.",
+   "needed to = had to: had to call.",
+   "was necessary → had to walk.",
+   "Her boss made her → she had to work.",
+   "wasn't necessary → didn't have to pay.",
+   "no need → didn't have to take.",
+   "wasn't necessary → didn't have to cook.",
+   "didn't need to = didn't have to wait.",
+   "wasn't necessary → didn't have to study."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

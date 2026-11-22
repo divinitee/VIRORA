@@ -138,5 +138,250 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/tenses.past.past-perfect-sequence.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "\"By the time we got\": it left before that: had gone.",
+   "\"When I got home\" the food was already gone: had eaten.",
+   "\"so we missed the start\": it began first: had begun.",
+   "She forgot it before she tried the door: had forgotten.",
+   "I saw it before they asked me: had seen.",
+   "The breaking came before he was upset: had broken.",
+   "\"By the time the teacher came back\": three were done: had written.",
+   "Someone took it before we arrived: had taken.",
+   "The snow fell first, then the white …: had fallen.",
+   "\"By the time … started\": the talking was finished: had spoken.",
+   "They gave them away before I asked: had given.",
+   "\"already\": I woke before the …: had woken.",
+   "She could go out because the … was done first: had done.",
+   "\"By the time the lifeguard arrived\": the swim was over: had swum.",
+   "The trees grew in the years before my visit: had grown.",
+   "\"since …\": I knew him for years before that moment: had known.",
+   "\"By the time I came back\": the drink was gone: had drunk.",
+   "\"already\" when we got there: had chosen.",
+   "\"I was late\": the … rang before I came: had rung.",
+   "\"By the time we got\": three songs were over: had sung."
+  ],
+  "build": [
+   "\"By the time we got\" there, it was shut: had closed.",
+   "The lesson began before I arrived: had started.",
+   "The losing came before my parents were angry: had lost.",
+   "\"By the time the … arrived\": food was ready: had prepared.",
+   "The work came before the tiredness: had worked.",
+   "The tickets went before we got there: had bought.",
+   "It broke first, so I couldn't finish: had stopped.",
+   "\"By the time … came home\": the room was done: had cleaned.",
+   "\"When the teacher checked\": the … was finished: had finished.",
+   "It was empty because of what came first: had drunk.",
+   "\"before\": earlier visits explain why I knew: had been.",
+   "The train went before we arrived: had left.",
+   "The booking came first, so no taxi: had booked.",
+   "\"By the time I found\" it, it was gone: had gone.",
+   "The selling came before they told us: had sold.",
+   "The cat ate first, then I opened the door: had eaten.",
+   "The cold came first, so no party: had caught.",
+   "\"By …\" that time the walking was done: had walked.",
+   "\"since …\" up to that moment, no food: hadn't eaten.",
+   "The planting came first, then the beautiful garden: had planted."
+  ],
+  "transform": [
+   "The film came first, the arrival second: had started.",
+   "The guests went first, then the coming home: had left.",
+   "The eating came before I got there: had eaten.",
+   "The closing came before we got there: had closed.",
+   "The rain stopped first, then we went out: had stopped.",
+   "\"By the time\" needs the earlier action in the past perfect: had eaten.",
+   "In a past story, use had, not has: had … started.",
+   "Sad in the past because of an earlier loss: had, not has: had lost.",
+   "had + past participle: gone, not went.",
+   "had + past participle: forgotten, not forget.",
+   "The train went first: had … left, with already in the middle.",
+   "The lesson began first: had … started, with already in the middle.",
+   "The cooking came first: had … cooked, with already in the middle.",
+   "The … went first: had … gone, with already in the middle.",
+   "The selling came first: had … sold, with already in the middle."
+  ]
+ },
+ "slot": [
+  [
+   "choose",
+   3,
+   "film",
+   "show",
+   [
+    "film",
+    "match",
+    "concert",
+    "play"
+   ]
+  ],
+  [
+   "choose",
+   5,
+   "them",
+   "who",
+   [
+    "them",
+    "my friends",
+    "my cousins",
+    "the class"
+   ]
+  ],
+  [
+   "choose",
+   9,
+   "roads",
+   "what",
+   [
+    "roads",
+    "streets",
+    "fields",
+    "roofs"
+   ]
+  ],
+  [
+   "choose",
+   17,
+   "guests",
+   "who",
+   [
+    "guests",
+    "cousins",
+    "friends",
+    "neighbours"
+   ]
+  ],
+  [
+   "build",
+   4,
+   "guests",
+   "who",
+   [
+    "guests",
+    "cousins",
+    "friends",
+    "neighbours"
+   ]
+  ],
+  [
+   "build",
+   8,
+   "mum",
+   "who",
+   [
+    "mum",
+    "dad",
+    "grandma",
+    "aunt"
+   ]
+  ],
+  [
+   "build",
+   13,
+   "Dad",
+   "who",
+   [
+    "Dad",
+    "Mum",
+    "Grandpa",
+    "my uncle"
+   ]
+  ],
+  [
+   "build",
+   15,
+   "shop assistant",
+   "seller",
+   [
+    "shop assistant",
+    "waiter",
+    "man at the desk",
+    "woman at the counter"
+   ]
+  ],
+  [
+   "transform",
+   13,
+   "mum",
+   "who",
+   [
+    "mum",
+    "dad",
+    "grandma",
+    "sister"
+   ]
+  ],
+  [
+   "transform",
+   14,
+   "guests",
+   "visitors",
+   [
+    "guests",
+    "cousins",
+    "neighbours",
+    "children"
+   ]
+  ],
+  [
+   "choose",
+   12,
+   "",
+   "alarm",
+   [
+    "alarm clock",
+    "phone"
+   ]
+  ],
+  [
+   "choose",
+   19,
+   "",
+   "bell",
+   [
+    "school bell",
+    "first bell"
+   ]
+  ],
+  [
+   "build",
+   12,
+   "",
+   "station",
+   [
+    "train station",
+    "bus station"
+   ]
+  ],
+  [
+   "choose",
+   19,
+   "",
+   "bell",
+   [
+    "last bell"
+   ]
+  ]
+ ]
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

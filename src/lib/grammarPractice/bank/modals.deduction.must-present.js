@@ -17,7 +17,7 @@ export default [
    "must to"
   ],
   "key": 0,
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "Lights on and the … outside: strong evidence, so must.",
   "slots": {
    "car": [
     "car",
@@ -49,7 +49,7 @@ export default [
    "must"
   ],
   "key": 3,
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "So many hours of work: I'm sure she's tired: must.",
   "slots": {
    "n": [
     "twelve",
@@ -81,7 +81,7 @@ export default [
    "can't"
   ],
   "key": 2,
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "No food since then: I'm sure you're hungry: must.",
   "slots": {
    "time": [
     "breakfast",
@@ -113,7 +113,7 @@ export default [
    "mustn't"
   ],
   "key": 1,
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "Everyone in coats: strong evidence about the weather: must.",
   "slots": {
    "item": [
     "hats",
@@ -145,7 +145,7 @@ export default [
    "must to"
   ],
   "key": 0,
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "He speaks it every day: I'm sure he knows it: must.",
   "slots": {
    "lang": [
     "Uzbek",
@@ -177,7 +177,7 @@ export default [
    "must"
   ],
   "key": 3,
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "Three cars and a big house: I'm sure: must.",
   "slots": {
    "city": [
     "Tashkent",
@@ -209,7 +209,7 @@ export default [
    "can't"
   ],
   "key": 2,
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "Closed and dark: the best explanation is a holiday: must.",
   "slots": {
    "shop": [
     "bank",
@@ -241,7 +241,7 @@ export default [
    "mustn't"
   ],
   "key": 1,
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "At the sports place every day: I'm sure she loves it: must.",
   "slots": {
    "place": [
     "gym",
@@ -273,7 +273,7 @@ export default [
    "must to"
   ],
   "key": 0,
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "A long queue every day: I'm sure the food is good: must.",
   "slots": {
    "place": [
     "café",
@@ -305,7 +305,7 @@ export default [
    "must"
   ],
   "key": 3,
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "Smiling at the phone: my best guess, and I'm sure: must be talking.",
   "slots": {
    "who": [
     "cousin",
@@ -337,7 +337,7 @@ export default [
    "can't"
   ],
   "key": 2,
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "After that long walk: I'm sure: must hurt.",
   "slots": {
    "dist": [
     "twenty kilometres",
@@ -369,7 +369,7 @@ export default [
    "mustn't"
   ],
   "key": 1,
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "Crying at that time: I'm sure: must be hungry.",
   "slots": {
    "time": [
     "lunchtime",
@@ -401,7 +401,7 @@ export default [
    "must to"
   ],
   "key": 0,
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "Ten years there: I'm sure he speaks it: must.",
   "slots": {
    "country": [
     "Japan",
@@ -433,7 +433,7 @@ export default [
    "must"
   ],
   "key": 3,
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "\"She always calls at this time\": I'm sure: must.",
   "slots": {
    "who": [
     "mother",
@@ -465,7 +465,7 @@ export default [
    "can't"
   ],
   "key": 2,
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "Old and from Italy: I'm sure it's expensive: must.",
   "slots": {
    "thing": [
     "watch",
@@ -497,7 +497,7 @@ export default [
    "mustn't"
   ],
   "key": 1,
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "Wet streets and …: I'm sure: must be raining.",
   "slots": {
    "item": [
     "umbrellas",
@@ -529,7 +529,7 @@ export default [
    "must to"
   ],
   "key": 0,
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "Singing and dancing fans: I'm sure: must be winning.",
   "slots": {
    "team": [
     "Sunrise FC",
@@ -561,7 +561,7 @@ export default [
    "must"
   ],
   "key": 3,
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "He plays every evening: I'm sure: must love.",
   "slots": {
    "instr": [
     "piano",
@@ -593,7 +593,7 @@ export default [
    "can't"
   ],
   "key": 2,
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "Flowers in every room: I'm sure: must love.",
   "slots": {
    "home": [
     "flat",
@@ -625,7 +625,7 @@ export default [
    "mustn't"
   ],
   "key": 1,
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "At your desk since then: I'm sure: must need.",
   "slots": {
    "time": [
     "eight o'clock",
@@ -652,7 +652,7 @@ export default [
   "instr": "The speaker is sure. Complete with must and the verb in brackets.",
   "source": "Aziz's car is outside the {place}. He ______ (be) inside, {name}.",
   "key": "must be",
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "His car is outside: I'm sure he's inside: must be.",
   "slots": {
    "place": [
     "café",
@@ -679,7 +679,7 @@ export default [
   "instr": "The speaker is sure. Complete with must and the verb in brackets.",
   "source": "You've worked since {time}. You ______ (be) tired, {name}.",
   "key": "must be",
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "Working since early: I'm sure: must be tired.",
   "slots": {
    "time": [
     "six",
@@ -706,7 +706,7 @@ export default [
   "instr": "The speaker is sure. Complete with must and the verb in brackets.",
   "source": "She speaks perfect {lang}. She ______ (be) very good at languages, {name}.",
   "key": "must be",
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "Perfect speech: I'm sure she's good at it: must be.",
   "slots": {
    "lang": [
     "English",
@@ -733,7 +733,7 @@ export default [
   "instr": "The speaker is sure. Complete with must and the verb in brackets.",
   "source": "They eat at that {place} every day. The food there ______ (be) good, {name}.",
   "key": "must be",
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "They eat there every day: I'm sure it's good: must be.",
   "slots": {
    "place": [
     "café",
@@ -760,7 +760,7 @@ export default [
   "instr": "The speaker is sure. Complete with must and the verb in brackets.",
   "source": "He reads {n} books a month. He ______ (love) reading, {name}.",
   "key": "must love",
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "So many books: I'm sure he loves it: must love.",
   "slots": {
    "n": [
     "five",
@@ -787,7 +787,7 @@ export default [
   "instr": "The speaker is sure. Complete with must and the verb in brackets.",
   "source": "Everybody in the {room} is laughing. The film ______ (be) funny, {name}.",
   "key": "must be",
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "Everybody is laughing: I'm sure: must be funny.",
   "slots": {
    "room": [
     "cinema",
@@ -814,7 +814,7 @@ export default [
   "instr": "The speaker is sure. Complete with must and the verb in brackets.",
   "source": "Lola walks through the old town of {city} every morning. She ______ (live) near there, {name}.",
   "key": "must live",
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "She walks there every morning: I'm sure: must live.",
   "slots": {
    "city": [
     "Bukhara",
@@ -841,7 +841,7 @@ export default [
   "instr": "The speaker is sure. Complete with must and the verb in brackets.",
   "source": "The {shop} is full of people. The prices ______ (be) low today, {name}.",
   "key": "must be",
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "Full of people: I'm sure: must be low.",
   "slots": {
    "shop": [
     "bazaar",
@@ -868,7 +868,7 @@ export default [
   "instr": "The speaker is sure. Complete with must and the verb in brackets.",
   "source": "Timur is yawning again at the {place}. He ______ (need) some sleep, {name}.",
   "key": "must need",
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "Yawning again: I'm sure: must need.",
   "slots": {
    "place": [
     "meeting",
@@ -895,7 +895,7 @@ export default [
   "instr": "The speaker is sure. Complete with must and the verb in brackets.",
   "source": "There is snow on all the {thing}. It ______ (be) very cold outside, {name}.",
   "key": "must be",
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "Snow everywhere: I'm sure: must be cold.",
   "slots": {
    "thing": [
     "cars",
@@ -922,7 +922,7 @@ export default [
   "instr": "The speaker is sure. Complete with must and the verb in brackets.",
   "source": "Your sister trains at the {place} every morning. She ______ (be) very fit, {name}.",
   "key": "must be",
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "Training every morning: I'm sure: must be fit.",
   "slots": {
    "place": [
     "gym",
@@ -949,7 +949,7 @@ export default [
   "instr": "The speaker is sure. Complete with must and the verb in brackets.",
   "source": "He has three phones and two {thing}. He ______ (like) technology, {name}.",
   "key": "must like",
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "Three phones: I'm sure: must like.",
   "slots": {
    "thing": [
     "laptops",
@@ -976,7 +976,7 @@ export default [
   "instr": "The speaker is sure. Complete with must and the verb in brackets.",
   "source": "The {who} is shouting at everyone. He ______ (be) angry, {name}.",
   "key": "must be",
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "Shouting at everyone: I'm sure: must be angry.",
   "slots": {
    "who": [
     "boss",
@@ -1003,7 +1003,7 @@ export default [
   "instr": "The speaker is sure. Complete with must and the verb in brackets.",
   "source": "You've just come back from {place}. You ______ (be) glad that you are home, {name}.",
   "key": "must be",
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "Just back from a trip: I'm sure: must be glad.",
   "slots": {
    "place": [
     "a long trip",
@@ -1030,7 +1030,7 @@ export default [
   "instr": "The speaker is sure. Complete with must and the verb in brackets.",
   "source": "Olga always wins at {game}. She ______ (be) very clever, {name}.",
   "key": "must be",
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "She always wins: I'm sure: must be clever.",
   "slots": {
    "game": [
     "chess",
@@ -1057,7 +1057,7 @@ export default [
   "instr": "The speaker is sure. Complete with must and the verb in brackets.",
   "source": "The {pet} is sitting by its bowl. It ______ (want) its dinner, {name}.",
   "key": "must want",
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "Sitting by its bowl: I'm sure: must want.",
   "slots": {
    "pet": [
     "cat",
@@ -1084,7 +1084,7 @@ export default [
   "instr": "The speaker is sure. Complete with must and the verb in brackets.",
   "source": "My uncle has a big farm near {city}. He ______ (work) very hard, {name}.",
   "key": "must work",
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "A big farm: I'm sure: must work hard.",
   "slots": {
    "city": [
     "Fergana",
@@ -1111,7 +1111,7 @@ export default [
   "instr": "The speaker is sure. Complete with must and the verb in brackets.",
   "source": "The {place} is dark and nobody is answering. They ______ (be) on holiday, {name}.",
   "key": "must be",
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "Dark and nobody answers: I'm sure: must be on holiday.",
   "slots": {
    "place": [
     "office",
@@ -1138,7 +1138,7 @@ export default [
   "instr": "The speaker is sure. Complete with must and the verb in brackets.",
   "source": "That {thing} cost five thousand dollars. It ______ (be) very good, {name}.",
   "key": "must be",
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "So expensive: I'm sure: must be good.",
   "slots": {
    "thing": [
     "camera",
@@ -1165,7 +1165,7 @@ export default [
   "instr": "The speaker is sure. Complete with must and the verb in brackets.",
   "source": "Everyone at the {event} is dancing. The music ______ (be) great, {name}.",
   "key": "must be",
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "Everyone is dancing: I'm sure: must be great.",
   "slots": {
    "event": [
     "party",
@@ -1193,7 +1193,7 @@ export default [
   "source": "I'm sure he is at the {place}, {name}.",
   "hint": "He ______ at the {place}, {name}.",
   "key": "must be",
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "I'm sure he is → he must be.",
   "slots": {
    "place": [
     "gym",
@@ -1221,7 +1221,7 @@ export default [
   "source": "I'm sure you are tired after the {trip}, {name}.",
   "hint": "You ______ tired after the {trip}, {name}.",
   "key": "must be",
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "I'm sure you are → you must be.",
   "slots": {
    "trip": [
     "flight",
@@ -1249,7 +1249,7 @@ export default [
   "source": "I'm sure she knows the answer, {name}. She's the best in the {class}.",
   "hint": "She ______ the answer, {name}. She's the best in the {class}.",
   "key": "must know",
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "I'm sure she knows → she must know.",
   "slots": {
    "class": [
     "class",
@@ -1277,7 +1277,7 @@ export default [
   "source": "I'm sure they live near the {place}, {name}.",
   "hint": "They ______ near the {place}, {name}.",
   "key": "must live",
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "I'm sure they live → they must live.",
   "slots": {
    "place": [
     "station",
@@ -1305,7 +1305,7 @@ export default [
   "source": "I'm sure the {shop} is closed now, {name}.",
   "hint": "The {shop} ______ closed now, {name}.",
   "key": "must be",
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "I'm sure it is → it must be.",
   "slots": {
    "shop": [
     "bank",
@@ -1333,7 +1333,7 @@ export default [
   "source": "He must to be at home, {name}. His {car} is outside.",
   "hint": "He ______ at home, {name}. His {car} is outside.",
   "key": "must be",
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "must + base verb, no to: must be.",
   "slots": {
    "car": [
     "car",
@@ -1361,7 +1361,7 @@ export default [
   "source": "She must is tired. She worked for {n} hours, {name}.",
   "hint": "She ______ tired. She worked for {n} hours, {name}.",
   "key": "must be",
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "must + base verb, not is: must be.",
   "slots": {
    "n": [
     "twelve",
@@ -1389,7 +1389,7 @@ export default [
   "source": "They must knowing the way. They live in {city}, {name}.",
   "hint": "They ______ the way. They live in {city}, {name}.",
   "key": "must know",
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "must + base verb, not -ing: must know.",
   "slots": {
    "city": [
     "Bukhara",
@@ -1417,7 +1417,7 @@ export default [
   "source": "It musts be cold outside. Everyone is wearing {item}, {name}.",
   "hint": "It ______ cold outside. Everyone is wearing {item}, {name}.",
   "key": "must be",
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "must never takes -s: must be.",
   "slots": {
    "item": [
     "hats",
@@ -1445,7 +1445,7 @@ export default [
   "source": "You must are hungry. You've had nothing since {time}, {name}.",
   "hint": "You ______ hungry. You've had nothing since {time}, {name}.",
   "key": "must be",
-  "why": "The speaker is sure, from the evidence: must + base verb.",
+  "why": "must + base verb, not are: must be.",
   "slots": {
    "time": [
     "breakfast",
@@ -1473,7 +1473,7 @@ export default [
   "source": "I'm sure she is working at the {place} now, {name}.",
   "hint": "She ______ at the {place} now, {name}.",
   "key": "must be working",
-  "why": "The speaker is sure about something happening now: must be + -ing.",
+  "why": "I'm sure she is working now → must be working.",
   "slots": {
    "place": [
     "hospital",
@@ -1501,7 +1501,7 @@ export default [
   "source": "I'm sure it is raining in {city}, {name}.",
   "hint": "It ______ in {city}, {name}.",
   "key": "must be raining",
-  "why": "The speaker is sure about something happening now: must be + -ing.",
+  "why": "I'm sure it is raining now → must be raining.",
   "slots": {
    "city": [
     "London",
@@ -1529,7 +1529,7 @@ export default [
   "source": "I'm sure they are sleeping. The {room} is dark, {name}.",
   "hint": "They ______. The {room} is dark, {name}.",
   "key": "must be sleeping",
-  "why": "The speaker is sure about something happening now: must be + -ing.",
+  "why": "I'm sure they are sleeping now → must be sleeping.",
   "slots": {
    "room": [
     "flat",
@@ -1557,7 +1557,7 @@ export default [
   "source": "I'm sure he is joking about the {thing}, {name}.",
   "hint": "He ______ about the {thing}, {name}.",
   "key": "must be joking",
-  "why": "The speaker is sure about something happening now: must be + -ing.",
+  "why": "I'm sure he is joking now → must be joking.",
   "slots": {
    "thing": [
     "test",
@@ -1585,7 +1585,7 @@ export default [
   "source": "I'm sure you are waiting for the {bus}, {name}.",
   "hint": "You ______ for the {bus}, {name}.",
   "key": "must be waiting",
-  "why": "The speaker is sure about something happening now: must be + -ing.",
+  "why": "I'm sure you are waiting now → must be waiting.",
   "slots": {
    "bus": [
     "bus",

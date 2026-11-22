@@ -4,279 +4,279 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 ## choose (20)
 
-1. Last week **Timur** said, 'I'll call you tomorrow.' He said he ______ call me the next day.  
+1. Last week **Timur** said, 'I'll **text** you tomorrow.' He said he ______ **text** me the next day.  
    options: ✔ would · will · would to · will be  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: 'I'll' in a past report: will → would.
 
-2. On Monday **Madina** said, 'I'll bring the **cake**.' She said she ______ bring the **cake**.  
+2. On Monday **Olga** said, 'I'll bring the **cake**.' She said she ______ bring the **cake**.  
    options: will · would to · will be · ✔ would  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: 'I'll bring' reported: would bring.
 
-3. Last year the **headteacher** said, 'The **metro station** will open in May.' He said the **metro station** ______ open in May. It opened in June.  
+3. Last year the **director** said, 'The **park** will open in May.' He said the **park** ______ open in May. It opened in June.  
    options: would to · will be · ✔ would · will  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: 'will open' reported, and it already happened: would.
 
-4. Last year **Bekzod** said, 'I'll learn **Korean**.' He said he ______ learn **Korean**.  
+4. Last year **Aziz** said, 'I'll learn **German**.' He said he ______ learn **German**.  
    options: will be · ✔ would · will · would to  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: 'I'll learn' reported last year: would.
 
-5. Last week my **brothers** said, 'We'll help you move.' They said they ______ help me move.  
+5. Last week my **neighbours** said, 'We'll help you **paint**.' They said they ______ help me **paint**.  
    options: ✔ would · will · would to · will be  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: 'We'll help' reported: would.
 
-6. Last month **Madina** said, 'It will rain in **Samarkand** at the weekend.' She said it ______ rain in **Samarkand** that weekend.  
+6. Last month **Lola** said, 'It will rain in **Bukhara** at the weekend.' She said it ______ rain in **Bukhara** that weekend.  
    options: will · would to · will be · ✔ would  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: 'It will rain' reported: would.
 
-7. Last month the **manager** said, 'Prices will go up.' He said prices ______ go up. They went up in June.  
+7. Last month the **baker** said, 'Prices will go up.' He said prices ______ go up. They went up in **June**.  
    options: would to · will be · ✔ would · will  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: 'will go up' reported: would.
 
-8. Last winter **Rustam** said, 'I'll fix the **heater** soon.' He said he ______ fix the **heater** soon.  
+8. Last winter **Timur** said, 'I'll fix the **roof** soon.' He said he ______ fix the **roof** soon.  
    options: will be · ✔ would · will · would to  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: 'I'll fix' reported: would.
 
-9. Last week **Olga** said, 'I won't be late.' She said she ______ be late for the **meeting**.  
+9. Last week **Madina** said, 'I won't be late.' She said she ______ be late for the **wedding**.  
    options: ✔ wouldn't · won't · wouldn't to · didn't  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: 'I won't be late' reported: won't → wouldn't.
 
-10. On Sunday **Aziz** said, 'I won't tell anyone.' He said he ______ tell anyone about the **plan**.  
+10. On Sunday **Bekzod** said, 'I won't tell anyone.' He said he ______ tell anyone about the **gift**.  
    options: won't · wouldn't to · didn't · ✔ wouldn't  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: 'I won't tell' reported: wouldn't.
 
-11. Last month the **doctor** said, 'It won't take long.' She said it ______ take long.  
+11. Last **month** the **doctor** said, 'It won't take long.' She said it ______ take long.  
    options: wouldn't to · didn't · ✔ wouldn't · won't  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: 'It won't take long' reported: wouldn't.
 
-12. Last year my **neighbours** said, 'We won't sell the **car**.' They said they ______ sell the **car**. But they sold it this spring.  
+12. Last year my **uncles** said, 'We won't sell the **piano**.' They said they ______ sell the **piano**. But they sold it this spring.  
    options: didn't · ✔ wouldn't · won't · wouldn't to  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: 'We won't sell' reported: wouldn't.
 
-13. Last week **Aziz** said, 'I'll come tomorrow.' He said he would come ______.  
+13. Last week **Aziz** said, 'I'll **call** tomorrow.' He said he would **call** ______.  
    options: ✔ the next day · tomorrow · yesterday · the day before  
-   why: Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.
+   why: tomorrow, seen from later: the next day.
 
-14. On Monday **Olga** said, 'I'll send the **ticket** tomorrow.' She said she would send the **ticket** ______.  
+14. On Monday **Sevara** said, 'I'll send the **report** tomorrow.' She said she would send the **report** ______.  
    options: tomorrow · yesterday · the day before · ✔ the next day  
-   why: Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.
+   why: tomorrow in a past report: the next day.
 
-15. Last month **Rustam** said, 'I'll visit you next week.' He said he would visit me ______.  
+15. Last month **Timur** said, 'I'll **see** you next week.' He said he would **see** me ______.  
    options: last week · the week before · ✔ the following week · next week  
-   why: Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.
+   why: next week, seen from later: the following week.
 
-16. In May the **teacher** said, 'The **exam** will be next week.' She said the **exam** would be ______.  
+16. In May the **coach** said, 'The **exam** will be next week.' She said the **exam** would be ______.  
    options: the week before · ✔ the following week · next week · last week  
-   why: Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.
+   why: next week in a past report: the following week.
 
-17. Last Friday **Sevara** said, 'I'll phone you tonight.' She said she would phone me ______.  
+17. Last Friday **Olga** said, 'I'll **email** you tonight.' She said she would **email** me ______.  
    options: ✔ that night · tonight · last night · the night before  
-   why: Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.
+   why: tonight, seen from later: that night.
 
-18. Last week **Aziz** said, 'We'll watch the **match** tonight.' He said they would watch the **match** ______.  
+18. Last week **Timur** said, 'We'll watch the **film** tonight.' He said they would watch the **film** ______.  
    options: tonight · last night · the night before · ✔ that night  
-   why: Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.
+   why: tonight in a past report: that night.
 
-19. Last week **Madina** said, 'I'll finish the **project** today.' She said she would finish the **project** ______.  
+19. Last week **Madina** said, 'I'll finish the **essay** today.' She said she would finish the **essay** ______.  
    options: yesterday · the day after · ✔ that day · today  
-   why: Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.
+   why: today, seen from later: that day.
 
-20. On Monday **Timur** said, 'I'll pay you today.' He said he would pay me ______.  
+20. On Monday **Aziz** said, 'I'll **text** you today.' He said he would **text** me ______.  
    options: the day after · ✔ that day · today · yesterday  
-   why: Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.
+   why: today in a past report: that day.
 
 ## build (20)
 
 1. _Report it later. Change will to would (won't to wouldn't) and use the verb in brackets._  
-   Last week **Aziz** said he ______ (will / call) me soon.  
+   Last week **Timur** said he ______ (will / call) me **later**.  
    key: would call  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: will call in a past report: would call.
 
 2. _Report it later. Change will to would (won't to wouldn't) and use the verb in brackets._  
-   On Monday **Sevara** said she ______ (will / bring) the **music**.  
+   On Monday **Olga** said she ______ (will / bring) the **drinks**.  
    key: would bring  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: will bring in a past report: would bring.
 
 3. _Report it later. Change will to would (won't to wouldn't) and use the verb in brackets._  
-   Last year the **headteacher** said the **park** ______ (will / open) in May. It opened in June.  
+   Last year the **headteacher** said the **hospital** ______ (will / open) in May. It opened in June.  
    key: would open  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: will open, and it opened later: would open.
 
 4. _Report it later. Change will to would (won't to wouldn't) and use the verb in brackets._  
    Last year **Timur** said he ______ (will / learn) **Korean**.  
    key: would learn  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: will learn in a past report: would learn.
 
 5. _Report it later. Change will to would (won't to wouldn't) and use the verb in brackets._  
-   Last week my **brothers** said they ______ (will / help) me move.  
+   Last week my **neighbours** said they ______ (will / help) me **paint**.  
    key: would help  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: will help in a past report: would help.
 
 6. _Report it later. Change will to would (won't to wouldn't) and use the verb in brackets._  
-   Last month **Lola** said it ______ (will / rain) in **Samarkand** that weekend.  
+   Last month **Sevara** said it ______ (will / rain) in **Fergana** that weekend.  
    key: would rain  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: will rain in a past report: would rain.
 
 7. _Report it later. Change will to would (won't to wouldn't) and use the verb in brackets._  
-   Last month the **shopkeeper** said prices ______ (will / go) up. They went up in June.  
+   Last month the **shopkeeper** said prices ______ (will / go) up. They went up in **June**.  
    key: would go  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: will go up, and they did: would go.
 
 8. _Report it later. Change will to would (won't to wouldn't) and use the verb in brackets._  
-   Last winter **Rustam** said he ______ (will / fix) the **roof** soon.  
+   Last winter **Timur** said he ______ (will / fix) the **roof** soon.  
    key: would fix  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: will fix in a past report: would fix.
 
 9. _Report it later. Change will to would (won't to wouldn't) and use the verb in brackets._  
-   In June **Sevara** said she ______ (will / meet) us at the **airport**.  
+   In June **Olga** said she ______ (will / meet) us at the **airport**.  
    key: would meet  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: will meet in a past report: would meet.
 
 10. _Report it later. Change will to would (won't to wouldn't) and use the verb in brackets._  
-   Before the match, **Aziz** said **Green Valley** ______ (will / win).  
+   Before the match, **Bekzod** said **Green Valley** ______ (will / win).  
    key: would win  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: will win, said before the match: would win.
 
 11. _Report it later. Change will to would (won't to wouldn't) and use the verb in brackets._  
-   Last week **Lola** said she ______ (won't / be) late for the **match**.  
+   Last week **Sevara** said she ______ (won't / be) late for the **meeting**.  
    key: wouldn't be  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: won't be in a past report: wouldn't be.
 
 12. _Report it later. Change will to would (won't to wouldn't) and use the verb in brackets._  
-   On Sunday **Bekzod** said he ______ (won't / tell) anyone about the **party**.  
+   On Sunday **Timur** said he ______ (won't / tell) anyone about the **gift**.  
    key: wouldn't tell  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: won't tell in a past report: wouldn't tell.
 
 13. _Report it later. Change will to would (won't to wouldn't) and use the verb in brackets._  
-   Last month the **doctor** said it ______ (won't / take) long.  
+   Last **summer** the **teacher** said it ______ (won't / take) long.  
    key: wouldn't take  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: won't take in a past report: wouldn't take.
 
 14. _Report it later. Change will to would (won't to wouldn't) and use the verb in brackets._  
-   Last year my **grandparents** said they ______ (won't / sell) the **house**. But they sold it this spring.  
+   Last year my **grandparents** said they ______ (won't / sell) the **car**. But they sold it this spring.  
    key: wouldn't sell  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: won't sell, but they sold it: wouldn't sell.
 
 15. _Report it later. Change the time word in brackets._  
-   Last week **Aziz** said he would come ______ (tomorrow).  
+   Last week **Timur** said he would **come** ______ (tomorrow).  
    key: the next day (also: the following day)  
-   why: Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.
+   why: tomorrow, told later: the next day.
 
 16. _Report it later. Change the time word in brackets._  
-   On Monday **Lola** said she would send my **email** ______ (tomorrow).  
+   On Monday **Madina** said she would send my **report** ______ (tomorrow).  
    key: the next day (also: the following day)  
-   why: Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.
+   why: tomorrow, reported on Monday: the next day.
 
 17. _Report it later. Change the time word in brackets._  
-   Last month **Bekzod** said he would visit me ______ (next week).  
+   Last month **Timur** said he would **help** me ______ (next week).  
    key: the following week (also: the next week)  
-   why: Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.
+   why: next week, told later: the following week.
 
 18. _Report it later. Change the time word in brackets._  
-   Last Friday **Sevara** said she would phone me ______ (tonight).  
+   Last Friday **Sevara** said she would **email** me ______ (tonight).  
    key: that night  
-   why: Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.
+   why: tonight, told later: that night.
 
 19. _Report it later. Change the time word in brackets._  
-   Last week **Lola** said she would finish her **essay** ______ (today).  
+   Last week **Sevara** said she would finish her **painting** ______ (today).  
    key: that day  
-   why: Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.
+   why: today, told later: that day.
 
 20. _Report it later. Change the time word in brackets._  
-   On Monday **Timur** said he would pay me ______ (today).  
+   On Monday **Bekzod** said he would **call** me ______ (today).  
    key: that day  
-   why: Reported later, the time word moves too: tomorrow → the next day, next week → the following week, tonight → that night, today → that day.
+   why: today, reported on Monday: that day.
 
 ## transform (15)
 
 1. _Report the promise. Change the pronoun and will._  
-   'I'll help you with the **cooking**,' **Lola** said last week.  
-   → Last week **Lola** said that she ______ with the **cooking**.  
+   'I'll help you with the **move**,' **Madina** said last week.  
+   → Last week **Madina** said that she ______ with the **move**.  
    key: would help me  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: I'll help you → she would help me.
 
 2. _Report the promise. Change the pronoun and will._  
    'I'll lend you my **bike**,' **Timur** said last month.  
    → Last month **Timur** said that he ______ his **bike**.  
    key: would lend me  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: I'll lend you → he would lend me.
 
 3. _Report the promise. Change the pronoun and will._  
-   'We'll call you from **Moscow**,' my **friends** said last week.  
-   → Last week my **friends** said that they ______ from **Moscow**.  
+   'We'll call you from **Istanbul**,' my **parents** said last week.  
+   → Last week my **parents** said that they ______ from **Istanbul**.  
    key: would call me  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: We'll call you → they would call me.
 
 4. _Report the promise. Change the pronoun and will._  
-   'I won't forget your **birthday**,' **Bekzod** said last year.  
-   → Last year **Bekzod** said that he ______ my **birthday**.  
+   'I won't forget your **number**,' **Bekzod** said last year.  
+   → Last year **Bekzod** said that he ______ my **number**.  
    key: wouldn't forget  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: I won't forget → he wouldn't forget.
 
 5. _Report the promise. Change the pronoun and will._  
    'I'll wait for you at the **bus stop**,' **Lola** said on Monday.  
    → On Monday **Lola** said that she ______ for me at the **bus stop**.  
    key: would wait  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: I'll wait → she would wait.
 
 6. _Correct the mistake. It was said last week._  
-   Last week **Rustam** said he will call me from the **hotel** the next day.  
-   → Last week **Rustam** said he ______ call me from the **hotel** the next day.  
+   Last week **Aziz** said he will call me from the **station** the next day.  
+   → Last week **Aziz** said he ______ call me from the **station** the next day.  
    key: would  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: Past report: will → would.
 
 7. _Correct the mistake. It was said last week._  
-   Last month **Sevara** said she would visit us in **Termez** next week.  
-   → Last month **Sevara** said she would visit us in **Termez** ______.  
+   Last month **Madina** said she would visit us in **Bukhara** next week.  
+   → Last month **Madina** said she would visit us in **Bukhara** ______.  
    key: the following week  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: Past report: next week → the following week.
 
 8. _Correct the mistake. It was said last week._  
-   On Monday **Bekzod** said he would finish his **project** tomorrow.  
-   → On Monday **Bekzod** said he would finish his **project** ______.  
+   On Monday **Aziz** said he would finish his **painting** tomorrow.  
+   → On Monday **Aziz** said he would finish his **painting** ______.  
    key: the next day  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: Past report: tomorrow → the next day.
 
 9. _Correct the mistake. It was said last week._  
-   Last week **Madina** said she won't be late for the **wedding**.  
-   → Last week **Madina** said she ______ be late for the **wedding**.  
+   Last week **Lola** said she won't be late for the **match**.  
+   → Last week **Lola** said she ______ be late for the **match**.  
    key: wouldn't  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: Past report: won't → wouldn't.
 
 10. _Correct the mistake. It was said last week._  
-   Last Friday **Timur** said he would phone me from **Bukhara** tonight.  
-   → Last Friday **Timur** said he would phone me from **Bukhara** ______.  
+   Last Friday **Bekzod** said he would phone me from **Bukhara** tonight.  
+   → Last Friday **Bekzod** said he would phone me from **Bukhara** ______.  
    key: that night  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: Past report: tonight → that night.
 
 11. _Report it. Change will and the time word._  
-   'I'll come to the **wedding** tonight,' **Aziz** said last week.  
-   → Last week **Aziz** said he ______ come to the **wedding** ______.  
+   'I'll come to the **meeting** tonight,' **Aziz** said last week.  
+   → Last week **Aziz** said he ______ come to the **meeting** ______.  
    key: would + that night  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: I'll … tonight → would … that night.
 
 12. _Report it. Change will and the time word._  
-   'We'll visit you in **Khiva** today,' my **cousins** said on Monday.  
-   → On Monday my **cousins** said they ______ visit me in **Khiva** ______.  
+   'We'll visit you in **Bukhara** today,' my **neighbours** said on Monday.  
+   → On Monday my **neighbours** said they ______ visit me in **Bukhara** ______.  
    key: would + that day  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: We'll … today → would … that day.
 
 13. _Report it. Change will and the time word._  
-   'I'll phone you from the **hotel** tonight,' **Lola** said on Friday.  
-   → On Friday **Lola** said she ______ phone me from the **hotel** ______.  
+   'I'll phone you from the **office** tonight,' **Olga** said on Friday.  
+   → On Friday **Olga** said she ______ phone me from the **office** ______.  
    key: would + that night  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: I'll phone … tonight → would phone … that night.
 
 14. _Report it. Change will and the time word._  
-   'I'll pay you for the **food** today,' **Aziz** said on Monday.  
-   → On Monday **Aziz** said he ______ pay me for the **food** ______.  
+   'I'll pay you for the **taxi** today,' **Bekzod** said on Monday.  
+   → On Monday **Bekzod** said he ______ pay me for the **taxi** ______.  
    key: would + that day  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: I'll pay … today → would pay … that day.
 
 15. _Report it. Change will and the time word._  
-   'The **match** will be tonight,' the **director** said last week.  
-   → Last week the **director** said the **match** ______ be ______.  
+   'The **match** will be tonight,' the **manager** said last week.  
+   → Last week the **manager** said the **match** ______ be ______.  
    key: would + that night  
-   why: Reported later: will → would (won't → wouldn't), and tomorrow → the next day.
+   why: will be tonight → would be that night.
 
 ## create (8)
 

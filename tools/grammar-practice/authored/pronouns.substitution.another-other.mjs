@@ -144,5 +144,163 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/pronouns.substitution.another-other.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "\"This one is dirty\": one more of the same kind: another.",
+   "\"still hungry\": one more: another.",
+   "A number + days after the gap: another + number.",
+   "\"I don't like this\": a different one: another.",
+   "Offering one more drink: another.",
+   "He missed one, so he waited for one more: another.",
+   "One more good idea, singular: another.",
+   "Mine broke, so one more, a new one: another.",
+   "other + plural noun people: other.",
+   "any + plural noun colours: other.",
+   "some + plural noun cities: other.",
+   "any + plural noun questions: other.",
+   "two + plural noun languages: other.",
+   "any + plural noun students: other.",
+   "Plural noun ways after the gap: other.",
+   "No noun after it: the rest of my friends: others.",
+   "\"Be kind to …\": people in general, no noun: others.",
+   "No noun after it: the rest of the …: others.",
+   "No noun after it: other books: others.",
+   "Some speak one language; the rest, no noun: others."
+  ],
+  "build": [
+   "\"This one doesn't work\": one more: another.",
+   "\"I'm busy on …\": a different day: another.",
+   "One more film, singular: another.",
+   "One more …, singular: another.",
+   "One more drink, singular: another.",
+   "One more exam, singular: another.",
+   "One more chance, singular: another.",
+   "Plural noun sports: other.",
+   "any + plural noun ideas: other.",
+   "many + plural noun countries: other.",
+   "any + plural noun songs: other.",
+   "some + plural noun ways: other.",
+   "any + plural noun plans: other.",
+   "some + plural noun boys: other.",
+   "No noun after it: other children: others.",
+   "Some are new; the rest of them, no noun: others.",
+   "\"what … think\": other people, no noun: others.",
+   "\"Help … when you can\": other people, no noun: others.",
+   "No noun after it: the rest of the shops: others.",
+   "No noun after it: other ones: others."
+  ],
+  "transform": [
+   "Singular noun: another, not other.",
+   "Before a noun, other has no -s: Other people.",
+   "Plural noun books: other, not another.",
+   "another is one word: another way.",
+   "No noun after it: others, not other.",
+   "one more + singular food = another.",
+   "one more day = another day.",
+   "Wait for one more = wait for another.",
+   "There's one more = there's another.",
+   "two more days = another two days.",
+   "different colours = other colours.",
+   "Some students …; the rest, no noun: others.",
+   "different people = other people.",
+   "Some days …; the rest, no noun: others.",
+   "more questions = other questions."
+  ]
+ },
+ "slot": [
+  [
+   "choose",
+   3,
+   "two",
+   "n",
+   [
+    "two",
+    "three",
+    "four",
+    "five"
+   ]
+  ],
+  [
+   "choose",
+   8,
+   "phone",
+   "dev",
+   [
+    "phone",
+    "watch",
+    "umbrella",
+    "bike"
+   ]
+  ],
+  [
+   "choose",
+   9,
+   "coffee",
+   "drink2",
+   [
+    "coffee",
+    "juice",
+    "milk",
+    "cocoa"
+   ]
+  ],
+  [
+   "choose",
+   11,
+   "trip",
+   "trip",
+   [
+    "trip",
+    "holiday",
+    "journey",
+    "tour"
+   ]
+  ],
+  [
+   "choose",
+   16,
+   "chess",
+   "game",
+   [
+    "chess",
+    "cards",
+    "draughts",
+    "board games"
+   ]
+  ],
+  [
+   "choose",
+   18,
+   "guests",
+   "who",
+   [
+    "guests",
+    "friends",
+    "cousins",
+    "students"
+   ]
+  ]
+ ]
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${out} — ${items.length} items`);

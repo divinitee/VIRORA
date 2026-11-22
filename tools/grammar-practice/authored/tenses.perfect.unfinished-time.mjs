@@ -150,5 +150,349 @@ for (const [st, m, acc] of AUDIT_ACC) {
   for (const it of hit) it.acceptable = [...new Set([...(it.acceptable || []), ...acc])];
 }
 const out = "content/grammar-practice/tenses.perfect.unfinished-time.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "\"So far\" + this period is not over: have sent.",
+   "\"So far today\": the day goes on: has drunk.",
+   "\"So far\" means up to now: have read.",
+   "\"so far this season\": the season goes on: has scored.",
+   "\"so far\" + this period: have spent.",
+   "\"so far this …\" is unfinished time: has rained.",
+   "\"So far\": the period isn't over: have seen.",
+   "\"Up to now … today\": has called.",
+   "\"So far today\" + I'm hungry now: have eaten.",
+   "\"So far this …\": she may visit again: has visited.",
+   "\"So far this term\": the term goes on: have written.",
+   "\"so far this season\": every … up to now: has won.",
+   "\"Up to now\": more cakes may come: have made.",
+   "\"So far\": still learning: have learned.",
+   "\"So far\": the shop is still selling: has sold.",
+   "\"So far … any\": none up to now: haven't had.",
+   "\"Up to now … once\": hasn't been late.",
+   "\"So far today … Is she ill?\": haven't seen.",
+   "\"So far this …\" every day up to now: has ridden.",
+   "\"Up to now … on this trip\": the trip goes on: have taken."
+  ],
+  "build": [
+   "\"So far today\": the day isn't over: have drunk.",
+   "The period isn't over (so far this …): has rained.",
+   "\"so far this …\": have spent.",
+   "\"so far today\": she is still writing: has written.",
+   "\"Up to now\": still watching: have watched.",
+   "\"So far this season\": more goals may come: has scored.",
+   "\"So far this …\": have met.",
+   "\"so far this …\": she may cook it again: has cooked.",
+   "\"the … isn't over\": have run.",
+   "\"Up to now … today\": has sent.",
+   "\"so far on this trip\": still travelling: have visited.",
+   "\"So far this …\": has been.",
+   "\"yet\" and \"already\": the morning isn't over for …: haven't had.",
+   "\"So far today … Is he OK?\": hasn't called.",
+   "\"this morning\" is over (\"Now it's …\"): past simple saw.",
+   "\"this morning\" is over (\"Now it's …\"): past simple drank.",
+   "\"this morning\" is over (\"Now it's night\"): past simple ate.",
+   "\"this morning\" is over (\"It's late afternoon now\"): called.",
+   "\"at noon today\" and now it's later: past simple finished.",
+   "\"this morning\" is over (\"It's evening now\"): went."
+  ],
+  "transform": [
+   "\"last month\" → \"so far this month\": have read.",
+   "\"last …\" → \"so far this …\": have had.",
+   "\"last year\" → \"so far this year\": has made.",
+   "\"last …\" → \"so far this …\": has won.",
+   "\"last winter\" → \"so far this winter\": has snowed.",
+   "\"So far today\" needs the present perfect, not drank: have drunk.",
+   "\"Up to now\" needs the present perfect, not visits: has visited.",
+   "\"So far this …\" needs have had, not had.",
+   "\"So far this season\" needs has won, not had won.",
+   "\"so far\" + negative: hasn't called, not doesn't call.",
+   "Answer with \"so far\": the day goes on: have sent.",
+   "Answer with \"so far\": the day goes on: has had.",
+   "Answer with \"so far\": the week goes on: have learned.",
+   "Answer with \"so far\": it may rain again: has rained.",
+   "Answer with \"so far\": the year goes on: have played."
+  ]
+ },
+ "slot": [
+  [
+   "choose",
+   9,
+   "very hungry",
+   "feel",
+   [
+    "very hungry",
+    "still hungry",
+    "so hungry",
+    "really hungry"
+   ]
+  ],
+  [
+   "choose",
+   18,
+   "school",
+   "place",
+   [
+    "school",
+    "the gym",
+    "the library",
+    "work"
+   ]
+  ],
+  [
+   "choose",
+   19,
+   "bike",
+   "vehicle",
+   [
+    "bike",
+    "scooter",
+    "motorbike",
+    "electric bike"
+   ]
+  ],
+  [
+   "build",
+   2,
+   "every day",
+   "often",
+   [
+    "every day",
+    "every afternoon",
+    "most days",
+    "every morning"
+   ]
+  ],
+  [
+   "build",
+   9,
+   "race",
+   "event",
+   [
+    "race",
+    "marathon",
+    "fun run",
+    "training"
+   ]
+  ],
+  [
+   "build",
+   13,
+   "breakfast",
+   "meal",
+   [
+    "breakfast",
+    "a coffee",
+    "a snack",
+    "a proper meal"
+   ]
+  ],
+  [
+   "build",
+   14,
+   "OK",
+   "state",
+   [
+    "OK",
+    "ill",
+    "busy",
+    "angry with me"
+   ]
+  ],
+  [
+   "build",
+   15,
+   "evening",
+   "later",
+   [
+    "evening",
+    "night",
+    "late afternoon",
+    "nine o'clock"
+   ]
+  ],
+  [
+   "build",
+   18,
+   "eight",
+   "early",
+   [
+    "eight",
+    "seven",
+    "half past seven",
+    "nine"
+   ]
+  ],
+  [
+   "build",
+   20,
+   "father",
+   "who",
+   [
+    "father",
+    "uncle",
+    "grandfather",
+    "brother"
+   ]
+  ],
+  [
+   "transform",
+   8,
+   "good",
+   "adj",
+   [
+    "good",
+    "sunny",
+    "cold",
+    "rainy"
+   ]
+  ],
+  [
+   "choose",
+   6,
+   "",
+   "period",
+   [
+    "year"
+   ]
+  ],
+  [
+   "build",
+   2,
+   "",
+   "period",
+   [
+    "year"
+   ]
+  ],
+  [
+   "build",
+   3,
+   "",
+   "period",
+   [
+    "year"
+   ]
+  ],
+  [
+   "build",
+   8,
+   "",
+   "period",
+   [
+    "year"
+   ]
+  ],
+  [
+   "build",
+   8,
+   "",
+   "n",
+   [
+    "five"
+   ]
+  ],
+  [
+   "transform",
+   2,
+   "",
+   "period",
+   [
+    "year"
+   ]
+  ],
+  [
+   "transform",
+   4,
+   "",
+   "period",
+   [
+    "year"
+   ]
+  ],
+  [
+   "transform",
+   7,
+   "",
+   "period",
+   [
+    "year"
+   ]
+  ],
+  [
+   "transform",
+   14,
+   "",
+   "period",
+   [
+    "year"
+   ]
+  ],
+  [
+   "transform",
+   12,
+   "",
+   "drink",
+   [
+    "black tea"
+   ]
+  ],
+  [
+   "build",
+   5,
+   "",
+   "period",
+   [
+    "this month"
+   ]
+  ],
+  [
+   "build",
+   8,
+   "",
+   "period",
+   [
+    "summer"
+   ]
+  ],
+  [
+   "transform",
+   4,
+   "",
+   "period",
+   [
+    "summer"
+   ]
+  ],
+  [
+   "transform",
+   7,
+   "",
+   "period",
+   [
+    "summer"
+   ]
+  ]
+ ]
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

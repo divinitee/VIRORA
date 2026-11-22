@@ -138,5 +138,187 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/questions-negation.tag-questions.basic-tag.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "Positive \"You live\", no helper: negative tag with do: don't you.",
+   "Positive \"works\" (she): doesn't she.",
+   "Positive \"play\" (they): don't they.",
+   "Positive past \"saw\": didn't you.",
+   "Positive past \"called\" (she): didn't she.",
+   "Positive \"is\": negative tag: isn't it.",
+   "Positive \"were\": weren't they.",
+   "Positive \"can\": can't he.",
+   "Positive \"'ll\" (will): won't you.",
+   "Positive \"'ve\" (have): haven't we.",
+   "Negative \"isn't\": positive tag: is she.",
+   "Negative \"don't\": positive tag: do you.",
+   "Negative \"doesn't\": positive tag: does he.",
+   "Negative \"didn't\": positive tag: did they.",
+   "Negative \"wasn't\": positive tag: was it.",
+   "Negative \"can't\": positive tag: can you.",
+   "Negative \"aren't\": positive tag: are they.",
+   "Negative \"won't\": positive tag: will it.",
+   "Negative \"haven't got\": positive tag: have we.",
+   "Negative \"There isn't\": tag uses there: is there."
+  ],
+  "build": [
+   "\"lives\" (she), no helper: doesn't she.",
+   "\"works\" (he), no helper: doesn't he.",
+   "\"opens\" (it), no helper: doesn't it.",
+   "Past \"liked\": didn't they.",
+   "Past \"was\" (he): wasn't he.",
+   "\"is\" (it): isn't it.",
+   "\"are\" (they): aren't they.",
+   "\"can\" (she): can't she.",
+   "\"will be\" (it): won't it.",
+   "\"have got\" (they): haven't they.",
+   "\"isn't\" (he): is he.",
+   "\"doesn't like\" (she): does she.",
+   "\"didn't eat\" (they): did they.",
+   "\"wasn't\" (it): was it.",
+   "\"can't\" (she): can she.",
+   "\"aren't\" (they): are they.",
+   "\"doesn't stop\" (it): does it.",
+   "\"won't\" (he): will he.",
+   "\"hasn't seen\" (he): has he.",
+   "\"weren't\" (they): were they."
+  ],
+  "transform": [
+   "\"works\" has no be: tag with does: doesn't she.",
+   "\"went\" is past: didn't he.",
+   "\"is broken\": tag with be: isn't it.",
+   "Negative sentence: positive tag: are they.",
+   "Negative sentence: positive tag: can she.",
+   "Positive tag → negative sentence: doesn't, does he.",
+   "Positive tag → negative sentence: isn't, is she.",
+   "Positive tag → negative sentence: didn't, did they.",
+   "Positive tag → negative sentence: won't, will they.",
+   "Positive tag → negative sentence: wasn't, was it.",
+   "Negative tag → positive sentence: lives, doesn't she.",
+   "Negative tag → positive sentence: called, didn't he.",
+   "Negative tag → positive sentence: is, isn't it.",
+   "Negative tag → positive sentence: can, can't they.",
+   "Negative tag → positive sentence: were, weren't they."
+  ]
+ },
+ "slot": [
+  [
+   "choose",
+   3,
+   "Saturdays",
+   "days",
+   [
+    "Saturdays",
+    "Sundays",
+    "Fridays",
+    "Mondays"
+   ]
+  ],
+  [
+   "choose",
+   13,
+   "brother",
+   "rel",
+   [
+    "brother",
+    "uncle",
+    "dad",
+    "grandpa"
+   ]
+  ],
+  [
+   "build",
+   2,
+   "brother",
+   "rel",
+   [
+    "brother",
+    "uncle",
+    "dad",
+    "grandpa"
+   ]
+  ],
+  [
+   "build",
+   7,
+   "cousins",
+   "who",
+   [
+    "cousins",
+    "neighbours",
+    "friends",
+    "teachers"
+   ]
+  ],
+  [
+   "build",
+   9,
+   "train",
+   "veh",
+   [
+    "train",
+    "bus",
+    "plane",
+    "ferry"
+   ]
+  ],
+  [
+   "build",
+   10,
+   "grandparents",
+   "who",
+   [
+    "grandparents",
+    "neighbours",
+    "cousins",
+    "parents"
+   ]
+  ],
+  [
+   "build",
+   12,
+   "sister",
+   "rel",
+   [
+    "sister",
+    "aunt",
+    "mum",
+    "grandma"
+   ]
+  ],
+  [
+   "build",
+   13,
+   "children",
+   "kids",
+   [
+    "children",
+    "boys",
+    "girls",
+    "twins"
+   ]
+  ]
+ ]
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${out} — ${items.length} items`);

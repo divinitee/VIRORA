@@ -22,7 +22,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 5. We walked ______ the forest for an hour. There were **tall trees** all around us, **Jamshid**.  
    options: across · ✔ through · along · between  
-   why: Trees all around you: through the forest.
+   why: … all around you: through the forest.
 
 6. The little boy looked ______ the keyhole into the **classroom**, **Otabek**.  
    options: ✔ through · along · between · across  
@@ -30,7 +30,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 7. The ball flew ______ the open **gate** and into the house, **Malika**.  
    options: along · between · across · ✔ through  
-   why: In one side of the door and out the other: through.
+   why: In one side of the … and out the other: through.
 
 8. Look both ways before you walk ______ the **street**, **Nodira**.  
    options: between · ✔ across · through · along  
@@ -62,7 +62,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 15. We walked ______ the beach for two hours, looking at the **boats**, **Zarina**.  
    options: ✔ along · between · across · through  
-   why: For two hours beside the sea = following the beach: along.
+   why: For two hours beside the … = following the beach: along.
 
 16. There are cafés all ______ **Navoi Street**, from one end to the other, **Zarina**.  
    options: between · across · through · ✔ along  
@@ -78,7 +78,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 19. Tall trees grow ______ both sides of the **street**, **Jamshid**.  
    options: ✔ along · between · across · through  
-   why: In a line beside the road: along.
+   why: In a line beside the …: along.
 
 20. We walked slowly ______ the river and watched the **boats** go by, **Otabek**.  
    options: between · across · through · ✔ along  
@@ -94,7 +94,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 2. _Write across, through or along._  
    The children ran ______ the road to the **shop** on the other side, **Otabek**.  
    key: across  
-   why: "on the other side": across.
+   why: They crossed the road to the far side: across.
 
 3. _Write across, through or along._  
    We walked ______ the canal for an hour, **Ulugbek**. The **trees** were beautiful.  
@@ -139,12 +139,12 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 11. _Write across, through or along._  
    We flew ______ the **bay** to get to the island, **Jamshid**.  
    key: across  
-   why: From one side of the sea to the other: across.
+   why: From one side of the … to the other: across.
 
 12. _Write across, through or along._  
    The old men sat on benches ______ the **river**, **Sardor**.  
    key: along  
-   why: In a line beside the path: along.
+   why: Benches in a line next to the …: along.
 
 13. _Write across, through or along._  
    The sun shone ______ the **curtains** onto my desk, **Ulugbek**.  
@@ -159,7 +159,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 15. _Write across, through or along._  
    We drove ______ the river for **ten kilometres** before we found a bridge, **Sardor**.  
    key: along  
-   why: For ten kilometres beside the river: along.
+   why: For … beside the river: along.
 
 16. _Write across, through or along._  
    The **girl** drew a line ______ the page from left to right, **Nodira**.  
@@ -174,7 +174,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 18. _Write across, through or along._  
    It's quicker to go ______ the **underpass** than round it, **Otabek**.  
    key: through  
-   why: In one end of the building and out the other: through.
+   why: In one end of the … and out the other: through.
 
 19. _Write across, through or along._  
    We walked ______ the old city wall in **Derbent**, **Ulugbek**.  
@@ -184,7 +184,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 20. _Write across, through or along._  
    The cat jumped in ______ the kitchen **hatch** and ate the fish, **Dilnoza**.  
    key: through  
-   why: In one side of the window: through.
+   why: In one side of the …: through.
 
 ## transform (15)
 
@@ -192,31 +192,31 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    We swam from one side of the **canal** to the other, **Malika**.  
    → We swam ______ the **canal**, **Malika**.  
    key: across  
-   why: from one side to the other = across.
+   why: Swimming to the far side of the … = across.
 
 2. _Rewrite with across._  
    The dog ran from one side of the road to the other, **Sardor**. A **bus** had to stop.  
    → The dog ran ______ the road, **Sardor**. A **bus** had to stop.  
    key: across  
-   why: from one side to the other = across.
+   why: Running to the far side of the road = across.
 
 3. _Rewrite with across._  
    We sailed from one side of the lake to the other in an hour, **Jamshid**. The **wind** was perfect.  
    → We sailed ______ the lake in an hour, **Jamshid**. The **wind** was perfect.  
    key: across  
-   why: from one side to the other = across.
+   why: Sailing to the far side of the lake = across.
 
 4. _Rewrite with across._  
    The kids ran from one side of the street to the other side, **Dilnoza**. The **park** was there.  
    → The kids ran ______ the street, **Dilnoza**. The **park** was there.  
    key: across  
-   why: from one side to the other = across.
+   why: Running to the far side of the street = across.
 
 5. _Rewrite with across._  
    The birds fly from one side of the sea to the other every **spring**, **Ulugbek**.  
    → The birds fly ______ the sea every **spring**, **Ulugbek**.  
    key: across  
-   why: from one side to the other = across.
+   why: Flying to the far side of the sea = across.
 
 6. _Rewrite with through._  
    The train went into the tunnel and came out at the other end, **Sardor**. It was in the **mountains**.  
@@ -228,13 +228,13 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    We went into the forest and came out on the other side, **Jamshid**. It took **all day**.  
    → We went ______ the forest, **Jamshid**. It took **all day**.  
    key: through  
-   why: in one side and out the other = through.
+   why: Into the forest and out the other side = through.
 
 8. _Rewrite with through._  
    The ball went in one side of the window and out the other, **Otabek**. It was a **football** ball.  
    → The ball went ______ the window, **Otabek**. It was a **football** ball.  
    key: through  
-   why: in one side and out the other = through.
+   why: In one side of the window and out = through.
 
 9. _Rewrite with through._  
    We entered the crowd and came out at the front, **Ulugbek**. We saw the **band**.  
@@ -246,7 +246,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    The light goes in one side of the glass and out the other, **Sardor**. The **room** is bright.  
    → The light goes ______ the glass, **Sardor**. The **room** is bright.  
    key: through  
-   why: in one side and out the other = through.
+   why: Light passing in and out of the glass = through.
 
 11. _Rewrite with along._  
    We walked beside the river the whole way to the **bridge**, **Ulugbek**.  

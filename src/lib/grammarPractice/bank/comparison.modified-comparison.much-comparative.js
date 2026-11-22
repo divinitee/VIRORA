@@ -17,7 +17,7 @@ export default [
    "more bigger"
   ],
   "key": 0,
-  "why": "A big difference: much goes before the comparative, much bigger. Not very.",
+  "why": "120 against 40 is a big difference: much bigger.",
   "slots": {
    "home": [
     "flat",
@@ -49,7 +49,7 @@ export default [
    "much more expensive"
   ],
   "key": 3,
-  "why": "A big difference: much goes before the comparative, much more expensive. Not very.",
+  "why": "30,000 against 2,000 is a big gap: much more expensive.",
   "slots": {
    "transport": [
     "bus",
@@ -81,7 +81,7 @@ export default [
    "very hotter"
   ],
   "key": 2,
-  "why": "A big difference: much goes before the comparative, much hotter. Not very.",
+  "why": "42 against 30 degrees: much hotter.",
   "slots": {
    "city": [
     "Termez",
@@ -113,7 +113,7 @@ export default [
    "more much difficult"
   ],
   "key": 1,
-  "why": "A big difference: much goes before the comparative, much more difficult. Not very.",
+  "why": "\"Nobody finished it\": a big difference: much more difficult.",
   "slots": {
    "test": [
     "test",
@@ -145,7 +145,7 @@ export default [
    "more faster"
   ],
   "key": 0,
-  "why": "A big difference: much goes before the comparative, much faster. Not very.",
+  "why": "Two hours against six: much faster.",
   "slots": {
    "transport": [
     "bus",
@@ -177,7 +177,7 @@ export default [
    "much more interesting"
   ],
   "key": 3,
-  "why": "A big difference: much goes before the comparative, much more interesting. Not very.",
+  "why": "\"I read it in two days\": much more interesting.",
   "slots": {
    "thing": [
     "book",
@@ -209,7 +209,7 @@ export default [
    "very older"
   ],
   "key": 2,
-  "why": "A big difference: much goes before the comparative, much older. Not very.",
+  "why": "85 against 50: much older.",
   "slots": {
    "who": [
     "father",
@@ -241,7 +241,7 @@ export default [
    "more much comfortable"
   ],
   "key": 1,
-  "why": "A big difference: much goes before the comparative, much more comfortable. Not very.",
+  "why": "\"I can sleep in it\": much more comfortable.",
   "slots": {
    "seat": [
     "sofa",
@@ -273,7 +273,7 @@ export default [
    "more longer"
   ],
   "key": 0,
-  "why": "A big difference: much goes before the comparative, much longer. Not very.",
+  "why": "300 km against 100 km: much longer.",
   "slots": {
    "road": [
     "old road",
@@ -305,7 +305,7 @@ export default [
    "much more beautiful"
   ],
   "key": 3,
-  "why": "A big difference: much goes before the comparative, much more beautiful. Not very.",
+  "why": "Spring against winter, a big change: much more beautiful.",
   "slots": {
    "place": [
     "park",
@@ -337,7 +337,7 @@ export default [
    "very colder"
   ],
   "key": 2,
-  "why": "A big difference: much goes before the comparative, much colder. Not very.",
+  "why": "Minus fifteen: a big difference: much colder.",
   "slots": {
    "city": [
     "Moscow",
@@ -369,7 +369,7 @@ export default [
    "more much dangerous"
   ],
   "key": 1,
-  "why": "A big difference: much goes before the comparative, much more dangerous. Not very.",
+  "why": "Bad weather against sun: much more dangerous.",
   "slots": {
    "weather": [
     "rain",
@@ -401,7 +401,7 @@ export default [
    "more easier"
   ],
   "key": 0,
-  "why": "A big difference: much goes before the comparative, much easier. Not very.",
+  "why": "\"I finished in ten minutes\": much easier.",
   "slots": {
    "task": [
     "homework",
@@ -433,7 +433,7 @@ export default [
    "much more popular"
   ],
   "key": 3,
-  "why": "A big difference: much goes before the comparative, much more popular. Not very.",
+  "why": "A big gap in our school: much more popular.",
   "slots": {
    "sport": [
     "chess",
@@ -465,7 +465,7 @@ export default [
    "very taller"
   ],
   "key": 2,
-  "why": "A big difference: much goes before the comparative, much taller. Not very.",
+  "why": "1.90 against 1.60: much taller.",
   "slots": {
    "who": [
     "brother",
@@ -497,7 +497,7 @@ export default [
    "more much important"
   ],
   "key": 1,
-  "why": "A big difference: much goes before the comparative, much more important. Not very.",
+  "why": "Health against a thing: much more important.",
   "slots": {
    "thing": [
     "marks",
@@ -529,7 +529,7 @@ export default [
    "more heavier"
   ],
   "key": 0,
-  "why": "A big difference: much goes before the comparative, much heavier. Not very.",
+  "why": "\"What's in it?\": a big weight gap: much heavier.",
   "slots": {
    "bag": [
     "bag",
@@ -561,7 +561,7 @@ export default [
    "much more useful"
   ],
   "key": 3,
-  "why": "A big difference: much goes before the comparative, much more useful. Not very.",
+  "why": "For work, a big gap: much more useful.",
   "slots": {
    "subj": [
     "chemistry",
@@ -593,7 +593,7 @@ export default [
    "very busier"
   ],
   "key": 2,
-  "why": "A big difference: much goes before the comparative, much busier. Not very.",
+  "why": "A busy day against weekdays: much busier.",
   "slots": {
    "day": [
     "Sundays",
@@ -625,7 +625,7 @@ export default [
    "more much careful"
   ],
   "key": 1,
-  "why": "A big difference: much goes before the comparative, much more careful. Not very.",
+  "why": "\"She never goes fast\": much more careful.",
   "slots": {
    "who": [
     "sister",
@@ -652,7 +652,7 @@ export default [
   "instr": "Write much and the comparative of the adjective in brackets.",
   "source": "The bazaar is ______ (cheap) than the {shop}, {name}.",
   "key": "much cheaper",
-  "why": "A big difference: much goes before the comparative, much cheaper. Not very.",
+  "why": "cheap is short: much + cheaper.",
   "slots": {
    "shop": [
     "supermarket",
@@ -679,7 +679,7 @@ export default [
   "instr": "Write much and the comparative of the adjective in brackets.",
   "source": "Plane tickets are ______ (expensive) in {month} than in winter, {name}.",
   "key": "much more expensive",
-  "why": "A big difference: much goes before the comparative, much more expensive. Not very.",
+  "why": "expensive is long: much more expensive.",
   "slots": {
    "month": [
     "July",
@@ -706,7 +706,7 @@ export default [
   "instr": "Write much and the comparative of the adjective in brackets.",
   "source": "It's ______ (warm) in {city} than in the mountains, {name}.",
   "key": "much warmer",
-  "why": "A big difference: much goes before the comparative, much warmer. Not very.",
+  "why": "warm is short: much warmer.",
   "slots": {
    "city": [
     "Termez",
@@ -733,7 +733,7 @@ export default [
   "instr": "Write much and the comparative of the adjective in brackets.",
   "source": "Russian grammar is ______ (difficult) for me than {lang} grammar, {name}.",
   "key": "much more difficult",
-  "why": "A big difference: much goes before the comparative, much more difficult. Not very.",
+  "why": "difficult is long: much more difficult.",
   "slots": {
    "lang": [
     "English",
@@ -760,7 +760,7 @@ export default [
   "instr": "Write much and the comparative of the adjective in brackets.",
   "source": "Our new {area} is ______ (quiet) than the old one. We sleep well now, {name}.",
   "key": "much quieter",
-  "why": "A big difference: much goes before the comparative, much quieter. Not very.",
+  "why": "\"We sleep well now\": quiet → much quieter.",
   "slots": {
    "area": [
     "street",
@@ -787,7 +787,7 @@ export default [
   "instr": "Write much and the comparative of the adjective in brackets.",
   "source": "These {shoes} are ______ (comfortable) than my old ones, {name}.",
   "key": "much more comfortable",
-  "why": "A big difference: much goes before the comparative, much more comfortable. Not very.",
+  "why": "comfortable is long: much more comfortable.",
   "slots": {
    "shoes": [
     "shoes",
@@ -814,7 +814,7 @@ export default [
   "instr": "Write much and the comparative of the adjective in brackets.",
   "source": "My {room} is ______ (small) than my brother's, {name}.",
   "key": "much smaller",
-  "why": "A big difference: much goes before the comparative, much smaller. Not very.",
+  "why": "small is short: much smaller.",
   "slots": {
    "room": [
     "room",
@@ -841,12 +841,13 @@ export default [
   "instr": "Write much and the comparative of the adjective in brackets.",
   "source": "The second {part} of the film was ______ (interesting) than the first, {name}.",
   "key": "much more interesting",
-  "why": "A big difference: much goes before the comparative, much more interesting. Not very.",
+  "why": "interesting is long: much more interesting.",
   "slots": {
    "part": [
     "half",
     "part",
-    "hour"
+    "hour",
+    "episode"
    ],
    "name": [
     "Feruza",
@@ -865,15 +866,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write much and the comparative of the adjective in brackets.",
-  "source": "{name} is ______ (happy) at her new school than at the old one.",
+  "source": "{name} is ______ (happy) at her {place} than at the old one.",
   "key": "much happier",
-  "why": "A big difference: much goes before the comparative, much happier. Not very.",
+  "why": "happy ends in -y: much happier.",
   "slots": {
    "name": [
     "Madina",
     "Olga",
     "Sevara",
     "Nilufar"
+   ],
+   "place": [
+    "new school",
+    "new job",
+    "new club",
+    "new college"
    ]
   }
  },
@@ -888,7 +895,7 @@ export default [
   "instr": "Write much and the comparative of the adjective in brackets.",
   "source": "The mountains are ______ (beautiful) in {season} than in winter, {name}.",
   "key": "much more beautiful",
-  "why": "A big difference: much goes before the comparative, much more beautiful. Not very.",
+  "why": "beautiful is long: much more beautiful.",
   "slots": {
    "season": [
     "spring",
@@ -915,7 +922,7 @@ export default [
   "instr": "Write much and the comparative of the adjective in brackets.",
   "source": "The new {road} is ______ (safe) than the old one, {name}.",
   "key": "much safer",
-  "why": "A big difference: much goes before the comparative, much safer. Not very.",
+  "why": "safe ends in -e: much safer.",
   "slots": {
    "road": [
     "road",
@@ -942,7 +949,7 @@ export default [
   "instr": "Write much and the comparative of the adjective in brackets.",
   "source": "Swimming in the {water} is ______ (dangerous) than in the pool, {name}.",
   "key": "much more dangerous",
-  "why": "A big difference: much goes before the comparative, much more dangerous. Not very.",
+  "why": "dangerous is long: much more dangerous.",
   "slots": {
    "water": [
     "river",
@@ -969,7 +976,7 @@ export default [
   "instr": "Write much and the comparative of the adjective in brackets.",
   "source": "My uncle is ______ (strong) than me. He can carry the {thing} alone, {name}.",
   "key": "much stronger",
-  "why": "A big difference: much goes before the comparative, much stronger. Not very.",
+  "why": "\"He can carry … alone\": much stronger.",
   "slots": {
    "thing": [
     "sofa",
@@ -996,7 +1003,7 @@ export default [
   "instr": "Write much and the comparative of the adjective in brackets.",
   "source": "This café is ______ (popular) than the one next to the {place}, {name}.",
   "key": "much more popular",
-  "why": "A big difference: much goes before the comparative, much more popular. Not very.",
+  "why": "popular is long: much more popular.",
   "slots": {
    "place": [
     "bank",
@@ -1023,7 +1030,7 @@ export default [
   "instr": "Write much and the comparative of the adjective in brackets.",
   "source": "The {place} is ______ (near) than the bazaar. Let's walk, {name}.",
   "key": "much nearer",
-  "why": "A big difference: much goes before the comparative, much nearer. Not very.",
+  "why": "\"Let's walk\": near → much nearer.",
   "slots": {
    "place": [
     "shop",
@@ -1050,7 +1057,7 @@ export default [
   "instr": "Write much and the comparative of the adjective in brackets.",
   "source": "A dictionary app is ______ (useful) than a paper {thing} for me, {name}.",
   "key": "much more useful",
-  "why": "A big difference: much goes before the comparative, much more useful. Not very.",
+  "why": "useful is long: much more useful.",
   "slots": {
    "thing": [
     "dictionary",
@@ -1077,7 +1084,7 @@ export default [
   "instr": "Write much and the comparative of the adjective in brackets.",
   "source": "The {thing} was ______ (heavy) than we thought, {name}.",
   "key": "much heavier",
-  "why": "A big difference: much goes before the comparative, much heavier. Not very.",
+  "why": "heavy ends in -y: much heavier.",
   "slots": {
    "thing": [
     "box",
@@ -1104,7 +1111,7 @@ export default [
   "instr": "Write much and the comparative of the adjective in brackets.",
   "source": "For my parents, my {thing} is ______ (important) than football, {name}.",
   "key": "much more important",
-  "why": "A big difference: much goes before the comparative, much more important. Not very.",
+  "why": "important is long: much more important.",
   "slots": {
    "thing": [
     "education",
@@ -1131,7 +1138,7 @@ export default [
   "instr": "Write much and the comparative of the adjective in brackets.",
   "source": "The roads are ______ (busy) at {time} than at noon, {name}.",
   "key": "much busier",
-  "why": "A big difference: much goes before the comparative, much busier. Not very.",
+  "why": "busy ends in -y: much busier.",
   "slots": {
    "time": [
     "eight",
@@ -1158,7 +1165,7 @@ export default [
   "instr": "Write much and the comparative of the adjective in brackets.",
   "source": "The summer holidays are ______ (long) than the {holiday}, {name}.",
   "key": "much longer",
-  "why": "A big difference: much goes before the comparative, much longer. Not very.",
+  "why": "long is short: much longer.",
   "slots": {
    "holiday": [
     "winter holidays",
@@ -1186,7 +1193,7 @@ export default [
   "source": "The {transport} takes ten hours. The plane takes one hour, {name}.",
   "hint": "The plane is ______ than the {transport}, {name}.",
   "key": "much faster",
-  "why": "A big difference: much goes before the comparative, much faster. Not very.",
+  "why": "Ten hours against one: much faster.",
   "slots": {
    "transport": [
     "bus",
@@ -1214,7 +1221,7 @@ export default [
   "source": "My phone cost 2 million soum. {name}'s phone cost {n} million.",
   "hint": "{name}'s phone was ______ than mine.",
   "key": "much more expensive",
-  "why": "A big difference: much goes before the comparative, much more expensive. Not very.",
+  "why": "A few million more: much more expensive.",
   "slots": {
    "name": [
     "Feruza",
@@ -1242,7 +1249,7 @@ export default [
   "source": "In {month} it's 40 degrees. In January it's 5 degrees, {name}.",
   "hint": "In {month} it's ______ than in January, {name}.",
   "key": "much hotter",
-  "why": "A big difference: much goes before the comparative, much hotter. Not very.",
+  "why": "40 against 5 degrees: much hotter.",
   "slots": {
    "month": [
     "July",
@@ -1270,7 +1277,7 @@ export default [
   "source": "The old {school} had 200 students. The new one has 2,000, {name}.",
   "hint": "The new {school} is ______ than the old one, {name}.",
   "key": "much bigger",
-  "why": "A big difference: much goes before the comparative, much bigger. Not very.",
+  "why": "200 against 2,000 students: much bigger.",
   "slots": {
    "school": [
     "school",
@@ -1298,7 +1305,7 @@ export default [
   "source": "Last year's {test} took me an hour. This year's took ten minutes, {name}.",
   "hint": "This year's {test} was ______ than last year's, {name}.",
   "key": "much easier",
-  "why": "A big difference: much goes before the comparative, much easier. Not very.",
+  "why": "An hour against ten minutes: much easier.",
   "slots": {
    "test": [
     "test",
@@ -1326,7 +1333,7 @@ export default [
   "source": "This {thing} is very bigger than my old one, {name}.",
   "hint": "This {thing} is ______ than my old one, {name}.",
   "key": "much bigger",
-  "why": "A big difference: much goes before the comparative, much bigger. Not very.",
+  "why": "Not very + -er: much bigger.",
   "slots": {
    "thing": [
     "bag",
@@ -1354,7 +1361,7 @@ export default [
   "source": "The new {thing} is much more cheaper than the old one, {name}.",
   "hint": "The new {thing} is ______ than the old one, {name}.",
   "key": "much cheaper",
-  "why": "A big difference: much goes before the comparative, much cheaper. Not very.",
+  "why": "much + -er, not much more cheaper: much cheaper.",
   "slots": {
    "thing": [
     "phone",
@@ -1382,7 +1389,7 @@ export default [
   "source": "Maths is more much difficult than {subj} for me, {name}.",
   "hint": "Maths is ______ than {subj} for me, {name}.",
   "key": "much more difficult",
-  "why": "A big difference: much goes before the comparative, much more difficult. Not very.",
+  "why": "Order: much comes before more: much more difficult.",
   "slots": {
    "subj": [
     "history",
@@ -1410,7 +1417,7 @@ export default [
   "source": "The {place} is much beautiful than the photos, {name}.",
   "hint": "The {place} is ______ than the photos, {name}.",
   "key": "much more beautiful",
-  "why": "A big difference: much goes before the comparative, much more beautiful. Not very.",
+  "why": "beautiful is long, so more is needed: much more beautiful.",
   "slots": {
    "place": [
     "old town",
@@ -1438,7 +1445,7 @@ export default [
   "source": "My {who} is much more old than me, {name}.",
   "hint": "My {who} is ______ than me, {name}.",
   "key": "much older",
-  "why": "A big difference: much goes before the comparative, much older. Not very.",
+  "why": "old is short: much older, not much more old.",
   "slots": {
    "who": [
     "grandmother",
@@ -1466,7 +1473,7 @@ export default [
   "source": "The new {road} is a lot safer than the old one, {name}.",
   "hint": "The new {road} is ______ than the old one, {name}.",
   "key": "much safer",
-  "why": "A big difference: much goes before the comparative, much safer. Not very.",
+  "why": "a lot = much here: much safer.",
   "slots": {
    "road": [
     "road",
@@ -1494,7 +1501,7 @@ export default [
   "source": "This {thing} is far more comfortable than that one, {name}.",
   "hint": "This {thing} is ______ than that one, {name}.",
   "key": "much more comfortable",
-  "why": "A big difference: much goes before the comparative, much more comfortable. Not very.",
+  "why": "far = much here: much more comfortable.",
   "slots": {
    "thing": [
     "chair",
@@ -1522,7 +1529,7 @@ export default [
   "source": "{name} is a lot taller than her {sib}.",
   "hint": "{name} is ______ than her {sib}.",
   "key": "much taller",
-  "why": "A big difference: much goes before the comparative, much taller. Not very.",
+  "why": "a lot = much here: much taller.",
   "slots": {
    "name": [
     "Madina",
@@ -1550,7 +1557,7 @@ export default [
   "source": "Winter in {city} is far colder than in Tashkent, {name}.",
   "hint": "Winter in {city} is ______ than in Tashkent, {name}.",
   "key": "much colder",
-  "why": "A big difference: much goes before the comparative, much colder. Not very.",
+  "why": "far = much here: much colder.",
   "slots": {
    "city": [
     "Moscow",
@@ -1578,7 +1585,7 @@ export default [
   "source": "This {test} was a lot more difficult than the last one, {name}.",
   "hint": "This {test} was ______ than the last one, {name}.",
   "key": "much more difficult",
-  "why": "A big difference: much goes before the comparative, much more difficult. Not very.",
+  "why": "a lot = much here: much more difficult.",
   "slots": {
    "test": [
     "test",

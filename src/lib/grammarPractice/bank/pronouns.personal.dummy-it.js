@@ -17,7 +17,7 @@ export default [
    "It has"
   ],
   "key": 0,
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Weather (cold) needs a subject: It's.",
   "slots": {
    "name": [
     "Aziz",
@@ -49,7 +49,7 @@ export default [
    "It's"
   ],
   "key": 3,
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Weather (raining) needs a subject: It's.",
   "slots": {
    "city": [
     "Samarkand",
@@ -81,7 +81,7 @@ export default [
    "Is"
   ],
   "key": 2,
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Weather (snowing) needs a subject: It's.",
   "slots": {
    "name": [
     "Aziz",
@@ -113,7 +113,7 @@ export default [
    "–"
   ],
   "key": 1,
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Weather in the past: It was windy.",
   "slots": {
    "place": [
     "lake",
@@ -145,7 +145,7 @@ export default [
    "it has"
   ],
   "key": 0,
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Weather in the answer: Yes, it's hot.",
   "slots": {
    "month": [
     "June",
@@ -177,7 +177,7 @@ export default [
    "It"
   ],
   "key": 3,
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Weather in the future: It will be sunny.",
   "slots": {
    "when": [
     "tomorrow",
@@ -209,7 +209,7 @@ export default [
    "is"
   ],
   "key": 2,
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Light and dark need a subject: it's dark.",
   "slots": {
    "h": [
     "four",
@@ -241,7 +241,7 @@ export default [
    "There is"
   ],
   "key": 1,
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "A change in the weather: It's getting cold.",
   "slots": {
    "name": [
     "Aziz",
@@ -273,7 +273,7 @@ export default [
    "It has"
   ],
   "key": 0,
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Weather (hot) needs a subject: It's.",
   "slots": {
    "place": [
     "balcony",
@@ -305,7 +305,7 @@ export default [
    "It's"
   ],
   "key": 3,
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Telling the time: It's half past.",
   "slots": {
    "name": [
     "Aziz",
@@ -337,7 +337,7 @@ export default [
    "Is"
   ],
   "key": 2,
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Telling the time: It's already ….",
   "slots": {
    "h": [
     "ten",
@@ -369,7 +369,7 @@ export default [
    "There is"
   ],
   "key": 1,
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Dates and days: It's my birthday.",
   "slots": {
    "when": [
     "tomorrow",
@@ -401,7 +401,7 @@ export default [
    "Today"
   ],
   "key": 0,
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Days of the week: It's Sunday.",
   "slots": {
    "place": [
     "bank",
@@ -433,7 +433,7 @@ export default [
    "It's"
   ],
   "key": 3,
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Distance: It's a long way.",
   "slots": {
    "place": [
     "airport",
@@ -465,7 +465,7 @@ export default [
    "Is"
   ],
   "key": 2,
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Distance: It's not far.",
   "slots": {
    "place": [
     "bazaar",
@@ -497,7 +497,7 @@ export default [
    "It has"
   ],
   "key": 1,
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Distance in kilometres: It's about ….",
   "slots": {
    "n": [
     "two",
@@ -529,7 +529,7 @@ export default [
    "It has"
   ],
   "key": 0,
-  "why": "For how long something lasts, say It takes + time. English never starts with Takes or Is here.",
+  "why": "Time a trip needs: It takes.",
   "slots": {
    "place": [
     "station",
@@ -561,7 +561,7 @@ export default [
    "It takes"
   ],
   "key": 3,
-  "why": "For how long something lasts, say It takes + time. English never starts with Takes or Is here.",
+  "why": "Time a job needs: It takes.",
   "slots": {
    "food": [
     "plov",
@@ -593,7 +593,7 @@ export default [
    "Takes"
   ],
   "key": 2,
-  "why": "For how long something lasts, say It takes + time. English never starts with Takes or Is here.",
+  "why": "How long a trip lasts: It takes.",
   "slots": {
    "transport": [
     "bus",
@@ -625,7 +625,7 @@ export default [
    "Is"
   ],
   "key": 1,
-  "why": "For how long something lasts, say It takes + time. English never starts with Takes or Is here.",
+  "why": "Time for me to walk: It takes me.",
   "slots": {
    "place": [
     "school",
@@ -652,7 +652,7 @@ export default [
   "instr": "Write it or there.",
   "source": "______ is very cold {when}, {name}. Wear a hat.",
   "key": "It",
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Weather needs a subject: It is cold.",
   "slots": {
    "when": [
     "today",
@@ -679,7 +679,7 @@ export default [
   "instr": "Write it or there.",
   "source": "______ was raining all day in {city}, so we stayed at {place}.",
   "key": "It",
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Weather in the past: It was raining.",
   "slots": {
    "city": [
     "Samarkand",
@@ -706,7 +706,7 @@ export default [
   "instr": "Write it or there.",
   "source": "Is ______ far to the {place}, {name}?",
   "key": "it",
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "A question about distance: Is it far?",
   "slots": {
    "place": [
     "station",
@@ -733,7 +733,7 @@ export default [
   "instr": "Write it or there.",
   "source": "______ was sunny and warm at the {place} {when}.",
   "key": "It",
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Past weather: It was sunny.",
   "slots": {
    "place": [
     "lake",
@@ -760,7 +760,7 @@ export default [
   "instr": "Write it or there.",
   "source": "What time is ______ now, {name}? I left my phone at {place}.",
   "key": "it",
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "A question about the time: What time is it?",
   "slots": {
    "name": [
     "Aziz",
@@ -787,7 +787,7 @@ export default [
   "instr": "Write it or there.",
   "source": "______ takes about {n} minutes to walk to the {place}.",
   "key": "It",
-  "why": "For how long something lasts, say It takes + time. English never starts with Takes or Is here.",
+  "why": "Time needed: It takes.",
   "slots": {
    "n": [
     "ten",
@@ -814,7 +814,7 @@ export default [
   "instr": "Write it or there.",
   "source": "______ is my sister's birthday {when}, {name}.",
   "key": "It",
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "A date: It is my sister's birthday.",
   "slots": {
    "when": [
     "tomorrow",
@@ -841,7 +841,7 @@ export default [
   "instr": "Write it or there.",
   "source": "______ is getting dark. Let's go back {where}, {name}.",
   "key": "It",
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Light changing: It is getting dark.",
   "slots": {
    "where": [
     "home",
@@ -868,7 +868,7 @@ export default [
   "instr": "Write it or there.",
   "source": "______ was very windy on the {place} yesterday, {name}.",
   "key": "It",
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Past weather: It was windy.",
   "slots": {
    "place": [
     "bridge",
@@ -895,7 +895,7 @@ export default [
   "instr": "Write it or there.",
   "source": "______ is about {n} kilometres from here to the {place}.",
   "key": "It",
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Distance: It is about … kilometres.",
   "slots": {
    "n": [
     "two",
@@ -922,7 +922,7 @@ export default [
   "instr": "Write it or there.",
   "source": "______ will be hot {when}, so take some water, {name}.",
   "key": "It",
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Future weather: It will be hot.",
   "slots": {
    "when": [
     "tomorrow",
@@ -949,7 +949,7 @@ export default [
   "instr": "Write it or there.",
   "source": "______ took us {n} hours to get to {city}.",
   "key": "It",
-  "why": "For how long something lasts, say It takes + time. English never starts with Takes or Is here.",
+  "why": "Past time needed: It took us.",
   "slots": {
    "n": [
     "two",
@@ -976,7 +976,7 @@ export default [
   "instr": "Write it or there.",
   "source": "______ is half past {h}. The {show} starts soon.",
   "key": "It",
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Telling the time: It is half past.",
   "slots": {
    "h": [
     "six",
@@ -1003,7 +1003,7 @@ export default [
   "instr": "Write it or there.",
   "source": "______ are two {places} on our street, {name}.",
   "key": "There",
-  "why": "Here something exists (people, clouds, shops), and a plural verb follows, so use there: There are … It can't go with are / were.",
+  "why": "Two things exist on our street: There are.",
   "slots": {
    "places": [
     "banks",
@@ -1030,7 +1030,7 @@ export default [
   "instr": "Write it or there.",
   "source": "______ were many people at the {event} {when}.",
   "key": "There",
-  "why": "Here something exists (people, clouds, shops), and a plural verb follows, so use there: There are … It can't go with are / were.",
+  "why": "Many people were present: There were.",
   "slots": {
    "event": [
     "party",
@@ -1057,7 +1057,7 @@ export default [
   "instr": "Write it or there.",
   "source": "______ are no clouds in the sky {when}, {name}.",
   "key": "There",
-  "why": "Here something exists (people, clouds, shops), and a plural verb follows, so use there: There are … It can't go with are / were.",
+  "why": "Saying what is (not) in the sky: There are no clouds.",
   "slots": {
    "when": [
     "today",
@@ -1084,7 +1084,7 @@ export default [
   "instr": "Write it or there.",
   "source": "______ are {n} students in my {group}.",
   "key": "There",
-  "why": "Here something exists (people, clouds, shops), and a plural verb follows, so use there: There are … It can't go with are / were.",
+  "why": "Saying how many students: There are.",
   "slots": {
    "n": [
     "twelve",
@@ -1111,7 +1111,7 @@ export default [
   "instr": "Write it or there.",
   "source": "______ were some nice photos on the {thing}, {name}.",
   "key": "There",
-  "why": "Here something exists (people, clouds, shops), and a plural verb follows, so use there: There are … It can't go with are / were.",
+  "why": "Some photos were on it: There were.",
   "slots": {
    "thing": [
     "wall",
@@ -1138,7 +1138,7 @@ export default [
   "instr": "Write it or there.",
   "source": "______ are lots of {fruit} at the bazaar {when}.",
   "key": "There",
-  "why": "Here something exists (people, clouds, shops), and a plural verb follows, so use there: There are … It can't go with are / were.",
+  "why": "Lots of fruit at the bazaar: There are.",
   "slots": {
    "fruit": [
     "melons",
@@ -1165,7 +1165,7 @@ export default [
   "instr": "Write it or there.",
   "source": "Are ______ any {things} left, {name}?",
   "key": "there",
-  "why": "Here something exists (people, clouds, shops), and a plural verb follows, so use there: There are … It can't go with are / were.",
+  "why": "Asking if any are left: Are there any?",
   "slots": {
    "things": [
     "eggs",
@@ -1196,7 +1196,7 @@ export default [
   "acceptable": [
    "It is"
   ],
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "English needs a subject: It's very cold.",
   "slots": {
    "room": [
     "kitchen",
@@ -1227,7 +1227,7 @@ export default [
   "acceptable": [
    "It is"
   ],
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Weather needs a subject: It's raining.",
   "slots": {
    "when": [
     "today",
@@ -1255,7 +1255,7 @@ export default [
   "source": "Was very hot at the {event} {when}.",
   "hint": "______ very hot at the {event} {when}.",
   "key": "It was",
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Past, with a subject: It was very hot.",
   "slots": {
    "event": [
     "party",
@@ -1283,7 +1283,7 @@ export default [
   "source": "Takes {n} minutes to get to the {place}.",
   "hint": "______ {n} minutes to get to the {place}.",
   "key": "It takes",
-  "why": "For how long something lasts, say It takes + time. English never starts with Takes or Is here.",
+  "why": "Time needed, with a subject: It takes.",
   "slots": {
    "n": [
     "ten",
@@ -1314,7 +1314,7 @@ export default [
   "acceptable": [
    "It is"
   ],
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Distance needs a subject: It's a long way.",
   "slots": {
    "place": [
     "airport",
@@ -1345,7 +1345,7 @@ export default [
   "acceptable": [
    "It is"
   ],
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Weather uses it, not there: It's windy.",
   "slots": {
    "when": [
     "today",
@@ -1373,7 +1373,7 @@ export default [
   "source": "There was very hot in the {place} {when}.",
   "hint": "______ very hot in the {place} {when}.",
   "key": "It was",
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Weather uses it, not there: It was hot.",
   "slots": {
    "place": [
     "bus",
@@ -1404,7 +1404,7 @@ export default [
   "acceptable": [
    "It is"
   ],
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Time uses it, not there: It's already ….",
   "slots": {
    "h": [
     "ten",
@@ -1435,7 +1435,7 @@ export default [
   "acceptable": [
    "It is"
   ],
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Distance uses it, not there: It's five kilometres.",
   "slots": {
    "place": [
     "station",
@@ -1463,7 +1463,7 @@ export default [
   "source": "There takes an hour by {transport} to get to {city}.",
   "hint": "______ an hour by {transport} to get to {city}.",
   "key": "It takes",
-  "why": "For how long something lasts, say It takes + time. English never starts with Takes or Is here.",
+  "why": "Time needed uses it, not there: It takes.",
   "slots": {
    "transport": [
     "bus",
@@ -1494,7 +1494,7 @@ export default [
    "Is",
    "it"
   ],
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Question: be before it: Is it far?",
   "slots": {
    "place": [
     "station",
@@ -1525,7 +1525,7 @@ export default [
    "Was",
    "it"
   ],
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Past question: Was it cold?",
   "slots": {
    "city": [
     "Samarkand",
@@ -1556,7 +1556,7 @@ export default [
    "does",
    "it"
   ],
-  "why": "For how long something lasts, say It takes + time. English never starts with Takes or Is here.",
+  "why": "Question with takes: How long does it take?",
   "slots": {
    "place": [
     "airport",
@@ -1587,7 +1587,7 @@ export default [
    "Will",
    "it"
   ],
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Future question: Will it rain?",
   "slots": {
    "when": [
     "tomorrow",
@@ -1618,7 +1618,7 @@ export default [
    "is",
    "it"
   ],
-  "why": "English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.",
+  "why": "Time question: What time is it?",
   "slots": {
    "h": [
     "six",

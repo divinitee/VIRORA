@@ -17,7 +17,7 @@ export default [
    "other"
   ],
   "key": 0,
-  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "why": "Two brothers: one …, the second one: the other.",
   "slots": {
    "city": [
     "Samarkand",
@@ -49,7 +49,7 @@ export default [
    "the other"
   ],
   "key": 3,
-  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "why": "Two pets: one black, the last one: the other.",
   "slots": {
    "pets": [
     "cats",
@@ -81,7 +81,7 @@ export default [
    "another"
   ],
   "key": 2,
-  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "why": "Two shops: one open, the second one: the other.",
   "slots": {
    "name": [
     "Aziz",
@@ -107,7 +107,7 @@ export default [
    "the others"
   ],
   "key": 1,
-  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "why": "A pair: one found, the missing one: the other.",
   "slots": {
    "shoe": [
     "shoe",
@@ -139,7 +139,7 @@ export default [
    "other"
   ],
   "key": 0,
-  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "why": "Two hands: one holds, the second one: the other.",
   "slots": {
    "thing": [
     "door",
@@ -171,7 +171,7 @@ export default [
    "the other"
   ],
   "key": 3,
-  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "why": "Two bedrooms: this one and the second one: the other.",
   "slots": {
    "who": [
     "sister",
@@ -203,7 +203,7 @@ export default [
    "another"
   ],
   "key": 2,
-  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "why": "Two people: one cousin, the second one: the other.",
   "slots": {
    "who": [
     "girls",
@@ -235,7 +235,7 @@ export default [
    "the others"
   ],
   "key": 1,
-  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "why": "A road has two sides: the opposite one: the other.",
   "slots": {
    "place": [
     "river",
@@ -267,7 +267,7 @@ export default [
    "other"
   ],
   "key": 0,
-  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "why": "Two parents: one …, the second one: the other.",
   "slots": {
    "job": [
     "doctor",
@@ -299,7 +299,7 @@ export default [
    "the other"
   ],
   "key": 3,
-  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "why": "Two cafés: one cheap, the second one: the other.",
   "slots": {
    "place": [
     "station",
@@ -325,7 +325,7 @@ export default [
    "others"
   ],
   "key": 2,
-  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "why": "\"Only you are here\": all the rest of the group: the others.",
   "slots": {
    "name": [
     "Aziz",
@@ -357,7 +357,7 @@ export default [
    "the other"
   ],
   "key": 1,
-  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "why": "Five, I ate one: all the rest: the others.",
   "slots": {
    "fruit": [
     "apples",
@@ -389,7 +389,7 @@ export default [
    "another"
   ],
   "key": 0,
-  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "why": "I kept one: all the rest: the others.",
   "slots": {
    "thing": [
     "photo",
@@ -421,7 +421,7 @@ export default [
    "the others"
   ],
   "key": 3,
-  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "why": "Six, this one is new: all the rest: the others.",
   "slots": {
    "things": [
     "bags",
@@ -453,7 +453,7 @@ export default [
    "others"
   ],
   "key": 2,
-  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "why": "Three failed: all the rest of the ten: the others.",
   "slots": {
    "test": [
     "test",
@@ -485,7 +485,7 @@ export default [
    "the other"
   ],
   "key": 1,
-  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "why": "Two of us here: all the rest: the others.",
   "slots": {
    "thing": [
     "game",
@@ -517,7 +517,7 @@ export default [
    "another"
   ],
   "key": 0,
-  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "why": "One came on time: all the rest of my friends: the others.",
   "slots": {
    "event": [
     "party",
@@ -543,7 +543,7 @@ export default [
    "the other"
   ],
   "key": 3,
-  "why": "The rest of a known group, with a noun after it: the other + plural noun (the other students). Others never goes before a noun.",
+  "why": "Plural noun teams after it: the other, no -s.",
   "slots": {
    "match": [
     "match",
@@ -575,7 +575,7 @@ export default [
    "the others"
   ],
   "key": 2,
-  "why": "The rest of a known group, with a noun after it: the other + plural noun (the other students). Others never goes before a noun.",
+  "why": "Plural noun students after it: the other, no -s.",
   "slots": {
    "name": [
     "Aziz",
@@ -607,7 +607,7 @@ export default [
    "others"
   ],
   "key": 1,
-  "why": "The rest of a known group, with a noun after it: the other + plural noun (the other students). Others never goes before a noun.",
+  "why": "Plural noun ones after it: the other.",
   "slots": {
    "things": [
     "chairs",
@@ -634,7 +634,7 @@ export default [
   "instr": "Write other or others.",
   "source": "I've got two {sib}. One is a {job}, and the ______ is a student.",
   "key": "other",
-  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "why": "Two siblings: one …, the second one: the other.",
   "slots": {
    "sib": [
     "brothers",
@@ -661,7 +661,7 @@ export default [
   "instr": "Write other or others.",
   "source": "This {shoe} is mine. Where's the ______ one, {name}?",
   "key": "other",
-  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "why": "A pair of shoes: the second one: the other.",
   "slots": {
    "shoe": [
     "shoe",
@@ -688,7 +688,7 @@ export default [
   "instr": "Write other or others.",
   "source": "Our {place} has two gates. This one is closed, so use the ______, {name}.",
   "key": "other",
-  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "why": "Two gates: this one closed, the second one: the other.",
   "slots": {
    "place": [
     "school",
@@ -715,7 +715,7 @@ export default [
   "instr": "Write other or others.",
   "source": "There are two hotels in the {place}. One is cheap, and the ______ is very expensive, {name}.",
   "key": "other",
-  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "why": "Two hotels: one cheap, the second one: the other.",
   "slots": {
    "place": [
     "village",
@@ -742,7 +742,7 @@ export default [
   "instr": "Write other or others.",
   "source": "I use my right hand. I can't {act} with the ______, {name}.",
   "key": "other",
-  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "why": "Two hands: my right one, the second one: the other.",
   "slots": {
    "act": [
     "write",
@@ -769,7 +769,7 @@ export default [
   "instr": "Write other or others.",
   "source": "My grandparents have two houses: one in {city} and the ______ in the village, {name}.",
   "key": "other",
-  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "why": "Two houses: one in the city, the second one: the other.",
   "slots": {
    "city": [
     "Samarkand",
@@ -796,7 +796,7 @@ export default [
   "instr": "Write other or others.",
   "source": "Two people called {when}. One was my aunt; I don't know who the ______ was, {name}.",
   "key": "other",
-  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "why": "Two people: my aunt, the second one: the other.",
   "slots": {
    "when": [
     "yesterday",
@@ -823,7 +823,7 @@ export default [
   "instr": "Write other or others.",
   "source": "There are two banks here. Ours is on this side of the {place}, and the ______ is across it, {name}.",
   "key": "other",
-  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "why": "Two banks: ours, the second one: the other.",
   "slots": {
    "place": [
     "road",
@@ -850,7 +850,7 @@ export default [
   "instr": "Write other or others.",
   "source": "Close one eye and look at the {thing} with the ______, {name}.",
   "key": "other",
-  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "why": "Two eyes: one closed, the second one: the other.",
   "slots": {
    "thing": [
     "board",
@@ -877,7 +877,7 @@ export default [
   "instr": "Write other or others.",
   "source": "Two girls got off at the {stop} {when}, and the ______ passengers stayed on.",
   "key": "other",
-  "why": "The rest of a known group, with a noun after it: the other + plural noun (the other students). Others never goes before a noun.",
+  "why": "Plural noun passengers after it: the other.",
   "slots": {
    "stop": [
     "bazaar",
@@ -904,7 +904,7 @@ export default [
   "instr": "Write other or others.",
   "source": "{name} has finished the {test}, but the ______ students are still writing.",
   "key": "other",
-  "why": "The rest of a known group, with a noun after it: the other + plural noun (the other students). Others never goes before a noun.",
+  "why": "Plural noun students after it: the other.",
   "slots": {
    "name": [
     "Aziz",
@@ -931,7 +931,7 @@ export default [
   "instr": "Write other or others.",
   "source": "This window in the {room} is open, but the ______ windows are closed, {name}.",
   "key": "other",
-  "why": "The rest of a known group, with a noun after it: the other + plural noun (the other students). Others never goes before a noun.",
+  "why": "Plural noun windows after it: the other.",
   "slots": {
    "room": [
     "kitchen",
@@ -958,7 +958,7 @@ export default [
   "instr": "Write other or others.",
   "source": "{name} is at the {place}. Where are the ______?",
   "key": "others",
-  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "why": "No noun after it: the rest of the people: the others.",
   "slots": {
    "name": [
     "Aziz",
@@ -985,7 +985,7 @@ export default [
   "instr": "Write other or others.",
   "source": "I've found one of my five {thing}. Can you help me find the ______, {name}?",
   "key": "others",
-  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "why": "No noun after it: the four I haven't found: the others.",
   "slots": {
    "thing": [
     "keys",
@@ -1012,7 +1012,7 @@ export default [
   "instr": "Write other or others.",
   "source": "I'll take this {box}, and you can carry all the ______, {name}.",
   "key": "others",
-  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "why": "No noun after it: all the rest of the boxes: the others.",
   "slots": {
    "box": [
     "box",
@@ -1039,7 +1039,7 @@ export default [
   "instr": "Write other or others.",
   "source": "Only one {who} came on time {when}; the ______ were late.",
   "key": "others",
-  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "why": "No noun after it: the rest of them: the others.",
   "slots": {
    "who": [
     "student",
@@ -1066,7 +1066,7 @@ export default [
   "instr": "Write other or others.",
   "source": "Let's start the {thing}. The ______ can join us later, {name}.",
   "key": "others",
-  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "why": "No noun after it: the people not here yet: the others.",
   "slots": {
    "thing": [
     "game",
@@ -1093,7 +1093,7 @@ export default [
   "instr": "Write other or others.",
   "source": "I like this photo of {city}, but the ______ are a bit dark, {name}.",
   "key": "others",
-  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "why": "No noun after it: the rest of the photos: the others.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1120,7 +1120,7 @@ export default [
   "instr": "Write other or others.",
   "source": "Two of my friends live here; the ______ live in {city}, {name}.",
   "key": "others",
-  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "why": "No noun after it: the rest of my friends: the others.",
   "slots": {
    "city": [
     "Tashkent",
@@ -1147,7 +1147,7 @@ export default [
   "instr": "Write other or others.",
   "source": "This {fruit} is ripe, but the ______ are still green, {name}.",
   "key": "others",
-  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "why": "No noun after it: the rest of the fruit: the others.",
   "slots": {
    "fruit": [
     "melon",
@@ -1175,7 +1175,7 @@ export default [
   "source": "I have two sisters, {name}. One is a {job} and another is a student.",
   "hint": "I have two sisters, {name}. One is a {job} and the ______ is a student.",
   "key": "other",
-  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "why": "The second of two: the other, not another.",
   "slots": {
    "job": [
     "doctor",
@@ -1203,7 +1203,7 @@ export default [
   "source": "Where are others? Only {name} is at the {place}.",
   "hint": "Where are the ______? Only {name} is at the {place}.",
   "key": "others",
-  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "why": "No noun after it: the others, with the.",
   "slots": {
    "name": [
     "Aziz",
@@ -1231,7 +1231,7 @@ export default [
   "source": "I lost one {glove}. Have you seen the another one, {name}?",
   "hint": "I lost one {glove}. Have you seen the ______ one, {name}?",
   "key": "other",
-  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "why": "After the: other, not another.",
   "slots": {
    "glove": [
     "glove",
@@ -1259,7 +1259,7 @@ export default [
   "source": "This bag on the {furn} is mine; the others bags are yours, {name}.",
   "hint": "This bag on the {furn} is mine; the ______ bags are yours, {name}.",
   "key": "other",
-  "why": "The rest of a known group, with a noun after it: the other + plural noun (the other students). Others never goes before a noun.",
+  "why": "Before a noun: the other bags, no -s.",
   "slots": {
    "furn": [
     "chair",
@@ -1287,7 +1287,7 @@ export default [
   "source": "Only {name} is ready. The other are still eating {food}.",
   "hint": "Only {name} is ready. The ______ are still eating {food}.",
   "key": "others",
-  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "why": "No noun after it: the others, with -s.",
   "slots": {
    "name": [
     "Aziz",
@@ -1315,7 +1315,7 @@ export default [
   "source": "I have two {pets}. One is black and the second one is white, {name}.",
   "hint": "I have two {pets}. One is black and the ______ is white, {name}.",
   "key": "other",
-  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "why": "The second of two = the other.",
   "slots": {
    "pets": [
     "cats",
@@ -1343,7 +1343,7 @@ export default [
   "source": "There are two doors in the {room}. Please use the second door, {name}.",
   "hint": "There are two doors in the {room}. Please use the ______ door, {name}.",
   "key": "other",
-  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "why": "The second of two doors = the other door.",
   "slots": {
    "room": [
     "hall",
@@ -1371,7 +1371,7 @@ export default [
   "source": "We have two cars. Dad drives one, and Mum drives the second one {when}, {name}.",
   "hint": "We have two cars. Dad drives one, and Mum drives the ______ one {when}, {name}.",
   "key": "other",
-  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "why": "The second of two cars = the other.",
   "slots": {
    "when": [
     "to work",
@@ -1399,7 +1399,7 @@ export default [
   "source": "He has two phones: one for work and the second for {use}, {name}.",
   "hint": "He has two phones: one for work and the ______ for {use}, {name}.",
   "key": "other",
-  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "why": "The second of two phones = the other.",
   "slots": {
    "use": [
     "home",
@@ -1427,7 +1427,7 @@ export default [
   "source": "Two girls came to the {event}. One was {name}; the second was her friend.",
   "hint": "Two girls came to the {event}. One was {name}; the ______ was her friend.",
   "key": "other",
-  "why": "There are only two, so the second one is the other. Another means one more from many; the another is never English.",
+  "why": "The second of two girls = the other.",
   "slots": {
    "event": [
     "party",
@@ -1455,7 +1455,7 @@ export default [
   "source": "Five friends came to the {event}. {name} stayed, and the rest went home.",
   "hint": "Five friends came to the {event}. {name} stayed, and the ______ went home.",
   "key": "others",
-  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "why": "\"the rest went home\" = the others went home.",
   "slots": {
    "event": [
     "party",
@@ -1483,7 +1483,7 @@ export default [
   "source": "I've got one {thing}. Where are the rest, {name}?",
   "hint": "I've got one {thing}. Where are the ______, {name}?",
   "key": "others",
-  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "why": "\"Where are the rest?\" = Where are the others?",
   "slots": {
    "thing": [
     "key",
@@ -1511,7 +1511,7 @@ export default [
   "source": "Ten people came. Three ate {food}; the rest ate soup, {name}.",
   "hint": "Ten people came. Three ate {food}; the ______ ate soup, {name}.",
   "key": "others",
-  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "why": "\"the rest ate soup\" = the others ate soup.",
   "slots": {
    "food": [
     "plov",
@@ -1539,7 +1539,7 @@ export default [
   "source": "This photo of {city} is good. The rest are dark, {name}.",
   "hint": "This photo of {city} is good. The ______ are dark, {name}.",
   "key": "others",
-  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "why": "\"The rest are dark\" = The others are dark.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1567,7 +1567,7 @@ export default [
   "source": "Six students passed the {test}, and the rest failed, {name}.",
   "hint": "Six students passed the {test}, and the ______ failed, {name}.",
   "key": "others",
-  "why": "It means all the rest of a known group, so use the others (no noun after it). The other is only one; others alone means some different people.",
+  "why": "\"the rest failed\" = the others failed.",
   "slots": {
    "test": [
     "test",

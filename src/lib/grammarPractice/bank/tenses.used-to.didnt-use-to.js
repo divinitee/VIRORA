@@ -17,7 +17,7 @@ export default [
    "didn't use like"
   ],
   "key": 0,
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to like. After did, write use with no -d.",
+  "why": "\"but now I eat it\" means the old dislike is over: didn't use to like.",
   "slots": {
    "food": [
     "fish",
@@ -41,7 +41,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My mother ______ coffee, but now she has a cup every {time}.",
+  "prompt": "My mother ______ {drink}, but now she has a cup every {time}.",
   "options": [
    "didn't used to drink",
    "doesn't use to drink",
@@ -49,13 +49,19 @@ export default [
    "didn't use to drink"
   ],
   "key": 3,
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to drink. After did, write use with no -d.",
+  "why": "\"now she has a cup\" means … is new for her: didn't use to drink.",
   "slots": {
    "time": [
     "morning",
     "afternoon",
     "evening",
     "day"
+   ],
+   "drink": [
+    "coffee",
+    "green tea",
+    "black tea",
+    "hot chocolate"
    ]
   }
  },
@@ -75,7 +81,7 @@ export default [
    "didn't used to have"
   ],
   "key": 2,
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to have. After did, write use with no -d.",
+  "why": "\"We bought one last …\": before that, no: didn't use to have.",
   "slots": {
    "thing": [
     "car",
@@ -107,7 +113,7 @@ export default [
    "doesn't use to speak"
   ],
   "key": 1,
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to speak. After did, write use with no -d.",
+  "why": "\"now he speaks it at work\" is new: didn't use to speak.",
   "slots": {
    "name": [
     "Sardor",
@@ -139,7 +145,7 @@ export default [
    "didn't use enjoy"
   ],
   "key": 0,
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to enjoy. After did, write use with no -d.",
+  "why": "\"Now it's my favourite\" was not true before: didn't use to enjoy.",
   "slots": {
    "subj": [
     "maths",
@@ -171,7 +177,7 @@ export default [
    "didn't use to live"
   ],
   "key": 3,
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to live. After did, write use with no -d.",
+  "why": "\"They moved here … last\": before, they lived far: didn't use to live.",
   "slots": {
    "city": [
     "Nukus",
@@ -203,7 +209,7 @@ export default [
    "doesn't use to wear"
   ],
   "key": 2,
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to wear. After did, write use with no -d.",
+  "why": "\"now he needs them\" is new: didn't use to wear.",
   "slots": {
    "who": [
     "father",
@@ -235,7 +241,7 @@ export default [
    "don't use to eat"
   ],
   "key": 1,
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to eat. After did, write use with no -d.",
+  "why": "\"now I have … every\" is a new habit: didn't use to eat.",
   "slots": {
    "food": [
     "eggs",
@@ -267,7 +273,7 @@ export default [
    "didn't use get"
   ],
   "key": 0,
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to get. After did, write use with no -d.",
+  "why": "\"now she gets up at …\" is a new habit: didn't use to get up.",
   "slots": {
    "time": [
     "six",
@@ -299,7 +305,7 @@ export default [
    "didn't use to go"
   ],
   "key": 3,
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to go. After did, write use with no -d.",
+  "why": "\"now we go there every …\" is new: didn't use to go.",
   "slots": {
    "where": [
     "to the mountains",
@@ -331,7 +337,7 @@ export default [
    "doesn't use to play"
   ],
   "key": 2,
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to play. After did, write use with no -d.",
+  "why": "\"He started last …\": before that, no: didn't use to play.",
   "slots": {
    "name": [
     "Bekzod",
@@ -369,7 +375,7 @@ export default [
    "don't use to know"
   ],
   "key": 1,
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to know. After did, write use with no -d.",
+  "why": "\"my … taught me\": before, I couldn't: didn't use to know.",
   "slots": {
    "task": [
     "cook plov",
@@ -401,7 +407,7 @@ export default [
    "didn't use watch"
   ],
   "key": 0,
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to watch. After did, write use with no -d.",
+  "why": "\"now they watch it every …\" is new: didn't use to watch.",
   "slots": {
    "show": [
     "football",
@@ -433,7 +439,7 @@ export default [
    "didn't use to walk"
   ],
   "key": 3,
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to walk. After did, write use with no -d.",
+  "why": "\"now she walks there every …\" is a new habit: didn't use to walk.",
   "slots": {
    "name": [
     "Madina",
@@ -443,7 +449,9 @@ export default [
    ],
    "day": [
     "morning",
-    "day"
+    "day",
+    "afternoon",
+    "evening"
    ],
    "who": [
     "her friends",
@@ -469,7 +477,7 @@ export default [
    "don't use to have"
   ],
   "key": 2,
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to have. After did, write use with no -d.",
+  "why": "\"our new home has two\": the old one had none: didn't use to have.",
   "slots": {
    "room": [
     "balcony",
@@ -480,7 +488,8 @@ export default [
    "home": [
     "flat",
     "house",
-    "place"
+    "place",
+    "building"
    ]
   }
  },
@@ -500,7 +509,7 @@ export default [
    "doesn't use to like"
   ],
   "key": 1,
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to like. After did, write use with no -d.",
+  "why": "\"now he plays with them\" is new: didn't use to like.",
   "slots": {
    "pet": [
     "cats",
@@ -532,7 +541,7 @@ export default [
    "didn't use be"
   ],
   "key": 0,
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to be. After did, write use with no -d.",
+  "why": "\"I practised a lot\" changed it: didn't use to be good.",
   "slots": {
    "subj": [
     "drawing",
@@ -564,7 +573,7 @@ export default [
    "didn't use to cook"
   ],
   "key": 3,
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to cook. After did, write use with no -d.",
+  "why": "\"now she makes it every …\" is new: didn't use to cook.",
   "slots": {
    "who": [
     "aunt",
@@ -602,7 +611,7 @@ export default [
    "don't use to talk"
   ],
   "key": 2,
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to talk. After did, write use with no -d.",
+  "why": "\"now they talk on the phone\" is new: didn't use to talk.",
   "slots": {
    "who": [
     "brothers",
@@ -634,11 +643,13 @@ export default [
    "don't use to read"
   ],
   "key": 1,
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to read. After did, write use with no -d.",
+  "why": "\"now I read one every …\" is a new habit: didn't use to read.",
   "slots": {
    "time": [
     "week",
-    "month"
+    "month",
+    "weekend",
+    "holiday"
    ],
    "transport": [
     "bus",
@@ -659,7 +670,7 @@ export default [
   "instr": "Complete the sentence with didn't use to and the verb in brackets.",
   "source": "As a child, I ______ (like) {food}. Now I love it with {side}.",
   "key": "didn't use to like",
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to like. After did, write use with no -d.",
+  "why": "\"As a child\" against \"Now I love it\": didn't use to like.",
   "slots": {
    "food": [
     "rice",
@@ -689,7 +700,7 @@ export default [
   "instr": "Complete the sentence with didn't use to and the verb in brackets.",
   "source": "My grandparents ______ (have) a phone. They got one last {when} and now they call us every {day}.",
   "key": "didn't use to have",
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to have. After did, write use with no -d.",
+  "why": "\"They got one last …\": before that, no phone: didn't use to have.",
   "slots": {
    "when": [
     "year",
@@ -719,7 +730,7 @@ export default [
   "instr": "Complete the sentence with didn't use to and the verb in brackets.",
   "source": "My {who} ______ (drive). He learned last {when}.",
   "key": "didn't use to drive",
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to drive. After did, write use with no -d.",
+  "why": "\"He learned last …\": before that, no driving: didn't use to drive.",
   "slots": {
    "who": [
     "father",
@@ -749,7 +760,7 @@ export default [
   "instr": "Complete the sentence with didn't use to and the verb in brackets.",
   "source": "{name} ______ (eat) meat, but now she eats {food} every week.",
   "key": "didn't use to eat",
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to eat. After did, write use with no -d.",
+  "why": "\"now she eats … every week\" is new: didn't use to eat.",
   "slots": {
    "name": [
     "Madina",
@@ -779,7 +790,7 @@ export default [
   "instr": "Complete the sentence with didn't use to and the verb in brackets.",
   "source": "We ______ (go) out on {day}. Now we visit the {place} every week.",
   "key": "didn't use to go",
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to go. After did, write use with no -d.",
+  "why": "\"Now we visit … every week\" is new: didn't use to go out.",
   "slots": {
    "day": [
     "Saturdays",
@@ -809,7 +820,7 @@ export default [
   "instr": "Complete the sentence with didn't use to and the verb in brackets.",
   "source": "My friend ______ (speak) Russian, but now he speaks it with {who} at {place}.",
   "key": "didn't use to speak",
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to speak. After did, write use with no -d.",
+  "why": "\"now he speaks it\" is new: didn't use to speak.",
   "slots": {
    "who": [
     "customers",
@@ -839,7 +850,7 @@ export default [
   "instr": "Complete the sentence with didn't use to and the verb in brackets.",
   "source": "I ______ (study) hard at {school}, but now I work hard every {time}.",
   "key": "didn't use to study",
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to study. After did, write use with no -d.",
+  "why": "\"now I work hard\" is new: didn't use to study hard.",
   "slots": {
    "school": [
     "school",
@@ -869,7 +880,7 @@ export default [
   "instr": "Complete the sentence with didn't use to and the verb in brackets.",
   "source": "Our {place} ______ (be) so busy. Now there are {thing} everywhere.",
   "key": "didn't use to be",
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to be. After did, write use with no -d.",
+  "why": "\"Now there are … everywhere\": it was quiet before: didn't use to be.",
   "slots": {
    "place": [
     "street",
@@ -899,7 +910,7 @@ export default [
   "instr": "Complete the sentence with didn't use to and the verb in brackets.",
   "source": "My little brother ______ (wear) a {thing}. Now he wears one every {day}.",
   "key": "didn't use to wear",
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to wear. After did, write use with no -d.",
+  "why": "\"Now he wears one every …\" is new: didn't use to wear.",
   "slots": {
    "thing": [
     "watch",
@@ -929,7 +940,7 @@ export default [
   "instr": "Complete the sentence with didn't use to and the verb in brackets.",
   "source": "My parents ______ (watch) {show}. Now they never miss it on {day}.",
   "key": "didn't use to watch",
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to watch. After did, write use with no -d.",
+  "why": "\"Now they never miss it\" is new: didn't use to watch.",
   "slots": {
    "show": [
     "football",
@@ -959,7 +970,7 @@ export default [
   "instr": "Complete the sentence with didn't use to and the verb in brackets.",
   "source": "{name} ______ (play) chess. Her {who} taught her last {when}.",
   "key": "didn't use to play",
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to play. After did, write use with no -d.",
+  "why": "\"Her … taught her last …\": before that, no chess: didn't use to play.",
   "slots": {
    "name": [
     "Madina",
@@ -995,7 +1006,7 @@ export default [
   "instr": "Complete the sentence with didn't use to and the verb in brackets.",
   "source": "We ______ (know) our neighbours in the {place}, but now we visit them every {day}.",
   "key": "didn't use to know",
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to know. After did, write use with no -d.",
+  "why": "\"now we visit them\" is new: didn't use to know.",
   "slots": {
    "place": [
     "old building",
@@ -1025,7 +1036,7 @@ export default [
   "instr": "Complete the sentence with didn't use to and the verb in brackets.",
   "source": "My {who} ______ (work) at weekends, but now she has a job in a {place} and works on Saturdays.",
   "key": "didn't use to work",
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to work. After did, write use with no -d.",
+  "why": "\"now … works on Saturdays\" is new: didn't use to work.",
   "slots": {
    "who": [
     "mother",
@@ -1055,7 +1066,7 @@ export default [
   "instr": "Complete the sentence with didn't use to and the verb in brackets.",
   "source": "I ______ (take) the {transport}, but now I'm on it every {time}.",
   "key": "didn't use to take",
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to take. After did, write use with no -d.",
+  "why": "\"now I'm on it every …\" is new: didn't use to take.",
   "slots": {
    "transport": [
     "bus",
@@ -1085,7 +1096,7 @@ export default [
   "instr": "Complete the sentence with didn't use to and the verb in brackets.",
   "source": "My father ______ (cook), but now he makes {food} on {day}.",
   "key": "didn't use to cook",
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to cook. After did, write use with no -d.",
+  "why": "\"now he makes …\" is new: didn't use to cook.",
   "slots": {
    "food": [
     "plov",
@@ -1115,17 +1126,19 @@ export default [
   "instr": "Complete the sentence with didn't use to and the verb in brackets.",
   "source": "My {who} ______ (sleep) well, but now she sleeps all night in her own {room}.",
   "key": "didn't use to sleep",
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to sleep. After did, write use with no -d.",
+  "why": "\"now she sleeps all night\" is new: didn't use to sleep.",
   "slots": {
    "who": [
     "little sister",
     "baby sister",
-    "little cousin"
+    "little cousin",
+    "daughter"
    ],
    "room": [
     "room",
     "bed",
-    "bedroom"
+    "bedroom",
+    "cot"
    ]
   },
   "acceptable": [
@@ -1143,7 +1156,7 @@ export default [
   "instr": "Complete the sentence with didn't use to and the verb in brackets.",
   "source": "My {who} ______ (call) me, but now we talk every {time}.",
   "key": "didn't use to call",
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to call. After did, write use with no -d.",
+  "why": "\"now we talk every …\" is new: didn't use to call.",
   "slots": {
    "who": [
     "brother",
@@ -1173,7 +1186,7 @@ export default [
   "instr": "Complete the sentence with didn't use to and the verb in brackets.",
   "source": "{name} ______ (ride) a bike, but now he rides one every {day} in the {place}.",
   "key": "didn't use to ride",
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to ride. After did, write use with no -d.",
+  "why": "\"now he rides one every …\" is new: didn't use to ride.",
   "slots": {
    "name": [
     "Sardor",
@@ -1209,7 +1222,7 @@ export default [
   "instr": "Complete the sentence with didn't use to and the verb in brackets.",
   "source": "I ______ (enjoy) {thing}, but last {when} it became my favourite hobby.",
   "key": "didn't use to enjoy",
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to enjoy. After did, write use with no -d.",
+  "why": "\"last … it became my favourite\": not before: didn't use to enjoy.",
   "slots": {
    "thing": [
     "cooking",
@@ -1239,7 +1252,7 @@ export default [
   "instr": "Complete the sentence with didn't use to and the verb in brackets.",
   "source": "We ______ (visit) our relatives in {city} often. Now we go there every {season}.",
   "key": "didn't use to visit",
-  "why": "It was not true in the past, but it is now: didn't use to + the base form, didn't use to visit. After did, write use with no -d.",
+  "why": "\"Now we go there every …\" is new: didn't use to visit.",
   "slots": {
    "city": [
     "Khiva",
@@ -1270,7 +1283,7 @@ export default [
   "source": "When I was {age}, I used to like {food}.",
   "hint": "When I was {age}, I ______ {food}.",
   "key": "didn't use to like",
-  "why": "Negative of used to: didn't + use to + the base form, didn't use to like. The -d goes away after did.",
+  "why": "Make the old habit negative: used to like → didn't use to like.",
   "slots": {
    "age": [
     "six",
@@ -1298,16 +1311,22 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Make the sentence negative with didn't use to.",
-  "source": "My parents used to go out on {day}.",
-  "hint": "My parents ______ out on {day}.",
+  "source": "My {who} used to go out on {day}.",
+  "hint": "My {who} ______ out on {day}.",
   "key": "didn't use to go",
-  "why": "Negative of used to: didn't + use to + the base form, didn't use to go. The -d goes away after did.",
+  "why": "Negative of used to go: didn't use to go (no -d after did).",
   "slots": {
    "day": [
     "Fridays",
     "Saturdays",
     "weekdays",
     "Sunday evenings"
+   ],
+   "who": [
+    "parents",
+    "grandparents",
+    "neighbours",
+    "cousins"
    ]
   },
   "acceptable": [
@@ -1326,7 +1345,7 @@ export default [
   "source": "We used to have a {thing} in our {room}.",
   "hint": "We ______ a {thing} in our {room}.",
   "key": "didn't use to have",
-  "why": "Negative of used to: didn't + use to + the base form, didn't use to have. The -d goes away after did.",
+  "why": "Negative of used to have: didn't use to have.",
   "slots": {
    "thing": [
     "dishwasher",
@@ -1357,7 +1376,7 @@ export default [
   "source": "{name} used to eat {food}.",
   "hint": "{name} ______ {food}.",
   "key": "didn't use to eat",
-  "why": "Negative of used to: didn't + use to + the base form, didn't use to eat. The -d goes away after did.",
+  "why": "Negative of used to eat: didn't use to eat.",
   "slots": {
    "name": [
     "Madina",
@@ -1388,7 +1407,7 @@ export default [
   "source": "My {who} used to work on {day}.",
   "hint": "My {who} ______ on {day}.",
   "key": "didn't use to work",
-  "why": "Negative of used to: didn't + use to + the base form, didn't use to work. The -d goes away after did.",
+  "why": "Negative of used to work: didn't use to work.",
   "slots": {
    "who": [
     "brother",
@@ -1416,8 +1435,8 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "This sentence has a mistake. Rewrite it correctly with didn't use to.",
-  "source": "I didn't used to like {thing}, but now I do.",
-  "hint": "I ______ {thing}, but now I do.",
+  "source": "I didn't used to like {thing}, but now I {doit}.",
+  "hint": "I ______ {thing}, but now I {doit}.",
   "key": "didn't use to like",
   "why": "After did, write use with no -d: didn't use to like.",
   "slots": {
@@ -1426,6 +1445,12 @@ export default [
     "maths",
     "winter",
     "tea"
+   ],
+   "doit": [
+    "do",
+    "do a lot",
+    "really do",
+    "do every day"
    ]
   },
   "acceptable": [
@@ -1444,7 +1469,7 @@ export default [
   "source": "{name} wasn't used to drink {drink}, but now she has it every {day}.",
   "hint": "{name} ______ {drink}, but now she has it every {day}.",
   "key": "didn't use to drink",
-  "why": "Wasn't used to is a different meaning. For a past fact that changed: didn't use to drink.",
+  "why": "Not \"wasn't used to drink\": a past habit is didn't use to drink.",
   "slots": {
    "name": [
     "Madina",
@@ -1461,7 +1486,8 @@ export default [
    "day": [
     "day",
     "morning",
-    "evening"
+    "evening",
+    "afternoon"
    ]
   },
   "acceptable": [
@@ -1480,7 +1506,7 @@ export default [
   "source": "We don't use to visit the {place} as children, but now we go every {day}.",
   "hint": "We ______ the {place} as children, but now we go every {day}.",
   "key": "didn't use to visit",
-  "why": "As children is the past, so did, not do: didn't use to visit.",
+  "why": "\"as children\" is the past, so did, not do: didn't use to visit.",
   "slots": {
    "place": [
     "museum",
@@ -1511,7 +1537,7 @@ export default [
   "source": "My {who} didn't use cook at home, but now he cooks every {day}.",
   "hint": "My {who} ______ at home, but now he cooks every {day}.",
   "key": "didn't use to cook",
-  "why": "Use needs to after it: didn't use to cook.",
+  "why": "to is missing: didn't use to cook.",
   "slots": {
    "who": [
     "father",
@@ -1542,7 +1568,7 @@ export default [
   "source": "They didn't use to living in {city}, but they moved there last {when}.",
   "hint": "They ______ in {city}, but they moved there last {when}.",
   "key": "didn't use to live",
-  "why": "After use to, write the base form, not -ing: didn't use to live.",
+  "why": "After use to comes the base verb, not -ing: didn't use to live.",
   "slots": {
    "city": [
     "Tashkent",
@@ -1573,7 +1599,7 @@ export default [
   "source": "At {school}, we didn't have a {room} then. We have one now.",
   "hint": "At {school}, we ______ a {room}.",
   "key": "didn't use to have",
-  "why": "It wasn't true then, but it is now, so didn't use to have fits better than the past simple.",
+  "why": "\"We have one now\", not then: didn't use to have.",
   "slots": {
    "school": [
     "our school",
@@ -1604,7 +1630,7 @@ export default [
   "source": "My {who} didn't drive a {car} then. He drives one now.",
   "hint": "My {who} ______ a {car}.",
   "key": "didn't use to drive",
-  "why": "It wasn't true then, but it is now, so didn't use to drive fits better than the past simple.",
+  "why": "\"He drives one now\", not then: didn't use to drive.",
   "slots": {
    "who": [
     "father",
@@ -1635,7 +1661,7 @@ export default [
   "source": "{name} didn't speak much in {class} then. She talks a lot now.",
   "hint": "{name} ______ much in {class}.",
   "key": "didn't use to speak",
-  "why": "It wasn't true then, but it is now, so didn't use to speak fits better than the past simple.",
+  "why": "\"She talks a lot now\", not then: didn't use to speak.",
   "slots": {
    "name": [
     "Madina",
@@ -1666,7 +1692,7 @@ export default [
   "source": "We didn't eat out on {day} then. Now we often go to a {place}.",
   "hint": "We ______ out on {day}.",
   "key": "didn't use to eat",
-  "why": "It wasn't true then, but it is now, so didn't use to eat fits better than the past simple.",
+  "why": "\"Now we often go\", not then: didn't use to eat out.",
   "slots": {
    "day": [
     "Fridays",
@@ -1697,7 +1723,7 @@ export default [
   "source": "I didn't get up early in the {season} then. I get up at {time} now.",
   "hint": "I ______ up early in the {season}.",
   "key": "didn't use to get",
-  "why": "It wasn't true then, but it is now, so didn't use to get fits better than the past simple.",
+  "why": "\"I get up at … now\", not then: didn't use to get up.",
   "slots": {
    "season": [
     "summer",

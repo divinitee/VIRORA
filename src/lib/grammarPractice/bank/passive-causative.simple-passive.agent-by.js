@@ -17,7 +17,7 @@ export default [
    "of"
   ],
   "key": 1,
-  "why": "with + the thing that was used (a tool or an object).",
+  "why": "A tool opened the lock: with; the person: by.",
   "slots": {
    "tool": [
     "screwdriver",
@@ -49,7 +49,7 @@ export default [
    "by"
   ],
   "key": 0,
-  "why": "with + the thing that was used (a tool or an object).",
+  "why": "A tool did the cutting: with.",
   "slots": {
    "tool": [
     "knife",
@@ -81,7 +81,7 @@ export default [
    "with"
   ],
   "key": 3,
-  "why": "with + the thing that was used (a tool or an object).",
+  "why": "A pen is a tool for writing: with.",
   "slots": {
    "pen": [
     "pencil",
@@ -113,7 +113,7 @@ export default [
    "from"
   ],
   "key": 2,
-  "why": "with + the thing that was used (a tool or an object).",
+  "why": "The tool for painting: with; the painter: by.",
   "slots": {
    "tool": [
     "brush",
@@ -145,7 +145,7 @@ export default [
    "of"
   ],
   "key": 1,
-  "why": "with + the thing that was used (a tool or an object).",
+  "why": "An object used to break it: with.",
   "slots": {
    "thing": [
     "stone",
@@ -177,7 +177,7 @@ export default [
    "by"
   ],
   "key": 0,
-  "why": "with + the thing that was used (a tool or an object).",
+  "why": "Our hands were the tool: with.",
   "slots": {
    "event": [
     "wedding",
@@ -209,7 +209,7 @@ export default [
    "with"
   ],
   "key": 3,
-  "why": "with + the thing that was used (a tool or an object).",
+  "why": "The material used to tie it: with.",
   "slots": {
    "rope": [
     "string",
@@ -241,7 +241,7 @@ export default [
    "from"
   ],
   "key": 2,
-  "why": "with + the thing that was used (a tool or an object).",
+  "why": "A tool for photos: with; my … is the doer: by.",
   "slots": {
    "camera": [
     "camera",
@@ -273,7 +273,7 @@ export default [
    "of"
   ],
   "key": 1,
-  "why": "with + the thing that was used (a tool or an object).",
+  "why": "The tool for cutting: with; the person: by.",
   "slots": {
    "tool": [
     "saw",
@@ -305,7 +305,7 @@ export default [
    "by"
   ],
   "key": 0,
-  "why": "with + the thing that was used (a tool or an object).",
+  "why": "The tool for cleaning: with.",
   "slots": {
    "tool": [
     "mop",
@@ -337,7 +337,7 @@ export default [
    "with"
   ],
   "key": 3,
-  "why": "with + the thing that was used (a tool or an object).",
+  "why": "The tool for cutting meat: with.",
   "slots": {
    "tool": [
     "knife",
@@ -369,7 +369,7 @@ export default [
    "from"
   ],
   "key": 2,
-  "why": "with + the thing that was used (a tool or an object).",
+  "why": "The tool and soap for washing: with.",
   "slots": {
    "tool": [
     "sponge",
@@ -401,7 +401,7 @@ export default [
    "of"
   ],
   "key": 0,
-  "why": "by + the doer (who did it).",
+  "why": "The caretaker is the person: by.",
   "slots": {
    "tool": [
     "screwdriver",
@@ -433,7 +433,7 @@ export default [
    "by"
   ],
   "key": 3,
-  "why": "by + the doer (who did it).",
+  "why": "A person wrote the song: by.",
   "slots": {
    "who": [
     "singer",
@@ -465,7 +465,7 @@ export default [
    "with"
   ],
   "key": 2,
-  "why": "by + the doer (who did it).",
+  "why": "A person next door did it: by.",
   "slots": {
    "who": [
     "boy",
@@ -497,7 +497,7 @@ export default [
    "from"
   ],
   "key": 1,
-  "why": "by + the doer (who did it).",
+  "why": "A person cooked it: by.",
   "slots": {
    "who": [
     "grandmother",
@@ -529,7 +529,7 @@ export default [
    "of"
   ],
   "key": 0,
-  "why": "by + the doer (who did it).",
+  "why": "A person took the photos: by.",
   "slots": {
    "who": [
     "photographer",
@@ -561,7 +561,7 @@ export default [
    "by"
   ],
   "key": 3,
-  "why": "by + the doer (who did it).",
+  "why": "A company is the doer: by.",
   "slots": {
    "country": [
     "Turkish",
@@ -593,7 +593,7 @@ export default [
    "with"
   ],
   "key": 2,
-  "why": "by + the doer (who did it).",
+  "why": "A person found the child: by.",
   "slots": {
    "who": [
     "shop assistant",
@@ -625,7 +625,7 @@ export default [
    "from"
   ],
   "key": 1,
-  "why": "by + the doer (who did it).",
+  "why": "A person painted; the brush is with: by.",
   "slots": {
    "who": [
     "grandfather",
@@ -652,7 +652,7 @@ export default [
   "instr": "Write by (who did it) or with (what they used).",
   "source": "The door was opened ______ a {tool}, {name}.",
   "key": "with",
-  "why": "with + the thing that was used (a tool or an object).",
+  "why": "Tool → with: opened with a ….",
   "slots": {
    "tool": [
     "key",
@@ -679,7 +679,7 @@ export default [
   "instr": "Write by (who did it) or with (what they used).",
   "source": "The bread was cut ______ a {knife}, {name}.",
   "key": "with",
-  "why": "with + the thing that was used (a tool or an object).",
+  "why": "A cutting tool did the work → with.",
   "slots": {
    "knife": [
     "knife",
@@ -706,7 +706,7 @@ export default [
   "instr": "Write by (who did it) or with (what they used).",
   "source": "The picture was drawn ______ a {pen}, {name}.",
   "key": "with",
-  "why": "with + the thing that was used (a tool or an object).",
+  "why": "Drawing tool → with.",
   "slots": {
    "pen": [
     "pencil",
@@ -733,7 +733,7 @@ export default [
   "instr": "Write by (who did it) or with (what they used).",
   "source": "The fence was painted ______ a {tool}, {name}.",
   "key": "with",
-  "why": "with + the thing that was used (a tool or an object).",
+  "why": "Painting tool → with.",
   "slots": {
    "tool": [
     "brush",
@@ -760,7 +760,7 @@ export default [
   "instr": "Write by (who did it) or with (what they used).",
   "source": "The glass was broken ______ a {thing}, {name}.",
   "key": "with",
-  "why": "with + the thing that was used (a tool or an object).",
+  "why": "Object that broke it → with.",
   "slots": {
    "thing": [
     "stone",
@@ -787,7 +787,7 @@ export default [
   "instr": "Write by (who did it) or with (what they used).",
   "source": "The parcel was tied ______ {rope}, {name}.",
   "key": "with",
-  "why": "with + the thing that was used (a tool or an object).",
+  "why": "Material used to tie → with.",
   "slots": {
    "rope": [
     "string",
@@ -814,7 +814,7 @@ export default [
   "instr": "Write by (who did it) or with (what they used).",
   "source": "The video was filmed ______ a {camera}, {name}.",
   "key": "with",
-  "why": "with + the thing that was used (a tool or an object).",
+  "why": "Filming tool → with.",
   "slots": {
    "camera": [
     "phone",
@@ -841,7 +841,7 @@ export default [
   "instr": "Write by (who did it) or with (what they used).",
   "source": "The soup was stirred ______ a {spoon}, {name}.",
   "key": "with",
-  "why": "with + the thing that was used (a tool or an object).",
+  "why": "Kitchen tool → with.",
   "slots": {
    "spoon": [
     "spoon",
@@ -868,7 +868,7 @@ export default [
   "instr": "Write by (who did it) or with (what they used).",
   "source": "The book was written ______ a young {who} from {city}.",
   "key": "by",
-  "why": "by + the doer (who did it).",
+  "why": "The author is a person → by.",
   "slots": {
    "who": [
     "writer",
@@ -895,7 +895,7 @@ export default [
   "instr": "Write by (who did it) or with (what they used).",
   "source": "The cake was made ______ my {who}, {name}.",
   "key": "by",
-  "why": "by + the doer (who did it).",
+  "why": "Cook (a person) → by.",
   "slots": {
    "who": [
     "grandmother",
@@ -922,7 +922,7 @@ export default [
   "instr": "Write by (who did it) or with (what they used).",
   "source": "The match was won ______ {team}, {name}.",
   "key": "by",
-  "why": "by + the doer (who did it).",
+  "why": "Team that won → by.",
   "slots": {
    "team": [
     "Sunrise FC",
@@ -949,7 +949,7 @@ export default [
   "instr": "Write by (who did it) or with (what they used).",
   "source": "The phone was found ______ a {who} in the park, {name}.",
   "key": "by",
-  "why": "by + the doer (who did it).",
+  "why": "Finder (a person) → by.",
   "slots": {
    "who": [
     "boy",
@@ -976,7 +976,7 @@ export default [
   "instr": "Write by (who did it) or with (what they used).",
   "source": "These photos were taken ______ my {who}, {name}.",
   "key": "by",
-  "why": "by + the doer (who did it).",
+  "why": "Photographer (my …) → by.",
   "slots": {
    "who": [
     "uncle",
@@ -1003,7 +1003,7 @@ export default [
   "instr": "Write by (who did it) or with (what they used).",
   "source": "The house was built ______ my {who} in 1990, {name}.",
   "key": "by",
-  "why": "by + the doer (who did it).",
+  "why": "Builder (my …) → by.",
   "slots": {
    "who": [
     "grandfather",
@@ -1030,7 +1030,7 @@ export default [
   "instr": "Write by (who did it) or with (what they used).",
   "source": "The {thing} was repaired ______ two young men, {name}.",
   "key": "by",
-  "why": "by + the doer (who did it).",
+  "why": "Two men did it → by.",
   "slots": {
    "thing": [
     "bike",
@@ -1057,7 +1057,7 @@ export default [
   "instr": "Write by (who did it) or with (what they used).",
   "source": "The tea was served ______ the {who}, {name}.",
   "key": "by",
-  "why": "by + the doer (who did it).",
+  "why": "Server (a person) → by.",
   "slots": {
    "who": [
     "waiter",
@@ -1084,7 +1084,7 @@ export default [
   "instr": "Write by (who did it) or with (what they used).",
   "source": "The letter was opened ______ a {tool} by Olga, {name}.",
   "key": "with",
-  "why": "with + the thing that was used (a tool or an object).",
+  "why": "Tool for opening → with; Olga → by.",
   "slots": {
    "tool": [
     "knife",
@@ -1111,7 +1111,7 @@ export default [
   "instr": "Write by (who did it) or with (what they used).",
   "source": "The window was cleaned ______ the {who} with a cloth, {name}.",
   "key": "by",
-  "why": "by + the doer (who did it).",
+  "why": "A person cleaned it → by; the cloth → with.",
   "slots": {
    "who": [
     "cleaner",
@@ -1138,7 +1138,7 @@ export default [
   "instr": "Write by (who did it) or with (what they used).",
   "source": "The tree was cut down ______ a {saw}, {name}.",
   "key": "with",
-  "why": "with + the thing that was used (a tool or an object).",
+  "why": "Cutting tool → with.",
   "slots": {
    "saw": [
     "saw",
@@ -1165,7 +1165,7 @@ export default [
   "instr": "Write by (who did it) or with (what they used).",
   "source": "The song was sung ______ the {who} at the {event}.",
   "key": "by",
-  "why": "by + the doer (who did it).",
+  "why": "Singer (a person) → by.",
   "slots": {
    "who": [
     "children",
@@ -1193,7 +1193,7 @@ export default [
   "source": "A famous {who} wrote this song, {name}.",
   "hint": "This song ______ a famous {who}, {name}.",
   "key": "was written by",
-  "why": "by + the doer (who did it).",
+  "why": "A person wrote it: was written by.",
   "slots": {
    "who": [
     "singer",
@@ -1221,7 +1221,7 @@ export default [
   "source": "My {who} cooked the plov, {name}.",
   "hint": "The plov ______ my {who}, {name}.",
   "key": "was cooked by",
-  "why": "by + the doer (who did it).",
+  "why": "A person cooked it: was cooked by.",
   "slots": {
    "who": [
     "grandmother",
@@ -1249,7 +1249,7 @@ export default [
   "source": "{team} won the cup, {name}.",
   "hint": "The cup ______ {team}, {name}.",
   "key": "was won by",
-  "why": "by + the doer (who did it).",
+  "why": "A team won it: was won by.",
   "slots": {
    "team": [
     "Sunrise FC",
@@ -1277,7 +1277,7 @@ export default [
   "source": "A {who} found my wallet in the {place}.",
   "hint": "My wallet ______ a {who} in the {place}.",
   "key": "was found by",
-  "why": "by + the doer (who did it).",
+  "why": "A person found it: was found by.",
   "slots": {
    "who": [
     "boy",
@@ -1305,7 +1305,7 @@ export default [
   "source": "Two young men repaired the {thing}, {name}.",
   "hint": "The {thing} ______ two young men, {name}.",
   "key": "was repaired by",
-  "why": "by + the doer (who did it).",
+  "why": "Two men repaired it: was repaired by.",
   "slots": {
    "thing": [
     "bike",
@@ -1333,7 +1333,7 @@ export default [
   "source": "Someone broke the window. He used a {thing}, {name}.",
   "hint": "The window was broken ______ a {thing}, {name}.",
   "key": "with",
-  "why": "with + the thing that was used (a tool or an object).",
+  "why": "He used a …: with.",
   "slots": {
    "thing": [
     "stone",
@@ -1361,7 +1361,7 @@ export default [
   "source": "Grandma cut the bread. She used a {knife}, {name}.",
   "hint": "The bread was cut by Grandma ______ a {knife}, {name}.",
   "key": "with",
-  "why": "with + the thing that was used (a tool or an object).",
+  "why": "She used a …: with.",
   "slots": {
    "knife": [
     "knife",
@@ -1389,7 +1389,7 @@ export default [
   "source": "The caretaker opened the lock. He used a {tool}, {name}.",
   "hint": "The lock was opened by the caretaker ______ a {tool}, {name}.",
   "key": "with",
-  "why": "with + the thing that was used (a tool or an object).",
+  "why": "He used a …: with, after by the caretaker.",
   "slots": {
    "tool": [
     "screwdriver",
@@ -1417,7 +1417,7 @@ export default [
   "source": "My dad painted the fence. He used a {tool}, {name}.",
   "hint": "The fence was painted by my dad ______ a {tool}, {name}.",
   "key": "with",
-  "why": "with + the thing that was used (a tool or an object).",
+  "why": "He used a …: with, after by my dad.",
   "slots": {
    "tool": [
     "brush",
@@ -1445,7 +1445,7 @@ export default [
   "source": "They tied the box. They used {rope}, {name}.",
   "hint": "The box was tied ______ {rope}, {name}.",
   "key": "with",
-  "why": "with + the thing that was used (a tool or an object).",
+  "why": "They used …: with.",
   "slots": {
    "rope": [
     "string",
@@ -1473,7 +1473,7 @@ export default [
   "source": "This song was written from a famous {who}, {name}.",
   "hint": "This song was written ______ a famous {who}, {name}.",
   "key": "by",
-  "why": "by + the doer (who did it).",
+  "why": "The doer is by, not from.",
   "slots": {
    "who": [
     "singer",
@@ -1501,7 +1501,7 @@ export default [
   "source": "The bread was cut by a {knife}, {name}.",
   "hint": "The bread was cut ______ a {knife}, {name}.",
   "key": "with",
-  "why": "with + the thing that was used (a tool or an object).",
+  "why": "A tool is with, not by.",
   "slots": {
    "knife": [
     "knife",
@@ -1529,7 +1529,7 @@ export default [
   "source": "The house was built of my {who}, {name}.",
   "hint": "The house was built ______ my {who}, {name}.",
   "key": "by",
-  "why": "by + the doer (who did it).",
+  "why": "The doer is by, not of.",
   "slots": {
    "who": [
     "grandfather",
@@ -1557,7 +1557,7 @@ export default [
   "source": "The window was broken with a {thing} from the boy next door, {name}.",
   "hint": "The window was broken with a {thing} ______ the boy next door, {name}.",
   "key": "by",
-  "why": "by + the doer (who did it).",
+  "why": "The boy is the doer: by, not from.",
   "slots": {
    "thing": [
     "stone",
@@ -1585,7 +1585,7 @@ export default [
   "source": "The photo was taken from my {who} with an old camera, {name}.",
   "hint": "The photo was taken ______ my {who} with an old camera, {name}.",
   "key": "by",
-  "why": "by + the doer (who did it).",
+  "why": "My … is the doer: by, not from.",
   "slots": {
    "who": [
     "uncle",

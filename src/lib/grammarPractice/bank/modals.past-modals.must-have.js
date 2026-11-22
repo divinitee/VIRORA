@@ -17,7 +17,7 @@ export default [
    "must have rain"
   ],
   "key": 0,
-  "why": "Sure about the past, from what you see now: must have + past participle (must have rained).",
+  "why": "Wet now, so I'm sure about last night: must have rained.",
   "slots": {
    "thing": [
     "ground",
@@ -49,7 +49,7 @@ export default [
    "must have forgotten"
   ],
   "key": 3,
-  "why": "Sure about the past, from what you see now: must have + past participle (must have forgotten).",
+  "why": "He didn't come: my sure guess about the past: must have forgotten.",
   "slots": {
    "event": [
     "meeting",
@@ -81,7 +81,7 @@ export default [
    "must leave"
   ],
   "key": 2,
-  "why": "Sure about the past, from what you see now: must have + past participle (must have left).",
+  "why": "Open now: someone did it earlier: must have left.",
   "slots": {
    "place": [
     "office",
@@ -113,7 +113,7 @@ export default [
    "must had gone"
   ],
   "key": 1,
-  "why": "Sure about the past, from what you see now: must have + past participle (must have gone).",
+  "why": "Lights off now: I'm sure they went: must have gone.",
   "slots": {
    "home": [
     "flat",
@@ -145,7 +145,7 @@ export default [
    "must have eat"
   ],
   "key": 0,
-  "why": "Sure about the past, from what you see now: must have + past participle (must have eaten).",
+  "why": "Nothing left: I'm sure they ate it: must have eaten.",
   "slots": {
    "food": [
     "cake",
@@ -177,7 +177,7 @@ export default [
    "must have won"
   ],
   "key": 3,
-  "why": "Sure about the past, from what you see now: must have + past participle (must have won).",
+  "why": "Smiling with a …: I'm sure he won: must have won.",
   "slots": {
    "prize": [
     "cup",
@@ -209,7 +209,7 @@ export default [
    "must lose"
   ],
   "key": 2,
-  "why": "Sure about the past, from what you see now: must have + past participle (must have lost).",
+  "why": "She can't find it: I'm sure it was the bus: must have lost.",
   "slots": {
    "thing": [
     "phone",
@@ -241,7 +241,7 @@ export default [
    "must had studied"
   ],
   "key": 1,
-  "why": "Sure about the past, from what you see now: must have + past participle (must have studied).",
+  "why": "100%: I'm sure she worked hard: must have studied.",
   "slots": {
    "test": [
     "exam",
@@ -273,7 +273,7 @@ export default [
    "must have see"
   ],
   "key": 0,
-  "why": "Sure about the past, from what you see now: must have + past participle (must have seen).",
+  "why": "He knows the end: I'm sure he saw it: must have seen.",
   "slots": {
    "film": [
     "film",
@@ -305,7 +305,7 @@ export default [
    "must have taken"
   ],
   "key": 3,
-  "why": "Sure about the past, from what you see now: must have + past participle (must have taken).",
+  "why": "It isn't here: I'm sure someone took it: must have taken.",
   "slots": {
    "thing": [
     "umbrella",
@@ -337,7 +337,7 @@ export default [
    "must be"
   ],
   "key": 2,
-  "why": "Sure about the past, from what you see now: must have + past participle (must have been).",
+  "why": "So far yesterday: I'm sure it was tiring: must have been.",
   "slots": {
    "dist": [
     "thirty kilometres",
@@ -369,7 +369,7 @@ export default [
    "must had broken"
   ],
   "key": 1,
-  "why": "Sure about the past, from what you see now: must have + past participle (must have broken).",
+  "why": "Glass on the floor: I'm sure a window broke: must have broken.",
   "slots": {
    "room": [
     "kitchen",
@@ -401,7 +401,7 @@ export default [
    "must have hear"
   ],
   "key": 0,
-  "why": "Sure about the past, from what you see now: must have + past participle (must have heard).",
+  "why": "Everyone knows: I'm sure they heard it: must have heard.",
   "slots": {
    "event": [
     "wedding",
@@ -433,7 +433,7 @@ export default [
    "must have driven"
   ],
   "key": 3,
-  "why": "Sure about the past, from what you see now: must have + past participle (must have driven).",
+  "why": "Covered in dust: I'm sure he drove far: must have driven.",
   "slots": {
    "car": [
     "car",
@@ -465,7 +465,7 @@ export default [
    "must sleep"
   ],
   "key": 2,
-  "why": "Sure about the past, from what you see now: must have + past participle (must have slept).",
+  "why": "You look great now: I'm sure you slept well: must have slept.",
   "slots": {
    "time": [
     "morning",
@@ -497,7 +497,7 @@ export default [
    "must had cost"
   ],
   "key": 1,
-  "why": "Sure about the past, from what you see now: must have + past participle (must have cost).",
+  "why": "It looks expensive: I'm sure about the price: must have cost.",
   "slots": {
    "thing": [
     "watch",
@@ -529,7 +529,7 @@ export default [
    "must have buy"
   ],
   "key": 0,
-  "why": "Sure about the past, from what you see now: must have + past participle (must have bought).",
+  "why": "New things in the kitchen: I'm sure Mum bought them: must have bought.",
   "slots": {
    "thing": [
     "cups",
@@ -561,7 +561,7 @@ export default [
    "must have finished"
   ],
   "key": 3,
-  "why": "Sure about the past, from what you see now: must have + past participle (must have finished).",
+  "why": "Watching TV now: I'm sure the work is done: must have finished.",
   "slots": {
    "work": [
     "homework",
@@ -593,7 +593,7 @@ export default [
    "must get"
   ],
   "key": 2,
-  "why": "Sure about the past, from what you see now: must have + past participle (must have got).",
+  "why": "White this morning: I'm sure about last night: must have got.",
   "slots": {
    "thing": [
     "streets",
@@ -625,7 +625,7 @@ export default [
    "must had met"
   ],
   "key": 1,
-  "why": "Sure about the past, from what you see now: must have + past participle (must have met).",
+  "why": "She knows him: I'm sure they met there: must have met.",
   "slots": {
    "event": [
     "wedding",
@@ -652,7 +652,7 @@ export default [
   "instr": "You are sure about the past. Complete with must have and the verb in brackets.",
   "source": "The {thing} is wet. It ______ (rain) in the night, {name}.",
   "key": "must have rained",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have rained).",
+  "why": "Wet now: must have rained.",
   "slots": {
    "thing": [
     "road",
@@ -679,7 +679,7 @@ export default [
   "instr": "You are sure about the past. Complete with must have and the verb in brackets.",
   "source": "Aziz isn't at the {event}. He ______ (forget) about it, {name}.",
   "key": "must have forgotten",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have forgotten).",
+  "why": "Not here: must have forgotten (forget → forgotten).",
   "slots": {
    "event": [
     "meeting",
@@ -706,7 +706,7 @@ export default [
   "instr": "You are sure about the past. Complete with must have and the verb in brackets.",
   "source": "The {place} door is open. Someone ______ (leave) it open, {name}.",
   "key": "must have left",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have left).",
+  "why": "Open now: must have left (leave → left).",
   "slots": {
    "place": [
     "office",
@@ -733,7 +733,7 @@ export default [
   "instr": "You are sure about the past. Complete with must have and the verb in brackets.",
   "source": "It's very quiet in the {home}. They ______ (go) out, {name}.",
   "key": "must have gone",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have gone).",
+  "why": "Quiet now: must have gone (go → gone).",
   "slots": {
    "home": [
     "flat",
@@ -760,7 +760,7 @@ export default [
   "instr": "You are sure about the past. Complete with must have and the verb in brackets.",
   "source": "The {food} is gone. The dog ______ (eat) it, {name}.",
   "key": "must have eaten",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have eaten).",
+  "why": "Gone now: must have eaten (eat → eaten).",
   "slots": {
    "food": [
     "meat",
@@ -787,7 +787,7 @@ export default [
   "instr": "You are sure about the past. Complete with must have and the verb in brackets.",
   "source": "The {team} fans are singing. Their team ______ (win), {name}.",
   "key": "must have won",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have won).",
+  "why": "Fans singing: must have won (win → won).",
   "slots": {
    "team": [
     "Sunrise FC",
@@ -814,7 +814,7 @@ export default [
   "instr": "You are sure about the past. Complete with must have and the verb in brackets.",
   "source": "I can't find my {thing}. I ______ (lose) it at the {place}.",
   "key": "must have lost",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have lost).",
+  "why": "I can't find it: must have lost (lose → lost).",
   "slots": {
    "thing": [
     "phone",
@@ -841,7 +841,7 @@ export default [
   "instr": "You are sure about the past. Complete with must have and the verb in brackets.",
   "source": "Olga knows all the answers to the {test}. She ______ (study) a lot, {name}.",
   "key": "must have studied",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have studied).",
+  "why": "All the answers: must have studied.",
   "slots": {
    "test": [
     "exam",
@@ -868,7 +868,7 @@ export default [
   "instr": "You are sure about the past. Complete with must have and the verb in brackets.",
   "source": "He knows how the {film} ends. He ______ (see) it, {name}.",
   "key": "must have seen",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have seen).",
+  "why": "Knows the end: must have seen (see → seen).",
   "slots": {
    "film": [
     "film",
@@ -895,7 +895,7 @@ export default [
   "instr": "You are sure about the past. Complete with must have and the verb in brackets.",
   "source": "My {thing} is not on the desk. Somebody ______ (take) it, {name}.",
   "key": "must have taken",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have taken).",
+  "why": "Not on the desk: must have taken (take → taken).",
   "slots": {
    "thing": [
     "pen",
@@ -922,7 +922,7 @@ export default [
   "instr": "You are sure about the past. Complete with must have and the verb in brackets.",
   "source": "Your trip to {city} took twenty hours. It ______ (be) tiring, {name}.",
   "key": "must have been",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have been).",
+  "why": "Twenty hours: must have been (be → been).",
   "slots": {
    "city": [
     "Moscow",
@@ -949,7 +949,7 @@ export default [
   "instr": "You are sure about the past. Complete with must have and the verb in brackets.",
   "source": "There's glass on the {room} floor. Somebody ______ (break) a glass, {name}.",
   "key": "must have broken",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have broken).",
+  "why": "Glass on the floor: must have broken (break → broken).",
   "slots": {
    "room": [
     "kitchen",
@@ -976,7 +976,7 @@ export default [
   "instr": "You are sure about the past. Complete with must have and the verb in brackets.",
   "source": "His {car} is very dirty. He ______ (drive) through the mountains, {name}.",
   "key": "must have driven",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have driven).",
+  "why": "Very dirty: must have driven (drive → driven).",
   "slots": {
    "car": [
     "car",
@@ -1003,7 +1003,7 @@ export default [
   "instr": "You are sure about the past. Complete with must have and the verb in brackets.",
   "source": "You look very fresh this {time}. You ______ (sleep) well, {name}.",
   "key": "must have slept",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have slept).",
+  "why": "Very fresh: must have slept (sleep → slept).",
   "slots": {
    "time": [
     "morning",
@@ -1030,7 +1030,7 @@ export default [
   "instr": "You are sure about the past. Complete with must have and the verb in brackets.",
   "source": "That {thing} is beautiful. It ______ (cost) a lot, {name}.",
   "key": "must have cost",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have cost).",
+  "why": "Beautiful: must have cost (cost → cost).",
   "slots": {
    "thing": [
     "watch",
@@ -1057,7 +1057,7 @@ export default [
   "instr": "You are sure about the past. Complete with must have and the verb in brackets.",
   "source": "There are new {thing} in the kitchen. Mum ______ (buy) them, {name}.",
   "key": "must have bought",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have bought).",
+  "why": "New in the kitchen: must have bought (buy → bought).",
   "slots": {
    "thing": [
     "cups",
@@ -1084,7 +1084,7 @@ export default [
   "instr": "You are sure about the past. Complete with must have and the verb in brackets.",
   "source": "Timur is playing games. He ______ (finish) his {work}, {name}.",
   "key": "must have finished",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have finished).",
+  "why": "Playing games now: must have finished.",
   "slots": {
    "work": [
     "homework",
@@ -1111,7 +1111,7 @@ export default [
   "instr": "You are sure about the past. Complete with must have and the verb in brackets.",
   "source": "Madina knows your cousin. She ______ (meet) him at the {event}, {name}.",
   "key": "must have met",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have met).",
+  "why": "She knows him: must have met (meet → met).",
   "slots": {
    "event": [
     "wedding",
@@ -1138,7 +1138,7 @@ export default [
   "instr": "You are sure about the past. Complete with must have and the verb in brackets.",
   "source": "Everyone knows about the {event}. They ______ (hear) the news, {name}.",
   "key": "must have heard",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have heard).",
+  "why": "Everyone knows: must have heard (hear → heard).",
   "slots": {
    "event": [
     "wedding",
@@ -1165,7 +1165,7 @@ export default [
   "instr": "You are sure about the past. Complete with must have and the verb in brackets.",
   "source": "There are apples all over the {place}. They ______ (fall) from the tree, {name}.",
   "key": "must have fallen",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have fallen).",
+  "why": "Apples everywhere: must have fallen (fall → fallen).",
   "slots": {
    "place": [
     "garden",
@@ -1193,7 +1193,7 @@ export default [
   "source": "I'm sure it rained last night, {name}. The {thing} is wet.",
   "hint": "It ______ last night, {name}. The {thing} is wet.",
   "key": "must have rained",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have rained).",
+  "why": "I'm sure it rained → it must have rained.",
   "slots": {
    "thing": [
     "ground",
@@ -1221,7 +1221,7 @@ export default [
   "source": "I'm sure he forgot about the {event}, {name}.",
   "hint": "He ______ about the {event}, {name}.",
   "key": "must have forgotten",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have forgotten).",
+  "why": "I'm sure he forgot → he must have forgotten.",
   "slots": {
    "event": [
     "meeting",
@@ -1249,7 +1249,7 @@ export default [
   "source": "I'm sure they went home early from the {event}, {name}.",
   "hint": "They ______ home early from the {event}, {name}.",
   "key": "must have gone",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have gone).",
+  "why": "I'm sure they went → they must have gone.",
   "slots": {
    "event": [
     "wedding",
@@ -1277,7 +1277,7 @@ export default [
   "source": "I'm sure she studied hard for the {test}, {name}.",
   "hint": "She ______ hard for the {test}, {name}.",
   "key": "must have studied",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have studied).",
+  "why": "I'm sure she studied → she must have studied.",
   "slots": {
    "test": [
     "exam",
@@ -1305,7 +1305,7 @@ export default [
   "source": "I'm sure the {thing} cost a lot, {name}.",
   "hint": "The {thing} ______ a lot, {name}.",
   "key": "must have cost",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have cost).",
+  "why": "I'm sure the … cost → it must have cost.",
   "slots": {
    "thing": [
     "watch",
@@ -1333,7 +1333,7 @@ export default [
   "source": "It must rained last night. The {thing} is wet, {name}.",
   "hint": "It ______ last night. The {thing} is wet, {name}.",
   "key": "must have rained",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have rained).",
+  "why": "have is missing: must have rained.",
   "slots": {
    "thing": [
     "ground",
@@ -1361,7 +1361,7 @@ export default [
   "source": "He must have forget about the {event}, {name}.",
   "hint": "He ______ about the {event}, {name}.",
   "key": "must have forgotten",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have forgotten).",
+  "why": "have + past participle: forgotten, not forget.",
   "slots": {
    "event": [
     "meeting",
@@ -1389,7 +1389,7 @@ export default [
   "source": "They must had gone to bed. The {home} is dark, {name}.",
   "hint": "They ______ to bed. The {home} is dark, {name}.",
   "key": "must have gone",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have gone).",
+  "why": "must have, not must had: must have gone.",
   "slots": {
    "home": [
     "flat",
@@ -1417,7 +1417,7 @@ export default [
   "source": "She must has lost her {thing} on the bus, {name}.",
   "hint": "She ______ her {thing} on the bus, {name}.",
   "key": "must have lost",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have lost).",
+  "why": "must have, not must has: must have lost.",
   "slots": {
    "thing": [
     "phone",
@@ -1445,7 +1445,7 @@ export default [
   "source": "You must have eat all the {food}, {name}!",
   "hint": "You ______ all the {food}, {name}!",
   "key": "must have eaten",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have eaten).",
+  "why": "have + past participle: eaten, not eat.",
   "slots": {
    "food": [
     "cake",
@@ -1473,7 +1473,7 @@ export default [
   "source": "I'm sure the trip to {city} was tiring, {name}.",
   "hint": "The trip to {city} ______ tiring, {name}.",
   "key": "must have been",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have been).",
+  "why": "I'm sure … was → must have been.",
   "slots": {
    "city": [
     "Moscow",
@@ -1501,7 +1501,7 @@ export default [
   "source": "I'm sure you were tired after the {event}, {name}.",
   "hint": "You ______ tired after the {event}, {name}.",
   "key": "must have been",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have been).",
+  "why": "I'm sure you were → you must have been.",
   "slots": {
    "event": [
     "wedding",
@@ -1529,7 +1529,7 @@ export default [
   "source": "I'm sure the {test} was difficult, {name}.",
   "hint": "The {test} ______ difficult, {name}.",
   "key": "must have been",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have been).",
+  "why": "I'm sure the … was → it must have been.",
   "slots": {
    "test": [
     "exam",
@@ -1557,7 +1557,7 @@ export default [
   "source": "I'm sure they were happy at the {event}, {name}.",
   "hint": "They ______ happy at the {event}, {name}.",
   "key": "must have been",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have been).",
+  "why": "I'm sure they were → they must have been.",
   "slots": {
    "event": [
     "wedding",
@@ -1585,7 +1585,7 @@ export default [
   "source": "I'm sure it was cold in the {place} last night, {name}.",
   "hint": "It ______ cold in the {place} last night, {name}.",
   "key": "must have been",
-  "why": "Sure about the past, from what you see now: must have + past participle (must have been).",
+  "why": "I'm sure it was → it must have been.",
   "slots": {
    "place": [
     "mountains",

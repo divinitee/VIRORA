@@ -6,277 +6,277 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 1. By the time we got to the **bus stop**, the **minibus** ______.  
    options: ✔ had gone · has gone · had went · had go  
-   why: This happened before the other past action, so use the past perfect: had + past participle, gone.
+   why: "By the time we got": it left before that: had gone.
 
 2. When I got home, my brothers ______ all the **plov**, **Gulnora**.  
    options: has eaten · had ate · had eat · ✔ had eaten  
-   why: This happened before the other past action, so use the past perfect: had + past participle, eaten.
+   why: "When I got home" the food was already gone: had eaten.
 
-3. The film ______ when we arrived at the **club**, so we missed the start.  
+3. The **concert** ______ when we arrived at the **club**, so we missed the start.  
    options: had began · had begin · ✔ had begun · has begun  
-   why: This happened before the other past action, so use the past perfect: had + past participle, begun.
+   why: "so we missed the start": it began first: had begun.
 
-4. **Sevara** couldn't open the door because she ______ her **keys** at school.  
+4. **Madina** couldn't open the door because she ______ her **bag with the keys** at school.  
    options: had forget · ✔ had forgotten · has forgotten · had forgot  
-   why: This happened before the other past action, so use the past perfect: had + past participle, forgotten.
+   why: She forgot it before she tried the door: had forgotten.
 
-5. I didn't go to the cinema with them because I ______ the film **with my cousins**.  
+5. I didn't go to the cinema with **my friends** because I ______ the film **twice**.  
    options: ✔ had seen · has seen · had saw · had see  
-   why: This happened before the other past action, so use the past perfect: had + past participle, seen.
+   why: I saw it before they asked me: had seen.
 
-6. My **cousin** was upset because someone ______ his **glasses**.  
+6. My **father** was upset because someone ______ his **camera**.  
    options: has broken · had broke · had break · ✔ had broken  
-   why: This happened before the other past action, so use the past perfect: had + past participle, broken.
+   why: The breaking came before he was upset: had broken.
 
-7. By the time the teacher came back, **Jamshid** ______ three **emails**.  
+7. By the time the teacher came back, **Malika** ______ three **pages**.  
    options: had wrote · had write · ✔ had written · has written  
-   why: This happened before the other past action, so use the past perfect: had + past participle, written.
+   why: "By the time the teacher came back": three were done: had written.
 
-8. When we reached the **canteen**, someone ______ our table, **Gulnora**.  
+8. When we reached the **restaurant**, someone ______ our table, **Gulnora**.  
    options: had take · ✔ had taken · has taken · had took  
-   why: This happened before the other past action, so use the past perfect: had + past participle, taken.
+   why: Someone took it before we arrived: had taken.
 
-9. The roads were white because a lot of snow ______ in the **morning**.  
+9. The **roads** were white because a lot of snow ______ in the **evening**.  
    options: ✔ had fallen · has fallen · had fell · had fall  
-   why: This happened before the other past action, so use the past perfect: had + past participle, fallen.
+   why: The snow fell first, then the white …: had fallen.
 
-10. By the time the **match** started, the **manager** ______ to every player.  
+10. By the time the **final** started, the **captain** ______ to every player.  
    options: has spoken · had spoke · had speak · ✔ had spoken  
-   why: This happened before the other past action, so use the past perfect: had + past participle, spoken.
+   why: "By the time … started": the talking was finished: had spoken.
 
-11. When I asked for a ticket, they ______ all the **tickets** away, **Malika**.  
+11. When I asked for a ticket, they ______ all the **tickets** away, **Gulnora**.  
    options: had gave · had give · ✔ had given · has given  
-   why: This happened before the other past action, so use the past perfect: had + past participle, given.
+   why: They gave them away before I asked: had given.
 
-12. When the **phone** rang at **six**, I ______ up already.  
+12. When the **alarm clock** rang at **half past six**, I ______ up already.  
    options: had wake · ✔ had woken · has woken · had woke  
-   why: This happened before the other past action, so use the past perfect: had + past participle, woken.
+   why: "already": I woke before the …: had woken.
 
-13. **Madina** could go out because she ______ all her **work**.  
+13. **Madina** could go out because she ______ all her **chores**.  
    options: ✔ had done · has done · had did · had do  
-   why: This happened before the other past action, so use the past perfect: had + past participle, done.
+   why: She could go out because the … was done first: had done.
 
 14. By the time the lifeguard arrived, **Jasur** ______ back to the **beach**.  
    options: has swum · had swam · had swim · ✔ had swum  
-   why: This happened before the other past action, so use the past perfect: had + past participle, swum.
+   why: "By the time the lifeguard arrived": the swim was over: had swum.
 
-15. When I visited my old **village** **last month**, the trees ______ very tall.  
+15. When I visited my old **village** **in the spring**, the trees ______ very tall.  
    options: had grew · had grow · ✔ had grown · has grown  
-   why: This happened before the other past action, so use the past perfect: had + past participle, grown.
+   why: The trees grew in the years before my visit: had grown.
 
-16. I recognised **Sardor** at once because I ______ him since **childhood**.  
+16. I recognised **Ilya** at once because I ______ him since **childhood**.  
    options: had know · ✔ had known · has known · had knew  
-   why: This happened before the other past action, so use the past perfect: had + past participle, known.
+   why: "since …": I knew him for years before that moment: had known.
 
-17. By the time I came back with the cups, my guests ______ all the **water**.  
+17. By the time I came back with the cups, my **neighbours** ______ all the **tea**.  
    options: ✔ had drunk · has drunk · had drank · had drink  
-   why: This happened before the other past action, so use the past perfect: had + past participle, drunk.
+   why: "By the time I came back": the drink was gone: had drunk.
 
-18. When we got to the **market**, my sister ______ a **present** already.  
+18. When we got to the **bazaar**, my sister ______ a **dress** already.  
    options: has chosen · had chose · had choose · ✔ had chosen  
-   why: This happened before the other past action, so use the past perfect: had + past participle, chosen.
+   why: "already" when we got there: had chosen.
 
-19. I was late: when I got to **school**, the **school bell** ______.  
+19. I was late: when I got to **the lyceum**, the **first bell** ______.  
    options: had rang · had ring · ✔ had rung · has rung  
-   why: This happened before the other past action, so use the past perfect: had + past participle, rung.
+   why: "I was late": the … rang before I came: had rung.
 
-20. By the time we got to the **concert**, the **choir** ______ three songs.  
+20. By the time we got to the **hall**, the **singers** ______ three songs.  
    options: had sing · ✔ had sung · has sung · had sang  
-   why: This happened before the other past action, so use the past perfect: had + past participle, sung.
+   why: "By the time we got": three songs were over: had sung.
 
 ## build (20)
 
 1. _Write the verb in brackets in the past perfect (had + past participle)._  
-   By the time we got to the **post office**, it ______ (close), **Jamshid**.  
+   By the time we got to the **bank**, it ______ (close), **Jamshid**.  
    key: had closed  
-   why: This happened before the other past action, so use the past perfect: had + past participle, closed.
+   why: "By the time we got" there, it was shut: had closed.
 
 2. _Write the verb in brackets in the past perfect (had + past participle)._  
    When I arrived at the **school**, the lesson ______ (start), **Ulugbek**.  
    key: had started  
-   why: This happened before the other past action, so use the past perfect: had + past participle, started.
+   why: The lesson began before I arrived: had started.
 
 3. _Write the verb in brackets in the past perfect (had + past participle)._  
-   My parents were angry because I ______ (lose) my **phone** **that week**.  
+   My parents were angry because I ______ (lose) my **keys** **at the market**.  
    key: had lost  
-   why: This happened before the other past action, so use the past perfect: had + past participle, lost.
+   why: The losing came before my parents were angry: had lost.
 
 4. _Write the verb in brackets in the past perfect (had + past participle)._  
-   By the time the guests arrived, we ______ (prepare) **plov**.  
+   By the time the **guests** arrived, we ______ (prepare) **a big dinner**.  
    key: had prepared  
-   why: This happened before the other past action, so use the past perfect: had + past participle, prepared.
+   why: "By the time the … arrived": food was ready: had prepared.
 
 5. _Write the verb in brackets in the past perfect (had + past participle)._  
-   **Nilufar** was tired because she ______ (work) all **day**.  
+   **Sevara** was tired because she ______ (work) all **night**.  
    key: had worked  
-   why: This happened before the other past action, so use the past perfect: had + past participle, worked.
+   why: The work came before the tiredness: had worked.
 
 6. _Write the verb in brackets in the past perfect (had + past participle)._  
-   When we got to the **concert hall**, someone ______ (buy) the last tickets, **Jamshid**.  
+   When we got to the **concert hall**, someone ______ (buy) the last tickets, **Malika**.  
    key: had bought  
-   why: This happened before the other past action, so use the past perfect: had + past participle, bought.
+   why: The tickets went before we got there: had bought.
 
 7. _Write the verb in brackets in the past perfect (had + past participle)._  
-   I couldn't finish my project because my **laptop** ______ (stop) working, **Malika**.  
+   I couldn't finish my project because my **laptop** ______ (stop) working, **Gulnora**.  
    key: had stopped  
-   why: This happened before the other past action, so use the past perfect: had + past participle, stopped.
+   why: It broke first, so I couldn't finish: had stopped.
 
 8. _Write the verb in brackets in the past perfect (had + past participle)._  
-   By the time my mum came home, I ______ (clean) the whole **kitchen**.  
+   By the time my **mum** came home, I ______ (clean) the whole **kitchen**.  
    key: had cleaned  
-   why: This happened before the other past action, so use the past perfect: had + past participle, cleaned.
+   why: "By the time … came home": the room was done: had cleaned.
 
 9. _Write the verb in brackets in the past perfect (had + past participle)._  
-   When the teacher checked, **Ulugbek** ______ (finish) the **essay**.  
+   When the teacher checked, **Gulnora** ______ (finish) the **exercise**.  
    key: had finished  
-   why: This happened before the other past action, so use the past perfect: had + past participle, finished.
+   why: "When the teacher checked": the … was finished: had finished.
 
 10. _Write the verb in brackets in the past perfect (had + past participle)._  
-   The **bottle** was empty because my brother ______ (drink) all the **juice**.  
+   The **carton** was empty because my brother ______ (drink) all the **water**.  
    key: had drunk  
-   why: This happened before the other past action, so use the past perfect: had + past participle, drunk.
+   why: It was empty because of what came first: had drunk.
 
 11. _Write the verb in brackets in the past perfect (had + past participle)._  
-   I knew the way because I ______ (be) there **four** times before, **Gulnora**.  
+   I knew the way because I ______ (be) there **many** times before, **Jamshid**.  
    key: had been  
-   why: This happened before the other past action, so use the past perfect: had + past participle, been.
+   why: "before": earlier visits explain why I knew: had been.
 
 12. _Write the verb in brackets in the past perfect (had + past participle)._  
-   When we got to the **station**, the last train ______ (leave), **Jamshid**.  
+   When we got to the **railway station**, the last train ______ (leave), **Jamshid**.  
    key: had left  
-   why: This happened before the other past action, so use the past perfect: had + past participle, left.
+   why: The train went before we arrived: had left.
 
 13. _Write the verb in brackets in the past perfect (had + past participle)._  
-   We didn't need a taxi because Dad ______ (book) a car for us **online**.  
+   We didn't need a taxi because **my uncle** ______ (book) a car for us **that morning**.  
    key: had booked  
-   why: This happened before the other past action, so use the past perfect: had + past participle, booked.
+   why: The booking came first, so no taxi: had booked.
 
 14. _Write the verb in brackets in the past perfect (had + past participle)._  
-   By the time I found my **bag**, the **minibus** ______ (go).  
+   By the time I found my **passport**, the **train** ______ (go).  
    key: had gone  
-   why: This happened before the other past action, so use the past perfect: had + past participle, gone.
+   why: "By the time I found" it, it was gone: had gone.
 
 15. _Write the verb in brackets in the past perfect (had + past participle)._  
-   The shop assistant told us that they ______ (sell) the last **phone**.  
+   The **shop assistant** told us that they ______ (sell) the last **phone**.  
    key: had sold  
-   why: This happened before the other past action, so use the past perfect: had + past participle, sold.
+   why: The selling came before they told us: had sold.
 
 16. _Write the verb in brackets in the past perfect (had + past participle)._  
-   When I opened the door, the cat ______ (eat) all the **meat**, **Jamshid**.  
+   When I opened the door, the cat ______ (eat) all the **chicken**, **Gulnora**.  
    key: had eaten  
-   why: This happened before the other past action, so use the past perfect: had + past participle, eaten.
+   why: The cat ate first, then I opened the door: had eaten.
 
 17. _Write the verb in brackets in the past perfect (had + past participle)._  
    **Olga** didn't come to the party because she ______ (catch) a cold **at school**.  
    key: had caught  
-   why: This happened before the other past action, so use the past perfect: had + past participle, caught.
+   why: The cold came first, so no party: had caught.
 
 18. _Write the verb in brackets in the past perfect (had + past participle)._  
-   By **lunchtime**, we ______ (walk) **fifteen** kilometres.  
+   By **the evening**, we ______ (walk) **eight** kilometres.  
    key: had walked  
-   why: This happened before the other past action, so use the past perfect: had + past participle, walked.
+   why: "By …" that time the walking was done: had walked.
 
 19. _Write the verb in brackets in the past perfect (had + past participle)._  
-   I was hungry because I ______ (not eat) since **the morning**, **Gulnora**.  
+   I was hungry because I ______ (not eat) since **lunch**, **Ulugbek**.  
    key: hadn't eaten  
-   why: Not eating came before being hungry, so use the past perfect negative: hadn't + past participle.
+   why: "since …" up to that moment, no food: hadn't eaten.
 
 20. _Write the verb in brackets in the past perfect (had + past participle)._  
-   The garden looked beautiful because my grandmother ______ (plant) new **flowers**, **Gulnora**.  
+   The garden looked beautiful because my grandmother ______ (plant) new **flowers**, **Malika**.  
    key: had planted  
-   why: This happened before the other past action, so use the past perfect: had + past participle, planted.
+   why: The planting came first, then the beautiful garden: had planted.
 
 ## transform (15)
 
 1. _Join the two sentences. Use the past perfect for the action that happened first._  
-   The film started. Then we arrived at the **club**, **Ulugbek**.  
-   → When we arrived at the **club**, the film ______, **Ulugbek**.  
+   The film started. Then we arrived at the **hall**, **Gulnora**.  
+   → When we arrived at the **hall**, the film ______, **Gulnora**.  
    key: had started  
-   why: This happened before the other past action, so use the past perfect: had + past participle, started.
+   why: The film came first, the arrival second: had started.
 
 2. _Join the two sentences. Use the past perfect for the action that happened first._  
-   The guests left. Then **Ulugbek** came home at **nine**.  
-   → When **Ulugbek** came home at **nine**, the guests ______.  
+   The guests left. Then **Jamshid** came home at **eleven**.  
+   → When **Jamshid** came home at **eleven**, the guests ______.  
    key: had left  
-   why: This happened before the other past action, so use the past perfect: had + past participle, left.
+   why: The guests went first, then the coming home: had left.
 
 3. _Join the two sentences. Use the past perfect for the action that happened first._  
-   My friends ate all the **fruit**. Then I got to the **birthday party**.  
-   → By the time I got to the **birthday party**, my friends ______ all the **fruit**.  
+   My friends ate all the **pizza**. Then I got to the **picnic**.  
+   → By the time I got to the **picnic**, my friends ______ all the **pizza**.  
    key: had eaten  
-   why: This happened before the other past action, so use the past perfect: had + past participle, eaten.
+   why: The eating came before I got there: had eaten.
 
 4. _Join the two sentences. Use the past perfect for the action that happened first._  
    The **pharmacy** closed. Then we got there at **eight**.  
    → By the time we got there at **eight**, the **pharmacy** ______.  
    key: had closed  
-   why: This happened before the other past action, so use the past perfect: had + past participle, closed.
+   why: The closing came before we got there: had closed.
 
 5. _Join the two sentences. Use the past perfect for the action that happened first._  
-   The rain stopped. Then we went out to the **garden**, **Gulnora**.  
-   → When we went out to the **garden**, the rain ______, **Gulnora**.  
+   The rain stopped. Then we went out to the **yard**, **Ulugbek**.  
+   → When we went out to the **yard**, the rain ______, **Ulugbek**.  
    key: had stopped  
-   why: This happened before the other past action, so use the past perfect: had + past participle, stopped.
+   why: The rain stopped first, then we went out: had stopped.
 
 6. _Correct the mistake. One action happened before the other._  
-   By the time I got home, my sister ate all the **sweets**, **Jamshid**.  
-   → By the time I got home, my sister ______ all the **sweets**, **Jamshid**.  
+   By the time I got home, my sister ate all the **cake**, **Jamshid**.  
+   → By the time I got home, my sister ______ all the **cake**, **Jamshid**.  
    key: had eaten  
-   why: By the time shows her eating came first: had eaten.
+   why: "By the time" needs the earlier action in the past perfect: had eaten.
 
 7. _Correct the mistake. One action happened before the other._  
-   When we arrived, the **match** has already started, **Jamshid**.  
-   → When we arrived, the **match** ______ already ______, **Jamshid**.  
+   When we arrived, the **lesson** has already started, **Jamshid**.  
+   → When we arrived, the **lesson** ______ already ______, **Jamshid**.  
    key: had + started  
-   why: The story is in the past, so had, not has: had already started.
+   why: In a past story, use had, not has: had … started.
 
 8. _Correct the mistake. One action happened before the other._  
-   **Sevara** was sad because she has lost her **watch**.  
-   → **Sevara** was sad because she ______ her **watch**.  
+   **Madina** was sad because she has lost her **bag**.  
+   → **Madina** was sad because she ______ her **bag**.  
    key: had lost  
-   why: Losing it came before being sad, and the story is past: had lost.
+   why: Sad in the past because of an earlier loss: had, not has: had lost.
 
 9. _Correct the mistake. One action happened before the other._  
    By the time **Mum** arrived at **one**, we had went to bed.  
    → By the time **Mum** arrived at **one**, we ______ to bed.  
    key: had gone  
-   why: After had, use the past participle: gone, not went.
+   why: had + past participle: gone, not went.
 
 10. _Correct the mistake. One action happened before the other._  
-   I couldn't pay because I had forget my **wallet** at home, **Jamshid**.  
-   → I couldn't pay because I ______ my **wallet** at home, **Jamshid**.  
+   I couldn't pay because I had forget my **money** at home, **Jamshid**.  
+   → I couldn't pay because I ______ my **money** at home, **Jamshid**.  
    key: had forgotten  
-   why: After had, use the past participle: forgotten.
+   why: had + past participle: forgotten, not forget.
 
 11. _Rewrite the sentence with already and the past perfect._  
-   The train left before we got to the **central station**, **Jamshid**.  
-   → When we got to the **central station**, the train ______ already ______, **Jamshid**.  
+   The train left before we got to the **station**, **Ulugbek**.  
+   → When we got to the **station**, the train ______ already ______, **Ulugbek**.  
    key: had + left  
-   why: The first action was finished before the second: had + already + left.
+   why: The train went first: had … left, with already in the middle.
 
 12. _Rewrite the sentence with already and the past perfect._  
-   The **English** lesson started before **Ulugbek** came in.  
-   → When **Ulugbek** came in, the **English** lesson ______ already ______.  
+   The **music** lesson started before **Jamshid** came in.  
+   → When **Jamshid** came in, the **music** lesson ______ already ______.  
    key: had + started  
-   why: The first action was finished before the second: had + already + started.
+   why: The lesson began first: had … started, with already in the middle.
 
 13. _Rewrite the sentence with already and the past perfect._  
-   My mum cooked dinner before I got home from **work**.  
-   → When I got home from **work**, my mum ______ already ______ dinner.  
+   My **mum** cooked dinner before I got home from **school**.  
+   → When I got home from **school**, my **mum** ______ already ______ dinner.  
    key: had + cooked  
-   why: The first action was finished before the second: had + already + cooked.
+   why: The cooking came first: had … cooked, with already in the middle.
 
 14. _Rewrite the sentence with already and the past perfect._  
-   The guests went home before **the singer** arrived.  
-   → When **the singer** arrived, the guests ______ already ______ home.  
+   The **neighbours** went home before **my aunt** arrived.  
+   → When **my aunt** arrived, the **neighbours** ______ already ______ home.  
    key: had + gone  
-   why: The first action was finished before the second: had + already + gone.
+   why: The … went first: had … gone, with already in the middle.
 
 15. _Rewrite the sentence with already and the past perfect._  
-   **Ilya** sold his old **phone** before he bought a new one.  
-   → When **Ilya** bought a new **phone**, he ______ already ______ his old one.  
+   **Ilya** sold his old **laptop** before he bought a new one.  
+   → When **Ilya** bought a new **laptop**, he ______ already ______ his old one.  
    key: had + sold  
-   why: The first action was finished before the second: had + already + sold.
+   why: The selling came first: had … sold, with already in the middle.
 
 ## create (8)
 

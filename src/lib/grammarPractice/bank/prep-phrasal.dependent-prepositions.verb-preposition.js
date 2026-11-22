@@ -49,7 +49,7 @@ export default [
    "discuss"
   ],
   "key": 3,
-  "why": "discuss takes its object straight away: discuss the timetable, no preposition.",
+  "why": "discuss takes its object straight away: discuss the …, no preposition.",
   "slots": {
    "thing": [
     "timetable",
@@ -177,7 +177,7 @@ export default [
    "belongs to"
   ],
   "key": 3,
-  "why": "belong to + the owner.",
+  "why": "\"my sister\" is the owner: belongs to.",
   "slots": {
    "thing": [
     "bag",
@@ -209,7 +209,7 @@ export default [
    "agree"
   ],
   "key": 2,
-  "why": "agree with + a person.",
+  "why": "\"I … you\": same opinion as a person: agree with.",
   "slots": {
    "thing": [
     "hotel",
@@ -273,7 +273,7 @@ export default [
    "pay on"
   ],
   "key": 0,
-  "why": "pay for + the thing you buy.",
+  "why": "\"with a card\": the thing bought is after: pay for.",
   "slots": {
    "food": [
     "food",
@@ -337,7 +337,7 @@ export default [
    "reached at"
   ],
   "key": 2,
-  "why": "reach takes its object straight away: reached Samarkand.",
+  "why": "reach takes its object straight away: reached ….",
   "slots": {
    "city": [
     "Samarkand",
@@ -369,7 +369,7 @@ export default [
    "consists with"
   ],
   "key": 1,
-  "why": "consist of + the parts.",
+  "why": "Three parts make the test: consists of.",
   "slots": {
    "parts": [
     "reading, writing and speaking",
@@ -401,7 +401,7 @@ export default [
    "laughed to"
   ],
   "key": 0,
-  "why": "laugh at + the thing that is funny.",
+  "why": "My funny … made them laugh: laughed at.",
   "slots": {
    "thing": [
     "hat",
@@ -433,7 +433,7 @@ export default [
    "contact"
   ],
   "key": 3,
-  "why": "contact takes its object straight away: contact the teacher.",
+  "why": "contact takes its object straight away: contact the ….",
   "slots": {
    "who": [
     "teacher",
@@ -465,7 +465,7 @@ export default [
    "rely of"
   ],
   "key": 2,
-  "why": "rely on + the person you trust.",
+  "why": "Your … will always help: rely on.",
   "slots": {
    "who": [
     "family",
@@ -529,7 +529,7 @@ export default [
    "borrowed by"
   ],
   "key": 0,
-  "why": "borrow takes the thing straight away: borrowed his bag.",
+  "why": "borrow takes the thing straight away: borrowed his ….",
   "slots": {
    "thing": [
     "bag",
@@ -561,7 +561,7 @@ export default [
    "smiled at"
   ],
   "key": 3,
-  "why": "smile at + the person.",
+  "why": "The baby looked at me happily: smiled at.",
   "slots": {
    "verb": [
     "laughed",
@@ -625,7 +625,7 @@ export default [
    "suffers on"
   ],
   "key": 1,
-  "why": "suffer from + the problem.",
+  "why": "Headaches are the problem: suffers from.",
   "slots": {
    "season": [
     "summer",
@@ -652,7 +652,7 @@ export default [
   "instr": "Write the preposition that goes with the verb.",
   "source": "The price of the trip depends ______ the {thing}, {name}.",
   "key": "on",
-  "why": "depend on + the thing that decides.",
+  "why": "The price changes with the …: depends on.",
   "slots": {
    "thing": [
     "hotel",
@@ -736,7 +736,7 @@ export default [
   "instr": "Write the preposition that goes with the verb.",
   "source": "Whose {thing} is this? Does it belong ______ you, {name}?",
   "key": "to",
-  "why": "belong to + the owner.",
+  "why": "Asking about the owner: belong to.",
   "slots": {
    "thing": [
     "bag",
@@ -763,7 +763,7 @@ export default [
   "instr": "Write the preposition that goes with the verb.",
   "source": "I don't agree ______ my {who} about the new rules, {name}.",
   "key": "with",
-  "why": "agree with + a person.",
+  "why": "Not the same opinion as my …: agree with.",
   "slots": {
    "who": [
     "dad",
@@ -790,7 +790,7 @@ export default [
   "instr": "Write the preposition that goes with the verb.",
   "source": "My grandpa paid ______ the {thing} in cash, {name}.",
   "key": "for",
-  "why": "pay for + the thing you buy.",
+  "why": "\"in cash\" for the thing bought: paid for.",
   "slots": {
    "thing": [
     "car",
@@ -844,7 +844,7 @@ export default [
   "instr": "Write the preposition that goes with the verb.",
   "source": "Our team consists ______ eleven {who} and a coach, {name}.",
   "key": "of",
-  "why": "consist of + the parts.",
+  "why": "Eleven … and a coach make the team: consists of.",
   "slots": {
    "who": [
     "players",
@@ -871,7 +871,7 @@ export default [
   "instr": "Write the preposition that goes with the verb.",
   "source": "Please don't laugh ______ my {thing}, {name}. I made it myself.",
   "key": "at",
-  "why": "laugh at + the thing that is funny.",
+  "why": "\"I made it myself\": please don't laugh at.",
   "slots": {
    "thing": [
     "cake",
@@ -925,7 +925,7 @@ export default [
   "instr": "Write the preposition that goes with the verb.",
   "source": "You can rely ______ my {who}, {name}. He's never late.",
   "key": "on",
-  "why": "rely on + the person you trust.",
+  "why": "\"He's never late\": you can rely on.",
   "slots": {
    "who": [
     "brother",
@@ -955,7 +955,7 @@ export default [
   "instr": "Write the preposition that goes with the verb.",
   "source": "Many people suffer ______ colds in the {season}, {name}.",
   "key": "from",
-  "why": "suffer from + the problem.",
+  "why": "Colds are the problem: suffer from.",
   "slots": {
    "season": [
     "winter",
@@ -1012,7 +1012,7 @@ export default [
   "instr": "Write the preposition that goes with the verb.",
   "source": "The {who} smiled ______ me when I came in, {name}.",
   "key": "at",
-  "why": "smile at + the person.",
+  "why": "Looking at me happily: smiled at.",
   "slots": {
    "who": [
     "nurse",
@@ -1404,7 +1404,7 @@ export default [
   "source": "(consist) The {thing} has three parts, {name}.",
   "hint": "The {thing} consists ______ three parts, {name}.",
   "key": "of",
-  "why": "consist of + the parts.",
+  "why": "has three parts → consists of.",
   "slots": {
    "thing": [
     "course",
@@ -1463,7 +1463,7 @@ export default [
   "source": "(suffer) My aunt often has headaches in the {season}, {name}.",
   "hint": "My aunt often suffers ______ headaches in the {season}, {name}.",
   "key": "from",
-  "why": "suffer from + the problem.",
+  "why": "often has headaches → suffers from.",
   "slots": {
    "season": [
     "summer",
@@ -1494,7 +1494,7 @@ export default [
   "source": "(smile) The baby saw me and gave a big smile, {name}. It was in the {place}.",
   "hint": "The baby smiled ______ me, {name}. It was in the {place}.",
   "key": "at",
-  "why": "smile at + the person.",
+  "why": "gave a big smile → smiled at.",
   "slots": {
    "place": [
     "park",
@@ -1606,7 +1606,7 @@ export default [
   "source": "(depend) My parents are thinking about the price of the {thing}, {name}. It decides everything.",
   "hint": "Everything depends ______ the price of the {thing}, {name}.",
   "key": "on",
-  "why": "depend on + the thing that decides.",
+  "why": "It decides everything → depends on.",
   "slots": {
    "thing": [
     "flat",

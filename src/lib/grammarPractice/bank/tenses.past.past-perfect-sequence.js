@@ -17,7 +17,7 @@ export default [
    "had go"
   ],
   "key": 0,
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, gone.",
+  "why": "\"By the time we got\": it left before that: had gone.",
   "slots": {
    "stop": [
     "station",
@@ -49,7 +49,7 @@ export default [
    "had eaten"
   ],
   "key": 3,
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, eaten.",
+  "why": "\"When I got home\" the food was already gone: had eaten.",
   "slots": {
    "food": [
     "plov",
@@ -73,7 +73,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The film ______ when we arrived at the {place}, so we missed the start.",
+  "prompt": "The {show} ______ when we arrived at the {place}, so we missed the start.",
   "options": [
    "had began",
    "had begin",
@@ -81,13 +81,19 @@ export default [
    "has begun"
   ],
   "key": 2,
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, begun.",
+  "why": "\"so we missed the start\": it began first: had begun.",
   "slots": {
    "place": [
     "cinema",
     "club",
     "hall",
     "theatre"
+   ],
+   "show": [
+    "film",
+    "match",
+    "concert",
+    "play"
    ]
   }
  },
@@ -107,7 +113,7 @@ export default [
    "had forgot"
   ],
   "key": 1,
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, forgotten.",
+  "why": "She forgot it before she tried the door: had forgotten.",
   "slots": {
    "name": [
     "Madina",
@@ -131,7 +137,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I didn't go to the cinema with them because I ______ the film {when}.",
+  "prompt": "I didn't go to the cinema with {who} because I ______ the film {when}.",
   "options": [
    "had seen",
    "has seen",
@@ -139,13 +145,19 @@ export default [
    "had see"
   ],
   "key": 0,
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, seen.",
+  "why": "I saw it before they asked me: had seen.",
   "slots": {
    "when": [
     "the week before",
     "on TV",
     "twice",
     "with my cousins"
+   ],
+   "who": [
+    "them",
+    "my friends",
+    "my cousins",
+    "the class"
    ]
   }
  },
@@ -165,7 +177,7 @@ export default [
    "had broken"
   ],
   "key": 3,
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, broken.",
+  "why": "The breaking came before he was upset: had broken.",
   "slots": {
    "who": [
     "brother",
@@ -197,7 +209,7 @@ export default [
    "has written"
   ],
   "key": 2,
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, written.",
+  "why": "\"By the time the teacher came back\": three were done: had written.",
   "slots": {
    "name": [
     "Gulnora",
@@ -229,7 +241,7 @@ export default [
    "had took"
   ],
   "key": 1,
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, taken.",
+  "why": "Someone took it before we arrived: had taken.",
   "slots": {
    "place": [
     "café",
@@ -253,7 +265,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The roads were white because a lot of snow ______ in the {time}.",
+  "prompt": "The {what} were white because a lot of snow ______ in the {time}.",
   "options": [
    "had fallen",
    "has fallen",
@@ -261,13 +273,19 @@ export default [
    "had fall"
   ],
   "key": 0,
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, fallen.",
+  "why": "The snow fell first, then the white …: had fallen.",
   "slots": {
    "time": [
     "night",
     "morning",
     "evening",
     "afternoon"
+   ],
+   "what": [
+    "roads",
+    "streets",
+    "fields",
+    "roofs"
    ]
   }
  },
@@ -287,7 +305,7 @@ export default [
    "had spoken"
   ],
   "key": 3,
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, spoken.",
+  "why": "\"By the time … started\": the talking was finished: had spoken.",
   "slots": {
    "event": [
     "match",
@@ -319,7 +337,7 @@ export default [
    "has given"
   ],
   "key": 2,
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, given.",
+  "why": "They gave them away before I asked: had given.",
   "slots": {
    "thing": [
     "tickets",
@@ -351,12 +369,13 @@ export default [
    "had woke"
   ],
   "key": 1,
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, woken.",
+  "why": "\"already\": I woke before the …: had woken.",
   "slots": {
    "alarm": [
     "alarm",
     "phone",
-    "clock"
+    "clock",
+    "alarm clock"
    ],
    "time": [
     "six",
@@ -382,7 +401,7 @@ export default [
    "had do"
   ],
   "key": 0,
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, done.",
+  "why": "She could go out because the … was done first: had done.",
   "slots": {
    "name": [
     "Madina",
@@ -414,7 +433,7 @@ export default [
    "had swum"
   ],
   "key": 3,
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, swum.",
+  "why": "\"By the time the lifeguard arrived\": the swim was over: had swum.",
   "slots": {
    "name": [
     "Sardor",
@@ -446,7 +465,7 @@ export default [
    "has grown"
   ],
   "key": 2,
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, grown.",
+  "why": "The trees grew in the years before my visit: had grown.",
   "slots": {
    "place": [
     "school",
@@ -478,7 +497,7 @@ export default [
    "had knew"
   ],
   "key": 1,
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, known.",
+  "why": "\"since …\": I knew him for years before that moment: had known.",
   "slots": {
    "name": [
     "Sardor",
@@ -502,7 +521,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "By the time I came back with the cups, my guests ______ all the {drink}.",
+  "prompt": "By the time I came back with the cups, my {who} ______ all the {drink}.",
   "options": [
    "had drunk",
    "has drunk",
@@ -510,13 +529,19 @@ export default [
    "had drink"
   ],
   "key": 0,
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, drunk.",
+  "why": "\"By the time I came back\": the drink was gone: had drunk.",
   "slots": {
    "drink": [
     "tea",
     "juice",
     "water",
     "lemonade"
+   ],
+   "who": [
+    "guests",
+    "cousins",
+    "friends",
+    "neighbours"
    ]
   }
  },
@@ -536,7 +561,7 @@ export default [
    "had chosen"
   ],
   "key": 3,
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, chosen.",
+  "why": "\"already\" when we got there: had chosen.",
   "slots": {
    "shop": [
     "shop",
@@ -568,7 +593,7 @@ export default [
    "has rung"
   ],
   "key": 2,
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, rung.",
+  "why": "\"I was late\": the … rang before I came: had rung.",
   "slots": {
    "school": [
     "school",
@@ -579,7 +604,8 @@ export default [
    "bell": [
     "bell",
     "first bell",
-    "school bell"
+    "school bell",
+    "last bell"
    ]
   }
  },
@@ -599,7 +625,7 @@ export default [
    "had sang"
   ],
   "key": 1,
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, sung.",
+  "why": "\"By the time we got\": three songs were over: had sung.",
   "slots": {
    "place": [
     "hall",
@@ -626,7 +652,7 @@ export default [
   "instr": "Write the verb in brackets in the past perfect (had + past participle).",
   "source": "By the time we got to the {shop}, it ______ (close), {name}.",
   "key": "had closed",
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, closed.",
+  "why": "\"By the time we got\" there, it was shut: had closed.",
   "slots": {
    "shop": [
     "bakery",
@@ -653,7 +679,7 @@ export default [
   "instr": "Write the verb in brackets in the past perfect (had + past participle).",
   "source": "When I arrived at the {place}, the lesson ______ (start), {name}.",
   "key": "had started",
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, started.",
+  "why": "The lesson began before I arrived: had started.",
   "slots": {
    "place": [
     "school",
@@ -680,7 +706,7 @@ export default [
   "instr": "Write the verb in brackets in the past perfect (had + past participle).",
   "source": "My parents were angry because I ______ (lose) my {thing} {when}.",
   "key": "had lost",
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, lost.",
+  "why": "The losing came before my parents were angry: had lost.",
   "slots": {
    "thing": [
     "keys",
@@ -705,15 +731,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the past perfect (had + past participle).",
-  "source": "By the time the guests arrived, we ______ (prepare) {food}.",
+  "source": "By the time the {who} arrived, we ______ (prepare) {food}.",
   "key": "had prepared",
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, prepared.",
+  "why": "\"By the time the … arrived\": food was ready: had prepared.",
   "slots": {
    "food": [
     "plov",
     "a big dinner",
     "three salads",
     "samsa"
+   ],
+   "who": [
+    "guests",
+    "cousins",
+    "friends",
+    "neighbours"
    ]
   }
  },
@@ -728,7 +760,7 @@ export default [
   "instr": "Write the verb in brackets in the past perfect (had + past participle).",
   "source": "{name} was tired because she ______ (work) all {time}.",
   "key": "had worked",
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, worked.",
+  "why": "The work came before the tiredness: had worked.",
   "slots": {
    "name": [
     "Madina",
@@ -755,7 +787,7 @@ export default [
   "instr": "Write the verb in brackets in the past perfect (had + past participle).",
   "source": "When we got to the {place}, someone ______ (buy) the last tickets, {name}.",
   "key": "had bought",
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, bought.",
+  "why": "The tickets went before we got there: had bought.",
   "slots": {
    "place": [
     "cinema",
@@ -782,7 +814,7 @@ export default [
   "instr": "Write the verb in brackets in the past perfect (had + past participle).",
   "source": "I couldn't finish my project because my {thing} ______ (stop) working, {name}.",
   "key": "had stopped",
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, stopped.",
+  "why": "It broke first, so I couldn't finish: had stopped.",
   "slots": {
    "thing": [
     "laptop",
@@ -807,15 +839,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the past perfect (had + past participle).",
-  "source": "By the time my mum came home, I ______ (clean) the whole {room}.",
+  "source": "By the time my {who} came home, I ______ (clean) the whole {room}.",
   "key": "had cleaned",
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, cleaned.",
+  "why": "\"By the time … came home\": the room was done: had cleaned.",
   "slots": {
    "room": [
     "flat",
     "kitchen",
     "house",
     "bedroom"
+   ],
+   "who": [
+    "mum",
+    "dad",
+    "grandma",
+    "aunt"
    ]
   }
  },
@@ -830,7 +868,7 @@ export default [
   "instr": "Write the verb in brackets in the past perfect (had + past participle).",
   "source": "When the teacher checked, {name} ______ (finish) the {test}.",
   "key": "had finished",
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, finished.",
+  "why": "\"When the teacher checked\": the … was finished: had finished.",
   "slots": {
    "name": [
     "Gulnora",
@@ -857,7 +895,7 @@ export default [
   "instr": "Write the verb in brackets in the past perfect (had + past participle).",
   "source": "The {thing} was empty because my brother ______ (drink) all the {drink}.",
   "key": "had drunk",
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, drunk.",
+  "why": "It was empty because of what came first: had drunk.",
   "slots": {
    "thing": [
     "bottle",
@@ -884,7 +922,7 @@ export default [
   "instr": "Write the verb in brackets in the past perfect (had + past participle).",
   "source": "I knew the way because I ______ (be) there {n} times before, {name}.",
   "key": "had been",
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, been.",
+  "why": "\"before\": earlier visits explain why I knew: had been.",
   "slots": {
    "n": [
     "three",
@@ -911,11 +949,13 @@ export default [
   "instr": "Write the verb in brackets in the past perfect (had + past participle).",
   "source": "When we got to the {station}, the last train ______ (leave), {name}.",
   "key": "had left",
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, left.",
+  "why": "The train went before we arrived: had left.",
   "slots": {
    "station": [
     "station",
-    "railway station"
+    "railway station",
+    "train station",
+    "bus station"
    ],
    "name": [
     "Gulnora",
@@ -934,15 +974,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the past perfect (had + past participle).",
-  "source": "We didn't need a taxi because Dad ______ (book) a car for us {when}.",
+  "source": "We didn't need a taxi because {who} ______ (book) a car for us {when}.",
   "key": "had booked",
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, booked.",
+  "why": "The booking came first, so no taxi: had booked.",
   "slots": {
    "when": [
     "the day before",
     "that morning",
     "online",
     "in advance"
+   ],
+   "who": [
+    "Dad",
+    "Mum",
+    "Grandpa",
+    "my uncle"
    ]
   }
  },
@@ -957,7 +1003,7 @@ export default [
   "instr": "Write the verb in brackets in the past perfect (had + past participle).",
   "source": "By the time I found my {thing}, the {transport} ______ (go).",
   "key": "had gone",
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, gone.",
+  "why": "\"By the time I found\" it, it was gone: had gone.",
   "slots": {
    "thing": [
     "ticket",
@@ -982,15 +1028,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the verb in brackets in the past perfect (had + past participle).",
-  "source": "The shop assistant told us that they ______ (sell) the last {thing}.",
+  "source": "The {seller} told us that they ______ (sell) the last {thing}.",
   "key": "had sold",
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, sold.",
+  "why": "The selling came before they told us: had sold.",
   "slots": {
    "thing": [
     "bike",
     "phone",
     "jacket",
     "TV"
+   ],
+   "seller": [
+    "shop assistant",
+    "waiter",
+    "man at the desk",
+    "woman at the counter"
    ]
   }
  },
@@ -1005,7 +1057,7 @@ export default [
   "instr": "Write the verb in brackets in the past perfect (had + past participle).",
   "source": "When I opened the door, the cat ______ (eat) all the {food}, {name}.",
   "key": "had eaten",
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, eaten.",
+  "why": "The cat ate first, then I opened the door: had eaten.",
   "slots": {
    "food": [
     "fish",
@@ -1032,7 +1084,7 @@ export default [
   "instr": "Write the verb in brackets in the past perfect (had + past participle).",
   "source": "{name} didn't come to the party because she ______ (catch) a cold {when}.",
   "key": "had caught",
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, caught.",
+  "why": "The cold came first, so no party: had caught.",
   "slots": {
    "name": [
     "Madina",
@@ -1059,7 +1111,7 @@ export default [
   "instr": "Write the verb in brackets in the past perfect (had + past participle).",
   "source": "By {time}, we ______ (walk) {n} kilometres.",
   "key": "had walked",
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, walked.",
+  "why": "\"By …\" that time the walking was done: had walked.",
   "slots": {
    "time": [
     "noon",
@@ -1086,7 +1138,7 @@ export default [
   "instr": "Write the verb in brackets in the past perfect (had + past participle).",
   "source": "I was hungry because I ______ (not eat) since {meal}, {name}.",
   "key": "hadn't eaten",
-  "why": "Not eating came before being hungry, so use the past perfect negative: hadn't + past participle.",
+  "why": "\"since …\" up to that moment, no food: hadn't eaten.",
   "slots": {
    "meal": [
     "breakfast",
@@ -1116,7 +1168,7 @@ export default [
   "instr": "Write the verb in brackets in the past perfect (had + past participle).",
   "source": "The garden looked beautiful because my grandmother ______ (plant) new {flowers}, {name}.",
   "key": "had planted",
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, planted.",
+  "why": "The planting came first, then the beautiful garden: had planted.",
   "slots": {
    "flowers": [
     "roses",
@@ -1144,7 +1196,7 @@ export default [
   "source": "The film started. Then we arrived at the {place}, {name}.",
   "hint": "When we arrived at the {place}, the film ______, {name}.",
   "key": "had started",
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, started.",
+  "why": "The film came first, the arrival second: had started.",
   "slots": {
    "place": [
     "cinema",
@@ -1172,7 +1224,7 @@ export default [
   "source": "The guests left. Then {name} came home at {time}.",
   "hint": "When {name} came home at {time}, the guests ______.",
   "key": "had left",
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, left.",
+  "why": "The guests went first, then the coming home: had left.",
   "slots": {
    "name": [
     "Gulnora",
@@ -1200,7 +1252,7 @@ export default [
   "source": "My friends ate all the {food}. Then I got to the {event}.",
   "hint": "By the time I got to the {event}, my friends ______ all the {food}.",
   "key": "had eaten",
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, eaten.",
+  "why": "The eating came before I got there: had eaten.",
   "slots": {
    "food": [
     "pizza",
@@ -1228,7 +1280,7 @@ export default [
   "source": "The {shop} closed. Then we got there at {time}.",
   "hint": "By the time we got there at {time}, the {shop} ______.",
   "key": "had closed",
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, closed.",
+  "why": "The closing came before we got there: had closed.",
   "slots": {
    "shop": [
     "bakery",
@@ -1256,7 +1308,7 @@ export default [
   "source": "The rain stopped. Then we went out to the {place}, {name}.",
   "hint": "When we went out to the {place}, the rain ______, {name}.",
   "key": "had stopped",
-  "why": "This happened before the other past action, so use the past perfect: had + past participle, stopped.",
+  "why": "The rain stopped first, then we went out: had stopped.",
   "slots": {
    "place": [
     "park",
@@ -1284,7 +1336,7 @@ export default [
   "source": "By the time I got home, my sister ate all the {food}, {name}.",
   "hint": "By the time I got home, my sister ______ all the {food}, {name}.",
   "key": "had eaten",
-  "why": "By the time shows her eating came first: had eaten.",
+  "why": "\"By the time\" needs the earlier action in the past perfect: had eaten.",
   "slots": {
    "food": [
     "cake",
@@ -1315,7 +1367,7 @@ export default [
    "had",
    "started"
   ],
-  "why": "The story is in the past, so had, not has: had already started.",
+  "why": "In a past story, use had, not has: had … started.",
   "slots": {
    "event": [
     "match",
@@ -1343,7 +1395,7 @@ export default [
   "source": "{name} was sad because she has lost her {thing}.",
   "hint": "{name} was sad because she ______ her {thing}.",
   "key": "had lost",
-  "why": "Losing it came before being sad, and the story is past: had lost.",
+  "why": "Sad in the past because of an earlier loss: had, not has: had lost.",
   "slots": {
    "name": [
     "Madina",
@@ -1371,7 +1423,7 @@ export default [
   "source": "By the time {who} arrived at {time}, we had went to bed.",
   "hint": "By the time {who} arrived at {time}, we ______ to bed.",
   "key": "had gone",
-  "why": "After had, use the past participle: gone, not went.",
+  "why": "had + past participle: gone, not went.",
   "slots": {
    "who": [
     "Dad",
@@ -1399,7 +1451,7 @@ export default [
   "source": "I couldn't pay because I had forget my {thing} at home, {name}.",
   "hint": "I couldn't pay because I ______ my {thing} at home, {name}.",
   "key": "had forgotten",
-  "why": "After had, use the past participle: forgotten.",
+  "why": "had + past participle: forgotten, not forget.",
   "slots": {
    "thing": [
     "wallet",
@@ -1430,7 +1482,7 @@ export default [
    "had",
    "left"
   ],
-  "why": "The first action was finished before the second: had + already + left.",
+  "why": "The train went first: had … left, with already in the middle.",
   "slots": {
    "station": [
     "station",
@@ -1461,7 +1513,7 @@ export default [
    "had",
    "started"
   ],
-  "why": "The first action was finished before the second: had + already + started.",
+  "why": "The lesson began first: had … started, with already in the middle.",
   "slots": {
    "subj": [
     "English",
@@ -1486,19 +1538,25 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the sentence with already and the past perfect.",
-  "source": "My mum cooked dinner before I got home from {place}.",
-  "hint": "When I got home from {place}, my mum ______ already ______ dinner.",
+  "source": "My {who} cooked dinner before I got home from {place}.",
+  "hint": "When I got home from {place}, my {who} ______ already ______ dinner.",
   "key": [
    "had",
    "cooked"
   ],
-  "why": "The first action was finished before the second: had + already + cooked.",
+  "why": "The cooking came first: had … cooked, with already in the middle.",
   "slots": {
    "place": [
     "school",
     "work",
     "training",
     "college"
+   ],
+   "who": [
+    "mum",
+    "dad",
+    "grandma",
+    "sister"
    ]
   }
  },
@@ -1511,19 +1569,25 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite the sentence with already and the past perfect.",
-  "source": "The guests went home before {who} arrived.",
-  "hint": "When {who} arrived, the guests ______ already ______ home.",
+  "source": "The {visitors} went home before {who} arrived.",
+  "hint": "When {who} arrived, the {visitors} ______ already ______ home.",
   "key": [
    "had",
    "gone"
   ],
-  "why": "The first action was finished before the second: had + already + gone.",
+  "why": "The … went first: had … gone, with already in the middle.",
   "slots": {
    "who": [
     "my uncle",
     "Grandpa",
     "my aunt",
     "the singer"
+   ],
+   "visitors": [
+    "guests",
+    "cousins",
+    "neighbours",
+    "children"
    ]
   }
  },
@@ -1542,7 +1606,7 @@ export default [
    "had",
    "sold"
   ],
-  "why": "The first action was finished before the second: had + already + sold.",
+  "why": "The selling came first: had … sold, with already in the middle.",
   "slots": {
    "name": [
     "Sardor",

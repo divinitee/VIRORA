@@ -17,7 +17,7 @@ export default [
    "told to us closing"
   ],
   "key": 0,
-  "why": "A reported command: told + person + to + base verb.",
+  "why": "An order to us: told us + to close.",
   "slots": {
    "thing": [
     "window",
@@ -49,7 +49,7 @@ export default [
    "told me to sit"
   ],
   "key": 3,
-  "why": "A reported command: told + person + to + base verb.",
+  "why": "An order to me: told me + to sit.",
   "slots": {
    "seat": [
     "chair",
@@ -81,7 +81,7 @@ export default [
    "told her wait"
   ],
   "key": 2,
-  "why": "A reported command: told + person + to + base verb.",
+  "why": "An order to his …: told her + to wait.",
   "slots": {
    "place": [
     "station",
@@ -111,7 +111,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "'Turn off your phones,' the {who} said to the students. The {who} ______ off their phones.",
+  "prompt": "'Turn off your phones,' the {who} said to the {grp}. The {who} ______ off their phones.",
   "options": [
    "told to them turning",
    "told them to turn",
@@ -119,13 +119,19 @@ export default [
    "said them to turn"
   ],
   "key": 1,
-  "why": "A reported command: told + person + to + base verb.",
+  "why": "An order to a group (them): told them + to turn.",
   "slots": {
    "who": [
     "teacher",
     "director",
     "guide",
     "coach"
+   ],
+   "grp": [
+    "students",
+    "children",
+    "players",
+    "guests"
    ]
   }
  },
@@ -145,7 +151,7 @@ export default [
    "told to him calling"
   ],
   "key": 0,
-  "why": "A reported command: told + person + to + base verb.",
+  "why": "An order to him: told him + to call.",
   "slots": {
    "event": [
     "match",
@@ -183,7 +189,7 @@ export default [
    "told us to bring"
   ],
   "key": 3,
-  "why": "A reported command: told + person + to + base verb.",
+  "why": "An order to us: told us + to bring.",
   "slots": {
    "thing": [
     "passports",
@@ -215,7 +221,7 @@ export default [
    "told me eat"
   ],
   "key": 2,
-  "why": "A reported command: told + person + to + base verb.",
+  "why": "An order to me: told me + to eat.",
   "slots": {
    "food": [
     "soup",
@@ -247,7 +253,7 @@ export default [
    "said him to wear"
   ],
   "key": 1,
-  "why": "A reported command: told + person + to + base verb.",
+  "why": "An order to my brother: told him + to wear.",
   "slots": {
    "coat": [
     "coat",
@@ -279,7 +285,7 @@ export default [
    "told to her studying"
   ],
   "key": 0,
-  "why": "A reported command: told + person + to + base verb.",
+  "why": "An order to her: told her + to study.",
   "slots": {
    "test": [
     "exam",
@@ -311,7 +317,7 @@ export default [
    "told him to clean"
   ],
   "key": 3,
-  "why": "A reported command: told + person + to + base verb.",
+  "why": "An order to him: told him + to clean.",
   "slots": {
    "room": [
     "room",
@@ -343,7 +349,7 @@ export default [
    "told me write"
   ],
   "key": 2,
-  "why": "A reported command: told + person + to + base verb.",
+  "why": "An order to me: told me + to write.",
   "slots": {
    "form": [
     "form",
@@ -375,7 +381,7 @@ export default [
    "said us to take"
   ],
   "key": 1,
-  "why": "A reported command: told + person + to + base verb.",
+  "why": "Directions to us: told us + to take.",
   "slots": {
    "bus": [
     "bus",
@@ -407,7 +413,7 @@ export default [
    "told us not be"
   ],
   "key": 0,
-  "why": "A reported 'Don't …': told + person + not to + base verb.",
+  "why": "Don't be → not to be.",
   "slots": {
    "event": [
     "lesson",
@@ -439,7 +445,7 @@ export default [
    "told them not to touch"
   ],
   "key": 3,
-  "why": "A reported 'Don't …': told + person + not to + base verb.",
+  "why": "Don't touch → not to touch.",
   "slots": {
    "thing": [
     "cake",
@@ -471,7 +477,7 @@ export default [
    "told me don't worry"
   ],
   "key": 2,
-  "why": "A reported 'Don't …': told + person + not to + base verb.",
+  "why": "Don't worry → not to worry.",
   "slots": {
    "test": [
     "exam",
@@ -503,7 +509,7 @@ export default [
    "said her not to open"
   ],
   "key": 1,
-  "why": "A reported 'Don't …': told + person + not to + base verb.",
+  "why": "Don't open → not to open.",
   "slots": {
    "door": [
     "door",
@@ -535,7 +541,7 @@ export default [
    "said me to help"
   ],
   "key": 0,
-  "why": "A reported request: asked + person + to + base verb.",
+  "why": "'Please help me' is a request: asked me to help.",
   "slots": {
    "thing": [
     "bags",
@@ -567,7 +573,7 @@ export default [
    "asked him to open"
   ],
   "key": 3,
-  "why": "A reported request: asked + person + to + base verb.",
+  "why": "'Could you…, please?' is a request: asked him to open.",
   "slots": {
    "door": [
     "door",
@@ -597,7 +603,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "'Please speak more slowly,' the {who} said to us. The {who} ______ more slowly.",
+  "prompt": "'Please speak more {adv},' the {who} said to us. The {who} ______ more {adv}.",
   "options": [
    "asked to us speak",
    "said us to speak",
@@ -605,13 +611,19 @@ export default [
    "asked us speak"
   ],
   "key": 2,
-  "why": "A reported request: asked + person + to + base verb.",
+  "why": "'Please speak…' is a request: asked us to speak.",
   "slots": {
    "who": [
     "tourist",
     "guest",
     "student",
     "old man"
+   ],
+   "adv": [
+    "slowly",
+    "quietly",
+    "clearly",
+    "loudly"
    ]
   }
  },
@@ -631,7 +643,7 @@ export default [
    "asked to me lend"
   ],
   "key": 1,
-  "why": "A reported request: asked + person + to + base verb.",
+  "why": "'Can you lend me…?' is a request: asked me to lend.",
   "slots": {
    "thing": [
     "car",
@@ -658,7 +670,7 @@ export default [
   "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
   "source": "The {who} told us ______ (close) the {thing}.",
   "key": "to close",
-  "why": "A reported command: told + person + to + base verb.",
+  "why": "told us + to + verb: to close.",
   "slots": {
    "who": [
     "teacher",
@@ -685,7 +697,7 @@ export default [
   "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
   "source": "The {who} told me ______ (sit) down on the {seat}.",
   "key": "to sit",
-  "why": "A reported command: told + person + to + base verb.",
+  "why": "told me + to + verb: to sit.",
   "slots": {
    "who": [
     "doctor",
@@ -712,7 +724,7 @@ export default [
   "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
   "source": "{m} told his {who} ______ (wait) for him at the {place}.",
   "key": "to wait",
-  "why": "A reported command: told + person + to + base verb.",
+  "why": "told his … + to + verb: to wait.",
   "slots": {
    "m": [
     "Aziz",
@@ -745,7 +757,7 @@ export default [
   "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
   "source": "The {who} told the students ______ (turn) off their phones, {f}.",
   "key": "to turn",
-  "why": "A reported command: told + person + to + base verb.",
+  "why": "told the group + to + verb: to turn.",
   "slots": {
    "who": [
     "teacher",
@@ -772,7 +784,7 @@ export default [
   "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
   "source": "{f} told {m} ______ (call) her after the {event}.",
   "key": "to call",
-  "why": "A reported command: told + person + to + base verb.",
+  "why": "told … + to + verb: to call.",
   "slots": {
    "f": [
     "Olga",
@@ -805,7 +817,7 @@ export default [
   "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
   "source": "The {who} told us ______ (bring) our {thing}.",
   "key": "to bring",
-  "why": "A reported command: told + person + to + base verb.",
+  "why": "told us + to + verb: to bring.",
   "slots": {
    "who": [
     "guide",
@@ -832,7 +844,7 @@ export default [
   "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
   "source": "My {who} told me ______ (eat) my {food}.",
   "key": "to eat",
-  "why": "A reported command: told + person + to + base verb.",
+  "why": "told me + to + verb: to eat.",
   "slots": {
    "who": [
     "mum",
@@ -859,7 +871,7 @@ export default [
   "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
   "source": "My {who} told my brother ______ (wear) a {coat}.",
   "key": "to wear",
-  "why": "A reported command: told + person + to + base verb.",
+  "why": "told my brother + to + verb: to wear.",
   "slots": {
    "who": [
     "mum",
@@ -886,7 +898,7 @@ export default [
   "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
   "source": "The teacher told {f} ______ (study) for the {test}.",
   "key": "to study",
-  "why": "A reported command: told + person + to + base verb.",
+  "why": "told … + to + verb: to study.",
   "slots": {
    "f": [
     "Olga",
@@ -913,7 +925,7 @@ export default [
   "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
   "source": "{m}'s mother told him ______ (clean) his {room}.",
   "key": "to clean",
-  "why": "A reported command: told + person + to + base verb.",
+  "why": "told him + to + verb: to clean.",
   "slots": {
    "m": [
     "Aziz",
@@ -940,7 +952,7 @@ export default [
   "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
   "source": "The {who} told me ______ (write) my name on the {form}.",
   "key": "to write",
-  "why": "A reported command: told + person + to + base verb.",
+  "why": "told me + to + verb: to write.",
   "slots": {
    "who": [
     "clerk",
@@ -967,7 +979,7 @@ export default [
   "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
   "source": "The man told us ______ (take) the {bus} from the {place}.",
   "key": "to take",
-  "why": "A reported command: told + person + to + base verb.",
+  "why": "told us + to + verb: to take.",
   "slots": {
    "bus": [
     "bus",
@@ -994,7 +1006,7 @@ export default [
   "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
   "source": "The {who} told us ______ (not / be) late for the {event}.",
   "key": "not to be",
-  "why": "A reported 'Don't …': told + person + not to + base verb.",
+  "why": "A negative order: not before to: not to be.",
   "slots": {
    "who": [
     "teacher",
@@ -1021,7 +1033,7 @@ export default [
   "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
   "source": "{f} told the children ______ (not / touch) the {thing}.",
   "key": "not to touch",
-  "why": "A reported 'Don't …': told + person + not to + base verb.",
+  "why": "A negative order: not before to: not to touch.",
   "slots": {
    "f": [
     "Olga",
@@ -1048,7 +1060,7 @@ export default [
   "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
   "source": "My {who} told me ______ (not / worry) about the {test}.",
   "key": "not to worry",
-  "why": "A reported 'Don't …': told + person + not to + base verb.",
+  "why": "A negative order: not before to: not to worry.",
   "slots": {
    "who": [
     "mum",
@@ -1075,7 +1087,7 @@ export default [
   "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
   "source": "{m} told his sister ______ (not / open) the {door}.",
   "key": "not to open",
-  "why": "A reported 'Don't …': told + person + not to + base verb.",
+  "why": "A negative order: not before to: not to open.",
   "slots": {
    "m": [
     "Aziz",
@@ -1102,7 +1114,7 @@ export default [
   "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
   "source": "{f} asked me ______ (help) her with the {thing}.",
   "key": "to help",
-  "why": "A reported request: asked + person + to + base verb.",
+  "why": "asked me + to + verb: to help.",
   "slots": {
    "f": [
     "Olga",
@@ -1129,7 +1141,7 @@ export default [
   "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
   "source": "The {who} asked {m} ______ (open) the {door}.",
   "key": "to open",
-  "why": "A reported request: asked + person + to + base verb.",
+  "why": "asked … + to + verb: to open.",
   "slots": {
    "who": [
     "old woman",
@@ -1162,7 +1174,7 @@ export default [
   "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
   "source": "The {who} asked us ______ (speak) more slowly, {f}.",
   "key": "to speak",
-  "why": "A reported request: asked + person + to + base verb.",
+  "why": "asked us + to + verb: to speak.",
   "slots": {
    "who": [
     "tourist",
@@ -1189,7 +1201,7 @@ export default [
   "instr": "Report the command or request. Write to (or not to) + the verb in brackets.",
   "source": "{m} asked me ______ (lend) him my {thing}.",
   "key": "to lend",
-  "why": "A reported request: asked + person + to + base verb.",
+  "why": "asked me + to + verb: to lend.",
   "slots": {
    "m": [
     "Aziz",
@@ -1217,7 +1229,7 @@ export default [
   "source": "'Close the {thing},' the {who} said to us.",
   "hint": "The {who} ______ the {thing}.",
   "key": "told us to close",
-  "why": "A reported command: told + person + to + base verb.",
+  "why": "Close the … → told us to close.",
   "slots": {
    "thing": [
     "window",
@@ -1245,7 +1257,7 @@ export default [
   "source": "'Sit down on the {seat},' the {who} said to me.",
   "hint": "The {who} ______ down on the {seat}.",
   "key": "told me to sit",
-  "why": "A reported command: told + person + to + base verb.",
+  "why": "Sit down → told me to sit.",
   "slots": {
    "seat": [
     "chair",
@@ -1273,7 +1285,7 @@ export default [
   "source": "'Bring your {thing},' the {who} said to us.",
   "hint": "The {who} ______ our {thing}.",
   "key": "told us to bring",
-  "why": "A reported command: told + person + to + base verb.",
+  "why": "Bring your … → told us to bring.",
   "slots": {
    "thing": [
     "passports",
@@ -1301,7 +1313,7 @@ export default [
   "source": "'Study for the {test},' the teacher said to {f}.",
   "hint": "The teacher ______ for the {test}.",
   "key": "told her to study",
-  "why": "A reported command: told + person + to + base verb.",
+  "why": "Study → told her to study.",
   "slots": {
    "test": [
     "exam",
@@ -1329,7 +1341,7 @@ export default [
   "source": "'Clean your {room},' {m}'s mother said to him.",
   "hint": "His mother ______ his {room}.",
   "key": "told him to clean",
-  "why": "A reported command: told + person + to + base verb.",
+  "why": "Clean your … → told him to clean.",
   "slots": {
    "room": [
     "room",
@@ -1357,7 +1369,7 @@ export default [
   "source": "'Don't be late for the {event},' the {who} said to us.",
   "hint": "The {who} ______ late for the {event}.",
   "key": "told us not to be",
-  "why": "A reported 'Don't …': told + person + not to + base verb.",
+  "why": "Don't be late → told us not to be.",
   "slots": {
    "event": [
     "lesson",
@@ -1385,7 +1397,7 @@ export default [
   "source": "'Don't touch the {thing},' {f} said to the children.",
   "hint": "{f} ______ the {thing}.",
   "key": "told them not to touch",
-  "why": "A reported 'Don't …': told + person + not to + base verb.",
+  "why": "Don't touch → told them not to touch.",
   "slots": {
    "thing": [
     "cake",
@@ -1413,7 +1425,7 @@ export default [
   "source": "'Don't worry about the {test},' my {who} said to me.",
   "hint": "My {who} ______ about the {test}.",
   "key": "told me not to worry",
-  "why": "A reported 'Don't …': told + person + not to + base verb.",
+  "why": "Don't worry → told me not to worry.",
   "slots": {
    "test": [
     "exam",
@@ -1441,7 +1453,7 @@ export default [
   "source": "'Don't open the {door},' {m} said to his sister.",
   "hint": "{m} ______ the {door}.",
   "key": "told her not to open",
-  "why": "A reported 'Don't …': told + person + not to + base verb.",
+  "why": "Don't open → told her not to open.",
   "slots": {
    "door": [
     "door",
@@ -1469,7 +1481,7 @@ export default [
   "source": "'Don't eat all the {food},' {f} said to her brother.",
   "hint": "{f} ______ all the {food}.",
   "key": "told him not to eat",
-  "why": "A reported 'Don't …': told + person + not to + base verb.",
+  "why": "Don't eat → told him not to eat.",
   "slots": {
    "food": [
     "cake",
@@ -1497,7 +1509,7 @@ export default [
   "source": "'Please help me with the {thing},' {f} said to me.",
   "hint": "{f} ______ her with the {thing}.",
   "key": "asked me to help",
-  "why": "A reported request: asked + person + to + base verb.",
+  "why": "Please help → asked me to help.",
   "slots": {
    "thing": [
     "bags",
@@ -1525,7 +1537,7 @@ export default [
   "source": "'Could you open the {door}, please?' the {who} said to {m}.",
   "hint": "The {who} ______ the {door}.",
   "key": "asked him to open",
-  "why": "A reported request: asked + person + to + base verb.",
+  "why": "Could you open → asked him to open.",
   "slots": {
    "door": [
     "door",
@@ -1559,7 +1571,7 @@ export default [
   "source": "'Please speak more slowly,' the {who} said to us.",
   "hint": "The {who} ______ more slowly, {f}.",
   "key": "asked us to speak",
-  "why": "A reported request: asked + person + to + base verb.",
+  "why": "Please speak → asked us to speak.",
   "slots": {
    "who": [
     "tourist",
@@ -1587,7 +1599,7 @@ export default [
   "source": "'Can you lend me your {thing}?' {m} said to me.",
   "hint": "{m} ______ him my {thing}.",
   "key": "asked me to lend",
-  "why": "A reported request: asked + person + to + base verb.",
+  "why": "Can you lend → asked me to lend.",
   "slots": {
    "thing": [
     "car",
@@ -1615,7 +1627,7 @@ export default [
   "source": "'Please call a taxi for me,' the {who} said to {f}.",
   "hint": "The {who} ______ a taxi for him, {m}.",
   "key": "asked her to call",
-  "why": "A reported request: asked + person + to + base verb.",
+  "why": "Please call → asked her to call.",
   "slots": {
    "who": [
     "old man",

@@ -169,7 +169,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I can ______ hear you. Please speak louder, {name}.",
+  "prompt": "I can ______ hear you. Please {fix}, {name}.",
   "options": [
    "hard",
    "harder",
@@ -184,6 +184,12 @@ export default [
     "Feruza",
     "Akmal",
     "Dilnoza"
+   ],
+   "fix": [
+    "speak louder",
+    "speak up",
+    "turn the music down",
+    "come closer"
    ]
   }
  },
@@ -459,7 +465,7 @@ export default [
    "nearly"
   ],
   "key": 2,
-  "why": "close to the park: near = close to (a place).",
+  "why": "close to the …: near = close to (a place).",
   "slots": {
    "place": [
     "park",
@@ -483,7 +489,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Is there a pharmacy ______ here, {name}?",
+  "prompt": "Is there a {shop} ______ here, {name}?",
   "options": [
    "neared",
    "near",
@@ -498,6 +504,12 @@ export default [
     "Zarina",
     "Ulugbek",
     "Gulnora"
+   ],
+   "shop": [
+    "pharmacy",
+    "bank",
+    "café",
+    "bus stop"
    ]
   }
  },
@@ -605,7 +617,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My cousin can jump really ______, {name}. He plays basketball.",
+  "prompt": "My {who} can jump really ______, {name}. He plays basketball.",
   "options": [
    "highness",
    "high",
@@ -620,6 +632,12 @@ export default [
     "Zarina",
     "Ulugbek",
     "Gulnora"
+   ],
+   "who": [
+    "cousin",
+    "brother",
+    "nephew",
+    "neighbour"
    ]
   }
  },
@@ -632,7 +650,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Use the word in brackets or its -ly form.",
-  "source": "I've been very busy ______ (late), {name}. Sorry I didn't call.",
+  "source": "I've been {state} ______ (late), {name}. Sorry I didn't call.",
   "key": "lately",
   "why": "\"busy … sorry I didn't call\" is about the recent past: lately = recently.",
   "slots": {
@@ -641,6 +659,12 @@ export default [
     "Feruza",
     "Akmal",
     "Dilnoza"
+   ],
+   "state": [
+    "very busy",
+    "really busy",
+    "so busy",
+    "busy at work"
    ]
   }
  },
@@ -655,7 +679,7 @@ export default [
   "instr": "Use the word in brackets or its -ly form.",
   "source": "The {who} arrived ______ (late) again this morning, {name}.",
   "key": "late",
-  "why": "The teacher came after the right time: late = not on time / at a late hour.",
+  "why": "The … came after the right time: late = not on time / at a late hour.",
   "slots": {
    "who": [
     "teacher",
@@ -788,15 +812,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Use the word in brackets or its -ly form.",
-  "source": "There's ______ (hard) any milk in the fridge, {name}.",
+  "source": "There's ______ (hard) any {food} in the fridge, {name}.",
   "key": "hardly",
-  "why": "There is almost no milk: hardly = almost not.",
+  "why": "There is almost no …: hardly = almost not.",
   "slots": {
    "name": [
     "Sherzod",
     "Feruza",
     "Akmal",
     "Dilnoza"
+   ],
+   "food": [
+    "milk",
+    "bread",
+    "cheese",
+    "butter"
    ]
   }
  },
@@ -863,7 +893,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Use the word in brackets or its -ly form.",
-  "source": "I ______ (near) forgot your birthday, {name}!",
+  "source": "I ______ (near) forgot your {day}, {name}!",
   "key": "nearly",
   "why": "I almost forgot, but didn't: nearly = almost.",
   "slots": {
@@ -872,6 +902,12 @@ export default [
     "Zarina",
     "Ulugbek",
     "Gulnora"
+   ],
+   "day": [
+    "birthday",
+    "exam",
+    "appointment",
+    "wedding"
    ]
   }
  },
@@ -994,7 +1030,7 @@ export default [
   "instr": "Use the word in brackets or its -ly form.",
   "source": "Dr Karimova is a ______ (high) respected {job}, {name}.",
   "key": "highly",
-  "why": "People respect the doctor very much: highly = very / very well.",
+  "why": "People respect the … very much: highly = very / very well.",
   "slots": {
    "job": [
     "doctor",
@@ -1154,16 +1190,22 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite with lately instead of recently.",
-  "source": "I haven't slept well recently, {name}.",
-  "hint": "I haven't slept well ______, {name}.",
+  "source": "I haven't {done} recently, {name}.",
+  "hint": "I haven't {done} ______, {name}.",
   "key": "lately",
-  "why": "Lately means recently: same meaning, same place.",
+  "why": "\"recently\" with the present perfect = lately: haven't … lately.",
   "slots": {
    "name": [
     "Sherzod",
     "Feruza",
     "Akmal",
     "Dilnoza"
+   ],
+   "done": [
+    "slept well",
+    "eaten much",
+    "seen him",
+    "felt well"
    ]
   }
  },
@@ -1179,7 +1221,7 @@ export default [
   "source": "Have you been to the {place} recently, {name}?",
   "hint": "Have you been to the {place} ______, {name}?",
   "key": "lately",
-  "why": "Lately means recently: same meaning, same place.",
+  "why": "A question about the recent past: recently → lately.",
   "slots": {
    "place": [
     "cinema",
@@ -1204,16 +1246,22 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite with lately instead of recently.",
-  "source": "My dad has been very busy at the {place} recently.",
-  "hint": "My dad has been very busy at the {place} ______.",
+  "source": "My {who} has been very busy at the {place} recently.",
+  "hint": "My {who} has been very busy at the {place} ______.",
   "key": "lately",
-  "why": "Lately means recently: same meaning, same place.",
+  "why": "\"has been very busy … recently\" → lately at the end.",
   "slots": {
    "place": [
     "office",
     "factory",
     "hospital",
     "shop"
+   ],
+   "who": [
+    "dad",
+    "mum",
+    "uncle",
+    "sister"
    ]
   }
  },
@@ -1229,7 +1277,7 @@ export default [
   "source": "It has rained a lot in {city} recently, {name}.",
   "hint": "It has rained a lot in {city} ______, {name}.",
   "key": "lately",
-  "why": "Lately means recently: same meaning, same place.",
+  "why": "\"has rained a lot … recently\" → lately.",
   "slots": {
    "city": [
     "Tashkent",
@@ -1257,7 +1305,7 @@ export default [
   "source": "What {thing} have you watched recently, {name}?",
   "hint": "What {thing} have you watched ______, {name}?",
   "key": "lately",
-  "why": "Lately means recently: same meaning, same place.",
+  "why": "\"What … have you watched recently?\" → lately.",
   "slots": {
    "thing": [
     "films",
@@ -1285,7 +1333,7 @@ export default [
   "source": "I almost missed the {bus} this morning, {name}.",
   "hint": "I ______ missed the {bus} this morning, {name}.",
   "key": "nearly",
-  "why": "Nearly means almost: put it where almost was.",
+  "why": "\"almost missed\": nearly goes before the verb: nearly missed.",
   "slots": {
    "bus": [
     "bus",
@@ -1313,7 +1361,7 @@ export default [
   "source": "We almost lost the {match}, {name}.",
   "hint": "We ______ lost the {match}, {name}.",
   "key": "nearly",
-  "why": "Nearly means almost: put it where almost was.",
+  "why": "\"almost lost\" → nearly lost.",
   "slots": {
    "match": [
     "final",
@@ -1341,7 +1389,7 @@ export default [
   "source": "The {thing} is almost ready, {name}.",
   "hint": "The {thing} is ______ ready, {name}.",
   "key": "nearly",
-  "why": "Nearly means almost: put it where almost was.",
+  "why": "\"almost ready\" → nearly ready.",
   "slots": {
    "thing": [
     "dinner",
@@ -1369,7 +1417,7 @@ export default [
   "source": "My grandma is almost ninety, {name}. She still cooks {food}!",
   "hint": "My grandma is ______ ninety, {name}. She still cooks {food}!",
   "key": "nearly",
-  "why": "Nearly means almost: put it where almost was.",
+  "why": "\"almost ninety\" → nearly ninety.",
   "slots": {
    "name": [
     "Otabek",
@@ -1397,7 +1445,7 @@ export default [
   "source": "I almost fell on the ice in the {place}, {name}.",
   "hint": "I ______ fell on the ice in the {place}, {name}.",
   "key": "nearly",
-  "why": "Nearly means almost: put it where almost was.",
+  "why": "\"almost fell\" → nearly fell.",
   "slots": {
    "place": [
     "street",

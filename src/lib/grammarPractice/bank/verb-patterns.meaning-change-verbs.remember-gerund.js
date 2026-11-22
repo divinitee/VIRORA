@@ -41,7 +41,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My grandpa remembers ______ to {city} by train in 1975.",
+  "prompt": "My {rel} remembers ______ to {city} by train in 1975.",
   "options": [
    "to go",
    "go",
@@ -56,6 +56,12 @@ export default [
     "Tashkent",
     "Samarkand",
     "Kyiv"
+   ],
+   "rel": [
+    "grandpa",
+    "grandma",
+    "uncle",
+    "aunt"
    ]
   }
  },
@@ -131,7 +137,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "She remembers ______ on her first day at {place}.",
+  "prompt": "She remembers ______ on her first {per} at {place}.",
   "options": [
    "crying",
    "to cry",
@@ -139,13 +145,19 @@ export default [
    "cried"
   ],
   "key": 0,
-  "why": "Her first day was in the past, so this is a memory of the past: remember + -ing (crying).",
+  "why": "Her first … there is in the past: a memory: remember + -ing (crying).",
   "slots": {
    "place": [
     "school",
     "kindergarten",
     "camp",
     "university"
+   ],
+   "per": [
+    "day",
+    "morning",
+    "afternoon",
+    "evening"
    ]
   }
  },
@@ -195,7 +207,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My mum remembers ______ to ride a {bike} when she was six.",
+  "prompt": "My {rel} remembers ______ to ride a {bike} when she was six.",
   "options": [
    "learn",
    "learned",
@@ -210,6 +222,12 @@ export default [
     "horse",
     "scooter",
     "donkey"
+   ],
+   "rel": [
+    "mum",
+    "aunt",
+    "sister",
+    "grandma"
    ]
   }
  },
@@ -229,7 +247,7 @@ export default [
    "live"
   ],
   "key": 1,
-  "why": "The old flat is in the past, so this is a memory of the past: remember + -ing (living).",
+  "why": "The old … is in the past, so this is a memory of the past: remember + -ing (living).",
   "slots": {
    "home": [
     "flat",
@@ -291,7 +309,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "We remember ______ in the {water} every summer as children.",
+  "prompt": "We remember ______ in the {water} every {season} as children.",
   "options": [
    "to swim",
    "swim",
@@ -306,6 +324,12 @@ export default [
     "lake",
     "sea",
     "canal"
+   ],
+   "season": [
+    "summer",
+    "spring",
+    "holiday",
+    "weekend"
    ]
   }
  },
@@ -349,7 +373,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My dad remembers ______ the {match} on a small black-and-white TV.",
+  "prompt": "My {rel} remembers ______ the {match} on a small black-and-white TV.",
   "options": [
    "watched",
    "watching",
@@ -364,6 +388,12 @@ export default [
     "World Cup",
     "big match",
     "Olympics"
+   ],
+   "rel": [
+    "dad",
+    "grandpa",
+    "uncle",
+    "grandma"
    ]
   }
  },
@@ -439,7 +469,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "She remembers ______ at her sister's {event} ten years ago.",
+  "prompt": "She remembers ______ at her {rel}'s {event} ten years ago.",
   "options": [
    "sing",
    "sang",
@@ -454,6 +484,12 @@ export default [
     "party",
     "birthday",
     "graduation"
+   ],
+   "rel": [
+    "sister",
+    "cousin",
+    "friend",
+    "brother"
    ]
   }
  },
@@ -529,7 +565,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My son remembers ______ in a tent in the {place} last summer.",
+  "prompt": "My {kid} remembers ______ in a tent in the {place} last summer.",
   "options": [
    "to sleep",
    "sleep",
@@ -544,6 +580,12 @@ export default [
     "desert",
     "forest",
     "garden"
+   ],
+   "kid": [
+    "son",
+    "daughter",
+    "nephew",
+    "little brother"
    ]
   }
  },
@@ -595,7 +637,7 @@ export default [
    "win"
   ],
   "key": 1,
-  "why": "\"In 1998\" is the past, so this is a memory of the past: remember + -ing (winning).",
+  "why": "\"In …\" is the past, so this is a memory of the past: remember + -ing (winning).",
   "slots": {
    "cup": [
     "cup",
@@ -701,7 +743,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "It is a memory of the past. Complete with the right form of the verb in brackets.",
-  "source": "My grandma remembers ______ (make) bread in a {oven} as a girl.",
+  "source": "My {rel} remembers ______ (make) bread in a {oven} as a girl.",
   "key": "making",
   "why": "A memory of something done before: remember + -ing (making).",
   "slots": {
@@ -710,6 +752,12 @@ export default [
     "clay oven",
     "village oven",
     "big oven"
+   ],
+   "rel": [
+    "grandma",
+    "mum",
+    "aunt",
+    "great-aunt"
    ]
   }
  },
@@ -749,7 +797,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "It is a memory of the past. Complete with the right form of the verb in brackets.",
-  "source": "She remembers ______ (read) this {book} at school.",
+  "source": "She remembers ______ (read) this {book} at {where}.",
   "key": "reading",
   "why": "A memory of something done before: remember + -ing (reading).",
   "slots": {
@@ -758,6 +806,12 @@ export default [
     "poem",
     "story",
     "novel"
+   ],
+   "where": [
+    "school",
+    "college",
+    "university",
+    "summer camp"
    ]
   }
  },
@@ -770,7 +824,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "It is a memory of the past. Complete with the right form of the verb in brackets.",
-  "source": "We remember ______ (climb) the {hill} behind our village.",
+  "source": "We remember ______ (climb) the {hill} behind our {where}.",
   "key": "climbing",
   "why": "A memory of something done before: remember + -ing (climbing).",
   "slots": {
@@ -779,6 +833,12 @@ export default [
     "mountain",
     "old tower",
     "big tree"
+   ],
+   "where": [
+    "village",
+    "town",
+    "house",
+    "school"
    ]
   }
  },
@@ -872,7 +932,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "It is a memory of the past. Complete with the right form of the verb in brackets.",
-  "source": "My brother remembers ______ (catch) a big fish in the {water}.",
+  "source": "My {rel} remembers ______ (catch) a big fish in the {water}.",
   "key": "catching",
   "why": "A memory of something done before: remember + -ing (catching).",
   "slots": {
@@ -881,6 +941,12 @@ export default [
     "lake",
     "sea",
     "canal"
+   ],
+   "rel": [
+    "brother",
+    "dad",
+    "uncle",
+    "cousin"
    ]
   }
  },
@@ -947,7 +1013,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "It is a memory of the past. Complete with the right form of the verb in brackets.",
-  "source": "I remember ______ (be) scared of the dark as a child, {name}.",
+  "source": "I remember ______ (be) scared of the {fear} as a child, {name}.",
   "key": "being",
   "why": "A memory of something done before: remember + -ing (being).",
   "slots": {
@@ -956,6 +1022,12 @@ export default [
     "Sherzod",
     "Nodira",
     "Jamshid"
+   ],
+   "fear": [
+    "dark",
+    "dogs",
+    "thunder",
+    "sea"
    ]
   }
  },
@@ -968,7 +1040,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "It is a memory of the past. Complete with the right form of the verb in brackets.",
-  "source": "Grandpa remembers ______ (plant) this {tree} forty years ago.",
+  "source": "{rel} remembers ______ (plant) this {tree} forty years ago.",
   "key": "planting",
   "why": "A memory of something done before: remember + -ing (planting).",
   "slots": {
@@ -977,6 +1049,12 @@ export default [
     "walnut tree",
     "cherry tree",
     "vine"
+   ],
+   "rel": [
+    "Grandpa",
+    "Grandma",
+    "My uncle",
+    "My dad"
    ]
   }
  },
@@ -1043,7 +1121,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "It is a memory of the past. Complete with the right form of the verb in brackets.",
-  "source": "She remembers ______ (talk) to a famous {who} at the airport.",
+  "source": "She remembers ______ (talk) to a famous {who} at the {where}.",
   "key": "talking",
   "why": "A memory of something done before: remember + -ing (talking).",
   "slots": {
@@ -1052,6 +1130,12 @@ export default [
     "footballer",
     "actor",
     "writer"
+   ],
+   "where": [
+    "airport",
+    "station",
+    "bazaar",
+    "hotel"
    ]
   }
  },
@@ -1168,8 +1252,8 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "Do you remember play in the yard as kids, {name}?",
-  "hint": "Do you remember ______ in the yard as kids, {name}?",
+  "source": "Do you remember play in the {where} as kids, {name}?",
+  "hint": "Do you remember ______ in the {where} as kids, {name}?",
   "key": "playing",
   "why": "remember + -ing for a memory: playing.",
   "slots": {
@@ -1178,6 +1262,12 @@ export default [
     "Otabek",
     "Zarina",
     "Akmal"
+   ],
+   "where": [
+    "yard",
+    "park",
+    "street",
+    "garden"
    ]
   }
  },
@@ -1190,8 +1280,8 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "My grandpa remembers went to {city} in 1975.",
-  "hint": "My grandpa remembers ______ to {city} in 1975.",
+  "source": "My {rel} remembers went to {city} in 1975.",
+  "hint": "My {rel} remembers ______ to {city} in 1975.",
   "key": "going",
   "why": "remember + -ing: going, not went.",
   "slots": {
@@ -1200,6 +1290,12 @@ export default [
     "Tashkent",
     "Samarkand",
     "Kyiv"
+   ],
+   "rel": [
+    "grandpa",
+    "grandma",
+    "uncle",
+    "aunt"
    ]
   }
  },

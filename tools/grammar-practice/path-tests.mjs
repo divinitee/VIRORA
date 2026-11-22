@@ -4,7 +4,8 @@ import {
   LESSON_STOPS, PATH_COPY, PASS_MIN_ITEMS, passedTopics, lessonsCompleted, buildPath, pathState,
   stopAfter, stopHref, stopLabel, grammarAfterLesson,
 } from "../../src/lib/learnerPath.js";
-import { UNITS, COURSE_TOPIC_KEYS } from "../../src/lib/grammarCourse.js";
+import { UNITS, COURSE_TOPIC_KEYS, PATH_UNITS } from "../../src/lib/grammarCourse.js";
+import { UNITS_B1, COURSE_B1_TOPIC_KEYS } from "../../src/lib/grammarCourseB1.js";
 
 let pass = 0, fail = 0;
 const ok = (name, cond, extra = "") => {
@@ -40,8 +41,10 @@ const fresh = pathState({ available, passed: new Set(), lessonsDone: 0 });
 ok("the path opens with the lesson", fresh.stops[0].kind === "lesson" && fresh.stops[0].lessonId === LESSON.lessonId);
 ok("every course topic is on the path exactly once",
   COURSE_TOPIC_KEYS.every((k) => fresh.stops.filter((s) => s.key === k).length === 1));
-ok("grammar stops keep the course order",
-  JSON.stringify(fresh.stops.filter((s) => s.kind === "grammar").map((s) => s.key)) === JSON.stringify(COURSE_TOPIC_KEYS));
+const grammarKeys = fresh.stops.filter((s) => s.kind === "grammar").map((s) => s.key);
+ok("grammar stops keep the course order: Foundational first, then B1",
+  JSON.stringify(grammarKeys) === JSON.stringify(PATH_UNITS.flatMap((u) => u.topics.map((t) => t.key))) &&
+  JSON.stringify(grammarKeys.slice(0, COURSE_TOPIC_KEYS.length)) === JSON.stringify(COURSE_TOPIC_KEYS));
 ok("totals count the lesson + topics that have a bank", fresh.total === 1 + available.size, String(fresh.total));
 ok("a topic with no bank never counts", fresh.stops.filter((s) => s.kind === "grammar" && !s.playable).every((s) => !s.counts));
 const optionalKey = UNITS.flatMap((u) => u.topics).find((t) => t.optional)?.key;
@@ -62,6 +65,17 @@ ok("a topic passed out of order is not asked again", skipAhead.next?.key === A &
 const all = pathState({ available, passed: new Set(available), lessonsDone: 1 });
 ok("next is null when everything ready is done", all.next === null && all.done === all.total);
 ok("stopAfter the last stop is null", stopAfter(all, all.stops.filter((s) => s.counts).at(-1).id) === null);
+
+console.log("=== B1 after A2 (21 Nov 2026) ===");
+const allA = new Set(COURSE_TOPIC_KEYS);
+const firstB1 = COURSE_B1_TOPIC_KEYS[0];
+const atB1 = pathState({ available: new Set([...allA, firstB1]), passed: allA, lessonsDone: 1 });
+ok("when every A1–A2 stop is passed, next is the first B1 topic", atB1.next?.key === firstB1, atB1.next?.key);
+ok("its unit is the first B1 unit", atB1.unit?.id === UNITS_B1[0].id);
+ok("unit numbering continues after the 13 Foundational units", atB1.unit?.index === UNITS.length, String(atB1.unit?.index));
+ok("an A1–A2 topic still comes before any B1 topic",
+  pathState({ available: new Set([firstB1, A]), passed: new Set(), lessonsDone: 1 }).next?.key === A);
+ok("B1 stops have labels in en/uz/ru", ["en", "uz", "ru"].every((l) => stopLabel(atB1.next, l) && stopLabel(atB1.next, l) !== firstB1));
 
 console.log("=== links and labels ===");
 ok("a lesson stop opens the Lesson Runner", stopHref(fresh.next) === `/lesson/${LESSON.lessonId}`);

@@ -149,5 +149,199 @@ for (const [st, m, acc] of AUDIT_ACC) {
   for (const it of hit) it.acceptable = [...new Set([...(it.acceptable || []), ...acc])];
 }
 const out = "content/grammar-practice/tenses.past.past-perfect-experience.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "\"had never … before\" + speak: the participle is spoken.",
+   "Scared on the plane: never flew before → had never flown.",
+   "So happy at something new: had never seen it.",
+   "Chopsticks were new: had never eaten that food.",
+   "He fell because riding was new: ride → ridden.",
+   "She stayed near the shore: swimming there was new → swum.",
+   "Careful because driving there was new: drive → driven.",
+   "\"I didn't know how to start\": write → written.",
+   "\"felt strange\" in new clothes: wear → worn.",
+   "She didn't like a new drink: drink → drunk (not drank).",
+   "Nervous on a …: sing → sung (not sang).",
+   "Excited to go alone: take → taken (not took).",
+   "Nervous about a first …: give → given (not gave).",
+   "No real-match experience: throw → thrown (not threw).",
+   "Had you ever …? + go → gone.",
+   "Had … ever …? + see → seen (not saw).",
+   "\"to\" + a place after ever needs been: had you ever been to.",
+   "\"the first time … had\" + break → broken.",
+   "\"the first time … had\" + grow → grown (not grew).",
+   "\"the first time … had\" + draw → drawn (not drew)."
+  ],
+  "build": [
+   "\"nervous … never … before\": speak → spoken.",
+   "\"such a big … before\": see → seen.",
+   "Holding hands on the plane: fly → flown.",
+   "Surprised by the taste: eat → eaten.",
+   "Scared on it for the first time: ride → ridden.",
+   "\"so he went slowly\": drive → driven.",
+   "\"cold water\" was new: swim → swum.",
+   "Before his interview: write → written.",
+   "Smart clothes for the first time: wear → worn.",
+   "In front of the whole …: sing → sung.",
+   "\"on my own before last …\": take → taken.",
+   "Excited about a new city: had never been to.",
+   "\"so the coach helped him\": do → done.",
+   "Before that event they never met: meet → met.",
+   "\"he didn't like it\": drink → drunk.",
+   "\"proud … on her own\": make → made.",
+   "\"so happy\": a first win → won.",
+   "\"before …\": hear → heard.",
+   "\"a whole book … before this …\": read → read (same spelling).",
+   "\"before the …\": try → tried."
+  ],
+  "transform": [
+   "\"my first time on a plane\" → had never flown before then.",
+   "\"first time in a …\" → had never been in one.",
+   "\"first time eating\" → had never eaten it.",
+   "\"first time driving\" → had never driven there.",
+   "\"first time seeing snow\" → had never seen snow.",
+   "Moved into the past: has never been → had never been.",
+   "Moved into the past: have never spoken → had never spoken.",
+   "Moved into the past: has never seen → had never seen.",
+   "Moved into the past: has never ridden → had never ridden.",
+   "Moved into the past: have never eaten → had never eaten.",
+   "had never + participle: spoken, not spoke.",
+   "had never + participle: swum, not swam.",
+   "had never + participle: written, not wrote.",
+   "had never + participle: driven, not drove.",
+   "had never + participle: seen, not saw."
+  ]
+ },
+ "slot": [
+  [
+   "choose",
+   3,
+   "children",
+   "who",
+   [
+    "children",
+    "twins",
+    "little ones",
+    "village kids"
+   ]
+  ],
+  [
+   "choose",
+   11,
+   "stage",
+   "stage",
+   [
+    "stage",
+    "big stage",
+    "school stage",
+    "stage like that"
+   ]
+  ],
+  [
+   "choose",
+   14,
+   "team",
+   "team",
+   [
+    "team",
+    "class team",
+    "school team",
+    "club"
+   ]
+  ],
+  [
+   "choose",
+   19,
+   "mother",
+   "who",
+   [
+    "mother",
+    "grandmother",
+    "aunt",
+    "father"
+   ]
+  ],
+  [
+   "build",
+   1,
+   "radio",
+   "medium",
+   [
+    "radio",
+    "TV",
+    "stage",
+    "phone"
+   ]
+  ],
+  [
+   "build",
+   18,
+   "last night",
+   "when",
+   [
+    "last night",
+    "yesterday",
+    "that day",
+    "the concert"
+   ]
+  ],
+  [
+   "build",
+   20,
+   "party",
+   "event",
+   [
+    "party",
+    "wedding",
+    "picnic",
+    "trip"
+   ]
+  ],
+  [
+   "transform",
+   11,
+   "TV",
+   "medium",
+   [
+    "TV",
+    "the radio",
+    "stage",
+    "the news"
+   ]
+  ],
+  [
+   "build",
+   13,
+   "lesson",
+   "kind",
+   [
+    "lesson",
+    "class",
+    "training session",
+    "match"
+   ]
+  ]
+ ]
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

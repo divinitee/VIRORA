@@ -142,5 +142,121 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/comparison.modified-comparison.much-comparative.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "120 against 40 is a big difference: much bigger.",
+   "30,000 against 2,000 is a big gap: much more expensive.",
+   "42 against 30 degrees: much hotter.",
+   "\"Nobody finished it\": a big difference: much more difficult.",
+   "Two hours against six: much faster.",
+   "\"I read it in two days\": much more interesting.",
+   "85 against 50: much older.",
+   "\"I can sleep in it\": much more comfortable.",
+   "300 km against 100 km: much longer.",
+   "Spring against winter, a big change: much more beautiful.",
+   "Minus fifteen: a big difference: much colder.",
+   "Bad weather against sun: much more dangerous.",
+   "\"I finished in ten minutes\": much easier.",
+   "A big gap in our school: much more popular.",
+   "1.90 against 1.60: much taller.",
+   "Health against a thing: much more important.",
+   "\"What's in it?\": a big weight gap: much heavier.",
+   "For work, a big gap: much more useful.",
+   "A busy day against weekdays: much busier.",
+   "\"She never goes fast\": much more careful."
+  ],
+  "build": [
+   "cheap is short: much + cheaper.",
+   "expensive is long: much more expensive.",
+   "warm is short: much warmer.",
+   "difficult is long: much more difficult.",
+   "\"We sleep well now\": quiet → much quieter.",
+   "comfortable is long: much more comfortable.",
+   "small is short: much smaller.",
+   "interesting is long: much more interesting.",
+   "happy ends in -y: much happier.",
+   "beautiful is long: much more beautiful.",
+   "safe ends in -e: much safer.",
+   "dangerous is long: much more dangerous.",
+   "\"He can carry … alone\": much stronger.",
+   "popular is long: much more popular.",
+   "\"Let's walk\": near → much nearer.",
+   "useful is long: much more useful.",
+   "heavy ends in -y: much heavier.",
+   "important is long: much more important.",
+   "busy ends in -y: much busier.",
+   "long is short: much longer."
+  ],
+  "transform": [
+   "Ten hours against one: much faster.",
+   "A few million more: much more expensive.",
+   "40 against 5 degrees: much hotter.",
+   "200 against 2,000 students: much bigger.",
+   "An hour against ten minutes: much easier.",
+   "Not very + -er: much bigger.",
+   "much + -er, not much more cheaper: much cheaper.",
+   "Order: much comes before more: much more difficult.",
+   "beautiful is long, so more is needed: much more beautiful.",
+   "old is short: much older, not much more old.",
+   "a lot = much here: much safer.",
+   "far = much here: much more comfortable.",
+   "a lot = much here: much taller.",
+   "far = much here: much colder.",
+   "a lot = much here: much more difficult."
+  ]
+ },
+ "slot": [
+  [
+   "build",
+   9,
+   "new school",
+   "place",
+   [
+    "new school",
+    "new job",
+    "new club",
+    "new college"
+   ]
+  ],
+  [
+   "build",
+   8,
+   "",
+   "part",
+   [
+    "hour"
+   ]
+  ],
+  [
+   "build",
+   8,
+   "",
+   "part",
+   [
+    "episode"
+   ]
+  ]
+ ]
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

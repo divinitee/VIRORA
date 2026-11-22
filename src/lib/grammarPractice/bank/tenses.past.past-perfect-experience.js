@@ -17,7 +17,7 @@ export default [
    "speaking"
   ],
   "key": 0,
-  "why": "After had never / had ever, use the past participle: spoken. It was a new experience at that moment in the past.",
+  "why": "\"had never … before\" + speak: the participle is spoken.",
   "slots": {
    "name": [
     "Madina",
@@ -49,7 +49,7 @@ export default [
    "flown"
   ],
   "key": 3,
-  "why": "After had never / had ever, use the past participle: flown. It was a new experience at that moment in the past.",
+  "why": "Scared on the plane: never flew before → had never flown.",
   "slots": {
    "city": [
     "Istanbul",
@@ -73,7 +73,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The children were so happy. They had never ______ {thing} before.",
+  "prompt": "The {who} were so happy. They had never ______ {thing} before.",
   "options": [
    "see",
    "seeing",
@@ -81,13 +81,19 @@ export default [
    "saw"
   ],
   "key": 2,
-  "why": "After had never / had ever, use the past participle: seen. It was a new experience at that moment in the past.",
+  "why": "So happy at something new: had never seen it.",
   "slots": {
    "thing": [
     "snow",
     "the sea",
     "a real camel",
     "mountains"
+   ],
+   "who": [
+    "children",
+    "twins",
+    "little ones",
+    "village kids"
    ]
   }
  },
@@ -107,7 +113,7 @@ export default [
    "eat"
   ],
   "key": 1,
-  "why": "After had never / had ever, use the past participle: eaten. It was a new experience at that moment in the past.",
+  "why": "Chopsticks were new: had never eaten that food.",
   "slots": {
    "name": [
     "Sardor",
@@ -139,7 +145,7 @@ export default [
    "riding"
   ],
   "key": 0,
-  "why": "After had never / had ever, use the past participle: ridden. It was a new experience at that moment in the past.",
+  "why": "He fell because riding was new: ride → ridden.",
   "slots": {
    "animal": [
     "horse",
@@ -171,7 +177,7 @@ export default [
    "swum"
   ],
   "key": 3,
-  "why": "After had never / had ever, use the past participle: swum. It was a new experience at that moment in the past.",
+  "why": "She stayed near the shore: swimming there was new → swum.",
   "slots": {
    "name": [
     "Madina",
@@ -203,7 +209,7 @@ export default [
    "drove"
   ],
   "key": 2,
-  "why": "After had never / had ever, use the past participle: driven. It was a new experience at that moment in the past.",
+  "why": "Careful because driving there was new: drive → driven.",
   "slots": {
    "city": [
     "Tashkent",
@@ -235,7 +241,7 @@ export default [
    "write"
   ],
   "key": 1,
-  "why": "After had never / had ever, use the past participle: written. It was a new experience at that moment in the past.",
+  "why": "\"I didn't know how to start\": write → written.",
   "slots": {
    "text": [
     "letter",
@@ -267,7 +273,7 @@ export default [
    "wearing"
   ],
   "key": 0,
-  "why": "After had never / had ever, use the past participle: worn. It was a new experience at that moment in the past.",
+  "why": "\"felt strange\" in new clothes: wear → worn.",
   "slots": {
    "name": [
     "Sardor",
@@ -299,7 +305,7 @@ export default [
    "drunk"
   ],
   "key": 3,
-  "why": "After had never / had ever, use the past participle: drunk. It was a new experience at that moment in the past.",
+  "why": "She didn't like a new drink: drink → drunk (not drank).",
   "slots": {
    "drink": [
     "coffee",
@@ -323,7 +329,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Our teacher was nervous. She had never ______ on a stage before, {name}.",
+  "prompt": "Our teacher was nervous. She had never ______ on a {stage} before, {name}.",
   "options": [
    "sing",
    "singing",
@@ -331,13 +337,19 @@ export default [
    "sang"
   ],
   "key": 2,
-  "why": "After had never / had ever, use the past participle: sung. It was a new experience at that moment in the past.",
+  "why": "Nervous on a …: sing → sung (not sang).",
   "slots": {
    "name": [
     "Feruza",
     "Otabek",
     "Dilnoza",
     "Sardor"
+   ],
+   "stage": [
+    "stage",
+    "big stage",
+    "school stage",
+    "stage like that"
    ]
   }
  },
@@ -357,7 +369,7 @@ export default [
    "take"
   ],
   "key": 1,
-  "why": "After had never / had ever, use the past participle: taken. It was a new experience at that moment in the past.",
+  "why": "Excited to go alone: take → taken (not took).",
   "slots": {
    "place": [
     "airport",
@@ -389,7 +401,7 @@ export default [
    "giving"
   ],
   "key": 0,
-  "why": "After had never / had ever, use the past participle: given. It was a new experience at that moment in the past.",
+  "why": "Nervous about a first …: give → given (not gave).",
   "slots": {
    "name": [
     "Madina",
@@ -413,7 +425,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Our team lost because the new player had never ______ a {ball} in a real match before.",
+  "prompt": "Our {team} lost because the new player had never ______ a {ball} in a real match before.",
   "options": [
    "threw",
    "throw",
@@ -421,13 +433,19 @@ export default [
    "thrown"
   ],
   "key": 3,
-  "why": "After had never / had ever, use the past participle: thrown. It was a new experience at that moment in the past.",
+  "why": "No real-match experience: throw → thrown (not threw).",
   "slots": {
    "ball": [
     "ball",
     "basketball",
     "handball",
     "volleyball"
+   ],
+   "team": [
+    "team",
+    "class team",
+    "school team",
+    "club"
    ]
   }
  },
@@ -447,7 +465,7 @@ export default [
    "went"
   ],
   "key": 2,
-  "why": "After had never / had ever, use the past participle: gone. It was a new experience at that moment in the past.",
+  "why": "Had you ever …? + go → gone.",
   "slots": {
    "city": [
     "Istanbul",
@@ -479,7 +497,7 @@ export default [
    "see"
   ],
   "key": 1,
-  "why": "After had never / had ever, use the past participle: seen. It was a new experience at that moment in the past.",
+  "why": "Had … ever …? + see → seen (not saw).",
   "slots": {
    "show": [
     "ballet",
@@ -511,7 +529,7 @@ export default [
    "being"
   ],
   "key": 0,
-  "why": "After had never / had ever, use the past participle: been. It was a new experience at that moment in the past.",
+  "why": "\"to\" + a place after ever needs been: had you ever been to.",
   "slots": {
    "city": [
     "Khiva",
@@ -543,7 +561,7 @@ export default [
    "broken"
   ],
   "key": 3,
-  "why": "After had never / had ever, use the past participle: broken. It was a new experience at that moment in the past.",
+  "why": "\"the first time … had\" + break → broken.",
   "slots": {
    "bone": [
     "bone",
@@ -567,7 +585,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "It was the first time my mother had ______ {veg} in our garden.",
+  "prompt": "It was the first time my {who} had ______ {veg} in our garden.",
   "options": [
    "grow",
    "growing",
@@ -575,13 +593,19 @@ export default [
    "grew"
   ],
   "key": 2,
-  "why": "After had never / had ever, use the past participle: grown. It was a new experience at that moment in the past.",
+  "why": "\"the first time … had\" + grow → grown (not grew).",
   "slots": {
    "veg": [
     "tomatoes",
     "potatoes",
     "melons",
     "carrots"
+   ],
+   "who": [
+    "mother",
+    "grandmother",
+    "aunt",
+    "father"
    ]
   }
  },
@@ -601,7 +625,7 @@ export default [
    "draw"
   ],
   "key": 1,
-  "why": "After had never / had ever, use the past participle: drawn. It was a new experience at that moment in the past.",
+  "why": "\"the first time … had\" + draw → drawn (not drew).",
   "slots": {
    "name": [
     "Feruza",
@@ -626,15 +650,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the past participle of the verb in brackets.",
-  "source": "She was nervous because she had never ______ (speak) on the radio before, {name}.",
+  "source": "She was nervous because she had never ______ (speak) on the {medium} before, {name}.",
   "key": "spoken",
-  "why": "After had never / had ever, use the past participle: spoken. It was a new experience at that moment in the past.",
+  "why": "\"nervous … never … before\": speak → spoken.",
   "slots": {
    "name": [
     "Feruza",
     "Otabek",
     "Dilnoza",
     "Sardor"
+   ],
+   "medium": [
+    "radio",
+    "TV",
+    "stage",
+    "phone"
    ]
   }
  },
@@ -649,7 +679,7 @@ export default [
   "instr": "Write the past participle of the verb in brackets.",
   "source": "We stopped the car, {name}. We had never ______ (see) such a big {thing} before.",
   "key": "seen",
-  "why": "After had never / had ever, use the past participle: seen. It was a new experience at that moment in the past.",
+  "why": "\"such a big … before\": see → seen.",
   "slots": {
    "thing": [
     "lake",
@@ -676,7 +706,7 @@ export default [
   "instr": "Write the past participle of the verb in brackets.",
   "source": "{name} held my hand on the plane. He had never ______ (fly) to {city} before.",
   "key": "flown",
-  "why": "After had never / had ever, use the past participle: flown. It was a new experience at that moment in the past.",
+  "why": "Holding hands on the plane: fly → flown.",
   "slots": {
    "name": [
     "Sardor",
@@ -703,7 +733,7 @@ export default [
   "instr": "Write the past participle of the verb in brackets.",
   "source": "I was surprised by the taste, {name}. I had never ______ (eat) {food} before.",
   "key": "eaten",
-  "why": "After had never / had ever, use the past participle: eaten. It was a new experience at that moment in the past.",
+  "why": "Surprised by the taste: eat → eaten.",
   "slots": {
    "food": [
     "fish soup",
@@ -730,7 +760,7 @@ export default [
   "instr": "Write the past participle of the verb in brackets.",
   "source": "{name} was scared because she had never ______ (ride) a {thing} before.",
   "key": "ridden",
-  "why": "After had never / had ever, use the past participle: ridden. It was a new experience at that moment in the past.",
+  "why": "Scared on it for the first time: ride → ridden.",
   "slots": {
    "name": [
     "Madina",
@@ -757,7 +787,7 @@ export default [
   "instr": "Write the past participle of the verb in brackets.",
   "source": "My {who} had never ______ (drive) in the {weather} before, so he went slowly.",
   "key": "driven",
-  "why": "After had never / had ever, use the past participle: driven. It was a new experience at that moment in the past.",
+  "why": "\"so he went slowly\": drive → driven.",
   "slots": {
    "who": [
     "uncle",
@@ -784,7 +814,7 @@ export default [
   "instr": "Write the past participle of the verb in brackets.",
   "source": "The water was cold, and I had never ______ (swim) in a {water} before, {name}.",
   "key": "swum",
-  "why": "After had never / had ever, use the past participle: swum. It was a new experience at that moment in the past.",
+  "why": "\"cold water\" was new: swim → swum.",
   "slots": {
    "water": [
     "lake",
@@ -811,7 +841,7 @@ export default [
   "instr": "Write the past participle of the verb in brackets.",
   "source": "My {who} had never ______ (write) an email in English before his {job} interview.",
   "key": "written",
-  "why": "After had never / had ever, use the past participle: written. It was a new experience at that moment in the past.",
+  "why": "Before his interview: write → written.",
   "slots": {
    "who": [
     "brother",
@@ -838,7 +868,7 @@ export default [
   "instr": "Write the past participle of the verb in brackets.",
   "source": "{name} looked very smart. He had never ______ (wear) a {thing} before the wedding.",
   "key": "worn",
-  "why": "After had never / had ever, use the past participle: worn. It was a new experience at that moment in the past.",
+  "why": "Smart clothes for the first time: wear → worn.",
   "slots": {
    "name": [
     "Sardor",
@@ -865,7 +895,7 @@ export default [
   "instr": "Write the past participle of the verb in brackets.",
   "source": "Our {group} had never ______ (sing) in front of the whole {school} before.",
   "key": "sung",
-  "why": "After had never / had ever, use the past participle: sung. It was a new experience at that moment in the past.",
+  "why": "In front of the whole …: sing → sung.",
   "slots": {
    "group": [
     "class",
@@ -892,7 +922,7 @@ export default [
   "instr": "Write the past participle of the verb in brackets.",
   "source": "I had never ______ (take) the {transport} on my own before last {when}.",
   "key": "taken",
-  "why": "After had never / had ever, use the past participle: taken. It was a new experience at that moment in the past.",
+  "why": "\"on my own before last …\": take → taken.",
   "slots": {
    "transport": [
     "metro",
@@ -919,7 +949,7 @@ export default [
   "instr": "Write the past participle of the verb in brackets.",
   "source": "{name} was excited. She had never ______ (be) to {city} before.",
   "key": "been",
-  "why": "After had never / had ever, use the past participle: been. It was a new experience at that moment in the past.",
+  "why": "Excited about a new city: had never been to.",
   "slots": {
    "name": [
     "Madina",
@@ -944,15 +974,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the past participle of the verb in brackets.",
-  "source": "My cousin had never ______ (do) a {sport} lesson before, so the coach helped him.",
+  "source": "My cousin had never ______ (do) a {sport} {kind} before, so the coach helped him.",
   "key": "done",
-  "why": "After had never / had ever, use the past participle: done. It was a new experience at that moment in the past.",
+  "why": "\"so the coach helped him\": do → done.",
   "slots": {
    "sport": [
     "judo",
     "tennis",
     "chess",
     "swimming"
+   ],
+   "kind": [
+    "lesson",
+    "class",
+    "training session",
+    "match"
    ]
   }
  },
@@ -967,7 +1003,7 @@ export default [
   "instr": "Write the past participle of the verb in brackets.",
   "source": "My parents had never ______ (meet) my teacher before the {event}, {name}.",
   "key": "met",
-  "why": "After had never / had ever, use the past participle: met. It was a new experience at that moment in the past.",
+  "why": "Before that event they never met: meet → met.",
   "slots": {
    "event": [
     "parents' meeting",
@@ -994,7 +1030,7 @@ export default [
   "instr": "Write the past participle of the verb in brackets.",
   "source": "My {who} had never ______ (drink) {drink} before, and he didn't like it.",
   "key": "drunk",
-  "why": "After had never / had ever, use the past participle: drunk. It was a new experience at that moment in the past.",
+  "why": "\"he didn't like it\": drink → drunk.",
   "slots": {
    "who": [
     "grandfather",
@@ -1021,7 +1057,7 @@ export default [
   "instr": "Write the past participle of the verb in brackets.",
   "source": "{name} was proud. She had never ______ (make) {food} on her own before.",
   "key": "made",
-  "why": "After had never / had ever, use the past participle: made. It was a new experience at that moment in the past.",
+  "why": "\"proud … on her own\": make → made.",
   "slots": {
    "name": [
     "Madina",
@@ -1048,7 +1084,7 @@ export default [
   "instr": "Write the past participle of the verb in brackets.",
   "source": "Our team was so happy. We had never ______ (win) a {thing} before, {name}.",
   "key": "won",
-  "why": "After had never / had ever, use the past participle: won. It was a new experience at that moment in the past.",
+  "why": "\"so happy\": a first win → won.",
   "slots": {
    "thing": [
     "cup",
@@ -1073,15 +1109,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the past participle of the verb in brackets.",
-  "source": "I had never ______ (hear) that {music} before last night.",
+  "source": "I had never ______ (hear) that {music} before {when}.",
   "key": "heard",
-  "why": "After had never / had ever, use the past participle: heard. It was a new experience at that moment in the past.",
+  "why": "\"before …\": hear → heard.",
   "slots": {
    "music": [
     "song",
     "singer",
     "band",
     "kind of music"
+   ],
+   "when": [
+    "last night",
+    "yesterday",
+    "that day",
+    "the concert"
    ]
   }
  },
@@ -1096,7 +1138,7 @@ export default [
   "instr": "Write the past participle of the verb in brackets.",
   "source": "{name} had never ______ (read) a whole book in English before this {time}.",
   "key": "read",
-  "why": "After had never / had ever, use the past participle: read. It was a new experience at that moment in the past.",
+  "why": "\"a whole book … before this …\": read → read (same spelling).",
   "slots": {
    "name": [
     "Feruza",
@@ -1121,15 +1163,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write the past participle of the verb in brackets.",
-  "source": "My little sister had never ______ (try) {food} before the party.",
+  "source": "My little sister had never ______ (try) {food} before the {event}.",
   "key": "tried",
-  "why": "After had never / had ever, use the past participle: tried. It was a new experience at that moment in the past.",
+  "why": "\"before the …\": try → tried.",
   "slots": {
    "food": [
     "ice cream cake",
     "pizza",
     "chocolate",
     "lemon cake"
+   ],
+   "event": [
+    "party",
+    "wedding",
+    "picnic",
+    "trip"
    ]
   }
  },
@@ -1145,7 +1193,7 @@ export default [
   "source": "Last {season} was my first time on a plane, {name}.",
   "hint": "Before last {season}, I ______ on a plane, {name}.",
   "key": "had never flown",
-  "why": "It was the first time, so: had never + past participle (flown) + before.",
+  "why": "\"my first time on a plane\" → had never flown before then.",
   "slots": {
    "season": [
     "summer",
@@ -1176,7 +1224,7 @@ export default [
   "source": "Yesterday was {name}'s first time in a {place}.",
   "hint": "Before yesterday, {name} ______ in a {place}.",
   "key": "had never been",
-  "why": "It was the first time, so: had never + past participle (been) + before.",
+  "why": "\"first time in a …\" → had never been in one.",
   "slots": {
    "name": [
     "Feruza",
@@ -1204,7 +1252,7 @@ export default [
   "source": "At the party, it was my first time eating {food}, {name}.",
   "hint": "Before the party, I ______ {food}, {name}.",
   "key": "had never eaten",
-  "why": "It was the first time, so: had never + past participle (eaten) + before.",
+  "why": "\"first time eating\" → had never eaten it.",
   "slots": {
    "food": [
     "sushi",
@@ -1235,7 +1283,7 @@ export default [
   "source": "Last {when} was my brother's first time driving in {city}.",
   "hint": "Before last {when}, my brother ______ in {city}.",
   "key": "had never driven",
-  "why": "It was the first time, so: had never + past participle (driven) + before.",
+  "why": "\"first time driving\" → had never driven there.",
   "slots": {
    "when": [
     "week",
@@ -1263,7 +1311,7 @@ export default [
   "source": "In {month}, it was {name}'s first time seeing snow.",
   "hint": "Before {month}, {name} ______ snow.",
   "key": "had never seen",
-  "why": "It was the first time, so: had never + past participle (seen) + before.",
+  "why": "\"first time seeing snow\" → had never seen snow.",
   "slots": {
    "month": [
     "December",
@@ -1291,7 +1339,7 @@ export default [
   "source": "{name} is excited. She has never been to {city}.",
   "hint": "{name} was excited. She ______ to {city} before.",
   "key": "had never been",
-  "why": "The story is now in the past, so has never → had never been.",
+  "why": "Moved into the past: has never been → had never been.",
   "slots": {
    "name": [
     "Madina",
@@ -1319,7 +1367,7 @@ export default [
   "source": "I'm nervous, {name}. I have never spoken to a big {group}.",
   "hint": "I was nervous, {name}. I ______ to a big {group} before.",
   "key": "had never spoken",
-  "why": "The story is now in the past, so has never → had never spoken.",
+  "why": "Moved into the past: have never spoken → had never spoken.",
   "slots": {
    "group": [
     "audience",
@@ -1347,7 +1395,7 @@ export default [
   "source": "My {who} is happy. She has never seen the {thing}.",
   "hint": "My {who} was happy. She ______ the {thing} before.",
   "key": "had never seen",
-  "why": "The story is now in the past, so has never → had never seen.",
+  "why": "Moved into the past: has never seen → had never seen.",
   "slots": {
    "who": [
     "grandmother",
@@ -1375,7 +1423,7 @@ export default [
   "source": "{name} is scared. He has never ridden a {animal}.",
   "hint": "{name} was scared. He ______ a {animal} before.",
   "key": "had never ridden",
-  "why": "The story is now in the past, so has never → had never ridden.",
+  "why": "Moved into the past: has never ridden → had never ridden.",
   "slots": {
    "name": [
     "Sardor",
@@ -1403,7 +1451,7 @@ export default [
   "source": "We are surprised, {name}. We have never eaten such good {food}.",
   "hint": "We were surprised, {name}. We ______ such good {food} before.",
   "key": "had never eaten",
-  "why": "The story is now in the past, so has never → had never eaten.",
+  "why": "Moved into the past: have never eaten → had never eaten.",
   "slots": {
    "food": [
     "plov",
@@ -1428,16 +1476,22 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake.",
-  "source": "She was nervous because she had never spoke on TV before, {name}.",
-  "hint": "She was nervous because she had never ______ on TV before, {name}.",
+  "source": "She was nervous because she had never spoke on {medium} before, {name}.",
+  "hint": "She was nervous because she had never ______ on {medium} before, {name}.",
   "key": "spoken",
-  "why": "Spoke is the past simple. After had, use the past participle: spoken.",
+  "why": "had never + participle: spoken, not spoke.",
   "slots": {
    "name": [
     "Feruza",
     "Otabek",
     "Dilnoza",
     "Sardor"
+   ],
+   "medium": [
+    "TV",
+    "the radio",
+    "stage",
+    "the news"
    ]
   }
  },
@@ -1453,7 +1507,7 @@ export default [
   "source": "I had never swam in a {water} before that {trip}.",
   "hint": "I had never ______ in a {water} before that {trip}.",
   "key": "swum",
-  "why": "Swam is the past simple. After had, use the past participle: swum.",
+  "why": "had never + participle: swum, not swam.",
   "slots": {
    "water": [
     "lake",
@@ -1481,7 +1535,7 @@ export default [
   "source": "{name} had never wrote a poem before {year}.",
   "hint": "{name} had never ______ a poem before {year}.",
   "key": "written",
-  "why": "Wrote is the past simple. After had, use the past participle: written.",
+  "why": "had never + participle: written, not wrote.",
   "slots": {
    "name": [
     "Feruza",
@@ -1509,7 +1563,7 @@ export default [
   "source": "My {who} had never drove a {car} before.",
   "hint": "My {who} had never ______ a {car} before.",
   "key": "driven",
-  "why": "Drove is the past simple. After had, use the past participle: driven.",
+  "why": "had never + participle: driven, not drove.",
   "slots": {
    "who": [
     "uncle",
@@ -1537,7 +1591,7 @@ export default [
   "source": "We had never saw such a big {thing} before, {name}.",
   "hint": "We had never ______ such a big {thing} before, {name}.",
   "key": "seen",
-  "why": "Saw is the past simple. After had, use the past participle: seen.",
+  "why": "had never + participle: seen, not saw.",
   "slots": {
    "thing": [
     "city",

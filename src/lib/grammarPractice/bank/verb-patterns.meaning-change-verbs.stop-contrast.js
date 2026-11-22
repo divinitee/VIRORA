@@ -113,7 +113,7 @@ export default [
    "talk"
   ],
   "key": 1,
-  "why": "I met an old friend: they stopped in order to do it, so stop + to (to talk).",
+  "why": "I met an old …: they stopped in order to do it, so stop + to (to talk).",
   "slots": {
    "who": [
     "teacher",
@@ -679,7 +679,7 @@ export default [
   "instr": "Does the activity end, or do they stop in order to do something? Write the -ing form or to + the verb in brackets.",
   "source": "I was thirsty, so I stopped ______ (drink) some juice at the {place}, {name}.",
   "key": "to drink",
-  "why": "I was thirsty: they stopped in order to do it, so stop + to (to drink).",
+  "why": "\"so I stopped\" + a purpose (to get juice): to drink.",
   "slots": {
    "place": [
     "kiosk",
@@ -814,7 +814,7 @@ export default [
   "instr": "Does the activity end, or do they stop in order to do something? Write the -ing form or to + the verb in brackets.",
   "source": "We stopped ______ (watch) the {show} because it got boring, {name}.",
   "key": "watching",
-  "why": "The show got boring: the activity ends, so stop + -ing (watching).",
+  "why": "The … got boring: the activity ends, so stop + -ing (watching).",
   "slots": {
    "show": [
     "series",
@@ -1193,7 +1193,7 @@ export default [
   "source": "My dad doesn't drink {drink} any more, {name}.",
   "hint": "My dad stopped ______ {drink}, {name}.",
   "key": "drinking",
-  "why": "Not any more = stopped + -ing.",
+  "why": "No longer a habit: doesn't … any more → stopped drinking.",
   "slots": {
    "drink": [
     "coffee",
@@ -1221,7 +1221,7 @@ export default [
   "source": "We don't go to that {place} any more, {name}.",
   "hint": "We stopped ______ to that {place}, {name}.",
   "key": "going",
-  "why": "Not any more = stopped + -ing.",
+  "why": "No longer a habit: don't … any more → stopped going.",
   "slots": {
    "place": [
     "café",
@@ -1249,7 +1249,7 @@ export default [
   "source": "She doesn't play the {instr} any more, {name}.",
   "hint": "She stopped ______ the {instr}, {name}.",
   "key": "playing",
-  "why": "Not any more = stopped + -ing.",
+  "why": "No longer a habit: doesn't … any more → stopped playing.",
   "slots": {
    "instr": [
     "piano",
@@ -1277,7 +1277,7 @@ export default [
   "source": "My parents don't buy {thing} any more, {name}.",
   "hint": "My parents stopped ______ {thing}, {name}.",
   "key": "buying",
-  "why": "Not any more = stopped + -ing.",
+  "why": "No longer a habit: don't … any more → stopped buying.",
   "slots": {
    "thing": [
     "newspapers",
@@ -1305,7 +1305,7 @@ export default [
   "source": "I don't use my old {thing} any more, {name}.",
   "hint": "I stopped ______ my old {thing}, {name}.",
   "key": "using",
-  "why": "Not any more = stopped + -ing.",
+  "why": "No longer a habit: don't … any more → stopped using.",
   "slots": {
    "thing": [
     "phone",

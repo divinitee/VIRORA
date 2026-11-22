@@ -6,277 +6,277 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 1. Try to avoid ______ **sweets** late at night, **Timur**.  
    options: ✔ eating · to eat · eat · from eating  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: Try not to eat: avoid + -ing: eating.
 
 2. The doctor told my **dad** to avoid ______ **coffee**.  
    options: to drink · drink · from drinking · ✔ drinking  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: Not drinking is the advice: avoid + drinking.
 
 3. We always avoid ______ in the **old town** **on Mondays**.  
    options: drive · from driving · ✔ driving · to drive  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: We stay away from driving there: avoid + driving.
 
 4. **Olga** avoids ______ about her **mistakes**.  
    options: from talking · ✔ talking · to talk · talk  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: She doesn't talk about it: avoids + talking.
 
 5. I try to avoid ______ the same mistakes in my **homework**, **Olga**.  
    options: ✔ making · to make · make · from making  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: Not making mistakes: avoid + making.
 
-6. My brother avoided ______ my question **last night**.  
+6. My **dad** avoided ______ my question **last night**.  
    options: to answer · answer · from answering · ✔ answering  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: He didn't answer: avoided + answering.
 
-7. We avoid ______ to the **beach** on **holidays** because it's too crowded.  
+7. We avoid ______ to the **park** on **Sundays** because it's too crowded.  
    options: go · from going · ✔ going · to go  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: "too crowded", so we don't go: avoid + going.
 
-8. Avoid ______ your phone while you **drive**, **Olga**.  
+8. Avoid ______ your phone while you **eat**, **Aziz**.  
    options: from using · ✔ using · to use · use  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: Don't use it then: avoid + using.
 
-9. **Olga** avoided ______ her old classmate at the **station** **yesterday**.  
+9. **Madina** avoided ______ her old classmate at the **café** **on Friday**.  
    options: ✔ meeting · to meet · meet · from meeting  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: She didn't want to meet her: avoided + meeting.
 
-10. We should avoid ______ too much money on **snacks**, **Olga**.  
+10. We should avoid ______ too much money on **games**, **Aziz**.  
    options: to spend · spend · from spending · ✔ spending  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: Don't spend too much: avoid + spending.
 
-11. Avoid ______ in the sun for too long **in July**, **Aziz**.  
+11. Avoid ______ in the sun for too long **in July**, **Lola**.  
    options: sit · from sitting · ✔ sitting · to sit  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: Don't sit in the sun: avoid + sitting.
 
-12. **Jasur** avoided ______ at me during the **wedding**.  
+12. **Jasur** avoided ______ at me during the **lesson**.  
    options: from looking · ✔ looking · to look · look  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: He didn't look at me: avoided + looking.
 
-13. I left early to avoid ______ in the queue at the **bank** **last night**.  
+13. I left early to avoid ______ in the queue at the **post office** **last week**.  
    options: ✔ waiting · to wait · wait · from waiting  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: Not waiting in the queue: avoid + waiting.
 
-14. Try to avoid ______ "um" too often in your **answers**, **Aziz**.  
+14. Try to avoid ______ "um" too often in your **presentation**, **Olga**.  
    options: to say · say · from saying · ✔ saying  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: Don't say it too often: avoid + saying.
 
-15. My aunt avoids ______ because she is afraid of **planes**.  
+15. My **mum** avoids ______ because she is afraid of **small spaces**.  
    options: fly · from flying · ✔ flying · to fly  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: "afraid of …", so she doesn't fly: avoids + flying.
 
-16. I try to avoid ______ late for **meetings**, **Timur**.  
+16. I try to avoid ______ late for **work**, **Aziz**.  
    options: from being · ✔ being · to be · be  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: Not being late: avoid + being.
 
-17. Our kids avoid ______ scary **videos** before **bed**.  
+17. Our kids avoid ______ scary **cartoons** before **sleep**.  
    options: ✔ watching · to watch · watch · from watching  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: They don't watch them: avoid + watching.
 
-18. My dad avoids ______ on **holidays** because it's family time.  
+18. My **grandpa** avoids ______ on **Sundays** because it's family time.  
    options: to work · work · from working · ✔ working  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: "family time", so no work: avoids + working.
 
 19. The driver couldn't avoid ______ the **rock** on the road **yesterday**.  
    options: hit · from hitting · ✔ hitting · to hit  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: He couldn't stop it happening: avoid + hitting.
 
-20. Why do you always avoid ______ me, **Timur**?  
+20. Why do you **often** avoid ______ me, **Lola**?  
    options: from calling · ✔ calling · to call · call  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: You never call me: avoid + calling.
 
 ## build (20)
 
 1. _Write the verb in brackets in the right form._  
    I always avoid ______ (eat) **garlic** before an **exam**.  
    key: eating  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: avoid + -ing: eat → eating.
 
 2. _Write the verb in brackets in the right form._  
-   My mum avoids ______ (drive) at night in the **winter**, **Olga**.  
+   My mum avoids ______ (drive) at night in the **winter**, **Aziz**.  
    key: driving  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: avoid + -ing: drive → driving (drop e).
 
 3. _Write the verb in brackets in the right form._  
-   You should avoid ______ (sit) at the computer all **evening**, **Aziz**.  
+   You should avoid ______ (sit) at the computer all **weekend**, **Olga**.  
    key: sitting  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: avoid + -ing: sit → sitting (double t).
 
 4. _Write the verb in brackets in the right form._  
-   **Jasur** avoided ______ (tell) his parents about the **bad mark**.  
+   **Aziz** avoided ______ (tell) his parents about the **lost phone**.  
    key: telling  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: avoid + -ing: tell → telling.
 
 5. _Write the verb in brackets in the right form._  
-   We left at **half past six** **last night** to avoid ______ (get) stuck in traffic.  
+   We left at **five** **last week** to avoid ______ (get) stuck in traffic.  
    key: getting  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: avoid + -ing: get → getting (double t).
 
 6. _Write the verb in brackets in the right form._  
-   Try to avoid ______ (use) **slang** in your essays, **Timur**.  
+   Try to avoid ______ (use) **the same words** in your essays, **Aziz**.  
    key: using  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: avoid + -ing: use → using (drop e).
 
 7. _Write the verb in brackets in the right form._  
-   My cousin avoids ______ (answer) the phone when she is **driving**, **Lola**.  
+   My cousin avoids ______ (answer) the phone when she is **busy**, **Olga**.  
    key: answering  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: avoid + -ing: answer → answering.
 
 8. _Write the verb in brackets in the right form._  
-   I avoid ______ (go) to the **gym** on **Saturdays**.  
+   I avoid ______ (go) to the **bazaar** on **Saturdays**.  
    key: going  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: avoid + -ing: go → going.
 
 9. _Write the verb in brackets in the right form._  
-   **Olga** avoided ______ (speak) to the **coach** after the **lesson**.  
+   **Lola** avoided ______ (speak) to the **boss** after the **meeting**.  
    key: speaking  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: avoid + -ing: speak → speaking.
 
 10. _Write the verb in brackets in the right form._  
-   Avoid ______ (swim) in the **river** after a big meal, **Olga**.  
+   Avoid ______ (swim) in the **pool** after a big meal, **Olga**.  
    key: swimming  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: avoid + -ing: swim → swimming (double m).
 
 11. _Write the verb in brackets in the right form._  
-   He always avoids ______ (pay) for **lunch**, **Timur**.  
+   He always avoids ______ (pay) for **coffee**, **Olga**.  
    key: paying  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: avoid + -ing: pay → paying.
 
 12. _Write the verb in brackets in the right form._  
-   Doctors tell people to avoid ______ (smoke) **indoors**, **Olga**.  
+   Doctors tell people to avoid ______ (smoke) **at home**, **Lola**.  
    key: smoking  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: avoid + -ing: smoke → smoking (drop e).
 
 13. _Write the verb in brackets in the right form._  
    We avoided ______ (walk) through the **old town** **after dark**.  
    key: walking  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: avoid + -ing: walk → walking.
 
 14. _Write the verb in brackets in the right form._  
-   I try to avoid ______ (buy) **clothes** online, **Lola**.  
+   I try to avoid ______ (buy) **clothes** online, **Aziz**.  
    key: buying  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: avoid + -ing: buy → buying.
 
 15. _Write the verb in brackets in the right form._  
-   My grandpa avoids ______ (take) the **metro** because it's **slow**.  
+   My grandpa avoids ______ (take) the **train** because it's **crowded**.  
    key: taking  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: avoid + -ing: take → taking (drop e).
 
 16. _Write the verb in brackets in the right form._  
-   Avoid ______ (wake) **your brother**, **Olga**. He's just fallen asleep.  
+   Avoid ______ (wake) **your brother**, **Kamila**. He's just fallen asleep.  
    key: waking  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: avoid + -ing: wake → waking (drop e).
 
 17. _Write the verb in brackets in the right form._  
-   We avoided ______ (stay) in the **guesthouse** because it was too **noisy**.  
+   We avoided ______ (stay) in the **camp** because it was too **far**.  
    key: staying  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: avoid + -ing: stay → staying.
 
 18. _Write the verb in brackets in the right form._  
-   Try to avoid ______ (lose) your **keys** on the trip, **Lola**.  
+   Try to avoid ______ (lose) your **phone** on the trip, **Lola**.  
    key: losing  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: avoid + -ing: lose → losing (drop e).
 
 19. _Write the verb in brackets in the right form._  
-   My sister avoids ______ (cook) **soup** because it takes too long, **Lola**.  
+   My sister avoids ______ (cook) **bread** because it takes too long, **Timur**.  
    key: cooking  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: avoid + -ing: cook → cooking.
 
 20. _Write the verb in brackets in the right form._  
-   I couldn't avoid ______ (hear) their **phone call** **last week**.  
+   I couldn't avoid ______ (hear) their **music** **yesterday**.  
    key: hearing  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: avoid + -ing: hear → hearing.
 
 ## transform (15)
 
 1. _Correct the mistake._  
-   I try to avoid to eat **bread** at night, **Timur**.  
-   → I try to avoid ______ **bread** at night, **Timur**.  
+   I try to avoid to eat **fast food** at night, **Olga**.  
+   → I try to avoid ______ **fast food** at night, **Olga**.  
    key: eating  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: avoid + -ing, not to + verb: eating.
 
 2. _Correct the mistake._  
-   My dad avoids from drinking **sweet tea** **at night**.  
-   → My dad avoids ______ **sweet tea** **at night**.  
+   My dad avoids from drinking **coffee** **after six**.  
+   → My dad avoids ______ **coffee** **after six**.  
    key: drinking  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: No from after avoid: drinking.
 
 3. _Correct the mistake._  
-   We avoid go to the **mall** on **Saturdays**.  
-   → We avoid ______ to the **mall** on **Saturdays**.  
+   We avoid go to the **park** on **holidays**.  
+   → We avoid ______ to the **park** on **holidays**.  
    key: going  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: avoid + -ing, not the base verb: going.
 
 4. _Correct the mistake._  
-   **Aziz** avoided to answer my question **last night**.  
-   → **Aziz** avoided ______ my question **last night**.  
+   **Timur** avoided to answer my question **last week**.  
+   → **Timur** avoided ______ my question **last week**.  
    key: answering  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: avoid + -ing, not to + verb: answering.
 
 5. _Correct the mistake._  
-   **Madina** avoids of talking about her **job**.  
-   → **Madina** avoids ______ about her **job**.  
+   **Olga** avoids of talking about her **exams**.  
+   → **Olga** avoids ______ about her **exams**.  
    key: talking  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: No of after avoid: talking.
 
 6. _Rewrite with I try to avoid._  
-   I don't usually eat **fast food** at night, **Lola**.  
-   → I try to avoid ______ **fast food** at night, **Lola**.  
+   I don't usually eat **cake** at night, **Olga**.  
+   → I try to avoid ______ **cake** at night, **Olga**.  
    key: eating  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: don't usually eat → try to avoid eating.
 
 7. _Rewrite with I try to avoid._  
-   I don't usually take taxis in **Samarkand**, **Olga**.  
-   → I try to avoid ______ taxis in **Samarkand**, **Olga**.  
+   I don't usually take taxis in **Samarkand**, **Lola**.  
+   → I try to avoid ______ taxis in **Samarkand**, **Lola**.  
    key: taking  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: don't usually take → try to avoid taking.
 
 8. _Rewrite with I try to avoid._  
-   I don't usually spend money on **snacks**, **Olga**.  
-   → I try to avoid ______ money on **snacks**, **Olga**.  
+   I don't usually spend money on **games**, **Lola**.  
+   → I try to avoid ______ money on **games**, **Lola**.  
    key: spending  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: don't usually spend → try to avoid spending.
 
 9. _Rewrite with I try to avoid._  
-   I don't usually drive in the **city centre** at rush hour, **Lola**.  
-   → I try to avoid ______ in the **city centre** at rush hour, **Lola**.  
+   I don't usually drive in the **market area** at rush hour, **Olga**.  
+   → I try to avoid ______ in the **market area** at rush hour, **Olga**.  
    key: driving  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: don't usually drive → try to avoid driving.
 
 10. _Rewrite with I try to avoid._  
-   I don't usually check my phone during **dinner**, **Lola**.  
-   → I try to avoid ______ my phone during **dinner**, **Lola**.  
+   I don't usually check my phone during **lessons**, **Lola**.  
+   → I try to avoid ______ my phone during **lessons**, **Lola**.  
    key: checking  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: don't usually check → try to avoid checking.
 
 11. _Rewrite with You should avoid._  
-   Don't drink **strong tea** before bed, **Olga**.  
-   → You should avoid ______ **strong tea** before bed, **Olga**.  
+   Don't drink **energy drinks** before bed, **Olga**.  
+   → You should avoid ______ **energy drinks** before bed, **Olga**.  
    key: drinking  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: Don't drink → should avoid drinking.
 
 12. _Rewrite with You should avoid._  
-   Don't sit in the sun at midday **in July**, **Lola**.  
-   → You should avoid ______ in the sun at midday **in July**, **Lola**.  
+   Don't sit in the sun at midday **in July**, **Aziz**.  
+   → You should avoid ______ in the sun at midday **in July**, **Aziz**.  
    key: sitting  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: Don't sit → should avoid sitting.
 
 13. _Rewrite with You should avoid._  
-   Don't use your phone while you **study**, **Olga**.  
-   → You should avoid ______ your phone while you **study**, **Olga**.  
+   Don't use your phone while you **cross the road**, **Timur**.  
+   → You should avoid ______ your phone while you **cross the road**, **Timur**.  
    key: using  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: Don't use → should avoid using.
 
 14. _Rewrite with You should avoid._  
-   Don't swim in the **river** after a big meal, **Aziz**.  
-   → You should avoid ______ in the **river** after a big meal, **Aziz**.  
+   Don't swim in the **sea** after a big meal, **Lola**.  
+   → You should avoid ______ in the **sea** after a big meal, **Lola**.  
    key: swimming  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: Don't swim → should avoid swimming.
 
 15. _Rewrite with You should avoid._  
-   Don't walk through the **forest** after dark, **Timur**.  
-   → You should avoid ______ through the **forest** after dark, **Timur**.  
+   Don't walk through the **park** after dark, **Lola**.  
+   → You should avoid ______ through the **park** after dark, **Lola**.  
    key: walking  
-   why: avoid is always followed by the -ing form: avoid eating. Never avoid to eat, avoid eat or avoid from eating.
+   why: Don't walk → should avoid walking.
 
 ## create (8)
 

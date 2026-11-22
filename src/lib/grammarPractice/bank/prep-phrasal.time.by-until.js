@@ -1087,7 +1087,7 @@ export default [
   "instr": "Write by or until.",
   "source": "The doctor said I'd feel better ______ the {when}, {name}.",
   "key": "by",
-  "why": "feel better at a point before the weekend: by.",
+  "why": "feel better at a point before the …: by.",
   "slots": {
    "when": [
     "weekend",
@@ -1299,7 +1299,7 @@ export default [
   "source": "The {work} must be finished not later than {time}, {name}.",
   "hint": "The {work} must be finished ______ {time}, {name}.",
   "key": "by",
-  "why": "not later than = by.",
+  "why": "not later than a time → by + that time.",
   "slots": {
    "work": [
     "job",
@@ -1389,7 +1389,7 @@ export default [
   "source": "Pay the bill not later than the 10th of {month}, {name}.",
   "hint": "Pay the bill ______ the 10th of {month}, {name}.",
   "key": "by",
-  "why": "not later than = by.",
+  "why": "not later than a date → by + the date.",
   "slots": {
    "month": [
     "May",

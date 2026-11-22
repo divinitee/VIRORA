@@ -149,5 +149,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/prep-phrasal.dependent-prepositions.verb-preposition.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "",
+   "discuss takes its object straight away: discuss the …, no preposition.",
+   "",
+   "",
+   "",
+   "\"my sister\" is the owner: belongs to.",
+   "\"I … you\": same opinion as a person: agree with.",
+   "",
+   "\"with a card\": the thing bought is after: pay for.",
+   "",
+   "reach takes its object straight away: reached ….",
+   "Three parts make the test: consists of.",
+   "My funny … made them laugh: laughed at.",
+   "contact takes its object straight away: contact the ….",
+   "Your … will always help: rely on.",
+   "",
+   "borrow takes the thing straight away: borrowed his ….",
+   "The baby looked at me happily: smiled at.",
+   "",
+   "Headaches are the problem: suffers from."
+  ],
+  "build": [
+   "The price changes with the …: depends on.",
+   "",
+   "",
+   "Asking about the owner: belong to.",
+   "Not the same opinion as my …: agree with.",
+   "\"in cash\" for the thing bought: paid for.",
+   "",
+   "Eleven … and a coach make the team: consists of.",
+   "\"I made it myself\": please don't laugh at.",
+   "",
+   "\"He's never late\": you can rely on.",
+   "Colds are the problem: suffer from.",
+   "",
+   "Looking at me happily: smiled at.",
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "transform": [
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "has three parts → consists of.",
+   "",
+   "often has headaches → suffers from.",
+   "gave a big smile → smiled at.",
+   "",
+   "",
+   "",
+   "It decides everything → depends on."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

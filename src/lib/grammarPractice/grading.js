@@ -39,9 +39,11 @@ export function gradeItem(item, response) {
 
   if (Array.isArray(item.key)) {
     const given = Array.isArray(response) ? response : [];
+    // The key, or any whole alternative answer in `acceptable` (one entry per blank).
+    const answers = [item.key, ...(item.acceptable || []).filter(Array.isArray)];
     const correct =
       given.length === item.key.length &&
-      item.key.every((k, i) => normalise(given[i]) === normalise(k));
+      answers.some((ans) => ans.length === given.length && ans.every((k, i) => normalise(given[i]) === normalise(k)));
     return { correct, expected: item.key.join(" … "), given: given.join(" … ") };
   }
 

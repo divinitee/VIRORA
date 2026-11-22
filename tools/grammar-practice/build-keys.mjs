@@ -8,7 +8,8 @@
 //
 // QUIZ_KEYS (GrammarQuizGame) and the file header are kept byte-for-byte; only
 // the PRACTICE_KEYS line is replaced. Value format (read by progressCore.js):
-// "a|b" accepted answers (MCQ = correct option TEXT), "§a+b" multi-slot answer.
+// "a|b" accepted answers (MCQ = correct option TEXT), "§a+b" multi-slot answer,
+// "§a+b|c+d" multi-slot answer with alternatives (21 Nov 2026).
 // create/express are rubric-judged and deliberately absent.
 import { readFileSync, readdirSync, writeFileSync } from "node:fs";
 
@@ -29,7 +30,7 @@ for (const file of readdirSync(BANK_DIR).filter((f) => f.endsWith(".js")).sort()
     const n = it.id.split(".").pop();
     let v;
     if (it.format === "mcq") v = it.options[it.key];
-    else if (Array.isArray(it.key)) v = "§" + it.key.join("+");
+    else if (Array.isArray(it.key)) v = "§" + [it.key, ...(it.acceptable || []).filter(Array.isArray)].map((a) => a.join("+")).join("|");
     else v = [it.key, ...(it.acceptable || [])].join("|");
     if (typeof v !== "string" || !v) throw new Error(`${it.id}: cannot derive a key`);
     out[`${letter}${n}`] = v;

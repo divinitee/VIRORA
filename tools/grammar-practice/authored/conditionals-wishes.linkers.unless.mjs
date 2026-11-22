@@ -134,5 +134,89 @@ for (const [st, m, acc] of AUDIT_ACC) {
   for (const it of hit) it.acceptable = [...new Set([...(it.acceptable || []), ...acc])];
 }
 const out = "content/grammar-practice/conditionals-wishes.linkers.unless.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "You won't pass if you don't study more: unless.",
+   "We'll miss it if we don't leave now: unless.",
+   "I can't help if you don't tell me: unless.",
+   "Don't call if it isn't important: unless.",
+   "They will die if you don't water them: unless.",
+   "You can't enter if you don't have a ticket: unless.",
+   "I'll be there if the … isn't late: unless.",
+   "She won't come if you don't invite her: unless.",
+   "The picnic is on if it doesn't rain: unless.",
+   "You'll get cold if you don't wear one: unless.",
+   "No borrowing if you don't promise: unless.",
+   "Don't eat it if it isn't fresh: unless.",
+   "No entry if you don't take your shoes off: unless.",
+   "They will lose if they don't play better: unless.",
+   "After unless, positive present: leave.",
+   "After unless, positive present: come.",
+   "After unless, present for the future: everyone is.",
+   "After unless + he, present: speaks.",
+   "After unless, positive present: give.",
+   "After unless, positive present: have."
+  ],
+  "build": [
+   "Late if you don't take a taxi: unless.",
+   "I won't tell if you don't say OK: unless.",
+   "We'll go if it doesn't snow: unless.",
+   "No room use if you don't have a key: unless.",
+   "It will go bad if it isn't in the fridge: unless.",
+   "Don't buy it if it isn't on sale: unless.",
+   "I walk, except when it's raining: unless.",
+   "She won't speak if he doesn't say sorry: unless.",
+   "You won't get better if you don't rest: unless.",
+   "They can't win if they don't score: unless.",
+   "I'll see you, except if I'm working late: unless.",
+   "It won't start if we aren't quiet: unless.",
+   "Don't open if you don't know who: unless.",
+   "No parking if you don't live here: unless.",
+   "Pass only when you study hard: positive condition: if.",
+   "Call when you need help: positive condition: if.",
+   "We stay home when it rains: positive condition: if.",
+   "I'll buy it when I get paid: positive condition: if.",
+   "It gets angry when you touch it: positive condition: if.",
+   "Sit when you're tired: positive condition: if."
+  ],
+  "transform": [
+   "If you don't hurry → Unless you hurry.",
+   "If it doesn't rain → Unless it rains.",
+   "If Lola doesn't study → Unless Lola studies.",
+   "If they don't invite me → Unless they invite me.",
+   "If you don't water them → Unless you water them.",
+   "unless already means if not: you hurry, no don't.",
+   "unless already means if not: they invite me.",
+   "unless already means if not: she studies.",
+   "No will after unless: Timur is late.",
+   "No will after unless: you give.",
+   "If you don't take a coat → unless you take.",
+   "If not (hurry) → unless you hurry.",
+   "If you don't book → unless you book.",
+   "If you don't say sorry → unless you say.",
+   "If you don't turn left → unless you turn."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

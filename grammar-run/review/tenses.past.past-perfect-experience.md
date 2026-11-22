@@ -6,277 +6,277 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 1. **Olga** was nervous because she had never ______ in front of so many **parents** before.  
    options: ✔ spoken · spoke · speak · speaking  
-   why: After had never / had ever, use the past participle: spoken. It was a new experience at that moment in the past.
+   why: "had never … before" + speak: the participle is spoken.
 
 2. I was a bit scared on the plane to **Istanbul**. I had never ______ before, **Feruza**.  
    options: flew · fly · flying · ✔ flown  
-   why: After had never / had ever, use the past participle: flown. It was a new experience at that moment in the past.
+   why: Scared on the plane: never flew before → had never flown.
 
-3. The children were so happy. They had never ______ **the sea** before.  
+3. The **little ones** were so happy. They had never ______ **the sea** before.  
    options: see · seeing · ✔ seen · saw  
-   why: After had never / had ever, use the past participle: seen. It was a new experience at that moment in the past.
+   why: So happy at something new: had never seen it.
 
-4. **Ilya** didn't know how to use chopsticks. He had never ______ **Korean food** before.  
+4. **Sardor** didn't know how to use chopsticks. He had never ______ **noodles** before.  
    options: eating · ✔ eaten · ate · eat  
-   why: After had never / had ever, use the past participle: eaten. It was a new experience at that moment in the past.
+   why: Chopsticks were new: had never eaten that food.
 
-5. My little brother fell off the **pony** at the **park** because he had never ______ one before.  
+5. My little brother fell off the **donkey** at the **zoo** because he had never ______ one before.  
    options: ✔ ridden · rode · ride · riding  
-   why: After had never / had ever, use the past participle: ridden. It was a new experience at that moment in the past.
+   why: He fell because riding was new: ride → ridden.
 
-6. **Olga** stayed near the shore because she had never ______ in the **ocean** before.  
+6. **Olga** stayed near the shore because she had never ______ in the **river** before.  
    options: swam · swim · swimming · ✔ swum  
-   why: After had never / had ever, use the past participle: swum. It was a new experience at that moment in the past.
+   why: She stayed near the shore: swimming there was new → swum.
 
-7. My father was careful in **Istanbul** because he had never ______ there before, **Dilnoza**.  
+7. My father was careful in **Moscow** because he had never ______ there before, **Feruza**.  
    options: drive · driving · ✔ driven · drove  
-   why: After had never / had ever, use the past participle: driven. It was a new experience at that moment in the past.
+   why: Careful because driving there was new: drive → driven.
 
-8. I didn't know how to start. I had never ______ a **letter** in English before, **Otabek**.  
+8. I didn't know how to start. I had never ______ a **story** in English before, **Feruza**.  
    options: writing · ✔ written · wrote · write  
-   why: After had never / had ever, use the past participle: written. It was a new experience at that moment in the past.
+   why: "I didn't know how to start": write → written.
 
-9. **Sardor** felt strange in the **uniform**. He had never ______ one before.  
+9. **Ilya** felt strange in the **suit**. He had never ______ one before.  
    options: ✔ worn · wore · wear · wearing  
-   why: After had never / had ever, use the past participle: worn. It was a new experience at that moment in the past.
+   why: "felt strange" in new clothes: wear → worn.
 
-10. My grandmother didn't like the **coffee**. She had never ______ it before, **Dilnoza**.  
+10. My grandmother didn't like the **green smoothie**. She had never ______ it before, **Otabek**.  
    options: drank · drink · drinking · ✔ drunk  
-   why: After had never / had ever, use the past participle: drunk. It was a new experience at that moment in the past.
+   why: She didn't like a new drink: drink → drunk (not drank).
 
-11. Our teacher was nervous. She had never ______ on a stage before, **Otabek**.  
+11. Our teacher was nervous. She had never ______ on a **stage** before, **Feruza**.  
    options: sing · singing · ✔ sung · sang  
-   why: After had never / had ever, use the past participle: sung. It was a new experience at that moment in the past.
+   why: Nervous on a …: sing → sung (not sang).
 
-12. I was excited at the **airport**. I had never ______ a **trip** alone before.  
+12. I was excited at the **ferry port**. I had never ______ a **holiday** alone before.  
    options: taking · ✔ taken · took · take  
-   why: After had never / had ever, use the past participle: taken. It was a new experience at that moment in the past.
+   why: Excited to go alone: take → taken (not took).
 
-13. **Nilufar** was very nervous. She had never ______ a **lesson** before.  
+13. **Madina** was very nervous. She had never ______ a **speech** before.  
    options: ✔ given · gave · give · giving  
-   why: After had never / had ever, use the past participle: given. It was a new experience at that moment in the past.
+   why: Nervous about a first …: give → given (not gave).
 
-14. Our team lost because the new player had never ______ a **ball** in a real match before.  
+14. Our **team** lost because the new player had never ______ a **volleyball** in a real match before.  
    options: threw · throw · throwing · ✔ thrown  
-   why: After had never / had ever, use the past participle: thrown. It was a new experience at that moment in the past.
+   why: No real-match experience: throw → thrown (not threw).
 
-15. Had you ever ______ abroad before your trip to **Seoul**, **Sardor**?  
+15. Had you ever ______ abroad before your trip to **Seoul**, **Dilnoza**?  
    options: go · going · ✔ gone · went  
-   why: After had never / had ever, use the past participle: gone. It was a new experience at that moment in the past.
+   why: Had you ever …? + go → gone.
 
-16. Had your parents ever ______ a **ballet** before last night, **Otabek**?  
+16. Had your parents ever ______ a **circus show** before last night, **Otabek**?  
    options: seeing · ✔ seen · saw · see  
-   why: After had never / had ever, use the past participle: seen. It was a new experience at that moment in the past.
+   why: Had … ever …? + see → seen (not saw).
 
-17. Before this trip, had you ever ______ to **Termez**, **Dilnoza**?  
+17. Before this trip, had you ever ______ to **Khiva**, **Sardor**?  
    options: ✔ been · was · be · being  
-   why: After had never / had ever, use the past participle: been. It was a new experience at that moment in the past.
+   why: "to" + a place after ever needs been: had you ever been to.
 
 18. It was the first time I had ______ a **finger** in my life, **Feruza**.  
    options: broke · break · breaking · ✔ broken  
-   why: After had never / had ever, use the past participle: broken. It was a new experience at that moment in the past.
+   why: "the first time … had" + break → broken.
 
-19. It was the first time my mother had ______ **carrots** in our garden.  
+19. It was the first time my **grandmother** had ______ **melons** in our garden.  
    options: grow · growing · ✔ grown · grew  
-   why: After had never / had ever, use the past participle: grown. It was a new experience at that moment in the past.
+   why: "the first time … had" + grow → grown (not grew).
 
-20. It was the first time **Otabek** had ______ a picture of a **horse**.  
+20. It was the first time **Feruza** had ______ a picture of a **car**.  
    options: drawing · ✔ drawn · drew · draw  
-   why: After had never / had ever, use the past participle: drawn. It was a new experience at that moment in the past.
+   why: "the first time … had" + draw → drawn (not drew).
 
 ## build (20)
 
 1. _Write the past participle of the verb in brackets._  
-   She was nervous because she had never ______ (speak) on the radio before, **Dilnoza**.  
+   She was nervous because she had never ______ (speak) on the **TV** before, **Otabek**.  
    key: spoken  
-   why: After had never / had ever, use the past participle: spoken. It was a new experience at that moment in the past.
+   why: "nervous … never … before": speak → spoken.
 
 2. _Write the past participle of the verb in brackets._  
-   We stopped the car, **Feruza**. We had never ______ (see) such a big **mountain** before.  
+   We stopped the car, **Sardor**. We had never ______ (see) such a big **lake** before.  
    key: seen  
-   why: After had never / had ever, use the past participle: seen. It was a new experience at that moment in the past.
+   why: "such a big … before": see → seen.
 
 3. _Write the past participle of the verb in brackets._  
-   **Jasur** held my hand on the plane. He had never ______ (fly) to **Seoul** before.  
+   **Sardor** held my hand on the plane. He had never ______ (fly) to **Dubai** before.  
    key: flown  
-   why: After had never / had ever, use the past participle: flown. It was a new experience at that moment in the past.
+   why: Holding hands on the plane: fly → flown.
 
 4. _Write the past participle of the verb in brackets._  
    I was surprised by the taste, **Feruza**. I had never ______ (eat) **sushi** before.  
    key: eaten  
-   why: After had never / had ever, use the past participle: eaten. It was a new experience at that moment in the past.
+   why: Surprised by the taste: eat → eaten.
 
 5. _Write the past participle of the verb in brackets._  
-   **Nilufar** was scared because she had never ______ (ride) a **horse** before.  
+   **Sevara** was scared because she had never ______ (ride) a **camel** before.  
    key: ridden  
-   why: After had never / had ever, use the past participle: ridden. It was a new experience at that moment in the past.
+   why: Scared on it for the first time: ride → ridden.
 
 6. _Write the past participle of the verb in brackets._  
-   My **brother** had never ______ (drive) in the **rain** before, so he went slowly.  
+   My **brother** had never ______ (drive) in the **fog** before, so he went slowly.  
    key: driven  
-   why: After had never / had ever, use the past participle: driven. It was a new experience at that moment in the past.
+   why: "so he went slowly": drive → driven.
 
 7. _Write the past participle of the verb in brackets._  
-   The water was cold, and I had never ______ (swim) in a **lake** before, **Dilnoza**.  
+   The water was cold, and I had never ______ (swim) in a **lake** before, **Feruza**.  
    key: swum  
-   why: After had never / had ever, use the past participle: swum. It was a new experience at that moment in the past.
+   why: "cold water" was new: swim → swum.
 
 8. _Write the past participle of the verb in brackets._  
-   My **cousin** had never ______ (write) an email in English before his **hotel** interview.  
+   My **cousin** had never ______ (write) an email in English before his **first** interview.  
    key: written  
-   why: After had never / had ever, use the past participle: written. It was a new experience at that moment in the past.
+   why: Before his interview: write → written.
 
 9. _Write the past participle of the verb in brackets._  
-   **Ilya** looked very smart. He had never ______ (wear) a **suit** before the wedding.  
+   **Sardor** looked very smart. He had never ______ (wear) a **tie** before the wedding.  
    key: worn  
-   why: After had never / had ever, use the past participle: worn. It was a new experience at that moment in the past.
+   why: Smart clothes for the first time: wear → worn.
 
 10. _Write the past participle of the verb in brackets._  
-   Our **class** had never ______ (sing) in front of the whole **lyceum** before.  
+   Our **group** had never ______ (sing) in front of the whole **college** before.  
    key: sung  
-   why: After had never / had ever, use the past participle: sung. It was a new experience at that moment in the past.
+   why: In front of the whole …: sing → sung.
 
 11. _Write the past participle of the verb in brackets._  
-   I had never ______ (take) the **metro** on my own before last **week**.  
+   I had never ______ (take) the **minibus** on my own before last **month**.  
    key: taken  
-   why: After had never / had ever, use the past participle: taken. It was a new experience at that moment in the past.
+   why: "on my own before last …": take → taken.
 
 12. _Write the past participle of the verb in brackets._  
-   **Olga** was excited. She had never ______ (be) to **Bukhara** before.  
+   **Olga** was excited. She had never ______ (be) to **Samarkand** before.  
    key: been  
-   why: After had never / had ever, use the past participle: been. It was a new experience at that moment in the past.
+   why: Excited about a new city: had never been to.
 
 13. _Write the past participle of the verb in brackets._  
-   My cousin had never ______ (do) a **chess** lesson before, so the coach helped him.  
+   My cousin had never ______ (do) a **tennis** **match** before, so the coach helped him.  
    key: done  
-   why: After had never / had ever, use the past participle: done. It was a new experience at that moment in the past.
+   why: "so the coach helped him": do → done.
 
 14. _Write the past participle of the verb in brackets._  
-   My parents had never ______ (meet) my teacher before the **open day**, **Otabek**.  
+   My parents had never ______ (meet) my teacher before the **school concert**, **Otabek**.  
    key: met  
-   why: After had never / had ever, use the past participle: met. It was a new experience at that moment in the past.
+   why: Before that event they never met: meet → met.
 
 15. _Write the past participle of the verb in brackets._  
-   My **father** had never ______ (drink) **cola** before, and he didn't like it.  
+   My **father** had never ______ (drink) **coffee** before, and he didn't like it.  
    key: drunk  
-   why: After had never / had ever, use the past participle: drunk. It was a new experience at that moment in the past.
+   why: "he didn't like it": drink → drunk.
 
 16. _Write the past participle of the verb in brackets._  
-   **Olga** was proud. She had never ______ (make) **samsa** on her own before.  
+   **Sevara** was proud. She had never ______ (make) **plov** on her own before.  
    key: made  
-   why: After had never / had ever, use the past participle: made. It was a new experience at that moment in the past.
+   why: "proud … on her own": make → made.
 
 17. _Write the past participle of the verb in brackets._  
-   Our team was so happy. We had never ______ (win) a **match** before, **Otabek**.  
+   Our team was so happy. We had never ______ (win) a **match** before, **Sardor**.  
    key: won  
-   why: After had never / had ever, use the past participle: won. It was a new experience at that moment in the past.
+   why: "so happy": a first win → won.
 
 18. _Write the past participle of the verb in brackets._  
-   I had never ______ (hear) that **singer** before last night.  
+   I had never ______ (hear) that **kind of music** before **the concert**.  
    key: heard  
-   why: After had never / had ever, use the past participle: heard. It was a new experience at that moment in the past.
+   why: "before …": hear → heard.
 
 19. _Write the past participle of the verb in brackets._  
-   **Feruza** had never ______ (read) a whole book in English before this **month**.  
+   **Sardor** had never ______ (read) a whole book in English before this **term**.  
    key: read  
-   why: After had never / had ever, use the past participle: read. It was a new experience at that moment in the past.
+   why: "a whole book … before this …": read → read (same spelling).
 
 20. _Write the past participle of the verb in brackets._  
-   My little sister had never ______ (try) **ice cream cake** before the party.  
+   My little sister had never ______ (try) **chocolate** before the **picnic**.  
    key: tried  
-   why: After had never / had ever, use the past participle: tried. It was a new experience at that moment in the past.
+   why: "before the …": try → tried.
 
 ## transform (15)
 
 1. _Rewrite the sentence with had never … before._  
-   Last **winter** was my first time on a plane, **Sardor**.  
-   → Before last **winter**, I ______ on a plane, **Sardor**.  
+   Last **spring** was my first time on a plane, **Feruza**.  
+   → Before last **spring**, I ______ on a plane, **Feruza**.  
    key: had never flown (also: had never been)  
-   why: It was the first time, so: had never + past participle (flown) + before.
+   why: "my first time on a plane" → had never flown before then.
 
 2. _Rewrite the sentence with had never … before._  
-   Yesterday was **Sardor**'s first time in a **stadium**.  
-   → Before yesterday, **Sardor** ______ in a **stadium**.  
+   Yesterday was **Otabek**'s first time in a **museum**.  
+   → Before yesterday, **Otabek** ______ in a **museum**.  
    key: had never been  
-   why: It was the first time, so: had never + past participle (been) + before.
+   why: "first time in a …" → had never been in one.
 
 3. _Rewrite the sentence with had never … before._  
-   At the party, it was my first time eating **fish soup**, **Sardor**.  
-   → Before the party, I ______ **fish soup**, **Sardor**.  
+   At the party, it was my first time eating **sushi**, **Otabek**.  
+   → Before the party, I ______ **sushi**, **Otabek**.  
    key: had never eaten (also: had never tried)  
-   why: It was the first time, so: had never + past participle (eaten) + before.
+   why: "first time eating" → had never eaten it.
 
 4. _Rewrite the sentence with had never … before._  
    Last **year** was my brother's first time driving in **Moscow**.  
    → Before last **year**, my brother ______ in **Moscow**.  
    key: had never driven  
-   why: It was the first time, so: had never + past participle (driven) + before.
+   why: "first time driving" → had never driven there.
 
 5. _Rewrite the sentence with had never … before._  
-   In **February**, it was **Feruza**'s first time seeing snow.  
-   → Before **February**, **Feruza** ______ snow.  
+   In **January**, it was **Sardor**'s first time seeing snow.  
+   → Before **January**, **Sardor** ______ snow.  
    key: had never seen  
-   why: It was the first time, so: had never + past participle (seen) + before.
+   why: "first time seeing snow" → had never seen snow.
 
 6. _Put the story in the past._  
-   **Olga** is excited. She has never been to **Samarkand**.  
-   → **Olga** was excited. She ______ to **Samarkand** before.  
+   **Madina** is excited. She has never been to **Samarkand**.  
+   → **Madina** was excited. She ______ to **Samarkand** before.  
    key: had never been  
-   why: The story is now in the past, so has never → had never been.
+   why: Moved into the past: has never been → had never been.
 
 7. _Put the story in the past._  
-   I'm nervous, **Otabek**. I have never spoken to a big **audience**.  
-   → I was nervous, **Otabek**. I ______ to a big **audience** before.  
+   I'm nervous, **Otabek**. I have never spoken to a big **group**.  
+   → I was nervous, **Otabek**. I ______ to a big **group** before.  
    key: had never spoken  
-   why: The story is now in the past, so has never → had never spoken.
+   why: Moved into the past: have never spoken → had never spoken.
 
 8. _Put the story in the past._  
-   My **aunt** is happy. She has never seen the **new bridge**.  
-   → My **aunt** was happy. She ______ the **new bridge** before.  
+   My **grandmother** is happy. She has never seen the **old city**.  
+   → My **grandmother** was happy. She ______ the **old city** before.  
    key: had never seen  
-   why: The story is now in the past, so has never → had never seen.
+   why: Moved into the past: has never seen → had never seen.
 
 9. _Put the story in the past._  
    **Timur** is scared. He has never ridden a **pony**.  
    → **Timur** was scared. He ______ a **pony** before.  
    key: had never ridden  
-   why: The story is now in the past, so has never → had never ridden.
+   why: Moved into the past: has never ridden → had never ridden.
 
 10. _Put the story in the past._  
-   We are surprised, **Otabek**. We have never eaten such good **plov**.  
-   → We were surprised, **Otabek**. We ______ such good **plov** before.  
+   We are surprised, **Otabek**. We have never eaten such good **fruit**.  
+   → We were surprised, **Otabek**. We ______ such good **fruit** before.  
    key: had never eaten  
-   why: The story is now in the past, so has never → had never eaten.
+   why: Moved into the past: have never eaten → had never eaten.
 
 11. _Correct the mistake._  
-   She was nervous because she had never spoke on TV before, **Dilnoza**.  
-   → She was nervous because she had never ______ on TV before, **Dilnoza**.  
+   She was nervous because she had never spoke on **the news** before, **Feruza**.  
+   → She was nervous because she had never ______ on **the news** before, **Feruza**.  
    key: spoken  
-   why: Spoke is the past simple. After had, use the past participle: spoken.
+   why: had never + participle: spoken, not spoke.
 
 12. _Correct the mistake._  
-   I had never swam in a **river** before that **trip**.  
-   → I had never ______ in a **river** before that **trip**.  
+   I had never swam in a **cold sea** before that **summer**.  
+   → I had never ______ in a **cold sea** before that **summer**.  
    key: swum  
-   why: Swam is the past simple. After had, use the past participle: swum.
+   why: had never + participle: swum, not swam.
 
 13. _Correct the mistake._  
-   **Sardor** had never wrote a poem before **2024**.  
-   → **Sardor** had never ______ a poem before **2024**.  
+   **Feruza** had never wrote a poem before **2023**.  
+   → **Feruza** had never ______ a poem before **2023**.  
    key: written  
-   why: Wrote is the past simple. After had, use the past participle: written.
+   why: had never + participle: written, not wrote.
 
 14. _Correct the mistake._  
-   My **brother** had never drove a **new car** before.  
-   → My **brother** had never ______ a **new car** before.  
+   My **grandfather** had never drove a **new car** before.  
+   → My **grandfather** had never ______ a **new car** before.  
    key: driven  
-   why: Drove is the past simple. After had, use the past participle: driven.
+   why: had never + participle: driven, not drove.
 
 15. _Correct the mistake._  
-   We had never saw such a big **river** before, **Feruza**.  
-   → We had never ______ such a big **river** before, **Feruza**.  
+   We had never saw such a big **market** before, **Sardor**.  
+   → We had never ______ such a big **market** before, **Sardor**.  
    key: seen  
-   why: Saw is the past simple. After had, use the past participle: seen.
+   why: had never + participle: seen, not saw.
 
 ## create (8)
 

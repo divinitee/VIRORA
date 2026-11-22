@@ -18,7 +18,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 4. I met my old **teacher** in the street and stopped ______ to her, **Nodira**.  
    options: talked · ✔ to talk · talking · talk  
-   why: I met an old friend: they stopped in order to do it, so stop + to (to talk).
+   why: I met an old …: they stopped in order to do it, so stop + to (to talk).
 
 5. When it stopped ______, we went to the **beach**, **Gulnora**.  
    options: ✔ raining · to rain · rain · rained  
@@ -94,7 +94,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 2. _Does the activity end, or do they stop in order to do something? Write the -ing form or to + the verb in brackets._  
    I was thirsty, so I stopped ______ (drink) some juice at the **kiosk**, **Nodira**.  
    key: to drink  
-   why: I was thirsty: they stopped in order to do it, so stop + to (to drink).
+   why: "so I stopped" + a purpose (to get juice): to drink.
 
 3. _Does the activity end, or do they stop in order to do something? Write the -ing form or to + the verb in brackets._  
    Has it stopped ______ (snow) in **Moscow** yet, **Nodira**?  
@@ -119,7 +119,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 7. _Does the activity end, or do they stop in order to do something? Write the -ing form or to + the verb in brackets._  
    We stopped ______ (watch) the **series** because it got boring, **Ulugbek**.  
    key: watching  
-   why: The show got boring: the activity ends, so stop + -ing (watching).
+   why: The … got boring: the activity ends, so stop + -ing (watching).
 
 8. _Does the activity end, or do they stop in order to do something? Write the -ing form or to + the verb in brackets._  
    The street dancers in **Istanbul** were great, so we stopped ______ (watch) them, **Sherzod**.  
@@ -192,31 +192,31 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    My dad doesn't drink **strong tea** any more, **Ulugbek**.  
    → My dad stopped ______ **strong tea**, **Ulugbek**.  
    key: drinking  
-   why: Not any more = stopped + -ing.
+   why: No longer a habit: doesn't … any more → stopped drinking.
 
 2. _Rewrite with stopped + -ing._  
    We don't go to that **gym** any more, **Dilnoza**.  
    → We stopped ______ to that **gym**, **Dilnoza**.  
    key: going  
-   why: Not any more = stopped + -ing.
+   why: No longer a habit: don't … any more → stopped going.
 
 3. _Rewrite with stopped + -ing._  
    She doesn't play the **piano** any more, **Gulnora**.  
    → She stopped ______ the **piano**, **Gulnora**.  
    key: playing  
-   why: Not any more = stopped + -ing.
+   why: No longer a habit: doesn't … any more → stopped playing.
 
 4. _Rewrite with stopped + -ing._  
    My parents don't buy **CDs** any more, **Otabek**.  
    → My parents stopped ______ **CDs**, **Otabek**.  
    key: buying  
-   why: Not any more = stopped + -ing.
+   why: No longer a habit: don't … any more → stopped buying.
 
 5. _Rewrite with stopped + -ing._  
    I don't use my old **laptop** any more, **Zarina**.  
    → I stopped ______ my old **laptop**, **Zarina**.  
    key: using  
-   why: Not any more = stopped + -ing.
+   why: No longer a habit: don't … any more → stopped using.
 
 6. _Rewrite with stopped + to._  
    We stopped and ate at a café near **Jizzakh**, **Dilnoza**.  

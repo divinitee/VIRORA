@@ -6,185 +6,185 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 1. Take a coat, **Olga**. ______ very cold **outside**.  
    options: ✔ It's · Is · There is · It has  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Weather (cold) needs a subject: It's.
 
 2. ______ raining again in **Samarkand**, **Aziz**.  
    options: Is · There is · It has · ✔ It's  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Weather (raining) needs a subject: It's.
 
 3. Look outside, **Olga**! ______ snowing **so hard**.  
    options: There is · It has · ✔ It's · Is  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Weather (snowing) needs a subject: It's.
 
 4. ______ was very windy at the **lake** **last week**.  
    options: Its · ✔ It · There · –  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Weather in the past: It was windy.
 
 5. Is it hot at your grandma's house in **August**, **Olga**? Yes, ______ really hot.  
    options: ✔ it's · is · there is · it has  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Weather in the answer: Yes, it's hot.
 
 6. ______ will be sunny **on Saturday**, so let's go to the **river**.  
    options: There · – · This · ✔ It  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Weather in the future: It will be sunny.
 
 7. I don't like winter because ______ dark at **half past four**, **Aziz**.  
    options: there is · it has · ✔ it's · is  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Light and dark need a subject: it's dark.
 
 8. Let's go inside, **Olga**. ______ getting cold **out here**.  
    options: It has · ✔ It's · Is · There is  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: A change in the weather: It's getting cold.
 
 9. ______ very hot in summer here, so we sleep on the **porch**, **Aziz**.  
    options: ✔ It's · Is · There is · It has  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Weather (hot) needs a subject: It's.
 
 10. What time is it, **Timur**? ______ half past **seven**.  
    options: Is · There is · They are · ✔ It's  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Telling the time: It's half past.
 
 11. ______ already **ten**. We should go home, **Aziz**.  
    options: There is · They are · ✔ It's · Is  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Telling the time: It's already ….
 
 12. ______ my birthday **today**, **Lola**!  
    options: Has · ✔ It's · Is · There is  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Dates and days: It's my birthday.
 
 13. ______ Sunday, so the **bank** is closed, **Olga**.  
    options: ✔ It's · Is · There is · Today  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Days of the week: It's Sunday.
 
 14. ______ a long way to the **mountains** from here, **Aziz**.  
    options: Is · It has · Has · ✔ It's  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Distance: It's a long way.
 
 15. ______ not far to the **park**. We can walk, **Timur**.  
    options: It has · Has · ✔ It's · Is  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Distance: It's not far.
 
 16. ______ about **five** kilometres from my house to the **station**.  
    options: Has · ✔ It's · Is · It has  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Distance in kilometres: It's about ….
 
 17. ______ about twenty minutes to get to the **station**, **Lola**.  
    options: ✔ It takes · Takes · Is · It has  
-   why: For how long something lasts, say It takes + time. English never starts with Takes or Is here.
+   why: Time a trip needs: It takes.
 
 18. ______ a long time to cook **manti**, **Aziz**.  
    options: Takes · Is · It has · ✔ It takes  
-   why: For how long something lasts, say It takes + time. English never starts with Takes or Is here.
+   why: Time a job needs: It takes.
 
 19. How long does the trip last? ______ about an hour by **car**, **Olga**.  
    options: Is · It has · ✔ It takes · Takes  
-   why: For how long something lasts, say It takes + time. English never starts with Takes or Is here.
+   why: How long a trip lasts: It takes.
 
 20. ______ me ten minutes to walk to **school** every day, **Lola**.  
    options: It has · ✔ It takes · Takes · Is  
-   why: For how long something lasts, say It takes + time. English never starts with Takes or Is here.
+   why: Time for me to walk: It takes me.
 
 ## build (20)
 
 1. _Write it or there._  
    ______ is very cold **outside**, **Olga**. Wear a hat.  
    key: It  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Weather needs a subject: It is cold.
 
 2. _Write it or there._  
    ______ was raining all day in **Samarkand**, so we stayed at **the museum**.  
    key: It  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Weather in the past: It was raining.
 
 3. _Write it or there._  
    Is ______ far to the **station**, **Lola**?  
    key: it  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: A question about distance: Is it far?
 
 4. _Write it or there._  
    ______ was sunny and warm at the **beach** **yesterday**.  
    key: It  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Past weather: It was sunny.
 
 5. _Write it or there._  
    What time is ______ now, **Timur**? I left my phone at **school**.  
    key: it  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: A question about the time: What time is it?
 
 6. _Write it or there._  
    ______ takes about **thirty** minutes to walk to the **park**.  
    key: It  
-   why: For how long something lasts, say It takes + time. English never starts with Takes or Is here.
+   why: Time needed: It takes.
 
 7. _Write it or there._  
    ______ is my sister's birthday **tomorrow**, **Aziz**.  
    key: It  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: A date: It is my sister's birthday.
 
 8. _Write it or there._  
    ______ is getting dark. Let's go back **to the car**, **Aziz**.  
    key: It  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Light changing: It is getting dark.
 
 9. _Write it or there._  
    ______ was very windy on the **bridge** yesterday, **Olga**.  
    key: It  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Past weather: It was windy.
 
 10. _Write it or there._  
    ______ is about **five** kilometres from here to the **lake**.  
    key: It  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Distance: It is about … kilometres.
 
 11. _Write it or there._  
    ______ will be hot **on the trip**, so take some water, **Olga**.  
    key: It  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Future weather: It will be hot.
 
 12. _Write it or there._  
    ______ took us **three** hours to get to **Bukhara**.  
    key: It  
-   why: For how long something lasts, say It takes + time. English never starts with Takes or Is here.
+   why: Past time needed: It took us.
 
 13. _Write it or there._  
    ______ is half past **seven**. The **concert** starts soon.  
    key: It  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Telling the time: It is half past.
 
 14. _Write it or there._  
    ______ are two **cafés** on our street, **Olga**.  
    key: There  
-   why: Here something exists (people, clouds, shops), and a plural verb follows, so use there: There are … It can't go with are / were.
+   why: Two things exist on our street: There are.
 
 15. _Write it or there._  
    ______ were many people at the **wedding** **yesterday**.  
    key: There  
-   why: Here something exists (people, clouds, shops), and a plural verb follows, so use there: There are … It can't go with are / were.
+   why: Many people were present: There were.
 
 16. _Write it or there._  
    ______ are no clouds in the sky **right now**, **Aziz**.  
    key: There  
-   why: Here something exists (people, clouds, shops), and a plural verb follows, so use there: There are … It can't go with are / were.
+   why: Saying what is (not) in the sky: There are no clouds.
 
 17. _Write it or there._  
    ______ are **fifteen** students in my **course**.  
    key: There  
-   why: Here something exists (people, clouds, shops), and a plural verb follows, so use there: There are … It can't go with are / were.
+   why: Saying how many students: There are.
 
 18. _Write it or there._  
    ______ were some nice photos on the **table**, **Lola**.  
    key: There  
-   why: Here something exists (people, clouds, shops), and a plural verb follows, so use there: There are … It can't go with are / were.
+   why: Some photos were on it: There were.
 
 19. _Write it or there._  
    ______ are lots of **peaches** at the bazaar **this week**.  
    key: There  
-   why: Here something exists (people, clouds, shops), and a plural verb follows, so use there: There are … It can't go with are / were.
+   why: Lots of fruit at the bazaar: There are.
 
 20. _Write it or there._  
    Are ______ any **apples** left, **Timur**?  
    key: there  
-   why: Here something exists (people, clouds, shops), and a plural verb follows, so use there: There are … It can't go with are / were.
+   why: Asking if any are left: Are there any?
 
 ## transform (15)
 
@@ -192,91 +192,91 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    Is very cold in the **bedroom**, **Aziz**.  
    → ______ very cold in the **bedroom**, **Aziz**.  
    key: It's (also: It is)  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: English needs a subject: It's very cold.
 
 2. _Add the missing subject._  
    Is raining again **this morning**, **Olga**.  
    → ______ raining again **this morning**, **Olga**.  
    key: It's (also: It is)  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Weather needs a subject: It's raining.
 
 3. _Add the missing subject._  
    Was very hot at the **party** **last night**.  
    → ______ very hot at the **party** **last night**.  
    key: It was  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Past, with a subject: It was very hot.
 
 4. _Add the missing subject._  
    Takes **twenty** minutes to get to the **bazaar**.  
    → ______ **twenty** minutes to get to the **bazaar**.  
    key: It takes  
-   why: For how long something lasts, say It takes + time. English never starts with Takes or Is here.
+   why: Time needed, with a subject: It takes.
 
 5. _Add the missing subject._  
    Is a long way to the **sea**, **Lola**.  
    → ______ a long way to the **sea**, **Lola**.  
    key: It's (also: It is)  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Distance needs a subject: It's a long way.
 
 6. _Correct the mistake._  
    There is very windy **today**, **Olga**.  
    → ______ very windy **today**, **Olga**.  
    key: It's (also: It is)  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Weather uses it, not there: It's windy.
 
 7. _Correct the mistake._  
    There was very hot in the **car** **last night**.  
    → ______ very hot in the **car** **last night**.  
    key: It was  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Weather uses it, not there: It was hot.
 
 8. _Correct the mistake._  
    There is already **ten**, **Lola**.  
    → ______ already **ten**, **Lola**.  
    key: It's (also: It is)  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Time uses it, not there: It's already ….
 
 9. _Correct the mistake._  
    There are five kilometres to the **lake**, **Lola**.  
    → ______ five kilometres to the **lake**, **Lola**.  
    key: It's (also: It is)  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Distance uses it, not there: It's five kilometres.
 
 10. _Correct the mistake._  
    There takes an hour by **car** to get to **Bukhara**.  
    → ______ an hour by **car** to get to **Bukhara**.  
    key: It takes  
-   why: For how long something lasts, say It takes + time. English never starts with Takes or Is here.
+   why: Time needed uses it, not there: It takes.
 
 11. _Make a question._  
    It is far to the **station**, **Lola**.  
    → ______ ______ far to the **station**, **Lola**?  
    key: Is + it  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Question: be before it: Is it far?
 
 12. _Make a question._  
    It was cold in **Termez** **last night**.  
    → ______ ______ cold in **Termez** **last night**?  
    key: Was + it  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Past question: Was it cold?
 
 13. _Make a question._  
    It takes a long time to get to the **airport**, **Aziz**.  
    → How long ______ ______ take to get to the **airport**, **Aziz**?  
    key: does + it  
-   why: For how long something lasts, say It takes + time. English never starts with Takes or Is here.
+   why: Question with takes: How long does it take?
 
 14. _Make a question._  
    It will rain **this afternoon**, **Timur**.  
    → ______ ______ rain **this afternoon**, **Timur**?  
    key: Will + it  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Future question: Will it rain?
 
 15. _Make a question._  
    It is **eight** o'clock, **Lola**.  
    → What time ______ ______, **Lola**?  
    key: is + it  
-   why: English needs a subject even for weather, time, dates and distance. Use it: It's cold, It's raining, It's six o'clock, It's a long way. There is needs a noun after it.
+   why: Time question: What time is it?
 
 ## create (8)
 

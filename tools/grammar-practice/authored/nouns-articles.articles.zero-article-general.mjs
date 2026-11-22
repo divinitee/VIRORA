@@ -149,5 +149,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/nouns-articles.articles.zero-article-general.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "Cats in general: no article.",
+   "Money in general: no article.",
+   "Fresh fruit in general: no article.",
+   "This particular water, in this container: The.",
+   "Children in general: no article.",
+   "The students we met: particular ones: The.",
+   "Coffee in general, as a drink I never have: no article.",
+   "Sport in general: no article.",
+   "The bread you bought: a particular loaf: The.",
+   "Spiders in general: no article.",
+   "Health in general: no article.",
+   "The teachers I told you about: particular ones: The.",
+   "Elephants in general: no article.",
+   "The elephants we saw: particular ones: The.",
+   "Breakfast as a meal in general: no article.",
+   "Vegetables in general: no article.",
+   "The money I gave you: particular money: the.",
+   "History as a school subject: no article.",
+   "The history of one place: particular: The.",
+   "Old people in general: no article."
+  ],
+  "build": [
+   "All dogs: plural, no article: Dogs.",
+   "All bees: plural, no article: Bees.",
+   "All spiders: plural, no article: Spiders.",
+   "All birds: plural, no article: Birds.",
+   "All cows: plural, no article: Cows.",
+   "All plants: plural, no article: Plants.",
+   "All penguins: plural, no article: Penguins.",
+   "All camels: plural, no article: Camels.",
+   "All babies: y → ies, no article: Babies.",
+   "All doctors: plural, no article: Doctors.",
+   "Only the horses on the farm: The horses.",
+   "Only the books on my …: The books.",
+   "Only the students in our group: The students.",
+   "The keys to one thing: the keys.",
+   "The shoes you bought: The shoes.",
+   "The apples from our garden: The apples.",
+   "child → children; the ones in my building: The children.",
+   "The photos you sent: the photos.",
+   "bus → buses; the ones in our town: The buses.",
+   "The flowers on her table: The flowers."
+  ],
+  "transform": [
+   "Money and happiness in general: no the.",
+   "Cats and water in general: no the.",
+   "Children and sleep in general: no the.",
+   "Air and children in general: no the.",
+   "Sport and health in general: no the.",
+   "Only the apples from our garden: The apples.",
+   "Not all students, just our group: The students.",
+   "Only the buses in our town: The buses.",
+   "Only the children in my street: The children.",
+   "Only the flowers on my desk: The flowers.",
+   "Dogs in general now: no The.",
+   "Coffee in general now: no the.",
+   "Children in general now: no The.",
+   "Books in general now: no the.",
+   "Music in general now: no The."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${out} — ${items.length} items`);

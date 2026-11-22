@@ -130,5 +130,247 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/verb-patterns.meaning-change-verbs.remember-infinitive.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "",
+   "",
+   "",
+   "",
+   "\"While I'm …\" is later: a task still to do: remember + to feed.",
+   "",
+   "\"Always … before you go to …\": a task each time: remember + to turn.",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "\"Always\" = a habit, a task each time: remember + to charge.",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "build": [
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "transform": [
+   "",
+   "",
+   "",
+   "",
+   "",
+   "\"Don't forget: bring\" = Remember to bring.",
+   "\"Don't forget: water\" = Remember to water.",
+   "\"Don't forget: pay\" = Remember to pay.",
+   "\"Don't forget: send\" = Remember to send.",
+   "\"Don't forget: ask\" = Remember to ask.",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ "slot": [
+  [
+   "choose",
+   1,
+   "door",
+   "thing",
+   [
+    "door",
+    "gate",
+    "window",
+    "garage"
+   ]
+  ],
+  [
+   "choose",
+   5,
+   "away",
+   "absent",
+   [
+    "away",
+    "on holiday",
+    "at work",
+    "on my trip"
+   ]
+  ],
+  [
+   "choose",
+   7,
+   "bed",
+   "go",
+   [
+    "bed",
+    "sleep",
+    "work",
+    "school"
+   ]
+  ],
+  [
+   "choose",
+   12,
+   "answers",
+   "what",
+   [
+    "answers",
+    "spelling",
+    "names",
+    "work"
+   ]
+  ],
+  [
+   "choose",
+   14,
+   "windows",
+   "what",
+   [
+    "windows",
+    "door",
+    "car windows",
+    "balcony door"
+   ]
+  ],
+  [
+   "choose",
+   15,
+   "night",
+   "when",
+   [
+    "night",
+    "bedtime",
+    "the weekend",
+    "home"
+   ]
+  ],
+  [
+   "choose",
+   20,
+   "letter",
+   "item",
+   [
+    "letter",
+    "parcel",
+    "book",
+    "key"
+   ]
+  ],
+  [
+   "build",
+   3,
+   "Monday",
+   "day",
+   [
+    "Monday",
+    "Friday",
+    "Tuesday",
+    "Sunday"
+   ]
+  ],
+  [
+   "build",
+   9,
+   "online",
+   "how",
+   [
+    "online",
+    "today",
+    "by Friday",
+    "at the desk"
+   ]
+  ],
+  [
+   "build",
+   11,
+   "trip",
+   "trip",
+   [
+    "trip",
+    "flight",
+    "drive",
+    "journey"
+   ]
+  ],
+  [
+   "build",
+   14,
+   "water",
+   "drink",
+   [
+    "water",
+    "juice",
+    "tea",
+    "something"
+   ]
+  ],
+  [
+   "build",
+   16,
+   "address",
+   "what",
+   [
+    "address",
+    "name",
+    "phone number",
+    "email"
+   ]
+  ],
+  [
+   "build",
+   19,
+   "keys",
+   "what",
+   [
+    "keys",
+    "books",
+    "money",
+    "bike"
+   ]
+  ]
+ ]
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

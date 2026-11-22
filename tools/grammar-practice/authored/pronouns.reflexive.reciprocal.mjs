@@ -143,5 +143,487 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/pronouns.reflexive.reciprocal.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "He helps her and she helps him: each other.",
+   "Each sister phones the other: each other.",
+   "Each one helps the other: each other.",
+   "I tell my friend and my friend tells me: each other.",
+   "Each one hugs the other: each other.",
+   "Each side shakes the other side's hand: each other.",
+   "I looked at him and he looked at me: each other.",
+   "Neither talks to the other: each other.",
+   "Each one gave the other a present: each other.",
+   "I know my … and my … knows me: each other.",
+   "Each girl shouted at the other: each other.",
+   "I send to you and you send to me: each other.",
+   "Each player passes to another: each other.",
+   "… that belong to the other twin: each other's.",
+   "… that belong to the other: each other's.",
+   "Each boy hurt his own body: themselves.",
+   "Each kid burned his or her own hand: themselves.",
+   "We locked our own selves out: ourselves.",
+   "Talking to children, plural you: yourselves.",
+   "Each of us, our own bodies: ourselves."
+  ],
+  "build": [
+   "Each one writes to the other: each other.",
+   "Each parent loves the other: each other.",
+   "Each friend hugged the other: each other.",
+   "I help you and you help me: each other.",
+   "Neither understands the other: each other.",
+   "Each student calls another: each other.",
+   "Each cat looked at the other: each other.",
+   "Each one bought the other flowers: each other.",
+   "I see my … and my … sees me: each other.",
+   "Neither likes the other: each other.",
+   "Each team … the other: each other.",
+   "Each one smiled at the other: each other.",
+   "Belonging to the other person: each other's.",
+   "… that belongs to the other: each other's.",
+   "They fell and each one got hurt: themselves.",
+   "Each child cut his or her own hand: themselves.",
+   "\"We locked … out\": the doors shut on us: ourselves.",
+   "Talking to …, plural you: yourselves.",
+   "\"you two\": plural you, own hands: yourselves.",
+   "Our own selves locked out: ourselves."
+  ],
+  "transform": [
+   "A helps B, B helps A: each other.",
+   "A calls B, B calls A: each other.",
+   "A looked at B, B looked at A: each other.",
+   "I trust him, he trusts me: each other.",
+   "A sent B, B sent A: each other.",
+   "Two people phone the other one: each other, not themselves.",
+   "Two-way action: each other, not us.",
+   "No -s on other: each other.",
+   "Belonging: each other's, with 's.",
+   "Two-way help: each other, not ourselves.",
+   "Each boy hurt his own body: themselves, not each other.",
+   "We, our own selves: ourselves, not us.",
+   "Talking to many …: yourselves, not yourself.",
+   "Not one hurting the other: each one burned a hand: themselves.",
+   "\"you two\": yourselves, not you."
+  ]
+ },
+ "slot": [
+  [
+   "choose",
+   4,
+   "everything",
+   "what",
+   [
+    "everything",
+    "secrets",
+    "jokes",
+    "stories"
+   ]
+  ],
+  [
+   "choose",
+   5,
+   "cousin",
+   "rel",
+   [
+    "cousin",
+    "brother",
+    "uncle",
+    "friend"
+   ]
+  ],
+  [
+   "choose",
+   6,
+   "teams",
+   "grp",
+   [
+    "teams",
+    "coaches",
+    "captains",
+    "players"
+   ]
+  ],
+  [
+   "choose",
+   8,
+   "brothers",
+   "rel",
+   [
+    "brothers",
+    "sisters",
+    "cousins",
+    "friends"
+   ]
+  ],
+  [
+   "choose",
+   10,
+   "neighbour",
+   "who",
+   [
+    "neighbour",
+    "teacher",
+    "cousin",
+    "best friend"
+   ]
+  ],
+  [
+   "choose",
+   11,
+   "girls",
+   "kids",
+   [
+    "girls",
+    "boys",
+    "women",
+    "men"
+   ]
+  ],
+  [
+   "choose",
+   12,
+   "photos",
+   "what",
+   [
+    "photos",
+    "videos",
+    "postcards",
+    "messages"
+   ]
+  ],
+  [
+   "choose",
+   13,
+   "players",
+   "who",
+   [
+    "players",
+    "girls",
+    "boys",
+    "kids"
+   ]
+  ],
+  [
+   "choose",
+   14,
+   "clothes",
+   "what",
+   [
+    "clothes",
+    "shoes",
+    "hats",
+    "jackets"
+   ]
+  ],
+  [
+   "choose",
+   15,
+   "secrets",
+   "what",
+   [
+    "secrets",
+    "plans",
+    "dreams",
+    "phone numbers"
+   ]
+  ],
+  [
+   "choose",
+   16,
+   "bikes",
+   "veh",
+   [
+    "bikes",
+    "scooters",
+    "skateboards",
+    "horses"
+   ]
+  ],
+  [
+   "choose",
+   17,
+   "kids",
+   "kids",
+   [
+    "kids",
+    "children",
+    "boys",
+    "girls"
+   ]
+  ],
+  [
+   "choose",
+   19,
+   "Grandma",
+   "rel",
+   [
+    "Grandma",
+    "Grandpa",
+    "Auntie",
+    "Uncle"
+   ]
+  ],
+  [
+   "choose",
+   20,
+   "slipped",
+   "act",
+   [
+    "slipped",
+    "fell",
+    "tripped",
+    "slid"
+   ]
+  ],
+  [
+   "build",
+   2,
+   "loved",
+   "verb",
+   [
+    "loved",
+    "known",
+    "helped",
+    "trusted"
+   ]
+  ],
+  [
+   "build",
+   3,
+   "friends",
+   "who",
+   [
+    "friends",
+    "teachers",
+    "neighbours",
+    "classmates"
+   ]
+  ],
+  [
+   "build",
+   5,
+   "sister",
+   "rel",
+   [
+    "sister",
+    "brother",
+    "cousin",
+    "friend"
+   ]
+  ],
+  [
+   "build",
+   6,
+   "call",
+   "verb",
+   [
+    "call",
+    "text",
+    "message",
+    "phone"
+   ]
+  ],
+  [
+   "build",
+   7,
+   "cats",
+   "an",
+   [
+    "cats",
+    "dogs",
+    "birds",
+    "horses"
+   ]
+  ],
+  [
+   "build",
+   9,
+   "cousin",
+   "rel",
+   [
+    "cousin",
+    "uncle",
+    "aunt",
+    "neighbour"
+   ]
+  ],
+  [
+   "build",
+   11,
+   "thanked",
+   "verb",
+   [
+    "thanked",
+    "congratulated",
+    "hugged",
+    "greeted"
+   ]
+  ],
+  [
+   "build",
+   13,
+   "books",
+   "what",
+   [
+    "books",
+    "pens",
+    "notes",
+    "bikes"
+   ]
+  ],
+  [
+   "build",
+   14,
+   "homework",
+   "what",
+   [
+    "homework",
+    "answers",
+    "notes",
+    "drawings"
+   ]
+  ],
+  [
+   "build",
+   15,
+   "boys",
+   "kids",
+   [
+    "boys",
+    "girls",
+    "children",
+    "players"
+   ]
+  ],
+  [
+   "build",
+   16,
+   "children",
+   "kids",
+   [
+    "children",
+    "kids",
+    "boys",
+    "girls"
+   ]
+  ],
+  [
+   "build",
+   18,
+   "boys",
+   "kids",
+   [
+    "boys",
+    "girls",
+    "children",
+    "kids"
+   ]
+  ],
+  [
+   "transform",
+   2,
+   "aunt",
+   "rel",
+   [
+    "aunt",
+    "sister",
+    "grandma",
+    "friend"
+   ]
+  ],
+  [
+   "transform",
+   4,
+   "brother",
+   "rel",
+   [
+    "brother",
+    "sister",
+    "cousin",
+    "dad"
+   ]
+  ],
+  [
+   "transform",
+   8,
+   "brothers",
+   "rel",
+   [
+    "brothers",
+    "sisters",
+    "cousins",
+    "twins"
+   ]
+  ],
+  [
+   "transform",
+   9,
+   "clothes",
+   "what",
+   [
+    "clothes",
+    "shoes",
+    "hats",
+    "jackets"
+   ]
+  ],
+  [
+   "transform",
+   11,
+   "boys",
+   "kids",
+   [
+    "boys",
+    "girls",
+    "children",
+    "players"
+   ]
+  ],
+  [
+   "transform",
+   13,
+   "children",
+   "kids",
+   [
+    "children",
+    "kids",
+    "boys",
+    "girls"
+   ]
+  ],
+  [
+   "transform",
+   14,
+   "kids",
+   "kids",
+   [
+    "kids",
+    "children",
+    "boys",
+    "girls"
+   ]
+  ]
+ ]
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${out} — ${items.length} items`);

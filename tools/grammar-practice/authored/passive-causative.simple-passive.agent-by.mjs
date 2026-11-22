@@ -123,5 +123,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/passive-causative.simple-passive.agent-by.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "A tool opened the lock: with; the person: by.",
+   "A tool did the cutting: with.",
+   "A pen is a tool for writing: with.",
+   "The tool for painting: with; the painter: by.",
+   "An object used to break it: with.",
+   "Our hands were the tool: with.",
+   "The material used to tie it: with.",
+   "A tool for photos: with; my … is the doer: by.",
+   "The tool for cutting: with; the person: by.",
+   "The tool for cleaning: with.",
+   "The tool for cutting meat: with.",
+   "The tool and soap for washing: with.",
+   "The caretaker is the person: by.",
+   "A person wrote the song: by.",
+   "A person next door did it: by.",
+   "A person cooked it: by.",
+   "A person took the photos: by.",
+   "A company is the doer: by.",
+   "A person found the child: by.",
+   "A person painted; the brush is with: by."
+  ],
+  "build": [
+   "Tool → with: opened with a ….",
+   "A cutting tool did the work → with.",
+   "Drawing tool → with.",
+   "Painting tool → with.",
+   "Object that broke it → with.",
+   "Material used to tie → with.",
+   "Filming tool → with.",
+   "Kitchen tool → with.",
+   "The author is a person → by.",
+   "Cook (a person) → by.",
+   "Team that won → by.",
+   "Finder (a person) → by.",
+   "Photographer (my …) → by.",
+   "Builder (my …) → by.",
+   "Two men did it → by.",
+   "Server (a person) → by.",
+   "Tool for opening → with; Olga → by.",
+   "A person cleaned it → by; the cloth → with.",
+   "Cutting tool → with.",
+   "Singer (a person) → by."
+  ],
+  "transform": [
+   "A person wrote it: was written by.",
+   "A person cooked it: was cooked by.",
+   "A team won it: was won by.",
+   "A person found it: was found by.",
+   "Two men repaired it: was repaired by.",
+   "He used a …: with.",
+   "She used a …: with.",
+   "He used a …: with, after by the caretaker.",
+   "He used a …: with, after by my dad.",
+   "They used …: with.",
+   "The doer is by, not from.",
+   "A tool is with, not by.",
+   "The doer is by, not of.",
+   "The boy is the doer: by, not from.",
+   "My … is the doer: by, not from."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

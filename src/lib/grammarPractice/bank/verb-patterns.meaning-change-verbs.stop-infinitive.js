@@ -233,7 +233,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My phone rang, so I stopped ______ it, {name}.",
+  "prompt": "My {dev} rang, so I stopped ______ it, {name}.",
   "options": [
    "answered",
    "to answer",
@@ -241,13 +241,19 @@ export default [
    "answer"
   ],
   "key": 1,
-  "why": "The phone rang, so we stopped in order to do it: stop + to + base (to answer).",
+  "why": "Something rang, so I stopped in order to answer it: stop + to + base.",
   "slots": {
    "name": [
     "Zarina",
     "Otabek",
     "Feruza",
     "Sardor"
+   ],
+   "dev": [
+    "phone",
+    "doorbell",
+    "mobile",
+    "work phone"
    ]
   }
  },
@@ -299,7 +305,7 @@ export default [
    "to talk"
   ],
   "key": 3,
-  "why": "I saw an old friend, so we stopped in order to do it: stop + to + base (to talk).",
+  "why": "I saw an old …, so we stopped in order to do it: stop + to + base (to talk).",
   "slots": {
    "who": [
     "teacher",
@@ -644,7 +650,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "We stopped in order to do something. Complete with to + the verb in brackets.",
-  "source": "I was thirsty, so I stopped ______ (drink) some juice, {name}.",
+  "source": "I was thirsty, so I stopped ______ (drink) some {drink}, {name}.",
   "key": "to drink",
   "why": "They stopped in order to do it: stop + to + base (to drink).",
   "slots": {
@@ -653,6 +659,12 @@ export default [
     "Otabek",
     "Feruza",
     "Sardor"
+   ],
+   "drink": [
+    "juice",
+    "water",
+    "tea",
+    "lemonade"
    ]
   }
  },
@@ -719,7 +731,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "We stopped in order to do something. Complete with to + the verb in brackets.",
-  "source": "We were tired, so we stopped ______ (rest) in the shade, {name}.",
+  "source": "We were tired, so we stopped ______ (rest) in the {where}, {name}.",
   "key": "to rest",
   "why": "They stopped in order to do it: stop + to + base (to rest).",
   "slots": {
@@ -728,6 +740,12 @@ export default [
     "Jamshid",
     "Nodira",
     "Ulugbek"
+   ],
+   "where": [
+    "shade",
+    "park",
+    "café",
+    "garden"
    ]
   }
  },
@@ -875,7 +893,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "We stopped in order to do something. Complete with to + the verb in brackets.",
-  "source": "I met an old friend and stopped ______ (chat) for a few minutes, {name}.",
+  "source": "I met an old {who} and stopped ______ (chat) for a few minutes, {name}.",
   "key": "to chat",
   "why": "They stopped in order to do it: stop + to + base (to chat).",
   "slots": {
@@ -884,6 +902,12 @@ export default [
     "Otabek",
     "Feruza",
     "Sardor"
+   ],
+   "who": [
+    "friend",
+    "classmate",
+    "neighbour",
+    "teacher"
    ]
   }
  },

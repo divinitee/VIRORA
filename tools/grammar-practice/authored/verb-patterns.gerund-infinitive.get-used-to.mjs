@@ -137,5 +137,223 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/verb-patterns.gerund-infinitive.get-used-to.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "build": [
+   "",
+   "",
+   "",
+   "",
+   "",
+   "New food habits: got used to + eating.",
+   "",
+   "",
+   "",
+   "\"all day\" is hard at first: used to + wearing.",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "\"After … weeks\" in the past: got used to."
+  ],
+  "transform": [
+   "",
+   "",
+   "to here is a preposition, so -ing: living, not live.",
+   "",
+   "to here is a preposition, so -ing: working, not work.",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ "slot": [
+  [
+   "choose",
+   12,
+   "work",
+   "where",
+   [
+    "work",
+    "school",
+    "home",
+    "the café"
+   ]
+  ],
+  [
+   "choose",
+   13,
+   "baby",
+   "kid",
+   [
+    "baby",
+    "toddler",
+    "little girl",
+    "youngest child"
+   ]
+  ],
+  [
+   "choose",
+   14,
+   "dad",
+   "rel",
+   [
+    "dad",
+    "uncle",
+    "grandpa",
+    "brother"
+   ]
+  ],
+  [
+   "build",
+   2,
+   "cousin",
+   "rel",
+   [
+    "cousin",
+    "brother",
+    "aunt",
+    "friend"
+   ]
+  ],
+  [
+   "build",
+   3,
+   "parents",
+   "who",
+   [
+    "parents",
+    "family",
+    "brothers",
+    "sisters"
+   ]
+  ],
+  [
+   "build",
+   6,
+   "spicy",
+   "adj",
+   [
+    "spicy",
+    "sour",
+    "sweet",
+    "salty"
+   ]
+  ],
+  [
+   "build",
+   7,
+   "mum",
+   "rel",
+   [
+    "mum",
+    "dad",
+    "aunt",
+    "sister"
+   ]
+  ],
+  [
+   "build",
+   9,
+   "day",
+   "per",
+   [
+    "day",
+    "morning",
+    "evening",
+    "night"
+   ]
+  ],
+  [
+   "build",
+   12,
+   "brother",
+   "rel",
+   [
+    "brother",
+    "cousin",
+    "uncle",
+    "son"
+   ]
+  ],
+  [
+   "build",
+   17,
+   "sister",
+   "rel",
+   [
+    "sister",
+    "cousin",
+    "daughter",
+    "niece"
+   ]
+  ],
+  [
+   "build",
+   20,
+   "two",
+   "n",
+   [
+    "two",
+    "three",
+    "four",
+    "five"
+   ]
+  ]
+ ]
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

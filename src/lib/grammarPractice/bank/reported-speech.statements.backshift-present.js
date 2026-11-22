@@ -17,7 +17,7 @@ export default [
    "has been"
   ],
   "key": 0,
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "'I'm' moves back a step: am → was.",
   "slots": {
    "m": [
     "Aziz",
@@ -49,7 +49,7 @@ export default [
    "were"
   ],
   "key": 3,
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "'We're' moves back: are → were.",
   "slots": {
    "who": [
     "friends",
@@ -81,7 +81,7 @@ export default [
    "is"
   ],
   "key": 2,
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "'I'm at the …' moves back: am → was.",
   "slots": {
    "f": [
     "Olga",
@@ -113,7 +113,7 @@ export default [
    "worked"
   ],
   "key": 1,
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "'I'm working' moves back: was working.",
   "slots": {
    "m": [
     "Aziz",
@@ -145,7 +145,7 @@ export default [
    "was watching"
   ],
   "key": 0,
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "'We're watching' moves back: were watching.",
   "slots": {
    "who": [
     "kids",
@@ -177,7 +177,7 @@ export default [
    "was waiting"
   ],
   "key": 3,
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "'I'm waiting' moves back: was waiting.",
   "slots": {
    "f": [
     "Olga",
@@ -209,7 +209,7 @@ export default [
    "has"
   ],
   "key": 2,
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "'I have' moves back: have → had.",
   "slots": {
    "m": [
     "Aziz",
@@ -241,7 +241,7 @@ export default [
    "have"
   ],
   "key": 1,
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "'I have a lot of' moves back: had.",
   "slots": {
    "f": [
     "Olga",
@@ -273,7 +273,7 @@ export default [
    "had want"
   ],
   "key": 0,
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "'I want' moves back: want → wanted.",
   "slots": {
    "m": [
     "Aziz",
@@ -305,7 +305,7 @@ export default [
    "needed"
   ],
   "key": 3,
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "'I need' moves back: need → needed.",
   "slots": {
    "f": [
     "Olga",
@@ -337,7 +337,7 @@ export default [
    "can't"
   ],
   "key": 2,
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "'I can't' moves back: can't → couldn't.",
   "slots": {
    "m": [
     "Aziz",
@@ -369,7 +369,7 @@ export default [
    "can to"
   ],
   "key": 1,
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "'I can help' moves back: can → could.",
   "slots": {
    "f": [
     "Olga",
@@ -401,7 +401,7 @@ export default [
    "has been"
   ],
   "key": 0,
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "'The … is ready' moves back: is → was.",
   "slots": {
    "who": [
     "waiter",
@@ -433,7 +433,7 @@ export default [
    "wasn't"
   ],
   "key": 3,
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "'I'm not' moves back: wasn't.",
   "slots": {
    "m": [
     "Aziz",
@@ -465,7 +465,7 @@ export default [
    "isn't"
   ],
   "key": 2,
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "'I'm not feeling' moves back: wasn't feeling.",
   "slots": {
    "f": [
     "Olga",
@@ -497,7 +497,7 @@ export default [
    "was"
   ],
   "key": 1,
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "'We're very …' moves back: were.",
   "slots": {
    "who": [
     "parents",
@@ -529,7 +529,7 @@ export default [
    "wasn't"
   ],
   "key": 0,
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "'doesn't work' moves back: didn't work.",
   "slots": {
    "m": [
     "Aziz",
@@ -561,7 +561,7 @@ export default [
    "was"
   ],
   "key": 3,
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "'I'm lost' moves back: was lost.",
   "slots": {
    "f": [
     "Olga",
@@ -593,7 +593,7 @@ export default [
    "is cooking"
   ],
   "key": 2,
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "'I'm cooking' moves back: was cooking.",
   "slots": {
    "m": [
     "Aziz",
@@ -625,7 +625,7 @@ export default [
    "were"
   ],
   "key": 1,
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "'is broken', and it's fixed now: was.",
   "slots": {
    "who": [
     "teacher",
@@ -652,7 +652,7 @@ export default [
   "instr": "Report it. Put the words in brackets one step into the past.",
   "source": "Yesterday {m} said he ______ (am) {adj}.",
   "key": "was",
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "am in the report → was.",
   "slots": {
    "m": [
     "Aziz",
@@ -679,7 +679,7 @@ export default [
   "instr": "Report it. Put the words in brackets one step into the past.",
   "source": "Last week my {who} said they ______ (are) at the {place}.",
   "key": "were",
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "are in the report → were.",
   "slots": {
    "who": [
     "friends",
@@ -706,7 +706,7 @@ export default [
   "instr": "Report it. Put the words in brackets one step into the past.",
   "source": "On the phone last night, {f} said she ______ (am) at the {place}.",
   "key": "was",
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "am (she) → was.",
   "slots": {
    "f": [
     "Olga",
@@ -733,7 +733,7 @@ export default [
   "instr": "Report it. Put the words in brackets one step into the past.",
   "source": "Yesterday {m} said he ______ (am working) on his {work}.",
   "key": "was working",
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "am working → was working.",
   "slots": {
    "m": [
     "Aziz",
@@ -760,7 +760,7 @@ export default [
   "instr": "Report it. Put the words in brackets one step into the past.",
   "source": "Last night the {who} said they ______ (are watching) a {film}.",
   "key": "were watching",
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "are watching → were watching.",
   "slots": {
    "who": [
     "kids",
@@ -787,7 +787,7 @@ export default [
   "instr": "Report it. Put the words in brackets one step into the past.",
   "source": "This morning {f} said she ______ (am waiting) for the {bus}.",
   "key": "was waiting",
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "am waiting → was waiting.",
   "slots": {
    "f": [
     "Olga",
@@ -814,7 +814,7 @@ export default [
   "instr": "Report it. Put the words in brackets one step into the past.",
   "source": "Last week {m} said he ______ (have) a {ill}.",
   "key": "had",
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "have → had, as he reported it.",
   "slots": {
    "m": [
     "Aziz",
@@ -841,7 +841,7 @@ export default [
   "instr": "Report it. Put the words in brackets one step into the past.",
   "source": "On Monday {f} said she ______ (have) a lot of {work}.",
   "key": "had",
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "have → had, as she reported it.",
   "slots": {
    "f": [
     "Olga",
@@ -868,7 +868,7 @@ export default [
   "instr": "Report it. Put the words in brackets one step into the past.",
   "source": "At the café yesterday, {m} said he ______ (want) some {food}.",
   "key": "wanted",
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "want moves back a step: wanted.",
   "slots": {
    "m": [
     "Aziz",
@@ -895,7 +895,7 @@ export default [
   "instr": "Report it. Put the words in brackets one step into the past.",
   "source": "Yesterday {f} said she ______ (need) my {thing}.",
   "key": "needed",
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "need moves back a step: needed.",
   "slots": {
    "f": [
     "Olga",
@@ -922,7 +922,7 @@ export default [
   "instr": "Report it. Put the words in brackets one step into the past.",
   "source": "Last Friday {m} said he ______ (can't) come to the {event}.",
   "key": "couldn't",
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "can't moves back a step: couldn't.",
   "slots": {
    "m": [
     "Aziz",
@@ -952,7 +952,7 @@ export default [
   "instr": "Report it. Put the words in brackets one step into the past.",
   "source": "On Sunday {f} said she ______ (can) help me with the {work}.",
   "key": "could",
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "can moves back a step: could.",
   "slots": {
    "f": [
     "Olga",
@@ -979,7 +979,7 @@ export default [
   "instr": "Report it. Put the words in brackets one step into the past.",
   "source": "Last night the {who} said the {thing} ______ (is) ready.",
   "key": "was",
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "is → was (the …).",
   "slots": {
    "who": [
     "waiter",
@@ -1006,7 +1006,7 @@ export default [
   "instr": "Report it. Put the words in brackets one step into the past.",
   "source": "At lunch yesterday, {m} said he ______ (am not) {adj}.",
   "key": "wasn't",
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "am not → wasn't.",
   "slots": {
    "m": [
     "Aziz",
@@ -1036,7 +1036,7 @@ export default [
   "instr": "Report it. Put the words in brackets one step into the past.",
   "source": "At the {event} last night, {f} said she ______ (am not feeling) well.",
   "key": "wasn't feeling",
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "am not feeling → wasn't feeling.",
   "slots": {
    "f": [
     "Olga",
@@ -1066,7 +1066,7 @@ export default [
   "instr": "Report it. Put the words in brackets one step into the past.",
   "source": "After the concert, my {who} said they ______ (are) very {adj}.",
   "key": "were",
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "are → were (they).",
   "slots": {
    "who": [
     "parents",
@@ -1093,7 +1093,7 @@ export default [
   "instr": "Report it. Put the words in brackets one step into the past.",
   "source": "Last week {m} said his {car} ______ (doesn't) work. He fixed it the next day.",
   "key": "didn't",
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "doesn't → didn't, and he fixed it later.",
   "slots": {
    "m": [
     "Aziz",
@@ -1123,7 +1123,7 @@ export default [
   "instr": "Report it. Put the words in brackets one step into the past.",
   "source": "Yesterday {f} called and said she ______ (am) lost in {city}.",
   "key": "was",
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "am lost → was lost.",
   "slots": {
    "f": [
     "Olga",
@@ -1150,7 +1150,7 @@ export default [
   "instr": "Report it. Put the words in brackets one step into the past.",
   "source": "Last night {m} said he ______ (am cooking) {food}.",
   "key": "was cooking",
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "am cooking → was cooking.",
   "slots": {
    "m": [
     "Aziz",
@@ -1177,7 +1177,7 @@ export default [
   "instr": "Report it. Put the words in brackets one step into the past.",
   "source": "Last week the {who} said the {thing} ______ (is) broken. It works again now.",
   "key": "was",
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "is → was, and it works again now.",
   "slots": {
    "who": [
     "teacher",
@@ -1205,7 +1205,7 @@ export default [
   "source": "'I'm {adj},' {m} said yesterday.",
   "hint": "Yesterday {m} said that ______ {adj}.",
   "key": "he was",
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "I'm → he was, one step back.",
   "slots": {
    "m": [
     "Aziz",
@@ -1233,7 +1233,7 @@ export default [
   "source": "'We're at the {place},' my {who} said last week.",
   "hint": "Last week my {who} said that ______ at the {place}.",
   "key": "they were",
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "We're → they were, one step back.",
   "slots": {
    "who": [
     "friends",
@@ -1261,7 +1261,7 @@ export default [
   "source": "'I'm working on my {work},' {f} said yesterday.",
   "hint": "Yesterday {f} said that ______ on her {work}.",
   "key": "she was working",
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "I'm working → she was working.",
   "slots": {
    "f": [
     "Olga",
@@ -1289,7 +1289,7 @@ export default [
   "source": "'I have a {ill},' {m} said last week.",
   "hint": "Last week {m} said that ______ a {ill}.",
   "key": "he had",
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "I have → he had, one step back.",
   "slots": {
    "m": [
     "Aziz",
@@ -1317,7 +1317,7 @@ export default [
   "source": "'I can't come to the {event},' {f} said on Friday.",
   "hint": "On Friday {f} said that ______ come to the {event}.",
   "key": "she couldn't",
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "I can't → she couldn't, one step back.",
   "slots": {
    "f": [
     "Olga",
@@ -1348,7 +1348,7 @@ export default [
   "source": "Yesterday {m} said that he is {adj}.",
   "hint": "Yesterday {m} said that he ______ {adj}.",
   "key": "was",
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "Reported yesterday: is → was.",
   "slots": {
    "m": [
     "Aziz",
@@ -1376,7 +1376,7 @@ export default [
   "source": "Yesterday {f} said that I was at the {place}.",
   "hint": "Yesterday {f} said that ______ was at the {place}.",
   "key": "she",
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "She talks about herself: I → she.",
   "slots": {
    "f": [
     "Olga",
@@ -1404,7 +1404,7 @@ export default [
   "source": "Last night the {who} said they are watching a {film}.",
   "hint": "Last night the {who} said they ______ a {film}.",
   "key": "were watching",
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "Reported last night: are watching → were watching.",
   "slots": {
    "who": [
     "kids",
@@ -1432,7 +1432,7 @@ export default [
   "source": "Last week {m} said he has a {ill}.",
   "hint": "Last week {m} said he ______ a {ill}.",
   "key": "had",
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "Reported last week: has → had.",
   "slots": {
    "m": [
     "Aziz",
@@ -1460,7 +1460,7 @@ export default [
   "source": "On Friday {f} said she can't come to the {event}.",
   "hint": "On Friday {f} said she ______ come to the {event}.",
   "key": "couldn't",
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "Reported on Friday: can't → couldn't.",
   "slots": {
    "f": [
     "Olga",
@@ -1494,7 +1494,7 @@ export default [
    "his",
    "was"
   ],
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "My → his; is → was.",
   "slots": {
    "m": [
     "Aziz",
@@ -1525,7 +1525,7 @@ export default [
    "her",
    "was"
   ],
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "My → her; is → was.",
   "slots": {
    "f": [
     "Olga",
@@ -1556,7 +1556,7 @@ export default [
    "their",
    "didn't"
   ],
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "Our → their; doesn't → didn't.",
   "slots": {
    "car": [
     "car",
@@ -1570,7 +1570,13 @@ export default [
     "workers",
     "guests"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "their",
+    "did not"
+   ]
+  ]
  },
  {
   "id": "gpr.reported-speech.statements.backshift-present.transform.014",
@@ -1587,7 +1593,7 @@ export default [
    "he was",
    "his"
   ],
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "I'm → he was; my → his.",
   "slots": {
    "m": [
     "Aziz",
@@ -1618,7 +1624,7 @@ export default [
    "they needed",
    "their"
   ],
-  "why": "Reported after said: the present moves back to the past (am → was, are → were, can't → couldn't), and I / my change to he / his, she / her, they / their.",
+  "why": "We need → they needed; our → their.",
   "slots": {
    "thing": [
     "keys",

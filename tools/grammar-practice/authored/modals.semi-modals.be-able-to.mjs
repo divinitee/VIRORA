@@ -130,5 +130,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/modals.semi-modals.be-able-to.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "\"I hope\" + next time: future ability: will be able to.",
+   "\"After this course\": a future ability: will be able to.",
+   "\"When the new bridge opens\": future possibility: will be able to.",
+   "\"The doctor says … in …\": future ability: will be able to.",
+   "\"If you save money now\": a future result: will be able to.",
+   "\"I'm busy\": future, negative: won't be able to.",
+   "\"I'm working\": I can't then: won't be able to.",
+   "\"closed tomorrow\": future, negative: won't be able to.",
+   "\"In ten years\": future ability: will be able to.",
+   "\"When you're eighteen\": future ability: will be able to.",
+   "\"since we moved\": ability up to now: have been able to.",
+   "\"since she came\": no success up to now: hasn't been able to.",
+   "\"because of the snow\" this period: haven't been able to.",
+   "\"My phone is broken\" all this time: haven't been able to.",
+   "\"Since I started\": ability up to now: have been able to.",
+   "After want, can needs to be: to be able to.",
+   "After would like: to be able to.",
+   "After It's nice: to be able to.",
+   "After hope: to be able to.",
+   "After need: to be able to."
+  ],
+  "build": [
+   "\"I hope … next\": will be able to come.",
+   "\"After this …\": will be able to speak.",
+   "\"When the new … opens\": will be able to drive.",
+   "\"The doctor says … again\": will be able to walk.",
+   "\"If you save now\": will be able to buy.",
+   "\"I'm busy\": won't be able to help.",
+   "\"I'm at the …\" on Saturday: won't be able to come.",
+   "\"closed tomorrow\": won't be able to buy.",
+   "\"since we moved\": have been able to sleep.",
+   "\"since she came\": hasn't been able to find.",
+   "\"because of the snow\": haven't been able to visit.",
+   "\"My phone is broken\": haven't been able to call.",
+   "\"Since we got the new …\": every day up to now: have been able to finish.",
+   "After want: to be able to speak.",
+   "After would like: to be able to play.",
+   "After hope: to be able to travel.",
+   "After need: to be able to swim.",
+   "After might, no will: be able to help.",
+   "After might, no will: be able to meet.",
+   "\"Next year\": will be able to read."
+  ],
+  "transform": [
+   "Two modals can't go together: will can → will be able to.",
+   "will can is wrong: will be able to.",
+   "No haven't could: haven't been able to.",
+   "After want: to be able to, not can.",
+   "After might: be able to, not can.",
+   "It will be possible → will be able to.",
+   "won't be possible → won't be able to.",
+   "In a year (future): will be able to.",
+   "will be possible → will be able to.",
+   "\"Maybe next week\": not today: won't be able to.",
+   "hasn't been possible → haven't been able to.",
+   "Since May, no … up to now: hasn't been able to.",
+   "has been possible → have been able to.",
+   "They wanted to but never could: haven't been able to.",
+   "Since the …, it's easy now: has been able to."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

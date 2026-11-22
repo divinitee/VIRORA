@@ -73,7 +73,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "His parents want ______ {subject} at university.",
+  "prompt": "His parents want ______ {subject} at {where}.",
   "options": [
    "him studying",
    "him study",
@@ -88,6 +88,12 @@ export default [
     "law",
     "economics",
     "IT"
+   ],
+   "where": [
+    "university",
+    "college",
+    "school",
+    "night school"
    ]
   }
  },
@@ -131,7 +137,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Everyone at the {event} wanted ______ a song.",
+  "prompt": "{grp} at the {event} wanted ______ a song.",
   "options": [
    "her to sing",
    "that she sing",
@@ -146,6 +152,12 @@ export default [
     "party",
     "concert",
     "dinner"
+   ],
+   "grp": [
+    "Everyone",
+    "The guests",
+    "My friends",
+    "All the children"
    ]
   }
  },
@@ -221,7 +233,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Our school wants ______ a {uniform} every day.",
+  "prompt": "Our school wants ______ a {uniform} every {per}.",
   "options": [
    "us wear",
    "us to wear",
@@ -236,6 +248,12 @@ export default [
     "white shirt",
     "tie",
     "blue jacket"
+   ],
+   "per": [
+    "day",
+    "Monday",
+    "week",
+    "term"
    ]
   }
  },
@@ -247,7 +265,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The doctor wants ______ in bed for {n} days.",
+  "prompt": "The doctor wants ______ in {where} for {n} days.",
   "options": [
    "him to stay",
    "that he stay",
@@ -262,6 +280,12 @@ export default [
     "two",
     "five",
     "four"
+   ],
+   "where": [
+    "bed",
+    "hospital",
+    "his room",
+    "the clinic"
    ]
   }
  },
@@ -337,7 +361,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Her brothers always want ______ {food} for them.",
+  "prompt": "Her {rel} always want ______ {food} for them.",
   "options": [
    "her cook",
    "her to cook",
@@ -352,6 +376,12 @@ export default [
     "manti",
     "soup",
     "samsa"
+   ],
+   "rel": [
+    "brothers",
+    "sisters",
+    "cousins",
+    "friends"
    ]
   }
  },
@@ -395,7 +425,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Mum wants ______ their {room} before the guests come.",
+  "prompt": "Mum wants ______ their {room} before the {who2} come.",
   "options": [
    "that they clean",
    "them cleaning",
@@ -410,6 +440,12 @@ export default [
     "toys",
     "desks",
     "shoes"
+   ],
+   "who2": [
+    "guests",
+    "visitors",
+    "cousins",
+    "neighbours"
    ]
   }
  },
@@ -453,7 +489,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "His wife doesn't want ______ at night on the {road}.",
+  "prompt": "His wife doesn't want ______ at {time} on the {road}.",
   "options": [
    "him drive",
    "him to drive",
@@ -468,6 +504,12 @@ export default [
     "mountain road",
     "ring road",
     "old road"
+   ],
+   "time": [
+    "night",
+    "rush hour",
+    "weekends",
+    "midnight"
    ]
   }
  },
@@ -511,7 +553,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "Our cousins in {city} want ______ them in summer.",
+  "prompt": "Our cousins in {city} want ______ them in {season}.",
   "options": [
    "that we visit",
    "us visiting",
@@ -526,6 +568,12 @@ export default [
     "Andijan",
     "Nukus",
     "Termez"
+   ],
+   "season": [
+    "summer",
+    "spring",
+    "winter",
+    "the holidays"
    ]
   }
  },
@@ -656,7 +704,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
-  "source": "His dad wants ______ (he / study) {subject}.",
+  "source": "His {rel} wants ______ (he / study) {subject}.",
   "key": "him to study",
   "why": "want / would like + the person as an object (him, not he) + to + base: him to study.",
   "slots": {
@@ -665,6 +713,12 @@ export default [
     "law",
     "economics",
     "IT"
+   ],
+   "rel": [
+    "dad",
+    "mum",
+    "uncle",
+    "grandpa"
    ]
   }
  },
@@ -704,7 +758,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
-  "source": "The guests wanted ______ (she / sing) at the {event}.",
+  "source": "The {grp} wanted ______ (she / sing) at the {event}.",
   "key": "her to sing",
   "why": "want / would like + the person as an object (her, not she) + to + base: her to sing.",
   "slots": {
@@ -713,6 +767,12 @@ export default [
     "party",
     "concert",
     "dinner"
+   ],
+   "grp": [
+    "guests",
+    "children",
+    "teachers",
+    "neighbours"
    ]
   }
  },
@@ -779,7 +839,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
-  "source": "The school wants ______ (we / wear) a {uniform}.",
+  "source": "The {org} wants ______ (we / wear) a {uniform}.",
   "key": "us to wear",
   "why": "want / would like + the person as an object (us, not we) + to + base: us to wear.",
   "slots": {
@@ -788,6 +848,12 @@ export default [
     "white shirt",
     "tie",
     "blue jacket"
+   ],
+   "org": [
+    "school",
+    "college",
+    "club",
+    "company"
    ]
   }
  },
@@ -800,7 +866,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
-  "source": "The doctor wants ______ (he / stay) at home for {n} days.",
+  "source": "The doctor wants ______ (he / stay) at {where} for {n} days.",
   "key": "him to stay",
   "why": "want / would like + the person as an object (him, not he) + to + base: him to stay.",
   "slots": {
@@ -809,6 +875,12 @@ export default [
     "two",
     "five",
     "four"
+   ],
+   "where": [
+    "home",
+    "his aunt's",
+    "the clinic",
+    "his grandma's"
    ]
   }
  },
@@ -875,7 +947,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
-  "source": "Lola's brothers want ______ (she / cook) {food} again.",
+  "source": "Lola's {rel} want ______ (she / cook) {food} again.",
   "key": "her to cook",
   "why": "want / would like + the person as an object (her, not she) + to + base: her to cook.",
   "slots": {
@@ -884,6 +956,12 @@ export default [
     "manti",
     "soup",
     "samsa"
+   ],
+   "rel": [
+    "brothers",
+    "sisters",
+    "cousins",
+    "friends"
    ]
   }
  },
@@ -923,7 +1001,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
-  "source": "Mum wants ______ (they / clean) the {room} now.",
+  "source": "Mum wants ______ (they / clean) the {room} {when}.",
   "key": "them to clean",
   "why": "want / would like + the person as an object (them, not they) + to + base: them to clean.",
   "slots": {
@@ -932,6 +1010,12 @@ export default [
     "garden",
     "car",
     "living room"
+   ],
+   "when": [
+    "now",
+    "today",
+    "tonight",
+    "this morning"
    ]
   }
  },
@@ -971,7 +1055,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
-  "source": "His wife doesn't want ______ (he / drive) on the {road} at night.",
+  "source": "His wife doesn't want ______ (he / drive) on the {road} at {time}.",
   "key": "him to drive",
   "why": "want / would like + the person as an object (him, not he) + to + base: him to drive.",
   "slots": {
@@ -980,6 +1064,12 @@ export default [
     "mountain road",
     "ring road",
     "old road"
+   ],
+   "time": [
+    "night",
+    "rush hour",
+    "weekends",
+    "midnight"
    ]
   }
  },
@@ -1019,7 +1109,7 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Complete with the person + to + verb. The words in brackets are the person and the verb.",
-  "source": "Our cousins want ______ (we / visit) them in {city}.",
+  "source": "Our {who2} want ______ (we / visit) them in {city}.",
   "key": "us to visit",
   "why": "want / would like + the person as an object (us, not we) + to + base: us to visit.",
   "slots": {
@@ -1028,6 +1118,12 @@ export default [
     "Andijan",
     "Nukus",
     "Termez"
+   ],
+   "who2": [
+    "cousins",
+    "friends",
+    "grandparents",
+    "neighbours"
    ]
   }
  },

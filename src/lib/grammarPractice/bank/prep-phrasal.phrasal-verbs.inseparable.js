@@ -1195,7 +1195,7 @@ export default [
    "over",
    "it"
   ],
-  "why": "got over it: inseparable.",
+  "why": "get over stays together; it goes after: over it.",
   "slots": {
    "city": [
     "Moscow",
@@ -1287,7 +1287,7 @@ export default [
    "after",
    "it"
   ],
-  "why": "looks after it: inseparable.",
+  "why": "look after stays together: after it, never look it after.",
   "slots": {
    "animal": [
     "dog",
@@ -1349,7 +1349,7 @@ export default [
    "across",
    "them"
   ],
-  "why": "came across them: inseparable.",
+  "why": "come across stays together: across them, never came them across.",
   "slots": {
    "thing": [
     "photos",

@@ -122,5 +122,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/passive-causative.modal-passive.modal-be-pp.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "A rule, someone signs it: must be signed.",
+   "\"don't throw them away\": possible: can be recycled.",
+   "Advice, someone keeps it: should be kept.",
+   "\"next year\": future passive: will be finished.",
+   "\"if it rains\": maybe: might be cancelled.",
+   "\"I need a new one\": impossible: can't be fixed.",
+   "Advice before eating: should be washed.",
+   "\"by the first of the month\": necessary: has to be paid.",
+   "\"tomorrow\": future passive: will be sent.",
+   "Possible to see from the window: can be seen.",
+   "A future rule, negative: won't be allowed.",
+   "Advice when you leave: should be turned off.",
+   "\"because of the snow\": maybe: might be delayed.",
+   "Possible in two ways: can be bought.",
+   "Future plan: will be held.",
+   "Advice not to: shouldn't be left.",
+   "\"before winter\": necessary: has to be repaired.",
+   "\"without a key\": impossible: can't be opened.",
+   "On a future day: will be announced.",
+   "\"next month\": maybe: might be sold."
+  ],
+  "build": [
+   "should + be + kept (keep → kept).",
+   "can + be + recycled.",
+   "will + be + finished.",
+   "might + be + postponed.",
+   "can't + be + fixed, \"Sorry\".",
+   "must + be + signed by a parent.",
+   "will + be + sent (send → sent).",
+   "can + be + seen (see → seen).",
+   "won't + be + allowed.",
+   "should + be + turned off.",
+   "might + be + delayed.",
+   "can + be + bought (buy → bought).",
+   "will + be + held (hold → held).",
+   "shouldn't + be + left (leave → left).",
+   "can't + be + opened without a code.",
+   "will + be + announced.",
+   "might + be + sold (sell → sold).",
+   "should + be + cleaned every day.",
+   "can't + be + used (no longer possible).",
+   "must + be + paid (pay → paid)."
+  ],
+  "transform": [
+   "You can recycle → can be recycled.",
+   "They will finish → will be finished.",
+   "You should keep → should be kept.",
+   "They might postpone → might be postponed.",
+   "Nobody can fix → can't be fixed.",
+   "be is missing: can be recycled.",
+   "Past participle: held, not hold.",
+   "After can't use be, not been.",
+   "be is missing: should be washed.",
+   "Past participle: paid, not pay.",
+   "It's possible → can be seen.",
+   "It's a good idea → should be watered.",
+   "They are going to announce → will be announced.",
+   "Maybe they will sell → might be sold.",
+   "It's not possible → can't be used."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

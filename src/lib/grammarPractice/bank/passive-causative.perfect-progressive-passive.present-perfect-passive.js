@@ -17,7 +17,7 @@ export default [
    "has being stolen"
   ],
   "key": 0,
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "\"I can't find it\": a result now, done by someone: has been stolen.",
   "slots": {
    "thing": [
     "bike",
@@ -49,7 +49,7 @@ export default [
    "has been built"
   ],
   "key": 3,
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "\"this year\", up to now, one … : has been built.",
   "slots": {
    "place": [
     "library",
@@ -81,7 +81,7 @@ export default [
    "has cancelled"
   ],
   "key": 2,
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "Result now, one …: has been cancelled.",
   "slots": {
    "event": [
     "match",
@@ -113,7 +113,7 @@ export default [
    "is been repaired"
   ],
   "key": 1,
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "\"We can use it again\": result now: has been repaired.",
   "slots": {
    "thing": [
     "lift",
@@ -145,7 +145,7 @@ export default [
    "has being painted"
   ],
   "key": 0,
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "\"Do you like it?\": result now: has been painted.",
   "slots": {
    "room": [
     "room",
@@ -177,7 +177,7 @@ export default [
    "has been sold"
   ],
   "key": 3,
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "\"Come back tomorrow\": none left now: has been sold.",
   "slots": {
    "thing": [
     "ticket",
@@ -209,7 +209,7 @@ export default [
    "has found"
   ],
   "key": 2,
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "\"Good news!\": result now, one pet: has been found.",
   "slots": {
    "pet": [
     "dog",
@@ -241,7 +241,7 @@ export default [
    "is been sent"
   ],
   "key": 1,
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "It is in your inbox now: has been sent.",
   "slots": {
    "doc": [
     "ticket",
@@ -273,7 +273,7 @@ export default [
    "has being invited"
   ],
   "key": 0,
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "Our class is one group: has been invited.",
   "slots": {
    "event": [
     "concert",
@@ -305,7 +305,7 @@ export default [
    "has been cleaned"
   ],
   "key": 3,
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "\"You can go in now\": has been cleaned.",
   "slots": {
    "room": [
     "kitchen",
@@ -337,7 +337,7 @@ export default [
    "has repaired"
   ],
   "key": 2,
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "\"You can pick it up now\": has been repaired.",
   "slots": {
    "thing": [
     "shoes",
@@ -369,7 +369,7 @@ export default [
    "is been broken"
   ],
   "key": 1,
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "\"again\", broken now: has been broken.",
   "slots": {
    "room": [
     "kitchen",
@@ -401,7 +401,7 @@ export default [
    "has been sold"
   ],
   "key": 0,
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "Plural, \"none left\": have been sold.",
   "slots": {
    "thing": [
     "tickets",
@@ -433,7 +433,7 @@ export default [
    "have been told"
   ],
   "key": 3,
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "Plural people: have been told.",
   "slots": {
    "who": [
     "students",
@@ -465,7 +465,7 @@ export default [
    "have built"
   ],
   "key": 2,
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "Plural \"Two new …\": have been built.",
   "slots": {
    "thing": [
     "houses",
@@ -497,7 +497,7 @@ export default [
    "are been sent"
   ],
   "key": 1,
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "Plural \"The emails\": have been sent.",
   "slots": {
    "who": [
     "students",
@@ -529,7 +529,7 @@ export default [
    "has been washed"
   ],
   "key": 0,
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "\"They're clean now\": plural: have been washed.",
   "slots": {
    "thing": [
     "shirts",
@@ -561,7 +561,7 @@ export default [
    "have been put"
   ],
   "key": 3,
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "Plural \"results\": have been put.",
   "slots": {
    "event": [
     "exam",
@@ -593,7 +593,7 @@ export default [
    "have planted"
   ],
   "key": 2,
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "Plural \"trees\": have been planted.",
   "slots": {
    "place": [
     "park",
@@ -625,7 +625,7 @@ export default [
    "are been sent"
   ],
   "key": 1,
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "Plural \"The children\": have been sent.",
   "slots": {
    "weather": [
     "snow",
@@ -652,7 +652,7 @@ export default [
   "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
   "source": "My {thing} ______ (steal), {name}.",
   "key": "has been stolen",
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "steal → stolen: has been stolen.",
   "slots": {
    "thing": [
     "bike",
@@ -679,7 +679,7 @@ export default [
   "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
   "source": "A new {place} ______ (build) near us, {name}.",
   "key": "has been built",
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "build → built: has been built.",
   "slots": {
    "place": [
     "library",
@@ -706,7 +706,7 @@ export default [
   "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
   "source": "The {event} ______ (postpone) until May, {name}.",
   "key": "has been postponed",
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "\"until May\": has been postponed.",
   "slots": {
    "event": [
     "match",
@@ -733,7 +733,7 @@ export default [
   "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
   "source": "The {thing} ______ (repair) at last, {name}.",
   "key": "has been repaired",
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "\"at last\": has been repaired.",
   "slots": {
    "thing": [
     "lift",
@@ -760,7 +760,7 @@ export default [
   "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
   "source": "Your {room} ______ (paint) blue, {name}.",
   "key": "has been painted",
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "paint → painted, one thing: has been painted.",
   "slots": {
    "room": [
     "room",
@@ -787,7 +787,7 @@ export default [
   "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
   "source": "Your {pet} ______ (find), {name}!",
   "key": "has been found",
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "find → found: has been found.",
   "slots": {
    "pet": [
     "dog",
@@ -814,7 +814,7 @@ export default [
   "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
   "source": "Our class ______ (invite) to the {event}, {name}.",
   "key": "has been invited",
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "Our class (one group): has been invited.",
   "slots": {
    "event": [
     "concert",
@@ -841,7 +841,7 @@ export default [
   "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
   "source": "The {room} ______ (clean). You can go in, {name}.",
   "key": "has been cleaned",
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "\"You can go in\": has been cleaned.",
   "slots": {
    "room": [
     "kitchen",
@@ -868,7 +868,7 @@ export default [
   "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
   "source": "Your {thing} ______ (check). It's fine now, {name}.",
   "key": "has been checked",
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "\"It's fine now\": has been checked.",
   "slots": {
    "thing": [
     "car",
@@ -895,7 +895,7 @@ export default [
   "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
   "source": "All the {thing} ______ (sell), {name}.",
   "key": "have been sold",
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "sell → sold, plural: have been sold.",
   "slots": {
    "thing": [
     "tickets",
@@ -922,7 +922,7 @@ export default [
   "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
   "source": "The {who} ______ (tell) about the change, {name}.",
   "key": "have been told",
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "tell → told, plural: have been told.",
   "slots": {
    "who": [
     "students",
@@ -949,7 +949,7 @@ export default [
   "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
   "source": "Two new {thing} ______ (build) in our street, {name}.",
   "key": "have been built",
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "build → built, plural: have been built.",
   "slots": {
    "thing": [
     "houses",
@@ -976,7 +976,7 @@ export default [
   "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
   "source": "My {thing} ______ (wash). They're clean now, {name}.",
   "key": "have been washed",
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "\"They're clean now\": have been washed.",
   "slots": {
    "thing": [
     "shirts",
@@ -1003,7 +1003,7 @@ export default [
   "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
   "source": "Hundreds of trees ______ (plant) in the {place}, {name}.",
   "key": "have been planted",
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "trees are plural: have been planted.",
   "slots": {
    "place": [
     "park",
@@ -1030,7 +1030,7 @@ export default [
   "instr": "Complete with has been or have been + the past participle of the verb in brackets.",
   "source": "The children ______ (send) home because of the {weather}, {name}.",
   "key": "have been sent",
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "send → sent, plural: have been sent.",
   "slots": {
    "weather": [
     "snow",
@@ -1060,7 +1060,7 @@ export default [
    "has",
    "been sent"
   ],
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "already goes between has and been sent.",
   "slots": {
    "doc": [
     "report",
@@ -1090,7 +1090,7 @@ export default [
    "has",
    "been delivered"
   ],
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "just goes between has and been delivered.",
   "slots": {
    "thing": [
     "parcel",
@@ -1120,7 +1120,7 @@ export default [
    "Has",
    "been cleaned"
   ],
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "Question: Has … been cleaned?",
   "slots": {
    "room": [
     "kitchen",
@@ -1150,7 +1150,7 @@ export default [
    "has",
    "been chosen"
   ],
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "choose → chosen: has … been chosen.",
   "slots": {
    "who": [
     "captain",
@@ -1180,7 +1180,7 @@ export default [
    "have",
    "been sold"
   ],
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "just between have and been sold.",
   "slots": {
    "thing": [
     "tickets",
@@ -1208,7 +1208,7 @@ export default [
   "source": "Someone has stolen my {thing}, {name}.",
   "hint": "My {thing} ______, {name}.",
   "key": "has been stolen",
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "Someone has stolen → has been stolen.",
   "slots": {
    "thing": [
     "bike",
@@ -1236,7 +1236,7 @@ export default [
   "source": "They have built a new {place} near us, {name}.",
   "hint": "A new {place} ______ near us, {name}.",
   "key": "has been built",
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "They have built → has been built.",
   "slots": {
    "place": [
     "library",
@@ -1264,7 +1264,7 @@ export default [
   "source": "Someone has broken the window in the {room}, {name}.",
   "hint": "The window in the {room} ______, {name}.",
   "key": "has been broken",
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "Someone has broken → has been broken.",
   "slots": {
    "room": [
     "kitchen",
@@ -1292,7 +1292,7 @@ export default [
   "source": "They have sold all the {thing}, {name}.",
   "hint": "All the {thing} ______, {name}.",
   "key": "have been sold",
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "They have sold (plural) → have been sold.",
   "slots": {
    "thing": [
     "tickets",
@@ -1320,7 +1320,7 @@ export default [
   "source": "Somebody has found your {pet}, {name}!",
   "hint": "Your {pet} ______, {name}!",
   "key": "has been found",
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "Somebody has found → has been found.",
   "slots": {
    "pet": [
     "dog",
@@ -1348,7 +1348,7 @@ export default [
   "source": "My {thing} has stolen, {name}.",
   "hint": "My {thing} ______, {name}.",
   "key": "has been stolen",
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "been is missing: has been stolen.",
   "slots": {
    "thing": [
     "bike",
@@ -1376,7 +1376,7 @@ export default [
   "source": "The {event} has been postpone, {name}.",
   "hint": "The {event} ______, {name}.",
   "key": "has been postponed",
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "Past participle: postponed, not postpone.",
   "slots": {
    "event": [
     "match",
@@ -1404,7 +1404,7 @@ export default [
   "source": "The {who} have being told about it, {name}.",
   "hint": "The {who} ______ about it, {name}.",
   "key": "have been told",
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "have + been, not being: have been told.",
   "slots": {
    "who": [
     "students",
@@ -1432,7 +1432,7 @@ export default [
   "source": "A new {place} is been built near us, {name}.",
   "hint": "A new {place} ______ near us, {name}.",
   "key": "has been built",
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "Present perfect: has been, not is been.",
   "slots": {
    "place": [
     "library",
@@ -1460,7 +1460,7 @@ export default [
   "source": "The letters has been sent to the {who}, {name}.",
   "hint": "The letters ______ to the {who}, {name}.",
   "key": "have been sent",
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "Plural letters: have been, not has.",
   "slots": {
    "who": [
     "students",
@@ -1491,7 +1491,7 @@ export default [
    "has",
    "been cleaned"
   ],
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "have already cleaned → has already been cleaned.",
   "slots": {
    "room": [
     "kitchen",
@@ -1522,7 +1522,7 @@ export default [
    "has",
    "been repaired"
   ],
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "has just repaired → has just been repaired.",
   "slots": {
    "thing": [
     "lift",
@@ -1553,7 +1553,7 @@ export default [
    "Has",
    "been sent"
   ],
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "Have they sent? → Has … been sent?",
   "slots": {
    "doc": [
     "report",
@@ -1584,7 +1584,7 @@ export default [
    "have",
    "been told"
   ],
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "have already told → have already been told.",
   "slots": {
    "who": [
     "students",
@@ -1615,7 +1615,7 @@ export default [
    "has",
    "been painted"
   ],
-  "why": "News or a result now, and we don't say who did it: has / have been + past participle.",
+  "why": "has just painted → has just been painted.",
   "slots": {
    "thing": [
     "door",

@@ -6,277 +6,277 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 1. **Timur** helps **Madina** with maths, and **Madina** helps him with English. They help ______.  
    options: ✔ each other · themselves · them · each others  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: He helps her and she helps him: each other.
 
 2. The two sisters live in **Tashkent** and **Samarkand**. They phone ______ every **evening**.  
    options: themselves · them · each others · ✔ each other  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: Each sister phones the other: each other.
 
 3. **Bobur** and **Olga** met at university and have helped ______ with **everything** ever since.  
    options: them · each others · ✔ each other · themselves  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: Each one helps the other: each other.
 
-4. My best friend and I tell ______ everything, **Madina**.  
+4. My best friend and I tell ______ **secrets**, **Madina**.  
    options: each others · ✔ each other · ourselves · us  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: I tell my friend and my friend tells me: each other.
 
-5. When **Timur** and his cousin meet, they always hug ______.  
+5. When **Timur** and his **friend** meet, they always hug ______.  
    options: ✔ each other · themselves · them · each others  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: Each one hugs the other: each other.
 
-6. The two teams shook hands with ______ after the **game**.  
+6. The two **teams** shook hands with ______ after the **final**.  
    options: themselves · them · each others · ✔ each other  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: Each side shakes the other side's hand: each other.
 
-7. **Jasur** and I sat in silence and looked at ______ **across the table**.  
+7. **Timur** and I sat in silence and looked at ______ **for a long time**.  
    options: us · each others · ✔ each other · ourselves  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: I looked at him and he looked at me: each other.
 
-8. The two brothers don't talk to ______ any more after the **argument**.  
+8. The two **brothers** don't talk to ______ any more after the **argument about money**.  
    options: each others · ✔ each other · themselves · them  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: Neither talks to the other: each other.
 
-9. **Timur** and **Olga** gave ______ presents for **their birthdays**.  
+9. **Bobur** and **Lola** gave ______ presents for **New Year**.  
    options: ✔ each other · themselves · them · each others  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: Each one gave the other a present: each other.
 
-10. My neighbour and I have known ______ for **ten** years.  
+10. My **best friend** and I have known ______ for **ten** years.  
    options: ourselves · us · each others · ✔ each other  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: I know my … and my … knows me: each other.
 
-11. The two girls in the **bus** were shouting at ______.  
+11. The two **girls** in the **shop** were shouting at ______.  
    options: them · each others · ✔ each other · themselves  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: Each girl shouted at the other: each other.
 
-12. We send ______ photos from our trips, **Lola**.  
+12. We send ______ **messages** from our trips, **Lola**.  
    options: each others · ✔ each other · ourselves · us  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: I send to you and you send to me: each other.
 
-13. The players on our team pass the ball to ______ **a lot**.  
+13. The **girls** on our team pass the ball to ______ **a lot**.  
    options: ✔ each other · themselves · them · each others  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: Each player passes to another: each other.
 
-14. The twins often wear ______ clothes, **Olga**.  
+14. The twins often wear ______ **hats**, **Madina**.  
    options: each others · themselves · each others' · ✔ each other's  
-   why: For things that belong to the other person, use each other's: They wear each other's clothes. Never each others.
+   why: … that belong to the other twin: each other's.
 
-15. **Jasur** and his brother know ______ secrets.  
+15. **Timur** and his brother know ______ **secrets**.  
    options: themselves · each others' · ✔ each other's · each others  
-   why: For things that belong to the other person, use each other's: They wear each other's clothes. Never each others.
+   why: … that belong to the other: each other's.
 
-16. The boys fell off their bikes and hurt ______ **last week**.  
+16. The boys fell off their **scooters** and hurt ______ **last week**.  
    options: theirselves · ✔ themselves · each other · them  
-   why: Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.
+   why: Each boy hurt his own body: themselves.
 
-17. The kids burned ______ on the hot **pan** in the kitchen.  
+17. The **boys** burned ______ on the hot **pan** in the kitchen.  
    options: ✔ themselves · each other · them · theirselves  
-   why: Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.
+   why: Each kid burned his or her own hand: themselves.
 
-18. We left the keys inside and locked ______ out of the **flat**, **Kamila**.  
+18. We left the keys inside and locked ______ out of the **flat**, **Olga**.  
    options: our · us · ourself · ✔ ourselves  
-   why: Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.
+   why: We locked our own selves out: ourselves.
 
-19. Behave ______ at Grandma's **party**, children!  
+19. Behave ______ at **Grandpa**'s **wedding**, children!  
    options: you · yourself · ✔ yourselves · each other  
-   why: Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.
+   why: Talking to children, plural you: yourselves.
 
-20. Did we hurt ______ when we slipped on the **stairs**, one after the other? No, we're fine.  
+20. Did we hurt ______ when we **slipped** on the **stairs**, one after the other? No, we're fine.  
    options: ourself · ✔ ourselves · our · us  
-   why: Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.
+   why: Each of us, our own bodies: ourselves.
 
 ## build (20)
 
 1. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
-   **Bobur** and **Madina** write to ______ every **week**.  
+   **Jasur** and **Olga** write to ______ every **evening**.  
    key: each other (also: one another)  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: Each one writes to the other: each other.
 
 2. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
-   My parents have loved ______ for **thirty** years.  
+   My parents have **loved** ______ for **twenty** years.  
    key: each other (also: one another)  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: Each parent loves the other: each other.
 
 3. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
-   The two old friends hugged ______ at the **bus stop**.  
+   The two old **teachers** hugged ______ at the **door**.  
    key: each other (also: one another)  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: Each friend hugged the other: each other.
 
 4. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
-   We sometimes help ______ with our **projects**, **Olga**.  
+   We sometimes help ______ with our **essays**, **Madina**.  
    key: each other (also: one another)  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: I help you and you help me: each other.
 
 5. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
-   **Bobur** and his sister don't understand ______ at all.  
+   **Aziz** and his **sister** don't understand ______ at all.  
    key: each other (also: one another)  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: Neither understands the other: each other.
 
 6. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
-   The students in my group often call ______ in the **morning**.  
+   The students in my group often **call** ______ in the **morning**.  
    key: each other (also: one another)  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: Each student calls another: each other.
 
 7. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
-   The two cats in the **yard** were looking at ______.  
+   The two **dogs** in the **yard** were looking at ______.  
    key: each other (also: one another)  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: Each cat looked at the other: each other.
 
 8. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
-   **Jasur** and **Lola** bought ______ flowers **last night**.  
+   **Bobur** and **Madina** bought ______ flowers **last week**.  
    key: each other (also: one another)  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: Each one bought the other flowers: each other.
 
 9. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
-   My cousin and I see ______ at every **wedding**.  
+   My **uncle** and I see ______ at every **birthday**.  
    key: each other (also: one another)  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: I see my … and my … sees me: each other.
 
 10. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
-   Our two **aunts** don't like ______, so they never visit.  
+   Our two **neighbours** don't like ______, so they never visit.  
    key: each other (also: one another)  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: Neither likes the other: each other.
 
 11. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
-   The two teams thanked ______ after the **match**.  
+   The two teams **greeted** ______ after the **game**.  
    key: each other (also: one another)  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: Each team … the other: each other.
 
 12. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
-   **Jasur** and **Lola** stood and smiled at ______.  
+   **Timur** and **Lola** stood and smiled at ______.  
    key: each other (also: one another)  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: Each one smiled at the other: each other.
 
 13. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
-   We often borrow ______ books, **Olga**.  
+   We often borrow ______ **books**, **Lola**.  
    key: each other's (also: one another's)  
-   why: For things that belong to the other person, use each other's: They wear each other's clothes. Never each others.
+   why: Belonging to the other person: each other's.
 
 14. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
-   **Bobur** and his friend always copy ______ homework.  
+   **Bobur** and his friend always copy ______ **homework**.  
    key: each other's (also: one another's)  
-   why: For things that belong to the other person, use each other's: They wear each other's clothes. Never each others.
+   why: … that belongs to the other: each other's.
 
 15. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
-   The two boys fell on the **stairs** and hurt ______.  
+   The two **players** fell on the **stairs** and hurt ______.  
    key: themselves  
-   why: Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.
+   why: They fell and each one got hurt: themselves.
 
 16. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
-   The children cut ______ on the broken **plate**.  
+   The **girls** cut ______ on the broken **plate**.  
    key: themselves  
-   why: Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.
+   why: Each child cut his or her own hand: themselves.
 
 17. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
-   We locked ______ out of the **car** **yesterday**.  
+   We locked ______ out of the **office** **last week**.  
    key: ourselves  
-   why: Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.
+   why: "We locked … out": the doors shut on us: ourselves.
 
 18. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
-   Behave ______ at the **party**, boys!  
+   Behave ______ at the **museum**, **children**!  
    key: yourselves  
-   why: Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.
+   why: Talking to …, plural you: yourselves.
 
 19. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
-   Did you two burn ______ on the **pot**? Show me your hands.  
+   Did you two burn ______ on the **oven**? Show me your hands.  
    key: yourselves  
-   why: Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.
+   why: "you two": plural you, own hands: yourselves.
 
 20. _Write each other or a -selves word (themselves, ourselves, yourselves)._  
    Did we lock ______ out again, **Olga**? Where are the keys?  
    key: ourselves  
-   why: Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.
+   why: Our own selves locked out: ourselves.
 
 ## transform (15)
 
 1. _Join the two sentences with each other._  
-   **Aziz** helps **Lola**. **Lola** helps **Aziz**.  
-   → **Aziz** and **Lola** help ______.  
+   **Timur** helps **Lola**. **Lola** helps **Timur**.  
+   → **Timur** and **Lola** help ______.  
    key: each other (also: one another)  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: A helps B, B helps A: each other.
 
 2. _Join the two sentences with each other._  
-   My mum calls my aunt. My aunt calls my mum every **Sunday**.  
-   → My mum and my aunt call ______ every **Sunday**.  
+   My mum calls my **sister**. My **sister** calls my mum every **day**.  
+   → My mum and my **sister** call ______ every **day**.  
    key: each other (also: one another)  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: A calls B, B calls A: each other.
 
 3. _Join the two sentences with each other._  
-   **Bobur** looked at **Kamila**. **Kamila** looked at **Bobur**.  
-   → **Bobur** and **Kamila** looked at ______.  
+   **Bobur** looked at **Madina**. **Madina** looked at **Bobur**.  
+   → **Bobur** and **Madina** looked at ______.  
    key: each other (also: one another)  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: A looked at B, B looked at A: each other.
 
 4. _Join the two sentences with each other._  
-   I trust my brother. My brother trusts me, **Lola**.  
-   → My brother and I trust ______, **Lola**.  
+   I trust my **dad**. My **dad** trusts me, **Lola**.  
+   → My **dad** and I trust ______, **Lola**.  
    key: each other (also: one another)  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: I trust him, he trusts me: each other.
 
 5. _Join the two sentences with each other._  
-   **Timur** sent **Lola** a message **last night**. **Lola** sent **Timur** a message too.  
-   → **Timur** and **Lola** sent ______ messages **last night**.  
+   **Aziz** sent **Lola** a message **on Friday**. **Lola** sent **Aziz** a message too.  
+   → **Aziz** and **Lola** sent ______ messages **on Friday**.  
    key: each other (also: one another)  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: A sent B, B sent A: each other.
 
 6. _Correct the mistake._  
-   **Jasur** and **Lola** phone themselves every evening.  
-   → **Jasur** and **Lola** phone ______ every evening.  
+   **Timur** and **Olga** phone themselves every evening.  
+   → **Timur** and **Olga** phone ______ every evening.  
    key: each other (also: one another)  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: Two people phone the other one: each other, not themselves.
 
 7. _Correct the mistake._  
-   We see us every **morning** at **work**.  
-   → We see ______ every **morning** at **work**.  
+   We see us every **Monday** at **work**.  
+   → We see ______ every **Monday** at **work**.  
    key: each other (also: one another)  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: Two-way action: each other, not us.
 
 8. _Correct the mistake._  
-   The two brothers talk to each others **every day**.  
-   → The two brothers talk to ______ **every day**.  
+   The two **cousins** talk to each others **a lot**.  
+   → The two **cousins** talk to ______ **a lot**.  
    key: each other (also: one another)  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: No -s on other: each other.
 
 9. _Correct the mistake._  
-   The twins wear each others clothes, **Madina**.  
-   → The twins wear ______ clothes, **Madina**.  
+   The twins wear each others **clothes**, **Lola**.  
+   → The twins wear ______ **clothes**, **Lola**.  
    key: each other's (also: one another's)  
-   why: For things that belong to the other person, use each other's: They wear each other's clothes. Never each others.
+   why: Belonging: each other's, with 's.
 
 10. _Correct the mistake._  
-   **Aziz** and I helped ourselves with the **project** **last week**.  
-   → **Aziz** and I helped ______ with the **project** **last week**.  
+   **Jasur** and I helped ourselves with the **cooking** **last night**.  
+   → **Jasur** and I helped ______ with the **cooking** **last night**.  
    key: each other (also: one another)  
-   why: A does it to B and B does it to A, so use each other (two words, no -s). themselves would mean each person does it to himself or herself.
+   why: Two-way help: each other, not ourselves.
 
 11. _Correct the mistake._  
-   The boys fell and hurt each other **last week**.  
-   → The boys fell and hurt ______ **last week**.  
+   The **boys** fell and hurt each other **yesterday**.  
+   → The **boys** fell and hurt ______ **yesterday**.  
    key: themselves  
-   why: Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.
+   why: Each boy hurt his own body: themselves, not each other.
 
 12. _Correct the mistake._  
-   We locked us out of the **office**, **Kamila**.  
-   → We locked ______ out of the **office**, **Kamila**.  
+   We locked us out of the **car**, **Madina**.  
+   → We locked ______ out of the **car**, **Madina**.  
    key: ourselves  
-   why: Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.
+   why: We, our own selves: ourselves, not us.
 
 13. _Correct the mistake._  
-   Behave yourself, children! We are at the **library**.  
-   → Behave ______, children! We are at the **library**.  
+   Behave yourself, **girls**! We are at the **hospital**.  
+   → Behave ______, **girls**! We are at the **hospital**.  
    key: yourselves  
-   why: Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.
+   why: Talking to many …: yourselves, not yourself.
 
 14. _Correct the mistake._  
-   The kids burned each other on the hot **oven**.  
-   → The kids burned ______ on the hot **oven**.  
+   The **girls** burned each other on the hot **pan**.  
+   → The **girls** burned ______ on the hot **pan**.  
    key: themselves  
-   why: Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.
+   why: Not one hurting the other: each one burned a hand: themselves.
 
 15. _Correct the mistake._  
-   Did you two hurt you on the **wet floor**?  
-   → Did you two hurt ______ on the **wet floor**?  
+   Did you two hurt you on the **ice**?  
+   → Did you two hurt ______ on the **ice**?  
    key: yourselves  
-   why: Here each person does it to himself or herself (nobody did it to the other), so use themselves / ourselves / yourselves.
+   why: "you two": yourselves, not you.
 
 ## create (8)
 

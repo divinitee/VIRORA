@@ -119,5 +119,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/modals.deduction.might-present.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "\"I'm not sure why\": only a possible reason: might.",
+   "\"or at home\": two possibilities: might.",
+   "\"I'm not sure, but\": a possibility: might.",
+   "\"or a …\": he could be one of two things: might.",
+   "\"I don't know why\": one possible reason: might.",
+   "\"I'm not sure\": it could be his brother's: might.",
+   "\"but I'm not sure\": a guess, not certain: might.",
+   "\"or in the kitchen\": two possible places: might.",
+   "\"Nobody knows why\": a possible reason: might.",
+   "\"I'm not sure\": the cat is one possibility: might.",
+   "\"I'm not sure, but\": she possibly knows: might.",
+   "\"I can't see the number\": only possible: might.",
+   "\"I'm not sure who\": a possibility: might.",
+   "\"Nobody knows where\": one possible place: might.",
+   "\"I don't know\": a student is one possibility: might.",
+   "\"I don't know why\": traffic is a possible reason: might.",
+   "\"I'm not sure why\": a possible reason: might.",
+   "\"I don't know why\": a possible reason: might be watching.",
+   "Not sure where it is: maybe she has it: might.",
+   "\"I'm not sure\": lunch is one possibility: might."
+  ],
+  "build": [
+   "\"I don't know where\": a possibility: might be.",
+   "\"looks dark\": possibly closed: might be.",
+   "She possibly knows: might know.",
+   "\"I'm not sure who\": might be.",
+   "\"looks dry\": possibly needs water: might need.",
+   "\"I can't find\": maybe he has it: might have.",
+   "A possible reason for the delay: might be.",
+   "\"I'm not sure, but\": might like.",
+   "Possibly ill: might be.",
+   "The cat is one possibility: might be.",
+   "\"Call before you go\": possibly not open: might not be.",
+   "\"Don't ask\": possibly he doesn't know: might not know.",
+   "\"Take some food\": possibly no café: might not be.",
+   "\"Bring your own\": possibly they don't have one: might not have.",
+   "\"Don't wait\": possibly not free: might not be.",
+   "Lunch is one possibility: might be.",
+   "\"Ask … first\": possibly he wants to come: might want.",
+   "\"very quiet\": possibly a dead battery: might be.",
+   "\"I'm not sure\": might live.",
+   "A possible reason for the laughing: might be watching."
+  ],
+  "transform": [
+   "Perhaps she is → she might be.",
+   "Maybe he knows → he might know.",
+   "Perhaps it is → it might be.",
+   "Maybe it is → it might be.",
+   "Perhaps it isn't → it might not be.",
+   "might + base verb, no to: might be.",
+   "might + base verb, not is: might be.",
+   "might never takes -s: might be.",
+   "might + base verb, not -ing: might know.",
+   "Negative: might not, never doesn't might.",
+   "Perhaps he is sleeping now → might be sleeping.",
+   "Maybe she is working now → might be working.",
+   "Perhaps they are waiting now → might be waiting.",
+   "Maybe it is raining now → might be raining.",
+   "Perhaps he is driving now → might be driving."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

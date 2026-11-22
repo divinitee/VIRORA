@@ -145,7 +145,7 @@ export default [
    "between"
   ],
   "key": 1,
-  "why": "Trees all around you: through the forest.",
+  "why": "… all around you: through the forest.",
   "slots": {
    "tree": [
     "trees",
@@ -209,7 +209,7 @@ export default [
    "through"
   ],
   "key": 3,
-  "why": "In one side of the door and out the other: through.",
+  "why": "In one side of the … and out the other: through.",
   "slots": {
    "door": [
     "door",
@@ -465,7 +465,7 @@ export default [
    "through"
   ],
   "key": 0,
-  "why": "For two hours beside the sea = following the beach: along.",
+  "why": "For two hours beside the … = following the beach: along.",
   "slots": {
    "thing": [
     "sea",
@@ -593,7 +593,7 @@ export default [
    "through"
   ],
   "key": 0,
-  "why": "In a line beside the road: along.",
+  "why": "In a line beside the …: along.",
   "slots": {
    "road": [
     "canal",
@@ -679,7 +679,7 @@ export default [
   "instr": "Write across, through or along.",
   "source": "The children ran ______ the road to the {place} on the other side, {name}.",
   "key": "across",
-  "why": "\"on the other side\": across.",
+  "why": "They crossed the road to the far side: across.",
   "slots": {
    "place": [
     "shop",
@@ -922,7 +922,7 @@ export default [
   "instr": "Write across, through or along.",
   "source": "We flew ______ the {water} to get to the island, {name}.",
   "key": "across",
-  "why": "From one side of the sea to the other: across.",
+  "why": "From one side of the … to the other: across.",
   "slots": {
    "water": [
     "sea",
@@ -949,7 +949,7 @@ export default [
   "instr": "Write across, through or along.",
   "source": "The old men sat on benches ______ the {path}, {name}.",
   "key": "along",
-  "why": "In a line beside the path: along.",
+  "why": "Benches in a line next to the …: along.",
   "slots": {
    "path": [
     "path",
@@ -1030,7 +1030,7 @@ export default [
   "instr": "Write across, through or along.",
   "source": "We drove ______ the river for {dist} before we found a bridge, {name}.",
   "key": "along",
-  "why": "For ten kilometres beside the river: along.",
+  "why": "For … beside the river: along.",
   "slots": {
    "name": [
     "Nodira",
@@ -1111,7 +1111,7 @@ export default [
   "instr": "Write across, through or along.",
   "source": "It's quicker to go ______ the {place} than round it, {name}.",
   "key": "through",
-  "why": "In one end of the building and out the other: through.",
+  "why": "In one end of the … and out the other: through.",
   "slots": {
    "place": [
     "shopping centre",
@@ -1165,7 +1165,7 @@ export default [
   "instr": "Write across, through or along.",
   "source": "The cat jumped in ______ the kitchen {window} and ate the fish, {name}.",
   "key": "through",
-  "why": "In one side of the window: through.",
+  "why": "In one side of the …: through.",
   "slots": {
    "window": [
     "window",
@@ -1193,7 +1193,7 @@ export default [
   "source": "We swam from one side of the {water} to the other, {name}.",
   "hint": "We swam ______ the {water}, {name}.",
   "key": "across",
-  "why": "from one side to the other = across.",
+  "why": "Swimming to the far side of the … = across.",
   "slots": {
    "water": [
     "river",
@@ -1221,7 +1221,7 @@ export default [
   "source": "The dog ran from one side of the road to the other, {name}. A {car} had to stop.",
   "hint": "The dog ran ______ the road, {name}. A {car} had to stop.",
   "key": "across",
-  "why": "from one side to the other = across.",
+  "why": "Running to the far side of the road = across.",
   "slots": {
    "car": [
     "car",
@@ -1249,7 +1249,7 @@ export default [
   "source": "We sailed from one side of the lake to the other in an hour, {name}. The {weather} was perfect.",
   "hint": "We sailed ______ the lake in an hour, {name}. The {weather} was perfect.",
   "key": "across",
-  "why": "from one side to the other = across.",
+  "why": "Sailing to the far side of the lake = across.",
   "slots": {
    "weather": [
     "wind",
@@ -1277,7 +1277,7 @@ export default [
   "source": "The kids ran from one side of the street to the other side, {name}. The {place} was there.",
   "hint": "The kids ran ______ the street, {name}. The {place} was there.",
   "key": "across",
-  "why": "from one side to the other = across.",
+  "why": "Running to the far side of the street = across.",
   "slots": {
    "place": [
     "shop",
@@ -1305,7 +1305,7 @@ export default [
   "source": "The birds fly from one side of the sea to the other every {season}, {name}.",
   "hint": "The birds fly ______ the sea every {season}, {name}.",
   "key": "across",
-  "why": "from one side to the other = across.",
+  "why": "Flying to the far side of the sea = across.",
   "slots": {
    "season": [
     "autumn",
@@ -1361,7 +1361,7 @@ export default [
   "source": "We went into the forest and came out on the other side, {name}. It took {time}.",
   "hint": "We went ______ the forest, {name}. It took {time}.",
   "key": "through",
-  "why": "in one side and out the other = through.",
+  "why": "Into the forest and out the other side = through.",
   "slots": {
    "time": [
     "an hour",
@@ -1389,7 +1389,7 @@ export default [
   "source": "The ball went in one side of the window and out the other, {name}. It was a {game} ball.",
   "hint": "The ball went ______ the window, {name}. It was a {game} ball.",
   "key": "through",
-  "why": "in one side and out the other = through.",
+  "why": "In one side of the window and out = through.",
   "slots": {
    "game": [
     "football",
@@ -1445,7 +1445,7 @@ export default [
   "source": "The light goes in one side of the glass and out the other, {name}. The {room} is bright.",
   "hint": "The light goes ______ the glass, {name}. The {room} is bright.",
   "key": "through",
-  "why": "in one side and out the other = through.",
+  "why": "Light passing in and out of the glass = through.",
   "slots": {
    "room": [
     "kitchen",

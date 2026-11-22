@@ -142,5 +142,283 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/reported-speech.statements.backshift-will.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "'I'll' in a past report: will → would.",
+   "'I'll bring' reported: would bring.",
+   "'will open' reported, and it already happened: would.",
+   "'I'll learn' reported last year: would.",
+   "'We'll help' reported: would.",
+   "'It will rain' reported: would.",
+   "'will go up' reported: would.",
+   "'I'll fix' reported: would.",
+   "'I won't be late' reported: won't → wouldn't.",
+   "'I won't tell' reported: wouldn't.",
+   "'It won't take long' reported: wouldn't.",
+   "'We won't sell' reported: wouldn't.",
+   "tomorrow, seen from later: the next day.",
+   "tomorrow in a past report: the next day.",
+   "next week, seen from later: the following week.",
+   "next week in a past report: the following week.",
+   "tonight, seen from later: that night.",
+   "tonight in a past report: that night.",
+   "today, seen from later: that day.",
+   "today in a past report: that day."
+  ],
+  "build": [
+   "will call in a past report: would call.",
+   "will bring in a past report: would bring.",
+   "will open, and it opened later: would open.",
+   "will learn in a past report: would learn.",
+   "will help in a past report: would help.",
+   "will rain in a past report: would rain.",
+   "will go up, and they did: would go.",
+   "will fix in a past report: would fix.",
+   "will meet in a past report: would meet.",
+   "will win, said before the match: would win.",
+   "won't be in a past report: wouldn't be.",
+   "won't tell in a past report: wouldn't tell.",
+   "won't take in a past report: wouldn't take.",
+   "won't sell, but they sold it: wouldn't sell.",
+   "tomorrow, told later: the next day.",
+   "tomorrow, reported on Monday: the next day.",
+   "next week, told later: the following week.",
+   "tonight, told later: that night.",
+   "today, told later: that day.",
+   "today, reported on Monday: that day."
+  ],
+  "transform": [
+   "I'll help you → she would help me.",
+   "I'll lend you → he would lend me.",
+   "We'll call you → they would call me.",
+   "I won't forget → he wouldn't forget.",
+   "I'll wait → she would wait.",
+   "Past report: will → would.",
+   "Past report: next week → the following week.",
+   "Past report: tomorrow → the next day.",
+   "Past report: won't → wouldn't.",
+   "Past report: tonight → that night.",
+   "I'll … tonight → would … that night.",
+   "We'll … today → would … that day.",
+   "I'll phone … tonight → would phone … that night.",
+   "I'll pay … today → would pay … that day.",
+   "will be tonight → would be that night."
+  ]
+ },
+ "slot": [
+  [
+   "choose",
+   1,
+   "call",
+   "verb",
+   [
+    "call",
+    "visit",
+    "text",
+    "help"
+   ]
+  ],
+  [
+   "choose",
+   5,
+   "move",
+   "task",
+   [
+    "move",
+    "paint",
+    "clean",
+    "pack"
+   ]
+  ],
+  [
+   "choose",
+   7,
+   "June",
+   "month",
+   [
+    "June",
+    "July",
+    "March",
+    "April"
+   ]
+  ],
+  [
+   "choose",
+   11,
+   "month",
+   "period",
+   [
+    "month",
+    "week",
+    "year",
+    "summer"
+   ]
+  ],
+  [
+   "choose",
+   13,
+   "come",
+   "verb",
+   [
+    "come",
+    "call",
+    "visit",
+    "help"
+   ]
+  ],
+  [
+   "choose",
+   15,
+   "visit",
+   "verb",
+   [
+    "visit",
+    "call",
+    "see",
+    "help"
+   ]
+  ],
+  [
+   "choose",
+   17,
+   "phone",
+   "verb",
+   [
+    "phone",
+    "text",
+    "call",
+    "email"
+   ]
+  ],
+  [
+   "choose",
+   20,
+   "pay",
+   "verb",
+   [
+    "pay",
+    "help",
+    "call",
+    "text"
+   ]
+  ],
+  [
+   "build",
+   1,
+   "soon",
+   "when",
+   [
+    "soon",
+    "later",
+    "that evening",
+    "after lunch"
+   ]
+  ],
+  [
+   "build",
+   5,
+   "move",
+   "task",
+   [
+    "move",
+    "paint",
+    "clean",
+    "pack"
+   ]
+  ],
+  [
+   "build",
+   7,
+   "June",
+   "month",
+   [
+    "June",
+    "July",
+    "March",
+    "April"
+   ]
+  ],
+  [
+   "build",
+   13,
+   "month",
+   "period",
+   [
+    "month",
+    "week",
+    "year",
+    "summer"
+   ]
+  ],
+  [
+   "build",
+   15,
+   "come",
+   "verb",
+   [
+    "come",
+    "call",
+    "visit",
+    "help"
+   ]
+  ],
+  [
+   "build",
+   17,
+   "visit",
+   "verb",
+   [
+    "visit",
+    "call",
+    "see",
+    "help"
+   ]
+  ],
+  [
+   "build",
+   18,
+   "phone",
+   "verb",
+   [
+    "phone",
+    "text",
+    "call",
+    "email"
+   ]
+  ],
+  [
+   "build",
+   20,
+   "pay",
+   "verb",
+   [
+    "pay",
+    "help",
+    "call",
+    "text"
+   ]
+  ]
+ ]
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

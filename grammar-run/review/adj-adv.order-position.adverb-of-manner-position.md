@@ -10,7 +10,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 2. Dad closed ______ because the **baby** was asleep, **Zarina**.  
    options: gently the front door · the gently front door · the front gently door · ✔ the front door gently  
-   why: No noise for the baby: closed + the front door + gently.
+   why: No noise for the …: closed + the front door + gently.
 
 3. My **grandpa** plays ______, **Feruza**.  
    options: the beautifully old piano · the old beautifully piano · ✔ the old piano beautifully · beautifully the old piano  
@@ -38,7 +38,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 9. Grandpa carried ______ up the **street**, **Gulnora**.  
    options: ✔ the heavy bags slowly · slowly the heavy bags · the slowly heavy bags · the heavy slowly bags  
-   why: carried + the heavy bags + slowly, then where (up the stairs).
+   why: carried + the heavy bags + slowly, then where (up the …).
 
 10. **Mum** helped ______ with his maths, **Jamshid**.  
    options: patiently her little brother · her patiently little brother · her little patiently brother · ✔ her little brother patiently  

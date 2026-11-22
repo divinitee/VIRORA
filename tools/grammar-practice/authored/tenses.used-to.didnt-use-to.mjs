@@ -152,5 +152,183 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/tenses.used-to.didnt-use-to.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "\"but now I eat it\" means the old dislike is over: didn't use to like.",
+   "\"now she has a cup\" means … is new for her: didn't use to drink.",
+   "\"We bought one last …\": before that, no: didn't use to have.",
+   "\"now he speaks it at work\" is new: didn't use to speak.",
+   "\"Now it's my favourite\" was not true before: didn't use to enjoy.",
+   "\"They moved here … last\": before, they lived far: didn't use to live.",
+   "\"now he needs them\" is new: didn't use to wear.",
+   "\"now I have … every\" is a new habit: didn't use to eat.",
+   "\"now she gets up at …\" is a new habit: didn't use to get up.",
+   "\"now we go there every …\" is new: didn't use to go.",
+   "\"He started last …\": before that, no: didn't use to play.",
+   "\"my … taught me\": before, I couldn't: didn't use to know.",
+   "\"now they watch it every …\" is new: didn't use to watch.",
+   "\"now she walks there every …\" is a new habit: didn't use to walk.",
+   "\"our new home has two\": the old one had none: didn't use to have.",
+   "\"now he plays with them\" is new: didn't use to like.",
+   "\"I practised a lot\" changed it: didn't use to be good.",
+   "\"now she makes it every …\" is new: didn't use to cook.",
+   "\"now they talk on the phone\" is new: didn't use to talk.",
+   "\"now I read one every …\" is a new habit: didn't use to read."
+  ],
+  "build": [
+   "\"As a child\" against \"Now I love it\": didn't use to like.",
+   "\"They got one last …\": before that, no phone: didn't use to have.",
+   "\"He learned last …\": before that, no driving: didn't use to drive.",
+   "\"now she eats … every week\" is new: didn't use to eat.",
+   "\"Now we visit … every week\" is new: didn't use to go out.",
+   "\"now he speaks it\" is new: didn't use to speak.",
+   "\"now I work hard\" is new: didn't use to study hard.",
+   "\"Now there are … everywhere\": it was quiet before: didn't use to be.",
+   "\"Now he wears one every …\" is new: didn't use to wear.",
+   "\"Now they never miss it\" is new: didn't use to watch.",
+   "\"Her … taught her last …\": before that, no chess: didn't use to play.",
+   "\"now we visit them\" is new: didn't use to know.",
+   "\"now … works on Saturdays\" is new: didn't use to work.",
+   "\"now I'm on it every …\" is new: didn't use to take.",
+   "\"now he makes …\" is new: didn't use to cook.",
+   "\"now she sleeps all night\" is new: didn't use to sleep.",
+   "\"now we talk every …\" is new: didn't use to call.",
+   "\"now he rides one every …\" is new: didn't use to ride.",
+   "\"last … it became my favourite\": not before: didn't use to enjoy.",
+   "\"Now we go there every …\" is new: didn't use to visit."
+  ],
+  "transform": [
+   "Make the old habit negative: used to like → didn't use to like.",
+   "Negative of used to go: didn't use to go (no -d after did).",
+   "Negative of used to have: didn't use to have.",
+   "Negative of used to eat: didn't use to eat.",
+   "Negative of used to work: didn't use to work.",
+   "After did, write use with no -d: didn't use to like.",
+   "Not \"wasn't used to drink\": a past habit is didn't use to drink.",
+   "\"as children\" is the past, so did, not do: didn't use to visit.",
+   "to is missing: didn't use to cook.",
+   "After use to comes the base verb, not -ing: didn't use to live.",
+   "\"We have one now\", not then: didn't use to have.",
+   "\"He drives one now\", not then: didn't use to drive.",
+   "\"She talks a lot now\", not then: didn't use to speak.",
+   "\"Now we often go\", not then: didn't use to eat out.",
+   "\"I get up at … now\", not then: didn't use to get up."
+  ]
+ },
+ "slot": [
+  [
+   "choose",
+   2,
+   "coffee",
+   "drink",
+   [
+    "coffee",
+    "green tea",
+    "black tea",
+    "hot chocolate"
+   ]
+  ],
+  [
+   "transform",
+   2,
+   "parents",
+   "who",
+   [
+    "parents",
+    "grandparents",
+    "neighbours",
+    "cousins"
+   ]
+  ],
+  [
+   "transform",
+   6,
+   "do",
+   "doit",
+   [
+    "do",
+    "do a lot",
+    "really do",
+    "do every day"
+   ]
+  ],
+  [
+   "choose",
+   14,
+   "",
+   "day",
+   [
+    "afternoon",
+    "evening"
+   ]
+  ],
+  [
+   "choose",
+   15,
+   "",
+   "home",
+   [
+    "building"
+   ]
+  ],
+  [
+   "choose",
+   20,
+   "",
+   "time",
+   [
+    "weekend",
+    "holiday"
+   ]
+  ],
+  [
+   "build",
+   16,
+   "",
+   "who",
+   [
+    "daughter"
+   ]
+  ],
+  [
+   "build",
+   16,
+   "",
+   "room",
+   [
+    "cot"
+   ]
+  ],
+  [
+   "transform",
+   7,
+   "",
+   "day",
+   [
+    "afternoon"
+   ]
+  ]
+ ]
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

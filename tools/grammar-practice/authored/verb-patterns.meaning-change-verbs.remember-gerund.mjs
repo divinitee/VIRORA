@@ -130,5 +130,283 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/verb-patterns.meaning-change-verbs.remember-gerund.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "",
+   "",
+   "",
+   "",
+   "Her first … there is in the past: a memory: remember + -ing (crying).",
+   "",
+   "",
+   "The old … is in the past, so this is a memory of the past: remember + -ing (living).",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "\"In …\" is the past, so this is a memory of the past: remember + -ing (winning)."
+  ],
+  "build": [
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "transform": [
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ "slot": [
+  [
+   "choose",
+   2,
+   "grandpa",
+   "rel",
+   [
+    "grandpa",
+    "grandma",
+    "uncle",
+    "aunt"
+   ]
+  ],
+  [
+   "choose",
+   5,
+   "day",
+   "per",
+   [
+    "day",
+    "morning",
+    "afternoon",
+    "evening"
+   ]
+  ],
+  [
+   "choose",
+   7,
+   "mum",
+   "rel",
+   [
+    "mum",
+    "aunt",
+    "sister",
+    "grandma"
+   ]
+  ],
+  [
+   "choose",
+   10,
+   "summer",
+   "season",
+   [
+    "summer",
+    "spring",
+    "holiday",
+    "weekend"
+   ]
+  ],
+  [
+   "choose",
+   12,
+   "dad",
+   "rel",
+   [
+    "dad",
+    "grandpa",
+    "uncle",
+    "grandma"
+   ]
+  ],
+  [
+   "choose",
+   15,
+   "sister",
+   "rel",
+   [
+    "sister",
+    "cousin",
+    "friend",
+    "brother"
+   ]
+  ],
+  [
+   "choose",
+   18,
+   "son",
+   "kid",
+   [
+    "son",
+    "daughter",
+    "nephew",
+    "little brother"
+   ]
+  ],
+  [
+   "build",
+   4,
+   "grandma",
+   "rel",
+   [
+    "grandma",
+    "mum",
+    "aunt",
+    "great-aunt"
+   ]
+  ],
+  [
+   "build",
+   6,
+   "school",
+   "where",
+   [
+    "school",
+    "college",
+    "university",
+    "summer camp"
+   ]
+  ],
+  [
+   "build",
+   7,
+   "village",
+   "where",
+   [
+    "village",
+    "town",
+    "house",
+    "school"
+   ]
+  ],
+  [
+   "build",
+   11,
+   "brother",
+   "rel",
+   [
+    "brother",
+    "dad",
+    "uncle",
+    "cousin"
+   ]
+  ],
+  [
+   "build",
+   14,
+   "dark",
+   "fear",
+   [
+    "dark",
+    "dogs",
+    "thunder",
+    "sea"
+   ]
+  ],
+  [
+   "build",
+   15,
+   "Grandpa",
+   "rel",
+   [
+    "Grandpa",
+    "Grandma",
+    "My uncle",
+    "My dad"
+   ]
+  ],
+  [
+   "build",
+   18,
+   "airport",
+   "where",
+   [
+    "airport",
+    "station",
+    "bazaar",
+    "hotel"
+   ]
+  ],
+  [
+   "transform",
+   3,
+   "yard",
+   "where",
+   [
+    "yard",
+    "park",
+    "street",
+    "garden"
+   ]
+  ],
+  [
+   "transform",
+   4,
+   "grandpa",
+   "rel",
+   [
+    "grandpa",
+    "grandma",
+    "uncle",
+    "aunt"
+   ]
+  ]
+ ]
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

@@ -17,7 +17,7 @@ export default [
    "the station where is"
   ],
   "key": 0,
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "After Can you tell me: statement order, the station is.",
   "slots": {
    "name": [
     "Aziz",
@@ -49,7 +49,7 @@ export default [
    "how much a ticket costs"
   ],
   "key": 3,
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "After Do you know: no does, so a ticket costs.",
   "slots": {
    "city": [
     "Samarkand",
@@ -81,7 +81,7 @@ export default [
    "what time does the film start"
   ],
   "key": 2,
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "After I don't know: no does, so the film starts.",
   "slots": {
    "name": [
     "Aziz",
@@ -113,7 +113,7 @@ export default [
    "where did you be"
   ],
   "key": 1,
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "After Could you tell me: you were, not were you.",
   "slots": {
    "when": [
     "yesterday",
@@ -145,7 +145,7 @@ export default [
    "why left she"
   ],
   "key": 0,
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "After I wonder: no did, so she left.",
   "slots": {
    "event": [
     "party",
@@ -177,7 +177,7 @@ export default [
    "what his number is"
   ],
   "key": 3,
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "After Do you remember: his number is, not is his number.",
   "slots": {
    "name": [
     "Aziz",
@@ -209,7 +209,7 @@ export default [
    "how do I get to"
   ],
   "key": 2,
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "After Can you tell me: I get, not do I get.",
   "slots": {
    "place": [
     "museum",
@@ -241,7 +241,7 @@ export default [
    "what do we doing"
   ],
   "key": 1,
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "After I'm not sure: we are doing, not are we doing.",
   "slots": {
    "when": [
     "tomorrow",
@@ -273,7 +273,7 @@ export default [
    "where your uncle does live"
   ],
   "key": 0,
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "After Do you know: no does, so your uncle lives.",
   "slots": {
    "city": [
     "Samarkand",
@@ -305,7 +305,7 @@ export default [
    "what happened"
   ],
   "key": 3,
-  "why": "Here the wh-word is the subject, so the order is already wh-word + verb: what happened. No did.",
+  "why": "After Tell me: what happened, normal order.",
   "slots": {
    "name": [
     "Aziz",
@@ -337,7 +337,7 @@ export default [
    "when did you buy"
   ],
   "key": 2,
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "After Could you tell me: no did, so you bought.",
   "slots": {
    "thing": [
     "phone",
@@ -369,7 +369,7 @@ export default [
    "how old does she"
   ],
   "key": 1,
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "After I have no idea: she is, not is she.",
   "slots": {
    "name": [
     "Aziz",
@@ -401,7 +401,7 @@ export default [
    "who he coming with"
   ],
   "key": 0,
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "After Can you ask him: he is coming, not is he coming.",
   "slots": {
    "event": [
     "party",
@@ -433,7 +433,7 @@ export default [
    "how long the trip takes"
   ],
   "key": 3,
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "After Do you know: no does, so the trip takes.",
   "slots": {
    "transport": [
     "bus",
@@ -465,7 +465,7 @@ export default [
    "where did you put"
   ],
   "key": 2,
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "After Please tell me: no did, so you put.",
   "slots": {
    "thing": [
     "keys",
@@ -497,7 +497,7 @@ export default [
    "what said the teacher"
   ],
   "key": 1,
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "After I can't remember: no did, so the teacher said.",
   "slots": {
    "when": [
     "in class",
@@ -529,7 +529,7 @@ export default [
    "how often she does eat"
   ],
   "key": 0,
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "After Can you find out: no does, so she eats.",
   "slots": {
    "food": [
     "meat",
@@ -561,7 +561,7 @@ export default [
    "why your brother is"
   ],
   "key": 3,
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "After Could you explain: your brother is, not is your brother.",
   "slots": {
    "when": [
     "today",
@@ -593,7 +593,7 @@ export default [
    "what are we having"
   ],
   "key": 2,
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "After I'd like to know: we are having, not are we having.",
   "slots": {
    "meal": [
     "lunch",
@@ -625,7 +625,7 @@ export default [
    "what time does the bank"
   ],
   "key": 1,
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "After Can you tell me: the bank is, not is the bank.",
   "slots": {
    "day": [
     "Saturday",
@@ -652,7 +652,7 @@ export default [
   "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
   "source": "Can you tell me where the station ______ (be), {name}? I'm near the {place}.",
   "key": "is",
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "Subject before verb: the station is.",
   "slots": {
    "name": [
     "Aziz",
@@ -679,7 +679,7 @@ export default [
   "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
   "source": "Do you know how much a ticket to {city} ______ (cost) {when}?",
   "key": "costs",
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "No does, so the verb takes -s: costs.",
   "slots": {
    "city": [
     "Samarkand",
@@ -706,7 +706,7 @@ export default [
   "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
   "source": "I don't know what time the film ______ (start) {when}, {name}.",
   "key": "starts",
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "No does, so the verb takes -s: starts.",
   "slots": {
    "when": [
     "every evening",
@@ -733,7 +733,7 @@ export default [
   "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
   "source": "Could you tell me where you ______ (be) {when}, {name}?",
   "key": "were",
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "Past time, and the subject is you: were.",
   "slots": {
    "when": [
     "yesterday",
@@ -760,7 +760,7 @@ export default [
   "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
   "source": "I wonder why she ______ (leave) the {event} so early yesterday, {name}.",
   "key": "left",
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "No did, so the past form: left.",
   "slots": {
    "event": [
     "party",
@@ -787,7 +787,7 @@ export default [
   "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
   "source": "Do you know which street your uncle ______ (live) on in {city}, {name}?",
   "key": "lives",
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "No does, so -s for your uncle: lives.",
   "slots": {
    "city": [
     "Samarkand",
@@ -817,7 +817,7 @@ export default [
   "acceptable": [
    "will take"
   ],
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "No does, so -s for the trip: takes.",
   "slots": {
    "transport": [
     "bus",
@@ -844,7 +844,7 @@ export default [
   "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
   "source": "Please tell me where you ______ (put) the {thing} last night, {name}.",
   "key": "put",
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "No did; put stays put in the past.",
   "slots": {
    "thing": [
     "keys",
@@ -871,7 +871,7 @@ export default [
   "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
   "source": "I can't remember what the teacher ______ (say) {when}, {name}.",
   "key": "said",
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "No did, so the past form: said.",
   "slots": {
    "when": [
     "yesterday",
@@ -898,7 +898,7 @@ export default [
   "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
   "source": "Do you know how often she ______ (go) to the {place} these days, {name}?",
   "key": "goes",
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "\"these days\", she: goes.",
   "slots": {
    "place": [
     "gym",
@@ -925,7 +925,7 @@ export default [
   "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
   "source": "Could you explain why your brother ______ (be) so quiet {when}, {name}?",
   "key": "is",
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "Present, your brother: is.",
   "slots": {
    "when": [
     "today",
@@ -952,7 +952,7 @@ export default [
   "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
   "source": "I'd like to know what time the {shop} ______ (close) every day, {name}.",
   "key": "closes",
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "\"every day\", the shop: closes.",
   "slots": {
    "shop": [
     "bakery",
@@ -979,7 +979,7 @@ export default [
   "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
   "source": "Ask him where he ______ (buy) his {thing} last year, {name}.",
   "key": "bought",
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "\"last year\", no did: bought.",
   "slots": {
    "thing": [
     "bike",
@@ -1006,7 +1006,7 @@ export default [
   "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
   "source": "I have no idea how old {who} ______ (be) now, {name}.",
   "key": "is",
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "\"now\", one person: is.",
   "slots": {
    "who": [
     "your grandmother",
@@ -1036,7 +1036,7 @@ export default [
   "acceptable": [
    "will leave"
   ],
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "Timetable, the next bus: leaves.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1063,7 +1063,7 @@ export default [
   "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
   "source": "Can you tell me what this word ______ (mean) in {lang}, {name}?",
   "key": "means",
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "No does, so -s for this word: means.",
   "slots": {
    "lang": [
     "Russian",
@@ -1090,7 +1090,7 @@ export default [
   "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
   "source": "I'm not sure who ______ (win) the match {when}, {name}.",
   "key": "won",
-  "why": "The wh-word is the subject here, so the verb comes straight after it, in statement form.",
+  "why": "Past, no did: won.",
   "slots": {
    "when": [
     "yesterday",
@@ -1117,7 +1117,7 @@ export default [
   "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
   "source": "Could you tell me how many people ______ (come) to the {event} last {day}?",
   "key": "came",
-  "why": "The wh-word is the subject here, so the verb comes straight after it, in statement form.",
+  "why": "\"last …\", no did: came.",
   "slots": {
    "event": [
     "party",
@@ -1144,7 +1144,7 @@ export default [
   "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
   "source": "Tell me what you ______ (do) {when}, {name}.",
   "key": "did",
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "Past, no did: did (do → did).",
   "slots": {
    "when": [
     "yesterday",
@@ -1171,7 +1171,7 @@ export default [
   "instr": "Write the verb in brackets in the right form. Use statement order: no do / does / did.",
   "source": "Do you remember where we ______ (park) the car {when}, {name}?",
   "key": "parked",
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "Past, no did: parked.",
   "slots": {
    "when": [
     "this morning",
@@ -1199,7 +1199,7 @@ export default [
   "source": "Where does she live in {city}, {name}?",
   "hint": "Could you tell me where ______ in {city}, {name}?",
   "key": "she lives",
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "Where does she live → where she lives.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1227,7 +1227,7 @@ export default [
   "source": "What time does it open on {day}, {name}?",
   "hint": "Do you know what time ______ on {day}, {name}?",
   "key": "it opens",
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "What time does it open → what time it opens.",
   "slots": {
    "day": [
     "Saturday",
@@ -1258,7 +1258,7 @@ export default [
   "acceptable": [
    "they're"
   ],
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "How much are they → how much they are.",
   "slots": {
    "shop": [
     "bazaar",
@@ -1286,7 +1286,7 @@ export default [
   "source": "Where is the toilet in this {place}, {name}?",
   "hint": "Could you tell me where ______ in this {place}, {name}?",
   "key": "the toilet is",
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "Where is the toilet → where the toilet is.",
   "slots": {
    "place": [
     "café",
@@ -1317,7 +1317,7 @@ export default [
   "acceptable": [
    "he's"
   ],
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "Why is he → why he is.",
   "slots": {
    "when": [
     "today",
@@ -1345,7 +1345,7 @@ export default [
   "source": "Where did you buy your {thing}, {name}?",
   "hint": "Can I ask where ______ your {thing}, {name}?",
   "key": "you bought",
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "Where did you buy → where you bought.",
   "slots": {
    "thing": [
     "bag",
@@ -1373,7 +1373,7 @@ export default [
   "source": "What did the doctor say {when}, {name}?",
   "hint": "Can you tell me what ______ {when}, {name}?",
   "key": "the doctor said",
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "What did the doctor say → what the doctor said.",
   "slots": {
    "when": [
     "yesterday",
@@ -1401,7 +1401,7 @@ export default [
   "source": "How can I get to the {place}, {name}?",
   "hint": "Could you tell me how ______ to the {place}, {name}?",
   "key": "I can get",
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "How can I get → how I can get.",
   "slots": {
    "place": [
     "museum",
@@ -1432,7 +1432,7 @@ export default [
   "acceptable": [
    "they'll arrive"
   ],
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "When will they arrive → when they will arrive.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1460,7 +1460,7 @@ export default [
   "source": "Who did you meet at the {event}, {name}?",
   "hint": "Tell me who ______ at the {event}, {name}.",
   "key": "you met",
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "Who did you meet → who you met.",
   "slots": {
    "event": [
     "party",
@@ -1488,7 +1488,7 @@ export default [
   "source": "Can you tell me where is it, {name}? I can't see the {place}.",
   "hint": "Can you tell me where ______, {name}? I can't see the {place}.",
   "key": "it is",
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "After tell me: it is, not is it.",
   "slots": {
    "name": [
     "Aziz",
@@ -1516,7 +1516,7 @@ export default [
   "source": "Do you know what time does the lesson start {when}, {name}?",
   "hint": "Do you know what time ______ {when}, {name}?",
   "key": "the lesson starts",
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "After Do you know: no does, so the lesson starts.",
   "slots": {
    "when": [
     "today",
@@ -1544,7 +1544,7 @@ export default [
   "source": "Can you remember where did I put my {thing}, {name}?",
   "hint": "Can you remember where ______ my {thing}, {name}?",
   "key": "I put",
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "After Can you remember: no did, so I put.",
   "slots": {
    "thing": [
     "keys",
@@ -1572,7 +1572,7 @@ export default [
   "source": "Could you tell me how much costs the ticket to {city}, {name}?",
   "hint": "Could you tell me how much ______ to {city}, {name}?",
   "key": "the ticket costs",
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "Subject first: the ticket costs, not costs the ticket.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1600,7 +1600,7 @@ export default [
   "source": "I wonder why was she late {when}, {name}.",
   "hint": "I wonder why ______ late {when}, {name}.",
   "key": "she was",
-  "why": "Inside another question or sentence, a wh-question uses statement order: wh-word + subject + verb. No do / does / did and no question order.",
+  "why": "After I wonder: she was, not was she.",
   "slots": {
    "when": [
     "yesterday",

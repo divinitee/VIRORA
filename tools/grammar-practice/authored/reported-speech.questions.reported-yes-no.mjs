@@ -139,5 +139,127 @@ for (const it of items) {
   if (extra.length) it.acceptable = [...(it.acceptable || []), ...extra];
 }
 const out = "content/grammar-practice/reported-speech.questions.reported-yes-no.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "'Are you…?' → if + I was (statement order).",
+   "'Do you like…?' → if + I liked, no do.",
+   "'Can you…?' → if + he could.",
+   "'Is the … open?' → if + it was.",
+   "'Have you finished…?' → if + we had finished.",
+   "'Did you see…?' → if + I had seen.",
+   "'Will you come…?' → if + he would.",
+   "'Are you from…?' → if + I was.",
+   "'Do you need…?' → if + I needed.",
+   "'Is it far…?' → if + it was.",
+   "'Do your parents speak…?' → if + they spoke.",
+   "'Are you married?' → if + she was.",
+   "'Can I sit…?' → if + he could.",
+   "'Is your … at home?' → if + she was.",
+   "'Did you lock…?' → if + I had locked.",
+   "'Do you want…?' → if + we wanted.",
+   "'Are your cousins coming?' → if + they were.",
+   "'Has the … left?' → if + it had.",
+   "'Will it rain…?' → if + it would.",
+   "'Can you help me?' → if + I could."
+  ],
+  "build": [
+   "Question are → if, then subject I + was.",
+   "Question do → if, then I + liked (past).",
+   "Question can → if, then he + could.",
+   "Question is → if, then it + was.",
+   "Question have done → if, then we + had.",
+   "Question did see → if, then I + had seen.",
+   "Question will → if, then he + would.",
+   "Question are from → if, then I + was.",
+   "Question do need → if, then I + needed.",
+   "Question is far → if, then it + was.",
+   "Question do speak → if, then they + spoke.",
+   "Question are (to her) → if, then she + was.",
+   "Question can I → if, then he + could.",
+   "Question is (your …) → if, then she + was.",
+   "Question did lock → if, then I + had locked.",
+   "Question do want → if, then we + wanted.",
+   "Question are coming → if, then they + were.",
+   "Question has left → if, then it + had.",
+   "Question can you fix → if, then he + could.",
+   "Question can you help → if, then I + could."
+  ],
+  "transform": [
+   "Are you tired? → if I was tired.",
+   "Do you live? → if I lived.",
+   "Can you drive? → if he could drive.",
+   "Have you been? → if we had been.",
+   "Will you be? → if I would be.",
+   "Add if and use statement order: if I was.",
+   "A yes/no question needs if, not that.",
+   "After if, subject first: if we had.",
+   "After if, no did: if he wanted.",
+   "Add if; subject before could.",
+   "wanted to know + if: if it was.",
+   "Do you have? → if he had.",
+   "Did you pay? → if I had paid.",
+   "Are they ready? → if they were.",
+   "Can we park? → if they could."
+  ]
+ },
+ "slot": [
+  [
+   "transform",
+   8,
+   "finished",
+   "verb",
+   [
+    "finished",
+    "eaten",
+    "started",
+    "left"
+   ]
+  ],
+  [
+   "transform",
+   10,
+   "help",
+   "verb",
+   [
+    "help",
+    "call",
+    "meet",
+    "drive"
+   ]
+  ],
+  [
+   "transform",
+   14,
+   "driver",
+   "boss",
+   [
+    "driver",
+    "guide",
+    "teacher",
+    "coach"
+   ]
+  ]
+ ]
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

@@ -10,7 +10,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 2. We need to ______ the new **timetable** at the meeting, **Sardor**.  
    options: discuss about · discuss on · discuss of · ✔ discuss  
-   why: discuss takes its object straight away: discuss the timetable, no preposition.
+   why: discuss takes its object straight away: discuss the …, no preposition.
 
 3. My grandpa is ______ the old **music** on the radio, **Gulnora**.  
    options: listening on · listening of · ✔ listening to · listening  
@@ -26,11 +26,11 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 6. This **phone** ______ my sister, **Malika**. Please don't take it.  
    options: belongs · belongs of · belongs for · ✔ belongs to  
-   why: belong to + the owner.
+   why: "my sister" is the owner: belongs to.
 
 7. I ______ you, **Nodira**. The **flat** is too expensive.  
    options: agree at · agree of · ✔ agree with · agree  
-   why: agree with + a person.
+   why: "I … you": same opinion as a person: agree with.
 
 8. My cousin ______ a teacher from **Namangan** last summer, **Sardor**.  
    options: married on · ✔ married · married with · married to  
@@ -38,7 +38,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 9. Can I ______ the **cake** with a card, **Nodira**?  
    options: ✔ pay for · pay · pay of · pay on  
-   why: pay for + the thing you buy.
+   why: "with a card": the thing bought is after: pay for.
 
 10. We ______ the bill after dinner at the **chaikhana**, **Zarina**.  
    options: asked · asked of · asked on · ✔ asked for  
@@ -46,23 +46,23 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 11. We finally ______ **Samarkand** at midnight, **Nodira**.  
    options: reached in · reached on · ✔ reached · reached at  
-   why: reach takes its object straight away: reached Samarkand.
+   why: reach takes its object straight away: reached ….
 
 12. The test ______ three parts: **two essays and an interview**, **Malika**.  
    options: consists · ✔ consists of · consists from · consists with  
-   why: consist of + the parts.
+   why: Three parts make the test: consists of.
 
 13. Everybody ______ my funny **hat**, **Akmal**.  
    options: ✔ laughed at · laughed · laughed on · laughed to  
-   why: laugh at + the thing that is funny.
+   why: My funny … made them laugh: laughed at.
 
 14. Please ______ the **hotel** if you have any questions, **Sardor**.  
    options: contact with · contact to · contact at · ✔ contact  
-   why: contact takes its object straight away: contact the teacher.
+   why: contact takes its object straight away: contact the ….
 
 15. You can always ______ your **best friend**, **Gulnora**.  
    options: rely to · rely · ✔ rely on · rely of  
-   why: rely on + the person you trust.
+   why: Your … will always help: rely on.
 
 16. We had to ______ our **tickets** for an hour, **Zarina**.  
    options: search to · ✔ search for · search of · search on  
@@ -70,11 +70,11 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 17. I ______ my brother's **bag** for the trip, **Ulugbek**.  
    options: ✔ borrowed · borrowed with · borrowed to · borrowed by  
-   why: borrow takes the thing straight away: borrowed his bag.
+   why: borrow takes the thing straight away: borrowed his ….
 
 18. The baby ______ me and I **smiled back**, **Sardor**.  
    options: smiled · smiled to · smiled of · ✔ smiled at  
-   why: smile at + the person.
+   why: The baby looked at me happily: smiled at.
 
 19. The **managers** ______ the problem for two hours, **Akmal**.  
    options: discussed on · discussed of · ✔ discussed · discussed about  
@@ -82,14 +82,14 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 20. My uncle ______ terrible headaches in the **summer**, **Malika**.  
    options: suffers · ✔ suffers from · suffers of · suffers on  
-   why: suffer from + the problem.
+   why: Headaches are the problem: suffers from.
 
 ## build (20)
 
 1. _Write the preposition that goes with the verb._  
    The price of the trip depends ______ the **season**, **Akmal**.  
    key: on (also: upon)  
-   why: depend on + the thing that decides.
+   why: The price changes with the …: depends on.
 
 2. _Write the preposition that goes with the verb._  
    My little brother never listens ______ **Dad**, **Sardor**!  
@@ -104,17 +104,17 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 4. _Write the preposition that goes with the verb._  
    Whose **phone** is this? Does it belong ______ you, **Sardor**?  
    key: to  
-   why: belong to + the owner.
+   why: Asking about the owner: belong to.
 
 5. _Write the preposition that goes with the verb._  
    I don't agree ______ my **boss** about the new rules, **Akmal**.  
    key: with  
-   why: agree with + a person.
+   why: Not the same opinion as my …: agree with.
 
 6. _Write the preposition that goes with the verb._  
    My grandpa paid ______ the **piano** in cash, **Otabek**.  
    key: for  
-   why: pay for + the thing you buy.
+   why: "in cash" for the thing bought: paid for.
 
 7. _Write the preposition that goes with the verb._  
    The tourists asked ______ a glass of water in **Bukhara**, **Nodira**.  
@@ -124,12 +124,12 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 8. _Write the preposition that goes with the verb._  
    Our team consists ______ eleven **girls** and a coach, **Sardor**.  
    key: of  
-   why: consist of + the parts.
+   why: Eleven … and a coach make the team: consists of.
 
 9. _Write the preposition that goes with the verb._  
    Please don't laugh ______ my **cake**, **Akmal**. I made it myself.  
    key: at  
-   why: laugh at + the thing that is funny.
+   why: "I made it myself": please don't laugh at.
 
 10. _Write the preposition that goes with the verb._  
    My sister has applied ______ a visa to study in **the UK**, **Otabek**.  
@@ -139,12 +139,12 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 11. _Write the preposition that goes with the verb._  
    You can rely ______ my **friend**, **Akmal**. He's never late.  
    key: on (also: upon)  
-   why: rely on + the person you trust.
+   why: "He's never late": you can rely on.
 
 12. _Write the preposition that goes with the verb._  
    Many people suffer ______ colds in the **autumn**, **Zarina**.  
    key: from (also: with)  
-   why: suffer from + the problem.
+   why: Colds are the problem: suffer from.
 
 13. _Write the preposition that goes with the verb._  
    The **villagers** searched ______ the lost child all night, **Ulugbek**.  
@@ -154,7 +154,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 14. _Write the preposition that goes with the verb._  
    The **waiter** smiled ______ me when I came in, **Zarina**.  
    key: at  
-   why: smile at + the person.
+   why: Looking at me happily: smiled at.
 
 15. _Write the preposition that goes with the verb._  
    Can I borrow some money ______ you, **Nodira**? I left my **card** at home.  
@@ -234,7 +234,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    (consist) The **course** has three parts, **Malika**.  
    → The **course** consists ______ three parts, **Malika**.  
    key: of  
-   why: consist of + the parts.
+   why: has three parts → consists of.
 
 9. _Rewrite with the verb in brackets._  
    (rely) Can I trust the **builders**, **Ulugbek**?  
@@ -246,13 +246,13 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    (suffer) My aunt often has headaches in the **spring**, **Zarina**.  
    → My aunt often suffers ______ headaches in the **spring**, **Zarina**.  
    key: from (also: with)  
-   why: suffer from + the problem.
+   why: often has headaches → suffers from.
 
 11. _Rewrite with the verb in brackets._  
    (smile) The baby saw me and gave a big smile, **Ulugbek**. It was in the **park**.  
    → The baby smiled ______ me, **Ulugbek**. It was in the **park**.  
    key: at  
-   why: smile at + the person.
+   why: gave a big smile → smiled at.
 
 12. _Rewrite with the verb in brackets._  
    (borrow) My brother gave me some money. I'll give it back on **Thursday**, **Zarina**.  
@@ -276,7 +276,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    (depend) My parents are thinking about the price of the **trip**, **Ulugbek**. It decides everything.  
    → Everything depends ______ the price of the **trip**, **Ulugbek**.  
    key: on (also: upon)  
-   why: depend on + the thing that decides.
+   why: It decides everything → depends on.
 
 ## create (8)
 

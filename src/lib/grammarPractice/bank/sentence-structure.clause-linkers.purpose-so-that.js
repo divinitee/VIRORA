@@ -17,7 +17,7 @@ export default [
    "because of"
   ],
   "key": 0,
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "A clause follows (I wouldn't be late): so that.",
   "slots": {
    "thing": [
     "exam",
@@ -49,7 +49,7 @@ export default [
    "so that"
   ],
   "key": 3,
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "A new subject follows (the … can understand): so that.",
   "slots": {
    "who": [
     "children",
@@ -81,7 +81,7 @@ export default [
    "in order to"
   ],
   "key": 2,
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "A new subject follows (we could see): so that.",
   "slots": {
    "thing": [
     "stairs",
@@ -113,7 +113,7 @@ export default [
    "for"
   ],
   "key": 1,
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "A clause with can follows (I can buy): so that.",
   "slots": {
    "thing": [
     "bike",
@@ -145,7 +145,7 @@ export default [
    "because of"
   ],
   "key": 0,
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "A clause with could follows (we could get): so that.",
   "slots": {
    "event": [
     "concert",
@@ -177,7 +177,7 @@ export default [
    "so that"
   ],
   "key": 3,
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "A new subject follows (the … doesn't get wet): so that.",
   "slots": {
    "thing": [
     "carpet",
@@ -209,7 +209,7 @@ export default [
    "in order to"
   ],
   "key": 2,
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "A clause with can follows (she can pass): so that.",
   "slots": {
    "exam": [
     "exam",
@@ -241,7 +241,7 @@ export default [
    "for"
   ],
   "key": 1,
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "A new subject follows (you can read it): so that.",
   "slots": {
    "thing": [
     "file",
@@ -273,7 +273,7 @@ export default [
    "because of"
   ],
   "key": 0,
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "A clause with wouldn't follows: so that.",
   "slots": {
    "thing": [
     "train",
@@ -305,7 +305,7 @@ export default [
    "so that"
   ],
   "key": 3,
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "A new subject follows (it stays fresh): so that.",
   "slots": {
    "food": [
     "milk",
@@ -337,7 +337,7 @@ export default [
    "in order to"
   ],
   "key": 2,
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "A clause with wouldn't follows (we wouldn't wake): so that.",
   "slots": {
    "who": [
     "baby",
@@ -369,7 +369,7 @@ export default [
    "for"
   ],
   "key": 1,
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "A clause with can follows (I can watch): so that.",
   "slots": {
    "lang": [
     "Korean",
@@ -401,7 +401,7 @@ export default [
    "because of"
   ],
   "key": 0,
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "A clause with can follows (he can read): so that.",
   "slots": {
    "thing": [
     "newspaper",
@@ -433,7 +433,7 @@ export default [
    "so that"
   ],
   "key": 3,
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "A clause with can follows (I can hear): so that.",
   "slots": {
    "what": [
     "the TV",
@@ -465,7 +465,7 @@ export default [
    "so that"
   ],
   "key": 2,
-  "why": "A bare verb follows the gap, so use to (or in order to). So that needs a subject and verb; for + verb and for to are wrong.",
+  "why": "Only a verb follows (buy): to.",
   "slots": {
    "food": [
     "bread",
@@ -497,7 +497,7 @@ export default [
    "for"
   ],
   "key": 1,
-  "why": "A bare verb follows the gap, so use to (or in order to). So that needs a subject and verb; for + verb and for to are wrong.",
+  "why": "Only a verb follows (ask): to.",
   "slots": {
    "thing": [
     "homework",
@@ -529,7 +529,7 @@ export default [
    "for to"
   ],
   "key": 0,
-  "why": "A bare verb follows the gap, so use to (or in order to). So that needs a subject and verb; for + verb and for to are wrong.",
+  "why": "Only a verb follows (have): to.",
   "slots": {
    "food": [
     "tea",
@@ -561,7 +561,7 @@ export default [
    "to"
   ],
   "key": 3,
-  "why": "A bare verb follows the gap, so use to (or in order to). So that needs a subject and verb; for + verb and for to are wrong.",
+  "why": "Only a verb follows (save): to.",
   "slots": {
    "thing": [
     "car",
@@ -593,7 +593,7 @@ export default [
    "so that"
   ],
   "key": 2,
-  "why": "A bare verb follows the gap, so use to (or in order to). So that needs a subject and verb; for + verb and for to are wrong.",
+  "why": "Only a verb follows (let): to.",
   "slots": {
    "room": [
     "kitchen",
@@ -625,7 +625,7 @@ export default [
    "for"
   ],
   "key": 1,
-  "why": "A bare verb follows the gap, so use to (or in order to). So that needs a subject and verb; for + verb and for to are wrong.",
+  "why": "Only a verb follows (visit): to.",
   "slots": {
    "city": [
     "Samarkand",
@@ -656,7 +656,7 @@ export default [
    "so",
    "in order that"
   ],
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "A clause follows (I don't forget it): so that.",
   "slots": {
    "thing": [
     "number",
@@ -687,7 +687,7 @@ export default [
    "so",
    "in order that"
   ],
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "A clause follows (you don't get cold): so that.",
   "slots": {
    "when": [
     "in the mountains",
@@ -718,7 +718,7 @@ export default [
    "so",
    "in order that"
   ],
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "A clause follows (we wouldn't miss): so that.",
   "slots": {
    "thing": [
     "bus",
@@ -749,7 +749,7 @@ export default [
    "so",
    "in order that"
   ],
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "A clause follows (we could use it): so that.",
   "slots": {
    "thing": [
     "bike",
@@ -780,7 +780,7 @@ export default [
    "so",
    "in order that"
   ],
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "A clause follows (you don't get wet): so that.",
   "slots": {
    "when": [
     "later",
@@ -811,7 +811,7 @@ export default [
    "so",
    "in order that"
   ],
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "A clause follows (I can get up): so that.",
   "slots": {
    "time": [
     "five",
@@ -842,7 +842,7 @@ export default [
    "so",
    "in order that"
   ],
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "A clause follows (she can win): so that.",
   "slots": {
    "race": [
     "race",
@@ -873,7 +873,7 @@ export default [
    "so",
    "in order that"
   ],
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "A clause follows (we arrive): so that.",
   "slots": {
    "time": [
     "six",
@@ -904,7 +904,7 @@ export default [
    "so",
    "in order that"
   ],
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "A clause follows (we wouldn't eat it): so that.",
   "slots": {
    "food": [
     "cake",
@@ -935,7 +935,7 @@ export default [
    "so",
    "in order that"
   ],
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "A clause follows (I wouldn't lose): so that.",
   "slots": {
    "work": [
     "essay",
@@ -966,7 +966,7 @@ export default [
    "so",
    "in order that"
   ],
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "A clause follows (the people … can hear): so that.",
   "slots": {
    "where": [
     "of the hall",
@@ -997,7 +997,7 @@ export default [
    "so",
    "in order that"
   ],
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "A clause follows (the … can come in): so that.",
   "slots": {
    "pet": [
     "cat",
@@ -1027,7 +1027,7 @@ export default [
   "acceptable": [
    "in order to"
   ],
-  "why": "A bare verb follows the gap, so use to (or in order to). So that needs a subject and verb; for + verb and for to are wrong.",
+  "why": "Just a verb follows (buy): to.",
   "slots": {
    "food": [
     "bread",
@@ -1057,7 +1057,7 @@ export default [
   "acceptable": [
    "in order to"
   ],
-  "why": "A bare verb follows the gap, so use to (or in order to). So that needs a subject and verb; for + verb and for to are wrong.",
+  "why": "Just a verb follows (wish): to.",
   "slots": {
    "day": [
     "birthday",
@@ -1087,7 +1087,7 @@ export default [
   "acceptable": [
    "in order to"
   ],
-  "why": "A bare verb follows the gap, so use to (or in order to). So that needs a subject and verb; for + verb and for to are wrong.",
+  "why": "Just a verb follows (plan): to.",
   "slots": {
    "event": [
     "party",
@@ -1117,7 +1117,7 @@ export default [
   "acceptable": [
    "in order to"
   ],
-  "why": "A bare verb follows the gap, so use to (or in order to). So that needs a subject and verb; for + verb and for to are wrong.",
+  "why": "Just a verb follows (buy a …): to.",
   "slots": {
    "thing": [
     "car",
@@ -1147,7 +1147,7 @@ export default [
   "acceptable": [
    "in order to"
   ],
-  "why": "A bare verb follows the gap, so use to (or in order to). So that needs a subject and verb; for + verb and for to are wrong.",
+  "why": "Just a verb follows (learn): to.",
   "slots": {
    "time": [
     "day",
@@ -1177,7 +1177,7 @@ export default [
   "acceptable": [
    "in order to"
   ],
-  "why": "A bare verb follows the gap, so use to (or in order to). So that needs a subject and verb; for + verb and for to are wrong.",
+  "why": "Just a verb follows (book): to.",
   "slots": {
    "n": [
     "two",
@@ -1201,7 +1201,7 @@ export default [
   "acceptable": [
    "in order to"
   ],
-  "why": "A bare verb follows the gap, so use to (or in order to). So that needs a subject and verb; for + verb and for to are wrong.",
+  "why": "Just a verb follows (walk): to.",
   "slots": {
    "place": [
     "park",
@@ -1231,7 +1231,7 @@ export default [
   "acceptable": [
    "in order to"
   ],
-  "why": "A bare verb follows the gap, so use to (or in order to). So that needs a subject and verb; for + verb and for to are wrong.",
+  "why": "Just a verb follows (let in): to.",
   "slots": {
    "room": [
     "kitchen",
@@ -1263,7 +1263,7 @@ export default [
    "so",
    "in order that"
   ],
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "didn't want to forget → so that I wouldn't forget.",
   "slots": {
    "thing": [
     "address",
@@ -1295,7 +1295,7 @@ export default [
    "so",
    "in order that"
   ],
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "wanted everyone to have → so that everyone would have.",
   "slots": {
    "food": [
     "plov",
@@ -1327,7 +1327,7 @@ export default [
    "so",
    "in order that"
   ],
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "Then … can understand → so that.",
   "slots": {
    "who": [
     "children",
@@ -1359,7 +1359,7 @@ export default [
    "so",
    "in order that"
   ],
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "wanted a good seat → so that we could get.",
   "slots": {
    "event": [
     "concert",
@@ -1391,7 +1391,7 @@ export default [
    "so",
    "in order that"
   ],
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "Then you won't get lost → so that.",
   "slots": {
    "city": [
     "Samarkand",
@@ -1422,7 +1422,7 @@ export default [
   "acceptable": [
    "in order to"
   ],
-  "why": "A bare verb follows the gap, so use to (or in order to). So that needs a subject and verb; for + verb and for to are wrong.",
+  "why": "Purpose + verb: to buy, not for buy.",
   "slots": {
    "food": [
     "bread",
@@ -1453,7 +1453,7 @@ export default [
   "acceptable": [
    "in order to"
   ],
-  "why": "A bare verb follows the gap, so use to (or in order to). So that needs a subject and verb; for + verb and for to are wrong.",
+  "why": "Purpose + verb: to see, not for to see.",
   "slots": {
    "who": [
     "grandparents",
@@ -1485,7 +1485,7 @@ export default [
    "so",
    "in order that"
   ],
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "in order to needs a verb, not a clause: so that.",
   "slots": {
    "when": [
     "for school",
@@ -1517,7 +1517,7 @@ export default [
    "so",
    "in order that"
   ],
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "for can't start a clause: so that.",
   "slots": {
    "pet": [
     "cat",
@@ -1549,7 +1549,7 @@ export default [
    "so",
    "in order that"
   ],
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "because of needs a noun, not a clause: so that.",
   "slots": {
    "who": [
     "baby",
@@ -1580,7 +1580,7 @@ export default [
    "so that",
    "can"
   ],
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "to pass → so that I can pass.",
   "slots": {
    "exam": [
     "exam",
@@ -1611,7 +1611,7 @@ export default [
    "so that",
    "could"
   ],
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "Past: to buy → so that she could buy.",
   "slots": {
    "thing": [
     "bike",
@@ -1642,7 +1642,7 @@ export default [
    "so that",
    "could"
   ],
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "Past: to see → so that we could see.",
   "slots": {
    "view": [
     "sunrise",
@@ -1673,7 +1673,7 @@ export default [
    "so that",
    "can"
   ],
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "Present: to talk → so that he can talk.",
   "slots": {
    "lang": [
     "Korean",
@@ -1704,7 +1704,7 @@ export default [
    "so that",
    "could"
   ],
-  "why": "A full clause (subject + verb) follows the gap and says why, so use so that. In order to and to need a bare verb; for and because of can't start a clause.",
+  "why": "Past: to remember → so that I could remember.",
   "slots": {
    "thing": [
     "homework",

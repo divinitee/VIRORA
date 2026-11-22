@@ -142,5 +142,109 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/tenses.perfect.perfect-vs-past.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "A finished time word at the end: past simple saw.",
+   "\"in\" + a year is finished time: past simple went.",
+   "\"three days ago\" is finished time: past simple bought.",
+   "A finished time word: past simple met.",
+   "A finished time word: past simple lost.",
+   "\"an hour ago\" is finished time: past simple called.",
+   "\"when I was …\" is finished time: past simple learned.",
+   "\"last …\" is finished time: past simple won.",
+   "\"at six yesterday\" is finished time: past simple finished.",
+   "A finished time word and the visit is over: visited.",
+   "\"when he was …\" is finished time: past simple broke.",
+   "\"… years ago\" is finished time: past simple moved.",
+   "\"since\" + a year and I still live here: have lived.",
+   "\"since she was twenty\" and still there: has worked.",
+   "\"So far this year\" is unfinished time: have read.",
+   "\"for … years\" and still friends: have known.",
+   "\"since …\" and still ill: has been.",
+   "\"since I was a baby\" and it still works: have had.",
+   "\"Up to now … this season\" is unfinished: has scored.",
+   "\"for … years\" and still going to lessons: have studied."
+  ],
+  "build": [
+   "\"at the bazaar\" + a finished time word: saw.",
+   "\"last season\" is finished time: went.",
+   "\"ten minutes ago\" is finished time: started.",
+   "\"in\" + a year is finished: wrote.",
+   "A finished time word: ate.",
+   "A finished time word: was.",
+   "A finished time word: passed.",
+   "\"at … last night\" is finished time: got.",
+   "\"in\" + a year is finished: built.",
+   "\"… ago\" is finished time: left.",
+   "A finished time word: forgot.",
+   "\"since\" + a year and still there: has lived.",
+   "\"since I was …\" and still playing: have played.",
+   "\"so far this …\" is unfinished time: has rained.",
+   "\"since …\" and still friends: have been.",
+   "\"since\" + a year and still teaching: has taught.",
+   "\"for six years\" and it still works: have had.",
+   "\"Up to now … this year\" is unfinished: has visited.",
+   "\"since we were …\" and still friends: have known.",
+   "\"for two years\" and she still likes it: has worked."
+  ],
+  "transform": [
+   "A finished time word cannot go with have seen: saw.",
+   "\"in\" + a year needs the past simple: visited.",
+   "\"two days ago\" needs the past simple: bought.",
+   "\"since\" needs the present perfect, not the present: have lived.",
+   "\"since\" needs the present perfect, not is: has been.",
+   "Adding \"yesterday\" (finished time) changes it to lost.",
+   "Adding \"in\" + a year changes it to went.",
+   "Adding \"an hour ago\" changes it to finished.",
+   "Adding \"last week\" changes it to met.",
+   "Adding \"at six yesterday\" changes it to closed.",
+   "Changing \"in\" to \"since\" + a year needs have lived.",
+   "\"since last year\" and still there: has worked.",
+   "\"so far this …\" is unfinished: have had.",
+   "\"since Monday\" and still there: has been.",
+   "\"for ten years\" and still friends: have known."
+  ]
+ },
+ "slot": [
+  [
+   "build",
+   14,
+   "",
+   "period",
+   [
+    "season"
+   ]
+  ],
+  [
+   "transform",
+   13,
+   "",
+   "period",
+   [
+    "season"
+   ]
+  ]
+ ]
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

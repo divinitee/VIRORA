@@ -124,5 +124,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/conditionals-wishes.second.if-i-were-you.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "\"perfect for you\": advice to try: would apply.",
+   "\"still hurts\": advice: would see a doctor.",
+   "\"The bus is very slow\": advice: would take a taxi.",
+   "\"She's waiting\": advice: would call.",
+   "\"Both are nice\": my choice for you: would buy.",
+   "\"the … tomorrow\": advice: would go to bed early.",
+   "\"She knows a lot\": advice: would ask.",
+   "\"You love helping people\": advice: would study.",
+   "\"It's cold outside\": advice: would wear.",
+   "\"Don't spend it all\": advice: would save.",
+   "Honest advice: would tell the truth.",
+   "\"Tickets sell fast\": advice: would book.",
+   "\"going to … in May\": advice: would learn.",
+   "\"is famous\": advice: would try it.",
+   "Bad weather: advice not to: wouldn't drive.",
+   "\"It's very old\": advice not to: wouldn't eat.",
+   "\"You studied a lot\": no need: wouldn't worry.",
+   "\"Prices there are crazy\": advice not to: wouldn't spend.",
+   "\"never gives things back\": advice not to: wouldn't lend.",
+   "\"very hot today\": advice not to: wouldn't leave."
+  ],
+  "build": [
+   "\"You'd be great there\": would apply.",
+   "\"Your … hurts?\": advice: would see.",
+   "Advice about the trip: would take.",
+   "\"It's your …'s birthday\": would call.",
+   "\"Both are nice\": would buy.",
+   "\"is tomorrow\": would go.",
+   "\"You look lost\": would ask.",
+   "\"It's freezing\": would wear.",
+   "Honest advice: would tell.",
+   "\"fill up fast\": would book.",
+   "\"fast progress\": would speak.",
+   "\"The new café is good\": would try.",
+   "\"You never use it\": would sell.",
+   "\"the best time\": would visit.",
+   "\"The roads are dangerous\": wouldn't drive.",
+   "\"It smells bad\": wouldn't eat.",
+   "\"You're ready\": wouldn't worry.",
+   "Advice not to lend: wouldn't lend.",
+   "\"The sun is very strong\": wouldn't leave.",
+   "\"That shop is expensive\": wouldn't buy."
+  ],
+  "transform": [
+   "You should see → I would see.",
+   "You should take → I would take.",
+   "Why don't you call → I would call.",
+   "You shouldn't spend → I wouldn't spend.",
+   "don't tell → I wouldn't tell.",
+   "With If I were you: would, not will.",
+   "would + base verb, no to: would call.",
+   "would + base verb: go, not went.",
+   "Advice not to: wouldn't eat, not don't eat.",
+   "would + base verb: buy, not bought.",
+   "A good idea to rest → I would rest.",
+   "A bad idea to go out → I wouldn't go.",
+   "The best idea to ask → I would ask.",
+   "A good idea to learn → I would learn.",
+   "A bad idea to take → I wouldn't take."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

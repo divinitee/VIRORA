@@ -6,185 +6,185 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 1. My mum can **swim**, and my dad can too. ______ of my parents can **swim**, **Timur**.  
    options: ✔ both · neither · either · none  
-   why: It is true for the two of them, so use both (with a plural verb).
+   why: Mum can and Dad can: the two together: both.
 
 2. Aziz can't **swim**, and Timur can't either. ______ of them can **swim**.  
    options: ✔ neither · either · none · both  
-   why: It is true for not one of the two: neither already means not this one and not that one.
+   why: Aziz can't and Timur can't: not one of the two: neither.
 
 3. There are two buses to the **bazaar**, the 12 and the 45. You can take ______ of them, but not both, **Olga**.  
    options: ✔ either · none · both · neither  
-   why: Any one of the two is OK, so use either (with a singular noun).
+   why: "but not both": one of the two, any one: either.
 
 4. ______ my grandparents live in **Nukus**, **Aziz**. They have a house there.  
    options: None · ✔ Both · Neither · Either  
-   why: It is true for the two of them, so use both (with a plural verb).
+   why: "They have a house there": the two together: Both.
 
 5. I asked my two friends for help, but ______ of them had time **this morning**, **Timur**.  
    options: both · ✔ neither · either · none  
-   why: It is true for not one of the two: neither already means not this one and not that one.
+   why: No friend had time: not one of the two: neither.
 
 6. I don't like ______ of these two **bags**, **Olga**. Can I see another one?  
    options: neither · ✔ either · none · both  
-   why: The verb is already negative, so use either: not … either = not this one and not that one.
+   why: don't + like: after a negative verb use either.
 
 7. Olga and Lola are best friends. ______ of them want to study **art** in **Seoul**.  
    options: either · none · ✔ both · neither  
-   why: It is true for the two of them, so use both (with a plural verb).
+   why: Best friends who share a plan: the two together: both.
 
 8. ______ of the two **bags** was cheap, so I didn't buy anything, **Olga**.  
    options: None · Both · ✔ Neither · Either  
-   why: It is true for not one of the two: neither already means not this one and not that one.
+   why: Nothing was cheap, so not one of the two: Neither.
 
 9. We can meet on Saturday or Sunday. ______ day is fine for me, **Aziz**.  
    options: both · neither · ✔ either · none  
-   why: Any one of the two is OK, so use either (with a singular noun).
+   why: Saturday or Sunday, any one is fine: either.
 
 10. I've got two sisters. ______ of them are **nurses**, just like our mother, **Aziz**.  
    options: neither · either · none · ✔ both  
-   why: It is true for the two of them, so use both (with a plural verb).
+   why: "just like our mother": the two sisters together: both.
 
 11. ______ of my two brothers likes **carrots**. They never eat it, **Olga**.  
    options: Either · None · Both · ✔ Neither  
-   why: It is true for not one of the two: neither already means not this one and not that one.
+   why: "They never eat it": not one of the two: Neither.
 
 12. You can use ______ computer in the **lab**, **Aziz**. They both work now.  
    options: none · both · neither · ✔ either  
-   why: Any one of the two is OK, so use either (with a singular noun).
+   why: "They both work": you can use any one: either.
 
 13. ______ my phone and my laptop are broken, **Lola**. I can't **read my messages**.  
    options: ✔ Both · Neither · Either · None  
-   why: both … and joins two things that are both true.
+   why: Phone and laptop, the two together: Both … and.
 
 14. ______ my mum nor my dad can come to the **concert**, **Olga**.  
    options: ✔ Neither · Either · None · Both  
-   why: neither … nor joins two things that are both not true.
+   why: Not Mum and not Dad: Neither … nor.
 
 15. You can pay ______ by card or in cash at the **cinema**, **Aziz**.  
    options: ✔ either · none · both · neither  
-   why: either … or gives a choice between two things.
+   why: Card or cash, one of the two: either … or.
 
 16. We visited ______ Samarkand and Bukhara on our **holiday**, **Timur**.  
    options: none · ✔ both · neither · either  
-   why: both … and joins two things that are both true.
+   why: Two cities, we visited the two: both … and.
 
 17. I called Aziz and Timur, but ______ of them answered, **Kamila**.  
    options: both · ✔ neither · either · none  
-   why: It is true for not one of the two: neither already means not this one and not that one.
+   why: No one answered: not one of the two: neither.
 
 18. My mum and dad are doctors. ______ of them work at the same hospital, so they go to work together every **day**.  
    options: neither · either · none · ✔ both  
-   why: It is true for the two of them, so use both (with a plural verb).
+   why: "go to work together": the two together: both.
 
 19. I don't know ______ of the two new students in our **class**, **Lola**.  
    options: ✔ either · none · both · neither  
-   why: The verb is already negative, so use either: not … either = not this one and not that one.
+   why: don't + know: after a negative verb use either.
 
 20. We had two **fans** at home, but ______ of them worked, so we bought a new one, **Aziz**.  
    options: none · both · ✔ neither · either  
-   why: It is true for not one of the two: neither already means not this one and not that one.
+   why: "we bought a new one": not one worked: neither.
 
 ## build (20)
 
 1. _Write both, either or neither._  
    ______ Aziz and his sister speak **Korean** well. They learned it at **home**.  
    key: Both  
-   why: both … and joins two things that are both true.
+   why: Aziz and his sister together: Both … and.
 
 2. _Write both, either or neither._  
    ______ my brother nor my sister likes **fish**, **Lola**.  
    key: Neither  
-   why: neither … nor joins two things that are both not true.
+   why: Not my brother and not my sister: Neither … nor.
 
 3. _Write both, either or neither._  
    You can come to the **office** ______ on Monday or on Friday, **Olga**.  
    key: either  
-   why: either … or gives a choice between two things.
+   why: Monday or Friday, one of the two: either … or.
 
 4. _Write both, either or neither._  
    My sisters are twins. ______ of them were born on the **first** of May, **Lola**.  
    key: Both  
-   why: It is true for the two of them, so use both (with a plural verb).
+   why: Twins, the two together: Both.
 
 5. _Write both, either or neither._  
    I have two old phones, but ______ of them works now, so I use my **mum**'s, **Lola**.  
    key: neither  
-   why: It is true for not one of the two: neither already means not this one and not that one.
+   why: "so I use my …'s": not one works: neither.
 
 6. _Write both, either or neither._  
    I don't mind: we can watch the **news** or the cartoon. ______ is fine for me, **Aziz**.  
    key: Either  
-   why: Any one of the two is OK, so use either (with a singular noun).
+   why: "I don't mind": any one of the two: Either.
 
 7. _Write both, either or neither._  
    We need ______ eggs and flour for the **biscuits**, **Olga**.  
    key: both  
-   why: both … and joins two things that are both true.
+   why: Eggs and flour, the two together: both … and.
 
 8. _Write both, either or neither._  
    ______ of the two hotels had a free room, so we slept at **my cousin's flat**, **Timur**.  
    key: Neither  
-   why: It is true for not one of the two: neither already means not this one and not that one.
+   why: "we slept at …": not one hotel was free: Neither.
 
 9. _Write both, either or neither._  
    Take ______ the bus or a taxi to the **station**, **Aziz**.  
    key: either  
-   why: either … or gives a choice between two things.
+   why: Bus or taxi, one of the two: either … or.
 
 10. _Write both, either or neither._  
    ______ my mum and my grandmother make very good **somsa**, **Aziz**.  
    key: Both  
-   why: both … and joins two things that are both true.
+   why: Mum and grandmother together: Both … and.
 
 11. _Write both, either or neither._  
    I tried two keys, but ______ of them opened the **door**, **Olga**.  
    key: neither  
-   why: It is true for not one of the two: neither already means not this one and not that one.
+   why: No key opened it: neither.
 
 12. _Write both, either or neither._  
    There are two free seats on the **plane**. You can take ______ one, **Timur**.  
    key: either  
-   why: Any one of the two is OK, so use either (with a singular noun).
+   why: Two free seats, take any one: either.
 
 13. _Write both, either or neither._  
    **Lola** is good at ______ maths and **chemistry**.  
    key: both  
-   why: both … and joins two things that are both true.
+   why: Maths and another subject together: both … and.
 
 14. _Write both, either or neither._  
    ______ Timur nor Aziz was at **the lesson** **on Monday**.  
    key: Neither  
-   why: neither … nor joins two things that are both not true.
+   why: Not Timur and not Aziz: Neither … nor.
 
 15. _Write both, either or neither._  
    I can't decide. I'll buy ______ the red bag or the **blue** one, **Lola**.  
    key: either  
-   why: either … or gives a choice between two things.
+   why: "I can't decide": one or the other: either … or.
 
 16. _Write both, either or neither._  
    We watched two films at the **cinema club** and liked ______ of them. They were great, **Olga**.  
    key: both  
-   why: It is true for the two of them, so use both (with a plural verb).
+   why: "They were great": the two films: both.
 
 17. _Write both, either or neither._  
    We had two plans for the weekend, but ______ worked because of the **snow**, **Aziz**.  
    key: neither  
-   why: It is true for not one of the two: neither already means not this one and not that one.
+   why: No plan worked: neither.
 
 18. _Write both, either or neither._  
    I didn't see ______ of your brothers at the **match**, **Aziz**.  
    key: either  
-   why: The verb is already negative, so use either: not … either = not this one and not that one.
+   why: didn't + see: after a negative verb use either.
 
 19. _Write both, either or neither._  
    ______ teams played very well **last night**, **Lola**.  
    key: Both  
-   why: It is true for the two of them, so use both (with a plural verb).
+   why: The two teams together: Both.
 
 20. _Write both, either or neither._  
    ______ answer on the **card** is right, **Lola**. Try again.  
    key: Neither  
-   why: It is true for not one of the two: neither already means not this one and not that one.
+   why: "Try again": no answer is right: Neither.
 
 ## transform (15)
 
@@ -192,91 +192,91 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    My mum likes **melons**. My dad likes **melons** too, **Lola**.  
    → ______ my mum ______ my dad like **melons**, **Lola**.  
    key: Both + and  
-   why: both … and joins two things that are both true.
+   why: Mum and Dad, too: Both … and.
 
 2. _Join the two sentences with both._  
    Olga works at a **school** in **Andijan**. Lola works at a **school** in **Andijan** too.  
    → ______ Olga ______ Lola work at a **school** in **Andijan**.  
    key: Both + and  
-   why: both … and joins two things that are both true.
+   why: Olga and Lola, too: Both … and.
 
 3. _Join the two sentences with both._  
    My brother plays **tennis**. My cousin plays **tennis** too, **Aziz**.  
    → ______ my brother ______ my cousin play **tennis**, **Aziz**.  
    key: Both + and  
-   why: both … and joins two things that are both true.
+   why: Brother and cousin, too: Both … and.
 
 4. _Join the two sentences with both._  
    The kitchen is **clean**. The bathroom is **clean** too, **Olga**.  
    → ______ the kitchen ______ the bathroom are **clean**, **Olga**.  
    key: Both + and  
-   why: both … and joins two things that are both true.
+   why: Kitchen and bathroom, too: Both … and.
 
 5. _Join the two sentences with both._  
    I've got two sisters. One is a **doctor**, and the other is a **doctor** too, **Olga**.  
    → I've got two sisters. ______ of them are **doctor**s, **Olga**.  
    key: Both  
-   why: It is true for the two of them, so use both (with a plural verb).
+   why: One and the other, too: both of them.
 
 6. _Join the two sentences with neither … nor._  
    My brother doesn't eat **eggs**. My sister doesn't eat **eggs** either, **Timur**.  
    → ______ my brother ______ my sister eats **eggs**, **Timur**.  
    key: Neither + nor  
-   why: neither … nor joins two things that are both not true.
+   why: doesn't … either → Neither … nor.
 
 7. _Join the two sentences with neither … nor._  
    Aziz wasn't at the **meeting** **this morning**. Timur wasn't there either.  
    → ______ Aziz ______ Timur was at the **meeting** **this morning**.  
    key: Neither + nor  
-   why: neither … nor joins two things that are both not true.
+   why: wasn't … either → Neither … nor.
 
 8. _Join the two sentences with neither … nor._  
    The red jacket in this **shop** isn't cheap. The black one isn't cheap either, **Olga**.  
    → ______ the red jacket ______ the black one in this **shop** is cheap, **Olga**.  
    key: Neither + nor  
-   why: neither … nor joins two things that are both not true.
+   why: isn't … either → Neither … nor.
 
 9. _Join the two sentences with neither … nor._  
    My sister isn't **shy**. My brother isn't **shy** either, **Olga**.  
    → ______ my sister ______ my brother is **shy**, **Olga**.  
    key: Neither + nor  
-   why: neither … nor joins two things that are both not true.
+   why: Not my sister and not my brother: Neither … nor.
 
 10. _Join the two sentences with neither … nor._  
    My dad can't come to the **concert** **this week**. My mum can't come either.  
    → ______ my dad ______ my mum can come to the **concert** **this week**.  
    key: Neither + nor  
-   why: neither … nor joins two things that are both not true.
+   why: can't … either → Neither … nor.
 
 11. _Rewrite with either._  
    You can go to the **bazaar** by bus, or you can go by taxi, **Lola**.  
    → You can go to the **bazaar** ______ by bus ______ by taxi, **Lola**.  
    key: either + or  
-   why: either … or gives a choice between two things.
+   why: by bus, or by taxi → either … or.
 
 12. _Rewrite with either._  
    We can meet at the **library** on Saturday, or we can meet there on Sunday, **Olga**.  
    → We can meet at the **library** ______ on Saturday ______ on Sunday, **Olga**.  
    key: either + or  
-   why: either … or gives a choice between two things.
+   why: Saturday, or Sunday → either … or.
 
 13. _Rewrite with either._  
    After **lunch** you can have tea, or you can have coffee, **Lola**.  
    → After **lunch** you can have ______ tea ______ coffee, **Lola**.  
    key: either + or  
-   why: either … or gives a choice between two things.
+   why: tea, or coffee → either … or.
 
 14. _Rewrite with either._  
    I didn't see your brother at the **concert**, and I didn't see your sister there, **Olga**.  
    → I didn't see ______ of them at the **concert**, **Olga**.  
    key: either  
-   why: The verb is already negative, so use either: not … either = not this one and not that one.
+   why: didn't see … and didn't see → either of them.
 
 15. _Rewrite with either._  
    Maybe Olga will call you **tonight**, **Aziz**, or maybe Lola will.  
    → ______ Olga ______ Lola will call you **tonight**, **Aziz**.  
    key: Either + or  
-   why: either … or gives a choice between two things.
+   why: Maybe Olga or maybe Lola → Either … or.
 
 ## create (8)
 

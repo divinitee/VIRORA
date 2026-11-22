@@ -119,5 +119,89 @@ const EXPRESS = [
 
 const items = [...CHOOSE, ...BUILD, ...TRANSFORM, ...CREATE, ...EXPRESS];
 const out = "content/grammar-practice/modals.deduction.must-present.json";
+// Variety pass (Claude, 21 Nov 2026): one why per item that names this sentence's clue,
+// and extra slots on thin lines (B1 course).
+const VARIETY = {
+ "why": {
+  "choose": [
+   "Lights on and the … outside: strong evidence, so must.",
+   "So many hours of work: I'm sure she's tired: must.",
+   "No food since then: I'm sure you're hungry: must.",
+   "Everyone in coats: strong evidence about the weather: must.",
+   "He speaks it every day: I'm sure he knows it: must.",
+   "Three cars and a big house: I'm sure: must.",
+   "Closed and dark: the best explanation is a holiday: must.",
+   "At the sports place every day: I'm sure she loves it: must.",
+   "A long queue every day: I'm sure the food is good: must.",
+   "Smiling at the phone: my best guess, and I'm sure: must be talking.",
+   "After that long walk: I'm sure: must hurt.",
+   "Crying at that time: I'm sure: must be hungry.",
+   "Ten years there: I'm sure he speaks it: must.",
+   "\"She always calls at this time\": I'm sure: must.",
+   "Old and from Italy: I'm sure it's expensive: must.",
+   "Wet streets and …: I'm sure: must be raining.",
+   "Singing and dancing fans: I'm sure: must be winning.",
+   "He plays every evening: I'm sure: must love.",
+   "Flowers in every room: I'm sure: must love.",
+   "At your desk since then: I'm sure: must need."
+  ],
+  "build": [
+   "His car is outside: I'm sure he's inside: must be.",
+   "Working since early: I'm sure: must be tired.",
+   "Perfect speech: I'm sure she's good at it: must be.",
+   "They eat there every day: I'm sure it's good: must be.",
+   "So many books: I'm sure he loves it: must love.",
+   "Everybody is laughing: I'm sure: must be funny.",
+   "She walks there every morning: I'm sure: must live.",
+   "Full of people: I'm sure: must be low.",
+   "Yawning again: I'm sure: must need.",
+   "Snow everywhere: I'm sure: must be cold.",
+   "Training every morning: I'm sure: must be fit.",
+   "Three phones: I'm sure: must like.",
+   "Shouting at everyone: I'm sure: must be angry.",
+   "Just back from a trip: I'm sure: must be glad.",
+   "She always wins: I'm sure: must be clever.",
+   "Sitting by its bowl: I'm sure: must want.",
+   "A big farm: I'm sure: must work hard.",
+   "Dark and nobody answers: I'm sure: must be on holiday.",
+   "So expensive: I'm sure: must be good.",
+   "Everyone is dancing: I'm sure: must be great."
+  ],
+  "transform": [
+   "I'm sure he is → he must be.",
+   "I'm sure you are → you must be.",
+   "I'm sure she knows → she must know.",
+   "I'm sure they live → they must live.",
+   "I'm sure it is → it must be.",
+   "must + base verb, no to: must be.",
+   "must + base verb, not is: must be.",
+   "must + base verb, not -ing: must know.",
+   "must never takes -s: must be.",
+   "must + base verb, not are: must be.",
+   "I'm sure she is working now → must be working.",
+   "I'm sure it is raining now → must be raining.",
+   "I'm sure they are sleeping now → must be sleeping.",
+   "I'm sure he is joking now → must be joking.",
+   "I'm sure you are waiting now → must be waiting."
+  ]
+ }
+};
+{
+  const byStage = (st) => items.filter((it) => it.stage === st);
+  for (const [st, list] of Object.entries(VARIETY.why || {})) {
+    if (list.length !== byStage(st).length) throw new Error(`VARIETY: ${st} has ${byStage(st).length} items, ${list.length} whys`);
+    byStage(st).forEach((it, i) => { if (list[i]) it.why = list[i]; });
+  }
+  for (const [st, n, word, name, vals] of VARIETY.slot || []) {
+    const it = byStage(st)[n - 1];
+    if (!word) { if (!it?.slots?.[name]) throw new Error(`VARIETY: no slot ${name} in ${st} ${n}`); it.slots[name] = [...new Set([...it.slots[name], ...vals])]; continue; }
+    const re = new RegExp(`(?<![\\w{])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w}])`, "g");
+    let hit = false;
+    for (const f of ["prompt", "source", "hint"]) if (it?.[f] && re.test(it[f])) { it[f] = it[f].replace(re, `{${name}}`); hit = true; re.lastIndex = 0; }
+    if (!hit) throw new Error(`VARIETY: "${word}" not found in ${st} ${n}`);
+    it.slots = { ...(it.slots || {}), [name]: vals };
+  }
+}
+// end variety
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

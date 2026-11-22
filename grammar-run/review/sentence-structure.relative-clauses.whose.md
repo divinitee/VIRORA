@@ -6,185 +6,185 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 1. That's the girl ______ brother plays **chess** with my cousin, **Timur**.  
    options: ✔ whose · who · who's · which  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: Her brother → the girl whose brother.
 
 2. I have a friend ______ mother is a **doctor**, **Aziz**.  
    options: who · who's · which · ✔ whose  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: His or her mother → a friend whose mother.
 
 3. The boy ______ bike broke **last night** is very sad, **Timur**.  
    options: who's · which · ✔ whose · who  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: His bike → the boy whose bike.
 
 4. We met a woman ______ son studies **maths** in **Termez**.  
    options: which · ✔ whose · who · who's  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: Her son → a woman whose son.
 
 5. Is that the man ______ car is parked outside the **shop**, **Olga**?  
    options: ✔ whose · who · who's · which  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: His car → the man whose car.
 
 6. The student ______ essay won the **contest** is in my class, **Lola**.  
    options: who · who's · which · ✔ whose  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: The student's essay → whose essay.
 
 7. My neighbour, ______ dog barks all **morning**, is very nice, **Aziz**.  
    options: who's · which · ✔ whose · who  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: My neighbour's dog → whose dog.
 
 8. I know a girl ______ parents own a **bakery** in **Samarkand**.  
    options: which · ✔ whose · who · who's  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: Her parents → a girl whose parents.
 
 9. The teacher ______ lessons we love is leaving **in May**, **Aziz**.  
    options: ✔ whose · who · who's · which  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: The teacher's lessons → whose lessons.
 
 10. My friend has a son ______ name is **Bekzod**.  
    options: who · who's · which · ✔ whose  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: The son's name → a son whose name.
 
 11. Do you know anyone ______ brother can fix a **laptop**, **Aziz**?  
    options: who's · which · ✔ whose · who  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: Their brother → anyone whose brother.
 
 12. The family ______ house we rented in **Samarkand** was very kind, **Lola**.  
    options: which · ✔ whose · who · who's  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: The family's house → whose house.
 
 13. We stayed in a hotel ______ rooms had a view of the **old town**, **Aziz**.  
    options: ✔ whose · which · what · who's  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: The hotel's rooms → a hotel whose rooms.
 
 14. I bought a **watch** ______ battery lasts two days, **Lola**.  
    options: which · what · who's · ✔ whose  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: Its battery → a … whose battery.
 
 15. It's a **café** ______ name I can never remember, **Olga**.  
    options: what · who's · ✔ whose · which  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: Its name → a … whose name.
 
 16. In **Khiva** they live in a **cottage** ______ roof is green.  
    options: who's · ✔ whose · which · what  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: Its roof → a … whose roof.
 
 17. The woman ______ lives above us is a **pilot**, **Aziz**.  
    options: ✔ who · whose · which · what  
-   why: Here the person before the gap does the action (someone lives / works / won), and a verb follows the gap, so use who. Whose needs a noun after it.
+   why: She lives there (no noun after the gap): who.
 
 18. I have a cousin ______ works at the **hotel**, **Olga**.  
    options: whose · which · what · ✔ who  
-   why: Here the person before the gap does the action (someone lives / works / won), and a verb follows the gap, so use who. Whose needs a noun after it.
+   why: He or she works (verb after the gap): who.
 
 19. The boy ______ won the **race** is only ten, **Timur**.  
    options: which · what · ✔ who · whose  
-   why: Here the person before the gap does the action (someone lives / works / won), and a verb follows the gap, so use who. Whose needs a noun after it.
+   why: He won (verb after the gap): who.
 
 20. The tourists ______ visited our **village** **yesterday** were very friendly.  
    options: what · ✔ who · whose · which  
-   why: Here the person before the gap does the action (someone lives / works / won), and a verb follows the gap, so use who. Whose needs a noun after it.
+   why: They visited (verb after the gap): who.
 
 ## build (20)
 
 1. _Write who or whose._  
    I have a classmate ______ sister is a famous **chef**, **Olga**.  
    key: whose  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: Her or his sister → whose sister.
 
 2. _Write who or whose._  
    The man ______ bag I found **last night** said thank you **ten times**.  
    key: whose  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: His bag, I found it → whose bag.
 
 3. _Write who or whose._  
    That's the girl ______ dog follows her to **the bazaar**, **Aziz**.  
    key: whose  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: Her dog → whose dog.
 
 4. _Write who or whose._  
    We need a **tutor** ______ English is very good, **Olga**.  
    key: whose  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: Their English → whose English.
 
 5. _Write who or whose._  
    My aunt, ______ husband is from **Samarkand**, cooks great **samsa**.  
    key: whose  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: Her husband → whose husband.
 
 6. _Write who or whose._  
    Is this the student ______ notes you borrowed **last night**, **Lola**?  
    key: whose  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: The student's notes → whose notes.
 
 7. _Write who or whose._  
    The boy ______ father owns the **shop** is my friend, **Aziz**.  
    key: whose  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: His father → whose father.
 
 8. _Write who or whose._  
    I met a woman ______ children study at my **school**, **Olga**.  
    key: whose  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: Her children → whose children.
 
 9. _Write who or whose._  
    A writer ______ books I love is coming to **Samarkand** **next week**.  
    key: whose  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: The writer's books → whose books.
 
 10. _Write who or whose._  
    We bought a **car** ______ door doesn't close, **Timur**.  
    key: whose  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: Its door → whose door.
 
 11. _Write who or whose._  
    I live in a street ______ name is very long, **Timur**.  
    key: whose  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: The street's name → whose name.
 
 12. _Write who or whose._  
    It's a **café** ______ windows face the **park**.  
    key: whose  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: Its windows → whose windows.
 
 13. _Write who or whose._  
    They have a **dog** ______ name is **Bars**.  
    key: whose  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: The pet's name → a … whose name.
 
 14. _Write who or whose._  
    The company ______ office is next to ours is looking for new workers, **Olga**.  
    key: whose  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: The company's office → whose office.
 
 15. _Write who or whose._  
    The girl ______ sits next to me speaks **Chinese**, **Olga**.  
    key: who (also: that)  
-   why: Here the person before the gap does the action (someone lives / works / won), and a verb follows the gap, so use who. Whose needs a noun after it.
+   why: Verb sits after the gap, person: who.
 
 16. _Write who or whose._  
    I know a man ______ can repair old **radios**, **Olga**.  
    key: who (also: that)  
-   why: Here the person before the gap does the action (someone lives / works / won), and a verb follows the gap, so use who. Whose needs a noun after it.
+   why: Verb can repair after the gap: who.
 
 17. _Write who or whose._  
    The people ______ came to the **party** **on Friday** were very friendly.  
    key: who (also: that)  
-   why: Here the person before the gap does the action (someone lives / works / won), and a verb follows the gap, so use who. Whose needs a noun after it.
+   why: Verb came after the gap: who.
 
 18. _Write who or whose._  
    Do you know the woman ______ works in the **bakery**, **Olga**?  
    key: who (also: that)  
-   why: Here the person before the gap does the action (someone lives / works / won), and a verb follows the gap, so use who. Whose needs a noun after it.
+   why: Verb works after the gap: who.
 
 19. _Write who or whose._  
    My brother is the one ______ broke the **lamp**, **Lola**.  
    key: who (also: that)  
-   why: Here the person before the gap does the action (someone lives / works / won), and a verb follows the gap, so use who. Whose needs a noun after it.
+   why: Verb broke after the gap: who.
 
 20. _Write who or whose._  
    The children ______ helped us **last week** got a **cake**.  
    key: who (also: that)  
-   why: Here the person before the gap does the action (someone lives / works / won), and a verb follows the gap, so use who. Whose needs a noun after it.
+   why: Verb helped after the gap: who.
 
 ## transform (15)
 
@@ -192,91 +192,91 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
    I have a friend. His father is a **driver**, **Timur**.  
    → I have a friend ______ father is a **driver**, **Timur**.  
    key: whose  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: Join two sentences: His father → a friend whose father.
 
 2. _Join the two sentences with whose._  
    This is **Madina**. Her brother lives in **Khiva**.  
    → This is **Madina**, ______ brother lives in **Khiva**.  
    key: whose  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: Her brother → , whose brother.
 
 3. _Join the two sentences with whose._  
    In **Bukhara** we visited a **museum**. Its walls are very old.  
    → In **Bukhara** we visited a **museum** ______ walls are very old.  
    key: whose  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: Its walls → whose walls (things too).
 
 4. _Join the two sentences with whose._  
    I met a girl. Her parents own a **bakery**, **Aziz**.  
    → I met a girl ______ parents own a **bakery**, **Aziz**.  
    key: whose  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: Her parents → whose parents.
 
 5. _Join the two sentences with whose._  
    That's the boy. I found his **wallet** **on Friday**.  
    → That's the boy ______ **wallet** I found **on Friday**.  
    key: whose  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: His …, I found it → whose ….
 
 6. _Correct the mistake._  
    The man who his car is red lives near the **park**, **Olga**.  
    → The man ______ car is red lives near the **park**, **Olga**.  
    key: whose  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: who his → whose.
 
 7. _Correct the mistake._  
    I have a friend who's sister is a **driver**, **Aziz**.  
    → I have a friend ______ sister is a **driver**, **Aziz**.  
    key: whose  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: who's = who is; belonging needs whose.
 
 8. _Correct the mistake._  
    We stayed in a hotel which rooms were **clean**, **Timur**.  
    → We stayed in a hotel ______ rooms were **clean**, **Timur**.  
    key: whose  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: For belonging use whose, not which.
 
 9. _Correct the mistake._  
    The girl who her bike broke **last night** is sad, **Aziz**.  
    → The girl ______ bike broke **last night** is sad, **Aziz**.  
    key: whose  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: who her → whose.
 
 10. _Correct the mistake._  
    My neighbour, who's dog is very big, is a **driver**, **Olga**.  
    → My neighbour, ______ dog is very big, is a **driver**, **Olga**.  
    key: whose  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: Not who's (who is): the dog belongs to her → whose.
 
 11. _Join the two sentences with whose and the noun._  
    That's **Rustam**. **Rustam**'s sister is my **coach**.  
    → That's **Rustam**, ______ ______ is my **coach**.  
    key: whose + sister  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: 's sister → whose sister.
 
 12. _Join the two sentences with whose and the noun._  
    I know a girl, **Olga**. The girl's dog is very **clever**.  
    → I know a girl ______ ______ is very **clever**, **Olga**.  
    key: whose + dog  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: The girl's dog → whose dog.
 
 13. _Join the two sentences with whose and the noun._  
    We met a man. The man's son studies in **Termez**, **Lola**.  
    → We met a man ______ ______ studies in **Termez**, **Lola**.  
    key: whose + son  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: The man's son → whose son.
 
 14. _Join the two sentences with whose and the noun._  
    This is a café. The café's owner is from **Bukhara**, **Aziz**.  
    → This is a café ______ ______ is from **Bukhara**, **Aziz**.  
    key: whose + owner  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: The café's owner → whose owner.
 
 15. _Join the two sentences with whose and the noun._  
    I have a cousin. My cousin's husband is a **doctor**, **Timur**.  
    → I have a cousin ______ ______ is a **doctor**, **Timur**.  
    key: whose + husband  
-   why: The noun after the gap belongs to the person or thing before it, so use whose (his / her / its / their in one word). Who's means who is.
+   why: My cousin's husband → whose husband.
 
 ## create (8)
 

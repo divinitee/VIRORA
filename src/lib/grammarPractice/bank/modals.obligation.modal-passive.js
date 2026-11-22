@@ -17,7 +17,7 @@ export default [
    "must shown"
   ],
   "key": 0,
-  "why": "The subject does the action: must + base verb (active).",
+  "why": "Visitors do the showing: active: must show.",
   "slots": {
    "place": [
     "entrance",
@@ -49,7 +49,7 @@ export default [
    "must turn"
   ],
   "key": 3,
-  "why": "The subject does the action: must + base verb (active).",
+  "why": "Students do the turning off: active: must turn.",
   "slots": {
    "room": [
     "exam room",
@@ -81,7 +81,7 @@ export default [
    "must be washed"
   ],
   "key": 2,
-  "why": "The subject does the action: must + base verb (active).",
+  "why": "You do the washing: active: must wash.",
   "slots": {
    "food": [
     "plov",
@@ -113,7 +113,7 @@ export default [
    "must be wear"
   ],
   "key": 1,
-  "why": "The subject does the action: must + base verb (active).",
+  "why": "Drivers do the wearing: active: must wear.",
   "slots": {
    "road": [
     "motorway",
@@ -145,7 +145,7 @@ export default [
    "must checked"
   ],
   "key": 0,
-  "why": "The subject does the action: must + base verb (active).",
+  "why": "Passengers do the checking: active: must check.",
   "slots": {
    "place": [
     "airport",
@@ -177,7 +177,7 @@ export default [
    "must follow"
   ],
   "key": 3,
-  "why": "The subject does the action: must + base verb (active).",
+  "why": "Children do the following: active: must follow.",
   "slots": {
    "place": [
     "pool",
@@ -209,7 +209,7 @@ export default [
    "must be worn"
   ],
   "key": 2,
-  "why": "The subject does the action: must + base verb (active).",
+  "why": "Workers do the wearing: active: must wear.",
   "slots": {
    "site": [
     "building site",
@@ -241,7 +241,7 @@ export default [
    "must be leave"
   ],
   "key": 1,
-  "why": "The subject does the action: must + base verb (active).",
+  "why": "Guests do the leaving: active: must leave.",
   "slots": {
    "time": [
     "noon",
@@ -273,7 +273,7 @@ export default [
    "must completed"
   ],
   "key": 0,
-  "why": "The subject does the action: must + base verb (active).",
+  "why": "You fill in the form: active: must complete.",
   "slots": {
    "form": [
     "visa",
@@ -305,7 +305,7 @@ export default [
    "must obey"
   ],
   "key": 3,
-  "why": "The subject does the action: must + base verb (active).",
+  "why": "Players do the obeying: active: must obey.",
   "slots": {
    "who": [
     "referee",
@@ -337,7 +337,7 @@ export default [
    "must be shown"
   ],
   "key": 3,
-  "why": "The subject receives the action: must be + past participle (passive).",
+  "why": "The ID doesn't show itself: passive: must be shown.",
   "slots": {
    "place": [
     "entrance",
@@ -369,7 +369,7 @@ export default [
    "must be turn"
   ],
   "key": 2,
-  "why": "The subject receives the action: must be + past participle (passive).",
+  "why": "Phones are turned off by people: must be turned.",
   "slots": {
    "room": [
     "exam room",
@@ -401,7 +401,7 @@ export default [
    "must washed"
   ],
   "key": 1,
-  "why": "The subject receives the action: must be + past participle (passive).",
+  "why": "Hands are washed by someone: must be washed.",
   "slots": {
    "food": [
     "plov",
@@ -433,7 +433,7 @@ export default [
    "must wear"
   ],
   "key": 0,
-  "why": "The subject receives the action: must be + past participle (passive).",
+  "why": "Belts are worn by people: must be worn.",
   "slots": {
    "road": [
     "motorway",
@@ -465,7 +465,7 @@ export default [
    "must be checked"
   ],
   "key": 3,
-  "why": "The subject receives the action: must be + past participle (passive).",
+  "why": "Bags are checked by staff: must be checked.",
   "slots": {
    "place": [
     "airport",
@@ -497,7 +497,7 @@ export default [
    "must be follow"
   ],
   "key": 2,
-  "why": "The subject receives the action: must be + past participle (passive).",
+  "why": "\"by everyone\": passive: must be followed.",
   "slots": {
    "place": [
     "pool",
@@ -529,7 +529,7 @@ export default [
    "must worn"
   ],
   "key": 1,
-  "why": "The subject receives the action: must be + past participle (passive).",
+  "why": "Helmets are worn by workers: must be worn.",
   "slots": {
    "site": [
     "building site",
@@ -561,7 +561,7 @@ export default [
    "must check"
   ],
   "key": 0,
-  "why": "The subject receives the action: must be + past participle (passive).",
+  "why": "Rooms are checked by staff: must be checked.",
   "slots": {
    "time": [
     "noon",
@@ -593,7 +593,7 @@ export default [
    "must be signed"
   ],
   "key": 3,
-  "why": "The subject receives the action: must be + past participle (passive).",
+  "why": "A form is signed by a person: must be signed.",
   "slots": {
    "form": [
     "visa",
@@ -625,7 +625,7 @@ export default [
    "must be respect"
   ],
   "key": 2,
-  "why": "The subject receives the action: must be + past participle (passive).",
+  "why": "\"by all players\": passive: must be respected.",
   "slots": {
    "who": [
     "referee",
@@ -652,7 +652,7 @@ export default [
   "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
   "source": "All visitors ______ (show) their ID at the {place}, {name}.",
   "key": "must show",
-  "why": "The subject does the action: must + base verb (active).",
+  "why": "Visitors act: must show.",
   "slots": {
    "place": [
     "entrance",
@@ -679,7 +679,7 @@ export default [
   "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
   "source": "Your ID ______ (show) at the {place}, {name}.",
   "key": "must be shown",
-  "why": "The subject receives the action: must be + past participle (passive).",
+  "why": "The ID receives the action: must be shown.",
   "slots": {
    "place": [
     "entrance",
@@ -706,7 +706,7 @@ export default [
   "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
   "source": "Students ______ (turn) off their phones in the {room}, {name}.",
   "key": "must turn",
-  "why": "The subject does the action: must + base verb (active).",
+  "why": "Students act: must turn.",
   "slots": {
    "room": [
     "exam room",
@@ -733,7 +733,7 @@ export default [
   "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
   "source": "Phones ______ (turn) off in the {room}, {name}.",
   "key": "must be turned",
-  "why": "The subject receives the action: must be + past participle (passive).",
+  "why": "Phones receive the action: must be turned.",
   "slots": {
    "room": [
     "exam room",
@@ -760,7 +760,7 @@ export default [
   "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
   "source": "Drivers ______ (wear) seat belts on the {road}, {name}.",
   "key": "must wear",
-  "why": "The subject does the action: must + base verb (active).",
+  "why": "Drivers act: must wear.",
   "slots": {
    "road": [
     "motorway",
@@ -787,7 +787,7 @@ export default [
   "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
   "source": "Seat belts ______ (wear) on the {road}, {name}.",
   "key": "must be worn",
-  "why": "The subject receives the action: must be + past participle (passive).",
+  "why": "Belts receive the action: must be worn (wear → worn).",
   "slots": {
    "road": [
     "motorway",
@@ -814,7 +814,7 @@ export default [
   "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
   "source": "Guests ______ (leave) their keys at the {desk}, {name}.",
   "key": "must leave",
-  "why": "The subject does the action: must + base verb (active).",
+  "why": "Guests act: must leave.",
   "slots": {
    "desk": [
     "front desk",
@@ -841,7 +841,7 @@ export default [
   "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
   "source": "Keys ______ (leave) at the {desk}, {name}.",
   "key": "must be left",
-  "why": "The subject receives the action: must be + past participle (passive).",
+  "why": "Keys receive the action: must be left (leave → left).",
   "slots": {
    "desk": [
     "front desk",
@@ -868,7 +868,7 @@ export default [
   "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
   "source": "You ______ (pay) for the {thing} at the door, {name}.",
   "key": "must pay",
-  "why": "The subject does the action: must + base verb (active).",
+  "why": "You act: must pay.",
   "slots": {
    "thing": [
     "tickets",
@@ -895,7 +895,7 @@ export default [
   "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
   "source": "The {thing} ______ (pay) for at the door, {name}.",
   "key": "must be paid",
-  "why": "The subject receives the action: must be + past participle (passive).",
+  "why": "The thing receives the action: must be paid.",
   "slots": {
    "thing": [
     "tickets",
@@ -922,7 +922,7 @@ export default [
   "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
   "source": "Everybody ______ (follow) the {place} rules, {name}.",
   "key": "must follow",
-  "why": "The subject does the action: must + base verb (active).",
+  "why": "Everybody acts: must follow.",
   "slots": {
    "place": [
     "pool",
@@ -949,7 +949,7 @@ export default [
   "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
   "source": "The {place} rules ______ (follow) by everybody, {name}.",
   "key": "must be followed",
-  "why": "The subject receives the action: must be + past participle (passive).",
+  "why": "\"by everybody\": passive: must be followed.",
   "slots": {
    "place": [
     "pool",
@@ -976,7 +976,7 @@ export default [
   "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
   "source": "Workers ______ (wear) helmets on the {site}, {name}.",
   "key": "must wear",
-  "why": "The subject does the action: must + base verb (active).",
+  "why": "Workers act: must wear.",
   "slots": {
    "site": [
     "building site",
@@ -1003,7 +1003,7 @@ export default [
   "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
   "source": "Homework ______ (finish) by {day}, {name}.",
   "key": "must be finished",
-  "why": "The subject receives the action: must be + past participle (passive).",
+  "why": "Homework receives the action: must be finished.",
   "slots": {
    "day": [
     "Monday",
@@ -1030,7 +1030,7 @@ export default [
   "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
   "source": "You ______ (finish) your homework by {day}, {name}.",
   "key": "must finish",
-  "why": "The subject does the action: must + base verb (active).",
+  "why": "You act: must finish.",
   "slots": {
    "day": [
     "Monday",
@@ -1057,7 +1057,7 @@ export default [
   "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
   "source": "The {form} form ______ (sign) by a parent, {name}.",
   "key": "must be signed",
-  "why": "The subject receives the action: must be + past participle (passive).",
+  "why": "\"by a parent\": passive: must be signed.",
   "slots": {
    "form": [
     "school",
@@ -1084,7 +1084,7 @@ export default [
   "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
   "source": "A parent ______ (sign) the {form} form, {name}.",
   "key": "must sign",
-  "why": "The subject does the action: must + base verb (active).",
+  "why": "A parent acts: must sign.",
   "slots": {
    "form": [
     "school",
@@ -1111,7 +1111,7 @@ export default [
   "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
   "source": "This {food} ______ (keep) in the fridge, {name}.",
   "key": "must be kept",
-  "why": "The subject receives the action: must be + past participle (passive).",
+  "why": "Food receives the action: must be kept (keep → kept).",
   "slots": {
    "food": [
     "milk",
@@ -1138,7 +1138,7 @@ export default [
   "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
   "source": "You ______ (keep) the {food} in the fridge, {name}.",
   "key": "must keep",
-  "why": "The subject does the action: must + base verb (active).",
+  "why": "You act: must keep.",
   "slots": {
    "food": [
     "milk",
@@ -1165,7 +1165,7 @@ export default [
   "instr": "Does the subject do the action or receive it? Complete with must + verb, or must be + past participle.",
   "source": "Dogs ______ (keep) on a lead in the {place}, {name}.",
   "key": "must be kept",
-  "why": "The subject receives the action: must be + past participle (passive).",
+  "why": "Dogs are kept by owners: must be kept.",
   "slots": {
    "place": [
     "park",
@@ -1193,7 +1193,7 @@ export default [
   "source": "Visitors must show their ID at the {place}, {name}.",
   "hint": "ID ______ at the {place}, {name}.",
   "key": "must be shown",
-  "why": "The subject receives the action: must be + past participle (passive).",
+  "why": "ID becomes the subject: must be shown.",
   "slots": {
    "place": [
     "entrance",
@@ -1221,7 +1221,7 @@ export default [
   "source": "You must wash your hands before cooking {food}, {name}.",
   "hint": "Hands ______ before cooking {food}, {name}.",
   "key": "must be washed",
-  "why": "The subject receives the action: must be + past participle (passive).",
+  "why": "Hands become the subject: must be washed.",
   "slots": {
    "food": [
     "plov",
@@ -1249,7 +1249,7 @@ export default [
   "source": "People must keep dogs on a lead in the {place}, {name}.",
   "hint": "Dogs ______ on a lead in the {place}, {name}.",
   "key": "must be kept",
-  "why": "The subject receives the action: must be + past participle (passive).",
+  "why": "Dogs become the subject: must be kept.",
   "slots": {
    "place": [
     "park",
@@ -1277,7 +1277,7 @@ export default [
   "source": "You must turn off phones in the {room}, {name}.",
   "hint": "Phones ______ off in the {room}, {name}.",
   "key": "must be turned",
-  "why": "The subject receives the action: must be + past participle (passive).",
+  "why": "Phones become the subject: must be turned.",
   "slots": {
    "room": [
     "exam room",
@@ -1305,7 +1305,7 @@ export default [
   "source": "Someone must sign the {form} form, {name}.",
   "hint": "The {form} form ______, {name}.",
   "key": "must be signed",
-  "why": "The subject receives the action: must be + past participle (passive).",
+  "why": "No doer named: the form must be signed.",
   "slots": {
    "form": [
     "school",
@@ -1333,7 +1333,7 @@ export default [
   "source": "Seat belts must be worn by all drivers on the {road}, {name}.",
   "hint": "All drivers ______ seat belts on the {road}, {name}.",
   "key": "must wear",
-  "why": "The subject does the action: must + base verb (active).",
+  "why": "Drivers become the subject again: active: must wear.",
   "slots": {
    "road": [
     "motorway",
@@ -1361,7 +1361,7 @@ export default [
   "source": "The rules must be followed by all students at the {place}, {name}.",
   "hint": "All students ______ the rules at the {place}, {name}.",
   "key": "must follow",
-  "why": "The subject does the action: must + base verb (active).",
+  "why": "Students become the subject: active: must follow.",
   "slots": {
    "place": [
     "pool",
@@ -1389,7 +1389,7 @@ export default [
   "source": "Tickets must be bought by passengers before the {trip}, {name}.",
   "hint": "Passengers ______ tickets before the {trip}, {name}.",
   "key": "must buy",
-  "why": "The subject does the action: must + base verb (active).",
+  "why": "Passengers become the subject: active: must buy.",
   "slots": {
    "trip": [
     "journey",
@@ -1417,7 +1417,7 @@ export default [
   "source": "The keys must be left by guests at the {desk}, {name}.",
   "hint": "Guests ______ the keys at the {desk}, {name}.",
   "key": "must leave",
-  "why": "The subject does the action: must + base verb (active).",
+  "why": "Guests become the subject: active: must leave.",
   "slots": {
    "desk": [
     "front desk",
@@ -1445,7 +1445,7 @@ export default [
   "source": "ID must be shown by all visitors at the {place}, {name}.",
   "hint": "All visitors ______ ID at the {place}, {name}.",
   "key": "must show",
-  "why": "The subject does the action: must + base verb (active).",
+  "why": "Visitors become the subject: active: must show.",
   "slots": {
    "place": [
     "entrance",
@@ -1473,7 +1473,7 @@ export default [
   "source": "All visitors must be show ID at the {place}, {name}.",
   "hint": "All visitors ______ ID at the {place}, {name}.",
   "key": "must show",
-  "why": "The subject does the action: must + base verb (active).",
+  "why": "Visitors do it: no be: must show.",
   "slots": {
    "place": [
     "entrance",
@@ -1501,7 +1501,7 @@ export default [
   "source": "Seat belts must wear on the {road}, {name}.",
   "hint": "Seat belts ______ on the {road}, {name}.",
   "key": "must be worn",
-  "why": "The subject receives the action: must be + past participle (passive).",
+  "why": "Belts can't wear: passive: must be worn.",
   "slots": {
    "road": [
     "motorway",
@@ -1529,7 +1529,7 @@ export default [
   "source": "Phones must turned off in the {room}, {name}.",
   "hint": "Phones ______ off in the {room}, {name}.",
   "key": "must be turned",
-  "why": "The subject receives the action: must be + past participle (passive).",
+  "why": "be is missing: must be turned.",
   "slots": {
    "room": [
     "exam room",
@@ -1557,7 +1557,7 @@ export default [
   "source": "Students must be follow the rules at the {place}, {name}.",
   "hint": "Students ______ the rules at the {place}, {name}.",
   "key": "must follow",
-  "why": "The subject does the action: must + base verb (active).",
+  "why": "Students do it: no be: must follow.",
   "slots": {
    "place": [
     "pool",
@@ -1585,7 +1585,7 @@ export default [
   "source": "This {food} must keep in the fridge, {name}.",
   "hint": "This {food} ______ in the fridge, {name}.",
   "key": "must be kept",
-  "why": "The subject receives the action: must be + past participle (passive).",
+  "why": "Food can't keep itself: must be kept.",
   "slots": {
    "food": [
     "milk",

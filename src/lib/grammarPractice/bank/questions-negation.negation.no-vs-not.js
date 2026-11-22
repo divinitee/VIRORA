@@ -17,7 +17,7 @@ export default [
    "any"
   ],
   "key": 0,
-  "why": "There is a noun right after the gap and the verb is positive, so use no (no = not any).",
+  "why": "Before a noun (milk), with a positive verb: no.",
   "slots": {
    "place": [
     "fridge",
@@ -49,7 +49,7 @@ export default [
    "no"
   ],
   "key": 3,
-  "why": "There is a noun right after the gap and the verb is positive, so use no (no = not any).",
+  "why": "Before a noun (idea): no.",
   "slots": {
    "thing": [
     "Dad",
@@ -81,7 +81,7 @@ export default [
    "not"
   ],
   "key": 2,
-  "why": "There is a noun right after the gap and the verb is positive, so use no (no = not any).",
+  "why": "Before a noun (lessons): no.",
   "slots": {
    "day": [
     "Sunday",
@@ -105,7 +105,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "There were ______ seats on the {vehicle}, so we stood.",
+  "prompt": "There were ______ seats on the {vehicle}, so we {act}.",
   "options": [
    "any",
    "no",
@@ -113,13 +113,19 @@ export default [
    "none"
   ],
   "key": 1,
-  "why": "There is a noun right after the gap and the verb is positive, so use no (no = not any).",
+  "why": "Before a noun (seats): no.",
   "slots": {
    "vehicle": [
     "bus",
     "train",
     "metro",
     "tram"
+   ],
+   "act": [
+    "stood",
+    "waited",
+    "walked",
+    "got off"
    ]
   }
  },
@@ -139,7 +145,7 @@ export default [
    "any"
   ],
   "key": 0,
-  "why": "There is a noun right after the gap and the verb is positive, so use no (no = not any).",
+  "why": "Before a noun (time): no.",
   "slots": {
    "name": [
     "Aziz",
@@ -171,7 +177,7 @@ export default [
    "no"
   ],
   "key": 3,
-  "why": "There is a noun right after the gap and the verb is positive, so use no (no = not any).",
+  "why": "Before a noun (hot water): no.",
   "slots": {
    "room": [
     "bathroom",
@@ -195,7 +201,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My grandparents have ______ internet in their {home}.",
+  "prompt": "My {who} have ______ internet in their {home}.",
   "options": [
    "none",
    "any",
@@ -203,13 +209,19 @@ export default [
    "not"
   ],
   "key": 2,
-  "why": "There is a noun right after the gap and the verb is positive, so use no (no = not any).",
+  "why": "Before a noun (internet): no.",
   "slots": {
    "home": [
     "village house",
     "dacha",
     "flat",
     "old house"
+   ],
+   "who": [
+    "grandparents",
+    "neighbours",
+    "aunt and uncle",
+    "cousins"
    ]
   }
  },
@@ -229,7 +241,7 @@ export default [
    "none"
   ],
   "key": 1,
-  "why": "There is a noun right after the gap and the verb is positive, so use no (no = not any).",
+  "why": "Before a noun (shops): no.",
   "slots": {
    "home": [
     "house",
@@ -261,7 +273,7 @@ export default [
    "any"
   ],
   "key": 0,
-  "why": "There is a noun right after the gap and the verb is positive, so use no (no = not any).",
+  "why": "Before a noun (money): no.",
   "slots": {
    "thing": [
     "trip",
@@ -285,7 +297,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The {room} has ______ windows, so it's very dark.",
+  "prompt": "The {room} has ______ windows, so it's very {adj}.",
   "options": [
    "not",
    "none",
@@ -293,13 +305,19 @@ export default [
    "no"
   ],
   "key": 3,
-  "why": "There is a noun right after the gap and the verb is positive, so use no (no = not any).",
+  "why": "Before a noun (windows): no.",
   "slots": {
    "room": [
     "basement",
     "storeroom",
     "little room",
     "old garage"
+   ],
+   "adj": [
+    "dark",
+    "stuffy",
+    "gloomy",
+    "warm"
    ]
   }
  },
@@ -319,7 +337,7 @@ export default [
    "not"
   ],
   "key": 2,
-  "why": "There is a noun right after the gap and the verb is positive, so use no (no = not any).",
+  "why": "Before a noun (sugar): no.",
   "slots": {
    "drink": [
     "tea",
@@ -351,7 +369,7 @@ export default [
    "none"
   ],
   "key": 2,
-  "why": "Use not before an adjective, a verb, a place word or any. No only goes straight before a noun.",
+  "why": "Before an adjective (hot): not.",
   "slots": {
    "name": [
     "Aziz",
@@ -375,7 +393,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "I'm ______ working today, {name}. It's my day off.",
+  "prompt": "I'm ______ working {when}, {name}. It's my day off.",
   "options": [
    "no",
    "not",
@@ -383,13 +401,19 @@ export default [
    "any"
   ],
   "key": 1,
-  "why": "Use not before an adjective, a verb, a place word or any. No only goes straight before a noun.",
+  "why": "Before an -ing verb (working): not.",
   "slots": {
    "name": [
     "Aziz",
     "Olga",
     "Timur",
     "Lola"
+   ],
+   "when": [
+    "today",
+    "tonight",
+    "this morning",
+    "this afternoon"
    ]
   }
  },
@@ -401,7 +425,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "My brother is ______ very tall, but he plays {sport} well.",
+  "prompt": "My {rel} is ______ very tall, but he plays {sport} well.",
   "options": [
    "not",
    "none",
@@ -409,13 +433,19 @@ export default [
    "no"
   ],
   "key": 0,
-  "why": "Use not before an adjective, a verb, a place word or any. No only goes straight before a noun.",
+  "why": "Before an adjective (very tall): not.",
   "slots": {
    "sport": [
     "basketball",
     "volleyball",
     "football",
     "tennis"
+   ],
+   "rel": [
+    "brother",
+    "cousin",
+    "uncle",
+    "dad"
    ]
   }
  },
@@ -435,7 +465,7 @@ export default [
    "not"
   ],
   "key": 3,
-  "why": "Use not before an adjective, a verb, a place word or any. No only goes straight before a noun.",
+  "why": "Before an adjective (ready): not.",
   "slots": {
    "name": [
     "Aziz",
@@ -459,7 +489,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "There is ______ any bread left, {name}. Can you buy some?",
+  "prompt": "There is ______ any {food} left, {name}. Can you buy some?",
   "options": [
    "any",
    "no",
@@ -467,13 +497,19 @@ export default [
    "none"
   ],
   "key": 2,
-  "why": "Not + any: the verb is negative with not, and any goes before the noun. \"No any\" is wrong.",
+  "why": "\"any …\" after the gap: not.",
   "slots": {
    "name": [
     "Aziz",
     "Olga",
     "Timur",
     "Lola"
+   ],
+   "food": [
+    "bread",
+    "milk",
+    "rice",
+    "butter"
    ]
   }
  },
@@ -493,7 +529,7 @@ export default [
    "any"
   ],
   "key": 1,
-  "why": "Not + any: the verb is negative with not, and any goes before the noun. \"No any\" is wrong.",
+  "why": "\"any homework\" after the gap: not.",
   "slots": {
    "when": [
     "today",
@@ -525,7 +561,7 @@ export default [
    "no"
   ],
   "key": 0,
-  "why": "Use not before an adjective, a verb, a place word or any. No only goes straight before a noun.",
+  "why": "Before a place (at home): not.",
   "slots": {
    "name": [
     "Olga",
@@ -549,7 +585,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "The station is ______ far from here, {name}. You can walk.",
+  "prompt": "The {place} is ______ far from here, {name}. You can walk.",
   "options": [
    "none",
    "any",
@@ -557,13 +593,19 @@ export default [
    "not"
   ],
   "key": 3,
-  "why": "Use not before an adjective, a verb, a place word or any. No only goes straight before a noun.",
+  "why": "Before an adjective (far): not.",
   "slots": {
    "name": [
     "Aziz",
     "Olga",
     "Timur",
     "Lola"
+   ],
+   "place": [
+    "station",
+    "bazaar",
+    "park",
+    "library"
    ]
   }
  },
@@ -575,7 +617,7 @@ export default [
   "level": "B1",
   "stage": "choose",
   "format": "mcq",
-  "prompt": "There were ______ any taxis at the {place}, so we walked.",
+  "prompt": "There were ______ any taxis at the {place}, so we {act}.",
   "options": [
    "any",
    "no",
@@ -583,13 +625,19 @@ export default [
    "none"
   ],
   "key": 2,
-  "why": "Not + any: the verb is negative with not, and any goes before the noun. \"No any\" is wrong.",
+  "why": "\"any taxis\" after the gap: not.",
   "slots": {
    "place": [
     "station",
     "airport",
     "bus stop",
     "hotel"
+   ],
+   "act": [
+    "walked",
+    "took the bus",
+    "waited",
+    "stayed"
    ]
   }
  },
@@ -604,7 +652,7 @@ export default [
   "instr": "Write no or not.",
   "source": "There's ______ cheese in the {place}, {name}.",
   "key": "no",
-  "why": "There is a noun right after the gap and the verb is positive, so use no (no = not any).",
+  "why": "Noun after the gap (cheese): no.",
   "slots": {
    "place": [
     "fridge",
@@ -631,11 +679,13 @@ export default [
   "instr": "Write no or not.",
   "source": "I've got ______ brothers, but I have two {sib}.",
   "key": "no",
-  "why": "There is a noun right after the gap and the verb is positive, so use no (no = not any).",
+  "why": "Noun after the gap (brothers): no.",
   "slots": {
    "sib": [
     "sisters",
-    "cousins"
+    "cousins",
+    "cats",
+    "dogs"
    ]
   }
  },
@@ -650,7 +700,7 @@ export default [
   "instr": "Write no or not.",
   "source": "We had ______ rain {when}, {name}.",
   "key": "no",
-  "why": "There is a noun right after the gap and the verb is positive, so use no (no = not any).",
+  "why": "Noun after the gap (rain): no.",
   "slots": {
    "when": [
     "last month",
@@ -677,7 +727,7 @@ export default [
   "instr": "Write no or not.",
   "source": "There are ______ buses after {time} in our town, {name}.",
   "key": "no",
-  "why": "There is a noun right after the gap and the verb is positive, so use no (no = not any).",
+  "why": "Noun after the gap (buses): no.",
   "slots": {
    "time": [
     "ten",
@@ -704,7 +754,7 @@ export default [
   "instr": "Write no or not.",
   "source": "{name} has ______ free time {when}.",
   "key": "no",
-  "why": "There is a noun right after the gap and the verb is positive, so use no (no = not any).",
+  "why": "Noun after the gap (free time): no.",
   "slots": {
    "name": [
     "Aziz",
@@ -729,15 +779,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write no or not.",
-  "source": "Our village has ______ cinema, {name}.",
+  "source": "Our {place} has ______ cinema, {name}.",
   "key": "no",
-  "why": "There is a noun right after the gap and the verb is positive, so use no (no = not any).",
+  "why": "Noun after the gap (cinema): no.",
   "slots": {
    "name": [
     "Aziz",
     "Olga",
     "Timur",
     "Lola"
+   ],
+   "place": [
+    "village",
+    "town",
+    "street",
+    "area"
    ]
   }
  },
@@ -752,7 +808,7 @@ export default [
   "instr": "Write no or not.",
   "source": "There's ______ wifi in this {place}, {name}.",
   "key": "no",
-  "why": "There is a noun right after the gap and the verb is positive, so use no (no = not any).",
+  "why": "Noun after the gap (wifi): no.",
   "slots": {
    "place": [
     "café",
@@ -777,15 +833,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write no or not.",
-  "source": "I have ______ questions, {name}. Everything is clear.",
+  "source": "I have ______ {what}, {name}. Everything is clear.",
   "key": "no",
-  "why": "There is a noun right after the gap and the verb is positive, so use no (no = not any).",
+  "why": "Noun after the gap (…): no.",
   "slots": {
    "name": [
     "Aziz",
     "Olga",
     "Timur",
     "Lola"
+   ],
+   "what": [
+    "questions",
+    "problems",
+    "doubts",
+    "worries"
    ]
   }
  },
@@ -800,7 +862,7 @@ export default [
   "instr": "Write no or not.",
   "source": "There were ______ eggs at the {shop}, {name}.",
   "key": "no",
-  "why": "There is a noun right after the gap and the verb is positive, so use no (no = not any).",
+  "why": "Noun after the gap (eggs): no.",
   "slots": {
    "shop": [
     "bazaar",
@@ -825,15 +887,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write no or not.",
-  "source": "My uncle has ______ car, so he goes by {transport}.",
+  "source": "My {rel} has ______ car, so he goes by {transport}.",
   "key": "no",
-  "why": "There is a noun right after the gap and the verb is positive, so use no (no = not any).",
+  "why": "Noun after the gap (car): no.",
   "slots": {
    "transport": [
     "bus",
     "metro",
     "bike",
     "taxi"
+   ],
+   "rel": [
+    "uncle",
+    "grandpa",
+    "brother",
+    "dad"
    ]
   }
  },
@@ -848,7 +916,7 @@ export default [
   "instr": "Write no or not.",
   "source": "The museum is ______ open on {day}, {name}.",
   "key": "not",
-  "why": "Use not before an adjective, a verb, a place word or any. No only goes straight before a noun.",
+  "why": "Adjective after the gap (open): not.",
   "slots": {
    "day": [
     "Mondays",
@@ -875,7 +943,7 @@ export default [
   "instr": "Write no or not.",
   "source": "I'm ______ hungry, {name}. I had a big {meal}.",
   "key": "not",
-  "why": "Use not before an adjective, a verb, a place word or any. No only goes straight before a noun.",
+  "why": "Adjective after the gap (hungry): not.",
   "slots": {
    "name": [
     "Aziz",
@@ -900,15 +968,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write no or not.",
-  "source": "There's ______ any juice left, {name}.",
+  "source": "There's ______ any {drink} left, {name}.",
   "key": "not",
-  "why": "Not + any: the verb is negative with not, and any goes before the noun. \"No any\" is wrong.",
+  "why": "any + a drink after the gap: not, never no any.",
   "slots": {
    "name": [
     "Aziz",
     "Olga",
     "Timur",
     "Lola"
+   ],
+   "drink": [
+    "juice",
+    "milk",
+    "tea",
+    "water"
    ]
   }
  },
@@ -923,7 +997,7 @@ export default [
   "instr": "Write no or not.",
   "source": "We have ______ any lessons on {day}, {name}.",
   "key": "not",
-  "why": "Not + any: the verb is negative with not, and any goes before the noun. \"No any\" is wrong.",
+  "why": "\"any lessons\" after the gap: not.",
   "slots": {
    "day": [
     "Sunday",
@@ -950,7 +1024,7 @@ export default [
   "instr": "Write no or not.",
   "source": "{name} is ______ here. He's at the {place}.",
   "key": "not",
-  "why": "Use not before an adjective, a verb, a place word or any. No only goes straight before a noun.",
+  "why": "Place word after the gap (here): not.",
   "slots": {
    "name": [
     "Aziz",
@@ -977,7 +1051,7 @@ export default [
   "instr": "Write no or not.",
   "source": "It's ______ cold today, {name}. You don't need a {thing}.",
   "key": "not",
-  "why": "Use not before an adjective, a verb, a place word or any. No only goes straight before a noun.",
+  "why": "Adjective after the gap (cold): not.",
   "slots": {
    "name": [
     "Aziz",
@@ -1004,7 +1078,7 @@ export default [
   "instr": "Write no or not.",
   "source": "The test was ______ difficult, {name}. I finished it in {n} minutes.",
   "key": "not",
-  "why": "Use not before an adjective, a verb, a place word or any. No only goes straight before a noun.",
+  "why": "Adjective after the gap (difficult): not.",
   "slots": {
    "name": [
     "Aziz",
@@ -1029,15 +1103,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write no or not.",
-  "source": "My phone is ______ working, {name}. Can I use yours?",
+  "source": "My {dev} is ______ working, {name}. Can I use yours?",
   "key": "not",
-  "why": "Use not before an adjective, a verb, a place word or any. No only goes straight before a noun.",
+  "why": "-ing after the gap (working): not.",
   "slots": {
    "name": [
     "Aziz",
     "Olga",
     "Timur",
     "Lola"
+   ],
+   "dev": [
+    "phone",
+    "laptop",
+    "pen",
+    "charger"
    ]
   }
  },
@@ -1052,7 +1132,7 @@ export default [
   "instr": "Write no or not.",
   "source": "There were ______ any free seats, so we sat on the {place}.",
   "key": "not",
-  "why": "Not + any: the verb is negative with not, and any goes before the noun. \"No any\" is wrong.",
+  "why": "\"any free seats\" after the gap: not.",
   "slots": {
    "place": [
     "floor",
@@ -1071,15 +1151,21 @@ export default [
   "stage": "build",
   "format": "gap_fill",
   "instr": "Write no or not.",
-  "source": "The bus is ______ late today, {name}. It's on time.",
+  "source": "The {veh} is ______ late today, {name}. It's on time.",
   "key": "not",
-  "why": "Use not before an adjective, a verb, a place word or any. No only goes straight before a noun.",
+  "why": "Adjective after the gap (late): not.",
   "slots": {
    "name": [
     "Aziz",
     "Olga",
     "Timur",
     "Lola"
+   ],
+   "veh": [
+    "bus",
+    "train",
+    "ferry",
+    "tram"
    ]
   }
  },
@@ -1095,7 +1181,7 @@ export default [
   "source": "There isn't any milk in the {place}, {name}.",
   "hint": "There is ______ milk in the {place}, {name}.",
   "key": "no",
-  "why": "There is a noun right after the gap and the verb is positive, so use no (no = not any).",
+  "why": "isn't any = is no.",
   "slots": {
    "place": [
     "fridge",
@@ -1123,7 +1209,7 @@ export default [
   "source": "We don't have any lessons on {day}, {name}.",
   "hint": "We have ______ lessons on {day}, {name}.",
   "key": "no",
-  "why": "There is a noun right after the gap and the verb is positive, so use no (no = not any).",
+  "why": "don't have any = have no.",
   "slots": {
    "day": [
     "Sunday",
@@ -1151,7 +1237,7 @@ export default [
   "source": "I haven't got any money for the {thing}, {name}.",
   "hint": "I have got ______ money for the {thing}, {name}.",
   "key": "no",
-  "why": "There is a noun right after the gap and the verb is positive, so use no (no = not any).",
+  "why": "haven't got any = have got no.",
   "slots": {
    "thing": [
     "ticket",
@@ -1176,16 +1262,22 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite with no. Keep the meaning.",
-  "source": "There aren't any shops in our {place}.",
-  "hint": "There are ______ shops in our {place}.",
+  "source": "There aren't any {what} in our {place}.",
+  "hint": "There are ______ {what} in our {place}.",
   "key": "no",
-  "why": "There is a noun right after the gap and the verb is positive, so use no (no = not any).",
+  "why": "aren't any = are no.",
   "slots": {
    "place": [
     "village",
     "street",
     "building",
     "area"
+   ],
+   "what": [
+    "shops",
+    "cafés",
+    "banks",
+    "parks"
    ]
   }
  },
@@ -1201,7 +1293,7 @@ export default [
   "source": "{name} doesn't have any time {when}.",
   "hint": "{name} has ______ time {when}.",
   "key": "no",
-  "why": "There is a noun right after the gap and the verb is positive, so use no (no = not any).",
+  "why": "doesn't have any = has no.",
   "slots": {
    "name": [
     "Aziz",
@@ -1232,7 +1324,7 @@ export default [
    "not",
    "any"
   ],
-  "why": "Not + any: the verb is negative with not, and any goes before the noun. \"No any\" is wrong.",
+  "why": "is no = is not any.",
   "slots": {
    "drink": [
     "tea",
@@ -1263,7 +1355,7 @@ export default [
    "not",
    "any"
   ],
-  "why": "Not + any: the verb is negative with not, and any goes before the noun. \"No any\" is wrong.",
+  "why": "have no = do not have any.",
   "slots": {
    "meal": [
     "breakfast",
@@ -1288,19 +1380,25 @@ export default [
   "stage": "transform",
   "format": "rewrite",
   "instr": "Rewrite with not … any. Keep the meaning.",
-  "source": "There were no taxis at the {place}.",
-  "hint": "There were ______ ______ taxis at the {place}.",
+  "source": "There were no {what} at the {place}.",
+  "hint": "There were ______ ______ {what} at the {place}.",
   "key": [
    "not",
    "any"
   ],
-  "why": "Not + any: the verb is negative with not, and any goes before the noun. \"No any\" is wrong.",
+  "why": "were no = were not any.",
   "slots": {
    "place": [
     "station",
     "airport",
     "bus stop",
     "hotel"
+   ],
+   "what": [
+    "taxis",
+    "buses",
+    "trains",
+    "cars"
    ]
   }
  },
@@ -1319,7 +1417,7 @@ export default [
    "not",
    "any"
   ],
-  "why": "Not + any: the verb is negative with not, and any goes before the noun. \"No any\" is wrong.",
+  "why": "has no = does not have any.",
   "slots": {
    "name": [
     "Aziz",
@@ -1350,7 +1448,7 @@ export default [
    "not",
    "any"
   ],
-  "why": "Not + any: the verb is negative with not, and any goes before the noun. \"No any\" is wrong.",
+  "why": "I have no plans = I do not have any plans.",
   "slots": {
    "when": [
     "weekend",
@@ -1378,7 +1476,7 @@ export default [
   "source": "There is no any milk in the {place}, {name}.",
   "hint": "There is ______ any milk in the {place}, {name}.",
   "key": "not",
-  "why": "Not + any: the verb is negative with not, and any goes before the noun. \"No any\" is wrong.",
+  "why": "Never no any: not any.",
   "slots": {
    "place": [
     "fridge",
@@ -1406,7 +1504,7 @@ export default [
   "source": "I have not money for the {thing}, {name}.",
   "hint": "I have ______ money for the {thing}, {name}.",
   "key": "no",
-  "why": "There is a noun right after the gap and the verb is positive, so use no (no = not any).",
+  "why": "Before a noun (money): no, not not.",
   "slots": {
    "thing": [
     "ticket",
@@ -1434,7 +1532,7 @@ export default [
   "source": "The shop is no open on {day}, {name}.",
   "hint": "The shop is ______ open on {day}, {name}.",
   "key": "not",
-  "why": "Use not before an adjective, a verb, a place word or any. No only goes straight before a noun.",
+  "why": "Before an adjective: not, not no.",
   "slots": {
    "day": [
     "Mondays",
@@ -1462,7 +1560,7 @@ export default [
   "source": "We have not time for {meal}, {name}.",
   "hint": "We have ______ time for {meal}, {name}.",
   "key": "no",
-  "why": "There is a noun right after the gap and the verb is positive, so use no (no = not any).",
+  "why": "Before a noun (time): no, not not.",
   "slots": {
    "meal": [
     "breakfast",
@@ -1490,7 +1588,7 @@ export default [
   "source": "My sister is no at home {when}, {name}.",
   "hint": "My sister is ______ at home {when}, {name}.",
   "key": "not",
-  "why": "Use not before an adjective, a verb, a place word or any. No only goes straight before a noun.",
+  "why": "Before a place: not, not no.",
   "slots": {
    "when": [
     "today",
