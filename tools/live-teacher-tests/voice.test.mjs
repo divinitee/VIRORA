@@ -517,3 +517,19 @@ test('support language by level: A2 gets Uzbek instructions, unknown starts bili
   assert.match(supportLangText('A1', 'en'), /set to English/);
   assert.match(buildBrainInstructions({ persona: 'vira', uiLang: 'uz', level: 'A2' }), /SUPPORT LANGUAGE \(student level A2\)/);
 });
+
+test('session fit: the situation is asked first, remembered, and the clock runs on THEIR time', async () => {
+  const { buildTurnMessage, buildBrainInstructions, planAfter, cleanPlan, brainSchema } = await import('../../base44/shared/liveTeacherBrain.js');
+  assert.ok(brainSchema().required.includes('session'));
+  assert.match(buildBrainInstructions({ persona: 'vira' }), /ask about their situation in one short, natural question/);
+  assert.match(buildBrainInstructions({ persona: 'vira' }), /waiting for the bus/);
+  let p = cleanPlan(null);
+  assert.match(buildTurnMessage({ persona: 'vira', studentText: 'x', plan: p }), /not told you their situation yet/);
+  p = planAfter(p, { read: { drift: 'on_track' }, reply: 'ok', session: { minutes: 5, place: 'outside', energy: 'low' } });
+  p = planAfter(p, { read: { drift: 'on_track' }, reply: 'ok', session: { minutes: 0, place: 'unknown', energy: 'unknown' } }); // unknown never wipes it
+  assert.deepEqual(p.session, { minutes: 5, place: 'outside', energy: 'low' });
+  // Vira lesson max 10 min; they have 5. After 2 minutes: 3 min of THEIR time left.
+  assert.match(buildTurnMessage({ persona: 'vira', studentText: 'x', plan: p, minutesLeft: 8 }), /about 3 min left of their time/);
+  assert.match(buildTurnMessage({ persona: 'vira', studentText: 'x', plan: p, minutesLeft: 5.2 }), /THEIR TIME IS UP/);
+  assert.match(buildTurnMessage({ persona: 'vira', studentText: 'x', plan: p }), /about 5 min \| place: outside \| energy: low/);
+});

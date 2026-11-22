@@ -464,6 +464,19 @@ export default function LiveTeacherV2() {
             Noisy room (hold a button to talk)
           </label>
         </div>
+        {/* 23 Nov (Tee): tell the teacher your situation first, so the lesson fits it */}
+        <div className="rounded-xl border border-primary/40 bg-primary/10 p-3 text-sm leading-6">
+          {(() => {
+            const name = String(user?.full_name || "").trim().split(/\s+/)[0];
+            const hi = { uz: `Salom${name ? `, ${name}` : ""}!`, ru: `Привет${name ? `, ${name}` : ""}!`, en: `Hey${name ? ` ${name}` : ""},` }[lang] || `Hey${name ? ` ${name}` : ""},`;
+            const body = {
+              uz: "Darsni boshlashdan oldin hozirgi holatingizni ayting, shunda darsni sizga moslab tuzaman: qayerdasiz (shovqinli yoki tinch joy), energiyangiz qanday va gaplashishga qancha vaqtingiz bor.",
+              ru: "Перед началом расскажи мне, в какой ты сейчас ситуации, чтобы урок подошёл именно тебе: где ты (шумно или тихо), сколько у тебя сил и сколько времени есть на разговор.",
+              en: "remember to tell me your current situation so I can plan a session that fits it: where you are (noisy or quiet), your energy level, and how much time you have for speaking.",
+            }[lang] || "remember to tell me your current situation so I can plan a session that fits it: where you are (noisy or quiet), your energy level, and how much time you have for speaking.";
+            return <p>{hi} {body}</p>;
+          })()}
+        </div>
         {error ? <p className="text-sm text-rose-300">{error}</p> : null}
         <Button size="lg" className="w-full" disabled={phase === "connecting"} onClick={startLesson}>
           {phase === "connecting" ? <><Loader2 className="h-4 w-4 mr-2 animate-spin" />Connecting…</> : <><Mic className="h-4 w-4 mr-2" />Start lesson</>}
