@@ -1389,7 +1389,13 @@ export default [
     "Timur",
     "Lola"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "does not",
+    "does he"
+   ]
+  ]
  },
  {
   "id": "gpr.questions-negation.tag-questions.basic-tag.transform.007",
@@ -1420,7 +1426,13 @@ export default [
     "bazaar",
     "bank"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "is not",
+    "is she"
+   ]
+  ]
  },
  {
   "id": "gpr.questions-negation.tag-questions.basic-tag.transform.008",
@@ -1451,7 +1463,13 @@ export default [
     "Timur",
     "Lola"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "did not",
+    "did they"
+   ]
+  ]
  },
  {
   "id": "gpr.questions-negation.tag-questions.basic-tag.transform.009",
@@ -1482,7 +1500,13 @@ export default [
     "Timur",
     "Lola"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "will not",
+    "will they"
+   ]
+  ]
  },
  {
   "id": "gpr.questions-negation.tag-questions.basic-tag.transform.010",
@@ -1513,7 +1537,13 @@ export default [
     "on Friday",
     "last week"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "was not",
+    "was it"
+   ]
+  ]
  },
  {
   "id": "gpr.questions-negation.tag-questions.basic-tag.transform.011",
@@ -1544,7 +1574,13 @@ export default [
     "Timur",
     "Lola"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "lives",
+    "does not she"
+   ]
+  ]
  },
  {
   "id": "gpr.questions-negation.tag-questions.basic-tag.transform.012",
@@ -1575,7 +1611,13 @@ export default [
     "on Friday",
     "last week"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "called",
+    "did not he"
+   ]
+  ]
  },
  {
   "id": "gpr.questions-negation.tag-questions.basic-tag.transform.013",
@@ -1606,7 +1648,13 @@ export default [
     "Timur",
     "Lola"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "is",
+    "is not it"
+   ]
+  ]
  },
  {
   "id": "gpr.questions-negation.tag-questions.basic-tag.transform.014",
@@ -1637,7 +1685,13 @@ export default [
     "Timur",
     "Lola"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "can",
+    "cannot they"
+   ]
+  ]
  },
  {
   "id": "gpr.questions-negation.tag-questions.basic-tag.transform.015",
@@ -1668,7 +1722,13 @@ export default [
     "Timur",
     "Lola"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "were",
+    "were not they"
+   ]
+  ]
  },
  {
   "id": "gpr.questions-negation.tag-questions.basic-tag.create.001",

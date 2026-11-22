@@ -1478,7 +1478,13 @@ export default [
     "Timur",
     "Malika"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "are not",
+    "any"
+   ]
+  ]
  },
  {
   "id": "gpr.nouns-articles.quantifiers.no-vs-any.transform.012",
@@ -1509,7 +1515,13 @@ export default [
     "Timur",
     "Malika"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "is not",
+    "any"
+   ]
+  ]
  },
  {
   "id": "gpr.nouns-articles.quantifiers.no-vs-any.transform.013",
@@ -1540,7 +1552,13 @@ export default [
     "Timur",
     "Malika"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "do not",
+    "any"
+   ]
+  ]
  },
  {
   "id": "gpr.nouns-articles.quantifiers.no-vs-any.transform.014",
@@ -1571,7 +1589,13 @@ export default [
     "Fergana",
     "Termez"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "does not",
+    "any"
+   ]
+  ]
  },
  {
   "id": "gpr.nouns-articles.quantifiers.no-vs-any.transform.015",
@@ -1602,7 +1626,13 @@ export default [
     "summer",
     "spring"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "was not",
+    "any"
+   ]
+  ]
  },
  {
   "id": "gpr.nouns-articles.quantifiers.no-vs-any.create.001",

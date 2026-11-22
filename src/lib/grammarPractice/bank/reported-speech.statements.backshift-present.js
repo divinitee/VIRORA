@@ -1570,7 +1570,13 @@ export default [
     "workers",
     "guests"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "their",
+    "did not"
+   ]
+  ]
  },
  {
   "id": "gpr.reported-speech.statements.backshift-present.transform.014",
