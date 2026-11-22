@@ -15,7 +15,7 @@ echo "== 2 lint";    node tools/grammar-practice/lint-topic.mjs "$J"
 echo "== 3 ingest";  node tools/grammar-practice/ingest.mjs "$J"
 echo "== 4 keys";    node tools/grammar-practice/build-keys.mjs
 echo "== 5 tests"
-for t in grading composition schema e2e feedback; do
+for t in grading composition schema e2e feedback course-b1; do
   printf "  %-12s" "$t"; node tools/grammar-practice/$t-tests.mjs | tail -1
 done
 printf "  %-12s" registry; node tools/skill-intelligence/registry-tests.mjs | tail -1
