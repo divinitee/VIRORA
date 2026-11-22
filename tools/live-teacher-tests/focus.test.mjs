@@ -84,3 +84,24 @@ test('the brain gets the focus at LESSON START and a clock stage each turn', () 
   assert.match(buildBrainInstructions({ persona: 'vira' }), /NOTICE \(~20%\): show them ONE of their own real mistakes/);
   assert.ok(Object.keys(FAMILIES).length >= 20);
 });
+
+test('every grammar topic in the app belongs to a group (coverage check over the taxonomy files)', async () => {
+  const fs = await import('node:fs');
+  const src = ['base44/shared/skillTaxonomy.js', 'base44/shared/skillActivityMap.js', 'base44/shared/grammarKeys.js'].map((f) => { try { return fs.readFileSync(f, 'utf8'); } catch { return ''; } }).join('\n');
+  const re = /["'`]((?:tenses|modals|clauses|questions|prepositions|pronouns|conditionals|passive|reported|reported-speech|comparison|articles|verb-patterns|word-order|negation)\.[a-z0-9_.-]+)["'`]/g;
+  const topics = new Set(); let m; while ((m = re.exec(src))) topics.add(m[1]);
+  const unmapped = [...topics].filter((t) => !familyOfTopic(t));
+  assert.deepEqual(unmapped, [], `unmapped topics: ${unmapped.join(', ')}`);
+  assert.ok(topics.size >= 100);
+});
+
+test('the focus names the exact sub-topic inside the group', () => {
+  const learnerItems = [
+    { item_type: 'grammar', item_key: 'grammar:tenses.past.irregular-past', weighted_accuracy: 0.4, rounds: 4, last_evidence_at: daysAgo(1) },
+    { item_type: 'grammar', item_key: 'grammar:negation.yes-no.past-did', weighted_accuracy: 0.7, rounds: 2, last_evidence_at: daysAgo(1) },
+  ];
+  const pick = pickFocus({ learnerItems, level: 'A2', now: NOW });
+  assert.equal(pick.focus.key, 'past_simple');
+  assert.equal(pick.focus.detail[0], 'irregular past');
+  assert.match(focusBrief(pick), /Past Simple, especially: irregular past/);
+});

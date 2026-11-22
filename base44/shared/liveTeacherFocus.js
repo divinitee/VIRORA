@@ -23,9 +23,9 @@ const lvIndex = (l) => { const i = LEVELS.indexOf(String(l || '').toUpperCase())
 // text: regex on AssessmentResult.subskill.
 export const FAMILIES = {
   verb_to_be: { en: 'The verb "to be" (am / is / are)', uz: "To be fe'li (am/is/are)", ru: 'Глагол to be (am/is/are)', level: 'A1', rules: ['grammar.verb_to_be'], taxonomy: [], text: /\bto be\b|\bam\s*\/\s*is\b/i },
-  present_simple: { en: 'Present Simple', uz: 'Present Simple', ru: 'Present Simple', level: 'A1', rules: ['grammar.present_simple'], taxonomy: ['tenses.present.simple', 'negation.negation.dont-doesnt', 'negation.yes-no.do-does'], text: /present simple/i },
-  subject_verb_agreement: { en: 'He / she / it + -s (agreement)', uz: "Ega va fe'l moslashuvi (he/she + -s)", ru: 'Согласование (he/she + -s)', level: 'A1', rules: ['grammar.subject_verb_agreement'], taxonomy: ['articles.plurals-agreement.there-agreement', 'articles.plurals-agreement.each-every', 'pronouns.indefinite.indefinite-agreement'], text: /agreement/i },
-  present_continuous: { en: 'Present Continuous', uz: 'Present Continuous', ru: 'Present Continuous', level: 'A1', rules: ['grammar.present_continuous'], taxonomy: ['tenses.present.continuous'], text: /^(?!.*past).*(continuous|progressive)/i },
+  present_simple: { en: 'Present Simple', uz: 'Present Simple', ru: 'Present Simple', level: 'A1', rules: ['grammar.present_simple'], taxonomy: ['tenses.present.simple', 'tenses.present.general-truth', 'tenses.present.stative-verbs', 'negation.negation.dont-doesnt', 'negation.yes-no.do-does'], text: /present simple/i },
+  subject_verb_agreement: { en: 'He / she / it + -s (agreement)', uz: "Ega va fe'l moslashuvi (he/she + -s)", ru: 'Согласование (he/she + -s)', level: 'A1', rules: ['grammar.subject_verb_agreement'], taxonomy: ['tenses.present.third-person-s', 'articles.plurals-agreement.there-agreement', 'articles.plurals-agreement.each-every', 'pronouns.indefinite.indefinite-agreement'], text: /agreement/i },
+  present_continuous: { en: 'Present Continuous', uz: 'Present Continuous', ru: 'Present Continuous', level: 'A1', rules: ['grammar.present_continuous'], taxonomy: ['tenses.present.continuous', 'tenses.present.temporary-situation'], text: /^(?!.*past).*(continuous|progressive)/i },
   plural_nouns: { en: 'Plural nouns', uz: "Ko'plik shakli", ru: 'Множественное число', level: 'A1', rules: ['grammar.plural_nouns'], taxonomy: ['articles.plurals-agreement.es-plural', 'articles.plurals-agreement.irregular-plural', 'articles.plurals-agreement.y-ies'], text: /plural/i },
   pronouns: { en: 'Pronouns (I / me / my)', uz: 'Olmoshlar (I / me / my)', ru: 'Местоимения (I / me / my)', level: 'A1', rules: ['grammar.pronouns'], taxonomy: ['pronouns.'], text: /pronoun/i },
   question_formation: { en: 'Making questions', uz: 'Savol tuzish', ru: 'Построение вопросов', level: 'A1', rules: ['grammar.question_formation'], taxonomy: ['negation.yes-no', 'negation.wh-questions', 'negation.subject-questions', 'negation.tag-questions', 'negation.indirect-questions'], text: /question/i },
@@ -38,6 +38,7 @@ export const FAMILIES = {
   prepositions: { en: 'Prepositions (in / on / at)', uz: 'Predloglar (in / on / at)', ru: 'Предлоги (in / on / at)', level: 'A2', rules: ['grammar.prepositions'], taxonomy: ['prepositions.'], text: /preposition/i },
   modal_verbs: { en: 'Modal verbs (can / should / must)', uz: "Modal fe'llar (can / should / must)", ru: 'Модальные глаголы (can / should / must)', level: 'A2', rules: ['grammar.modal_verbs'], taxonomy: ['modals.'], text: /modal|\bcan\b|should|must/i },
   word_order: { en: 'Word order', uz: "So'z tartibi", ru: 'Порядок слов', level: 'A2', rules: ['grammar.word_order'], taxonomy: ['word-order', 'negation.indirect-questions.embedded-order'], text: /word order/i },
+  used_to: { en: 'Used to (past habits)', uz: "Used to (o'tmishdagi odatlar)", ru: 'Used to (привычки в прошлом)', level: 'B1', rules: [], taxonomy: ['tenses.used-to'], text: /used to/i },
   past_continuous: { en: 'Past Continuous', uz: 'Past Continuous', ru: 'Past Continuous', level: 'B1', rules: [], taxonomy: ['tenses.past.continuous', 'tenses.past.interrupted'], text: /past (continuous|progressive)/i },
   present_perfect: { en: 'Present Perfect', uz: 'Present Perfect', ru: 'Present Perfect', level: 'B1', rules: ['grammar.present_perfect'], taxonomy: ['tenses.present-perfect', 'tenses.perfect', 'tenses.present.perfect', 'negation.wh-questions.how-long-perfect', 'tenses.past.past-perfect'], text: /perfect/i },
   gerund_infinitive: { en: 'Gerund or infinitive (like doing / want to do)', uz: 'Gerund yoki infinitiv (like doing / want to do)', ru: 'Герундий или инфинитив (like doing / want to do)', level: 'B1', rules: ['grammar.gerund_infinitive'], taxonomy: ['verb-patterns', 'verbs.patterns', 'prepositions.preposition-gerund'], text: /gerund|infinitive/i },
@@ -46,7 +47,7 @@ export const FAMILIES = {
   passive_voice: { en: 'Passive voice', uz: 'Majhul nisbat', ru: 'Пассивный залог', level: 'B1', rules: ['grammar.passive_voice'], taxonomy: ['passive.'], text: /passive/i },
   collocations: { en: 'Natural word combinations', uz: "Tabiiy so'z birikmalari", ru: 'Естественные словосочетания', level: 'B1', rules: ['vocabulary.collocation'], taxonomy: [], text: /collocation/i },
   word_choice: { en: 'Choosing the right word', uz: "To'g'ri so'z tanlash", ru: 'Выбор правильного слова', level: 'B1', rules: ['vocabulary.word_choice', 'vocabulary.false_friend'], taxonomy: [], text: /word choice|vocabulary/i },
-  reported_speech: { en: 'Reported speech', uz: "O'zlashtirma gap", ru: 'Косвенная речь', level: 'B2', rules: ['grammar.reported_speech'], taxonomy: ['questions.reported', 'reported.'], text: /reported/i },
+  reported_speech: { en: 'Reported speech', uz: "O'zlashtirma gap", ru: 'Косвенная речь', level: 'B2', rules: ['grammar.reported_speech'], taxonomy: ['questions.reported', 'reported.', 'reported-speech.'], text: /reported/i },
 };
 export const FAMILY_KEYS = Object.keys(FAMILIES);
 
@@ -74,7 +75,8 @@ const recency = (iso, now) => {
  */
 export function collectEvidence({ profile = null, learnerItems = [], assessments = [], now }) {
   const ev = {};
-  const get = (k) => (ev[k] ||= { wrong: 0, right: 0, sources: new Set(), examples: [], due: false });
+  const get = (k) => (ev[k] ||= { wrong: 0, right: 0, sources: new Set(), examples: [], due: false, detail: {} });
+  const addDetail = (e, name, wrong) => { if (name && wrong > 0) e.detail[name] = (e.detail[name] || 0) + wrong; };
   // speaking (Live Teacher tracker)
   for (const m of Object.values(profile?.mistakes || {})) {
     const k = familyOfRule(m?.rule);
@@ -84,6 +86,7 @@ export function collectEvidence({ profile = null, learnerItems = [], assessments
     if (m.status === 'mastered') { e.right += 2 * w; continue; }
     e.wrong += Math.max(1, Number(m.total_count) || 1) * w;
     e.right += Math.max(0, Number(m.correct_streak) || 0) * w;
+    addDetail(e, String(m.variant || '').replace(/_/g, ' '), Math.max(1, Number(m.total_count) || 1) * w);
     if (w > 0) e.sources.add('speaking');
     if (m.wrong_example && m.correct_example) e.examples.push({ wrong: m.wrong_example, correct: m.correct_example, at: m.last_seen || '' });
   }
@@ -99,6 +102,7 @@ export function collectEvidence({ profile = null, learnerItems = [], assessments
     const wrong = rounds * (1 - (Number.isFinite(acc) ? acc : 0.5)) * w;
     e.wrong += wrong;
     e.right += rounds * (Number.isFinite(acc) ? acc : 0.5) * w;
+    addDetail(e, String(it.item_key || '').split('.').pop().replace(/-/g, ' '), wrong);
     if (wrong > 0.05) e.sources.add('practice');
     if (Date.parse(it.due || '') <= now) e.due = true;
   }
@@ -161,9 +165,10 @@ export function pickFocus({ profile = null, learnerItems = [], assessments = [],
   const F = FAMILIES[top.key];
   const where = [...top.e.sources].map((s) => SOURCE_TEXT[s]).join(' + ') || 'earlier lessons';
   const acc = top.parts.accuracy;
+  const detail = Object.entries(top.e.detail || {}).sort((a, b) => b[1] - a[1]).slice(0, 2).map(([d]) => d);
   const why = `mistakes in ${where}${acc !== null ? `, about ${Math.round(acc * 100)}% right so far` : ''}; ${F.level} level basics`;
   return {
-    focus: { key: top.key, label: F.en, label_local: F[lang] || F.en, why, examples: top.e.examples.slice(0, 2), score: +top.score.toFixed(2), parts: top.parts },
+    focus: { key: top.key, label: F.en, label_local: F[lang] || F.en, detail, why, examples: top.e.examples.slice(0, 2), score: +top.score.toFixed(2), parts: top.parts },
     review,
     runnerUp: ranked[1] ? FAMILIES[ranked[1].key].en : null,
   };
@@ -174,7 +179,7 @@ export function focusBrief(pick) {
   if (!pick) return '';
   const lines = [];
   if (pick.focus) {
-    lines.push(`TODAY'S FOCUS (chosen from this student's real mistakes across the whole app): ${pick.focus.label} (${pick.focus.why}).`);
+    lines.push(`TODAY'S FOCUS (chosen from this student's real mistakes across the whole app): ${pick.focus.label}${pick.focus.detail?.length ? `, especially: ${pick.focus.detail.join('; ')}` : ''} (${pick.focus.why}).`);
     for (const x of pick.focus.examples) lines.push(`- their real mistake: "${x.wrong}" -> "${x.correct}"`);
     lines.push('Use this as lesson_focus. In NOTICE, show them one of their own mistakes above and the fix.');
   }
