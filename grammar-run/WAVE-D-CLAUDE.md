@@ -4,6 +4,11 @@ Tee, 21 Nov: "Wave D = B2 only (92 topics). C1 and C2 (72 topics) are on hold un
 Branch `grammar-wave-d` (id 6b03407d48245bc47538782b), cut from main at f5ea3012 (B1 course + approved gates merged).
 One lane for now (Claude). A Base44 AI lane is possible if Tee wants it (it cost heavy audits in wave C and Claude took it over at C25).
 
+## Where we are
+Next topic: D4 tenses.future.about-to (wl 226), then the WORKLIST B2 order (D5 future-in-the-past … D92 reporting suggest-pattern).
+New authored files use grammar-run/wave-d/skeleton.mjs (each line carries its own why; see tenses.present.changing-trend.mjs).
+Echo errors from ingest show the item index 0-based: [40] = transform 1.
+
 ## Routine per topic
 triage (`grep -n 't: "<topic>"' src/lib/adaptiveGrammar/bank/*.js`) → authored file `tools/grammar-practice/authored/<key>.mjs` (copy the shape of a recent B1 file, e.g. reported-speech.statements.backshift-will) → `bash grammar-run/run_topic.sh <key>` → `node grammar-run/tools-claude/variety.mjs <key>` (aim 0 shared whys, 0 thin lines) → `node grammar-run/tools-claude/whyslot.mjs <key>` (no why may name a slot word) → `node grammar-run/list_multislot.mjs <key>` worst pairings → row below → checkpoint.
 
