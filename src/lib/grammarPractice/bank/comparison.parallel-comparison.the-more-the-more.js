@@ -999,7 +999,13 @@ export default [
     "Zarina",
     "Sherzod"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "The closer",
+    "the more nervous"
+   ]
+  ]
  },
  {
   "id": "gpr.comparison.parallel-comparison.the-more-the-more.build.013",

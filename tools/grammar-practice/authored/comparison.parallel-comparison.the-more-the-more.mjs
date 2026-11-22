@@ -221,5 +221,10 @@ const VARIETY = {
   }
 }
 // end variety
+// TWO-PART ALTERNATIVES (Claude, 23 Nov 2026, after the gate was applied): "The closer"
+// is as good as "The nearer" here.
+{ const it = items.filter((x) => x.stage === "build")[11];
+  if (JSON.stringify(it.key) === JSON.stringify(["The nearer", "the more nervous"])) it.acceptable = [["The closer", "the more nervous"]];
+  else throw new Error("the-more b12 moved"); }
 writeFileSync(out, JSON.stringify(items, null, 1) + "\n");
 console.log(`wrote ${items.length} items -> ${out}`);

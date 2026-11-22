@@ -143,7 +143,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 12. _Complete both parts with the + comparative. Use the words in brackets._  
    ______ (near) the **wedding** gets, ______ (nervous) I feel, **Akmal**.  
-   key: The nearer + the more nervous  
+   key: The nearer + the more nervous (also: The closer,the more nervous)  
    why: near → nearer, nervous → more nervous.
 
 13. _Complete both parts with the + comparative. Use the words in brackets._  

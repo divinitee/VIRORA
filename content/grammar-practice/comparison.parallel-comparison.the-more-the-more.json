@@ -997,7 +997,13 @@
     "Zarina",
     "Sherzod"
    ]
-  }
+  },
+  "acceptable": [
+   [
+    "The closer",
+    "the more nervous"
+   ]
+  ]
  },
  {
   "domain": "comparison",
