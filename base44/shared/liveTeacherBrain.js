@@ -294,7 +294,19 @@ export const SNAP_LINES = {
   ],
 };
 
-export function buildBrainInstructions({ persona, ageGroup, uiLang, studentName, memory, audioTags = true }) {
+// How much of the student's own language she uses, by level (22 Nov, Tee: "an Uzbek A2
+// student gets on this... yeah"). Settings language = the student's language.
+export function supportLangText(level, uiLang) {
+  if (uiLang === 'en') return 'SUPPORT LANGUAGE: the app is set to English, so speak English; simplify it to the student\'s level.';
+  const L = uiLang === 'ru' ? 'Russian' : 'Uzbek';
+  const lv = String(level || '').toUpperCase();
+  if (lv === 'A1' || lv === 'A2') return `SUPPORT LANGUAGE (student level ${lv}): this student can NOT follow long English yet. Say instructions, reactions to their feelings and explanations in short, simple ${L}. English is for the practice itself: very short sentences, the 1000 most common words, one idea at a time. Every task = a short ${L} instruction + the English phrase in quotes. Move more into English only when they clearly cope.`;
+  if (lv === 'B1') return `SUPPORT LANGUAGE (student level B1): mostly simple English. Switch to short ${L} only when they are stuck, ask for it, or for a grammar explanation (say one sentence, put the rest in explanation_text).`;
+  if (lv === 'B2' || lv === 'C1' || lv === 'C2') return `SUPPORT LANGUAGE (student level ${lv}): English only. ${L} only if they ask for it.`;
+  return `SUPPORT LANGUAGE (level not known yet): start bilingual. Your greeting is ${L} first (short and warm) plus ONE very simple English question. If they answer easily in English, move to English step by step; if they struggle or answer in ${L}, keep instructions in ${L} and English for the practice phrases. Set level_estimate as soon as you can.`;
+}
+
+export function buildBrainInstructions({ persona, ageGroup, uiLang, studentName, memory, audioTags = true, level = '' }) {
   const P = PERSONAS[cleanPersona(persona)];
   const age = cleanAge(ageGroup);
   const name = String(studentName || '').trim().split(/\s+/)[0].slice(0, 30);
@@ -404,7 +416,8 @@ ${memory || 'No memory.'}
 
 # FIRST TURN
 If STUDENT MEMORY's last lesson says "ENDED EARLY FOR SWEARING" and was today or 1 day ago: your WHOLE first reply is ONLY the comeback check-in, then STOP and wait. No hello speech, no lesson plan, no focus, no task, nothing after the question. Tone: ${P.conduct.comeback.tone}. In the app-settings language (${settingsLang}), the gist of: "${P.conduct.comeback[settingsLang === 'Russian' ? 'ru' : settingsLang === 'English' ? 'en' : 'uz']}" (your own words are fine, keep it that short; informal). If the user message says they came back within MINUTES of you telling them to come back tomorrow, use your QUICK-RETURN version instead, the gist of: "${P.conduct.comeback.quick[settingsLang === 'Russian' ? 'ru' : settingsLang === 'English' ? 'en' : 'uz']}" (you noticed how fast they came back; a little guarded). Leave lesson_focus empty. On their answer: ${P.conduct.comeback.next}.
-When the user message says LESSON START: greet briefly (one English sentence plus at most one short ${explainLang} sentence), say what you will do, and ask ONE easy question.${memory && !/FIRST LESSON/.test(memory) ? ' If memory shows earlier mistakes or a planned focus, mention it in one sentence and start there.' : ' Use the first minutes to estimate the level.'}`;
+${supportLangText(level, uiLang)}
+When the user message says LESSON START: greet briefly in the way SUPPORT LANGUAGE says, say what you will do in one short sentence, and ask ONE easy question.${memory && !/FIRST LESSON/.test(memory) ? ' If memory shows earlier mistakes or a planned focus, mention it in one sentence and start there.' : ' Use the first minutes to estimate the level.'}`;
 }
 
 const clip = (s, n) => String(s ?? '').replace(/\s+/g, ' ').trim().slice(0, n);

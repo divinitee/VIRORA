@@ -343,7 +343,7 @@ export async function startVoiceLesson({ svc, user, body = {}, env, fetchImpl = 
     const endedAt = Date.parse(prev?.ended_at || prev?.updated_date || '');
     const comebackMinutes = prev?.scores?.conduct_end && Number.isFinite(endedAt) ? Math.max(0, (now - endedAt) / 60000) : null;
     const seed = seedPlan(prev?.scores?.plan, { patience: comebackMinutes !== null && comebackMinutes <= 60 ? 50 : undefined });
-    const instructions = buildBrainInstructions({ persona, ageGroup, uiLang: lang, studentName: user.full_name, memory: memorySummary(profile, { now }), audioTags: tags });
+    const instructions = buildBrainInstructions({ persona, ageGroup, uiLang: lang, studentName: user.full_name, memory: memorySummary(profile, { now }), audioTags: tags, level: profile?.cefr_level });
     // The brain writes the greeting while the ears pass for the phone is made.
     const [{ out, usage }, sttToken] = await Promise.all([
       think(env, { instructions, message: buildTurnMessage({ persona, start: true, plan: seed, comebackMinutes }), safetyId }, fetchImpl),
@@ -455,7 +455,7 @@ export async function voiceTurn({ svc, user, body = {}, env, fetchImpl = fetch, 
     const minutesLeft = lesson.max_minutes - (now - Date.parse(lesson.started_at)) / 60000;
     const instructions = buildBrainInstructions({
       persona, ageGroup: lesson.age_group, uiLang: ['uz', 'ru', 'en'].includes(body.lang) ? body.lang : 'uz',
-      studentName: user.full_name, memory: memorySummary(profile, { now }), audioTags: s.audioTags && modelSupportsTags(s.ttsModel),
+      studentName: user.full_name, memory: memorySummary(profile, { now }), audioTags: s.audioTags && modelSupportsTags(s.ttsModel), level: profile?.cefr_level,
     });
     const message = buildTurnMessage({ persona, history: cleanHistory(body.history), studentText: heard.text, lessonMistakes: lesson.mistakes, minutesLeft, studentLang: speechLang(heard.language, heard.text), strikes: lesson.scores?.strikes, casual: lesson.scores?.casual, plan: lesson.scores?.plan });
     const tBrain = Date.now();
@@ -542,7 +542,7 @@ export async function voiceTurnText({ svc, user, body = {}, env, fetchImpl = fet
     const minutesLeft = lesson.max_minutes - (now - Date.parse(lesson.started_at)) / 60000;
     const instructions = buildBrainInstructions({
       persona, ageGroup: lesson.age_group, uiLang: ['uz', 'ru', 'en'].includes(body.lang) ? body.lang : 'uz',
-      studentName: user.full_name, memory: memorySummary(profile, { now }), audioTags: tags,
+      studentName: user.full_name, memory: memorySummary(profile, { now }), audioTags: tags, level: profile?.cefr_level,
     });
     const studentLang = ['uz', 'ru'].includes(body.student_lang) ? body.student_lang : speechLang('', studentText);
     const message = buildTurnMessage({ persona, history: cleanHistory(body.history), studentText, lessonMistakes: lesson.mistakes, minutesLeft, studentLang, strikes: lesson.scores?.strikes, casual: lesson.scores?.casual, plan: lesson.scores?.plan });

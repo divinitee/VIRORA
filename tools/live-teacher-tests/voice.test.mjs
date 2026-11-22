@@ -508,3 +508,12 @@ test('quick return after a conduct ending: she notices it was minutes, recap rec
   const greet = s3.calls.filter((c) => c.url.includes('/chat/completions')).pop();
   assert.match(JSON.parse(greet.init.body).messages[1].content, /QUICK-RETURN/);
 });
+
+test('support language by level: A2 gets Uzbek instructions, unknown starts bilingual, B2 English only', async () => {
+  const { buildBrainInstructions, supportLangText } = await import('../../base44/shared/liveTeacherBrain.js');
+  assert.match(supportLangText('A2', 'uz'), /can NOT follow long English yet[\s\S]*simple Uzbek/);
+  assert.match(supportLangText('', 'ru'), /start bilingual[\s\S]*Russian first/);
+  assert.match(supportLangText('B2', 'uz'), /English only/);
+  assert.match(supportLangText('A1', 'en'), /set to English/);
+  assert.match(buildBrainInstructions({ persona: 'vira', uiLang: 'uz', level: 'A2' }), /SUPPORT LANGUAGE \(student level A2\)/);
+});
