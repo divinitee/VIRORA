@@ -55,6 +55,7 @@ export default async function (req: Request) {
       'ELEVENLABS_API_KEY', 'LIVE_TEACHER_BRAIN_MODEL', 'LIVE_TEACHER_BRAIN_REASONING', 'LIVE_TEACHER_TTS_MODEL',
       'LIVE_TEACHER_STT_MODEL', 'LIVE_TEACHER_AUDIO_TAGS', 'LIVE_TEACHER_VOICE_VIRA', 'LIVE_TEACHER_VOICE_VIRA_NIGHTINGALE',
       'LIVE_TEACHER_VOICE_VELVET', 'LIVE_TEACHER_VOICE_VIOLET', 'LIVE_TEACHER_STT_LIVE_MODEL',
+      'LIVE_TEACHER_COST_GUARD_CPM', 'LIVE_TEACHER_COST_CAP_USD',
     ]) env[k] = Deno.env.get(k);
     const out = (r: { status: number; body: unknown }) => Response.json(r.body, { status: r.status });
 

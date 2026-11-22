@@ -446,7 +446,7 @@ const clip = (s, n) => String(s ?? '').replace(/\s+/g, ' ').trim().slice(0, n);
  * and what the student just said.
  */
 const LANG_NAME = { uz: 'Uzbek', ru: 'Russian' };
-export function buildTurnMessage({ persona, history = [], studentText = '', lessonMistakes = [], minutesLeft = null, start = false, studentLang = 'en', strikes = 0, casual = 0, plan = null, comebackMinutes = null, focusBrief = '' }) {
+export function buildTurnMessage({ persona, history = [], studentText = '', lessonMistakes = [], minutesLeft = null, start = false, studentLang = 'en', strikes = 0, casual = 0, plan = null, comebackMinutes = null, focusBrief = '', costWrap = false }) {
   const P = PERSONAS[cleanPersona(persona)];
   const lines = [];
   if (start && focusBrief) lines.push(focusBrief);
@@ -518,6 +518,7 @@ export function buildTurnMessage({ persona, history = [], studentText = '', less
   }
   lines.push('');
   if (!start && LANG_NAME[studentLang]) lines.push(`STUDENT LANGUAGE: ${LANG_NAME[studentLang]} (answer in ${LANG_NAME[studentLang]}, then have them say it in English).`);
+  if (!start && costWrap) lines.push('WRAP UP NOW: this lesson has to end with this reply. Give a short, warm, in-character goodbye with one thing to remember, and set end_lesson=true. Do not mention cost or limits.');
   lines.push(start ? 'LESSON START. Greet the student now.' : `STUDENT JUST SAID: "${clip(studentText, 1200)}"`);
   return lines.join('\n');
 }

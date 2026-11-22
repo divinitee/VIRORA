@@ -273,6 +273,34 @@ export async function speak(env, { voiceId, text }, fetchImpl = fetch) {
   return { audio_b64: bytesToB64(bytes), chars: spoken.length, mime: 'audio/mpeg' };
 }
 
+// ------------------------------------------------------------------ cost guard
+// 23 Nov (Tee): one weird session must not eat the margin. Average cost per minute
+// over the lesson so far; after 2 minutes, above the limit -> she wraps up on the
+// next turn and the admin console gets a flag. Above the hard cap -> it ends now.
+export function costGuard({ usage, startedAt, now, env = {} }) {
+  const limitCpm = Number(env.LIVE_TEACHER_COST_GUARD_CPM) > 0 ? Number(env.LIVE_TEACHER_COST_GUARD_CPM) : 10; // cents per minute
+  const capUsd = Number(env.LIVE_TEACHER_COST_CAP_USD) > 0 ? Number(env.LIVE_TEACHER_COST_CAP_USD) : 1.5;
+  const total = Number(usage?.cost_usd) || 0;
+  const minutes = Math.max(0, (now - Date.parse(startedAt || '')) / 60000) || 0;
+  const perMinCents = minutes > 0 ? (total * 100) / minutes : 0;
+  const hardStop = total >= capUsd;
+  const tripped = hardStop || (minutes >= 2 && perMinCents > limitCpm);
+  return { tripped, hardStop, perMinCents: +perMinCents.toFixed(2), totalUsd: +total.toFixed(4), minutes: +minutes.toFixed(2), limitCpm, capUsd };
+}
+
+async function flagCostGuard(svc, { lesson, user, persona, guard }) {
+  try {
+    await svc.AdminAuditLog?.create?.({
+      ts: new Date().toISOString(), action: 'live_teacher_cost_guard', outcome: 'refused', reason: guard.hardStop ? 'cost_cap' : 'cost_per_minute',
+      target_type: 'LiveTeacherLesson', target_id: lesson.id, actor_email: user?.email || '', channel: 'system',
+      details: `${persona}: ${guard.perMinCents} cents/min over ${guard.minutes} min (limit ${guard.limitCpm}), total $${guard.totalUsd} (cap $${guard.capUsd}). The lesson was wrapped up.`,
+    });
+  } catch (e) {
+    console.error('live teacher cost guard flag:', redact(e?.message));
+  }
+  console.warn('live teacher COST GUARD', JSON.stringify({ lesson: lesson.id, persona, ...guard }));
+}
+
 // ------------------------------------------------------------------ helpers
 /** The student's latest v2 lessons, newest first: her last lines, how it ended, recent focuses. */
 async function recentV2Lessons(svc, email) {
@@ -486,7 +514,7 @@ export async function voiceTurn({ svc, user, body = {}, env, fetchImpl = fetch, 
       persona, ageGroup: lesson.age_group, uiLang: ['uz', 'ru', 'en'].includes(body.lang) ? body.lang : 'uz',
       studentName: user.full_name, memory: memorySummary(profile, { now }), audioTags: s.audioTags && modelSupportsTags(s.ttsModel), level: profile?.cefr_level,
     });
-    const message = buildTurnMessage({ persona, history: cleanHistory(body.history), studentText: heard.text, lessonMistakes: lesson.mistakes, minutesLeft, studentLang: speechLang(heard.language, heard.text), strikes: lesson.scores?.strikes, casual: lesson.scores?.casual, plan: lesson.scores?.plan });
+    const message = buildTurnMessage({ persona, history: cleanHistory(body.history), studentText: heard.text, lessonMistakes: lesson.mistakes, minutesLeft, studentLang: speechLang(heard.language, heard.text), strikes: lesson.scores?.strikes, casual: lesson.scores?.casual, plan: lesson.scores?.plan, costWrap: !!lesson.scores?.cost_guard });
     const tBrain = Date.now();
     const { out, usage } = await think(env, { instructions, message, safetyId: await sha256Hex(user.id || user.email) }, fetchImpl);
     timings.brain_ms = Date.now() - tBrain;
@@ -505,14 +533,18 @@ export async function voiceTurn({ svc, user, body = {}, env, fetchImpl = fetch, 
     timings.voice_ms = Date.now() - tVoice;
     const c = costOf({ sttSeconds, brainModel: s.brainModel, usage, ttsModel: s.ttsModel, ttsChars: voice.chars });
     const usageTotal = addUsage(lesson.scores?.usage, c, { sttSeconds, ttsChars: voice.chars });
-    const updated = { ...applied.lesson, tool_calls: (lesson.tool_calls || 0) + 1, scores: { ...(lesson.scores || {}), usage: usageTotal, strikes: conduct.strikes, casual: conduct.casual, conduct_end: conduct.end || !!lesson.scores?.conduct_end, plan: planAfter(lesson.scores?.plan, out, { rude: out.rude, casual: out.casual_swear }) } };
+    const guard = costGuard({ usage: usageTotal, startedAt: lesson.started_at, now, env });
+    const guardWasOn = !!lesson.scores?.cost_guard;
+    if (guard.hardStop || guardWasOn) out.end_lesson = true; // told to wrap up last turn (or over the hard cap)
+    const updated = { ...applied.lesson, tool_calls: (lesson.tool_calls || 0) + 1, scores: { ...(lesson.scores || {}), ...(guard.tripped || guardWasOn ? { cost_guard: lesson.scores?.cost_guard || { at: new Date(now).toISOString(), per_min_cents: guard.perMinCents, total_usd: guard.totalUsd, hard: guard.hardStop } } : {}), usage: usageTotal, strikes: conduct.strikes, casual: conduct.casual, conduct_end: conduct.end || !!lesson.scores?.conduct_end, plan: planAfter(lesson.scores?.plan, out, { rude: out.rude, casual: out.casual_swear }) } };
     await svc.LiveTeacherLesson.update(lesson.id, { ...applied.counters, tool_calls: updated.tool_calls, scores: updated.scores });
+    if (guard.tripped && !guardWasOn) await flagCostGuard(svc, { lesson, user, persona, guard });
 
     let recap = null;
     if (out.end_lesson) {
       const { row: row2, profile: p2 } = await getOrCreateProfile(svc, user.email);
       recap = await finalize(svc, { lesson: updated, row: row2, profile: p2, summary: out.summary, strengths: out.strengths, focusNext: out.focus_next, scores: null, now });
-      recap = { ...recap, usage: usageTotal, conduct: { strikes: conduct.strikes, casual: conduct.casual, ended_early: conduct.end } };
+      recap = { ...recap, usage: usageTotal, conduct: { strikes: conduct.strikes, casual: conduct.casual, ended_early: conduct.end }, cost_guard: updated.scores.cost_guard || null };
     }
     console.log('live teacher v2 turn', JSON.stringify({ lesson: lesson.id, persona, cost: c.total, lesson_cost: usageTotal.cost_usd, addressed: out.addressed_to_teacher, mistakes: out.mistakes.length }));
 
@@ -574,7 +606,7 @@ export async function voiceTurnText({ svc, user, body = {}, env, fetchImpl = fet
       studentName: user.full_name, memory: memorySummary(profile, { now }), audioTags: tags, level: profile?.cefr_level,
     });
     const studentLang = ['uz', 'ru'].includes(body.student_lang) ? body.student_lang : speechLang('', studentText);
-    const message = buildTurnMessage({ persona, history: cleanHistory(body.history), studentText, lessonMistakes: lesson.mistakes, minutesLeft, studentLang, strikes: lesson.scores?.strikes, casual: lesson.scores?.casual, plan: lesson.scores?.plan });
+    const message = buildTurnMessage({ persona, history: cleanHistory(body.history), studentText, lessonMistakes: lesson.mistakes, minutesLeft, studentLang, strikes: lesson.scores?.strikes, casual: lesson.scores?.casual, plan: lesson.scores?.plan, costWrap: !!lesson.scores?.cost_guard });
     const [safetyId, voiceId] = await Promise.all([sha256Hex(user.id || user.email), resolveVoice(env, persona, fetchImpl)]);
     const tBrain = Date.now();
     // As soon as the brain has written the reply, its first sentence goes to the
@@ -603,11 +635,15 @@ export async function voiceTurnText({ svc, user, body = {}, env, fetchImpl = fet
     const applied = applyReport(profile, lesson, out, ctx);
     const c = costOf({ sttSeconds, brainModel: s.brainModel, usage, ttsModel: s.ttsModel, ttsChars: speakText.length });
     const usageTotal = addUsage(lesson.scores?.usage, c, { sttSeconds, ttsChars: speakText.length });
-    const updated = { ...applied.lesson, tool_calls: (lesson.tool_calls || 0) + 1, scores: { ...(lesson.scores || {}), usage: usageTotal, strikes: conduct.strikes, casual: conduct.casual, conduct_end: conduct.end || !!lesson.scores?.conduct_end, plan: planAfter(lesson.scores?.plan, out, { rude: out.rude, casual: out.casual_swear }) } };
+    const guard = costGuard({ usage: usageTotal, startedAt: lesson.started_at, now, env });
+    const guardWasOn = !!lesson.scores?.cost_guard;
+    if (guard.hardStop || guardWasOn) out.end_lesson = true; // told to wrap up last turn (or over the hard cap)
+    const updated = { ...applied.lesson, tool_calls: (lesson.tool_calls || 0) + 1, scores: { ...(lesson.scores || {}), ...(guard.tripped || guardWasOn ? { cost_guard: lesson.scores?.cost_guard || { at: new Date(now).toISOString(), per_min_cents: guard.perMinCents, total_usd: guard.totalUsd, hard: guard.hardStop } } : {}), usage: usageTotal, strikes: conduct.strikes, casual: conduct.casual, conduct_end: conduct.end || !!lesson.scores?.conduct_end, plan: planAfter(lesson.scores?.plan, out, { rude: out.rude, casual: out.casual_swear }) } };
     const [first] = await Promise.all([
       firstJob,
       applied.profile !== profile ? saveProfile(svc, row, applied.profile) : null,
       svc.LiveTeacherLesson.update(lesson.id, { ...applied.counters, tool_calls: updated.tool_calls, scores: updated.scores }),
+      guard.tripped && !guardWasOn ? flagCostGuard(svc, { lesson, user, persona, guard }) : null,
     ]);
     if (first?.error) throw first.error;
     timings.voice_ready_ms = Date.now() - tBrain;
@@ -615,7 +651,7 @@ export async function voiceTurnText({ svc, user, body = {}, env, fetchImpl = fet
     let recap = null;
     if (out.end_lesson) {
       recap = await finalize(svc, { lesson: updated, row, profile: applied.profile, summary: out.summary, strengths: out.strengths, focusNext: out.focus_next, scores: null, now });
-      recap = { ...recap, usage: usageTotal, conduct: { strikes: conduct.strikes, casual: conduct.casual, ended_early: conduct.end } };
+      recap = { ...recap, usage: usageTotal, conduct: { strikes: conduct.strikes, casual: conduct.casual, ended_early: conduct.end }, cost_guard: updated.scores.cost_guard || null };
     }
     return reply(200, {
       ok: true,
