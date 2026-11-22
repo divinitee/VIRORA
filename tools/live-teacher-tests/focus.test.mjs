@@ -59,7 +59,9 @@ test('basics: an A1 rule a B1 student still breaks outranks a B2 rule; last focu
 
 test('old evidence fades out; mastered speaking mistakes count as progress, not as mistakes', () => {
   const profile = { mistakes: { a: mistake('grammar.past_simple', 'goed', { last_seen: daysAgo(90) }), b: mistake('grammar.articles', 'a_an', { status: 'mastered' }) } };
-  assert.equal(pickFocus({ profile, level: 'A2', now: NOW }), null);
+  const pick = pickFocus({ profile, level: 'A2', now: NOW });
+  assert.equal(pick.focus, null); // nothing recent enough to be today's focus...
+  assert.match(pick.review, /goed wrong/); // ...but an old mistake is a good 1-minute warm-up review
 });
 
 test('no data at all -> null (the teacher picks from the warm-up), brief is empty', () => {
