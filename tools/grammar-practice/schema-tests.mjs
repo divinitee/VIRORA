@@ -19,6 +19,14 @@ t("array key matching blank count is accepted",
   { ...base, stage:"transform", format:"rewrite", source:"She works at a bank.",
     hint:"______ she ______ (work) at a bank?", key:["Does","work"] }, false);
 
+console.log("multi-blank alternatives (21 Nov 2026):");
+t("array key with whole-answer alternatives is accepted",
+  { ...base, stage:"transform", format:"rewrite", source:"x",
+    hint:"He said he ______ come ______.", key:["would","the next day"], acceptable:[["would","the following day"]] }, false);
+t("alternative with the wrong number of parts is refused",
+  { ...base, stage:"transform", format:"rewrite", source:"x",
+    hint:"He said he ______ come ______.", key:["would","the next day"], acceptable:["the following day"] }, true);
+
 console.log("slot integrity:");
 t("undeclared placeholder is refused",
   { ...base, stage:"build", format:"gap_fill", instr:"x",

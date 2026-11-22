@@ -68,6 +68,23 @@ for (const it of items) {
   const text = [it.prompt, it.source, it.hint].filter(Boolean).join(" || ");
   const slots = it.slots || {};
 
+  // Name clash (Tee, 21 Nov 2026: a FAIL). A one-word capitalised slot filler that
+  // is also printed in the same item ("Olga isn't at the lesson … She might be
+  // ill, Olga."), or two name slots that share a filler, makes one sentence talk
+  // to and about the same person.
+  if (det) {
+    const printed = [text, it.instr].filter(Boolean).join(" ").replace(/\{[a-z0-9_]+\}/gi, " ");
+    const isName = (x) => /^[A-Z][a-z]+$/.test(String(x));
+    for (const [name, fill] of Object.entries(slots))
+      for (const f of Array.isArray(fill) ? fill : [])
+        if (isName(f) && new RegExp(`\\b${f}\\b`).test(printed)) F(`${id}: slot {${name}} filler "${f}" is also printed in the sentence`);
+    const nameSlots = Object.entries(slots).filter(([, v]) => Array.isArray(v) && v.length && v.every(isName));
+    for (let a = 0; a < nameSlots.length; a++) for (let b = a + 1; b < nameSlots.length; b++) {
+      const both = nameSlots[a][1].filter((x) => nameSlots[b][1].includes(x));
+      if (both.length) F(`${id}: slots {${nameSlots[a][0]}} and {${nameSlots[b][0]}} share ${both.join(", ")}`);
+    }
+  }
+
   if (det) {
     if (!it.why || words(it.why) < 4) F(`${id}: missing or empty "why"`);
     if (it.why && /\{[a-z_]+\}/.test(it.why)) F(`${id}: "why" contains a slot placeholder`);
@@ -96,7 +113,7 @@ for (const it of items) {
       if (hit.length && !(it.acceptable || []).length) F(`${id}: typed key "${k}" has a British/American spelling split (${hit.join(", ")}) — pick another verb or list the other spelling in "acceptable"`);
     }
     if (typeof it.key === "string" && /'s\b|'d\b/.test(it.key) && !(it.acceptable || []).length)
-      G(`${id}: key "${it.key}" uses 's or 'd — ingest does not expand these; add the full form to "acceptable"`);
+      G(`${id}: key "${it.key}" uses 's or 'd — ingest does not expand short forms; add the full form to "acceptable"`);
   }
 
   // slots
