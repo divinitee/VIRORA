@@ -279,6 +279,8 @@ export default function Pricing() {
                       </li>
                     ))}
                   </ul>
+                  {/* Tee, 23 Nov: Live Teacher speaking is a separate add-on (credits), on every plan */}
+                  <p className="mt-3 text-xs font-medium text-white/45">{t("pricing.pricing_no_speaking")}</p>
                 </div>
 
                 {/* actions */}

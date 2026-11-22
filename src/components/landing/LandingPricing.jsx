@@ -146,6 +146,7 @@ export default function LandingPricing() {
                     </li>
                   )}
                   </ul>
+                  <p className="mt-3 text-xs font-medium text-slate-400">{t("pricing.pricing_no_speaking")}</p>
                 </div>
                 <Link to="/register" className="mt-6">
                   <Button
