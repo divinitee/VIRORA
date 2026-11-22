@@ -1301,8 +1301,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Join the facts. Use the verb in brackets in the past perfect continuous.",
-  "source": "He started studying at eight. At midnight he was very tired, {name}. He had a {exam} the next day.",
-  "hint": "He was tired because he ______ (study) since eight, {name}. He had a {exam} the next day.",
+  "source": "He started studying at eight. At midnight he was very tired, {name}. The {exam} was the next day.",
+  "hint": "He was tired because he ______ (study) since eight, {name}. The {exam} was the next day.",
   "key": "had been studying",
   "why": "Eight to midnight explains the tiredness: had been studying.",
   "slots": {

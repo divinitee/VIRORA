@@ -2508,6 +2508,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "tenses.past.past-perfect-continuous": {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "authored": 68,
+  "stages": {
+   "choose": 480,
+   "build": 480,
+   "transform": 360,
+   "create": 8,
+   "express": 5
+  }
+ },
  "tenses.past.past-perfect-experience": {
   "domain": "tenses",
   "branch": "past",
