@@ -1,0 +1,1947 @@
+[
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Your {skill} ______ better every week, {name}. Keep going!",
+  "options": [
+   "is getting",
+   "got",
+   "getting",
+   "is get"
+  ],
+  "key": 0,
+  "why": "Improving step by step now: be + -ing: is getting.",
+  "slots": {
+   "skill": [
+    "English",
+    "cooking",
+    "handwriting",
+    "swimming"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Food prices at the {shop} ______ up these days, {name}.",
+  "options": [
+   "went",
+   "going",
+   "are go",
+   "are going"
+  ],
+  "key": 3,
+  "why": "\"these days\" + a change still happening: are going up.",
+  "slots": {
+   "shop": [
+    "bazaar",
+    "supermarket",
+    "corner shop",
+    "bakery"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "More and more young people ______ {lang} these days, {name}.",
+  "options": [
+   "learning",
+   "are learn",
+   "are learning",
+   "learned"
+  ],
+  "key": 2,
+  "why": "\"more and more\" shows a growing trend: are learning.",
+  "slots": {
+   "lang": [
+    "Korean",
+    "English",
+    "Chinese",
+    "German"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The days ______ shorter now that it's {month}, {name}.",
+  "options": [
+   "are get",
+   "are getting",
+   "got",
+   "getting"
+  ],
+  "key": 1,
+  "why": "Shorter day after day at this time of year: are getting.",
+  "slots": {
+   "month": [
+    "October",
+    "November",
+    "autumn",
+    "late autumn"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our little town ______ fast, {name}. There are new {bldg} everywhere.",
+  "options": [
+   "is growing",
+   "grew",
+   "growing",
+   "is grow"
+  ],
+  "key": 0,
+  "why": "New buildings all the time show the change: is growing.",
+  "slots": {
+   "bldg": [
+    "houses",
+    "shops",
+    "cafés",
+    "schools"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Electric cars ______ more popular in {place} these days, {name}.",
+  "options": [
+   "became",
+   "becoming",
+   "are become",
+   "are becoming"
+  ],
+  "key": 3,
+  "why": "More popular now than before, and still changing: are becoming.",
+  "slots": {
+   "place": [
+    "our town",
+    "our city",
+    "our district",
+    "the suburbs"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The weather ______ warmer day by day, {name}. Spring is {near}.",
+  "options": [
+   "getting",
+   "is get",
+   "is getting",
+   "got"
+  ],
+  "key": 2,
+  "why": "\"day by day\" marks a slow change in progress: is getting.",
+  "slots": {
+   "near": [
+    "coming",
+    "almost here",
+    "on its way",
+    "close"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My old {dev} ______ slower and slower, {name}.",
+  "options": [
+   "is get",
+   "is getting",
+   "got",
+   "getting"
+  ],
+  "key": 1,
+  "why": "\"slower and slower\": a change that is still going on: is getting.",
+  "slots": {
+   "dev": [
+    "laptop",
+    "phone",
+    "computer",
+    "printer"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Rents in the {area} ______ higher at the moment, {name}.",
+  "options": [
+   "are climbing",
+   "climbed",
+   "climbing",
+   "are climb"
+  ],
+  "key": 0,
+  "why": "\"at the moment\" + a rise in progress: are climbing.",
+  "slots": {
+   "area": [
+    "centre",
+    "old town",
+    "new district",
+    "city"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Fewer people ______ letters nowadays, {name}. Everyone sends {msg}.",
+  "options": [
+   "wrote",
+   "writing",
+   "are write",
+   "are writing"
+  ],
+  "key": 3,
+  "why": "Fewer than before, and still falling: are writing.",
+  "slots": {
+   "msg": [
+    "messages",
+    "emails",
+    "voice notes",
+    "photos"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The queue at the {office} ______ longer and longer, {name}.",
+  "options": [
+   "getting",
+   "is get",
+   "is getting",
+   "got"
+  ],
+  "key": 2,
+  "why": "\"longer and longer\" at this moment: is getting.",
+  "slots": {
+   "office": [
+    "bank",
+    "post office",
+    "clinic",
+    "ticket office"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our team ______ stronger this season, {name}. We've won {n} games.",
+  "options": [
+   "is get",
+   "is getting",
+   "got",
+   "getting"
+  ],
+  "key": 1,
+  "why": "This season, still improving game by game: is getting.",
+  "slots": {
+   "n": [
+    "three",
+    "four",
+    "five",
+    "six"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "{kids} ______ more and more time on screens these days, {name}.",
+  "options": [
+   "are spending",
+   "spent",
+   "spending",
+   "are spend"
+  ],
+  "key": 0,
+  "why": "A habit that keeps growing now: are spending.",
+  "slots": {
+   "kids": [
+    "Children",
+    "Teenagers",
+    "Students",
+    "Adults"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The ice on the {water} ______, {name}. Don't walk on it!",
+  "options": [
+   "melted",
+   "melting",
+   "is melt",
+   "is melting"
+  ],
+  "key": 3,
+  "why": "Warmer each day, so it's changing now: is melting.",
+  "slots": {
+   "water": [
+    "lake",
+    "pond",
+    "river",
+    "canal"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Prices for {item} ______ down this month, {name}.",
+  "options": [
+   "coming",
+   "are come",
+   "are coming",
+   "came"
+  ],
+  "key": 2,
+  "why": "\"this month\" + prices still falling: are coming down.",
+  "slots": {
+   "item": [
+    "phones",
+    "laptops",
+    "TVs",
+    "bikes"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My little {boy} ______ so fast, {name}! Look at his trousers.",
+  "options": [
+   "is grow",
+   "is growing",
+   "grew",
+   "growing"
+  ],
+  "key": 1,
+  "why": "The short trousers prove he's still growing now.",
+  "slots": {
+   "boy": [
+    "brother",
+    "son",
+    "nephew",
+    "cousin"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The traffic in the {area} ______ worse and worse, {name}.",
+  "options": [
+   "is getting",
+   "got",
+   "getting",
+   "is get"
+  ],
+  "key": 0,
+  "why": "\"worse and worse\": a change in progress: is getting.",
+  "slots": {
+   "area": [
+    "centre",
+    "old town",
+    "new district",
+    "market area"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "More tourists ______ our {place} these days, {name}.",
+  "options": [
+   "visited",
+   "visiting",
+   "are visit",
+   "are visiting"
+  ],
+  "key": 3,
+  "why": "More than before, and the number goes on rising: are visiting.",
+  "slots": {
+   "place": [
+    "village",
+    "valley",
+    "town",
+    "mountains"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The {club} ______ more and more members, {name}.",
+  "options": [
+   "gaining",
+   "is gain",
+   "is gaining",
+   "gained"
+  ],
+  "key": 2,
+  "why": "Users increase month after month: is gaining.",
+  "slots": {
+   "club": [
+    "new app",
+    "chess club",
+    "sports club",
+    "book club"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Your {plants} ______ really well this year, {name}.",
+  "options": [
+   "are grow",
+   "are growing",
+   "grew",
+   "growing"
+  ],
+  "key": 1,
+  "why": "\"this year\", and the plants are still growing well.",
+  "slots": {
+   "plants": [
+    "tomatoes",
+    "roses",
+    "grapes",
+    "beans"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Something is changing these days. Put the verb in the present continuous.",
+  "source": "My cousin's {skill} ______ (get) better and better, {name}.",
+  "key": "is getting",
+  "why": "Better and better over time: get → is getting.",
+  "slots": {
+   "skill": [
+    "Russian",
+    "English",
+    "chess",
+    "cooking"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Something is changing these days. Put the verb in the present continuous.",
+  "source": "Bus fares ______ (go) up this year, {name}, so I walk to {where}.",
+  "key": "are going",
+  "why": "Fares up this year, still changing: are going.",
+  "slots": {
+   "where": [
+    "school",
+    "work",
+    "the bazaar",
+    "college"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Something is changing these days. Put the verb in the present continuous.",
+  "source": "Bikes ______ (become) more popular in our {area}, {name}.",
+  "key": "are becoming",
+  "why": "More popular than before: become → are becoming.",
+  "slots": {
+   "area": [
+    "town",
+    "street",
+    "district",
+    "village"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Something is changing these days. Put the verb in the present continuous.",
+  "source": "Our neighbourhood ______ (change) fast, {name}. New {bldg} open every month.",
+  "key": "is changing",
+  "why": "New places open every month: change → is changing.",
+  "slots": {
+   "bldg": [
+    "cafés",
+    "shops",
+    "gyms",
+    "bakeries"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Something is changing these days. Put the verb in the present continuous.",
+  "source": "The nights ______ (get) colder now that it's {month}, {name}.",
+  "key": "are getting",
+  "why": "Colder night after night in this season: are getting.",
+  "slots": {
+   "month": [
+    "October",
+    "November",
+    "autumn",
+    "late autumn"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Something is changing these days. Put the verb in the present continuous.",
+  "source": "The road to the {place} ______ (improve) slowly, {name}.",
+  "key": "is improving",
+  "why": "\"slowly\" + a road that gets better: is improving.",
+  "slots": {
+   "place": [
+    "airport",
+    "village",
+    "station",
+    "market"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Something is changing these days. Put the verb in the present continuous.",
+  "source": "More and more adults ______ (learn) {lang} online, {name}.",
+  "key": "are learning",
+  "why": "\"more and more adults\": a trend: are learning.",
+  "slots": {
+   "lang": [
+    "Korean",
+    "English",
+    "Chinese",
+    "German"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Something is changing these days. Put the verb in the present continuous.",
+  "source": "The number of cars in our {area} ______ (grow) every month, {name}.",
+  "key": "is growing",
+  "why": "The number keeps rising: grow → is growing.",
+  "slots": {
+   "area": [
+    "town",
+    "street",
+    "district",
+    "village"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Something is changing these days. Put the verb in the present continuous.",
+  "source": "Teenagers ______ (spend) more and more time on their {dev}, {name}.",
+  "key": "are spending",
+  "why": "\"more and more time\": spend → are spending.",
+  "slots": {
+   "dev": [
+    "phones",
+    "tablets",
+    "laptops",
+    "consoles"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Something is changing these days. Put the verb in the present continuous.",
+  "source": "The price of {food} ______ (increase) at the moment, {name}.",
+  "key": "is increasing",
+  "why": "\"at the moment\" + a price going up: is increasing.",
+  "slots": {
+   "food": [
+    "rice",
+    "sugar",
+    "meat",
+    "bread"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Something is changing these days. Put the verb in the present continuous.",
+  "source": "Phone prices ______ (fall) this year, {name}. Wait for the {sale}.",
+  "key": "are falling",
+  "why": "\"this year\" + prices going down: are falling.",
+  "slots": {
+   "sale": [
+    "summer sale",
+    "new model",
+    "holidays",
+    "autumn sale"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Something is changing these days. Put the verb in the present continuous.",
+  "source": "The water in the {water} ______ (get) warmer every week, {name}.",
+  "key": "is getting",
+  "why": "Warmer week after week: the water is getting warmer.",
+  "slots": {
+   "water": [
+    "lake",
+    "pool",
+    "river",
+    "sea"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Something is changing these days. Put the verb in the present continuous.",
+  "source": "I ______ (get) better at {skill}, {name}. My teacher says so.",
+  "key": "am getting",
+  "why": "I + be = am: I am getting better.",
+  "slots": {
+   "skill": [
+    "maths",
+    "tennis",
+    "drawing",
+    "singing"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Something is changing these days. Put the verb in the present continuous.",
+  "source": "More young families ______ (move) to the {area} these days, {name}.",
+  "key": "are moving",
+  "why": "\"more young families\" these days: are moving.",
+  "slots": {
+   "area": [
+    "suburbs",
+    "new district",
+    "countryside",
+    "old town"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Something is changing these days. Put the verb in the present continuous.",
+  "source": "My grandmother's garden ______ (get) bigger every year, {name}. Now she grows {veg}.",
+  "key": "is getting",
+  "why": "Bigger every year, a change still going on: is getting.",
+  "slots": {
+   "veg": [
+    "melons",
+    "potatoes",
+    "onions",
+    "peppers"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Something is changing these days. Put the verb in the present continuous.",
+  "source": "New {shops} ______ (open) all over the city these days, {name}.",
+  "key": "are opening",
+  "why": "New ones all over the city: open → are opening.",
+  "slots": {
+   "shops": [
+    "cafés",
+    "gyms",
+    "bookshops",
+    "bakeries"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Something is changing these days. Put the verb in the present continuous.",
+  "source": "Our {group} ______ (become) more confident in English, {name}.",
+  "key": "is becoming",
+  "why": "More confident than before: become → is becoming.",
+  "slots": {
+   "group": [
+    "class",
+    "son",
+    "daughter",
+    "group"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Something is changing these days. Put the verb in the present continuous.",
+  "source": "Smartphones ______ (get) cheaper and cheaper, {name}. Even my {who} has one.",
+  "key": "are getting",
+  "why": "\"cheaper and cheaper\": are getting.",
+  "slots": {
+   "who": [
+    "grandma",
+    "little brother",
+    "grandpa",
+    "neighbour"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Something is changing these days. Put the verb in the present continuous.",
+  "source": "The sun ______ (go) down earlier these days, {name}. It's dark by {h}.",
+  "key": "is going",
+  "why": "Earlier day by day: the sun is going down earlier.",
+  "slots": {
+   "h": [
+    "five",
+    "six",
+    "half past five",
+    "six o'clock"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Something is changing these days. Put the verb in the present continuous.",
+  "source": "Your test results ______ (improve) every month, {name}. Well done in {subject}.",
+  "key": "are improving",
+  "why": "Better results month after month: are improving.",
+  "slots": {
+   "subject": [
+    "maths",
+    "physics",
+    "English",
+    "history"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake. Use the present continuous.",
+  "source": "Prices at the {shop} is going up these days, {name}.",
+  "hint": "Prices at the {shop} ______ up these days, {name}.",
+  "key": "are going",
+  "why": "Prices is plural, so are, not is.",
+  "slots": {
+   "shop": [
+    "bazaar",
+    "supermarket",
+    "corner shop",
+    "bakery"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake. Use the present continuous.",
+  "source": "Our town growing very fast, {name}. Look at all the {bldg}.",
+  "hint": "Our town ______ very fast, {name}. Look at all the {bldg}.",
+  "key": "is growing",
+  "why": "be is missing: is growing.",
+  "slots": {
+   "bldg": [
+    "new houses",
+    "new shops",
+    "cranes",
+    "new roads"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake. Use the present continuous.",
+  "source": "More people are use bikes in our {area} now, {name}.",
+  "hint": "More people ______ bikes in our {area} now, {name}.",
+  "key": "are using",
+  "why": "After are, the -ing form: using.",
+  "slots": {
+   "area": [
+    "town",
+    "street",
+    "district",
+    "village"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake. Use the present continuous.",
+  "source": "My {skill} get better and better, {name}.",
+  "hint": "My {skill} ______ better and better, {name}.",
+  "key": "is getting",
+  "why": "A change in progress: is getting, not get.",
+  "slots": {
+   "skill": [
+    "English",
+    "cooking",
+    "handwriting",
+    "chess"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake. Use the present continuous.",
+  "source": "The days are get longer now that it's {month}, {name}.",
+  "hint": "The days ______ longer now that it's {month}, {name}.",
+  "key": "are getting",
+  "why": "are + -ing, never are + base: are getting.",
+  "slots": {
+   "month": [
+    "March",
+    "April",
+    "spring",
+    "early spring"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say what is changing now. Use the verb in brackets in the present continuous.",
+  "source": "Last year few people in our {area} had electric bikes. Now many people buy them, {name}.",
+  "hint": "More and more people ______ (buy) electric bikes, {name}.",
+  "key": "are buying",
+  "why": "A trend growing now: more and more people are buying.",
+  "slots": {
+   "area": [
+    "town",
+    "street",
+    "district",
+    "village"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say what is changing now. Use the verb in brackets in the present continuous.",
+  "source": "Ten years ago the {river} was clean. Now it is dirtier every year, {name}.",
+  "hint": "The {river} ______ (become) dirtier, {name}.",
+  "key": "is becoming",
+  "why": "Dirtier year after year: is becoming.",
+  "slots": {
+   "river": [
+    "river",
+    "lake",
+    "canal",
+    "pond"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say what is changing now. Use the verb in brackets in the present continuous.",
+  "source": "In {month1} it was hot. In {month2} it is cooler, {name}.",
+  "hint": "The weather ______ (get) cooler, {name}.",
+  "key": "is getting",
+  "why": "From hot to cooler, still changing: is getting.",
+  "slots": {
+   "month1": [
+    "August",
+    "July",
+    "June",
+    "late August"
+   ],
+   "month2": [
+    "September",
+    "October",
+    "autumn",
+    "early autumn"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say what is changing now. Use the verb in brackets in the present continuous.",
+  "source": "Before, my sister read one book a month. Now she reads two or three, {name}. She loves {genre}.",
+  "hint": "My sister ______ (read) more and more, {name}. She loves {genre}.",
+  "key": "is reading",
+  "why": "From one book to three: is reading more and more.",
+  "slots": {
+   "genre": [
+    "novels",
+    "poems",
+    "comics",
+    "short stories"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say what is changing now. Use the verb in brackets in the present continuous.",
+  "source": "Last year our club had {n} members. Now it has many more, {name}.",
+  "hint": "Our club ______ (grow), {name}.",
+  "key": "is growing",
+  "why": "More members than last year: is growing.",
+  "slots": {
+   "n": [
+    "ten",
+    "twelve",
+    "fifteen",
+    "twenty"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say it with the present continuous and a double comparative (-er and -er / more and more).",
+  "source": "The {road} is busy now. Tomorrow it will be even busier, {name}.",
+  "hint": "The {road} ______ ______ (busy), {name}.",
+  "key": [
+   "is getting",
+   "busier and busier"
+  ],
+  "why": "be + getting, then busy → busier and busier.",
+  "slots": {
+   "road": [
+    "main road",
+    "bridge",
+    "ring road",
+    "market street"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say it with the present continuous and a double comparative (-er and -er / more and more).",
+  "source": "The {shop} is popular. Every month it is more popular, {name}.",
+  "hint": "The {shop} ______ ______ popular, {name}.",
+  "key": [
+   "is becoming",
+   "more and more"
+  ],
+  "why": "Long adjective: more and more popular; is becoming.",
+  "slots": {
+   "shop": [
+    "new café",
+    "bookshop",
+    "bakery",
+    "gym"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say it with the present continuous and a double comparative (-er and -er / more and more).",
+  "source": "My {dev} was fast. Now it is slower every week, {name}.",
+  "hint": "My {dev} ______ ______ (slow), {name}.",
+  "key": [
+   "is getting",
+   "slower and slower"
+  ],
+  "why": "Short adjective: slower and slower; is getting.",
+  "slots": {
+   "dev": [
+    "laptop",
+    "phone",
+    "computer",
+    "tablet"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say it with the present continuous and a double comparative (-er and -er / more and more).",
+  "source": "Flights to the {place} were cheap. Every year they are more expensive, {name}.",
+  "hint": "Flights to the {place} ______ ______ expensive, {name}.",
+  "key": [
+   "are getting",
+   "more and more"
+  ],
+  "acceptable": [
+   [
+    "are becoming",
+    "more and more"
+   ]
+  ],
+  "why": "Plural flights: are getting more and more expensive.",
+  "slots": {
+   "place": [
+    "coast",
+    "mountains",
+    "capital",
+    "islands"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Say it with the present continuous and a double comparative (-er and -er / more and more).",
+  "source": "My grandpa's walks were long. Every week they are shorter, {name}. He is {age} now.",
+  "hint": "My grandpa's walks ______ ______ (short), {name}. He is {age} now.",
+  "key": [
+   "are getting",
+   "shorter and shorter"
+  ],
+  "why": "Plural walks: are getting shorter and shorter.",
+  "slots": {
+   "age": [
+    "eighty",
+    "eighty-five",
+    "ninety",
+    "seventy-nine"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something that is getting better in your life.",
+  "requiredElement": "present continuous for a change (is getting better)",
+  "constraints": [
+   "exactly one sentence",
+   "is / are getting",
+   "better or -er"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about prices in your town these days.",
+  "requiredElement": "present continuous for a trend",
+  "constraints": [
+   "exactly one sentence",
+   "these days",
+   "are going up / are falling"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with 'more and more people' and the present continuous.",
+  "requiredElement": "more and more people + are + -ing",
+  "constraints": [
+   "exactly one sentence",
+   "more and more people",
+   "are + -ing"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the weather this month.",
+  "requiredElement": "is getting + comparative",
+  "constraints": [
+   "exactly one sentence",
+   "is getting",
+   "warmer / colder"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about your English using a double comparative.",
+  "requiredElement": "is getting + -er and -er / more and more",
+  "constraints": [
+   "exactly one sentence",
+   "and",
+   "is getting"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something popular among young people now.",
+  "requiredElement": "is / are becoming more popular",
+  "constraints": [
+   "exactly one sentence",
+   "becoming",
+   "popular"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a place that is changing fast.",
+  "requiredElement": "present continuous for change",
+  "constraints": [
+   "exactly one sentence",
+   "is changing / is growing",
+   "fast"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something that people do less these days.",
+  "requiredElement": "fewer people are + -ing / people are … less",
+  "constraints": [
+   "exactly one sentence",
+   "these days",
+   "are + -ing"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "How is your town or village changing? Write three or four sentences.",
+  "targetGrammar": "present continuous for trends",
+  "lookFor": [
+   "is / are + -ing",
+   "these days / more and more",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe how technology is changing the way your family lives. Write three or four sentences.",
+  "targetGrammar": "present continuous for trends",
+  "lookFor": [
+   "is / are + -ing",
+   "more and more / less and less",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Your English is changing this year. Tell a friend what is getting better and what is still hard.",
+  "targetGrammar": "is getting + comparative",
+  "lookFor": [
+   "is getting",
+   "better / easier",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short message to a friend abroad about prices and life in your city now.",
+  "targetGrammar": "present continuous for trends",
+  "lookFor": [
+   "are going up / are falling",
+   "these days",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "What are young people in your country doing more these days? Give two or three examples.",
+  "targetGrammar": "more and more + present continuous",
+  "lookFor": [
+   "more and more",
+   "are + -ing",
+   "two or three examples"
+  ]
+ }
+]

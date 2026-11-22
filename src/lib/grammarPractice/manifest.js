@@ -2690,6 +2690,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "tenses.present.changing-trend": {
+  "domain": "tenses",
+  "branch": "present",
+  "topic": "changing-trend",
+  "level": "B2",
+  "authored": 68,
+  "stages": {
+   "choose": 480,
+   "build": 480,
+   "transform": 432,
+   "create": 8,
+   "express": 5
+  }
+ },
  "tenses.present.continuous-negative": {
   "domain": "tenses",
   "branch": "present",

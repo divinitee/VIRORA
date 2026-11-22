@@ -8,7 +8,7 @@
 7	A	tenses.present.simple-vs-continuous	A2	1	live	Routine (present simple) vs temporary change (present continuous) in one context
 8	A	tenses.present.stative-verbs	A2	1	live	Stative verb (like) takes present simple even for a present situation
 9	A	tenses.present.temporary-situation	A2	1	live	Present continuous for a temporary situation around now (not at this second)
-10	A	tenses.present.changing-trend	B2	1	todo	Present continuous for a developing trend ('these days')
+10	A	tenses.present.changing-trend	B2	1	live	Present continuous for a developing trend ('these days')
 11	A	tenses.present.will-characteristic	C2	1	todo	'will' expressing characteristic/habitual behaviour rather than future time
 12	B	tenses.past.continuous-at-time	A2	1	live	Past continuous for an action in progress at a specific past time
 13	B	tenses.past.interrupted-action	A2	2	live	Past continuous (background) interrupted by past simple | Productive contrast of past continuous (background) and past simple (interruption)
