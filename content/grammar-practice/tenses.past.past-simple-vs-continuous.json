@@ -1,0 +1,2016 @@
+[
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "When I got home, my brother ______ dinner, so I joined him, {name}. We made {food}.",
+  "options": [
+   "was cooking",
+   "were cooking",
+   "is cooking",
+   "was cook"
+  ],
+  "key": 0,
+  "why": "\"so I joined him\": the cooking was still going on.",
+  "slots": {
+   "food": [
+    "plov",
+    "soup",
+    "salad",
+    "pasta"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The kids ______ a {show}, so they didn't hear the door, {name}.",
+  "options": [
+   "was watching",
+   "are watching",
+   "were watch",
+   "were watching"
+  ],
+  "key": 3,
+  "why": "\"didn't hear the door\": they were in the middle of the film.",
+  "slots": {
+   "show": [
+    "film",
+    "cartoon",
+    "match",
+    "quiz show"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "It ______ when we left the {place}, so we took an umbrella, {name}.",
+  "options": [
+   "is raining",
+   "was rain",
+   "was raining",
+   "were raining"
+  ],
+  "key": 2,
+  "why": "\"we took the umbrella\": rain was in progress.",
+  "slots": {
+   "place": [
+    "house",
+    "café",
+    "school",
+    "cinema"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Grandma ______ when the {who} arrived, so I didn't wake her, {name}.",
+  "options": [
+   "was sleep",
+   "was sleeping",
+   "were sleeping",
+   "is sleeping"
+  ],
+  "key": 1,
+  "why": "\"I didn't wake her\": she was asleep at that moment.",
+  "slots": {
+   "who": [
+    "guests",
+    "doctor",
+    "neighbours",
+    "postman"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "When I came in, my colleagues ______ lunch in the {room}, and they asked me to join, {name}.",
+  "options": [
+   "were having",
+   "was having",
+   "are having",
+   "were have"
+  ],
+  "key": 0,
+  "why": "\"they asked me to join\": the lunch was in progress.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "garden",
+    "canteen",
+    "office"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Dad ______ to the {place} when his phone rang, so he didn't answer, {name}.",
+  "options": [
+   "were driving",
+   "is driving",
+   "was drive",
+   "was driving"
+  ],
+  "key": 3,
+  "why": "The call came in the middle of the drive.",
+  "slots": {
+   "place": [
+    "airport",
+    "market",
+    "village",
+    "station"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The children ______ in the {yard} when it started to snow, so they came inside, {name}.",
+  "options": [
+   "are playing",
+   "were play",
+   "were playing",
+   "was playing"
+  ],
+  "key": 2,
+  "why": "\"they came inside\": the game was still going.",
+  "slots": {
+   "yard": [
+    "yard",
+    "park",
+    "garden",
+    "street"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My boss ______ on the phone when I knocked, so I waited outside, {name}. It was about the {topic}.",
+  "options": [
+   "was talk",
+   "was talking",
+   "were talking",
+   "is talking"
+  ],
+  "key": 1,
+  "why": "\"I waited\": the call was not over yet.",
+  "slots": {
+   "topic": [
+    "meeting",
+    "report",
+    "trip",
+    "budget"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "My friends ______ for me at the {place} when I arrived, {name}.",
+  "options": [
+   "were waiting",
+   "was waiting",
+   "are waiting",
+   "were wait"
+  ],
+  "key": 0,
+  "why": "\"and they were still there\": the waiting went on.",
+  "slots": {
+   "place": [
+    "gate",
+    "café",
+    "bus stop",
+    "entrance"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The sun ______ when we reached the {place}, so we had lunch outside, {name}.",
+  "options": [
+   "were shining",
+   "is shining",
+   "was shine",
+   "was shining"
+  ],
+  "key": 3,
+  "why": "A scene in progress around the event: was shining.",
+  "slots": {
+   "place": [
+    "lake",
+    "top",
+    "village",
+    "beach"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I was washing the dishes when I ______ a {thing}, {name}.",
+  "options": [
+   "has broke",
+   "was breaking",
+   "broke",
+   "break"
+  ],
+  "key": 2,
+  "why": "One sudden event in the middle of washing up: broke.",
+  "slots": {
+   "thing": [
+    "glass",
+    "plate",
+    "cup",
+    "bowl"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "She was cooking when her {who} ______, {name}.",
+  "options": [
+   "was calling",
+   "called",
+   "call",
+   "has call"
+  ],
+  "key": 1,
+  "why": "A short event while she was cooking: called.",
+  "slots": {
+   "who": [
+    "sister",
+    "aunt",
+    "friend",
+    "boss"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Timur ______ while he was running in the {place}, {name}.",
+  "options": [
+   "fell",
+   "fall",
+   "has fell",
+   "was falling"
+  ],
+  "key": 0,
+  "why": "The fall happened during the run: fell.",
+  "slots": {
+   "place": [
+    "park",
+    "stadium",
+    "street",
+    "forest"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We were walking in the {place} when we ______ a fox, {name}.",
+  "options": [
+   "see",
+   "has seed",
+   "was seeing",
+   "saw"
+  ],
+  "key": 3,
+  "why": "One moment of seeing during the walk: saw.",
+  "slots": {
+   "place": [
+    "forest",
+    "park",
+    "hills",
+    "field"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We were watching a {show} when the lights ______ out, {name}.",
+  "options": [
+   "has goed",
+   "was going",
+   "went",
+   "go"
+  ],
+  "key": 2,
+  "why": "The lights went out once, during the film: went.",
+  "slots": {
+   "show": [
+    "film",
+    "match",
+    "concert",
+    "series"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I ______ my best friend while I was studying in {city}, {name}.",
+  "options": [
+   "was meeting",
+   "met",
+   "meet",
+   "has meeted"
+  ],
+  "key": 1,
+  "why": "A single meeting during the trip: met.",
+  "slots": {
+   "city": [
+    "the capital",
+    "Samarkand",
+    "Bukhara",
+    "Andijan"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We were still cleaning the {room} when the guests ______, {name}.",
+  "options": [
+   "arrived",
+   "arrive",
+   "has arrive",
+   "was arriving"
+  ],
+  "key": 0,
+  "why": "The guests' arrival interrupted the cleaning: arrived.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "living room",
+    "flat",
+    "yard"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We were driving to the {place} when the car suddenly ______, {name}.",
+  "options": [
+   "stop",
+   "has stop",
+   "was stopping",
+   "stopped"
+  ],
+  "key": 3,
+  "why": "One stop in the middle of the drive: stopped.",
+  "slots": {
+   "place": [
+    "coast",
+    "mountains",
+    "village",
+    "airport"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "I was sleeping when I ______ a strange noise in the {room}, {name}.",
+  "options": [
+   "has hear",
+   "was hearing",
+   "heard",
+   "hear"
+  ],
+  "key": 2,
+  "why": "A sudden noise during sleep: heard.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "hall",
+    "yard",
+    "attic"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Lola ______ her {thing} while she was running for the bus, {name}.",
+  "options": [
+   "was dropping",
+   "dropped",
+   "drop",
+   "has drop"
+  ],
+  "key": 1,
+  "why": "One drop while she was running: dropped.",
+  "slots": {
+   "thing": [
+    "phone",
+    "keys",
+    "bag",
+    "ticket"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The long action = past continuous; the short event = past simple.",
+  "source": "When I ______ (get) home, my brother ______ (cook) dinner, so I joined him, {name}. We made {food}.",
+  "key": [
+   "got",
+   "was cooking"
+  ],
+  "why": "Arrival = event; cooking still going on (so I joined him).",
+  "slots": {
+   "food": [
+    "plov",
+    "soup",
+    "salad",
+    "pasta"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The long action = past continuous; the short event = past simple.",
+  "source": "I ______ (read) in the {room} when the phone ______ (ring), {name}.",
+  "key": [
+   "was reading",
+   "rang"
+  ],
+  "why": "Reading = background; the phone = a short event.",
+  "slots": {
+   "room": [
+    "garden",
+    "kitchen",
+    "bedroom",
+    "library"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The long action = past continuous; the short event = past simple.",
+  "source": "We ______ (walk) to the {place} when it ______ (start) to rain, {name}.",
+  "key": [
+   "were walking",
+   "started"
+  ],
+  "why": "Walking = background; the rain began once.",
+  "slots": {
+   "place": [
+    "station",
+    "park",
+    "market",
+    "school"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The long action = past continuous; the short event = past simple.",
+  "source": "Aziz ______ (have) a shower when someone ______ (knock) at the {door}, {name}.",
+  "key": [
+   "was having",
+   "knocked"
+  ],
+  "why": "The shower went on; the knock was one moment.",
+  "slots": {
+   "door": [
+    "door",
+    "front door",
+    "gate",
+    "window"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The long action = past continuous; the short event = past simple.",
+  "source": "When we ______ (arrive) at the {event}, everyone ______ (dance), {name}.",
+  "key": [
+   "arrived",
+   "were dancing"
+  ],
+  "why": "Arrival = event; dancing still going on.",
+  "slots": {
+   "event": [
+    "wedding",
+    "party",
+    "festival",
+    "concert"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The long action = past continuous; the short event = past simple.",
+  "source": "Dad ______ (drive) through the {place} when he ______ (see) a deer, {name}.",
+  "key": [
+   "was driving",
+   "saw"
+  ],
+  "why": "Driving = background; seeing the deer = a moment.",
+  "slots": {
+   "place": [
+    "forest",
+    "hills",
+    "mountains",
+    "valley"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The long action = past continuous; the short event = past simple.",
+  "source": "We ______ (have) dinner when the lights ______ (go) out, {name}. It was a {day}.",
+  "key": [
+   "were having",
+   "went"
+  ],
+  "why": "Dinner went on; the lights went out once.",
+  "slots": {
+   "day": [
+    "Friday",
+    "Sunday",
+    "holiday",
+    "Monday"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The long action = past continuous; the short event = past simple.",
+  "source": "She ______ (wait) at the {place} when she ______ (lose) her ticket, {name}.",
+  "key": [
+   "was waiting",
+   "lost"
+  ],
+  "why": "Waiting = background; losing the ticket = one event.",
+  "slots": {
+   "place": [
+    "station",
+    "airport",
+    "bus stop",
+    "gate"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The long action = past continuous; the short event = past simple.",
+  "source": "I ______ (study) for my {exam} when my cousin ______ (call), {name}.",
+  "key": [
+   "was studying",
+   "called"
+  ],
+  "why": "Studying went on; the call was short.",
+  "slots": {
+   "exam": [
+    "exam",
+    "test",
+    "maths test",
+    "driving test"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The long action = past continuous; the short event = past simple.",
+  "source": "The boys ______ (play) {sport} when they ______ (break) a window, {name}.",
+  "key": [
+   "were playing",
+   "broke"
+  ],
+  "why": "The game was in progress; the window broke once.",
+  "slots": {
+   "sport": [
+    "football",
+    "volleyball",
+    "basketball",
+    "cricket"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The long action = past continuous; the short event = past simple.",
+  "source": "When I ______ (open) the door, the baby ______ (sleep), {name}. So I closed it quietly. It was {h}.",
+  "key": [
+   "opened",
+   "was sleeping"
+  ],
+  "why": "Opening the door = event; the baby still asleep.",
+  "slots": {
+   "h": [
+    "noon",
+    "two o'clock",
+    "late",
+    "early"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The long action = past continuous; the short event = past simple.",
+  "source": "Mum ______ (clean) the {room} when she ______ (find) my old diary, {name}.",
+  "key": [
+   "was cleaning",
+   "found"
+  ],
+  "why": "Cleaning = background; the find = one moment.",
+  "slots": {
+   "room": [
+    "attic",
+    "garage",
+    "cupboard",
+    "bedroom"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The long action = past continuous; the short event = past simple.",
+  "source": "We ______ (cross) the {road} when the light ______ (turn) red, {name}.",
+  "key": [
+   "were crossing",
+   "turned"
+  ],
+  "why": "Crossing went on; the light changed once.",
+  "slots": {
+   "road": [
+    "road",
+    "street",
+    "square",
+    "bridge"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The long action = past continuous; the short event = past simple.",
+  "source": "Grandma ______ (cook) {food} when she ______ (burn) her hand, {name}.",
+  "key": [
+   "was cooking",
+   "burned"
+  ],
+  "why": "Cooking = background; the burn = a sudden event.",
+  "slots": {
+   "food": [
+    "plov",
+    "samsa",
+    "soup",
+    "bread"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The long action = past continuous; the short event = past simple.",
+  "source": "When we ______ (come) out of the {place}, it ______ (snow), {name}.",
+  "key": [
+   "came",
+   "was snowing"
+  ],
+  "why": "Coming out = event; snow still falling then.",
+  "slots": {
+   "place": [
+    "cinema",
+    "museum",
+    "school",
+    "theatre"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The long action = past continuous; the short event = past simple.",
+  "source": "I ______ (talk) to my {who} when my phone ______ (fall) into the water, {name}.",
+  "key": [
+   "was talking",
+   "fell"
+  ],
+  "why": "Talking went on; the phone fell once.",
+  "slots": {
+   "who": [
+    "friend",
+    "sister",
+    "boss",
+    "cousin"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The long action = past continuous; the short event = past simple.",
+  "source": "We ______ (sit) in the {place} when the waiter ______ (come) over, {name}.",
+  "key": [
+   "were sitting",
+   "came"
+  ],
+  "why": "Sitting = background; the waiter came once.",
+  "slots": {
+   "place": [
+    "café",
+    "garden",
+    "restaurant",
+    "teahouse"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The long action = past continuous; the short event = past simple.",
+  "source": "Timur ______ (ride) his bike when he ______ (hit) a stone on the {road}, {name}.",
+  "key": [
+   "was riding",
+   "hit"
+  ],
+  "why": "Riding went on; hitting the stone = a moment.",
+  "slots": {
+   "road": [
+    "road",
+    "path",
+    "track",
+    "street"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The long action = past continuous; the short event = past simple.",
+  "source": "Lola ______ (paint) the {room} when she ______ (spill) the paint, {name}.",
+  "key": [
+   "was painting",
+   "spilled"
+  ],
+  "acceptable": [
+   [
+    "was painting",
+    "spilt"
+   ]
+  ],
+  "why": "Painting = background; the spill = one moment.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "fence",
+    "bedroom",
+    "door"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "The long action = past continuous; the short event = past simple.",
+  "source": "When I ______ (get) home after the {event}, everyone ______ (sleep), {name}.",
+  "key": [
+   "got",
+   "were sleeping"
+  ],
+  "why": "Getting home = event; everyone still asleep.",
+  "slots": {
+   "event": [
+    "party",
+    "concert",
+    "match",
+    "wedding"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with when. Long action: past continuous; short event: past simple.",
+  "source": "I was walking home. It started to rain, {name}. I was near the {place}.",
+  "hint": "I ______ home when it ______ to rain, {name}. I was near the {place}.",
+  "key": [
+   "was walking",
+   "started"
+  ],
+  "why": "Walk in progress, rain began once.",
+  "slots": {
+   "place": [
+    "park",
+    "bank",
+    "school",
+    "bridge"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with when. Long action: past continuous; short event: past simple.",
+  "source": "She was having lunch. Her {who} phoned, {name}.",
+  "hint": "She ______ lunch when her {who} ______, {name}.",
+  "key": [
+   "was having",
+   "phoned"
+  ],
+  "why": "Lunch = background; the phone call = event.",
+  "slots": {
+   "who": [
+    "boss",
+    "mum",
+    "friend",
+    "teacher"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with when. Long action: past continuous; short event: past simple.",
+  "source": "They were playing cards. The {thing} went off, {name}.",
+  "hint": "They ______ cards when the {thing} ______ off, {name}.",
+  "key": [
+   "were playing",
+   "went"
+  ],
+  "why": "They: were playing; went off = a moment.",
+  "slots": {
+   "thing": [
+    "alarm",
+    "lights",
+    "radio",
+    "heating"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with when. Long action: past continuous; short event: past simple.",
+  "source": "We were waiting for the {bus}. We saw an old friend, {name}.",
+  "hint": "We ______ for the {bus} when we ______ an old friend, {name}.",
+  "key": [
+   "were waiting",
+   "saw"
+  ],
+  "why": "We: were waiting; seeing the friend = event.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "tram",
+    "taxi"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with when. Long action: past continuous; short event: past simple.",
+  "source": "He was cooking. He cut his finger, {name}. He was making {food}.",
+  "hint": "He ______ when he ______ his finger, {name}. He was making {food}.",
+  "key": [
+   "was cooking",
+   "cut"
+  ],
+  "why": "Cooking went on; cut is the same in the past.",
+  "slots": {
+   "food": [
+    "salad",
+    "soup",
+    "plov",
+    "dinner"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with when. Long action: past continuous; short event: past simple.",
+  "source": "I was sleeping. The {noise} woke me up, {name}.",
+  "hint": "I ______ when the {noise} ______ me up, {name}.",
+  "key": [
+   "was sleeping",
+   "woke"
+  ],
+  "why": "Asleep in progress; wake → woke.",
+  "slots": {
+   "noise": [
+    "thunder",
+    "phone",
+    "dog",
+    "doorbell"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with when. Long action: past continuous; short event: past simple.",
+  "source": "My parents were watching TV. I came home, {name}. It was after the {event}.",
+  "hint": "My parents ______ TV when I ______ home, {name}. It was after the {event}.",
+  "key": [
+   "were watching",
+   "came"
+  ],
+  "why": "Parents: were watching; come → came.",
+  "slots": {
+   "event": [
+    "party",
+    "match",
+    "concert",
+    "lesson"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with when. Long action: past continuous; short event: past simple.",
+  "source": "The teacher was speaking. My {dev} rang, {name}.",
+  "hint": "The teacher ______ when my {dev} ______, {name}.",
+  "key": [
+   "was speaking",
+   "rang"
+  ],
+  "why": "Speaking in progress; ring → rang.",
+  "slots": {
+   "dev": [
+    "phone",
+    "watch",
+    "alarm",
+    "tablet"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with when. Long action: past continuous; short event: past simple.",
+  "source": "We were driving through {place}. The tyre burst, {name}.",
+  "hint": "We ______ through {place} when the tyre ______, {name}.",
+  "key": [
+   "were driving",
+   "burst"
+  ],
+  "why": "Driving in progress; burst stays burst.",
+  "slots": {
+   "place": [
+    "the desert",
+    "the hills",
+    "the city",
+    "the valley"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the two sentences with when. Long action: past continuous; short event: past simple.",
+  "source": "Olga was shopping at the {shop}. She lost her purse, {name}.",
+  "hint": "Olga ______ at the {shop} when she ______ her purse, {name}.",
+  "key": [
+   "was shopping",
+   "lost"
+  ],
+  "why": "Shopping in progress; lose → lost.",
+  "slots": {
+   "shop": [
+    "bazaar",
+    "mall",
+    "supermarket",
+    "market"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake. The first action was still going on.",
+  "source": "I had walked to school when I saw the accident, {name}. It was near the {place}.",
+  "hint": "I ______ to school when I saw the accident, {name}. It was near the {place}.",
+  "key": "was walking",
+  "why": "The walk was not finished: was walking, not had walked.",
+  "slots": {
+   "place": [
+    "bridge",
+    "bank",
+    "market",
+    "park"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake. The first action was still going on.",
+  "source": "When I arrived, they cooked, so I helped them, {name}. They made {food}.",
+  "hint": "When I arrived, they ______, so I helped them, {name}. They made {food}.",
+  "key": "were cooking",
+  "why": "\"so I helped them\": still in progress: were cooking.",
+  "slots": {
+   "food": [
+    "plov",
+    "samsa",
+    "soup",
+    "bread"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake. The first action was still going on.",
+  "source": "She was reading when the lights were going out, {name}. It was {time}.",
+  "hint": "She was reading when the lights ______ out, {name}. It was {time}.",
+  "key": "went",
+  "why": "One sudden event: went out, not were going out.",
+  "slots": {
+   "time": [
+    "late",
+    "midnight",
+    "evening",
+    "night"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake. The first action was still going on.",
+  "source": "We was having dinner when the {who} came, {name}.",
+  "hint": "We ______ dinner when the {who} came, {name}.",
+  "key": "were having",
+  "why": "We takes were: were having.",
+  "slots": {
+   "who": [
+    "guests",
+    "neighbours",
+    "postman",
+    "doctor"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake. The first action was still going on.",
+  "source": "He was falling off his bike when he was riding to the {place}, {name}.",
+  "hint": "He ______ off his bike when he was riding to the {place}, {name}.",
+  "key": "fell",
+  "why": "The fall was one moment: fell.",
+  "slots": {
+   "place": [
+    "school",
+    "park",
+    "shop",
+    "lake"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence: what were you doing when your phone last rang?",
+  "requiredElement": "past continuous + when + past simple",
+  "constraints": [
+   "exactly one sentence",
+   "was / were + -ing",
+   "when"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with 'while' about an accident at home.",
+  "requiredElement": "while + past continuous, past simple",
+  "constraints": [
+   "exactly one sentence",
+   "while",
+   "past simple"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about arriving somewhere when people were still doing something.",
+  "requiredElement": "When I arrived, … were + -ing",
+  "constraints": [
+   "exactly one sentence",
+   "When I arrived",
+   "were + -ing"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the weather when you left home this morning.",
+  "requiredElement": "it was + -ing when …",
+  "constraints": [
+   "exactly one sentence",
+   "It was",
+   "when"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence where a sound interrupts someone sleeping.",
+  "requiredElement": "was sleeping when … heard / woke",
+  "constraints": [
+   "exactly one sentence",
+   "was sleeping",
+   "past simple"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about meeting someone while you were travelling.",
+  "requiredElement": "past simple event + while + past continuous",
+  "constraints": [
+   "exactly one sentence",
+   "met",
+   "while"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence that shows the first action was still going on (use 'so').",
+  "requiredElement": "past continuous background + so",
+  "constraints": [
+   "exactly one sentence",
+   "was / were + -ing",
+   "so"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with two people doing things at the same time in the past.",
+  "requiredElement": "two past continuous clauses",
+  "constraints": [
+   "exactly one sentence",
+   "while",
+   "was / were + -ing"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Tell a short story about a day when something went wrong. Write three or four sentences.",
+  "targetGrammar": "past continuous background + past simple events",
+  "lookFor": [
+   "was / were + -ing",
+   "when / while",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe what everyone in your family was doing when you got home yesterday.",
+  "targetGrammar": "past continuous for a scene",
+  "lookFor": [
+   "were + -ing",
+   "When I got home",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Tell a friend how you met someone important in your life.",
+  "targetGrammar": "past simple event against a background",
+  "lookFor": [
+   "was / were + -ing",
+   "met",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write about a time the lights went out or the internet stopped. What were people doing?",
+  "targetGrammar": "background + sudden event",
+  "lookFor": [
+   "were + -ing",
+   "went out / stopped",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a funny moment from a holiday or a trip.",
+  "targetGrammar": "past continuous + past simple in a narrative",
+  "lookFor": [
+   "while / when",
+   "past simple",
+   "three or four sentences"
+  ]
+ }
+]
