@@ -361,6 +361,8 @@ export default function LiveTeacherV2() {
       else note("ears pass missing, using backup");
       setSecondsLeft((s.max_minutes || 10) * 60);
       setPersonaName(s.persona_name || "Vira");
+      // admins: why today's focus was picked (Phase 3)
+      if (s.focus_pick) setMind(`focus pick: ${s.focus_pick.focus || "none (no mistake data yet)"}${s.focus_pick.why ? ` · ${s.focus_pick.why}` : ""}${s.focus_pick.review ? ` | review: ${s.focus_pick.review}` : ""}${s.focus_pick.runner_up ? ` | next best: ${s.focus_pick.runner_up}` : ""}`);
       if (typeof s.cost_usd === "number") setCost(s.cost_usd);
       go("live");
       addTurn("teacher", s.reply_text, { explanation: s.explanation_text });
