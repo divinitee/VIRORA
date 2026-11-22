@@ -6,7 +6,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 1. He was tired because he ______ for **seven** hours before he stopped, **Akmal**.  
    options: ✔ had been driving · has been driving · had driving · had been drive  
-   why: Six hours of driving before he stopped: had been driving.
+   why: Hours of driving before he stopped: had been driving.
 
 2. Her eyes were red. She ______ after the **phone call**, **Sardor**.  
    options: has been crying · had crying · had been cry · ✔ had been crying  
@@ -14,7 +14,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 3. We ______ for an hour when the **train** finally came, **Akmal**.  
    options: had waiting · had been wait · ✔ had been waiting · has been waiting  
-   why: Waiting lasted until the bus came: had been waiting.
+   why: Waiting lasted until it finally came: had been waiting.
 
 4. The streets were wet because it ______ all **night**, **Jamshid**.  
    options: had been rain · ✔ had been raining · has been raining · had raining  
@@ -30,7 +30,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 7. By the time the **interview** started, I ______ for weeks, **Dilnoza**.  
    options: had studying · had been study · ✔ had been studying · has been studying  
-   why: Hours of study before the exam started: had been studying.
+   why: Weeks of study before it started: had been studying.
 
 8. The boys' clothes were dirty. They ______ football in the **yard**, **Sardor**.  
    options: had been play · ✔ had been playing · has been playing · had playing  
@@ -46,7 +46,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 11. We ______ for twenty minutes when the **teacher** came in, **Dilnoza**.  
    options: had talking · had been talk · ✔ had been talking · has been talking  
-   why: The talk went on until the teacher came in: had been talking.
+   why: The talk went on until someone came in: had been talking.
 
 12. There was paint on his hands. He ______ the **bedroom**, **Jamshid**.  
    options: had been paint · ✔ had been painting · has been painting · had painting  
@@ -70,7 +70,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 
 17. She played well at the **concert** because she ______ for months, **Jamshid**.  
    options: ✔ had been practising · has been practising · had practising · had been practise  
-   why: Practice over months before the concert: had been practising.
+   why: Practice over months before the big day: had been practising.
 
 18. Our feet hurt. We ______ around the **market** since breakfast, **Sardor**.  
    options: has been walking · had walking · had been walk · ✔ had been walking  
@@ -89,7 +89,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 1. _Use the past perfect continuous (had been + -ing)._  
    We ______ (wait) for two hours when the **nurse** finally called us, **Nodira**.  
    key: had been waiting  
-   why: Waiting went on until the doctor came: had been waiting.
+   why: Waiting went on until our name was called: had been waiting.
 
 2. _Use the past perfect continuous (had been + -ing)._  
    Timur was out of breath because he ______ (run) to the **station**, **Jamshid**.  
@@ -134,7 +134,7 @@ Each item shows one random filler combination (in bold). Mark anything a teacher
 10. _Use the past perfect continuous (had been + -ing)._  
    We ______ (talk) on the phone for an hour when my **laptop** died, **Akmal**.  
    key: had been talking  
-   why: A long talk before the battery died: had been talking.
+   why: A long call before it suddenly cut off: had been talking.
 
 11. _Use the past perfect continuous (had been + -ing)._  
    It ______ (snow) for two days, so the **market** was closed, **Sardor**.  

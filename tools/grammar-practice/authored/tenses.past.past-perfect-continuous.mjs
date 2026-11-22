@@ -9,23 +9,23 @@ const BASE = { domain: "tenses", branch: "past", topic: "past-perfect-continuous
 const P = (ing, base) => [`had been ${ing}`, `has been ${ing}`, `had ${ing}`, `had been ${base}`];
 
 const CHOOSE = [
-  [P("driving", "drive"), "Six hours of driving before he stopped: had been driving.", "He was tired because he ______ for {n} hours before he stopped, {name}.", { n: ["six", "seven", "eight", "five"], name: NAME }],
+  [P("driving", "drive"), "Hours of driving before he stopped: had been driving.", "He was tired because he ______ for {n} hours before he stopped, {name}.", { n: ["six", "seven", "eight", "five"], name: NAME }],
   [P("crying", "cry"), "Red eyes in the past, caused by earlier crying: had been crying.", "Her eyes were red. She ______ after the {event}, {name}.", { event: ["phone call", "film", "argument", "bad news"], name: NAME }],
-  [P("waiting", "wait"), "Waiting lasted until the bus came: had been waiting.", "We ______ for an hour when the {bus} finally came, {name}.", { bus: ["bus", "train", "taxi", "tram"], name: NAME }],
+  [P("waiting", "wait"), "Waiting lasted until it finally came: had been waiting.", "We ______ for an hour when the {bus} finally came, {name}.", { bus: ["bus", "train", "taxi", "tram"], name: NAME }],
   [P("raining", "rain"), "Wet streets in the past, rain before that: had been raining.", "The streets were wet because it ______ all {time}, {name}.", { time: ["night", "morning", "afternoon", "day"], name: NAME }],
   [P("working", "work"), "From 2015 until the move, a long activity: had been working.", "Before she moved to {city}, she ______ at the same bank since 2015, {name}.", { city: ["the capital", "the coast", "the north", "a new town"], name: NAME }],
   [P("running", "run"), "Out of breath then, after running: had been running.", "Aziz was out of breath. He ______ to catch the {bus}, {name}.", { bus: ["bus", "train", "tram", "minibus"], name: NAME }],
-  [P("studying", "study"), "Hours of study before the exam started: had been studying.", "By the time the {exam} started, I ______ for weeks, {name}.", { exam: ["exam", "test", "interview", "final"], name: NAME }],
+  [P("studying", "study"), "Weeks of study before it started: had been studying.", "By the time the {exam} started, I ______ for weeks, {name}.", { exam: ["exam", "test", "interview", "final"], name: NAME }],
   [P("playing", "play"), "Dirty clothes because of the earlier game: had been playing.", "The boys' clothes were dirty. They ______ football in the {place}, {name}.", { place: ["park", "yard", "field", "street"], name: NAME }],
   [P("cooking", "cook"), "The kitchen smell came from earlier cooking: had been cooking.", "The kitchen smelled of {food}. Mum ______ all morning, {name}.", { food: ["onions", "plov", "bread", "soup"], name: NAME }],
   [P("living", "live"), "Ten years there, up to the move: had been living.", "They ______ in the {home} for ten years before they sold it, {name}.", { home: ["old flat", "village house", "small house", "big flat"], name: NAME }],
-  [P("talking", "talk"), "The talk went on until the teacher came in: had been talking.", "We ______ for twenty minutes when the {who} came in, {name}.", { who: ["teacher", "director", "coach", "manager"], name: NAME }],
+  [P("talking", "talk"), "The talk went on until someone came in: had been talking.", "We ______ for twenty minutes when the {who} came in, {name}.", { who: ["teacher", "director", "coach", "manager"], name: NAME }],
   [P("painting", "paint"), "Paint on his hands from earlier work: had been painting.", "There was paint on his hands. He ______ the {room}, {name}.", { room: ["kitchen", "fence", "garage", "bedroom"], name: NAME }],
   [P("trying", "try"), "Many attempts up to that moment: had been trying.", "She ______ to call you all {time} before you answered, {name}.", { time: ["day", "morning", "evening", "afternoon"], name: NAME }],
   [P("sleeping", "sleep"), "Still asleep until the alarm: had been sleeping.", "The baby ______ for only an hour when the {noise} woke her, {name}.", { noise: ["doorbell", "phone", "thunder", "dog"], name: NAME }],
   [P("saving", "save"), "Years of saving before the purchase: had been saving.", "He ______ for two years before he bought the {thing}, {name}.", { thing: ["car", "laptop", "bike", "camera"], name: NAME }],
   [P("snowing", "snow"), "Deep snow then, from days of snowfall: had been snowing.", "The roads to the {place} were closed. It ______ for three days, {name}.", { place: ["village", "mountains", "pass", "airport"], name: NAME }],
-  [P("practising", "practise"), "Practice over months before the concert: had been practising.", "She played well at the {event} because she ______ for months, {name}.", { event: ["concert", "competition", "school show", "wedding"], name: NAME }],
+  [P("practising", "practise"), "Practice over months before the big day: had been practising.", "She played well at the {event} because she ______ for months, {name}.", { event: ["concert", "competition", "school show", "wedding"], name: NAME }],
   [P("walking", "walk"), "Tired feet after hours of walking: had been walking.", "Our feet hurt. We ______ around the {place} since breakfast, {name}.", { place: ["old town", "market", "museum", "city centre"], name: NAME }],
   [P("looking", "look"), "Searching up to the moment she found it: had been looking.", "She found her {thing} under the sofa. She ______ for it all week, {name}.", { thing: ["keys", "glasses", "ring", "phone"], name: NAME }],
   [P("learning", "learn"), "Years of study before the trip: had been learning.", "He spoke well on the trip. He ______ {lang} for three years, {name}.", { lang: ["Korean", "English", "German", "Turkish"], name: NAME }],
@@ -33,7 +33,7 @@ const CHOOSE = [
 
 const I = "Use the past perfect continuous (had been + -ing).";
 const BUILD = [
-  [I, "had been waiting", [], "Waiting went on until the doctor came: had been waiting.", "We ______ (wait) for two hours when the {who} finally called us, {name}.", { who: ["doctor", "nurse", "dentist", "manager"], name: NAME }],
+  [I, "had been waiting", [], "Waiting went on until our name was called: had been waiting.", "We ______ (wait) for two hours when the {who} finally called us, {name}.", { who: ["doctor", "nurse", "dentist", "manager"], name: NAME }],
   [I, "had been running", [], "Out of breath then: run → had been running.", "Timur was out of breath because he ______ (run) to the {place}, {name}.", { place: ["station", "school", "bus stop", "shop"], name: NAME }],
   [I, "had been crying", [], "A wet face after crying: had been crying.", "The little girl's face was wet. She ______ (cry) for her {thing}, {name}.", { thing: ["mum", "toy", "dog", "doll"], name: NAME }],
   [I, "had been working", [], "Decades at one job until he retired: had been working.", "My grandpa ______ (work) at the {place} for forty years when he retired, {name}.", { place: ["factory", "school", "hospital", "post office"], name: NAME }],
@@ -42,7 +42,7 @@ const BUILD = [
   [I, "had been playing", [], "Two hours of play before the rain: had been playing.", "The children ______ (play) in the {place} for two hours when it started to rain, {name}.", { place: ["park", "yard", "garden", "street"], name: NAME }],
   [I, "had been cooking", [], "Hot and tired from earlier cooking: had been cooking.", "Mum was hot and tired. She ______ (cook) {food} all day, {name}.", { food: ["plov", "samsa", "soup", "bread"], name: NAME }],
   [I, "had been living", [], "Years in the city before moving: had been living.", "They ______ (live) in the {home} for years before they moved, {name}.", { home: ["old flat", "village", "small town", "big house"], name: NAME }],
-  [I, "had been talking", [], "A long talk before the battery died: had been talking.", "We ______ (talk) on the phone for an hour when my {dev} died, {name}.", { dev: ["phone", "battery", "laptop", "tablet"], name: NAME }],
+  [I, "had been talking", [], "A long call before it suddenly cut off: had been talking.", "We ______ (talk) on the phone for an hour when my {dev} died, {name}.", { dev: ["phone", "battery", "laptop", "tablet"], name: NAME }],
   [I, "had been snowing", [], "Days of snow before the roads closed: had been snowing.", "It ______ (snow) for two days, so the {place} was closed, {name}.", { place: ["school", "road", "airport", "market"], name: NAME }],
   [I, "had been trying", [], "Many tries before the call got through: had been trying.", "I ______ (try) to call the {office} all morning before someone answered, {name}.", { office: ["bank", "clinic", "school", "hotel"], name: NAME }],
   [I, "had been sleeping", [], "Asleep up to the noise: had been sleeping.", "Grandpa ______ (sleep) for an hour when the {noise} woke him, {name}.", { noise: ["phone", "doorbell", "dog", "thunder"], name: NAME }],

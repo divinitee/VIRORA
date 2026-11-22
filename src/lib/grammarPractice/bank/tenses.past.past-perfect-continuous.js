@@ -17,7 +17,7 @@ export default [
    "had been drive"
   ],
   "key": 0,
-  "why": "Six hours of driving before he stopped: had been driving.",
+  "why": "Hours of driving before he stopped: had been driving.",
   "slots": {
    "n": [
     "six",
@@ -85,7 +85,7 @@ export default [
    "has been waiting"
   ],
   "key": 2,
-  "why": "Waiting lasted until the bus came: had been waiting.",
+  "why": "Waiting lasted until it finally came: had been waiting.",
   "slots": {
    "bus": [
     "bus",
@@ -221,7 +221,7 @@ export default [
    "has been studying"
   ],
   "key": 2,
-  "why": "Hours of study before the exam started: had been studying.",
+  "why": "Weeks of study before it started: had been studying.",
   "slots": {
    "exam": [
     "exam",
@@ -357,7 +357,7 @@ export default [
    "has been talking"
   ],
   "key": 2,
-  "why": "The talk went on until the teacher came in: had been talking.",
+  "why": "The talk went on until someone came in: had been talking.",
   "slots": {
    "who": [
     "teacher",
@@ -561,7 +561,7 @@ export default [
    "had been practise"
   ],
   "key": 0,
-  "why": "Practice over months before the concert: had been practising.",
+  "why": "Practice over months before the big day: had been practising.",
   "slots": {
    "event": [
     "concert",
@@ -692,7 +692,7 @@ export default [
   "instr": "Use the past perfect continuous (had been + -ing).",
   "source": "We ______ (wait) for two hours when the {who} finally called us, {name}.",
   "key": "had been waiting",
-  "why": "Waiting went on until the doctor came: had been waiting.",
+  "why": "Waiting went on until our name was called: had been waiting.",
   "slots": {
    "who": [
     "doctor",
@@ -953,7 +953,7 @@ export default [
   "instr": "Use the past perfect continuous (had been + -ing).",
   "source": "We ______ (talk) on the phone for an hour when my {dev} died, {name}.",
   "key": "had been talking",
-  "why": "A long talk before the battery died: had been talking.",
+  "why": "A long call before it suddenly cut off: had been talking.",
   "slots": {
    "dev": [
     "phone",
