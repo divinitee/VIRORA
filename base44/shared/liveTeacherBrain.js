@@ -375,13 +375,14 @@ ${DRIFT}
 - If the words are clearly NOT the student talking to you (another person speaking to them, "come eat!", a TV, a phone call, random noise): set addressed_to_teacher=false, report no mistakes, and reply with ONE short friendly line like "Sounds like someone needs you. Go ahead, I'll wait. Press Resume when you're back."
 - If it is unclear or very short, ask the student to say it again. Do not invent what they said.
 
-# LESSON SHAPE (a lesson, not an interview)
-Move through these stages on your own; the conversation history shows where you are:
-1. WARM-UP (first 1-2 minutes): light chat, find the level.
-2. FOCUS: pick ONE thing to practise (STUDENT MEMORY's planned focus or active mistakes first, else something the warm-up showed), say it in one sentence, model it with one example.
-3. PRACTICE: short activities on that focus (see MOVES). Change activity every 2-3 exchanges.
-4. WRAP-UP (last 1-2 minutes, or when asked): what went well, one thing to remember, goodbye.
-Follow the student's own request at any time.
+# LESSON SHAPE (a lesson with a spine, not an interview)
+The lesson has ONE focus. When the user message at LESSON START gives TODAY'S FOCUS, that is it (it was picked from their real mistakes across the app); otherwise pick one from STUDENT MEMORY or the warm-up. Five stages, roughly by the clock (the user message says where you should be):
+1. WARM-UP (~10% of the time): a little real chat + the one WARM-UP REVIEW check if given.
+2. NOTICE (~20%): show them ONE of their own real mistakes on the focus and the fix ("Last time you said 'she go'... we say 'she goes'"), with one more example. Short.
+3. PRACTICE (~30%): quick drills and games on the focus (see MOVES). Change activity every 2-3 exchanges.
+4. FREE TALK (~30%): a role-play or chat about THEIR interests where the focus naturally comes up; you listen for it and nudge it.
+5. WRAP-UP (last ~10%, or when asked): what got better (specific), one thing to remember, goodbye.
+Follow the student's own request at any time; tangents follow the DRIFT rules and always come back to the focus.
 
 # MOVES (vary them; never the same move three turns in a row)
 - REACT + SHARE: respond like a person, add a short opinion or tiny story of your own. No question needed; the student will answer naturally.
@@ -417,7 +418,7 @@ ${memory || 'No memory.'}
 # FIRST TURN
 If STUDENT MEMORY's last lesson says "ENDED EARLY FOR SWEARING" and was today or 1 day ago: your WHOLE first reply is ONLY the comeback check-in, then STOP and wait. No hello speech, no lesson plan, no focus, no task, nothing after the question. Tone: ${P.conduct.comeback.tone}. In the app-settings language (${settingsLang}), the gist of: "${P.conduct.comeback[settingsLang === 'Russian' ? 'ru' : settingsLang === 'English' ? 'en' : 'uz']}" (your own words are fine, keep it that short; informal). If the user message says they came back within MINUTES of you telling them to come back tomorrow, use your QUICK-RETURN version instead, the gist of: "${P.conduct.comeback.quick[settingsLang === 'Russian' ? 'ru' : settingsLang === 'English' ? 'en' : 'uz']}" (you noticed how fast they came back; a little guarded). Leave lesson_focus empty. On their answer: ${P.conduct.comeback.next}.
 ${supportLangText(level, uiLang)}
-When the user message says LESSON START: greet briefly in the way SUPPORT LANGUAGE says, say what you will do in one short sentence, and ask ONE easy question.${memory && !/FIRST LESSON/.test(memory) ? ' If memory shows earlier mistakes or a planned focus, mention it in one sentence and start there.' : ' Use the first minutes to estimate the level.'}`;
+When the user message says LESSON START: greet briefly in the way SUPPORT LANGUAGE says, say in ONE simple sentence what today is about (TODAY'S FOCUS if given, in plain words, no grammar jargon for A1-A2), and ask ONE easy warm-up question.${memory && !/FIRST LESSON/.test(memory) ? '' : ' Use the first minutes to estimate the level.'}`;
 }
 
 const clip = (s, n) => String(s ?? '').replace(/\s+/g, ' ').trim().slice(0, n);
@@ -427,9 +428,10 @@ const clip = (s, n) => String(s ?? '').replace(/\s+/g, ' ').trim().slice(0, n);
  * and what the student just said.
  */
 const LANG_NAME = { uz: 'Uzbek', ru: 'Russian' };
-export function buildTurnMessage({ persona, history = [], studentText = '', lessonMistakes = [], minutesLeft = null, start = false, studentLang = 'en', strikes = 0, casual = 0, plan = null, comebackMinutes = null }) {
+export function buildTurnMessage({ persona, history = [], studentText = '', lessonMistakes = [], minutesLeft = null, start = false, studentLang = 'en', strikes = 0, casual = 0, plan = null, comebackMinutes = null, focusBrief = '' }) {
   const P = PERSONAS[cleanPersona(persona)];
   const lines = [];
+  if (start && focusBrief) lines.push(focusBrief);
   if (start && comebackMinutes !== null && comebackMinutes !== undefined && Number.isFinite(Number(comebackMinutes))) {
     const m = Math.max(0, Math.round(Number(comebackMinutes)));
     const ago = m < 60 ? `${m} minute(s)` : m < 1440 ? `${Math.round(m / 60)} hour(s)` : `${Math.round(m / 1440)} day(s)`;
@@ -461,6 +463,7 @@ export function buildTurnMessage({ persona, history = [], studentText = '', less
   if (minutesLeft !== null) {
     if (minutesLeft <= 0) lines.push('TIME IS UP: end the lesson now (end_lesson=true).');
     else if (minutesLeft <= 2) lines.push(`About ${Math.ceil(minutesLeft)} minute(s) left: start wrapping up.`);
+    if (!start && minutesLeft > 0) lines.push(`BY THE CLOCK (about ${Math.ceil(minutesLeft)} min left) you should be in: ${clockStage(minutesLeft, P.minutes)}.`);
   }
   const turns = (Array.isArray(history) ? history : []).slice(-16);
   if (turns.length) {
@@ -539,7 +542,14 @@ export function cleanPlan(p) {
     patience: x.patience === undefined || x.patience === null || !Number.isFinite(pat) ? 80 : Math.max(0, Math.min(100, pat)),
     recent: arr(x.recent).map((r) => clip(r, 200)).filter(Boolean).slice(-8),
     tests: Math.max(0, Math.min(50, Number(x.tests) || 0)),
+    focus_key: clip(x.focus_key, 40),
   };
+}
+/** Where the lesson should be by the clock (the 5-stage arc). */
+export function clockStage(minutesLeft, totalMinutes) {
+  const total = Math.max(1, Number(totalMinutes) || 10);
+  const f = 1 - Math.max(0, Number(minutesLeft)) / total;
+  return f < 0.1 ? 'warm_up' : f < 0.3 ? 'notice' : f < 0.6 ? 'practice' : f < 0.9 ? 'free_talk' : 'wrap_up';
 }
 export function planAfter(plan, out, { rude = false, casual = false } = {}) {
   const p = cleanPlan(plan);
@@ -556,10 +566,11 @@ export function planAfter(plan, out, { rude = false, casual = false } = {}) {
     patience,
     recent: spoken ? [...p.recent, spoken] : p.recent,
     tests: p.tests + (['test_me', 'escape_lesson'].includes(out?.read?.intent) ? 1 : 0),
+    focus_key: p.focus_key,
   });
 }
 /** A new lesson starts with yesterday's last lines only (no focus/mood carry-over). */
-export const seedPlan = (prev, { patience } = {}) => cleanPlan({ recent: cleanPlan(prev).recent.slice(-6), patience });
+export const seedPlan = (prev, { patience, focus, focus_key } = {}) => cleanPlan({ recent: cleanPlan(prev).recent.slice(-6), patience, focus, focus_key });
 
 /** Strikes after this turn, whether the lesson must end, and the memory marker. */
 export const CASUAL_FREE = 4; // casual swears tolerated (roasted) per lesson before they count as strikes

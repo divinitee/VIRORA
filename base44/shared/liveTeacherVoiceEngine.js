@@ -21,6 +21,7 @@ import {
   PERSONAS, cleanPersona, conductAfter, planAfter, seedPlan, FILLERS, fillerTag, cleanMood, brainSchema, buildBrainInstructions, buildTurnMessage, cleanBrainOutput,
   modelSupportsTags, stripAudioTags, splitSpeech, fillerLines, cleanFillerLang, speechLang,
 } from './liveTeacherBrain.js';
+import { pickFocus, focusBrief } from './liveTeacherFocus.js';
 
 const reply = (status, body) => ({ status, body });
 const MAX_TURNS = 200; // per lesson
@@ -273,14 +274,27 @@ export async function speak(env, { voiceId, text }, fetchImpl = fetch) {
 }
 
 // ------------------------------------------------------------------ helpers
-/** The student's previous v2 lesson: her last lines (so she doesn't reuse them) and how it ended. */
-async function previousLesson(svc, email) {
+/** The student's latest v2 lessons, newest first: her last lines, how it ended, recent focuses. */
+async function recentV2Lessons(svc, email) {
   try {
-    const rows = await svc.LiveTeacherLesson.filter({ user_email: email }, '-created_date', 3);
-    return (rows || []).find((r) => r?.scores?.plan) || null;
+    const rows = await svc.LiveTeacherLesson.filter({ user_email: email }, '-created_date', 4);
+    return (rows || []).filter((r) => r?.scores?.plan);
   } catch {
-    return null; // nice-to-have, never a reason to fail the start
+    return []; // nice-to-have, never a reason to fail the start
   }
+}
+
+/** Mistake evidence from the rest of VIRORA for the focus picker (bounded, best effort). */
+async function focusEvidence(svc, email) {
+  const safe = async (entity, q, sort, n) => {
+    try { return svc?.[entity]?.filter ? (await svc[entity].filter(q, sort, n)) || [] : []; } catch { return []; }
+  };
+  const [learnerItems, assessments, weakWords] = await Promise.all([
+    safe('LearnerItem', { user_email: email, item_type: 'grammar' }, '-last_evidence_at', 80),
+    safe('AssessmentResult', { user_email: email }, '-created_date', 60),
+    safe('LearnerWordState', { user_email: email }, '-weakness_score', 5),
+  ]);
+  return { learnerItems, assessments, weakWords };
 }
 
 function errorReply(user, e) {
@@ -334,19 +348,32 @@ export async function startVoiceLesson({ svc, user, body = {}, env, fetchImpl = 
   const s = settings(env);
   const tags = s.audioTags && modelSupportsTags(s.ttsModel);
   try {
-    const [voiceId, { row, profile }, safetyId, prev] = await Promise.all([
+    const [voiceId, { row, profile }, safetyId, recentLessons, evidence] = await Promise.all([
       resolveVoice(env, persona, fetchImpl), getOrCreateProfile(svc, user.email), sha256Hex(user.id || user.email),
-      previousLesson(svc, user.email),
+      recentV2Lessons(svc, user.email), focusEvidence(svc, user.email),
     ]);
+    const prev = recentLessons[0] || null;
+    // Phase 3: today's focus from their real mistakes across the app (not the last 2 lessons' focus again)
+    const pick = (() => {
+      try {
+        return pickFocus({
+          profile, ...evidence, level: profile?.cefr_level, uiLang: lang, now,
+          recentFocus: recentLessons.slice(0, 2).map((l) => l?.scores?.plan?.focus_key).filter(Boolean),
+        });
+      } catch (e) { console.error('live teacher focus pick:', redact(e?.message)); return null; }
+    })();
     // Did the last lesson end because of their behaviour, and how long ago? (21 Nov: Tee came back
     // minutes after "come back tomorrow"; she should notice, and be a little guarded.)
     const endedAt = Date.parse(prev?.ended_at || prev?.updated_date || '');
     const comebackMinutes = prev?.scores?.conduct_end && Number.isFinite(endedAt) ? Math.max(0, (now - endedAt) / 60000) : null;
-    const seed = seedPlan(prev?.scores?.plan, { patience: comebackMinutes !== null && comebackMinutes <= 60 ? 50 : undefined });
+    const seed = seedPlan(prev?.scores?.plan, {
+      patience: comebackMinutes !== null && comebackMinutes <= 60 ? 50 : undefined,
+      focus: pick?.focus?.label, focus_key: pick?.focus?.key,
+    });
     const instructions = buildBrainInstructions({ persona, ageGroup, uiLang: lang, studentName: user.full_name, memory: memorySummary(profile, { now }), audioTags: tags, level: profile?.cefr_level });
     // The brain writes the greeting while the ears pass for the phone is made.
     const [{ out, usage }, sttToken] = await Promise.all([
-      think(env, { instructions, message: buildTurnMessage({ persona, start: true, plan: seed, comebackMinutes }), safetyId }, fetchImpl),
+      think(env, { instructions, message: buildTurnMessage({ persona, start: true, plan: seed, comebackMinutes, focusBrief: focusBrief(pick) }), safetyId }, fetchImpl),
       softToken(env, 'batch_scribe', fetchImpl),
     ]);
     const speakText = tags ? out.reply : stripAudioTags(out.reply);
@@ -370,6 +397,8 @@ export async function startVoiceLesson({ svc, user, body = {}, env, fetchImpl = 
       audio_b64: first.audio_b64, audio_mime: first.mime, rest_text: parts.rest,
       stt_token: sttToken, stt_model: s.sttModel,
       cost_usd: c.total, profile: publicProfileView(profile),
+      // admins see why this focus was picked
+      ...(user.role === 'admin' ? { focus_pick: pick ? { focus: pick.focus?.label || null, why: pick.focus?.why || null, parts: pick.focus?.parts || null, review: pick.review, runner_up: pick.runnerUp } : null } : {}),
     });
   } catch (e) {
     return errorReply(user, e);
