@@ -24,3 +24,4 @@ Write it right the first time (lessons from waves C and the B1 variety pass):
 ## Log
 | # | wl | topic | status | notes |
 |---|---|---|---|---|
+| D1 | 10 | tenses.present.changing-trend | done | Present continuous for change in progress. Choose distractors are form errors / past simple only (present simple "people shop online these days" is natural, so never offered as wrong); build/transform instructions ask for the continuous. 5 double-comparative array keys. Lint 0/0, variety 0/0/0. |
