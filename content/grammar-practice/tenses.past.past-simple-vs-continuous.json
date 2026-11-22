@@ -1664,8 +1664,8 @@
   "stage": "transform",
   "format": "rewrite",
   "instr": "Correct the mistake. The first action was still going on.",
-  "source": "I had walked to school when I saw the accident, {name}. It was near the {place}.",
-  "hint": "I ______ to school when I saw the accident, {name}. It was near the {place}.",
+  "source": "I had walked to school when I saw the accident, {name}. It happened near the {place}.",
+  "hint": "I ______ to school when I saw the accident, {name}. It happened near the {place}.",
   "key": "was walking",
   "why": "The walk was not finished: was walking, not had walked.",
   "slots": {

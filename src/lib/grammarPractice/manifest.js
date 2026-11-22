@@ -2550,6 +2550,20 @@ export const PRACTICE_MANIFEST = {
    "express": 5
   }
  },
+ "tenses.past.past-simple-vs-continuous": {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-simple-vs-continuous",
+  "level": "B2",
+  "authored": 68,
+  "stages": {
+   "choose": 480,
+   "build": 480,
+   "transform": 360,
+   "create": 8,
+   "express": 5
+  }
+ },
  "tenses.past.simple-finished-time": {
   "domain": "tenses",
   "branch": "past",
