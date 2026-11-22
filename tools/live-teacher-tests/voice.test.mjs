@@ -533,3 +533,31 @@ test('session fit: the situation is asked first, remembered, and the clock runs 
   assert.match(buildTurnMessage({ persona: 'vira', studentText: 'x', plan: p, minutesLeft: 5.2 }), /THEIR TIME IS UP/);
   assert.match(buildTurnMessage({ persona: 'vira', studentText: 'x', plan: p }), /about 5 min \| place: outside \| energy: low/);
 });
+
+test('cost guard: over the limit -> flagged, she wraps up next turn; hard cap ends it at once', async () => {
+  const { costGuard } = await import('../../base44/shared/liveTeacherVoiceEngine.js');
+  const start = new Date(T0).toISOString();
+  assert.equal(costGuard({ usage: { cost_usd: 0.5 }, startedAt: start, now: T0 + 60000 }).tripped, false); // first 2 minutes never trip (greeting is the dearest turn)
+  const g = costGuard({ usage: { cost_usd: 0.4 }, startedAt: start, now: T0 + 3 * 60000 }); // 13.3 c/min > 10
+  assert.equal(g.tripped, true); assert.equal(g.hardStop, false); assert.equal(g.perMinCents, 13.33);
+  assert.equal(costGuard({ usage: { cost_usd: 0.25 }, startedAt: start, now: T0 + 3 * 60000 }).tripped, false); // 8.3 c/min is fine
+  assert.equal(costGuard({ usage: { cost_usd: 1.6 }, startedAt: start, now: T0 + 30 * 60000 }).hardStop, true);
+  assert.equal(costGuard({ usage: { cost_usd: 0.4 }, startedAt: start, now: T0 + 3 * 60000, env: { LIVE_TEACHER_COST_GUARD_CPM: '20' } }).tripped, false);
+  // end to end with a tiny limit
+  const svc = fakeDb();
+  const flags = [];
+  svc.AdminAuditLog = { async create(r) { flags.push(r); return r; } };
+  const tight = { ...env, LIVE_TEACHER_COST_GUARD_CPM: '0.0001' };
+  const s1 = fakeServices();
+  const a = await startVoiceLesson({ svc, user: student, body: { persona: 'vira' }, env: tight, fetchImpl: s1.fetchImpl, now: T0 });
+  const s2 = fakeServices({ brain: brainAnswer({ reply: 'Nice one.' }) });
+  const t1 = await voiceTurnText({ svc, user: student, body: { lesson_id: a.body.lesson_id, text: 'I went home.' }, env: tight, fetchImpl: s2.fetchImpl, now: T0 + 3 * 60000 });
+  assert.equal(t1.body.ended, false);
+  assert.equal(flags.length, 1); assert.equal(flags[0].action, 'live_teacher_cost_guard');
+  const t2 = await voiceTurnText({ svc, user: student, body: { lesson_id: a.body.lesson_id, text: 'I went to school.' }, env: tight, fetchImpl: s2.fetchImpl, now: T0 + 4 * 60000 });
+  const brainCall = s2.calls.filter((c) => c.url.includes('/chat/completions')).pop();
+  assert.match(JSON.parse(brainCall.init.body).messages[1].content, /WRAP UP NOW/);
+  assert.equal(t2.body.ended, true);
+  assert.ok(t2.body.recap.cost_guard);
+  assert.equal(flags.length, 1); // flagged once, not every turn
+});

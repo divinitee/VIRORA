@@ -424,6 +424,7 @@ export default function LiveTeacherV2() {
             Admin: about ${Number(recap?.cost_usd ?? cost).toFixed(3)} for this lesson
             {recap?.duration_s ? ` · ${fmt(recap.duration_s)} long` : ""}
             {recap?.duration_s ? ` · ~$${((Number(recap?.cost_usd ?? cost) / Math.max(1, recap.duration_s)) * 60).toFixed(3)}/min` : ""}
+            {recap?.cost_guard ? ` · ⚠ cost guard: ${recap.cost_guard.per_min_cents}¢/min${recap.cost_guard.hard ? " (hard cap)" : ""}, wrapped up early` : ""}
           </p>
         ) : null}
         <div className="flex gap-2">
