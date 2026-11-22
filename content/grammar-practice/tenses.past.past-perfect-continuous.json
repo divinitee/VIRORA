@@ -1,0 +1,1935 @@
+[
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "He was tired because he ______ for {n} hours before he stopped, {name}.",
+  "options": [
+   "had been driving",
+   "has been driving",
+   "had driving",
+   "had been drive"
+  ],
+  "key": 0,
+  "why": "Six hours of driving before he stopped: had been driving.",
+  "slots": {
+   "n": [
+    "six",
+    "seven",
+    "eight",
+    "five"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Her eyes were red. She ______ after the {event}, {name}.",
+  "options": [
+   "has been crying",
+   "had crying",
+   "had been cry",
+   "had been crying"
+  ],
+  "key": 3,
+  "why": "Red eyes in the past, caused by earlier crying: had been crying.",
+  "slots": {
+   "event": [
+    "phone call",
+    "film",
+    "argument",
+    "bad news"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We ______ for an hour when the {bus} finally came, {name}.",
+  "options": [
+   "had waiting",
+   "had been wait",
+   "had been waiting",
+   "has been waiting"
+  ],
+  "key": 2,
+  "why": "Waiting lasted until the bus came: had been waiting.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "taxi",
+    "tram"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The streets were wet because it ______ all {time}, {name}.",
+  "options": [
+   "had been rain",
+   "had been raining",
+   "has been raining",
+   "had raining"
+  ],
+  "key": 1,
+  "why": "Wet streets in the past, rain before that: had been raining.",
+  "slots": {
+   "time": [
+    "night",
+    "morning",
+    "afternoon",
+    "day"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Before she moved to {city}, she ______ at the same bank since 2015, {name}.",
+  "options": [
+   "had been working",
+   "has been working",
+   "had working",
+   "had been work"
+  ],
+  "key": 0,
+  "why": "From 2015 until the move, a long activity: had been working.",
+  "slots": {
+   "city": [
+    "the capital",
+    "the coast",
+    "the north",
+    "a new town"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Aziz was out of breath. He ______ to catch the {bus}, {name}.",
+  "options": [
+   "has been running",
+   "had running",
+   "had been run",
+   "had been running"
+  ],
+  "key": 3,
+  "why": "Out of breath then, after running: had been running.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "tram",
+    "minibus"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "By the time the {exam} started, I ______ for weeks, {name}.",
+  "options": [
+   "had studying",
+   "had been study",
+   "had been studying",
+   "has been studying"
+  ],
+  "key": 2,
+  "why": "Hours of study before the exam started: had been studying.",
+  "slots": {
+   "exam": [
+    "exam",
+    "test",
+    "interview",
+    "final"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The boys' clothes were dirty. They ______ football in the {place}, {name}.",
+  "options": [
+   "had been play",
+   "had been playing",
+   "has been playing",
+   "had playing"
+  ],
+  "key": 1,
+  "why": "Dirty clothes because of the earlier game: had been playing.",
+  "slots": {
+   "place": [
+    "park",
+    "yard",
+    "field",
+    "street"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The kitchen smelled of {food}. Mum ______ all morning, {name}.",
+  "options": [
+   "had been cooking",
+   "has been cooking",
+   "had cooking",
+   "had been cook"
+  ],
+  "key": 0,
+  "why": "The kitchen smell came from earlier cooking: had been cooking.",
+  "slots": {
+   "food": [
+    "onions",
+    "plov",
+    "bread",
+    "soup"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "They ______ in the {home} for ten years before they sold it, {name}.",
+  "options": [
+   "has been living",
+   "had living",
+   "had been live",
+   "had been living"
+  ],
+  "key": 3,
+  "why": "Ten years there, up to the move: had been living.",
+  "slots": {
+   "home": [
+    "old flat",
+    "village house",
+    "small house",
+    "big flat"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "We ______ for twenty minutes when the {who} came in, {name}.",
+  "options": [
+   "had talking",
+   "had been talk",
+   "had been talking",
+   "has been talking"
+  ],
+  "key": 2,
+  "why": "The talk went on until the teacher came in: had been talking.",
+  "slots": {
+   "who": [
+    "teacher",
+    "director",
+    "coach",
+    "manager"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "There was paint on his hands. He ______ the {room}, {name}.",
+  "options": [
+   "had been paint",
+   "had been painting",
+   "has been painting",
+   "had painting"
+  ],
+  "key": 1,
+  "why": "Paint on his hands from earlier work: had been painting.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "fence",
+    "garage",
+    "bedroom"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "She ______ to call you all {time} before you answered, {name}.",
+  "options": [
+   "had been trying",
+   "has been trying",
+   "had trying",
+   "had been try"
+  ],
+  "key": 0,
+  "why": "Many attempts up to that moment: had been trying.",
+  "slots": {
+   "time": [
+    "day",
+    "morning",
+    "evening",
+    "afternoon"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The baby ______ for only an hour when the {noise} woke her, {name}.",
+  "options": [
+   "has been sleeping",
+   "had sleeping",
+   "had been sleep",
+   "had been sleeping"
+  ],
+  "key": 3,
+  "why": "Still asleep until the alarm: had been sleeping.",
+  "slots": {
+   "noise": [
+    "doorbell",
+    "phone",
+    "thunder",
+    "dog"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "He ______ for two years before he bought the {thing}, {name}.",
+  "options": [
+   "had saving",
+   "had been save",
+   "had been saving",
+   "has been saving"
+  ],
+  "key": 2,
+  "why": "Years of saving before the purchase: had been saving.",
+  "slots": {
+   "thing": [
+    "car",
+    "laptop",
+    "bike",
+    "camera"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "The roads to the {place} were closed. It ______ for three days, {name}.",
+  "options": [
+   "had been snow",
+   "had been snowing",
+   "has been snowing",
+   "had snowing"
+  ],
+  "key": 1,
+  "why": "Deep snow then, from days of snowfall: had been snowing.",
+  "slots": {
+   "place": [
+    "village",
+    "mountains",
+    "pass",
+    "airport"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "She played well at the {event} because she ______ for months, {name}.",
+  "options": [
+   "had been practising",
+   "has been practising",
+   "had practising",
+   "had been practise"
+  ],
+  "key": 0,
+  "why": "Practice over months before the concert: had been practising.",
+  "slots": {
+   "event": [
+    "concert",
+    "competition",
+    "school show",
+    "wedding"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "Our feet hurt. We ______ around the {place} since breakfast, {name}.",
+  "options": [
+   "has been walking",
+   "had walking",
+   "had been walk",
+   "had been walking"
+  ],
+  "key": 3,
+  "why": "Tired feet after hours of walking: had been walking.",
+  "slots": {
+   "place": [
+    "old town",
+    "market",
+    "museum",
+    "city centre"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "She found her {thing} under the sofa. She ______ for it all week, {name}.",
+  "options": [
+   "had looking",
+   "had been look",
+   "had been looking",
+   "has been looking"
+  ],
+  "key": 2,
+  "why": "Searching up to the moment she found it: had been looking.",
+  "slots": {
+   "thing": [
+    "keys",
+    "glasses",
+    "ring",
+    "phone"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "choose",
+  "format": "mcq",
+  "prompt": "He spoke well on the trip. He ______ {lang} for three years, {name}.",
+  "options": [
+   "had been learn",
+   "had been learning",
+   "has been learning",
+   "had learning"
+  ],
+  "key": 1,
+  "why": "Years of study before the trip: had been learning.",
+  "slots": {
+   "lang": [
+    "Korean",
+    "English",
+    "German",
+    "Turkish"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past perfect continuous (had been + -ing).",
+  "source": "We ______ (wait) for two hours when the {who} finally called us, {name}.",
+  "key": "had been waiting",
+  "why": "Waiting went on until the doctor came: had been waiting.",
+  "slots": {
+   "who": [
+    "doctor",
+    "nurse",
+    "dentist",
+    "manager"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past perfect continuous (had been + -ing).",
+  "source": "Timur was out of breath because he ______ (run) to the {place}, {name}.",
+  "key": "had been running",
+  "why": "Out of breath then: run → had been running.",
+  "slots": {
+   "place": [
+    "station",
+    "school",
+    "bus stop",
+    "shop"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past perfect continuous (had been + -ing).",
+  "source": "The little girl's face was wet. She ______ (cry) for her {thing}, {name}.",
+  "key": "had been crying",
+  "why": "A wet face after crying: had been crying.",
+  "slots": {
+   "thing": [
+    "mum",
+    "toy",
+    "dog",
+    "doll"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past perfect continuous (had been + -ing).",
+  "source": "My grandpa ______ (work) at the {place} for forty years when he retired, {name}.",
+  "key": "had been working",
+  "why": "Twelve years at the factory before he retired: had been working.",
+  "slots": {
+   "place": [
+    "factory",
+    "school",
+    "hospital",
+    "post office"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past perfect continuous (had been + -ing).",
+  "source": "There were puddles everywhere. It ______ (rain) all {time}, {name}.",
+  "key": "had been raining",
+  "why": "Puddles came from rain before: had been raining.",
+  "slots": {
+   "time": [
+    "night",
+    "morning",
+    "day",
+    "afternoon"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past perfect continuous (had been + -ing).",
+  "source": "Lola passed easily. She ______ (study) since {month}, {name}.",
+  "key": "had been studying",
+  "why": "Long study before the exam: had been studying.",
+  "slots": {
+   "month": [
+    "January",
+    "March",
+    "September",
+    "the spring"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past perfect continuous (had been + -ing).",
+  "source": "The children ______ (play) in the {place} for two hours when it started to rain, {name}.",
+  "key": "had been playing",
+  "why": "Two hours of play before the rain: had been playing.",
+  "slots": {
+   "place": [
+    "park",
+    "yard",
+    "garden",
+    "street"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past perfect continuous (had been + -ing).",
+  "source": "Mum was hot and tired. She ______ (cook) {food} all day, {name}.",
+  "key": "had been cooking",
+  "why": "Hot and tired from earlier cooking: had been cooking.",
+  "slots": {
+   "food": [
+    "plov",
+    "samsa",
+    "soup",
+    "bread"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past perfect continuous (had been + -ing).",
+  "source": "They ______ (live) in the {home} for years before they moved, {name}.",
+  "key": "had been living",
+  "why": "Years in the city before moving: had been living.",
+  "slots": {
+   "home": [
+    "old flat",
+    "village",
+    "small town",
+    "big house"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past perfect continuous (had been + -ing).",
+  "source": "We ______ (talk) on the phone for an hour when my {dev} died, {name}.",
+  "key": "had been talking",
+  "why": "A long talk before the battery died: had been talking.",
+  "slots": {
+   "dev": [
+    "phone",
+    "battery",
+    "laptop",
+    "tablet"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past perfect continuous (had been + -ing).",
+  "source": "It ______ (snow) for two days, so the {place} was closed, {name}.",
+  "key": "had been snowing",
+  "why": "Days of snow before the roads closed: had been snowing.",
+  "slots": {
+   "place": [
+    "school",
+    "road",
+    "airport",
+    "market"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past perfect continuous (had been + -ing).",
+  "source": "I ______ (try) to call the {office} all morning before someone answered, {name}.",
+  "key": "had been trying",
+  "why": "Many tries before the call got through: had been trying.",
+  "slots": {
+   "office": [
+    "bank",
+    "clinic",
+    "school",
+    "hotel"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past perfect continuous (had been + -ing).",
+  "source": "Grandpa ______ (sleep) for an hour when the {noise} woke him, {name}.",
+  "key": "had been sleeping",
+  "why": "Asleep up to the noise: had been sleeping.",
+  "slots": {
+   "noise": [
+    "phone",
+    "doorbell",
+    "dog",
+    "thunder"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past perfect continuous (had been + -ing).",
+  "source": "They ______ (save) for a year before the trip to the {place}, {name}.",
+  "key": "had been saving",
+  "why": "Months of saving before the trip: had been saving.",
+  "slots": {
+   "place": [
+    "coast",
+    "mountains",
+    "capital",
+    "lake"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past perfect continuous (had been + -ing).",
+  "source": "The band ______ (practise) for months before the {event}, {name}.",
+  "key": "had been practising",
+  "why": "Months of practice before the show: had been practising.",
+  "slots": {
+   "event": [
+    "concert",
+    "festival",
+    "wedding",
+    "school show"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past perfect continuous (had been + -ing).",
+  "source": "Our legs hurt. We ______ (walk) in the {place} all afternoon, {name}.",
+  "key": "had been walking",
+  "why": "Sore feet from a long walk: had been walking.",
+  "slots": {
+   "place": [
+    "mountains",
+    "old town",
+    "park",
+    "market"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past perfect continuous (had been + -ing).",
+  "source": "She ______ (look) for a job for months before the {company} called her, {name}.",
+  "key": "had been looking",
+  "why": "A long search before she found it: had been looking.",
+  "slots": {
+   "company": [
+    "bank",
+    "hotel",
+    "school",
+    "shop"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past perfect continuous (had been + -ing).",
+  "source": "Before he moved, he ______ (learn) {lang} for two years, {name}.",
+  "key": "had been learning",
+  "why": "Years of learning before the move: had been learning.",
+  "slots": {
+   "lang": [
+    "Korean",
+    "English",
+    "German",
+    "Turkish"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past perfect continuous (had been + -ing).",
+  "source": "Dad ______ (drive) for five hours when we stopped at a {place}, {name}.",
+  "key": "had been driving",
+  "why": "Hours at the wheel before the stop: had been driving.",
+  "slots": {
+   "place": [
+    "café",
+    "petrol station",
+    "market",
+    "rest stop"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "build",
+  "format": "gap_fill",
+  "instr": "Use the past perfect continuous (had been + -ing).",
+  "source": "There was paint on her clothes. She ______ (paint) the {room}, {name}.",
+  "key": "had been painting",
+  "why": "Paint on her clothes from earlier work: had been painting.",
+  "slots": {
+   "room": [
+    "kitchen",
+    "fence",
+    "bedroom",
+    "door"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the facts. Use the verb in brackets in the past perfect continuous.",
+  "source": "She started waiting at three. The {bus} came at five, {name}.",
+  "hint": "She ______ (wait) for two hours when the {bus} came, {name}.",
+  "key": "had been waiting",
+  "why": "From three to five, up to a past moment: had been waiting.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "tram",
+    "taxi"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the facts. Use the verb in brackets in the past perfect continuous.",
+  "source": "He started studying at eight. At midnight he was very tired, {name}. He had a {exam} the next day.",
+  "hint": "He was tired because he ______ (study) since eight, {name}. He had a {exam} the next day.",
+  "key": "had been studying",
+  "why": "Eight to midnight explains the tiredness: had been studying.",
+  "slots": {
+   "exam": [
+    "test",
+    "maths exam",
+    "history exam",
+    "big exam"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the facts. Use the verb in brackets in the past perfect continuous.",
+  "source": "It started raining on Monday. On Wednesday the {river} was very high, {name}.",
+  "hint": "The {river} was very high because it ______ (rain) since Monday, {name}.",
+  "key": "had been raining",
+  "why": "Monday to Wednesday, rain explains the high water.",
+  "slots": {
+   "river": [
+    "river",
+    "canal",
+    "lake",
+    "stream"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the facts. Use the verb in brackets in the past perfect continuous.",
+  "source": "They began building the {bldg} in 2019. In 2023 it was still not ready, {name}.",
+  "hint": "In 2023 they ______ (build) the {bldg} for four years, {name}.",
+  "key": "had been building",
+  "why": "Four years of building up to 2023: had been building.",
+  "slots": {
+   "bldg": [
+    "bridge",
+    "school",
+    "stadium",
+    "hospital"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Join the facts. Use the verb in brackets in the past perfect continuous.",
+  "source": "I started reading at six. My {who} called at nine, {name}.",
+  "hint": "I ______ (read) for three hours when my {who} called, {name}.",
+  "key": "had been reading",
+  "why": "Six to nine, until the call: had been reading.",
+  "slots": {
+   "who": [
+    "mum",
+    "friend",
+    "brother",
+    "cousin"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake. The story is in the past.",
+  "source": "When I arrived, they has been waiting for an hour at the {place}, {name}.",
+  "hint": "When I arrived, they ______ for an hour at the {place}, {name}.",
+  "key": "had been waiting",
+  "why": "A past story needs had, not has: had been waiting.",
+  "slots": {
+   "place": [
+    "café",
+    "station",
+    "gate",
+    "cinema"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake. The story is in the past.",
+  "source": "She was tired because she had been work in the {place} all day, {name}.",
+  "hint": "She was tired because she ______ in the {place} all day, {name}.",
+  "key": "had been working",
+  "why": "After had been, the -ing form: working.",
+  "slots": {
+   "place": [
+    "garden",
+    "shop",
+    "office",
+    "kitchen"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake. The story is in the past.",
+  "source": "His hands were dirty. He had been fix his {thing}, {name}.",
+  "hint": "His hands were dirty. He ______ his {thing}, {name}.",
+  "key": "had been fixing",
+  "why": "had been + -ing: fixing, not fix.",
+  "slots": {
+   "thing": [
+    "bike",
+    "car",
+    "motorbike",
+    "scooter"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake. The story is in the past.",
+  "source": "We was been talking for an hour when the {who} arrived, {name}.",
+  "hint": "We ______ for an hour when the {who} arrived, {name}.",
+  "key": "had been talking",
+  "why": "The form is had been + -ing, not was been.",
+  "slots": {
+   "who": [
+    "guests",
+    "teacher",
+    "taxi",
+    "doctor"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Correct the mistake. The story is in the past.",
+  "source": "It had been snowed all night, so the {place} was white, {name}.",
+  "hint": "It ______ all night, so the {place} was white, {name}.",
+  "key": "had been snowing",
+  "why": "Duration of an activity: had been snowing, not snowed.",
+  "slots": {
+   "place": [
+    "garden",
+    "street",
+    "yard",
+    "park"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the question. Use had … been + -ing.",
+  "source": "You were tired. Ask how long you had worked that day, {name}. It was at the {place}.",
+  "hint": "How long ______ you ______ at the {place} that day, {name}?",
+  "key": [
+   "had",
+   "been working"
+  ],
+  "why": "Question order: had + subject + been + -ing.",
+  "slots": {
+   "place": [
+    "shop",
+    "café",
+    "factory",
+    "office"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the question. Use had … been + -ing.",
+  "source": "She was waiting when the {bus} came. Ask how long, {name}.",
+  "hint": "How long ______ she ______ when the {bus} came, {name}?",
+  "key": [
+   "had",
+   "been waiting"
+  ],
+  "why": "had before she, then been waiting.",
+  "slots": {
+   "bus": [
+    "bus",
+    "train",
+    "tram",
+    "taxi"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the question. Use had … been + -ing.",
+  "source": "They lived in {city} before they moved. Ask how long, {name}.",
+  "hint": "How long ______ they ______ in {city} before they moved, {name}?",
+  "key": [
+   "had",
+   "been living"
+  ],
+  "why": "How long + had + they + been living.",
+  "slots": {
+   "city": [
+    "the capital",
+    "the village",
+    "that town",
+    "the north"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the question. Use had … been + -ing.",
+  "source": "Her eyes were red. Ask if she had cried, {name}. She was at the {place}.",
+  "hint": "______ she ______ at the {place}, {name}?",
+  "key": [
+   "Had",
+   "been crying"
+  ],
+  "why": "Yes/no question: Had + she + been crying.",
+  "slots": {
+   "place": [
+    "cinema",
+    "hospital",
+    "station",
+    "party"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "transform",
+  "format": "rewrite",
+  "instr": "Make the question. Use had … been + -ing.",
+  "source": "The ground was wet. Ask if it had rained in the {time}, {name}.",
+  "hint": "______ it ______ in the {time}, {name}?",
+  "key": [
+   "Had",
+   "been raining"
+  ],
+  "why": "Yes/no question about the cause: Had it been raining?",
+  "slots": {
+   "time": [
+    "night",
+    "morning",
+    "afternoon",
+    "evening"
+   ],
+   "name": [
+    "Dilnoza",
+    "Sardor",
+    "Nodira",
+    "Akmal",
+    "Gulnora",
+    "Jamshid"
+   ]
+  }
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about why you were tired yesterday.",
+  "requiredElement": "had been + -ing as a cause",
+  "constraints": [
+   "exactly one sentence",
+   "because",
+   "had been + -ing"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence: how long had you been waiting when something happened?",
+  "requiredElement": "had been + -ing + for + when",
+  "constraints": [
+   "exactly one sentence",
+   "for",
+   "when"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about a place your family had been living in before you moved.",
+  "requiredElement": "had been living … before",
+  "constraints": [
+   "exactly one sentence",
+   "had been living",
+   "before"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence that explains why someone's clothes were dirty.",
+  "requiredElement": "had been + -ing for a visible past result",
+  "constraints": [
+   "exactly one sentence",
+   "had been",
+   "-ing"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one question with How long had … been …?",
+  "requiredElement": "question with had been + -ing",
+  "constraints": [
+   "exactly one question",
+   "How long",
+   "had … been"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about something you had been learning before a trip or exam.",
+  "requiredElement": "had been learning / practising",
+  "constraints": [
+   "exactly one sentence",
+   "had been",
+   "before"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence with 'since' and the past perfect continuous.",
+  "requiredElement": "had been + -ing + since",
+  "constraints": [
+   "exactly one sentence",
+   "since",
+   "had been"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "create",
+  "format": "constrained_sentence",
+  "prompt": "Write one sentence about the weather before a past event.",
+  "requiredElement": "it had been raining / snowing",
+  "constraints": [
+   "exactly one sentence",
+   "It had been",
+   "-ing"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Tell the story of a long wait (at a station, a clinic or an office). Write three or four sentences.",
+  "targetGrammar": "past perfect continuous for duration",
+  "lookFor": [
+   "had been waiting",
+   "when",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "You came home very tired one day. Explain why: what had you been doing?",
+  "targetGrammar": "had been + -ing as a reason",
+  "lookFor": [
+   "because",
+   "had been",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Describe a big change in your family's life and what you had been doing before it.",
+  "targetGrammar": "had been + -ing before a past event",
+  "lookFor": [
+   "had been",
+   "before",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Write a short story that starts: 'When the lights went out, we had been …'",
+  "targetGrammar": "past perfect continuous in a narrative",
+  "lookFor": [
+   "had been",
+   "past simple events",
+   "three or four sentences"
+  ]
+ },
+ {
+  "domain": "tenses",
+  "branch": "past",
+  "topic": "past-perfect-continuous",
+  "level": "B2",
+  "pv": "2.5",
+  "stage": "express",
+  "format": "free_response",
+  "prompt": "Tell a friend about a skill you had been practising for a long time before a test or show.",
+  "targetGrammar": "had been practising / learning",
+  "lookFor": [
+   "had been",
+   "for / since",
+   "three or four sentences"
+  ]
+ }
+]
