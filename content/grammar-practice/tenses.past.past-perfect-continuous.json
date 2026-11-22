@@ -777,7 +777,7 @@
   "instr": "Use the past perfect continuous (had been + -ing).",
   "source": "My grandpa ______ (work) at the {place} for forty years when he retired, {name}.",
   "key": "had been working",
-  "why": "Twelve years at the factory before he retired: had been working.",
+  "why": "Decades at one job until he retired: had been working.",
   "slots": {
    "place": [
     "factory",
@@ -1096,6 +1096,9 @@
   "instr": "Use the past perfect continuous (had been + -ing).",
   "source": "The band ______ (practise) for months before the {event}, {name}.",
   "key": "had been practising",
+  "acceptable": [
+   "had been practicing"
+  ],
   "why": "Months of practice before the show: had been practising.",
   "slots": {
    "event": [
